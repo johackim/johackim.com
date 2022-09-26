@@ -1,0 +1,21 @@
+<mjml>
+    <mj-body background-color="white">
+        <mj-section>
+            <mj-column>
+                <mj-text font-family="roboto" font-size="20px" font-weight="bold">Re-bonjour !</mj-text>
+                <mj-text font-family="roboto" font-size="16px">Cliquez sur le lien ci-dessous pour vous connecter à votre compte.</mj-text>
+                <mj-button font-family="roboto" background-color="#101829" color="white" align="left" href="{{URL}}">Cliquez-ici pour vous connecter</mj-button>
+                <mj-text font-family="roboto" font-size="16px">Pour votre sécurité, ce lien expirera dans 24 heures.</mj-text>
+
+                <mj-text font-family="roboto" font-size="16px">Vous pouvez également copier et coller cette URL dans votre navigateur :</mj-text>
+                <mj-text font-family="roboto" font-size="16px"><a href="{{URL}}">{{URL}}</a></mj-text>
+
+                <mj-text font-family="roboto" font-size="16px">Hackement,</mj-text>
+                <mj-text font-family="roboto" padding="2px 25px" font-size="16px">Johackim</mj-text>
+                <mj-text font-family="roboto" padding="2px 25px" font-size="16px">Hacker indépendant</mj-text>
+                <mj-text font-family="roboto" padding="2px 25px" font-size="16px"><a href="https://johackim.com">https://johackim.com</a></mj-text>
+                <mj-text font-family="roboto" font-size="16px">Suivez-moi sur <a href="https://mastodon.ethibox.fr/@johackim">Mastodon</a> ou <a href="https://twitter.com/_johackim">Twitter</a>.</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

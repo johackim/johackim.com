@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://cdn.fonts.coollabs.io/roboto/normal/300.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://cdn.fonts.coollabs.io/roboto/normal/400.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://cdn.fonts.coollabs.io/roboto/normal/500.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://cdn.fonts.coollabs.io/roboto/normal/700.woff2) format('woff2');
+}
