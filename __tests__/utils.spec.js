@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { getContent, getContents } from '@lib/utils';
+import { getContent, getContents, getTwitterFollowers } from '@lib/utils';
 
 test('Should list contents', async () => {
     const files = await getContents();
@@ -19,4 +19,11 @@ test('Should get content', async () => {
 
     expect(file.slug).toEqual('start');
     expect(file.content).toContain('Bienvenue');
+});
+
+test('Should get twitter followers', async () => {
+    const followers = await getTwitterFollowers('_johackim');
+
+    expect(typeof followers).toEqual('number');
+    expect(followers).toBeGreaterThan(150);
 });
