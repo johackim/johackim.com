@@ -86,7 +86,7 @@ const Page = ({ contents, twitterFollowers, mastodonFollowers, githubFollowers, 
             </div>
 
             <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Visiteurs unique</dt>
+                <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Visiteurs uniques</dt>
                 <Line
                     data={{
                         labels: posthogData.map(({ date }) => date),
