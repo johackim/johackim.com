@@ -22,6 +22,7 @@ const Page = ({ title, slug, dateUpdated, code, headings, tags, isPrivate }) => 
     const [isLoading, setLoading] = useState(false);
 
     useEffect(() => {
+        setPrivateCode(false);
         if (!isPrivate || !auth.isLoggedIn) return;
 
         setLoading(true);
