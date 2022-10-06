@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { useTheme } from 'next-themes';
-import { SunIcon, MoonIcon } from '@heroicons/react/outline';
+import { SunIcon, MoonIcon, SearchIcon } from '@heroicons/react/outline';
 import { Modal, Input, Header, Footer, Link, Button, Switch, Dropdown, CommandPalette } from '@johackim/design-system';
 import Newsletter from '@lib/newsletter';
 import { useAuth, useModal } from '@lib/atoms';
@@ -91,10 +91,8 @@ const DefaultLayout = ({ children, size, className }) => {
                 <Link href="/explore" active={router.asPath === '/explore'}>Explorer</Link>
                 <Link href="/open" active={router.asPath === '/open'}>Transparence</Link>
                 <Link href="/products" active={router.asPath === '/products'}>Produits</Link>
-                <button type="button" href="/" onClick={() => setOpenCommandPalette(true)} className="focus:outline-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="hidden md:block h-5 w-5 text-gray-700 dark:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
+                <button type="button" aria-label="search" href="/" onClick={() => setOpenCommandPalette(true)} className="focus:outline-none">
+                    <SearchIcon className="hidden md:block h-5 w-5 text-gray-700 dark:text-gray-300" />
                     <span className="md:hidden">Rechercher</span>
                 </button>
                 {user.isLoggedIn ? (
