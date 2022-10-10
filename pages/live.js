@@ -9,7 +9,7 @@ const Page = () => (
         <div className="container m-auto px-4 lg:max-w-screen-md">
             <h1 className="text-center font-bold text-3xl">Observez le travail quotidien d'un hacker indépendant</h1>
             <h2 className="text-center md:text-lg mb-8">Je suis en live tous les jours de 9h à 13h 🥷</h2>
-            <iframe title="Hacker Live" width="100%" height="400" src={URL} frameBorder="0" sandbox="allow-same-origin allow-scripts allow-popups" allowFullScreen="" />
+            <iframe title="Hacker Live" width="100%" height="400" src={URL} frameBorder="0" sandbox="allow-same-origin allow-scripts allow-popups" allow="fullscreen" />
         </div>
     </section>
 );
