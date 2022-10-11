@@ -91,7 +91,7 @@ const DefaultLayout = ({ children, size, className }) => {
                 <Link href="/explore" active={router.asPath === '/explore'}>Explorer</Link>
                 <Link href="/open" active={router.asPath === '/open'}>Transparence</Link>
                 <Link href="/products" active={router.asPath === '/products'}>Produits</Link>
-                <button type="button" aria-label="search" href="/" onClick={() => setOpenCommandPalette(true)} className="focus:outline-none">
+                <button type="button" aria-label="search" onClick={() => setOpenCommandPalette(true)} className="focus:outline-none">
                     <SearchIcon className="hidden md:block h-5 w-5 text-gray-700 dark:text-gray-300" />
                     <span className="md:hidden">Rechercher</span>
                 </button>
