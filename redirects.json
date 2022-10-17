@@ -285,6 +285,21 @@
     "permanent": true
   },
   {
+    "source": "/mettre-a-jour-libreelec-manuellement-en-version-10",
+    "destination": "/libreelec",
+    "permanent": true
+  },
+  {
+    "source": "/19-canaux-d-acquisition-pour-votre-entreprise",
+    "destination": "/19-canaux-d-acquisition-pour-votre-business",
+    "permanent": true
+  },
+  {
+    "source": "/les-meilleurs-conseils-pour-creer-une-startup",
+    "destination": "/les-meilleurs-conseils-pour-creer-un-business",
+    "permanent": true
+  },
+  {
     "source": "/masterpassword",
     "destination": "/spectre",
     "permanent": true
