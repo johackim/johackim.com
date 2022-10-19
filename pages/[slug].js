@@ -68,7 +68,7 @@ const Page = ({ title, fileName, slug, dateUpdated, code, headings, links, tags,
 
                     <Sidebar>
                         <TocWidget headings={headings} level={2} />
-                        <GraphWidget links={links} currentNode={fileName.replace('.md', '')} />
+                        <GraphWidget links={links} currentNode={fileName} />
                         <NewsletterWidget />
                     </Sidebar>
                 </div>
@@ -122,13 +122,13 @@ export const getStaticProps = async ({ params }) => {
     createImage(title, `${process.cwd()}/public/covers/${params.slug}.jpg`);
 
     return { props: {
-        fileName,
         slug,
         tags,
         title,
         headings,
         links,
         code,
+        fileName,
         isPrivate: /<!--\s?private\s?-->/g.test(content),
         datePublished: datePublished ? String(datePublished) : null,
         dateUpdated: dateUpdated ? String(dateUpdated) : null,

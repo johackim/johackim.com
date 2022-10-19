@@ -5,7 +5,7 @@ import { forceX, forceY } from 'd3';
 
 const OPACITY_SCALE = 2;
 
-const Graph = ({ nodes, links, width, height, colors }) => {
+const Graph = ({ nodes, links, width, height, colors, onNodeClick }) => {
     const ref = useRef();
 
     const [displayWidth] = useState(width || window.innerWidth);
@@ -18,11 +18,11 @@ const Graph = ({ nodes, links, width, height, colors }) => {
             const a = nodes.find((node) => node.id === link.source);
             const b = nodes.find((node) => node.id === link.target);
 
-            a.neighbors = [...a?.neighbors || [], b];
-            b.neighbors = [...b?.neighbors || [], a];
+            if (a) a.neighbors = [...a?.neighbors || [], b];
+            if (b) b.neighbors = [...b?.neighbors || [], a];
 
-            a.links = [...a?.links || [], link];
-            b.links = [...b?.links || [], link];
+            if (a) a.links = [...a?.links || [], link];
+            if (b) b.links = [...b?.links || [], link];
         });
     }, []);
 
@@ -34,8 +34,6 @@ const Graph = ({ nodes, links, width, height, colors }) => {
         ref.current.d3Force('link').distance(70);
         ref.current.d3Force('center', null);
         ref.current.d3Force('charge').strength(-100);
-
-        setTimeout(() => ref.current.zoomToFit(200, 20));
     }, []);
 
     const [highlightNodes, setHighlightNodes] = useState(new Set());
@@ -92,7 +90,15 @@ const Graph = ({ nodes, links, width, height, colors }) => {
                     }
                 }
 
-                return highlightNodes.has(node) ? colors.selected : colors.default;
+                if (highlightNodes.has(node)) {
+                    return colors.selected;
+                }
+
+                if (node.slug === 'soon') {
+                    return colors.unexisting;
+                }
+
+                return colors.default;
             }}
             linkColor={(link) => (highlightLinks.has(link) ? colors.selected : colors.link)}
             nodeCanvasObjectMode={() => 'after'}
@@ -103,6 +109,7 @@ const Graph = ({ nodes, links, width, height, colors }) => {
                 highlightNodes.clear();
                 highlightLinks.clear();
             }}
+            onNodeClick={onNodeClick}
             onZoom={onZoom}
             nodeCanvasObject={(node, ctx, globalScale) => {
                 const label = node.id;
@@ -132,13 +139,15 @@ const Graph = ({ nodes, links, width, height, colors }) => {
 };
 
 Graph.defaultProps = {
+    onNodeClick: () => {},
     links: [],
     nodes: [],
     colors: {
-        selected: tailwindColors.cyan['500'],
+        selected: tailwindColors.gray['500'],
         default: tailwindColors.gray['500'],
         text: tailwindColors.gray['800'],
-        link: tailwindColors.gray['50'],
+        link: tailwindColors.gray['300'],
+        unexisting: tailwindColors.gray['300'],
     },
 };
 
