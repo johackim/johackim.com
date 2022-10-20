@@ -94,7 +94,7 @@ const Graph = ({ nodes, links, width, height, colors, onNodeClick }) => {
                     return colors.selected;
                 }
 
-                if (node.slug === 'soon') {
+                if (/^soon/.test(node.slug)) {
                     return colors.unexisting;
                 }
 
