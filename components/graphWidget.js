@@ -1,11 +1,14 @@
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
+import { useTheme } from 'next-themes';
 import { ShareIcon } from '@heroicons/react/outline';
+import tailwindColors from 'tailwindcss/colors';
 
 const Graph = dynamic(() => import('@components/graph'), { ssr: false });
 
 export default ({ currentNode, ...props }) => {
     const router = useRouter();
+    const { resolvedTheme } = useTheme();
 
     const nodes = [{ id: currentNode }, ...props.links.map(({ link, slug }) => ({ id: link, slug }))];
     const uniqNodes = [...new Map(nodes.map((node) => [node.id, node])).values()];
@@ -30,6 +33,13 @@ export default ({ currentNode, ...props }) => {
                         if (node?.slug) {
                             router.push(node.slug);
                         }
+                    }}
+                    colors={{
+                        selected: tailwindColors.gray['500'],
+                        default: tailwindColors.gray['500'],
+                        text: resolvedTheme === 'dark' ? tailwindColors.gray['200'] : tailwindColors.gray['800'],
+                        link: resolvedTheme === 'dark' ? tailwindColors.gray['700'] : tailwindColors.gray['300'],
+                        unexisting: resolvedTheme === 'dark' ? tailwindColors.gray['700'] : tailwindColors.gray['300'],
                     }}
                 />
             </div>
