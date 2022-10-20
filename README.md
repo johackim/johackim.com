@@ -15,8 +15,8 @@ My personal digital garden.
 - [x] Posthog support
 - [x] RSS Feed
 - [x] Mermaid support
+- [x] Graph Viewer
 - [ ] Rendering without JavaScript
-- [ ] Graph Viewer
 
 ## Quick start
 

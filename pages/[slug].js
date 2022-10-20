@@ -9,13 +9,14 @@ import Sidebar from '@components/sidebar';
 import Commento from '@components/commento';
 import TocWidget from '@components/tocWidget';
 import NewsletterWidget from '@components/newsletterWidget';
+import GraphWidget from '@components/graphWidget';
 
 import components from '@lib/components';
 import { compileMdxToJs } from '@lib/compile';
 import { getContent, getContents, createImage } from '@lib/utils';
 import { useAuth } from '@lib/atoms';
 
-const Page = ({ title, slug, dateUpdated, code, headings, tags, isPrivate }) => {
+const Page = ({ title, fileName, slug, dateUpdated, code, headings, links, tags, isPrivate }) => {
     const auth = useAuth();
     const [privateCode, setPrivateCode] = useState(false);
     const { default: Content } = runSync(privateCode || code, runtime);
@@ -67,6 +68,7 @@ const Page = ({ title, slug, dateUpdated, code, headings, tags, isPrivate }) => 
 
                     <Sidebar>
                         <TocWidget headings={headings} level={2} />
+                        <GraphWidget links={links} currentNode={fileName} />
                         <NewsletterWidget />
                     </Sidebar>
                 </div>
@@ -114,7 +116,7 @@ Page.getLayout = (page) => (
 );
 
 export const getStaticProps = async ({ params }) => {
-    const { title, slug, tags, dateUpdated, datePublished, content, headings } = await getContent(params.slug);
+    const { title, fileName, slug, tags, dateUpdated, datePublished, content, headings, links } = await getContent(params.slug);
     const code = await compileMdxToJs(content);
 
     createImage(title, `${process.cwd()}/public/covers/${params.slug}.jpg`);
@@ -124,7 +126,9 @@ export const getStaticProps = async ({ params }) => {
         tags,
         title,
         headings,
+        links,
         code,
+        fileName,
         isPrivate: /<!--\s?private\s?-->/g.test(content),
         datePublished: datePublished ? String(datePublished) : null,
         dateUpdated: dateUpdated ? String(dateUpdated) : null,
