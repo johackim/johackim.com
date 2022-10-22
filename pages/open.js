@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
 
+import { Card } from '@johackim/design-system';
 import DefaultLayout from '@components/defaultLayout';
 import { getTwitterFollowers, getMastodonFollowers, getGithubFollowers, getGithubStars, getChartMogulData, getPosthogData, getContents, getMailjetListSubscribers } from '@lib/utils';
 
@@ -13,54 +14,21 @@ const Page = ({ contents, twitterFollowers, mastodonFollowers, githubFollowers, 
 
         <div className="container m-auto px-4 lg:max-w-screen-lg grid gap-5">
             <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Total des abonnés e-mail</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{subscribers}</dd>
-                </div>
-
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Total des abonnés Twitter</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{twitterFollowers}</dd>
-                </div>
-
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Total des abonnés Mastodon</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{mastodonFollowers}</dd>
-                </div>
+                <Card name="Total des abonnés e-mail" value={subscribers} />
+                <Card name="Total des abonnés Twitter" value={twitterFollowers} />
+                <Card name="Total des abonnés Mastodon" value={mastodonFollowers} />
             </dl>
 
             <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Total des abonnés Github</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{githubFollowers}</dd>
-                </div>
-
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Total des stars Github</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{githubStars}</dd>
-                </div>
-
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Total des visiteurs</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{visitors}</dd>
-                </div>
+                <Card name="Total des abonnés Github" value={githubFollowers} />
+                <Card name="Total des stars Github" value={githubStars} />
+                <Card name="Total des visiteurs" value={visitors} />
             </dl>
 
             <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Nombre d'articles & notes</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{contents}</dd>
-                </div>
-
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">MRR (Chiffre d'affaires mensuel récurrent)</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{mrr}€</dd>
-                </div>
-
-                <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                    <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">ARR (Chiffre d'affaires annuel récurrent)</dt>
-                    <dd className="mt-1 text-3xl font-semibold text-gray-900 dark:text-white">{arr}€</dd>
-                </div>
+                <Card name="Nombre d'articles & notes" value={contents} />
+                <Card name="MRR (Chiffre d'affaires mensuel récurrent)" value={`${mrr}€`} />
+                <Card name="ARR (Chiffre d'affaires annuel récurrent)" value={`${arr}€`} />
             </dl>
 
             <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">

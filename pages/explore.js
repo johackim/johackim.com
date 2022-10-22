@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo';
 
 import DefaultLayout from '@components/defaultLayout';
-import { Link } from '@johackim/design-system';
+import { Link, Card } from '@johackim/design-system';
 import { getContents, removeEmojies } from '@lib/utils';
 
 const Page = ({ mocs = [] }) => (
@@ -12,18 +12,12 @@ const Page = ({ mocs = [] }) => (
         <div className="container m-auto px-4 lg:max-w-screen-lg">
             <dl className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 <Link href="/all">
-                    <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                        <dt className="text-sm font-medium">📅 Tous les contenus</dt>
-                        <dd className="text-sm text-gray-500">Explorez les derniers contenus</dd>
-                    </div>
+                    <Card name="📅 Tous les contenus" value="Explorez les derniers contenus" small />
                 </Link>
 
                 {mocs.map(({ title, slug, excerpt }) => (
                     <Link key={slug} href={`/${slug}`}>
-                        <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                            <dt className="text-sm font-medium">{title}</dt>
-                            <dd className="text-sm text-gray-500">{excerpt}</dd>
-                        </div>
+                        <Card name={title} value={excerpt || ''} small />
                     </Link>
                 ))}
             </dl>
