@@ -27,3 +27,9 @@ test('Should get twitter followers', async () => {
     expect(typeof followers).toEqual('number');
     expect(followers).toBeGreaterThan(150);
 });
+
+test('Should return 0 if twitter account does not exist', async () => {
+    const followers = await getTwitterFollowers('__johackim');
+
+    expect(followers).toEqual(0);
+});
