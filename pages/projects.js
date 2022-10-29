@@ -53,6 +53,13 @@ export const getStaticProps = async () => {
             color: 'blue',
         },
         {
+            name: 'dotfiles',
+            description: 'Ma configuration personnelle Arch Linux',
+            url: 'https://github.com/johackim/dotfiles',
+            badge: `${await getGithubRepoStars('johackim/dotfiles')} Github stars`,
+            color: 'blue',
+        },
+        {
             name: 'awesome-indiehackers',
             description: 'Liste de ressources pour indie hackers',
             url: 'https://github.com/johackim/awesome-indiehackers',
