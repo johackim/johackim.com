@@ -60,6 +60,13 @@ export const getStaticProps = async () => {
             color: 'blue',
         },
         {
+            name: 'obsidian-writing',
+            description: 'Écrivez votre prochain livre depuis Obsidian',
+            url: 'https://github.com/johackim/obsidian-writing',
+            badge: `${await getGithubRepoStars('johackim/obsidian-writing')} Github stars`,
+            color: 'blue',
+        },
+        {
             name: 'awesome-indiehackers',
             description: 'Liste de ressources pour indie hackers',
             url: 'https://github.com/johackim/awesome-indiehackers',
