@@ -7,7 +7,6 @@ export default async (req, res) => {
     const { url } = await stripe.checkout.sessions.create({
         success_url: `${baseUrl}/thanks`,
         cancel_url: `${baseUrl}/subscribe`,
-        payment_method_types: ['card'],
         line_items: [{ price: priceId, quantity: 1 }],
         locale: 'fr',
         mode: 'subscription',
