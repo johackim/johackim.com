@@ -84,7 +84,7 @@ export const getStaticProps = async () => {
             twitterFollowers: await getTwitterFollowers('_johackim'),
             mastodonFollowers: await getMastodonFollowers('1631'),
             githubFollowers: await getGithubFollowers('johackim'),
-            githubStars: await getGithubStars('johackim'),
+            githubStars: await getGithubStars('johackim') + await getGithubStars('ethibox'),
             arr: chartMogulData.currentArr,
             mrr: chartMogulData.currentMrr,
             visitors: posthogData.reduce((prev, cur) => prev + cur.visitors, 0),
