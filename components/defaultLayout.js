@@ -81,9 +81,9 @@ const DefaultLayout = ({ children, size, className }) => {
             />
 
             <Header
-                description="Hacker indépendant"
+                description={process.env.NEXT_PUBLIC_SITE_HEADLINE}
                 logo="/profile.jpg"
-                title="Johackim"
+                title={process.env.NEXT_PUBLIC_SITE_AUTHOR}
                 size={size}
                 fixed
             >

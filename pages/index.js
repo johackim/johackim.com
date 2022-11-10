@@ -41,9 +41,9 @@ const Page = ({ feedbacks }) => {
 export const getStaticProps = async () => {
     if (process.env.NODE_ENV === 'production') {
         await generateRssFeed({
-            title: 'Johackim - Hacker indépendant',
-            description: 'Découvrez tous les contenus d\'un hacker indépendant qui passe son temps à essayer de comprendre le monde.',
-            url: 'https://johackim.com',
+            title: process.env.NEXT_PUBLIC_SITE_TITLE,
+            description: process.env.NEXT_PUBLIC_SITE_SUBHEADLINE,
+            url: process.env.NEXT_PUBLIC_SITE_URL,
         });
     }
 
