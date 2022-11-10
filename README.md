@@ -17,6 +17,7 @@ My personal digital garden.
 - [x] Mermaid support
 - [x] Graph Viewer
 - [ ] Rendering without JavaScript
+- [ ] IPFS support
 
 ## Quick start
 
