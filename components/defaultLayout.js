@@ -52,7 +52,7 @@ const DefaultLayout = ({ children, size, className }) => {
         <>
             <Modal isOpen={isOpenModal} onClick={closeModal}>
                 <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
-                <p className="text-base lg:text-3xl my-2">Recevez chaque semaine les mises à jour de mon second cerveau par e-mail</p>
+                <p className="text-base lg:text-3xl my-2">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
 
                 <Newsletter>
                     {({ handleChange, handleSubmit, error, success, email, isLoading }) => (

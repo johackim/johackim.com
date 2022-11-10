@@ -42,7 +42,7 @@ const NewsletterWidget = ({ className }) => {
                 )}
             </Newsletter>
 
-            <p className="my-2 text-xs">Recevez chaque semaine les mises à jour de mon second cerveau par e-mail.</p>
+            <p className="my-2 text-xs">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail.</p>
         </div>
     );
 };
