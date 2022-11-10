@@ -30,7 +30,7 @@ const Page = ({ feedbacks }) => {
                 subHeadline={process.env.NEXT_PUBLIC_SITE_SUBHEADLINE}
                 centered={false}
             >
-                <Button href="/start">Découvrir mon hacklab</Button>
+                <Button href="/start">Découvrir mon second cerveau</Button>
                 <Button onClick={openModal} secondary>S'abonner</Button>
             </Hero>
             <Slider slides={feedbacks} />

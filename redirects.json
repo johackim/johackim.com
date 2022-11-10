@@ -315,6 +315,11 @@
     "permanent": true
   },
   {
+    "source": "/hacklab",
+    "destination": "/mon-second-cerveau",
+    "permanent": true
+  },
+  {
     "source": "/rss",
     "destination": "/rss.xml",
     "permanent": true

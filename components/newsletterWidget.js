@@ -31,7 +31,7 @@ const NewsletterWidget = ({ className }) => {
                                 { isLoading ? (
                                     <span className="inline">Chargement...</span>
                                 ) : (
-                                    <span>S'abonner au hacklab</span>
+                                    <span>S'abonner à mon second cerveau</span>
                                 ) }
                             </Button>
 
@@ -42,7 +42,7 @@ const NewsletterWidget = ({ className }) => {
                 )}
             </Newsletter>
 
-            <p className="my-2 text-xs">Recevez chaque semaine les mises à jour du hacklab dans votre boite e-mail.</p>
+            <p className="my-2 text-xs">Recevez chaque semaine les mises à jour de mon second cerveau par e-mail.</p>
         </div>
     );
 };

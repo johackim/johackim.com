@@ -41,6 +41,8 @@ const DefaultLayout = ({ children, size, className }) => {
             });
     };
 
+    const ucFirst = (string) => string.charAt(0).toUpperCase() + string.slice(1);
+
     const logout = () => {
         localStorage.clear();
         document.location.href = '/';
@@ -50,14 +52,14 @@ const DefaultLayout = ({ children, size, className }) => {
         <>
             <Modal isOpen={isOpenModal} onClick={closeModal}>
                 <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
-                <p className="text-base lg:text-3xl my-2">Recevez chaque semaine les mises à jour du hacklab dans votre boite e-mail</p>
+                <p className="text-base lg:text-3xl my-2">Recevez chaque semaine les mises à jour de mon second cerveau par e-mail</p>
 
                 <Newsletter>
                     {({ handleChange, handleSubmit, error, success, email, isLoading }) => (
                         <form action="#" method="POST" onSubmit={handleSubmit}>
                             <div className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
-                                <Input id="modal-email" type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-64" placeholder="Entrez votre email" required />
-                                <Button>{isLoading ? (<span>Loading...</span>) : (<span>S'abonner au hacklab</span>)}</Button>
+                                <Input id="modal-email" type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-80" placeholder="Entrez votre email" required />
+                                <Button>{isLoading ? (<span>Loading...</span>) : (<span>S'abonner à mon second cerveau</span>)}</Button>
                             </div>
 
                             {error && <p className="text-red-600 my-4">{error}</p>}
@@ -83,7 +85,7 @@ const DefaultLayout = ({ children, size, className }) => {
             <Header
                 description={process.env.NEXT_PUBLIC_SITE_HEADLINE}
                 logo="/profile.jpg"
-                title={process.env.NEXT_PUBLIC_SITE_AUTHOR}
+                title={ucFirst(process.env.NEXT_PUBLIC_SITE_AUTHOR)}
                 size={size}
                 fixed
             >

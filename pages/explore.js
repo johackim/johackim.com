@@ -6,7 +6,7 @@ import { getContents, removeEmojies } from '@lib/utils';
 
 const Page = ({ mocs = [] }) => (
     <section className="mt-20 mb-10">
-        <h1 className="text-center font-bold text-3xl">Explorer le hacklab</h1>
+        <h1 className="text-center font-bold text-3xl">Explorez le second cerveau d'un hacker</h1>
         <h2 className="text-center md:text-lg mb-8">Livres, modèles mentaux, programmation, sécuríté, etc...</h2>
 
         <div className="container m-auto px-4 lg:max-w-screen-lg">
