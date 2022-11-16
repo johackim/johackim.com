@@ -18,6 +18,7 @@ My personal digital garden.
 - [x] Graph Viewer
 - [ ] Rendering without JavaScript
 - [ ] IPFS support
+- [ ] cURL markdown support
 
 ## Quick start
 
