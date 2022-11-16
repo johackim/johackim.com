@@ -300,6 +300,11 @@
     "permanent": true
   },
   {
+    "source": "/supprimer-l'espace-libre-d'un-disque-dur-avec-linux",
+    "destination": "/supprimer-définitivement-des-fichiers",
+    "permanent": true
+  },
+  {
     "source": "/masterpassword",
     "destination": "/spectre",
     "permanent": true
