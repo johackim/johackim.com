@@ -16,6 +16,7 @@ My personal digital garden.
 - [x] RSS Feed
 - [x] Mermaid support
 - [x] Graph Viewer
+- [x] Redirections 301
 - [ ] Rendering without JavaScript
 - [ ] IPFS support
 - [ ] cURL markdown support
