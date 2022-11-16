@@ -32,7 +32,7 @@ COPY --from=build /app/lib ./lib
 
 COPY --from=build /app/package.json ./package.json
 
-RUN curl -o /app/public/install https://raw.githubusercontent.com/johackim/dotfiles/master/bin/install.sh
+RUN curl -o /app/public/install https://raw.githubusercontent.com/johackim/dotfiles/master/.local/bin/install.sh
 
 RUN yarn install --prod
 
