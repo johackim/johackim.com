@@ -305,6 +305,11 @@
     "permanent": true
   },
   {
+    "source": "/guide-seo",
+    "destination": "/seo",
+    "permanent": true
+  },
+  {
     "source": "/masterpassword",
     "destination": "/spectre",
     "permanent": true
