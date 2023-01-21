@@ -58,6 +58,7 @@
     "stripe": "^8.210.0",
     "swiper": "^8.0.7",
     "tailwindcss": "^3.0.24",
+    "twitter-api-sdk": "^1.2.1",
     "uuid": "^8.3.2",
     "validator": "^13.7.0"
   },
