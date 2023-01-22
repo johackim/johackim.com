@@ -305,6 +305,16 @@
     "permanent": true
   },
   {
+    "source": "/ouvrir-un-disque-dur-chiffre-avec-cryptsetup",
+    "destination": "/cryptsetup",
+    "permanent": true
+  },
+  {
+    "source": "/linux-master",
+    "destination": "/linux",
+    "permanent": true
+  },
+  {
     "source": "/guide-seo",
     "destination": "/seo",
     "permanent": true
