@@ -50,7 +50,7 @@ const DefaultLayout = ({ children, size, className }) => {
 
     return (
         <>
-            <Modal isOpen={isOpenModal} onClick={closeModal}>
+            <Modal isOpen={isOpenModal} onClose={closeModal} type="fullscreen">
                 <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
                 <p className="text-base lg:text-3xl my-2">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
 
@@ -59,7 +59,7 @@ const DefaultLayout = ({ children, size, className }) => {
                         <form action="#" method="POST" onSubmit={handleSubmit}>
                             <div className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
                                 <Input id="modal-email" type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-80" placeholder="Entrez votre email" required />
-                                <Button>{isLoading ? (<span>Loading...</span>) : (<span>S'abonner à mon second cerveau</span>)}</Button>
+                                <Button onClick={handleSubmit}>{isLoading ? (<span>Chargement en cours...</span>) : (<span>S'abonner à mon second cerveau</span>)}</Button>
                             </div>
 
                             {error && <p className="text-red-600 my-4">{error}</p>}
