@@ -4,10 +4,12 @@ import DefaultLayout from '@components/defaultLayout';
 import { Hero, Button } from '@johackim/design-system';
 import { useModal } from '@lib/atoms';
 import { generateRssFeed } from '@lib/genrss';
+import { useRouter } from 'next/router';
 import Slider from '@components/slider';
 
 const Page = ({ feedbacks }) => {
     const { openModal } = useModal();
+    const router = useRouter();
 
     return (
         <>
@@ -30,7 +32,7 @@ const Page = ({ feedbacks }) => {
                 subHeadline={process.env.NEXT_PUBLIC_SITE_SUBHEADLINE}
                 centered={false}
             >
-                <Button href="/start">Découvrir mon second cerveau</Button>
+                <Button onClick={() => router.push('/start')}>Découvrir mon second cerveau</Button>
                 <Button onClick={openModal} secondary>S'abonner</Button>
             </Hero>
             <Slider slides={feedbacks} />

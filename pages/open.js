@@ -3,7 +3,17 @@ import { NextSeo } from 'next-seo';
 
 import { Card } from '@johackim/design-system';
 import DefaultLayout from '@components/defaultLayout';
-import { getTwitterFollowers, getMastodonFollowers, getGithubFollowers, getGithubStars, getChartMogulData, getPosthogData, getContents, getMailjetListSubscribers } from '@lib/utils';
+import {
+    getTwitterFollowers,
+    getMastodonFollowers,
+    getGithubFollowers,
+    getGithubStars,
+    getChartMogulData,
+    getPosthogData,
+    getContents,
+    getMailjetListSubscribers,
+    download,
+} from '@lib/utils';
 
 const Line = dynamic(() => import('react-chartjs-2').then((component) => component.Line));
 
@@ -33,7 +43,7 @@ const Page = ({ contents, twitterFollowers, mastodonFollowers, githubFollowers, 
 
             <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
                 <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Activité Github</dt>
-                <img src="https://ghchart.rshah.org/182831/johackim" className="w-full mt-2" alt="Github chart" /> {/* eslint-disable-line */}
+                <img src="/ghchart.svg" className="w-full mt-2" alt="Github chart" /> {/* eslint-disable-line */}
             </div>
 
             <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
@@ -78,6 +88,8 @@ export const getStaticProps = async () => {
     const posthogData = await getPosthogData();
     const contents = (await getContents()).length;
     const subscribers = await getMailjetListSubscribers(process.env.MAILJET_SUBSCRIBER_LIST);
+
+    download('https://ghchart.rshah.org/182831/johackim', `${process.cwd()}/public/ghchart.svg`);
 
     return {
         props: {

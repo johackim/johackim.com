@@ -10,7 +10,7 @@ const DefaultLayout = ({ children, size, className }) => {
     const auth = useAuth();
     const router = useRouter();
     const { isOpen: isOpenModal, openModal, closeModal } = useModal();
-    const { resolvedTheme, setTheme } = useTheme();
+    const { theme, setTheme } = useTheme();
 
     const [user, setUser] = useState({ isLoggedIn: false });
     const [subscribers, setSubscribers] = useState('x');
@@ -50,7 +50,7 @@ const DefaultLayout = ({ children, size, className }) => {
 
     return (
         <>
-            <Modal isOpen={isOpenModal} onClose={closeModal} type="fullscreen">
+            <Modal isOpen={isOpenModal} onClose={closeModal} fullscreen>
                 <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
                 <p className="text-base lg:text-3xl my-2">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
 
@@ -127,8 +127,8 @@ const DefaultLayout = ({ children, size, className }) => {
                 <Switch
                     key="switch"
                     className="!hidden lg:!inline-flex"
-                    defaultValue={resolvedTheme === 'dark'}
-                    onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+                    defaultValue={theme === 'dark'}
+                    onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                     icons={[
                         <SunIcon className="bg-white h-3 w-3 text-gray-900" />,
                         <MoonIcon className="bg-white h-3 w-3 text-gray-900" />,

@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
     return (
-        <Html lang="fr" hidden>
+        <Html lang="fr">
             <Head />
-            <body>
+            <body className="!block" style={{ display: 'none' }}>
                 <Main />
                 <NextScript />
             </body>

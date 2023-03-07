@@ -1,9 +1,11 @@
 import slugify from 'slugify';
 
+import { useRouter } from 'next/router';
 import { Button } from '@johackim/design-system';
 
 const Product = ({ title, subtitle, benefits, lastLine, className, tags = [], ...props }) => {
     const slug = props.slug || slugify(title, { lower: true });
+    const router = useRouter();
 
     return (
         <div className={`dark:bg-gray-800 dark:text-gray-300 overflow-hidden border dark:border-gray-800 rounded-lg ${className}`}>
@@ -31,7 +33,7 @@ const Product = ({ title, subtitle, benefits, lastLine, className, tags = [], ..
                 {lastLine && <p>{lastLine}</p>}
 
                 <div className="mt-6">
-                    <Button href={`/${slug}`} className="w-full md:w-auto">
+                    <Button onClick={() => router.push(`/${slug}`)} className="w-full md:w-auto">
                         <span>Accéder à cette ressource</span>
                     </Button>
                 </div>

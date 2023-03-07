@@ -143,3 +143,6 @@ public/rss.xml
 # Sitemap
 public/sitemap.xml
 public/sitemap-0.xml
+
+# Gh chart
+public/ghchart.svg
