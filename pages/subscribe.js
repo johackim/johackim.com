@@ -1,25 +1,16 @@
-import { useEffect, useState } from 'react';
 import Stripe from 'stripe';
 import { NextSeo } from 'next-seo';
-import { useModal } from '@lib/atoms';
-import { loadStripe } from '@stripe/stripe-js/pure';
 
 import DefaultLayout from '@components/defaultLayout';
 import { Button, Link, Pricing } from '@johackim/design-system';
+import { useModal } from '@lib/contexts';
 
 const Page = ({ plans, features }) => {
-    const [stripe, setStripe] = useState();
-    const { openModal } = useModal();
+    const modal = useModal();
 
-    useEffect(async () => {
-        setStripe(await loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY));
-    }, []);
-
-    const subscribe = async ({ priceId, coupon, modal }) => {
-        if (!stripe) return;
-
-        if (modal) {
-            openModal();
+    const subscribe = async ({ priceId, coupon, ...props }) => {
+        if (props.modal) {
+            modal.open();
             return;
         }
 
@@ -85,7 +76,7 @@ export const getStaticProps = async () => {
                 spots: { total: coupon.max_redemptions, left: coupon.max_redemptions - coupon.times_redeemed },
             }),
         },
-        { name: 'Abonnement gratuit', modal: true },
+        { name: 'Abonnement gratuit', price: 0, modal: true },
     ];
 
     const features = [

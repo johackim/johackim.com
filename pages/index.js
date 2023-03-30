@@ -2,13 +2,13 @@ import { NextSeo, WebPageJsonLd } from 'next-seo';
 
 import DefaultLayout from '@components/defaultLayout';
 import { Hero, Button } from '@johackim/design-system';
-import { useModal } from '@lib/atoms';
+import { useModal } from '@lib/contexts';
 import { generateRssFeed } from '@lib/genrss';
 import { useRouter } from 'next/router';
 import Slider from '@components/slider';
 
 const Page = ({ feedbacks }) => {
-    const { openModal } = useModal();
+    const modal = useModal();
     const router = useRouter();
 
     return (
@@ -33,7 +33,7 @@ const Page = ({ feedbacks }) => {
                 centered={false}
             >
                 <Button onClick={() => router.push('/start')}>Découvrir mon second cerveau</Button>
-                <Button onClick={openModal} secondary>S'abonner</Button>
+                <Button onClick={modal.open} secondary>S'abonner</Button>
             </Hero>
             <Slider slides={feedbacks} />
         </>

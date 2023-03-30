@@ -1,6 +1,6 @@
 # Build
 
-FROM node:16 AS build
+FROM node:18 AS build
 
 ENV NEXT_TELEMETRY_DISABLED 1
 
@@ -10,15 +10,19 @@ WORKDIR /app
 
 COPY . /app
 
+RUN curl -o /app/public/install https://raw.githubusercontent.com/johackim/dotfiles/master/.local/bin/install.sh
+
 RUN yarn install
 
 RUN yarn build
 
+RUN rm -rf node_modules
+
+RUN yarn install --prod --ignore-optional
+
 # Production
 
-FROM node:16-slim
-
-RUN apt update && apt install -y git curl
+FROM gcr.io/distroless/nodejs:18
 
 WORKDIR /app
 
@@ -32,14 +36,12 @@ COPY --from=build /app/lib ./lib
 
 COPY --from=build /app/package.json ./package.json
 
-RUN curl -o /app/public/install https://raw.githubusercontent.com/johackim/dotfiles/master/.local/bin/install.sh
+COPY --from=build /app/node_modules/ ./node_modules/
 
-RUN yarn install --prod
+COPY --from=build /usr/lib/x86_64-linux-gnu/libuuid.so.1 /lib/x86_64-linux-gnu/libuuid.so.1
 
 ENV NODE_ENV=production
 
 EXPOSE 3000
 
-HEALTHCHECK --interval=1m --timeout=30s --retries=3 CMD curl --fail http://localhost:3000 || exit 1
-
-CMD ["npm", "start"]
+CMD ["node_modules/.bin/next", "start"]

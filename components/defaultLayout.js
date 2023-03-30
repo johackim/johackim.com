@@ -4,12 +4,12 @@ import { useTheme } from 'next-themes';
 import { SunIcon, MoonIcon, SearchIcon } from '@heroicons/react/outline';
 import { Modal, Input, Header, Footer, Link, Button, Switch, Dropdown, CommandPalette } from '@johackim/design-system';
 import Newsletter from '@lib/newsletter';
-import { useAuth, useModal } from '@lib/atoms';
+import { useAuth, useModal } from '@lib/contexts';
 
 const DefaultLayout = ({ children, size, className }) => {
     const auth = useAuth();
     const router = useRouter();
-    const { isOpen: isOpenModal, openModal, closeModal } = useModal();
+    const modal = useModal();
     const { theme, setTheme } = useTheme();
 
     const [user, setUser] = useState({ isLoggedIn: false });
@@ -50,31 +50,33 @@ const DefaultLayout = ({ children, size, className }) => {
 
     return (
         <>
-            <Modal isOpen={isOpenModal} onClose={closeModal} fullscreen>
-                <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
-                <p className="text-base lg:text-3xl my-2">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
+            {modal.isOpen && (
+                <Modal onClose={modal.close} fullscreen>
+                    <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
+                    <p className="text-base lg:text-3xl my-2">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
 
-                <Newsletter>
-                    {({ handleChange, handleSubmit, error, success, email, isLoading }) => (
-                        <form action="#" method="POST" onSubmit={handleSubmit}>
-                            <div className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
-                                <Input id="modal-email" type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-80" placeholder="Entrez votre email" required />
-                                <Button onClick={handleSubmit}>{isLoading ? (<span>Chargement en cours...</span>) : (<span>S'abonner à mon second cerveau</span>)}</Button>
-                            </div>
+                    <Newsletter>
+                        {({ handleChange, handleSubmit, error, success, email, isLoading }) => (
+                            <form action="#" method="POST" onSubmit={handleSubmit}>
+                                <div className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
+                                    <Input id="modal-email" type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-80" placeholder="Entrez votre email" required />
+                                    <Button onClick={handleSubmit}>{isLoading ? (<span>Chargement en cours...</span>) : (<span>S'abonner à mon second cerveau</span>)}</Button>
+                                </div>
 
-                            {error && <p className="text-red-600 my-4">{error}</p>}
-                            {success && (
-                                <p className="text-green-600 my-4">
-                                    <b>Génial !</b> Vous vous êtes inscrit avec succès !
-                                </p>
-                            )}
-                        </form>
-                    )}
-                </Newsletter>
+                                {error && <p className="text-red-600 my-4">{error}</p>}
+                                {success && (
+                                    <p className="text-green-600 my-4">
+                                        <b>Génial !</b> Vous vous êtes inscrit avec succès !
+                                    </p>
+                                )}
+                            </form>
+                        )}
+                    </Newsletter>
 
-                <p className="text-xs">🔒 100% sécurisé - Votre adresse email ne sera jamais cédée ni revendue.</p>
-                <p className="text-xs">Vous restez libre de vous désinscrire à tout moment en 1 clic.</p>
-            </Modal>
+                    <p className="text-xs">🔒 100% sécurisé - Votre adresse email ne sera jamais cédée ni revendue.</p>
+                    <p className="text-xs">Vous restez libre de vous désinscrire à tout moment en 1 clic.</p>
+                </Modal>
+            )}
 
             <CommandPalette
                 isOpen={isOpenCommandPalette}
@@ -122,7 +124,7 @@ const DefaultLayout = ({ children, size, className }) => {
                         </div>
                     </Dropdown>
                 ) : (
-                    <Button onClick={openModal} className="!py-1 !px-3" secondary>S'abonner</Button>
+                    <Button onClick={modal.open} className="!py-1 !px-3" secondary>S'abonner</Button>
                 )}
                 <Switch
                     key="switch"

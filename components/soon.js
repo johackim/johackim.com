@@ -1,14 +1,14 @@
-import { useModal } from '@lib/atoms';
 import { Button, Link } from '@johackim/design-system';
+import { useModal } from '@lib/contexts';
 
 const Soon = ({ back = true }) => {
-    const { openModal } = useModal();
+    const modal = useModal();
 
     return (
         <div className="border dark:border-gray-800 rounded p-6 lg:p-14 text-center my-4">
             <p className="font-bold !my-0">🚧 Ce contenu n'est pas encore disponible</p>
             <p className="!my-0">Abonnez-vous pour être informé dès qu'il sortira... </p>
-            <Button onClick={openModal} className="my-2">
+            <Button onClick={modal.open} className="my-2">
                 S'abonner
             </Button>
             <p className="!my-0">

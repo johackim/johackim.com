@@ -7,7 +7,7 @@ import isEmail from 'validator/lib/isEmail';
 
 import DefaultLayout from '@components/defaultLayout';
 import { Input, Link, Button, Loading } from '@johackim/design-system';
-import { useAuth } from '@lib/atoms';
+import { useAuth } from '@lib/contexts';
 
 const Page = () => {
     const [state, setState] = useState({ email: '', error: false, success: false, isLoading: false });

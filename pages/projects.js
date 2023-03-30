@@ -12,7 +12,16 @@ const Page = ({ projects }) => (
             <dl className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                 {projects.map(({ name, description, url, badge, color }) => (
                     <Link key={name} href={url} target="_blank">
-                        <Card name={name} value={description} right={<Badge color={color}>{badge}</Badge>} small />
+                        <Card
+                            name={name}
+                            value={description}
+                            header={(
+                                <span className="text-sm text-gray-700 dark:text-gray-300 float-right">
+                                    <Badge color={color}>{badge}</Badge>
+                                </span>
+                            )}
+                            small
+                        />
                     </Link>
                 ))}
             </dl>

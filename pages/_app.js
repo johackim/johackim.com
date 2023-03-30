@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
-import { RecoilRoot } from 'recoil';
 import { DefaultSeo } from 'next-seo';
 import { ThemeProvider } from 'next-themes';
 import { useRouter } from 'next/router';
 import posthog from 'posthog-js';
+import providers from '@lib/contexts';
+import { AppProvider } from '@johackim/design-system';
 
 import '@styles/globals.css';
 
@@ -23,9 +24,13 @@ export default ({ Component, pageProps }) => {
         };
     }, []);
 
+    const Compose = ({ components, children }) => (
+        components.reduceRight((acc, Comp) => <Comp>{acc}</Comp>, children)
+    );
+
     return (
         <ThemeProvider attribute="class">
-            <RecoilRoot>
+            <Compose components={Object.values({ ...providers, AppProvider })}>
                 <DefaultSeo
                     openGraph={{
                         type: 'website',
@@ -40,7 +45,7 @@ export default ({ Component, pageProps }) => {
                     }}
                 />
                 {getLayout(<Component {...pageProps} />)}
-            </RecoilRoot>
+            </Compose>
         </ThemeProvider>
     );
 };

@@ -14,7 +14,7 @@ import GraphWidget from '@components/graphWidget';
 import components from '@lib/components';
 import { compileMdxToJs } from '@lib/compile';
 import { getContent, getContents, createImage } from '@lib/utils';
-import { useAuth } from '@lib/atoms';
+import { useAuth } from '@lib/contexts';
 
 const Page = ({ title, fileName, slug, dateUpdated, code, headings, links, tags, isPrivate }) => {
     const auth = useAuth();
