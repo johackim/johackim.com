@@ -129,7 +129,6 @@ const DefaultLayout = ({ children, size, className }) => {
                 <Switch
                     key="switch"
                     className="!hidden lg:!inline-flex"
-                    defaultValue={theme === 'dark'}
                     onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                     icons={[
                         <SunIcon className="bg-white h-3 w-3 text-gray-900" />,
