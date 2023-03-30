@@ -4,9 +4,16 @@ import { ThemeProvider } from 'next-themes';
 import { useRouter } from 'next/router';
 import posthog from 'posthog-js';
 import providers from '@lib/contexts';
+import { Roboto } from 'next/font/google';
 import { AppProvider } from '@johackim/design-system';
 
 import '@styles/globals.css';
+
+const roboto = Roboto({
+    weight: ['300', '400', '500', '700'],
+    style: ['normal'],
+    subsets: ['latin'],
+});
 
 export default ({ Component, pageProps }) => {
     const getLayout = Component.getLayout || ((page) => page);
@@ -44,6 +51,14 @@ export default ({ Component, pageProps }) => {
                         cardType: 'summary_large_image',
                     }}
                 />
+                { /* eslint-disable react/no-unknown-property */}
+                <style jsx global>
+                    {`
+                        html {
+                            font-family: ${roboto.style.fontFamily};
+                        }
+                    `}
+                </style>
                 {getLayout(<Component {...pageProps} />)}
             </Compose>
         </ThemeProvider>
