@@ -16,9 +16,9 @@ test('Should list contents', async () => {
 });
 
 test('Should list contents filtered by tags', async () => {
-    const files = await getContents({ filter: { tags: 'type/moc' } });
+    const files = await getContents({ filter: { tags: 'moc' } });
 
-    expect(files[0].tags).toContain('type/moc');
+    expect(files[0].tags).toContain('moc');
 });
 
 test('Should get content', async () => {

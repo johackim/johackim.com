@@ -26,7 +26,7 @@ const Page = ({ mocs = [] }) => (
 );
 
 export const getStaticProps = async () => {
-    const mocs = (await getContents({ filter: { tags: 'type/moc' } }))
+    const mocs = (await getContents({ filter: { tags: 'moc' } }))
         .sort((a, b) => removeEmojies(a.title).localeCompare(removeEmojies(b.title)));
 
     return { props: { mocs } };

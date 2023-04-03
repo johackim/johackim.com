@@ -58,7 +58,7 @@ const Page = ({ title, fileName, slug, dateUpdated, code, headings, links, tags,
                             )}
                         </Article>
 
-                        { slug !== 'start' && !tags.includes('type/moc') && !(isPrivate && !auth.isLoggedIn) && (
+                        { slug !== 'start' && !tags.includes('moc') && !(isPrivate && !auth.isLoggedIn) && (
                             <>
                                 <hr className="dark:border-gray-800 mb-4 mt-8" />
                                 <Commento />

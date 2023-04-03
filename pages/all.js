@@ -69,7 +69,7 @@ Page.getLayout = (page) => (
 export const getStaticProps = async () => {
     const contents = (await getContents())
         .map(({ title, slug, datePublished, tags }) => ({ title: removeEmojies(title), slug, datePublished: String(datePublished), tags }))
-        .filter(({ tags }) => !tags?.some((tag) => ['type/moc', 'type/premium'].includes(tag)))
+        .filter(({ tags }) => !tags?.some((tag) => ['moc', 'premium'].includes(tag)))
         .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
 
     return { props: { contents } };

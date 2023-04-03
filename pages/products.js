@@ -20,7 +20,7 @@ const Page = ({ products = [] }) => (
 );
 
 export const getStaticProps = async () => {
-    const products = await getContents({ filter: { tags: ['type/premium'] } });
+    const products = await getContents({ filter: { tags: ['premium'] } });
 
     return { props: { products } };
 };
