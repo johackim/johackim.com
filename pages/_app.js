@@ -1,3 +1,4 @@
+import '@styles/globals.css';
 import { useEffect } from 'react';
 import { DefaultSeo } from 'next-seo';
 import { ThemeProvider } from 'next-themes';
@@ -6,8 +7,6 @@ import posthog from 'posthog-js';
 import providers from '@lib/contexts';
 import { Roboto } from 'next/font/google';
 import { AppProvider } from '@johackim/design-system';
-
-import '@styles/globals.css';
 
 const roboto = Roboto({
     weight: ['300', '400', '500', '700'],
