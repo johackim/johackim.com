@@ -11,7 +11,7 @@ import { useAuth } from '@lib/contexts';
 
 const Page = () => {
     const [state, setState] = useState({ email: '', error: false, success: false, isLoading: false });
-    const { connect } = useAuth();
+    const auth = useAuth();
 
     const router = useRouter();
     const { token, redirect } = router.query;
@@ -19,7 +19,7 @@ const Page = () => {
     useEffect(() => {
         if (token) {
             const { id, email } = decode(token);
-            connect({ id, email, token });
+            auth.login(token);
 
             if (email && window.posthog) {
                 window.posthog.identify(id);
