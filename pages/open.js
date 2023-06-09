@@ -17,7 +17,7 @@ import {
 
 const Line = dynamic(() => import('react-chartjs-2').then((component) => component.Line));
 
-const Page = ({ contents, twitterFollowers, mastodonFollowers, githubFollowers, githubStars, visitors, subscribers, chartMogulData, posthogData, mrr, arr }) => (
+const Page = ({ contents, mastodonFollowers, githubFollowers, githubStars, visitors, subscribers, chartMogulData, posthogData, mrr, arr }) => (
     <section className="pt-20 pb-10">
         <h1 className="text-center font-bold text-3xl">Transparence</h1>
         <h2 className="text-center md:text-lg mb-8">Chiffre d'affaires, visiteurs, followers</h2>
@@ -25,7 +25,7 @@ const Page = ({ contents, twitterFollowers, mastodonFollowers, githubFollowers, 
         <div className="container m-auto px-4 lg:max-w-screen-lg grid gap-5">
             <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
                 <Card name="Total des abonnés e-mail" value={subscribers} />
-                <Card name="Total des abonnés Twitter" value={twitterFollowers} />
+                <Card name="Total des abonnés Twitter" value={196} />
                 <Card name="Total des abonnés Mastodon" value={mastodonFollowers} />
             </dl>
 
