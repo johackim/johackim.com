@@ -1,47 +1,18 @@
-# johackim.com
+## Hey 👋, I'm johackim
 
-My personal digital garden.
+**I am a French Indie Hacker 🇫🇷, I build free softwares (SaaS, JavaScript, Linux, Docker, Obsidian)**.
 
-## Features
+- 🔭 I’m currently working on [@ethibox](https://github.com/ethibox)
+- 🌱 I’m currently learning a lot of things in my Obsidian vault
+- ⚡ Fun fact: I created a popular french warez website at 16
+- 👨‍💻 Learn more about me, on [johackim.com](https://johackim.com)
+- 📫 How to reach me: [@_johackim](https://twitter.com/_johackim) or [mastodon.ethibox.fr/@johackim](https://mastodon.ethibox.fr/@johackim)
 
-- [x] Search
-- [x] Obsidian Markdown syntax
-- [x] MDX support
-- [x] Dark Mode
-- [x] Newsletter
-- [x] Custom SEO
-- [x] 100% Lighthouse performance score
-- [x] Tailwind CSS
-- [x] Posthog support
-- [x] RSS Feed
-- [x] Mermaid support
-- [x] Graph Viewer
-- [x] Redirections 301
-- [ ] Rendering without JavaScript
-- [ ] IPFS support
-- [ ] cURL markdown support
-
-## Quick start
-
-```bash
-# Install dependencies
-yarn
-
-# Run the app
-npm run dev
-
-# Go to http://localhost:3000
-```
-
-## Running the tests
-
-```bash
-npm test
-```
+![](https://github-readme-stats.vercel.app/api?username=johackim&show_icons=true&count_private=true&include_all_commits=true&bg_color=00000000&text_color=64748b&title_color=64748b&icon_color=64748b&border_color=64748b)
 
 ## Support me
 
-I'd love to work on this project, but my time on this earth is limited, support my work to give me more time!
+I'd love to work on all my open-source projects, but my time on this earth is limited, support my work to give me more time!
 
 Please support me with a one-time or a monthly donation and help me continue my activities.
 
@@ -53,8 +24,17 @@ Please support me with a one-time or a monthly donation and help me continue my 
 [![Mastodon](https://img.shields.io/mastodon/follow/1631?domain=https%3A%2F%2Fmastodon.ethibox.fr&style=social)](https://mastodon.ethibox.fr/@johackim)
 [![Twitter](https://img.shields.io/twitter/follow/_johackim?style=social)](https://twitter.com/_johackim)
 
-## License
+<!--
+**johackim/johackim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-This project is licensed under the GNU GPL v3.0 - see the [LICENSE.txt](https://raw.githubusercontent.com/johackim/johackim.com/master/LICENSE.txt) file for details
+Here are some ideas to get you started:
 
-**Free Software, Hell Yeah!**
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
