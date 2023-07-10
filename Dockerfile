@@ -14,8 +14,6 @@ RUN curl -o /app/public/install https://raw.githubusercontent.com/johackim/dotfi
 
 RUN yarn install
 
-RUN sed -i -e "s/npm\/mermaid/npm\/mermaid@9.3.0/g" node_modules/mdx-mermaid/lib/mdxast-mermaid.mjs # https://github.com/sjwall/mdx-mermaid/issues/91
-
 RUN yarn build
 
 RUN rm -rf node_modules

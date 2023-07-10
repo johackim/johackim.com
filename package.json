@@ -36,7 +36,7 @@
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^3.1.2",
     "mdx-embed": "^1.0.0",
-    "mdx-mermaid": "^2.0.0-rc3",
+    "mdx-mermaid": "^2.0.0",
     "mjml": "^4.12.0",
     "next": "~13.2.4",
     "next-seo": "^5.1.0",
