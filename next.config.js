@@ -1,29 +1,19 @@
-const redirects = require('./redirects.json');
+const fetch = require('node-fetch');
 
-module.exports = {
-    staticPageGenerationTimeout: 180,
-    async redirects() {
-        return redirects;
-    },
-    async rewrites() {
-        return [
-            {
-                source: '/robots.txt',
-                destination: '/api/robots',
-            },
-        ];
-    },
-    async headers() {
-        return [
-            {
-                source: '/robots.txt',
-                headers: [
-                    {
-                        key: 'Content-Type',
-                        value: 'text/plain; charset=UTF-8',
-                    },
-                ],
-            },
-        ];
-    },
+const getMailjetListSubscribers = async () => {
+    const { Data } = await fetch(`https://api.mailjet.com/v3/REST/contactslist?Name=${process.env.MAILJET_LIST_ID}`, {
+        headers: { Authorization: `Basic ${Buffer.from(`${process.env.MAILJET_USERNAME}:${process.env.MAILJET_PASSWORD}`).toString('base64')}` },
+    }).then((res) => res.json()).catch(() => false);
+
+    return Data?.[0]?.SubscriberCount || 0;
+};
+
+module.exports = async () => {
+    const subscribers = await getMailjetListSubscribers();
+
+    return {
+        env: { subscribers },
+        output: 'export',
+        staticPageGenerationTimeout: 180,
+    };
 };

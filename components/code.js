@@ -33,7 +33,7 @@ export default ({ codeString, language }) => {
                     {isShown && (
                         <button
                             type="button"
-                            className="absolute top-0 right-0 rounded-md text-xs bg-gray-300 dark:bg-gray-600 m-3 p-1.5 cursor-pointer leading-none"
+                            className="absolute top-0 right-0 rounded-md text-xs !bg-gray-300 dark:!bg-gray-600 m-3 p-1.5 cursor-pointer leading-none"
                             onClick={() => {
                                 copyToClipboard(codeString);
                                 setIsCopied(true);

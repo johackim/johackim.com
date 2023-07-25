@@ -1,18 +1,20 @@
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import { useTheme } from 'next-themes';
-import { ShareIcon } from '@heroicons/react/outline';
+import { ShareIcon } from '@heroicons/react/24/outline';
 import tailwindColors from 'tailwindcss/colors';
 
 const Graph = dynamic(() => import('@components/graph'), { ssr: false });
 
-export default ({ currentNode, ...props }) => {
+export default ({ links, currentNode }) => {
     const router = useRouter();
     const { resolvedTheme } = useTheme();
 
-    const nodes = [{ id: currentNode }, ...props.links.map(({ link, slug }) => ({ id: link, slug }))];
+    const nodes = [{ id: currentNode }, ...links.map(({ title, slug }) => ({ id: title, slug }))];
     const uniqNodes = [...new Map(nodes.map((node) => [node.id, node])).values()];
-    const links = props.links.map(({ link }) => ({ source: currentNode, target: link }));
+    const graphLinks = links.map(({ title }) => ({ source: currentNode, target: title }));
+
+    if (!graphLinks.length) return null;
 
     return (
         <div className="p-4 border dark:border-gray-800 mb-4">
@@ -26,7 +28,7 @@ export default ({ currentNode, ...props }) => {
             <div className="h-52 max-w-screen-xs">
                 <Graph
                     nodes={uniqNodes}
-                    links={links}
+                    links={graphLinks}
                     width={280}
                     height={200}
                     onNodeClick={(node) => {

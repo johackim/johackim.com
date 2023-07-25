@@ -1,8 +1,7 @@
 import { NextSeo } from 'next-seo';
-
-import DefaultLayout from '@components/defaultLayout';
 import { Button } from '@johackim/design-system';
 import { useRouter } from 'next/router';
+import Layout from '@components/layout';
 
 const Page = () => {
     const router = useRouter();
@@ -25,10 +24,10 @@ const Page = () => {
 };
 
 Page.getLayout = (page) => (
-    <DefaultLayout className="flex flex-col justify-center">
+    <Layout className="flex flex-col justify-center">
         <NextSeo title="Erreur 404" />
         {page}
-    </DefaultLayout>
+    </Layout>
 );
 
 export default Page;

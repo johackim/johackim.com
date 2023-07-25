@@ -3,10 +3,9 @@ import { useEffect } from 'react';
 import { DefaultSeo } from 'next-seo';
 import { ThemeProvider } from 'next-themes';
 import { useRouter } from 'next/router';
-import posthog from 'posthog-js';
-import providers from '@lib/contexts';
 import { Roboto } from 'next/font/google';
 import { AppProvider } from '@johackim/design-system';
+import posthog from 'posthog-js';
 
 const roboto = Roboto({
     weight: ['300', '400', '500', '700'],
@@ -30,13 +29,9 @@ export default ({ Component, pageProps }) => {
         };
     }, []);
 
-    const Compose = ({ components, children }) => (
-        components.reduceRight((acc, Comp) => <Comp>{acc}</Comp>, children)
-    );
-
     return (
         <ThemeProvider attribute="class">
-            <Compose components={Object.values({ ...providers, AppProvider })}>
+            <AppProvider>
                 <DefaultSeo
                     openGraph={{
                         type: 'website',
@@ -59,7 +54,7 @@ export default ({ Component, pageProps }) => {
                     `}
                 </style>
                 {getLayout(<Component {...pageProps} />)}
-            </Compose>
+            </AppProvider>
         </ThemeProvider>
     );
 };

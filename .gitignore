@@ -127,22 +127,15 @@ dist
 .next
 .env.local
 
-# Obisidian
+# Markdown files
 content
-
-# GPG
-*.gpg
 
 # Covers
 public/covers/*
 !public/covers/.gitkeep
 
-# RSS
-public/rss.xml
-
-# Sitemap
-public/sitemap.xml
-public/sitemap-0.xml
+# XML files
+public/*.xml
 
 # Gh chart
 public/ghchart.svg

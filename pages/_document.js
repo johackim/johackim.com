@@ -4,7 +4,7 @@ export default function Document() {
     return (
         <Html lang="fr">
             <Head />
-            <body style={{ display: 'none' }}>
+            <body>
                 <Main />
                 <NextScript />
             </body>

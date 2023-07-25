@@ -340,6 +340,16 @@
     "permanent": true
   },
   {
+    "source": "/all",
+    "destination": "/articles",
+    "permanent": true
+  },
+  {
+    "source": "/products",
+    "destination": "/formations",
+    "permanent": true
+  },
+  {
     "source": "/rss",
     "destination": "/rss.xml",
     "permanent": true

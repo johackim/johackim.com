@@ -1,9 +1,7 @@
 import { NextSeo } from 'next-seo';
 import { Article, Progress, Link } from '@johackim/design-system';
-
-import DefaultLayout from '@components/defaultLayout';
-import Sidebar from '@components/sidebar';
-import NewsletterWidget from '@components/newsletterWidget';
+import styles from '@johackim/design-system/styles/article.module.css';
+import Layout from '@components/layout';
 import { getContents, removeEmojies } from '@lib/utils';
 
 const Page = ({ contents }) => {
@@ -25,14 +23,12 @@ const Page = ({ contents }) => {
     return (
         <section className="mt-20">
             <div className="container m-auto px-4 lg:max-w-screen-lg">
-                <div className="md:grid md:grid-cols-3 md:gap-4">
-                    <div className="md:col-span-2 md:border dark:border-gray-800 md:px-4 self-start">
-                        <Article
-                            title="Tous les contenus"
-                            dateUpdated={contents[0].datePublished}
-                            author={process.env.NEXT_PUBLIC_SITE_AUTHOR}
-                            authorUrl="/a-propos"
-                        >
+                <div className="md:border dark:border-gray-800">
+                    <Article>
+                        <Article.Title className="mt-0 border-t-0 border-r-0 border-l-0">Articles</Article.Title>
+                        <Article.Author className="md:px-4" author={process.env.NEXT_PUBLIC_SITE_AUTHOR} url="/a-propos" date={contents[0]?.datePublished} />
+                        <Article.Content className={`${styles.article} md:px-4`}>
+                            {!contents.length && <p className="text-center">Aucun article pour le moment.</p>}
                             {Object.keys(groupedContents).map((key) => (
                                 <div key={key}>
                                     <h2 className="text-2xl font-bold mb-4 capitalize">{key}</h2>
@@ -46,12 +42,8 @@ const Page = ({ contents }) => {
                                     </ul>
                                 </div>
                             ))}
-                        </Article>
-                    </div>
-
-                    <Sidebar>
-                        <NewsletterWidget />
-                    </Sidebar>
+                        </Article.Content>
+                    </Article>
                 </div>
             </div>
         </section>
@@ -59,17 +51,17 @@ const Page = ({ contents }) => {
 };
 
 Page.getLayout = (page) => (
-    <DefaultLayout>
-        <NextSeo title="Tous les contenus" />
+    <Layout>
+        <NextSeo title="Articles" />
         <Progress />
         {page}
-    </DefaultLayout>
+    </Layout>
 );
 
 export const getStaticProps = async () => {
     const contents = (await getContents())
-        .map(({ title, slug, datePublished, tags }) => ({ title: removeEmojies(title), slug, datePublished: String(datePublished), tags }))
-        .filter(({ tags }) => !tags?.some((tag) => ['moc', 'premium'].includes(tag)))
+        .map(({ title, slug, datePublished, tags }) => ({ title: removeEmojies(title), datePublished: String(datePublished), slug, tags }))
+        .filter(({ tags }) => tags.includes('article'))
         .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
 
     return { props: { contents } };

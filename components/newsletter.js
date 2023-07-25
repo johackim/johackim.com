@@ -23,20 +23,13 @@ export default ({ children }) => {
         }
 
         if (!error) {
-            await fetch('/api/newsletter', {
+            await fetch(process.env.NEXT_PUBLIC_NEWSLETTER_WEBHOOK, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
             })
                 .then((res) => res.json())
-                .then(({ success, id }) => {
-                    if (!success) throw new Error('Veuillez entrer une adresse e-mail valide');
-
-                    if (id && window.posthog) {
-                        window.posthog.identify(id);
-                        window.posthog.people.set({ email });
-                    }
-
+                .then(() => {
                     setTimeout(() => {
                         setState({ ...state, email: '', error: false, isLoading: false, success: true });
                     }, 1000);
