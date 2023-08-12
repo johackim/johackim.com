@@ -20,7 +20,6 @@ const Layout = ({ children, size, className }) => {
             >
                 <Link href="/start" active={router.asPath === '/start'}>Accueil</Link>
                 <Link href="/articles" active={router.asPath === '/articles'}>Articles</Link>
-                <Link href="/notes" active={router.asPath === '/notes'}>Notes</Link>
                 <Link href="/formations" active={router.asPath === '/formations'}>Formations</Link>
                 <Link href="/newsletter" as={Button} className="!py-1 !px-3" secondary>S'abonner</Link>
                 <Switch

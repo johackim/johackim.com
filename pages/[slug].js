@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NextSeo, ArticleJsonLd } from 'next-seo';
-import { Article, Progress, Link, Badge } from '@johackim/design-system';
+import { Article, Progress } from '@johackim/design-system';
 import styles from '@johackim/design-system/styles/article.module.css';
 import { MDXRemote } from 'next-mdx-remote';
 import { getContent, getContents, createImage, compileMdxToJs } from '@lib/utils';
@@ -11,7 +11,7 @@ import Toc from '@components/toc';
 import Graph from '@components/graphWidget';
 import Newsletter from '@components/newsletterWidget';
 
-const Page = ({ title, code, headings, links, tags, comments, dateUpdated }) => {
+const Page = ({ title, code, headings, links, comments, dateUpdated }) => {
     const [isOpen, setOpen] = useState(false);
 
     return (
@@ -28,18 +28,7 @@ const Page = ({ title, code, headings, links, tags, comments, dateUpdated }) => 
                         </div>
                         <Article>
                             <Article.Title className="mt-0 border-t-0 border-r-0 border-l-0">{title}</Article.Title>
-                            <div className="mb-8 md:px-4 flex flex-wrap justify-between">
-                                <Article.Author className="!mb-auto" author={process.env.NEXT_PUBLIC_SITE_AUTHOR} url="/a-propos" date={dateUpdated} />
-                                {tags && (
-                                    <div className="grid grid-flow-col gap-2">
-                                        {tags.filter((tag) => ['note', 'article'].includes(tag)).map((tag) => (
-                                            <Link key={tag} href={`/${tag}s`}>
-                                                <Badge key={tag}>{tag}</Badge>
-                                            </Link>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
+                            <Article.Author className="md:px-4 mb-8" author={process.env.NEXT_PUBLIC_SITE_AUTHOR} url="/a-propos" date={dateUpdated} />
                             <Article.Content className={`${styles.article} md:px-4`}>
                                 <MDXRemote {...code} components={components} />
                             </Article.Content>
@@ -104,14 +93,13 @@ Page.getLayout = (page) => (
 
 export const getStaticProps = async ({ params }) => {
     const slug = String(params?.slug);
-    const { title, tags, description, comments, content, headings, links, dateUpdated, datePublished } = await getContent(slug);
+    const { title, description, comments, content, headings, links, dateUpdated, datePublished } = await getContent(slug);
     const code = await compileMdxToJs(content);
 
     createImage(title, `${process.cwd()}/public/covers/${slug}.jpg`);
 
     return { props: {
         code,
-        tags,
         title,
         links,
         comments,
