@@ -4,10 +4,6 @@ import { generateRssFeeds } from '@lib/rss';
 import Slider from '@components/slider';
 import Layout from '@components/layout';
 
-const TITLE = 'Hacker indépendant';
-
-const DESCRIPTION = 'Créateur indépendant de projets open-source';
-
 const FEEDBACKS = [
     '« Article le plus consulté du Courrier du hacker de la semaine. Merci à lui, excellent article ! » - Journal du hacker',
     "« Je suis le blog depuis un moment, c'est un excellent taf, très inspirant ! » - Eliott Meunier",
@@ -21,22 +17,22 @@ const FEEDBACKS = [
 export default () => (
     <Layout className="flex flex-col justify-center">
         <NextSeo
-            title={TITLE}
-            description={DESCRIPTION}
+            title={process.env.NEXT_PUBLIC_SITE_TITLE}
+            description={process.env.NEXT_PUBLIC_SITE_DESCRIPTION}
             openGraph={{
-                description: DESCRIPTION,
+                description: process.env.NEXT_PUBLIC_SITE_DESCRIPTION,
                 images: [{
                     url: `${process.env.NEXT_PUBLIC_SITE_URL}/profile.jpg`,
                 }],
             }}
         />
         <WebPageJsonLd
-            description={DESCRIPTION}
+            description={process.env.NEXT_PUBLIC_SITE_DESCRIPTION}
             id={process.env.NEXT_PUBLIC_SITE_URL}
         />
         <Hero
-            headline={TITLE}
-            subHeadline={DESCRIPTION}
+            headline={process.env.NEXT_PUBLIC_SITE_TITLE}
+            subHeadline={process.env.NEXT_PUBLIC_SITE_DESCRIPTION}
             centered={false}
         >
             <Link as={Button} href="/start">Découvrir mon second cerveau</Link>

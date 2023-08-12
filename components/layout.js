@@ -12,7 +12,7 @@ const Layout = ({ children, size, className }) => {
     return (
         <>
             <Header
-                description="Hacker indépendant"
+                description={process.env.NEXT_PUBLIC_SITE_TITLE}
                 logo="/profile.jpg"
                 title={ucFirst(process.env.NEXT_PUBLIC_SITE_AUTHOR)}
                 size={size}
