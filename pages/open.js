@@ -59,7 +59,7 @@ const Page = ({ visitors, mrr, arr, twitter, mastodon, githubStars, githubFollow
             <Card className="mt-5">
                 <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Activité Github</Card.Name>
                 <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">
-                    <img src="/ghchart.svg" className="w-full mt-2" alt="Github chart" /> {/* eslint-disable-line */}
+                    <img src="https://ghchart.rshah.org/182831/johackim" className="w-full mt-2" alt="Github chart" /> {/* eslint-disable-line */}
                 </Card.Value>
             </Card>
         </Section.Content>
