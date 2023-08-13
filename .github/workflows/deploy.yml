@@ -21,9 +21,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Install jq
-        run: sudo apt-get install -y jq
-
       - name: Generate .env from Github Secrets
         env:
           SECRETS: ${{ toJson(secrets) }}
