@@ -100,6 +100,7 @@ export const getStaticProps = async ({ params }) => {
 
     return { props: {
         code,
+        slug,
         title,
         links,
         comments,
