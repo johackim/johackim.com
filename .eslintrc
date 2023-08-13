@@ -1,8 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
-        "jest/globals": true
+        "es2021": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -16,8 +15,8 @@
             "eslint-import-resolver-custom-alias": {
                 "alias": {
                     "@lib": "./lib",
-                    "@components": "./components",
-                    "@styles": "./styles"
+                    "@styles": "./styles",
+                    "@components": "./components"
                 }
             }
         }
@@ -29,7 +28,7 @@
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": ["react", "jest"],
+    "plugins": ["react"],
     "rules": {
         "indent": [2, 4, { "SwitchCase": 1 }],
         "max-len": [0],
@@ -54,6 +53,8 @@
                 "specialLink": ["hrefLeft", "hrefRight"],
                 "aspects": ["invalidHref", "preferButton"]
             }
-        ]
+        ],
+        "complexity": [2, 6],
+        "max-depth": [2, 2]
     }
 }

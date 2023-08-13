@@ -1,58 +1,76 @@
-import dynamic from 'next/dynamic';
+import 'chart.js/auto';
 import { NextSeo } from 'next-seo';
-
-import { Card } from '@johackim/design-system';
-import DefaultLayout from '@components/defaultLayout';
+import { Section, Card } from '@johackim/design-system';
+import { Line } from 'react-chartjs-2';
+import Layout from '@components/layout';
 import {
-    getTwitterFollowers,
-    getMastodonFollowers,
-    getGithubFollowers,
-    getGithubStars,
     getChartMogulData,
     getPosthogData,
-    getContents,
+    getGithubStars,
+    getGithubFollowers,
+    getMastodonFollowers,
     getMailjetListSubscribers,
-    download,
+    getContents,
 } from '@lib/utils';
 
-const Line = dynamic(() => import('react-chartjs-2').then((component) => component.Line));
-
-const Page = ({ contents, mastodonFollowers, githubFollowers, githubStars, visitors, subscribers, chartMogulData, posthogData, mrr, arr }) => (
-    <section className="pt-20 pb-10">
-        <h1 className="text-center font-bold text-3xl">Transparence</h1>
-        <h2 className="text-center md:text-lg mb-8">Chiffre d'affaires, visiteurs, followers</h2>
-
-        <div className="container m-auto px-4 lg:max-w-screen-lg grid gap-5">
-            <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                <Card name="Total des abonnés e-mail" value={subscribers} />
-                <Card name="Total des abonnés Twitter" value={196} />
-                <Card name="Total des abonnés Mastodon" value={mastodonFollowers} />
-            </dl>
-
-            <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                <Card name="Total des abonnés Github" value={githubFollowers} />
-                <Card name="Total des stars Github" value={githubStars} />
-                <Card name="Total des visiteurs" value={visitors} />
-            </dl>
-
-            <dl className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                <Card name="Nombre d'articles & notes" value={contents} />
-                <Card name="MRR (Chiffre d'affaires mensuel récurrent)" value={`${mrr}€`} />
-                <Card name="ARR (Chiffre d'affaires annuel récurrent)" value={`${arr}€`} />
-            </dl>
-
-            <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Activité Github</dt>
-                <img src="/ghchart.svg" className="w-full mt-2" alt="Github chart" /> {/* eslint-disable-line */}
-            </div>
-
-            <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">MRR (Chiffre d'affaires mensuel récurrent) en €</dt>
+const Page = ({ visitors, mrr, arr, twitter, mastodon, githubStars, githubFollowers, chartmogul, posthog, contents }) => (
+    <Section className="pt-24 pb-12">
+        <Section.Title className="text-center !my-0">Transparence</Section.Title>
+        <Section.Description className="text-center dark:text-gray-300">Chiffre d'affaires, visiteurs, followers</Section.Description>
+        <Section.Content className="container mx-auto px-4 !max-w-screen-lg mt-12 grid grid-cols-3 gap-5">
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées e-mail</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">421</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées Twitter</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{twitter}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées Mastodon</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{mastodon}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées Github</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{githubFollowers}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des stars Github</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{githubStars}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des visiteurs</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{visitors}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Nombre de contenus</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{contents}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">MRR (Chiffre d'affaires mensuel récurrent)</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{`${mrr}€`}</Card.Value>
+            </Card>
+            <Card>
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">ARR (Chiffre d'affaires annuel récurrent)</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{`${arr}€`}</Card.Value>
+            </Card>
+        </Section.Content>
+        <Section.Content className="container mx-auto px-4 !max-w-screen-lg">
+            <Card className="mt-5">
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Activité Github</Card.Name>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">
+                    <img src="/ghchart.svg" className="w-full mt-2" alt="Github chart" /> {/* eslint-disable-line */}
+                </Card.Value>
+            </Card>
+        </Section.Content>
+        <Section.Content className="container mx-auto px-4 !max-w-screen-lg">
+            <Card className="mt-5">
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">MRR (Chiffre d'affaires mensuel récurrent) en €</Card.Name>
                 <Line
                     data={{
-                        labels: chartMogulData.map((entry) => entry.date),
+                        labels: chartmogul?.entries?.map((entry) => entry.date),
                         datasets: [{
-                            data: chartMogulData.map((entry) => Math.round(entry.mrr / 100)),
+                            data: chartmogul?.entries?.map((entry) => Math.round(entry.mrr / 100)),
                             fill: true,
                             borderColor: 'rgb(209, 213, 219)',
                             tension: 0.1,
@@ -61,15 +79,14 @@ const Page = ({ contents, mastodonFollowers, githubFollowers, githubStars, visit
                     options={{ plugins: { legend: { display: false } } }}
                     className="mt-4"
                 />
-            </div>
-
-            <div className="px-4 py-5 bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden sm:p-6">
-                <dt className="text-sm font-medium text-gray-500 dark:text-white truncate">Visiteurs uniques</dt>
+            </Card>
+            <Card className="mt-5">
+                <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Visiteurs uniques</Card.Name>
                 <Line
                     data={{
-                        labels: posthogData.map(({ date }) => date),
+                        labels: posthog.map(({ date }) => date),
                         datasets: [{
-                            data: posthogData.map((data) => data.visitors),
+                            data: posthog.map((data) => data.visitors),
                             fill: true,
                             borderColor: 'rgb(209, 213, 219)',
                             tension: 0.1,
@@ -78,56 +95,37 @@ const Page = ({ contents, mastodonFollowers, githubFollowers, githubStars, visit
                     options={{ plugins: { legend: { display: false } } }}
                     className="mt-4"
                 />
-            </div>
-        </div>
-    </section>
+            </Card>
+        </Section.Content>
+    </Section>
+);
+
+Page.getLayout = (page) => (
+    <Layout className="bg-gray-100 dark:bg-gray-900">
+        <NextSeo title="Transparence" />
+        {page}
+    </Layout>
 );
 
 export const getStaticProps = async () => {
-    const chartMogulData = await getChartMogulData();
-    const posthogData = await getPosthogData();
-    const contents = (await getContents()).length;
-    const subscribers = await getMailjetListSubscribers(process.env.MAILJET_SUBSCRIBER_LIST);
-
-    download('https://ghchart.rshah.org/182831/johackim', `${process.cwd()}/public/ghchart.svg`);
+    const posthog = await getPosthogData();
+    const chartmogul = await getChartMogulData();
 
     return {
         props: {
-            twitterFollowers: await getTwitterFollowers('_johackim'),
-            mastodonFollowers: await getMastodonFollowers('1631'),
-            githubFollowers: await getGithubFollowers('johackim'),
+            visitors: posthog?.reduce((prev, cur) => prev + cur.visitors, 0),
+            mrr: chartmogul.currentMrr,
+            arr: chartmogul.currentArr,
+            contents: (await getContents()).length,
+            mastodon: await getMastodonFollowers('1631'),
             githubStars: await getGithubStars('johackim') + await getGithubStars('ethibox'),
-            arr: chartMogulData.currentArr,
-            mrr: chartMogulData.currentMrr,
-            visitors: posthogData.reduce((prev, cur) => prev + cur.visitors, 0),
-            chartMogulData: chartMogulData.entries || [],
-            posthogData,
-            contents,
-            subscribers,
+            githubFollowers: await getGithubFollowers('johackim'),
+            subscribers: await getMailjetListSubscribers(),
+            twitter: 195,
+            chartmogul,
+            posthog,
         },
-        revalidate: 86400,
     };
-};
-
-Page.getLayout = (page) => (
-    <DefaultLayout className="bg-gray-100 dark:bg-gray-900">
-        <NextSeo title="Transparence" />
-        {page}
-    </DefaultLayout>
-);
-
-Page.defaultProps = {
-    arr: 0,
-    mrr: 0,
-    contents: 0,
-    twitterFollowers: 0,
-    mastodonFollowers: 0,
-    githubFollowers: 0,
-    githubStars: 0,
-    visitors: 0,
-    subscribers: 0,
-    chartMogulData: [],
-    posthogData: [],
 };
 
 export default Page;

@@ -1,131 +1,27 @@
-import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { useTheme } from 'next-themes';
-import { SunIcon, MoonIcon, SearchIcon } from '@heroicons/react/outline';
-import { Modal, Input, Header, Footer, Link, Button, Switch, Dropdown, CommandPalette } from '@johackim/design-system';
-import Newsletter from '@lib/newsletter';
-import { useAuth, useModal } from '@lib/contexts';
+import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
+import { Header, Footer, Link, Button, Switch } from '@johackim/design-system';
 
-const DefaultLayout = ({ children, size, className }) => {
-    const auth = useAuth();
+const Layout = ({ children, size, className }) => {
     const router = useRouter();
-    const modal = useModal();
     const { theme, setTheme } = useTheme();
-
-    const [user, setUser] = useState({ isLoggedIn: false });
-    const [subscribers, setSubscribers] = useState('x');
-    const [isOpenCommandPalette, setOpenCommandPalette] = useState(false);
-
-    useEffect(() => {
-        fetch('/api/subscribers')
-            .then((res) => res.json())
-            .then((data) => {
-                setSubscribers(data.subscribers);
-            });
-    }, [subscribers]);
-
-    useEffect(() => {
-        setUser({ isLoggedIn: auth.isLoggedIn, ...auth.user });
-    }, []);
-
-    const redirectTo = (endpoint) => {
-        const { token } = user;
-
-        fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-        })
-            .then((res) => res.json())
-            .then(({ url }) => {
-                document.location.href = url;
-            });
-    };
 
     const ucFirst = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 
-    const logout = () => {
-        localStorage.clear();
-        document.location.href = '/';
-    };
-
     return (
         <>
-            {modal.isOpen && (
-                <Modal onClose={modal.close} fullscreen>
-                    <p className="text-2xl lg:text-6xl font-medium my-2">Rejoignez les {subscribers} abonnés</p>
-                    <p className="text-base lg:text-3xl my-2">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
-
-                    <Newsletter>
-                        {({ handleChange, handleSubmit, error, success, email, isLoading }) => (
-                            <form action="#" method="POST" onSubmit={handleSubmit}>
-                                <div className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
-                                    <Input id="modal-email" type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-80" placeholder="Entrez votre email" required />
-                                    <Button onClick={handleSubmit}>{isLoading ? (<span>Chargement en cours...</span>) : (<span>S'abonner à mon second cerveau</span>)}</Button>
-                                </div>
-
-                                {error && <p className="text-red-600 my-4">{error}</p>}
-                                {success && (
-                                    <p className="text-green-600 my-4">
-                                        <b>Génial !</b> Vous vous êtes inscrit avec succès !
-                                    </p>
-                                )}
-                            </form>
-                        )}
-                    </Newsletter>
-
-                    <p className="text-xs">🔒 100% sécurisé - Votre adresse email ne sera jamais cédée ni revendue.</p>
-                    <p className="text-xs">Vous restez libre de vous désinscrire à tout moment en 1 clic.</p>
-                </Modal>
-            )}
-
-            <CommandPalette
-                isOpen={isOpenCommandPalette}
-                onClose={() => setOpenCommandPalette(false)}
-                url="/api/search"
-            />
-
             <Header
-                description={process.env.NEXT_PUBLIC_SITE_HEADLINE}
+                description={process.env.NEXT_PUBLIC_SITE_TITLE}
                 logo="/profile.jpg"
                 title={ucFirst(process.env.NEXT_PUBLIC_SITE_AUTHOR)}
                 size={size}
                 fixed
             >
                 <Link href="/start" active={router.asPath === '/start'}>Accueil</Link>
-                <Link href="/explore" active={router.asPath === '/explore'}>Explorer</Link>
-                <Link href="/projects" active={router.asPath === '/projects'}>Projets</Link>
-                <Link href="/open" active={router.asPath === '/open'}>Stats</Link>
-                <Link href="/products" active={router.asPath === '/products'}>Produits</Link>
-                <button type="button" aria-label="search" onClick={() => setOpenCommandPalette(true)} className="focus:outline-none">
-                    <SearchIcon className="hidden md:block h-5 w-5 text-gray-700 dark:text-gray-300" />
-                    <span className="md:hidden">Rechercher</span>
-                </button>
-                {user.isLoggedIn ? (
-                    <Dropdown className="py-1 px-3" label="Mon compte">
-                        <div className="px-4 py-3" role="none">
-                            <p className="text-sm" role="none">Connecté en tant que</p>
-                            <p className="text-sm font-medium truncate" role="none">{user.email}</p>
-                        </div>
-                        <div className="py-1" role="none">
-                            <button type="button" onClick={() => redirectTo('/api/portal')} className="block w-full text-left px-4 py-2 text-sm dark:hover:bg-gray-800 hover:bg-gray-100 dark:hover:text-gray-300" role="menuitem" tabIndex="-1">
-                                Paramètres
-                            </button>
-                            <button type="button" onClick={() => redirectTo('/api/telegram')} className="block w-full text-left px-4 py-2 text-sm dark:hover:bg-gray-800 hover:bg-gray-100 dark:hover:text-gray-300" role="menuitem" tabIndex="-1">
-                                Telegram privée
-                            </button>
-                            <a href="mailto:contact+support@johackim.com" className="block px-4 py-2 text-sm dark:hover:bg-gray-800 hover:bg-gray-100 dark:hover:text-gray-300" role="menuitem" tabIndex="-1">
-                                Support
-                            </a>
-                        </div>
-                        <div className="py-1" role="none">
-                            <button type="button" onClick={logout} className="block w-full text-left px-4 py-2 text-sm dark:hover:bg-gray-800 hover:bg-gray-100 dark:hover:text-gray-300" role="menuitem" tabIndex="-1">
-                                Se déconnecter
-                            </button>
-                        </div>
-                    </Dropdown>
-                ) : (
-                    <Button onClick={modal.open} className="!py-1 !px-3" secondary>S'abonner</Button>
-                )}
+                <Link href="/articles" active={router.asPath === '/articles'}>Articles</Link>
+                <Link href="/formations" active={router.asPath === '/formations'}>Formations</Link>
+                <Link href="/newsletter" as={Button} className="!py-1 !px-3" secondary>S'abonner</Link>
                 <Switch
                     key="switch"
                     className="!hidden lg:!inline-flex"
@@ -176,8 +72,8 @@ const DefaultLayout = ({ children, size, className }) => {
     );
 };
 
-DefaultLayout.defaultProps = {
+Layout.defaultProps = {
     size: 'lg',
 };
 
-export default DefaultLayout;
+export default Layout;

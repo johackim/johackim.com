@@ -21,11 +21,14 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Docker pull
-        run: docker pull registry.ethibox.fr/johackim.com
+      - name: Install jq
+        run: sudo apt-get install -y jq
 
-      - name: Copy env file
-        run: docker cp $(docker create --rm registry.ethibox.fr/johackim.com):/app/.env ./.env
+      - name: Generate .env from Github Secrets
+        env:
+          SECRETS: ${{ toJson(secrets) }}
+        run: |
+          echo "$SECRETS" | jq -r 'to_entries[] | "\(.key)=\(.value)"' > .env
 
       - name: Build & push the Docker image
         uses: nick-fields/retry@v2

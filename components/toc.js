@@ -1,13 +1,10 @@
 import { useEffect, useState } from 'react';
-import slugify from 'slugify';
 import { Link } from '@johackim/design-system';
 
-const TocWidget = ({ level, className, ...props }) => {
-    if (props?.headings.length === 0) return false;
+export default ({ headings, className }) => {
+    if (headings.length <= 1) return false;
 
-    const firstHeading = props.headings[0].heading;
-    const headings = level ? props.headings.filter((h) => h.level <= level) : props.headings;
-    const [currentHeading, setHeading] = useState(slugify(firstHeading, { lower: true, strict: true }));
+    const [currentHeading, setHeading] = useState(headings[0].id);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -21,8 +18,7 @@ const TocWidget = ({ level, className, ...props }) => {
             { rootMargin: '0% 0% -80% 0%' },
         );
 
-        headings.forEach(({ heading }) => {
-            const id = slugify(heading, { lower: true, strict: true });
+        headings.forEach(({ id }) => {
             const element = document.getElementById(id);
 
             if (element) {
@@ -41,29 +37,18 @@ const TocWidget = ({ level, className, ...props }) => {
             <hr className="dark:border-gray-800 my-2" />
 
             <ul className="text-sm my-4">
-                { headings.map(({ heading }) => {
-                    const id = slugify(heading, { lower: true, strict: true });
-
-                    return (
-                        <li role="presentation" key={heading} className="my-1" onClick={() => setHeading(id)}>
-                            <Link
-                                href={`#${id}`}
-                                title={heading}
-                                className={currentHeading === id && 'text-gray-900 dark:text-white font-bold'}
-                            >
-                                {heading}
-                            </Link>
-                        </li>
-                    );
-                }) }
+                { headings.map(({ id, heading }) => (
+                    <li role="presentation" key={heading} className="my-1" onClick={() => setHeading(id)}>
+                        <Link
+                            href={`#${id}`}
+                            title={heading}
+                            className={currentHeading === id && 'text-gray-900 dark:text-white font-bold'}
+                        >
+                            {heading}
+                        </Link>
+                    </li>
+                )) }
             </ul>
         </div>
     );
 };
-
-TocWidget.defaultProps = {
-    headings: ['Heading 1', 'Heading 2', 'Heading 3'],
-    className: '',
-};
-
-export default TocWidget;

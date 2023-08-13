@@ -5,6 +5,9 @@ import { forceX, forceY } from 'd3';
 
 const OPACITY_SCALE = 2;
 
+const removeEmojies = (content) => content.replace(/[^\p{L}\p{N}\p{P}\p{Z}^$\n]/gu, '');
+
+/* eslint-disable complexity */
 const Graph = ({ nodes, links, width, height, colors, onNodeClick }) => {
     const ref = useRef();
 
@@ -112,7 +115,7 @@ const Graph = ({ nodes, links, width, height, colors, onNodeClick }) => {
             onNodeClick={onNodeClick}
             onZoom={onZoom}
             nodeCanvasObject={(node, ctx, globalScale) => {
-                const label = node.id;
+                const label = removeEmojies(node.id);
                 const fontSize = 12 / globalScale;
                 ctx.font = `${fontSize}px Sans-Serif`;
                 ctx.textAlign = 'center';

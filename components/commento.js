@@ -7,6 +7,8 @@ const insertScript = (src, id, parentElement) => {
     script.async = true;
     script.src = src;
     script.id = id;
+    script.setAttribute('data-auto-init', 'true');
+    script.setAttribute('data-no-fonts', 'true');
     parentElement.appendChild(script);
     return script;
 };
@@ -18,11 +20,9 @@ const removeScript = (id, parentElement) => {
     }
 };
 
-const Commento = ({ id }) => {
+export default ({ id }) => {
     useEffect(() => {
-        if (!window) {
-            return false;
-        }
+        if (!window) return () => {};
 
         const { document } = window;
 
@@ -35,5 +35,3 @@ const Commento = ({ id }) => {
 
     return <div id="commento" />;
 };
-
-export default Commento;

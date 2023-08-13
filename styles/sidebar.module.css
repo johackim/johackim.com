@@ -1,8 +1,0 @@
-.sidebar {
-    height: calc(100vh - 75px);
-    scrollbar-width: none;
-}
-
-.sidebar::-webkit-scrollbar {
-    display: none;
-}
