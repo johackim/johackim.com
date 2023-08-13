@@ -14,6 +14,8 @@ RUN curl -o /app/public/install https://raw.githubusercontent.com/johackim/dotfi
 
 RUN yarn install
 
+RUN npm run obsidian:download
+
 RUN yarn build
 
 RUN /bin/bash -c 'for file in out/*.html; do [[ "$file" != "out/index.html" ]] && mv "$file" "${file%.html}"; done'
