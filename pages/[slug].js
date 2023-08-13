@@ -82,7 +82,7 @@ Page.getLayout = (page) => (
             authorName={[process.env.NEXT_PUBLIC_SITE_AUTHOR]}
             publisherName={process.env.NEXT_PUBLIC_SITE_AUTHOR}
             publisherLogo={`${process.env.NEXT_PUBLIC_SITE_URL}/profile.jpg`}
-            description={page.props.description}
+            {...(page.props.description && { description: page.props.description })}
             {...(page.props.datePublished && { datePublished: (new Date(page.props.datePublished)).toISOString() })}
             {...(page.props.dateUpdated && { dateModified: (new Date(page.props.dateUpdated).toISOString()) })}
         />
