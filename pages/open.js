@@ -20,7 +20,7 @@ const Page = ({ visitors, mrr, arr, twitter, mastodon, githubStars, githubFollow
         <Section.Content className="container mx-auto px-4 !max-w-screen-lg mt-12 grid grid-cols-3 gap-5">
             <Card>
                 <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées e-mail</Card.Name>
-                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">421</Card.Value>
+                <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{process.env.subscribers}</Card.Value>
             </Card>
             <Card>
                 <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées Twitter</Card.Name>
