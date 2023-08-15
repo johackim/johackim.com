@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 const COMMENTO_SCRIPT = 'https://commento.johackim.com/js/commento.js';
 
@@ -21,17 +21,23 @@ const removeScript = (id, parentElement) => {
 };
 
 export default ({ id }) => {
+    const commentoRef = useRef(null);
+
     useEffect(() => {
         if (!window) return () => {};
 
         const { document } = window;
 
-        if (document.getElementById('commento')) {
+        if (commentoRef.current) {
+            commentoRef.current.innerHTML = '';
+        }
+
+        if (!document.getElementById('commento-script')) {
             insertScript(COMMENTO_SCRIPT, 'commento-script', document.body);
         }
 
         return () => removeScript('commento-script', document.body);
     }, [id]);
 
-    return <div id="commento" />;
+    return <div id="commento" ref={commentoRef} />;
 };
