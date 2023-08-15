@@ -54,6 +54,6 @@ Please support me with a one-time or a monthly donation and help me continue my 
 
 ## 📜 License
 
-This project is licensed under the GNU GPL v3.0 - see the [LICENSE.txt](https://raw.githubusercontent.com/johackim/obsidian-writing/master/LICENSE.txt) file for details
+This project is licensed under the GNU GPL v3.0 - see the [LICENSE.txt](https://raw.githubusercontent.com/johackim/johackim.com/master/LICENSE.txt) file for details
 
 **Free Software, Hell Yeah!**
