@@ -22,6 +22,7 @@ My personal website
 - [x] Redirections 301
 - [x] Rendering without JavaScript
 - [x] IPFS support
+- [ ] Search support
 
 ## 🛠️ Technology stack
 
