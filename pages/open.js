@@ -17,7 +17,7 @@ const Page = ({ visitors, mrr, arr, twitter, mastodon, githubStars, githubFollow
     <Section className="pt-24 pb-12">
         <Section.Title className="text-center !my-0">Transparence</Section.Title>
         <Section.Description className="text-center dark:text-gray-300">Chiffre d'affaires, visiteurs, followers</Section.Description>
-        <Section.Content className="container mx-auto px-4 !max-w-screen-lg mt-12 grid grid-cols-3 gap-5">
+        <Section.Content className="container mx-auto px-4 !max-w-screen-lg mt-12 grid grid-cols-1 sm:grid-cols-3 gap-5">
             <Card>
                 <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Total des abonnées e-mail</Card.Name>
                 <Card.Value className="mt-1 !text-3xl font-semibold text-gray-900 dark:text-white">{process.env.subscribers}</Card.Value>
