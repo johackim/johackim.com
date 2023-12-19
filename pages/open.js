@@ -9,6 +9,7 @@ import {
     getGithubStars,
     getGithubFollowers,
     getMastodonFollowers,
+    getTwitterFollowers,
     getContents,
 } from '@lib/utils';
 
@@ -119,7 +120,7 @@ export const getStaticProps = async () => {
             mastodon: await getMastodonFollowers('1631'),
             githubStars: await getGithubStars('johackim') + await getGithubStars('ethibox'),
             githubFollowers: await getGithubFollowers('johackim'),
-            twitter: 195,
+            twitter: await getTwitterFollowers('_johackim'),
             chartmogul,
             posthog,
         },
