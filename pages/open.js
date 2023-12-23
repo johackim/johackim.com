@@ -84,9 +84,9 @@ const Page = ({ visitors, mrr, arr, twitter, mastodon, githubStars, githubFollow
                 <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">Visiteurs uniques</Card.Name>
                 <Line
                     data={{
-                        labels: posthog.map(({ date }) => date),
+                        labels: posthog.map(({ date }) => date).slice(0, -1),
                         datasets: [{
-                            data: posthog.map((data) => data.visitors),
+                            data: posthog.map((data) => data.visitors).slice(0, -1),
                             fill: true,
                             borderColor: 'rgb(209, 213, 219)',
                             tension: 0.1,
