@@ -120,6 +120,10 @@ html.dark [id^='mermaid-svg'] .marker {
     padding: 2px 6px;
 }
 
+#commento #commento-textarea-root:focus {
+    box-shadow: none;
+}
+
 html.dark #commento code {
     @apply bg-gray-800;
 }
