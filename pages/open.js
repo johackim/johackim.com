@@ -68,9 +68,9 @@ const Page = ({ visitors, mrr, arr, twitter, mastodon, githubStars, githubFollow
                 <Card.Name className="truncate text-sm !font-medium text-gray-500 dark:text-white">MRR (Chiffre d'affaires mensuel récurrent) en €</Card.Name>
                 <Line
                     data={{
-                        labels: chartmogul?.entries?.map((entry) => entry.date),
+                        labels: chartmogul?.map((entry) => entry.date),
                         datasets: [{
-                            data: chartmogul?.entries?.map((entry) => Math.round(entry.mrr / 100)),
+                            data: chartmogul?.map((entry) => Math.round(entry.mrr / 100)),
                             fill: true,
                             borderColor: 'rgb(209, 213, 219)',
                             tension: 0.1,
@@ -109,20 +109,21 @@ Page.getLayout = (page) => (
 
 export const getStaticProps = async () => {
     const posthog = await getPosthogData();
-    const chartmogul = await getChartMogulData();
+    const { mrr, entries } = await getChartMogulData('mrr', '2019-10-01');
+    const { arr } = await getChartMogulData('arr', '2019-10-01');
 
     return {
         props: {
             visitors: posthog?.reduce((prev, cur) => prev + cur.visitors, 0),
-            mrr: chartmogul.currentMrr,
-            arr: chartmogul.currentArr,
             contents: (await getContents()).length,
             mastodon: await getMastodonFollowers('1631'),
             githubStars: await getGithubStars('johackim') + await getGithubStars('ethibox'),
             githubFollowers: await getGithubFollowers('johackim'),
             twitter: await getTwitterFollowers('_johackim'),
-            chartmogul,
+            chartmogul: entries,
             posthog,
+            mrr,
+            arr,
         },
     };
 };
