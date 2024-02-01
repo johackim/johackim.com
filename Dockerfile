@@ -1,6 +1,6 @@
 # Build
 
-FROM node:18 AS build
+FROM node:20 AS build
 
 ENV NEXT_TELEMETRY_DISABLED 1
 
@@ -28,7 +28,7 @@ RUN yarn install --prod --ignore-optional
 
 # Production
 
-FROM gcr.io/distroless/nodejs:18
+FROM gcr.io/distroless/nodejs20
 
 WORKDIR /app
 
