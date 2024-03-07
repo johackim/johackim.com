@@ -119,7 +119,7 @@ export const getStaticProps = async () => {
             mastodon: await getMastodonFollowers('1631'),
             githubStars: await getGithubStars('johackim') + await getGithubStars('ethibox'),
             githubFollowers: await getGithubFollowers('johackim'),
-            twitter: await getTwitterFollowers('_johackim'),
+            twitter: await getTwitterFollowers(),
             chartmogul: entries,
             posthog,
             mrr,
