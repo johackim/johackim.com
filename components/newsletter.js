@@ -28,12 +28,28 @@ export default ({ children }) => {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
             })
+                .then((res) => {
+                    if (res.status === 400) {
+                        throw new Error('Votre adresse e-mail est invalide');
+                    }
+
+                    if (res.status === 409) {
+                        throw new Error('Votre adresse e-mail est déjà inscrite à la newsletter');
+                    }
+
+                    if (res.status !== 200) {
+                        throw new Error('Une erreur est survenue. Veuillez réessayer.');
+                    }
+
+                    return res;
+                })
                 .then((res) => res.json())
                 .then(() => {
                     setTimeout(() => {
                         setState({ ...state, email: '', error: false, isLoading: false, success: true });
                     }, 1000);
-                }).catch(({ message }) => {
+                })
+                .catch(({ message }) => {
                     setState({ ...state, error: message, isLoading: false });
                 });
         }
