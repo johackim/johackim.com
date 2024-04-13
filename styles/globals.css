@@ -124,6 +124,10 @@ html.dark [id^='mermaid-svg'] .marker {
     box-shadow: none;
 }
 
+#commento .commento-body p a {
+    @apply underline hover:!text-gray-900 dark:hover:!text-white
+}
+
 html.dark #commento code {
     @apply bg-gray-800;
 }
