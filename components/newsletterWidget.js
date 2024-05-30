@@ -13,7 +13,7 @@ export default ({ className = '' }) => (
         <Newsletter>
             {({ handleChange, handleSubmit, error, success, email, isLoading }) => (
                 <>
-                    <form method="post" action={process.env.NEXT_PUBLIC_NEWSLETTER_WEBHOOK} className="grid gap-2 mt-4" onSubmit={handleSubmit}>
+                    <div className="grid gap-2 mt-4">
                         <Input id="widget-email" type="email" name="email" value={email} onChange={handleChange} placeholder="Entrez votre email" className="w-full" required />
                         <Button type="submit" onClick={handleSubmit}>
                             { isLoading ? (
@@ -22,8 +22,7 @@ export default ({ className = '' }) => (
                                 <span>S'abonner à mon second cerveau</span>
                             ) }
                         </Button>
-
-                    </form>
+                    </div>
                     { error && <p className="text-xs text-red-600 my-4">{error}</p> }
                     { success && <p className="text-xs text-green-600 my-4"><b>Génial !</b> Vous vous êtes inscrit avec succès !</p> }
                 </>

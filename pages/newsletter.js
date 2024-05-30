@@ -11,12 +11,12 @@ const Page = () => (
             <Newsletter>
                 {({ handleChange, handleSubmit, error, success, email, isLoading }) => (
                     <>
-                        <form method="post" action={process.env.NEXT_PUBLIC_NEWSLETTER_WEBHOOK} onSubmit={handleSubmit} className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
+                        <div className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
                             <Input type="email" name="email" value={email} onChange={handleChange} className="w-full md:w-80" placeholder="Entrez votre email" required />
                             <Button type="submit" onClick={handleSubmit}>
                                 {isLoading ? (<span>Chargement en cours...</span>) : (<span>S'abonner à mon second cerveau</span>)}
                             </Button>
-                        </form>
+                        </div>
                         { error && <p className="text-red-600 text-center my-4">{error}</p> }
                         { success && <p className="text-green-600 text-center my-4"><b>Génial !</b> Vous vous êtes inscrit avec succès !</p> }
                     </>
