@@ -2,7 +2,7 @@
 
 FROM node:20 AS build
 
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN apt update && apt install -y chromium
 

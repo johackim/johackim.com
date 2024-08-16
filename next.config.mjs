@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 const getListmonkSubscribers = async () => {
     const { data } = await fetch(`https://listmonk.johackim.com/api/lists/${process.env.LISTMONK_LIST_ID}`, {
@@ -8,11 +8,11 @@ const getListmonkSubscribers = async () => {
     return data?.subscriber_count || 0;
 };
 
-module.exports = async () => {
+export default async () => {
     const subscribers = await getListmonkSubscribers();
 
     return {
-        env: { subscribers },
+        env: { subscribers: String(subscribers) },
         output: 'export',
         staticPageGenerationTimeout: 180,
     };
