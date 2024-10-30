@@ -3,7 +3,7 @@ import { useTheme } from 'next-themes';
 import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
 import { Header, Footer, Link, Button, Switch } from '@johackim/design-system';
 
-const Layout = ({ children, size, className }) => {
+const Layout = ({ children, size = 'lg', className = '' }) => {
     const router = useRouter();
     const { theme, setTheme } = useTheme();
 
@@ -73,10 +73,6 @@ const Layout = ({ children, size, className }) => {
             </Footer>
         </>
     );
-};
-
-Layout.defaultProps = {
-    size: 'lg',
 };
 
 export default Layout;

@@ -6,7 +6,7 @@ import 'swiper/css/pagination'; // eslint-disable-line
 
 import styles from '@styles/slider.module.css';
 
-const Slider = ({ slides }) => {
+const Slider = ({ slides = ['Slide 1', 'Slide 2'] }) => {
     const pagination = { clickable: true };
 
     return (
@@ -24,10 +24,6 @@ const Slider = ({ slides }) => {
             ))}
         </Swiper>
     );
-};
-
-Slider.defaultProps = {
-    slides: ['Slide 1', 'Slide 2'],
 };
 
 export default Slider;
