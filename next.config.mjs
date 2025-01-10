@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const TMP_VALUE = 407;
+const TMP_VALUE = 415;
 
 const getListmonkSubscribers = async () => {
     const { data } = await fetch(`https://listmonk.johackim.com/api/lists/${process.env.LISTMONK_LIST_ID}`, {
