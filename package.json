@@ -7,7 +7,7 @@
     "docker:build": "docker build --no-cache -t registry.ethibox.fr/johackim.com .",
     "docker:push": "docker push registry.ethibox.fr/johackim.com",
     "deploy": "npm run docker:build && npm run docker:push",
-    "postdeploy": "curl -X POST https://n8n.ethibox.fr/webhook/896e33ae-c170-4e81-935b-0f28d0b8d3c7",
+    "postdeploy": "curl -X POST https://portainer.ethibox.fr/api/webhooks/4732cd66-1481-4947-9cfc-33db27fb9dca",
     "start": "serve out",
     "lint": "next lint"
   },
