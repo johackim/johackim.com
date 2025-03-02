@@ -4,8 +4,6 @@ FROM node:20 AS build
 
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN echo 'deb http://deb.debian.org/debian/ sid main contrib non-free' >> /etc/apt/sources.list
-
 RUN apt update && apt install -y chromium
 
 WORKDIR /app
