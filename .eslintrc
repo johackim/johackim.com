@@ -5,7 +5,6 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "plugin:json/recommended",
         "plugin:import/recommended",
         "plugin:@next/next/recommended",
         "airbnb"
