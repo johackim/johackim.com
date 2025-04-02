@@ -1,17 +1,18 @@
 import { useState } from 'react';
 import { NextSeo, ArticleJsonLd } from 'next-seo';
-import { Article, Progress } from '@johackim/design-system';
+import { Progress } from '@johackim/design-system';
 import styles from '@johackim/design-system/styles/article.module.css';
 import { MDXRemote } from 'next-mdx-remote';
 import { getContent, getContents, createImage, compileMdxToJs } from '@lib/utils';
 import components from '@lib/components';
+import Article from '@components/article';
 import Layout from '@components/layout';
 import Commento from '@components/commento';
 import Toc from '@components/toc';
 import Graph from '@components/graphWidget';
 import Newsletter from '@components/newsletterWidget';
 
-const Page = ({ title, code, headings, links, comments, dateUpdated }) => {
+const Page = ({ title, code, headings, links, comments, dateUpdated, datePublished }) => {
     const [isOpen, setOpen] = useState(false);
 
     return (
@@ -28,7 +29,13 @@ const Page = ({ title, code, headings, links, comments, dateUpdated }) => {
                         </div>
                         <Article>
                             <Article.Title className="mt-0 border-t-0 border-r-0 border-l-0">{title}</Article.Title>
-                            <Article.Author className="md:px-4 mb-8" author={process.env.NEXT_PUBLIC_SITE_AUTHOR} url="/a-propos" date={dateUpdated} />
+                            <Article.Author
+                                url="/a-propos"
+                                className="md:px-4 mb-8"
+                                dateUpdated={dateUpdated}
+                                datePublished={datePublished}
+                                author={process.env.NEXT_PUBLIC_SITE_AUTHOR}
+                            />
                             <Article.Content className={`${styles.article} md:px-4`}>
                                 <MDXRemote {...code} components={components} />
                             </Article.Content>
