@@ -20,8 +20,6 @@ RUN yarn build
 
 RUN cp public/sitemap*.xml out
 
-RUN /bin/bash -c 'for file in out/*.html; do [[ "$file" != "out/index.html" ]] && mv "$file" "${file%.html}"; done'
-
 RUN rm -rf node_modules
 
 RUN yarn install --prod --ignore-optional
