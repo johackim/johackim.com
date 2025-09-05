@@ -4,7 +4,2474 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Fri, 05 Sep 2025 22:40:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Sep 2025 22:51:20 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Téléchargez vos livres Kindle]]></title>
+            <link>https://johackim.com/exporter-ses-livres-kindle?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/exporter-ses-livres-kindle</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 20 Feb 2025 13:16:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🧑‍💻 Informatique]]></title>
+            <description><![CDATA[Maîtrisez le monde numérique]]></description>
+            <link>https://johackim.com/informatique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/informatique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 12 Nov 2024 03:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🏋️‍♀️ Sport]]></title>
+            <description><![CDATA[Améliorez votre santé physique]]></description>
+            <link>https://johackim.com/sport?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/sport</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 12 Nov 2024 02:46:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Méditation]]></title>
+            <description><![CDATA[La méditation est un exercice mental qui consiste à rester concentré sur sa respiration pour se recentrer sur le moment présent.]]></description>
+            <link>https://johackim.com/meditation?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/meditation</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 Jun 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Default Mode Network]]></title>
+            <description><![CDATA[Le Default Mode Network est la partie du cerveau qui s'active lorsque l'on est concentré sur aucune tâche.]]></description>
+            <link>https://johackim.com/default-mode-network?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/default-mode-network</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 10 Jun 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🧘‍♂️ Stoïcisme]]></title>
+            <description><![CDATA[Trouver la paix intérieur]]></description>
+            <link>https://johackim.com/stoicisme?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/stoicisme</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 04 Jun 2024 23:18:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La dichotomie du contrôle]]></title>
+            <description><![CDATA[La dichotomie du contrôle est un principe stoïcien qui consiste à distinguer ce qui dépend de nous de ce qui ne dépend pas de nous.]]></description>
+            <link>https://johackim.com/dichotomie-du-controle?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/dichotomie-du-controle</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 03 Jun 2024 22:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Etcher]]></title>
+            <description><![CDATA[Etcher est un logiciel de gravure d'image disque open-source.]]></description>
+            <link>https://johackim.com/etcher?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/etcher</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 May 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🧠 Psychologie]]></title>
+            <description><![CDATA[Se comprendre soit même]]></description>
+            <link>https://johackim.com/psychologie?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/psychologie</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 24 May 2024 22:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mindfulness]]></title>
+            <description><![CDATA[La pleine conscience (Mindfulness) est une pratique qui consiste à être conscient du moment présent, sans jugement ni attachement.]]></description>
+            <link>https://johackim.com/mindfulness?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mindfulness</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 22 May 2024 17:16:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dissonance cognitive]]></title>
+            <description><![CDATA[La dissonance cognitive est un conflit interne entre plusieurs croyances contradictoires.]]></description>
+            <link>https://johackim.com/dissonance-cognitive?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/dissonance-cognitive</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 21 May 2024 14:22:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Le triangle cognitif]]></title>
+            <description><![CDATA[Le triangle cognitif est un modèle utilisé en TCC qui illustre la relation entre nos pensées, nos émotions et nos comportements.]]></description>
+            <link>https://johackim.com/triangle-cognitif?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/triangle-cognitif</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 20 May 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Neuroplasticité]]></title>
+            <description><![CDATA[La neuroplasticité est la capacité du cerveau à se reconfigurer et à s'adapter selon nos actions et notre environnement.]]></description>
+            <link>https://johackim.com/neuroplasticite?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/neuroplasticite</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 21:02:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pensée automatique]]></title>
+            <link>https://johackim.com/pensee-automatique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/pensee-automatique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 17:14:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'erreur de prédiction]]></title>
+            <description><![CDATA[L'erreur de prédiction est une distorsion cognitive qui consiste à faire des prédictions sur le futur et à y croire fortement.]]></description>
+            <link>https://johackim.com/erreur-de-prediction?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/erreur-de-prediction</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 17:11:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lecture de pensée]]></title>
+            <description><![CDATA[La lecture de pensée est une distorsion cognitive qui consiste à supposer ce que les autres pensent ou ressentent sans preuves concrètes.]]></description>
+            <link>https://johackim.com/lecture-de-pensee?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lecture-de-pensee</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 17:09:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Inférence arbitraire]]></title>
+            <description><![CDATA[L'inférence arbitraire est une distorsion cognitive qui consiste à tirer des conclusions hâtives sans preuves suffisantes.]]></description>
+            <link>https://johackim.com/inference-arbitraire?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/inference-arbitraire</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 17:08:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Généralisation excessive]]></title>
+            <description><![CDATA[La généralisation excessive est une distorsion cognitive qui consiste à généraliser à partir d'un seul événement.]]></description>
+            <link>https://johackim.com/generalisation-excessive?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/generalisation-excessive</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 17:06:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pensée tout ou rien]]></title>
+            <description><![CDATA[La pensée tout ou rien (ou pensée dichotomique) est une distorsion cognitive qui consiste à voir les choses de manière binaire sans aucune nuance.]]></description>
+            <link>https://johackim.com/pensee-tout-ou-rien?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/pensee-tout-ou-rien</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 17:01:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Distorsion cognitive]]></title>
+            <link>https://johackim.com/distorsion-cognitive?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/distorsion-cognitive</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 May 2024 16:55:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais d'auto-complaisance]]></title>
+            <description><![CDATA[Le biais d'auto-complaisance (Self-serving bias) est notre tendance à attribuer nos succès à des facteurs internes et les échecs à des facteurs externes.]]></description>
+            <link>https://johackim.com/biais-auto-complaisance?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-auto-complaisance</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 13 May 2024 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ArchInstall]]></title>
+            <description><![CDATA[ArchInstall est un installeur automatique pour Arch Linux.]]></description>
+            <link>https://johackim.com/archinstall?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/archinstall</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 13 May 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Thérapie cognitivo-comportementale]]></title>
+            <description><![CDATA[La Thérapie Comportementale et Cognitive (TCC) est une psychothérapie inventé par Albert Ellis et Aaron Beck.]]></description>
+            <link>https://johackim.com/tcc?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tcc</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 13 May 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Journal de pensées]]></title>
+            <description><![CDATA[Un journal de pensées est un outil de restructuration cognitive utilisé en TCC pour remettre en question ses pensées automatiques.]]></description>
+            <link>https://johackim.com/journal-de-pensees?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/journal-de-pensees</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 06 May 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LlamaIndex]]></title>
+            <description><![CDATA[LlamaIndex est un framework open-source pour indexer des données et les rendre accessibles par un LLM.]]></description>
+            <link>https://johackim.com/llamaindex?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/llamaindex</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 29 Apr 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LLM]]></title>
+            <description><![CDATA[Un LLM (Large Language Model) est un modèle de langage de grande taille.]]></description>
+            <link>https://johackim.com/llm?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/llm</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 29 Apr 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'effet de faux consensus]]></title>
+            <description><![CDATA[L'effet de faux consensus est un biais cognitif qui nous fait surestimer à quel point les autres partagent nos croyances, valeurs et comportements.]]></description>
+            <link>https://johackim.com/effet-de-faux-consensus?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/effet-de-faux-consensus</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 29 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CrowdSec]]></title>
+            <description><![CDATA[CrowdSec est un pare-feu communautaire open-source pour se protéger des attaques informatiques.]]></description>
+            <link>https://johackim.com/crowdsec?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/crowdsec</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 22 Apr 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tauri]]></title>
+            <description><![CDATA[Tauri est un framework open-source basé sur Rust pour construire des applications multiplateformes.]]></description>
+            <link>https://johackim.com/tauri?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tauri</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 15 Apr 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[MicroG]]></title>
+            <description><![CDATA[MicroG est une alternative à Google Play Services.]]></description>
+            <link>https://johackim.com/microg?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/microg</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 08 Apr 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tailwind CSS]]></title>
+            <description><![CDATA[Tailwind CSS est un framework CSS qui permet de designer des interfaces web rapidement sans utiliser de CSS.]]></description>
+            <link>https://johackim.com/tailwind-css?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tailwind-css</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 01 Apr 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[n8n]]></title>
+            <description><![CDATA[n8n est une alternative open-source à Zapier.]]></description>
+            <link>https://johackim.com/n8n?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/n8n</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 25 Mar 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Electron]]></title>
+            <description><![CDATA[Electron est un framework qui permet de créer des applications de bureau multi-plateformes.]]></description>
+            <link>https://johackim.com/electron?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/electron</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 18 Mar 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Zerotier]]></title>
+            <description><![CDATA[Zerotier est un logiciel de réseau privé virtuel qui permet de connecter des ordinateurs entre eux sur un réseau virtuel.]]></description>
+            <link>https://johackim.com/zerotier?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/zerotier</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 11 Mar 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Expo]]></title>
+            <description><![CDATA[Expo est un framework qui permet de créer des applications mobiles (Android, iOS) et web avec React Native.]]></description>
+            <link>https://johackim.com/expo?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/expo</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 04 Mar 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Crosstool-ng]]></title>
+            <description><![CDATA[Crosstool-ng est un outil permettant de compiler un logiciel avec une architecture différente de celle de notre machine.]]></description>
+            <link>https://johackim.com/crosstool-ng?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/crosstool-ng</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 26 Feb 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ollama]]></title>
+            <description><![CDATA[Ollama est un outil pour utiliser des modèles d'IA (Llama 2, Mistral, etc...) localement.]]></description>
+            <link>https://johackim.com/ollama?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ollama</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DietPI]]></title>
+            <description><![CDATA[DietPi est une distribution Linux légère pour les Raspberry Pi.]]></description>
+            <link>https://johackim.com/dietpi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/dietpi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 12 Feb 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Croc]]></title>
+            <description><![CDATA[Croc est un outil de partage de fichiers open-source en ligne de commande.]]></description>
+            <link>https://johackim.com/croc?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/croc</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 05 Feb 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[En ce moment]]></title>
+            <link>https://johackim.com/now?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/now</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 30 Jan 2024 20:15:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ntfy]]></title>
+            <description><![CDATA[Ntfy est un logiciel de notification open-source. Il permet d'envoyer et de recevoir des notifications sur n'importe quel appareil (ordinateur, smartphone, tablette, etc.).]]></description>
+            <link>https://johackim.com/ntfy?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ntfy</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 29 Jan 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Changedetection.io]]></title>
+            <description><![CDATA[Comment détecter et être notifié des changements d'une page web avec changedetection.io ?]]></description>
+            <link>https://johackim.com/surveiller-les-changements-d-une-page-web?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/surveiller-les-changements-d-une-page-web</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 22 Jan 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Adb]]></title>
+            <description><![CDATA[Adb, l'outil pour gérer votre smartphone Android depuis votre ordinateur.]]></description>
+            <link>https://johackim.com/adb?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/adb</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 15 Jan 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cloc]]></title>
+            <description><![CDATA[Compter le nombre de lignes d'un projet GitHub ou d'un dossier qui contient des fichiers textes.]]></description>
+            <link>https://johackim.com/cloc?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/cloc</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 08 Jan 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Système 1, système 2]]></title>
+            <description><![CDATA[Le système 1 est la partie de notre cerveau qui agit automatiquement sans efforts. Le système 2 est la partie qui demande de la concentration et un temps de réflexion.]]></description>
+            <link>https://johackim.com/system-1-system-2?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/system-1-system-2</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[First Principles]]></title>
+            <description><![CDATA[First Principles est un modèle mental utilisé pour décomposer un problème en éléments de base.]]></description>
+            <link>https://johackim.com/first-principles?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/first-principles</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 25 Dec 2023 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Contourner l'API payante de Twitter]]></title>
+            <description><![CDATA[Comment récupérer le nombre de followers d'un compte X (Twitter) sans utiliser l'API payante de Twitter ?]]></description>
+            <link>https://johackim.com/bypass-api-twitter?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/bypass-api-twitter</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 20 Dec 2023 20:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Systèmes vs. objectifs]]></title>
+            <description><![CDATA[Oubliez vos objectifs, et concentrez-vous sur le système.]]></description>
+            <link>https://johackim.com/systemes-vs-objectifs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/systemes-vs-objectifs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Oct 2023 21:01:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes projets]]></title>
+            <link>https://johackim.com/projects?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/projects</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 Jul 2023 17:45:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Atomic Design]]></title>
+            <description><![CDATA[Découvrez l'Atomic Design, une méthode pour concevoir des interfaces utilisateur cohérentes, hiérarchisées et réutilisables pour le web et les applis.]]></description>
+            <link>https://johackim.com/atomic-design?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/atomic-design</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 06 Mar 2023 18:11:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Can't Hurt Me de David Goggins]]></title>
+            <link>https://johackim.com/cant-hurt-me-david-goggins?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/cant-hurt-me-david-goggins</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Feb 2023 18:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Indie hacker]]></title>
+            <link>https://johackim.com/indie-hacker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/indie-hacker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 17 Nov 2022 11:45:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Framework AARRR]]></title>
+            <link>https://johackim.com/aarrr?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/aarrr</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 31 Jul 2022 03:15:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Thinking in Systems de Donella Meadows]]></title>
+            <link>https://johackim.com/thinking-in-systems?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/thinking-in-systems</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 28 Jul 2022 12:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dopamine]]></title>
+            <link>https://johackim.com/dopamine?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/dopamine</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sat, 09 Jul 2022 12:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cerveau triunique]]></title>
+            <link>https://johackim.com/cerveau-triunique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/cerveau-triunique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 07 Jul 2022 05:58:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Playlists de musique pour entrer dans le flow et rester focus]]></title>
+            <link>https://johackim.com/playlists-musique-focus?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/playlists-musique-focus</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Jul 2022 12:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cypress]]></title>
+            <link>https://johackim.com/cypress?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/cypress</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Jun 2022 12:56:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes blogs préférés]]></title>
+            <link>https://johackim.com/mes-blogs-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-blogs-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Jun 2022 12:18:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portmaster]]></title>
+            <link>https://johackim.com/portmaster?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/portmaster</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 22 Jun 2022 01:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chiffrer son ordinateur sur Linux]]></title>
+            <link>https://johackim.com/chiffrer-son-ordinateur-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/chiffrer-son-ordinateur-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 21 Jun 2022 04:48:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GnuPG]]></title>
+            <link>https://johackim.com/gnupg?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/gnupg</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:54:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pourquoi protéger sa vie privée ?]]></title>
+            <link>https://johackim.com/pourquoi-proteger-sa-vie-privee?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/pourquoi-proteger-sa-vie-privee</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:54:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bloquer les publicités]]></title>
+            <link>https://johackim.com/bloquer-les-publicites?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/bloquer-les-publicites</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:53:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Asdf]]></title>
+            <link>https://johackim.com/asdf?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/asdf</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:53:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Démarrer Signal en ligne de commande]]></title>
+            <link>https://johackim.com/scli?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/scli</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Quickemu]]></title>
+            <link>https://johackim.com/quickemu?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/quickemu</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protégez votre navigateur web]]></title>
+            <link>https://johackim.com/proteger-navigateur-web?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/proteger-navigateur-web</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Jun 2022 11:49:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'art de disparaître]]></title>
+            <link>https://johackim.com/art-de-disparaitre?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/art-de-disparaitre</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 14 Jun 2022 22:02:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Indépendance numérique]]></title>
+            <link>https://johackim.com/liberte-numerique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/liberte-numerique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 14 Jun 2022 22:02:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🐧 Linux]]></title>
+            <description><![CDATA[Comprenez votre ordinateur]]></description>
+            <link>https://johackim.com/linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 14 Jun 2022 22:02:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Spécifier la quantité de ressources d'un conteneur Docker]]></title>
+            <link>https://johackim.com/specifier-quantite-ressources-conteneur-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/specifier-quantite-ressources-conteneur-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 14 Jun 2022 09:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Les lois de la nature humaine de Robert Greene]]></title>
+            <link>https://johackim.com/les-lois-de-la-nature-humaine?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/les-lois-de-la-nature-humaine</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 14 Jun 2022 09:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Exporter l'historique de ses notes Telegram dans des fichiers textes]]></title>
+            <link>https://johackim.com/exporter-lhistorique-telegram-dans-des-fichiers-textes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/exporter-lhistorique-telegram-dans-des-fichiers-textes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 20 Mar 2022 23:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Antifragile]]></title>
+            <link>https://johackim.com/antifragile?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/antifragile</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 20 Mar 2022 23:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mochi, une application pour mieux retenir vos apprentissages.]]></title>
+            <link>https://johackim.com/mochi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mochi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 11 Mar 2022 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Signification du pendentif "The Obstacle Is the Way" de Ryan Holiday]]></title>
+            <link>https://johackim.com/signification-pendentif-obstacle-is-the-way?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/signification-pendentif-obstacle-is-the-way</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 11 Mar 2022 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Accéder gratuitement aux articles Medium protégés]]></title>
+            <link>https://johackim.com/acceder-gratuitement-aux-articles-medium-proteges?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/acceder-gratuitement-aux-articles-medium-proteges</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 Jan 2022 16:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Neovim : la version améliorée et allégée de vim]]></title>
+            <link>https://johackim.com/neovim?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/neovim</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 03 Jan 2022 08:11:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Exécutez facilement vos opérations CRUD avec Sequelize]]></title>
+            <link>https://johackim.com/sequelize?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/sequelize</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 26 Dec 2021 15:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jouer aux jeux vidéos de vos consoles préférés depuis votre ordinateur avec Retrobat]]></title>
+            <link>https://johackim.com/retrobat?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/retrobat</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 26 Dec 2021 15:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'art du crochetage de serrures]]></title>
+            <link>https://johackim.com/lockpicking?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lockpicking</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 26 Dec 2021 15:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un système d'authentification OAuth avec spotify]]></title>
+            <link>https://johackim.com/creer-un-systeme-dauthentification-oauth-avec-spotify?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-systeme-dauthentification-oauth-avec-spotify</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 26 Dec 2021 15:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Storybook]]></title>
+            <link>https://johackim.com/storybook?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/storybook</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 19 Dec 2021 17:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Next.js]]></title>
+            <description><![CDATA[Next.js est un framework JavaScript basé sur React pour créer des applications Web.]]></description>
+            <link>https://johackim.com/nextjs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/nextjs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 19 Dec 2021 17:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pourquoi suis-je difficilement joignable ?]]></title>
+            <link>https://johackim.com/contact?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/contact</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 29 Nov 2021 08:42:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L’effet de compensation morale]]></title>
+            <link>https://johackim.com/leffet-de-compensation-morale?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/leffet-de-compensation-morale</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Le futur illusoire]]></title>
+            <link>https://johackim.com/le-futur-illusoire?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/le-futur-illusoire</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'illusion de fréquence]]></title>
+            <link>https://johackim.com/lillusion-de-frequence?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lillusion-de-frequence</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'effet what the hell]]></title>
+            <link>https://johackim.com/leffet-what-the-hell?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/leffet-what-the-hell</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Flashcard]]></title>
+            <link>https://johackim.com/flashcard?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/flashcard</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Shadow sur Linux]]></title>
+            <link>https://johackim.com/shadow-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/shadow-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brightnessctl]]></title>
+            <description><![CDATA[Brightnessctl est un utilitaire en ligne de commande pour contrôler la luminosité de son écran sur Linux.]]></description>
+            <link>https://johackim.com/brightnessctl?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/brightnessctl</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Whatweb]]></title>
+            <link>https://johackim.com/whatweb?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/whatweb</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 15 Nov 2021 09:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mon programme de musculation]]></title>
+            <link>https://johackim.com/mon-programme-musculation?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mon-programme-musculation</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 15 Nov 2021 09:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un mode dark avec Gatsby et Tailwind CSS]]></title>
+            <link>https://johackim.com/creer-un-mode-dark-avec-gatsby-et-tailwind-css?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-mode-dark-avec-gatsby-et-tailwind-css</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 15 Nov 2021 09:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment avoir spotify gratuitement sans pubs ?]]></title>
+            <link>https://johackim.com/bloquer-les-pubs-de-spotify?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/bloquer-les-pubs-de-spotify</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 07 Nov 2021 21:53:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé de la formation SEO Fundamentals de Zero To Mastery]]></title>
+            <description><![CDATA[Découvrez les bases du SEO, des mots-clés aux backlinks, pour optimiser votre visibilité web et surpasser vos concurrents. Apprenez à utiliser les outils SEO clés.]]></description>
+            <link>https://johackim.com/zero-to-mastery-seo-fundamentals?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/zero-to-mastery-seo-fundamentals</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 31 Oct 2021 21:43:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[♻️ Clean code]]></title>
+            <description><![CDATA[Écrire du code qui dure]]></description>
+            <link>https://johackim.com/clean-code?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/clean-code</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 31 Oct 2021 21:43:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Découvrez d'où proviennent les visiteurs de votre site avec les paramètres UTM]]></title>
+            <link>https://johackim.com/parametres-utm?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/parametres-utm</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NoMachine]]></title>
+            <description><![CDATA[NoMachine est un outil pour accéder à un ordinateur à distance.]]></description>
+            <link>https://johackim.com/nomachine?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/nomachine</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes trucs préférés]]></title>
+            <link>https://johackim.com/mes-trucs-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-trucs-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La règle des 4U]]></title>
+            <link>https://johackim.com/la-regle-des-4u?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-regle-des-4u</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La formule R.O.T]]></title>
+            <link>https://johackim.com/la-formule-r.o.t?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-formule-r.o.t</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La règle 5/25]]></title>
+            <link>https://johackim.com/five-life-goals?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/five-life-goals</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Page du matin]]></title>
+            <link>https://johackim.com/page-du-matin?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/page-du-matin</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 17 Oct 2021 22:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nextdns]]></title>
+            <link>https://johackim.com/nextdns?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/nextdns</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 17 Oct 2021 22:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La méthode PARA]]></title>
+            <link>https://johackim.com/la-methode-para?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-methode-para</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 17 Oct 2021 22:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La méthode ABCDE]]></title>
+            <link>https://johackim.com/la-methode-abcde?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-methode-abcde</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 17 Oct 2021 22:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La Théorie des Contraintes]]></title>
+            <link>https://johackim.com/la-theorie-des-contraintes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-theorie-des-contraintes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 17 Oct 2021 22:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La méthode Ivy Lee]]></title>
+            <link>https://johackim.com/la-methode-ivy-lee?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-methode-ivy-lee</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 10 Oct 2021 14:12:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[WOOP Framework]]></title>
+            <description><![CDATA[Découvrez le système WOOP pour atteindre vos objectifs en 4 étapes ; établir un souhait, déterminer les résultats, identifier les obstacles et planifier.]]></description>
+            <link>https://johackim.com/woop-framework?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/woop-framework</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre 12 leçons de rhétorique pour prendre le pouvoir de Victor Ferry]]></title>
+            <link>https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Regret Minimization Framework]]></title>
+            <link>https://johackim.com/regret-minimization-framework?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/regret-minimization-framework</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Refactoring UI de Adam Wathan]]></title>
+            <link>https://johackim.com/refactoring-ui-adam-wathan?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/refactoring-ui-adam-wathan</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La technique de l'échelle]]></title>
+            <link>https://johackim.com/la-technique-de-lechelle?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-technique-de-lechelle</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La règle des 3 tâches]]></title>
+            <link>https://johackim.com/la-regle-des-3-taches?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-regle-des-3-taches</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La règle des 2 minutes]]></title>
+            <link>https://johackim.com/la-regle-des-2-minutes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-regle-des-2-minutes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[LibreELEC]]></title>
+            <description><![CDATA[Guide d'installation de LibreELEC sur un Raspberry PI]]></description>
+            <link>https://johackim.com/libreelec?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/libreelec</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Retrouver le passage d'une vidéo YouTube]]></title>
+            <link>https://johackim.com/comment-retrouver-le-passage-dune-video-youtube?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-retrouver-le-passage-dune-video-youtube</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Trouver des fichiers en double sur Linux]]></title>
+            <link>https://johackim.com/trouver-des-fichiers-en-double-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/trouver-des-fichiers-en-double-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Traction du fondateur de Duckduckgo Gabriel Weinberg]]></title>
+            <description><![CDATA[La traction est le signe que votre entreprise décolle. A ce moment là, les KPI s'affollent (téléchargements, ventes, etc...).]]></description>
+            <link>https://johackim.com/traction-gabriel-weinberg?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/traction-gabriel-weinberg</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes applications Android]]></title>
+            <link>https://johackim.com/mes-applications-android?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-applications-android</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Exporter ses bookmarks Firefox en markdown]]></title>
+            <link>https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Changer la version de python facilement avec pyenv]]></title>
+            <link>https://johackim.com/changer-la-version-de-python-facilement-avec-pyenv?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/changer-la-version-de-python-facilement-avec-pyenv</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Skillshare]]></title>
+            <link>https://johackim.com/telecharger-gratuitement-les-formations-de-skillshare?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/telecharger-gratuitement-les-formations-de-skillshare</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Télécharger des torrents depuis un navigateur web]]></title>
+            <link>https://johackim.com/webtorrent?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/webtorrent</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Modifier le fuseau horraire d'un serveur Linux]]></title>
+            <link>https://johackim.com/modifier-le-fuseau-horraire-dun-serveur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/modifier-le-fuseau-horraire-dun-serveur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes artistes préférés]]></title>
+            <link>https://johackim.com/mes-musiques-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-musiques-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Détecter le format d'une date]]></title>
+            <link>https://johackim.com/detecter-le-format-dune-date?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/detecter-le-format-dune-date</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer une version modifié d'un package AUR sur Arch Linux]]></title>
+            <link>https://johackim.com/installer-une-version-modifie-dun-package-aur-sur-arch-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-une-version-modifie-dun-package-aur-sur-arch-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Extraire les sous-titres d'une vidéo mkv]]></title>
+            <link>https://johackim.com/extraire-les-sous-titre-dune-video-mkv?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/extraire-les-sous-titre-dune-video-mkv</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Github Pages]]></title>
+            <link>https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Récupérer le flux RSS d'une chaine YouTube]]></title>
+            <link>https://johackim.com/recuperer-le-flux-rss-dune-chaine-youtube?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/recuperer-le-flux-rss-dune-chaine-youtube</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 29 Aug 2021 19:14:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre L'Art de la séduction de Robert Greene]]></title>
+            <link>https://johackim.com/lart-de-la-seduction-robert-greene?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lart-de-la-seduction-robert-greene</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 29 Aug 2021 19:14:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Démarrer macOS sur Linux]]></title>
+            <link>https://johackim.com/demarrer-macos-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/demarrer-macos-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 22 Aug 2021 20:37:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais des coûts irrécupérables]]></title>
+            <link>https://johackim.com/biais-des-couts-irrecuperables?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-des-couts-irrecuperables</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 22 Aug 2021 20:37:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vérifier une information]]></title>
+            <link>https://johackim.com/comment-verifier-une-source-information?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-verifier-une-source-information</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 15 Aug 2021 19:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment supprimer un watermark ?]]></title>
+            <link>https://johackim.com/watermark?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/watermark</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 15 Aug 2021 19:41:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nettoyer son ordinateur sur Linux avec BleachBit]]></title>
+            <link>https://johackim.com/nettoyer-son-ordinateur-sur-linux-avec-bleachbit?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/nettoyer-son-ordinateur-sur-linux-avec-bleachbit</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 08 Aug 2021 19:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[License]]></title>
+            <link>https://johackim.com/generer-un-fichier-de-licence-license.txt-automatiquement?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/generer-un-fichier-de-licence-license.txt-automatiquement</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 08 Aug 2021 19:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Slow burns vs. heavy lifts]]></title>
+            <link>https://johackim.com/slow-burns?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/slow-burns</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 08 Aug 2021 19:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Se connecter à un serveur IRC avec Weechat]]></title>
+            <link>https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer un serveur VPN (très rapidement) avec dsvpn]]></title>
+            <link>https://johackim.com/installer-un-serveur-vpn-avec-dsvpn?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-un-serveur-vpn-avec-dsvpn</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bloquer les adresse IPs d'un réseau externe avec Express.js]]></title>
+            <link>https://johackim.com/bloquer-les-adresse-ips-dun-reseau-externe-avec-expressjs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/bloquer-les-adresse-ips-dun-reseau-externe-avec-expressjs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Limiter la bande passante d'une interface réseau sous Linux]]></title>
+            <link>https://johackim.com/limiter-la-bande-passante-dune-interface-reseau-sous-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/limiter-la-bande-passante-dune-interface-reseau-sous-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cryptsetup]]></title>
+            <description><![CDATA[Cryptsetup est un outil pour chiffrer une partition d'un disque dur.]]></description>
+            <link>https://johackim.com/cryptsetup?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/cryptsetup</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Impots]]></title>
+            <link>https://johackim.com/faire-sa-declaration-dimpot-en-tant-quauto-entrepreneur?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/faire-sa-declaration-dimpot-en-tant-quauto-entrepreneur</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment créer un chatbot open-source avec Rasa ?]]></title>
+            <link>https://johackim.com/creer-un-chatbot-avec-rasa?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-chatbot-avec-rasa</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 25 Jul 2021 19:49:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Zero to Sold de Arvid Kahl]]></title>
+            <link>https://johackim.com/zero-to-sold-arvid-kahl?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/zero-to-sold-arvid-kahl</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 18 Jul 2021 19:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Travailler en Deep Work sur Linux]]></title>
+            <link>https://johackim.com/travailler-en-deep-work-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/travailler-en-deep-work-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 18 Jul 2021 19:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Make de Pieter Levels]]></title>
+            <description><![CDATA[Un résumé pratique du livre Make de Pieter Levels, offre des conseils sur comment créer et lancer de produits, trouver votre audience spécifique, et monétiser votre travail avec succès.]]></description>
+            <link>https://johackim.com/make-pieter-levels?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/make-pieter-levels</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 18 Jul 2021 19:21:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'illusion des séries]]></title>
+            <link>https://johackim.com/lillusion-des-series?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lillusion-des-series</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'effet de simple exposition]]></title>
+            <link>https://johackim.com/leffet-de-simple-exposition?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/leffet-de-simple-exposition</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'effet de halo]]></title>
+            <link>https://johackim.com/leffet-de-halo?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/leffet-de-halo</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Démarrer une application GUI avec SSH]]></title>
+            <link>https://johackim.com/demarrer-une-application-gui-avec-ssh?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/demarrer-une-application-gui-avec-ssh</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment créer un thème Obsidian ?]]></title>
+            <link>https://johackim.com/creer-un-theme-obsidian?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-theme-obsidian</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais narratif]]></title>
+            <link>https://johackim.com/biais-narratif?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-narratif</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais du survivant]]></title>
+            <link>https://johackim.com/biais-du-survivant?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-du-survivant</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais du monde juste]]></title>
+            <link>https://johackim.com/biais-du-monde-juste?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-du-monde-juste</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais de tribalisme]]></title>
+            <link>https://johackim.com/biais-du-tribalisme?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-du-tribalisme</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais de l'aversion à la perte]]></title>
+            <link>https://johackim.com/biais-de-laversion-a-la-perte?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-de-laversion-a-la-perte</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais de confirmation]]></title>
+            <link>https://johackim.com/biais-de-confirmation?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-de-confirmation</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais d'optimisme]]></title>
+            <link>https://johackim.com/biais-doptimisme?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-doptimisme</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre Atomic Habits de James Clear]]></title>
+            <link>https://johackim.com/atomic-habits-james-clear?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/atomic-habits-james-clear</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais d'ancrage]]></title>
+            <link>https://johackim.com/biais-ancrage?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-ancrage</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Débugger un site internet sur iPad depuis Linux]]></title>
+            <link>https://johackim.com/debugger-un-site-internet-sur-ipad-depuis-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/debugger-un-site-internet-sur-ipad-depuis-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 05 Jul 2021 16:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Générer dynamiquement des images avec node-canvas]]></title>
+            <link>https://johackim.com/generer-dynamiquement-des-images-avec-node-canvas?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/generer-dynamiquement-des-images-avec-node-canvas</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 05 Jul 2021 16:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Démarrer un serveur HTTP en ligne de commande]]></title>
+            <link>https://johackim.com/demarrer-un-serveur-http-en-ligne-de-commande?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/demarrer-un-serveur-http-en-ligne-de-commande</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 05 Jul 2021 16:31:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tor]]></title>
+            <link>https://johackim.com/tor?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tor</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tester les touches de son clavier sur Linux]]></title>
+            <link>https://johackim.com/tester-les-touches-de-son-clavier-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tester-les-touches-de-son-clavier-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Prettier]]></title>
+            <link>https://johackim.com/installer-prettier?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-prettier</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pair programming]]></title>
+            <link>https://johackim.com/pair-programming?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/pair-programming</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Note temporaire]]></title>
+            <link>https://johackim.com/notes-temporaires?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/notes-temporaires</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Note permanente]]></title>
+            <link>https://johackim.com/notes-permanentes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/notes-permanentes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Note littéraire]]></title>
+            <link>https://johackim.com/notes-litteraires?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/notes-litteraires</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Note atomique]]></title>
+            <link>https://johackim.com/note-atomique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/note-atomique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mon processus de prise de notes]]></title>
+            <link>https://johackim.com/mon-processus-de-prise-de-notes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mon-processus-de-prise-de-notes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🗺️ Modèles mentaux]]></title>
+            <description><![CDATA[Prenez de meilleures décisions]]></description>
+            <link>https://johackim.com/modeles-mentaux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/modeles-mentaux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Modèles de prix pour un SaaS]]></title>
+            <link>https://johackim.com/modeles-de-prix-pour-un-saas?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/modeles-de-prix-pour-un-saas</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Matrice d'Eisenhower]]></title>
+            <link>https://johackim.com/matrice-deisenhower?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/matrice-deisenhower</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La loi de Pareto]]></title>
+            <link>https://johackim.com/loi-de-pareto?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/loi-de-pareto</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Les cinq éléments de toute entreprise]]></title>
+            <link>https://johackim.com/les-cinq-elements-de-toute-entreprise?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/les-cinq-elements-de-toute-entreprise</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Le modèle comportemental de Fogg]]></title>
+            <link>https://johackim.com/le-modele-comportemental-de-fogg?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/le-modele-comportemental-de-fogg</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'effet Lindy]]></title>
+            <link>https://johackim.com/leffet-lindy?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/leffet-lindy</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre L'autoroute du millionnaire de MJ Demarco]]></title>
+            <link>https://johackim.com/lautoroute-du-millionaire-mj-demarco?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lautoroute-du-millionaire-mj-demarco</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ikigai]]></title>
+            <link>https://johackim.com/ikigai?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ikigai</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre How I Found Freedom in an Unfree World de Harry Browne]]></title>
+            <link>https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Extraire les sous-titres d'une vidéo YouTube]]></title>
+            <link>https://johackim.com/extraire-les-sous-titres-d&apos;une-video-youtube?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/extraire-les-sous-titres-d&apos;une-video-youtube</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Digital Garden]]></title>
+            <link>https://johackim.com/digital-garden?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/digital-garden</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un ebook à partir d'un fichier markown]]></title>
+            <link>https://johackim.com/creer-un-ebook-a-partir-d&apos;un-fichier-markown?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-ebook-a-partir-d&apos;un-fichier-markown</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Biais cognitifs]]></title>
+            <link>https://johackim.com/biais-cognitifs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/biais-cognitifs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chiffrer un dossier avec eCryptfs]]></title>
+            <description><![CDATA[Guide pour chiffrer un dossier avec eCryptfs sur Ubuntu ou Debian.]]></description>
+            <link>https://johackim.com/chiffrer-un-dossier-avec-ecryptfs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/chiffrer-un-dossier-avec-ecryptfs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TDD]]></title>
+            <link>https://johackim.com/test-driven-development?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/test-driven-development</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Shred]]></title>
+            <description><![CDATA[Supprimer définitivement des fichiers sur Linux avec la commande shred.]]></description>
+            <link>https://johackim.com/shred?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/shred</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SMART]]></title>
+            <link>https://johackim.com/objectifs-smart?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/objectifs-smart</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un fichier .gitignore automatiquement]]></title>
+            <link>https://johackim.com/creer-un-fichier-.gitignore?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-fichier-.gitignore</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installez un espace de production de musique sur Windows avec Ableton et Maschine]]></title>
+            <link>https://johackim.com/installation-de-ableton-et-maschine?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installation-de-ableton-et-maschine</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 16 Jun 2021 11:04:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Les différents types de sauvegarde]]></title>
+            <link>https://johackim.com/types-de-sauvegarde?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/types-de-sauvegarde</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tester la vitesse d'écriture d'un disque dur sur Linux]]></title>
+            <link>https://johackim.com/tester-la-vitesse-d&apos;ecriture-d&apos;un-disque-dur-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tester-la-vitesse-d&apos;ecriture-d&apos;un-disque-dur-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Regarder toutes les chaines de télévision gratuitement depuis son ordinateur]]></title>
+            <link>https://johackim.com/regarder-la-television-avec-kodi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/regarder-la-television-avec-kodi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rclone]]></title>
+            <link>https://johackim.com/rclone?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/rclone</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes séries préférés]]></title>
+            <link>https://johackim.com/mes-series-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-series-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes jeux vidéos préférés]]></title>
+            <link>https://johackim.com/mes-jeux-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-jeux-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes films préférés]]></title>
+            <link>https://johackim.com/mes-films-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-films-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kopia]]></title>
+            <link>https://johackim.com/kopia?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/kopia</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kodi]]></title>
+            <link>https://johackim.com/kodi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/kodi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Intégrer Tailwind CSS à gatsby]]></title>
+            <link>https://johackim.com/integrer-tailwind-css-a-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/integrer-tailwind-css-a-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[IPTV]]></title>
+            <link>https://johackim.com/iptv?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/iptv</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gérer un stockage Zapier avec cURL]]></title>
+            <link>https://johackim.com/gerer-un-stockage-zapier-avec-curl?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/gerer-un-stockage-zapier-avec-curl</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gérer les workspaces avec Terraform]]></title>
+            <link>https://johackim.com/gerer-les-workspaces-avec-terraform?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/gerer-les-workspaces-avec-terraform</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Initialiser eslint sur un projet JavaScript]]></title>
+            <link>https://johackim.com/initialiser-eslint-sur-un-projet-javascript?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/initialiser-eslint-sur-un-projet-javascript</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer une bar de progression de lecture sur Gatsby]]></title>
+            <link>https://johackim.com/creer-une-bar-de-progression-de-lecture-sur-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-une-bar-de-progression-de-lecture-sur-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un flux RSS avec Gatsby]]></title>
+            <link>https://johackim.com/creer-un-flux-rss-avec-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-flux-rss-avec-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Puppeteer]]></title>
+            <link>https://johackim.com/puppeteer?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/puppeteer</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[iptables]]></title>
+            <description><![CDATA[Iptables est un pare-feu pour Linux. Il permet de bloquer ou d'autoriser des connexions entrantes et sortantes.]]></description>
+            <link>https://johackim.com/iptables?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/iptables</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Docker history]]></title>
+            <link>https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Initialiser un projet Gatsby]]></title>
+            <link>https://johackim.com/initialiser-un-projet-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/initialiser-un-projet-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Importer ses notes markdown dans Gatsby]]></title>
+            <link>https://johackim.com/importer-ses-notes-markdown-dans-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/importer-ses-notes-markdown-dans-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer une table des matières des fichiers markdown avec Gatsby]]></title>
+            <link>https://johackim.com/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Syntaxe markdown d'Obsidian dans Gatsby]]></title>
+            <link>https://johackim.com/ajouter-le-support-de-la-syntaxe-markdown-d&apos;obsidian-dans-gatsby?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ajouter-le-support-de-la-syntaxe-markdown-d&apos;obsidian-dans-gatsby</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un digital garden de A à Z avec Gatsby et Obsidian]]></title>
+            <link>https://johackim.com/creer-un-digital-garden?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-digital-garden</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 31 May 2021 15:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bypasser les raccourcisseurs d'URL comme bitly]]></title>
+            <link>https://johackim.com/universal-bypass?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/universal-bypass</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Regarder la météo depuis un terminal]]></title>
+            <link>https://johackim.com/regarder-la-meteo-depuis-un-terminal?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/regarder-la-meteo-depuis-un-terminal</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mettre à jour l'infrastructure]]></title>
+            <link>https://johackim.com/mettre-a-jour-l&apos;infrastructure?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mettre-a-jour-l&apos;infrastructure</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jackett]]></title>
+            <description><![CDATA[Jackett est un métamoteur de torrents open-source.]]></description>
+            <link>https://johackim.com/jackett?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/jackett</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Initialiser terraform]]></title>
+            <link>https://johackim.com/initialiser-terraform?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/initialiser-terraform</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Héberger un site sur le réseau IPFS]]></title>
+            <link>https://johackim.com/ipfs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ipfs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Détruire l'infrastructure]]></title>
+            <link>https://johackim.com/detruire-l&apos;infrastructure?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/detruire-l&apos;infrastructure</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un service Docker avec plusieurs replicas]]></title>
+            <link>https://johackim.com/creer-un-service-docker-avec-plusieurs-replicas?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-service-docker-avec-plusieurs-replicas</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Joal]]></title>
+            <description><![CDATA[Augmentez votre ratio sur les sites de torrent avec Joal]]></description>
+            <link>https://johackim.com/joal?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/joal</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Flaresolverr]]></title>
+            <link>https://johackim.com/contourner-la-protection-cloudflare?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/contourner-la-protection-cloudflare</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yt-dlp]]></title>
+            <link>https://johackim.com/telecharger-les-videos-de-l&apos;espace-membre-d&apos;un-site?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/telecharger-les-videos-de-l&apos;espace-membre-d&apos;un-site</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Spectre]]></title>
+            <link>https://johackim.com/spectre?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/spectre</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pare-feu]]></title>
+            <link>https://johackim.com/pare-feu?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/pare-feu</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[IPS]]></title>
+            <link>https://johackim.com/ips?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ips</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[IDS]]></title>
+            <link>https://johackim.com/ids?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ids</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hardening]]></title>
+            <link>https://johackim.com/hardening?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/hardening</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ClamAV]]></title>
+            <description><![CDATA[Antivirus open-source pour détecter les malwares]]></description>
+            <link>https://johackim.com/clamav?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/clamav</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deep packet inspection]]></title>
+            <link>https://johackim.com/dpi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/dpi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 21:17:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Démarrer un conteneur Docker]]></title>
+            <link>https://johackim.com/demarrer-un-conteneur-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/demarrer-un-conteneur-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 18 May 2021 12:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Traefik]]></title>
+            <link>https://johackim.com/traefik?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/traefik</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Traefik et Let's Encrypt]]></title>
+            <link>https://johackim.com/traefik-et-let&apos;s-encrypt?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/traefik-et-let&apos;s-encrypt</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Terraform]]></title>
+            <link>https://johackim.com/terraform?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/terraform</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Supprimer un conteneur Docker]]></title>
+            <link>https://johackim.com/supprimer-un-conteneur-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/supprimer-un-conteneur-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stack Docker]]></title>
+            <link>https://johackim.com/stack-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/stack-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Service Docker]]></title>
+            <link>https://johackim.com/service-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/service-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Restic]]></title>
+            <link>https://johackim.com/restic?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/restic</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lister les conteneurs Docker]]></title>
+            <link>https://johackim.com/lister-les-conteneurs-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/lister-les-conteneurs-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer Traefik avec Docker Swarm]]></title>
+            <link>https://johackim.com/installer-traefik-avec-docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-traefik-avec-docker-swarm</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer Terraform]]></title>
+            <link>https://johackim.com/installer-terraform?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-terraform</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer Grafana et Prometheus avec Docker Swarm]]></title>
+            <link>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer Docker]]></title>
+            <link>https://johackim.com/installer-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Initialiser un cluster Docker Swarm]]></title>
+            <link>https://johackim.com/initialiser-un-cluster-docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/initialiser-un-cluster-docker-swarm</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GlusterFS]]></title>
+            <link>https://johackim.com/glusterfs?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/glusterfs</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Entrer à l'intérieur d'un conteneur Docker]]></title>
+            <link>https://johackim.com/entrer-a-l&apos;interieur-d&apos;un-conteneur-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/entrer-a-l&apos;interieur-d&apos;un-conteneur-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Docker]]></title>
+            <link>https://johackim.com/docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Docker Swarm]]></title>
+            <link>https://johackim.com/docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/docker-swarm</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Docker volumes]]></title>
+            <link>https://johackim.com/creer-un-volume-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-un-volume-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Obsidian]]></title>
+            <link>https://johackim.com/obsidian?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/obsidian</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 14:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ma stack technique]]></title>
+            <link>https://johackim.com/ma-stack-technique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ma-stack-technique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 13:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[A propos de moi]]></title>
+            <link>https://johackim.com/a-propos?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/a-propos</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 13:05:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🥷 Cybersécurité]]></title>
+            <description><![CDATA[Protégez-vous des méchants hackers]]></description>
+            <link>https://johackim.com/cybersecurite?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/cybersecurite</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 12:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer un compte facebook anonyme]]></title>
+            <link>https://johackim.com/compte-facebook-anonyme?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/compte-facebook-anonyme</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 11 May 2021 12:20:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre L'obstacle est le chemin de Ryan Holiday]]></title>
+            <link>https://johackim.com/l&apos;obstacle-est-le-chemin-ryan-holiday?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/l&apos;obstacle-est-le-chemin-ryan-holiday</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 04 May 2021 08:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Devenez hébergeur web indépendant]]></title>
+            <link>https://johackim.com/devenez-hebergeur-web-independant?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/devenez-hebergeur-web-independant</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 04 May 2021 08:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Minecraft]]></title>
+            <link>https://johackim.com/minecraft?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/minecraft</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 04 May 2021 08:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Résumé du livre The One Thing de Garry Keller]]></title>
+            <link>https://johackim.com/the-one-thing-gary-keller?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/the-one-thing-gary-keller</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Taylor Pearson - The Effective Entrepreneur]]></title>
+            <link>https://johackim.com/taylor-pearson-the-effective-entrepreneur?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/taylor-pearson-the-effective-entrepreneur</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment mieux concevoir ses notes avec la synthétisation progressive]]></title>
+            <link>https://johackim.com/synthetisation-progressive?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/synthetisation-progressive</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mes 3 étapes pour créer un plan de 90 jours]]></title>
+            <link>https://johackim.com/plan-de-90-jours?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/plan-de-90-jours</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment mieux organiser ses notes avec la méthode Zettelkasten]]></title>
+            <description><![CDATA[Le livre How to Take Smart Notes de Sönke Ahrens est une introduction à la méthode Zettelkasten pour organiser ses notes de manière efficace]]></description>
+            <link>https://johackim.com/how-to-take-smart-notes-sonke-ahrens?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/how-to-take-smart-notes-sonke-ahrens</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[C'est quoi un hacker ?]]></title>
+            <link>https://johackim.com/hacker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/hacker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 16 Apr 2021 10:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mon second cerveau]]></title>
+            <description><![CDATA[Découvrez comment j'ai créé un "second cerveau" pour expérimenter, recenser et partager toutes mes idées.]]></description>
+            <link>https://johackim.com/mon-second-cerveau?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mon-second-cerveau</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 16 Apr 2021 10:50:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🛡️ Vie privée]]></title>
+            <description><![CDATA[Gardez le contrôle de vos données]]></description>
+            <link>https://johackim.com/vie-privee?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/vie-privee</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 18:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🏴‍☠️ Warez]]></title>
+            <description><![CDATA[Télécharger librement]]></description>
+            <link>https://johackim.com/warez?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/warez</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SEO]]></title>
+            <link>https://johackim.com/seo?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/seo</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[💻 Programmation]]></title>
+            <description><![CDATA[Apprenez à coder]]></description>
+            <link>https://johackim.com/programmation?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/programmation</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[🏠 Hébergement web]]></title>
+            <description><![CDATA[Gérez vos propres serveurs]]></description>
+            <link>https://johackim.com/hebergement-web?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/hebergement-web</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[💼 Entrepreneuriat]]></title>
+            <description><![CDATA[Résoudre les problèmes des gens]]></description>
+            <link>https://johackim.com/entrepreneuriat?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/entrepreneuriat</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Copywriting]]></title>
+            <description><![CDATA[Convaincre avec des mots]]></description>
+            <link>https://johackim.com/copywriting?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/copywriting</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[📚 Résumés de livre]]></title>
+            <description><![CDATA[De la nourriture pour votre cerveau]]></description>
+            <link>https://johackim.com/livres?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/livres</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[⚡️ Productivité]]></title>
+            <description><![CDATA[Travailler moins]]></description>
+            <link>https://johackim.com/productivite?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/productivite</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 15 Apr 2021 16:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hacker indépendant]]></title>
+            <link>https://johackim.com/start?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/start</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 09 Apr 2021 15:03:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Générer des idées de produits - Techniques actionnables pour trouver de nouvelles idées de business]]></title>
+            <description><![CDATA[Apprenez à trouver des idées pour votre prochaine entreprise, votre activité secondaire ou votre startup indépendante.]]></description>
+            <link>https://johackim.com/generating-product-ideas-actionable-techniques-for-finding-new-business-ideas?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/generating-product-ideas-actionable-techniques-for-finding-new-business-ideas</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 08 Feb 2021 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10 façons de gagner de l'argent sur le web en tant que développeur]]></title>
+            <description><![CDATA[Découvrez 10 façons de monétiser vos compétences en programmation.]]></description>
+            <link>https://johackim.com/10-facons-de-gagner-de-largent-sur-le-web-en-tant-que-developpeur?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/10-facons-de-gagner-de-largent-sur-le-web-en-tant-que-developpeur</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sat, 30 Jan 2021 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stratégie océan bleu]]></title>
+            <description><![CDATA[Comment créer un espace de marché incontesté et mettre la concurrence hors-jeu ?]]></description>
+            <link>https://johackim.com/strategie-ocean-bleu?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/strategie-ocean-bleu</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 22 Jan 2021 11:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Supprimer la voix d'une musique]]></title>
+            <description><![CDATA[Je viens de découvrir un outil open-source créé par Deezer qui s'appelle spleeter. Il permet de supprimer le chant d'une musique.]]></description>
+            <link>https://johackim.com/supprimer-voix-musique?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/supprimer-voix-musique</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 07 Jan 2021 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Choisir : La décision la plus importante lors du démarrage de votre entreprise]]></title>
+            <description><![CDATA[Choisir le bon ou le mauvais marché est la seule chose qui définit le succès de votre entreprise. Si vous choisissez le mauvais marché, votre entreprise est vouée à l'échec avant même de commencer.]]></description>
+            <link>https://johackim.com/choisir-de-ryan-levesque?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/choisir-de-ryan-levesque</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 04 Jan 2021 11:44:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment supprimer les DRMs d'un ebook acheté sur Amazon ?]]></title>
+            <description><![CDATA[Pour être libre de pouvoir consulter ses ebooks sur n'importe quel support, voici les étapes à suivre pour supprimer les DRMs d'un ebook acheté sur Amazon.]]></description>
+            <link>https://johackim.com/comment-supprimer-les-drms-dun-ebook?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-supprimer-les-drms-dun-ebook</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sat, 26 Dec 2020 08:42:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment vérifier la demande d'un marché avant de créer un produit dont personne ne veut ?]]></title>
+            <description><![CDATA[Découvrez comment vérifier la demande du marché avant de lancer un produit. Apprenez à cerner votre audience, à identifier les mots-clés pertinents et à estimer le nombre de personnes à atteindre.]]></description>
+            <link>https://johackim.com/comment-mesurer-demande-marche?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-mesurer-demande-marche</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 05 Oct 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment télécharger gratuitement les images de Shutterstock ?]]></title>
+            <description><![CDATA[Je vous partage 2 méthodes pour télécharger toutes les images de Shutterstock gratuitement.]]></description>
+            <link>https://johackim.com/comment-telecharger-gratuitement-les-images-de-shutterstock?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-telecharger-gratuitement-les-images-de-shutterstock</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 02 Oct 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment répondre aux 5 objections fondamentales ?]]></title>
+            <description><![CDATA[Les doutes et questionnements d'un client envers vous et votre produit sont inévitables. Comment faire face aux 5 plus grosses objections qu'un client peut avoir ?]]></description>
+            <link>https://johackim.com/comment-repondre-aux-objections?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-repondre-aux-objections</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 01 Oct 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La formule A.I.D.A]]></title>
+            <description><![CDATA[La formule la plus utilisée pour structurer un contenu (page de vente, vidéo de vente, e-mail, discours) dans le but de vendre c'est A.I.D.A, qui signifie Attention, Intérêt, Désir, Action.]]></description>
+            <link>https://johackim.com/la-formule-aida?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-formule-aida</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 29 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment trouver un nom de produit ?]]></title>
+            <description><![CDATA[Une liste des sites à utiliser pour générer des idées de noms de produit.]]></description>
+            <link>https://johackim.com/comment-trouver-un-nom-de-produit?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-trouver-un-nom-de-produit</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 27 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment écrire un titre persuasif ?]]></title>
+            <link>https://johackim.com/comment-ecrire-un-titre-efficace?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-ecrire-un-titre-efficace</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sat, 26 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment télécharger gratuitement toutes les musiques de Deezer ?]]></title>
+            <link>https://johackim.com/comment-telecharger-gratuitement-des-musiques-en-illimite?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-telecharger-gratuitement-des-musiques-en-illimite</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sat, 19 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[L'échelle de sensibilisation : les 5 niveaux de conscience d'un prospect]]></title>
+            <description><![CDATA[Pour améliorer l'impact de notre contenu, il est peut-être important de connaitre à l'avance le degré de sensibilisation de notre prospect par rapport à notre produit.]]></description>
+            <link>https://johackim.com/les-5-niveaux-de-conscience?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/les-5-niveaux-de-conscience</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 18 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bénéfices vs. fonctions]]></title>
+            <description><![CDATA[Quand on est développeur, on a souvent le réflexe de vendre les fonctionnalités (features) de notre produit. C'est sur quoi on a le plus travaillé et pourtant ce n'est absolument pas ça qui pousse à l'utilisation ou l'achat de notre solution.]]></description>
+            <link>https://johackim.com/benefices-vs-fonctions?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/benefices-vs-fonctions</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sat, 12 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer Lineage OS sur un Samsung Galaxy J3 2016 SMJ320FN]]></title>
+            <description><![CDATA[Petit tutoriel rapide sur l'installation de Lineage OS sur un smartphone Samsung Galaxy J3 2016 SMJ320FN.]]></description>
+            <link>https://johackim.com/installer-lineage-os-sur-un-samsung-galaxy-j3-2016?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-lineage-os-sur-un-samsung-galaxy-j3-2016</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 10 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment créer un tunnel sur matomo ?]]></title>
+            <description><![CDATA[Consultez facilement le parcours et les taux de conversion des actions de vos visiteurs (inscription, achat en ligne, etc..) à l'aide de la fonctionnalité Funnel de Matomo.]]></description>
+            <link>https://johackim.com/comment-creer-un-funnel-sur-matomo?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-creer-un-funnel-sur-matomo</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 01 Sep 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tester l'envoi d'un e-mail en ligne de commande]]></title>
+            <description><![CDATA[Comment tester simplement l'envoi d'un e-mail en ligne de commande sur Linux ?]]></description>
+            <link>https://johackim.com/tester-envoi-email-ligne-de-commande?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/tester-envoi-email-ligne-de-commande</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 26 Aug 2020 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pourquoi certaines idées survivent et d'autres meurent ?]]></title>
+            <description><![CDATA[Comment se fait-il que des histoires arrivent à traverser les âges et d'autres non ? Comment trouver la bonne formule pour qu'une histoire reste gravé dans la tête des gens ?]]></description>
+            <link>https://johackim.com/pourquoi-certaines-idees-survivent-et-dautres-meurent?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/pourquoi-certaines-idees-survivent-et-dautres-meurent</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 19 Aug 2020 08:49:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Arrêtez de demander si votre idée d'entreprise est bonne !]]></title>
+            <description><![CDATA[Comment savoir si son idée est bonne quand tout le monde nous ment ?]]></description>
+            <link>https://johackim.com/arretez-de-demander-si-votre-idee-d-entreprise-est-bonne?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/arretez-de-demander-si-votre-idee-d-entreprise-est-bonne</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 27 Dec 2019 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment contourner le pare-feu de mon école ?]]></title>
+            <description><![CDATA[Que faire quand son école met tout en oeuvre pour pas que l'on accède à nos sites ou jeux préférés ?]]></description>
+            <link>https://johackim.com/comment-contourner-le-pare-feu-de-mon-ecole?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-contourner-le-pare-feu-de-mon-ecole</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 02 Oct 2019 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment trouver de nouvelles idées avec la méthode Hexagone ?]]></title>
+            <description><![CDATA[J'ai récemment découvert via une conférence TED, une méthode très pratique qui permet d'explorer et de trouver de nouvelles idées à partir d'une idée déjà existante.]]></description>
+            <link>https://johackim.com/comment-trouver-idees-methode-hexagone?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-trouver-idees-methode-hexagone</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 18 Sep 2019 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Prenez de meilleures décisions grâce aux modèles mentaux]]></title>
+            <description><![CDATA[Les modèles mentaux sont votre boîte à outils mentale pour prendre des décisions et comprendre comment le monde fonctionne réellement. Plus vous avez d'outils, mieux vous êtes équipé pour prendre de bonnes décisions.]]></description>
+            <link>https://johackim.com/prenez-de-meilleures-decisions-grace-aux-modeles-mentaux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/prenez-de-meilleures-decisions-grace-aux-modeles-mentaux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 11 Sep 2019 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Les ressources d'un hacker indépendant]]></title>
+            <link>https://johackim.com/ressources?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ressources</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 24 Jun 2019 12:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La méthode Inbox Zero pour gagner en productivité]]></title>
+            <description><![CDATA[Pendant très longtemps, je suis resté en alerte à chaque message reçu (email, SMS, actualité...). Je passais plus de temps à lire et répondre à mes messages qu'à réaliser mes objectifs. Grâce à la méthode Inbox Zero je peux désormais me consacrer à l'essentiel de mes objectifs !]]></description>
+            <link>https://johackim.com/la-methode-inbox-zero-pour-gagner-en-productivite?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/la-methode-inbox-zero-pour-gagner-en-productivite</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 29 May 2019 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Les meilleurs conseils pour créer un business]]></title>
+            <description><![CDATA[Y Combinator a publié en 2017 un article rassemblant les meilleurs conseils pour les entrepreneurs qui souhaitent créer leur entreprise. Voici un résumé en français.]]></description>
+            <link>https://johackim.com/les-meilleurs-conseils-pour-creer-un-business?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/les-meilleurs-conseils-pour-creer-un-business</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 22 Apr 2019 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment débugger un problème de manière efficace ?]]></title>
+            <description><![CDATA[Aujourd'hui, je partage avec vous mon processus pour résoudre des problèmes en apparence complexe, mais qui peuvent se résoudre facilement si l'on utilise la bonne méthode.]]></description>
+            <link>https://johackim.com/comment-debugger-un-probleme-de-maniere-efficace?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-debugger-un-probleme-de-maniere-efficace</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 20 Jan 2019 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[10 étapes pour prototyper et tester un business en ligne en 1 jour]]></title>
+            <description><![CDATA[Aujourd'hui je partage avec vous un ensemble de méthodes pour prototype et vérifier en un jour la viabilité, faisabilité et désirabilité d'un business en ligne.]]></description>
+            <link>https://johackim.com/10-etapes-pour-prototyper-et-tester-un-business-en-ligne-en-1-jour?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/10-etapes-pour-prototyper-et-tester-un-business-en-ligne-en-1-jour</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 09 Jan 2019 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mon infrastructure en tant qu'hébergeur web indépendant]]></title>
+            <description><![CDATA[En tant que membre des CHATONS (Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires) et étant seul à maintenir les services de mes clients, je me suis conçu une infrastructure sécurisée, performante, scalable, automatisée et facile à maintenir.]]></description>
+            <link>https://johackim.com/infrastructure-hebergeur-web-independant?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/infrastructure-hebergeur-web-independant</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 01 Jan 2019 18:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Le kit de survie d'un développeur]]></title>
+            <description><![CDATA[Avez-vous déjà entendu parler des nomades digitaux ? J'ai récemment découvert ce style de vie qui consiste à travailler n'importe où dans le monde, tant qu'une connexion internet est disponible.]]></description>
+            <link>https://johackim.com/kit-de-survie-developpeur?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/kit-de-survie-developpeur</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 12 Oct 2018 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment automatiser l'installation de Arch Linux ?]]></title>
+            <description><![CDATA[Afin d'éviter de réinstaller manuellement Arch Linux chaque année j'ai automatisé son installation à l'aide d'un fichier makefile.]]></description>
+            <link>https://johackim.com/comment-automatiser-installation-arch-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-automatiser-installation-arch-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 30 Jul 2018 12:45:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Podcasts de hacker indépendant]]></title>
+            <description><![CDATA[Programmation, entrepreneuriat, cybersécurité, sport ou interviews de personnalités inspirantes, voici la liste des podcasts que j'écoute, en vélo, voiture, pendant la vaisselle ou avant de me coucher.]]></description>
+            <link>https://johackim.com/podcasts-freelance?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/podcasts-freelance</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 26 Jun 2018 10:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment acheter un article non expédiable en France ?]]></title>
+            <description><![CDATA[Certains articles en ligne ne sont pas expédiables en France. Voici un moyen d'en recevoir sans frais exorbitants.]]></description>
+            <link>https://johackim.com/comment-acheter-article-non-expediable-en-france?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-acheter-article-non-expediable-en-france</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 09 Apr 2018 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment jouer sur Linux avec 95% de performance native ?]]></title>
+            <description><![CDATA[Voici une solution pour pouvoir jouer aux jeux video depuis un environnement Linux avec 95% de performance native.]]></description>
+            <link>https://johackim.com/jouer-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/jouer-sur-linux</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 26 Mar 2018 05:53:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Une sélection de livres pour entreprendre]]></title>
+            <description><![CDATA[Est-il vraiment utile de faire des études après avoir lu ces livres ? Voici une sélection de mes livres favoris. Entrepreneuriat, Growth Hacking, développement personnel, bonnes pratiques de dev tout y est !]]></description>
+            <link>https://johackim.com/mes-livres-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-livres-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 26 Feb 2018 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment mener une attaque via une clé USB ?]]></title>
+            <description><![CDATA[Existe-t-il un moyen simple de mener une attaque physique sur un ordinateur ou un téléphone simplement à l'aide d'une clé USB en seulement 7 secondes ?]]></description>
+            <link>https://johackim.com/comment-menez-facilement-des-attaques-via-usb?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-menez-facilement-des-attaques-via-usb</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 19 Feb 2018 07:57:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment se configurer un tableau de bord maison ?]]></title>
+            <description><![CDATA[Pour afficher tout un tas d'indicateurs clés et statistiques sur un écran, je me suis fabriqué un petit tableau de bord maison sur un Raspberry Pi.]]></description>
+            <link>https://johackim.com/comment-configurer-tableau-de-bord-maison?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-configurer-tableau-de-bord-maison</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 12 Feb 2018 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment vérifier que mon adresse IP n'est pas visible lorsque je télécharge des torrents ?]]></title>
+            <description><![CDATA[Lorsque l'on télécharge des torrents, il se peut que notre adresse IP fuite même lors de l'utilisation d'un VPN. Comment vérifier que mon adresse IP n'est pas visible ?]]></description>
+            <link>https://johackim.com/verifier-ip-telechargement-torrents?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/verifier-ip-telechargement-torrents</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 22 Jan 2018 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Checklist to protect your privacy]]></title>
+            <description><![CDATA[Arguing that you don't care about the right to privacy because you have nothing to hide, is no different than saying you don't care about free speech because you have nothing to say. Edward Snowden]]></description>
+            <link>https://johackim.com/protect-your-privacy?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/protect-your-privacy</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 15 Jan 2018 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installer un serveur VPN en 30 secondes]]></title>
+            <description><![CDATA[Vous avez besoin d'un VPN et vous ne souhaitez pas vous embêter à configurer un serveur openvpn manuellement ? Voici une solution pour installer un VPN en 30 secondes.]]></description>
+            <link>https://johackim.com/installer-un-vpn-en-30-secondes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-un-vpn-en-30-secondes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 08 Jan 2018 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment détenir un compte Google anonyme ?]]></title>
+            <description><![CDATA[Est-il possible de s'inscrire sur Google sans divulguer ses informations personnelles (e-mail, téléphone, localisation, adresse IP) ?]]></description>
+            <link>https://johackim.com/comment-detenir-un-compte-google-anonyme?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-detenir-un-compte-google-anonyme</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 01 Jan 2018 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Créer son hacklab virtuel avec docker]]></title>
+            <description><![CDATA[Pour tester la sécurité de mes serveurs et sites internet, je me suis configuré un hacklab sous docker en tant qu'environnement de pentesting.]]></description>
+            <link>https://johackim.com/creer-hacklab-virtuel-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/creer-hacklab-virtuel-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 18 Dec 2017 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment suivre l'actualité sans compte facebook, twitter ou youtube ?]]></title>
+            <description><![CDATA[Pour suivre l'actualité sans détenir de compte sur des réseaux comme Facebook, Twitter ou YouTube j'utilise les flux RSS. Il est possible de suivre des chaines YouTube, des pages Facebook, des comptes Twitter, être alerté des sorties d'album d'un artiste ou des épisodes d'une série.]]></description>
+            <link>https://johackim.com/comment-suivre-actualite-sans-compte-facebook-twitter-youtube?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-suivre-actualite-sans-compte-facebook-twitter-youtube</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 11 Dec 2017 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ma toolbox personnelle]]></title>
+            <description><![CDATA[Voici une liste d'outils que j'utilise au quotidien en tant qu'entrepreneur et développeur. Elle sera mise à jour au fur et à mesure de mes découvertes.]]></description>
+            <link>https://johackim.com/ma-toolbox-personnel?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ma-toolbox-personnel</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 04 Dec 2017 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Automatiser l'envoie d'une newsletter avec mjml et nodemailer]]></title>
+            <description><![CDATA[Cet article est destiné à toutes les personnes souhaitant automatiser l'envoie de leur newsletter avec de jolis e-mails responsive et la possibilité d'injecter du contenue dynamiquement comme les derniers articles d'un blog.]]></description>
+            <link>https://johackim.com/automatiser-envoie-newsletter-mjml-nodemailer?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/automatiser-envoie-newsletter-mjml-nodemailer</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Nov 2017 08:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Les meilleures solutions d'adresse mail jetable]]></title>
+            <description><![CDATA[Si vous ne souhaitez plus donner votre adresse mail personnelle pour vous inscrire sur un site au risque de recevoir du SPAM voici les meilleurs sites d'adresse mail jetable.]]></description>
+            <link>https://johackim.com/meilleures-solutions-adresse-mail-jetable?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/meilleures-solutions-adresse-mail-jetable</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 17 Nov 2017 17:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installation simple d'un cluster kubernetes]]></title>
+            <description><![CDATA[Voici deux méthodes pour installer simplement kubernetes. La première est une installation locale avec minikube, et la deuxième je l'ai réalisé sur mon cluster proxmox avec kubeadm.]]></description>
+            <link>https://johackim.com/installation-simple-cluster-kubernetes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installation-simple-cluster-kubernetes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 10 Nov 2017 17:52:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Installation d'une alternative open-source à Disqus]]></title>
+            <description><![CDATA[N'ayant pas envie d'utiliser une solution propriétaire pour gérer les commentaires de mon blog je me suis configuré une petite installation de Isso via dokku.]]></description>
+            <link>https://johackim.com/installation-alternative-open-source-disqus?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installation-alternative-open-source-disqus</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 03 Nov 2017 18:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Comment créer son datacenter maison (homelab) ?]]></title>
+            <description><![CDATA[Voici un guide d'installation d'un homelab conçu uniquement avec des logiciels open-source afin de vous permettre d'héberger vos sites internet à la maison !]]></description>
+            <link>https://johackim.com/comment-creer-son-datacenter-maison?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/comment-creer-son-datacenter-maison</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 27 Oct 2017 08:24:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ultime list of warez tools]]></title>
+            <description><![CDATA[Here my personal list of warez tools to search, stream and download movies, series, musics and softwares.]]></description>
+            <link>https://johackim.com/ultime-list-of-warez-tools?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/ultime-list-of-warez-tools</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 31 Aug 2017 14:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Multiple ways to expose a local server behind NAT or firewall]]></title>
+            <description><![CDATA[I looked for solutions to expose a local server behind a NAT or firewall. Here's what I found.]]></description>
+            <link>https://johackim.com/how-to-expose-local-server-behind-firewall?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/how-to-expose-local-server-behind-firewall</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 14 Aug 2017 12:20:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>
