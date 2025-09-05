@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/johackim
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://johackim.com
+  * I am johackim (https://keybase.io/johackim) on keybase.
+  * I have a public key ASDSkU2rkJKtRtocyzKoW0IX7pL8R4cMG1znxim0Z7dWhQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d2914dab9092ad46da1ccb32a85b4217ee92fc47870c1b5ce7c629b467b756850a",
+      "host": "keybase.io",
+      "kid": "0120d2914dab9092ad46da1ccb32a85b4217ee92fc47870c1b5ce7c629b467b756850a",
+      "uid": "d2f71b19fe76c5f9ab70fca0c1b28319",
+      "username": "johackim"
+    },
+    "merkle_root": {
+      "ctime": 1583335734,
+      "hash": "f750fe49c80dfb07ba5185e9449267d882785e013df0ced201bf5aad31f5367dd9369976481afd0871140b9bc676bf695cca8531701acda5d9165cb7fe809a5f",
+      "hash_meta": "902b062f079ff1e3a9198665c937797eb79705f916c266680e1bebce724a394b",
+      "seqno": 14997268
+    },
+    "service": {
+      "entropy": "pNxLs8y3cJion8AU0F//ywdh",
+      "hostname": "johackim.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1583335703,
+  "expire_in": 504576000,
+  "prev": "e3e56ea6008f1e7024a36c8871dba68da782967f11e182563280b55af89e2f4f",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0pFNq5CSrUbaHMsyqFtCF+6S/EeHDBtc58YptGe3VoUKp3BheWxvYWTESpcCBcQg4+VupgCPHnAko2yIcdumjaeCln8R4YJWMoC1WvieL0/EIB9hRzwcGEqkIlya/S40AS3StFig3QiWvK/na2z6X6SQAgHCo3NpZ8RA+KdilaxPI3cO9gdf56HDWC1SQO6D9pqVzEuyvUFV69PT8NColy0by/FLOMvkM5jRCGbDm7AzXuUlNAmRiFvVAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH4BFUtV/uANXRi0bZxILtyoDH5K6m2YwhOVaTZEL/Aqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johackim
+
+==================================================================
