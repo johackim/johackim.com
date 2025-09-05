@@ -1,45 +1,41 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { NextSeo } from 'next-seo';
+import Layout from '../components/layout';
 
-import { Link, Button, Article } from '@johackim/design-system';
-import Layout from '@components/layout';
-
-const Page = () => {
-    const { query } = useRouter();
+export default () => {
+    const router = useRouter();
+    const { title } = router.query;
 
     return (
-        <section className="mt-20">
-            <div className="container m-auto px-4 lg:max-w-screen-lg">
-                <div className="md:border dark:border-gray-800">
-                    <Article>
-                        <Article.Title className="!my-0 border-t-0 border-r-0 border-l-0">{query.title}</Article.Title>
-                        <Article.Content>
-                            <div className="p-6 lg:p-12 text-center">
-                                <p className="font-bold !my-0">🚧 Ce contenu n'est pas encore disponible</p>
-                                <p className="!my-0">Abonnez-vous pour être informé dès qu'il sortira... </p>
-                                <Link href="/newsletter" as={Button} className="my-2 !no-underline">S'abonner</Link>
-                                <p className="!my-0">
-                                    <small>
-                                        Ou{' '}
-                                        <button type="button" onClick={() => window.history.back()} className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white underline text-sm">
-                                            retourner sur la page précédente
-                                        </button>
-                                    </small>
-                                </p>
-                            </div>
-                        </Article.Content>
-                    </Article>
+        <Layout>
+            <section className="pt-20 min-h-[calc(100vh-6rem)]">
+                <div className="container m-auto px-4 lg:max-w-screen-lg">
+                    <div className="md:border border-gray-200">
+                        {title && (
+                            <h1 className="h-64 flex flex-col justify-center relative border-b border-gray-200">
+                                <span className="absolute inset-0 bg-gray-100 opacity-80 z-10" />
+                                <span className="transform text-center font-bold px-4 text-4xl text-gray-600 z-20">{title}</span>
+                            </h1>
+                        )}
+                        <div className="p-6 lg:p-12 text-center flex flex-col gap-2">
+                            <p className="font-bold">🚧 Ce contenu n'est pas encore disponible</p>
+                            <p>Abonnez-vous pour être informé dès qu'il sortira... </p>
+                            <Link href="/newsletter" passHref>
+                                <button type="button" className="bg-gray-600 text-white hover:text-white hover:bg-gray-700 px-5 py-2 rounded-md cursor-pointer">S'abonner</button>
+                            </Link>
+                            <p>
+                                <small>
+                                    Ou
+                                    {' '}
+                                    <button type="button" onClick={() => router.back()} className="text-gray-700 hover:text-gray-900 underline text-sm cursor-pointer">
+                                        retourner sur la page précédente
+                                    </button>
+                                </small>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </Layout>
     );
 };
-
-Page.getLayout = (page) => (
-    <Layout>
-        <NextSeo title={page.props.title || 'Contenu bientôt disponible'} />
-        {page}
-    </Layout>
-);
-
-export default Page;

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://johackim.com/sitemap-0.xml
 Host: https://johackim.com
+Sitemap: https://johackim.com/sitemap.xml

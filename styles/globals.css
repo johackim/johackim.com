@@ -1,25 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 
-body {
-    @apply text-gray-700 dark:bg-gray-900 dark:text-gray-300;
-}
+/* Blockquote */
 
-/* Selection */
-
-::selection {
-    @apply bg-gray-800 text-gray-400;
-}
-
-/* Sticky footer */
-
-#__next {
-    @apply h-screen flex flex-col justify-between;
-}
-
-#__next main {
-    @apply flex-1;
+blockquote .callout-title {
+    @apply flex gap-2;
 }
 
 /* Mermaid */
@@ -28,50 +13,32 @@ body {
     @apply h-auto mt-4;
 }
 
+[id^='mermaid-svg'] g,
+[id^='mermaid-svg'] foreignObject {
+    @apply leading-none;
+}
+
 [id^='mermaid-svg'] .label rect {
-    fill: transparent !important;
+    @apply !fill-transparent;
 }
 
 [id^='mermaid-svg'] .edgeLabel {
-    @apply bg-transparent !important;
+    @apply !bg-transparent;
 }
 
 [id^='mermaid-svg'] .flowchart-link,
 [id^='mermaid-svg'] .path {
-    @apply stroke-gray-700 !important;
+    @apply !stroke-gray-700;
 }
 
 [id^='mermaid-svg'] .arrowheadPath,
 [id^='mermaid-svg'] .marker {
-    @apply fill-gray-700 !important;
+    @apply !fill-gray-700;
 }
 
 [id^='mermaid-svg'] .cluster rect,
 [id^='mermaid-svg'] rect.label-container {
-    @apply fill-gray-200 !important;
-    @apply stroke-gray-800 !important;
-}
-
-html.dark [id^='mermaid-svg'] .cluster rect,
-html.dark [id^='mermaid-svg'] rect.label-container {
-    @apply fill-gray-800 !important;
-    @apply stroke-gray-300 !important;
-}
-
-html.dark [id^='mermaid-svg'] .label,
-html.dark [id^='mermaid-svg'] .nodeLabel,
-html.dark [id^='mermaid-svg'] .edgeLabel {
-    @apply text-gray-300 !important;
-}
-
-html.dark [id^='mermaid-svg'] .flowchart-link,
-html.dark [id^='mermaid-svg'] .path {
-    @apply stroke-gray-300 !important;
-}
-
-html.dark [id^='mermaid-svg'] .arrowheadPath,
-html.dark [id^='mermaid-svg'] .marker {
-    @apply fill-gray-300 !important;
+    @apply !fill-gray-200 !stroke-gray-800;
 }
 
 /* Commento */
@@ -81,21 +48,19 @@ html.dark [id^='mermaid-svg'] .marker {
 }
 
 #commento * {
-    @apply text-gray-700 !important;
+    @apply !text-gray-700;
 }
 
 #commento .commento-avatar {
-    @apply bg-gray-300 !important;
+    @apply !bg-gray-300;
 }
 
 #commento .commento-card {
-    @apply border-l-2 border-gray-300 !important;
-    border-top: 1px solid #f0f0f0 !important;
+    @apply !border-l-2 !border-gray-300 !border-t ![border-top-color:#f0f0f0];
 }
 
 #commento .commento-card .commento-moderator::after {
-    @apply bg-transparent border border-gray-400 text-gray-700 !important;
-    padding: 1px 5px !important;
+    @apply !bg-transparent !border !border-gray-400 !text-gray-700 !py-[1px] !px-[5px];
 }
 
 #commento .commento-login-box-container {
@@ -103,7 +68,7 @@ html.dark [id^='mermaid-svg'] .marker {
 }
 
 #commento .commento-mod-tools::before {
-    @apply text-gray-700 !important;
+    @apply !text-gray-700;
 }
 
 #commento #commento-submit-button-root,
@@ -116,80 +81,13 @@ html.dark [id^='mermaid-svg'] .marker {
 }
 
 #commento code {
-    @apply bg-gray-200 whitespace-pre-wrap text-xs rounded-md;
-    padding: 2px 6px;
+    @apply bg-gray-200 whitespace-pre-wrap text-xs rounded-md py-0.5 px-1.5;
 }
 
 #commento #commento-textarea-root:focus {
-    box-shadow: none;
+    @apply shadow-none;
 }
 
 #commento .commento-body p a {
-    @apply underline hover:!text-gray-900 dark:hover:!text-white
-}
-
-html.dark #commento code {
-    @apply bg-gray-800;
-}
-
-html.dark #commento * {
-    @apply text-gray-300 !important;
-}
-
-html.dark #commento #commento-login-box {
-    @apply bg-gray-800;
-}
-
-html.dark #commento #commento-login-box .commento-input,
-html.dark #commento .commento-email {
-    @apply bg-gray-900 !important;
-}
-
-html.dark #commento .commento-email-button {
-    @apply bg-gray-900 border-gray-700 !important;
-}
-
-html.dark #commento .commento-login-box-close {
-    @apply opacity-100;
-}
-
-html.dark #commento .commento-login-box-close::after,
-html.dark #commento .commento-login-box-close::before {
-    @apply bg-gray-300;
-}
-
-html.dark #commento .commento-login-box-close:hover::after,
-html.dark #commento .commento-login-box-close:hover::before {
-    @apply bg-white;
-}
-
-html.dark #commento .commento-option-button:hover,
-html.dark #commento .commento-upvoted,
-html.dark #commento .commento-downvoted {
-    @apply bg-white;
-}
-
-html.dark #commento .commento-submit-button:hover {
-    @apply text-white border-white !important;
-}
-
-html.dark #commento #commento-markdown-help-root {
-    @apply w-full border-gray-800;
-}
-
-html.dark #commento textarea {
-    @apply bg-gray-800;
-}
-
-html.dark #commento .commento-card .commento-moderator::after {
-    @apply bg-transparent border border-gray-400 text-gray-300 !important;
-    padding: 1px 5px !important;
-}
-
-html.dark #commento .commento-avatar {
-    @apply bg-gray-800 !important;
-}
-
-html.dark #commento .commento-card {
-    @apply border-l-2 border-t border-gray-800 !important;
+    @apply underline hover:!text-gray-900;
 }
