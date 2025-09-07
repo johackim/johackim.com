@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 07 Sep 2025 13:25:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2025 13:45:06 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -11174,7 +11174,8 @@ echo &quot;hello world&quot; &gt; _site/index.html
 </code></pre>
 <p>Le paramètre <code>minUploadRate</code> et <code>maxUploadRate</code> définissent le débit d&#x27;envoi maximal et minimal en octets par seconde.</p>
 <p>Je le configure pour que le débit d&#x27;envoi soit de 10 Mo/s.</p>
-<p>Pour démarrer Joal, utilisez la commande <a href="https://johackim.com/docker">Docker</a> suivante :</p>
+<p>Pour démarrer Joal, utilisez la commande <a href="/docker" title="Docker">Docker</a> suivante :</p>
+
 <pre><code class="language-bash">docker run -d \
     --name=&quot;joal&quot; \
     --restart=always \
@@ -17455,7 +17456,8 @@ openvpn dockvpn.ovpn
 <h3>Vérification du compte e-mail</h3>
 <p>Google demande un compte e-mail, je vous conseille de donner une adresse <a href="https://protonmail.com/">Protonmail</a> qui garantit votre vie privée et la sécurité de votre compte.</p>
 <p><img src="https://i.imgur.com/3HokFRm.png" alt="Vérification de votre email"/></p>
-<p>Autrement vous pouvez aussi essayer une <a href="https://johackim.com/meilleures-solutions-adresse-mail-jetable/">solution d&#x27;adresse mail jetable</a>.</p>
+<p>Autrement vous pouvez aussi essayer une <a href="/meilleures-solutions-adresse-mail-jetable" title="solution d&#x27;adresse mail jetable">solution d&#x27;adresse mail jetable</a>.</p>
+
 <h3>Vérification du numéro de téléphone</h3>
 <p>C&#x27;est pas toujours le cas, mais il y a de fortes chances que Google vous demande un <strong>numéro de téléphone</strong> pour valider votre compte.</p>
 <p><img src="https://i.imgur.com/vfht9VD.png" alt="Valider un compte google par SMS"/></p>
@@ -17471,7 +17473,8 @@ openvpn dockvpn.ovpn
 <p>À vous de juger si oui ou non le fait de décocher ces cases garantit que vos données ne sont pas collectées.</p>
 <h2>Conclusion</h2>
 <p>Comme vous avez pu le lire, il n&#x27;est pas si évident que ça de naviguer sur internet tout en restant anonyme. Et même avec toutes ces solutions rien ne nous garantit à 100% notre anonymat.</p>
-<p>En complément, voici un petit article que j&#x27;ai rédigé qui liste d&#x27;<a href="https://johackim.com/protect-your-privacy/">autres solutions pour protéger sa vie privée</a>.</p>
+<p>En complément, voici un petit article que j&#x27;ai rédigé qui liste <a href="/protect-your-privacy" title="d&#x27;autres solutions pour protéger sa vie privée">d&#x27;autres solutions pour protéger sa vie privée</a>.</p>
+
 <p>Vous avez d&#x27;autres astuces ? N&#x27;hésitez pas à les partager en commentaires ;).</p>
 <hr/>
 <p>Références :</p>
@@ -17961,7 +17964,8 @@ NUMBER_ARTICLES=4
             <pubDate>Fri, 10 Nov 2017 17:52:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/installation-simple-cluster-kubernetes.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/installation-simple-cluster-kubernetes.jpg"/>
-            <content:encoded><![CDATA[<p>Vu la popularité du projet (dépôt github le plus discuté avec +350 000 commentaires) et faisant partie du monde des containers, je n&#x27;ai pas pu résister à l&#x27;envie de tester <strong>kubernetes</strong>. Voici deux méthodes pour installer simplement kubernetes. La première est une installation locale avec <a href="https://github.com/kubernetes/minikube">minikube</a>, et la deuxième je l&#x27;ai réalisé sur <a href="https://johackim.com/comment-creer-son-datacenter-maison/">mon cluster proxmox</a> avec <a href="https://github.com/kubernetes/kubeadm">kubeadm</a>.</p>
+            <content:encoded><![CDATA[<p>Vu la popularité du projet (dépôt github le plus discuté avec +350 000 commentaires) et faisant partie du monde des containers, je n&#x27;ai pas pu résister à l&#x27;envie de tester <strong>kubernetes</strong>. Voici deux méthodes pour installer simplement kubernetes. La première est une installation locale avec <a href="https://github.com/kubernetes/minikube">minikube</a>, et la deuxième je l&#x27;ai réalisé sur <a href="/comment-creer-son-datacenter-maison" title="mon cluster proxmox">mon cluster proxmox</a> avec <a href="https://github.com/kubernetes/kubeadm">kubeadm</a>.</p>
+
 <h2>1. Installation de Minikube</h2>
 <p><strong>NOTE</strong>: Il est <strong>déconseillé</strong> d&#x27;utiliser <strong><a href="https://github.com/kubernetes/minikube">minikube</a></strong> dans un environnement de production, il s&#x27;agit plus d&#x27;une installation à usage personnel sur son laptop afin de tester kubernetes.</p>
 <p>L&#x27;installation est simple, un binaire à télécharger et à exécuter :</p>
@@ -18163,7 +18167,7 @@ docker deploy isso
             <media:content url="https://johackim.com/covers/comment-creer-son-datacenter-maison.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/comment-creer-son-datacenter-maison.jpg"/>
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/HPFrm3m.png"/><link rel="preload" as="image" href="https://i.imgur.com/0BtefaD.png"/><p>Après plusieurs semaines de recherches et de tests, je souhaite partager avec vous ce guide d&#x27;installation d&#x27;un homelab conçu uniquement avec des logiciels open-source afin de vous permettre d&#x27;héberger vos sites internet à la maison !</p>
-<p>PS: J&#x27;envisage par la suite de créer une solution <strong>homelab</strong> <strong>all-in-one</strong> et <strong>plug&#x27;n play</strong> afin de permettre aux néophytes d&#x27;installer eux-mêmes leur datacenter chez eux sans connaissances particulières. Si vous êtes intéressé par ce projet, n&#x27;hésitez pas à renseigner votre adresse mail <a href="https://johackim.com/newsletter">sur ce lien</a> afin d&#x27;être informé de sa sortie.</p>
+<p>PS: J&#x27;envisage par la suite de créer une solution <strong>homelab</strong> <strong>all-in-one</strong> et <strong>plug&#x27;n play</strong> afin de permettre aux néophytes d&#x27;installer eux-mêmes leur datacenter chez eux sans connaissances particulières. Si vous êtes intéressé par ce projet, n&#x27;hésitez pas à renseigner votre adresse mail <a href="/newsletter">sur ce lien</a> afin d&#x27;être informé de sa sortie.</p>
 <p>Pour le moment voilà à quoi ressemble mon infrastructure maison :</p>
 <p><img src="https://i.imgur.com/HPFrm3m.png" alt="Infrastructure"/></p>
 <p><strong>NOTE</strong> : Je suis chez orange (Sosh plus précisément) et ma livebox ne gère pas le <strong>bridge</strong>, je ne peux donc pas utilisé <strong>pfsense</strong> en tant que routeur, firewall et serveur DHCP. Et je n&#x27;ai pas non plus la possibilité d&#x27;obtenir une <strong>IP publique fixe</strong>. Je referai un article sur <strong>pfsense</strong> lorsque j&#x27;aurai changé de FAI...</p>
