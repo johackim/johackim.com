@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 07 Sep 2025 16:20:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2025 16:59:04 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -17933,7 +17933,7 @@ docker deploy isso
             <media:content url="https://johackim.com/covers/comment-creer-son-datacenter-maison.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/comment-creer-son-datacenter-maison.jpg"/>
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/HPFrm3m.png"/><link rel="preload" as="image" href="https://i.imgur.com/0BtefaD.png"/><p>Après plusieurs semaines de recherches et de tests, je souhaite partager avec vous ce guide d&#x27;installation d&#x27;un homelab conçu uniquement avec des logiciels open-source afin de vous permettre d&#x27;héberger vos sites internet à la maison !</p>
-<p>PS: J&#x27;envisage par la suite de créer une solution <strong>homelab</strong> <strong>all-in-one</strong> et <strong>plug&#x27;n play</strong> afin de permettre aux néophytes d&#x27;installer eux-mêmes leur datacenter chez eux sans connaissances particulières. Si vous êtes intéressé par ce projet, n&#x27;hésitez pas à renseigner votre adresse mail <a href="/newsletter">sur ce lien</a> afin d&#x27;être informé de sa sortie.</p>
+<p>PS: J&#x27;envisage par la suite de créer une solution <strong>homelab</strong> <strong>all-in-one</strong> et <strong>plug&#x27;n play</strong> afin de permettre aux néophytes d&#x27;installer eux-mêmes leur datacenter chez eux sans connaissances particulières. Si vous êtes intéressé par ce projet, n&#x27;hésitez pas à renseigner votre adresse mail <a href="https://johackim.com/newsletter">sur ce lien</a> afin d&#x27;être informé de sa sortie.</p>
 <p>Pour le moment voilà à quoi ressemble mon infrastructure maison :</p>
 <p><img src="https://i.imgur.com/HPFrm3m.png" alt="Infrastructure"/></p>
 <p><strong>NOTE</strong> : Je suis chez orange (Sosh plus précisément) et ma livebox ne gère pas le <strong>bridge</strong>, je ne peux donc pas utilisé <strong>pfsense</strong> en tant que routeur, firewall et serveur DHCP. Et je n&#x27;ai pas non plus la possibilité d&#x27;obtenir une <strong>IP publique fixe</strong>. Je referai un article sur <strong>pfsense</strong> lorsque j&#x27;aurai changé de FAI...</p>
