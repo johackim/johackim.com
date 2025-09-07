@@ -4465,10 +4465,10 @@ remark-mdx@^3.0.0:
     mdast-util-mdx "^3.0.0"
     micromark-extension-mdxjs "^3.0.0"
 
-remark-obsidian@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/remark-obsidian/-/remark-obsidian-1.11.0.tgz#e08e823de0945c6928eadd24205d82c060bdd1f7"
-  integrity sha512-H5jVf3JTh3cKqkNhhHmfthD8xYXxh/UWaqNdNY5dY6C0uQdBekB+1Y8ONAiNPKqOsGHHD03OQ2qEyrIm0YtI2w==
+remark-obsidian@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/remark-obsidian/-/remark-obsidian-1.11.1.tgz#3049e0b0cad725aaadc6edd4ab75af0df1a43603"
+  integrity sha512-/UXrDLKyaWak+2qLpTY1drIukfIXj27/1NklY4sQdsMQA9p1JH7qO6EQ7bKFeoq51V1Fa/omcZ9rEWLZuPRD7Q==
 
 remark-parse@^11.0.0:
   version "11.0.0"
