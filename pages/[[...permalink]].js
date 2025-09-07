@@ -31,11 +31,11 @@ const components = {
 };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments }) => (
+const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments, isIndex }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
         <Progress />
         <NextSeo
-            title={title}
+            title={isIndex ? '' : title}
             description={description}
             openGraph={{
                 title,
@@ -101,7 +101,9 @@ export const getStaticProps = async ({ params }) => {
 
     await createCoverSvg(content?.title, content?.permalink);
 
-    return { props: { source, ...content } };
+    const isIndex = permalink.toLowerCase() === indexFile.toLowerCase();
+
+    return { props: { source, isIndex, ...content } };
 };
 
 export const getStaticPaths = async () => {
