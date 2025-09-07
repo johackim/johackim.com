@@ -15,7 +15,10 @@ export default ({ Component, pageProps }) => {
     const router = useRouter();
 
     useEffect(() => {
-        posthog.init('kDBqvv-5vPNiTDaYA9jSfKRC-5KhDWqhRQYAc4g3Dp8', { api_host: 'https://ph.johackim.com' });
+        posthog.init('kDBqvv-5vPNiTDaYA9jSfKRC-5KhDWqhRQYAc4g3Dp8', {
+            api_host: 'https://ph.johackim.com',
+            advanced_disable_feature_flags: true,
+        });
 
         const handleRouteChange = () => posthog.capture('$pageview');
         router.events.on('routeChangeComplete', handleRouteChange);
