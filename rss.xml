@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 07 Sep 2025 00:48:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2025 01:04:53 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -47,7 +47,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <pre><code class="language-bash">bun run start --baseUrl &quot;https://www.amazon.fr&quot;
 </code></pre>
 <p>Les livres seront téléchargés automatiquement dans le dossier <code>downloads</code> 🙂</p>
-<p>Et si vous souhaitez supprimer les DRMs de vos livres, j&#x27;ai rédigé <a href="/ebook-drms" title="un tutoriel">un tutoriel</a>.</p>]]></content:encoded>
+<p>Et si vous souhaitez supprimer les DRMs de vos livres, j&#x27;ai rédigé <a href="/comment-supprimer-les-drms-dun-ebook" title="un tutoriel">un tutoriel</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Méditation]]></title>
@@ -80,23 +80,23 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 
 </li>
 <li>
-<a href="/vipassana" title="Vipassana">Vipassana</a>
+<a href="/vipassana" title="Vipassana" class="not-found">Vipassana</a>
 
 </li>
 <li>
-<a href="/anapana" title="Anapana">Anapana</a>
+<a href="/anapana" title="Anapana" class="not-found">Anapana</a>
 
 </li>
 <li>
-<a href="/satipatthana" title="Satipatthana">Satipatthana</a>
+<a href="/satipatthana" title="Satipatthana" class="not-found">Satipatthana</a>
 
 </li>
 <li>
-<a href="/mantra" title="Mantra">Mantra</a>
+<a href="/mantra" title="Mantra" class="not-found">Mantra</a>
 
 </li>
 <li>
-<a href="/zen" title="Zen">Zen</a>
+<a href="/zen" title="Zen" class="not-found">Zen</a>
 
 </li>
 </ul>
@@ -167,7 +167,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/bouddhisme" title="Bouddhisme">Bouddhisme</a>
+<a href="/bouddhisme" title="Bouddhisme" class="not-found">Bouddhisme</a>
 
 </li>
 <li><a href="https://netflix.com/fr-en/title/81098586">Netflix - The Mind, Explained</a></li>
@@ -228,23 +228,23 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/cercle-d&#x27;influence" title="Cercle d&#x27;influence">Cercle d&#x27;influence</a>
+<a href="/cercle-d&#x27;influence" title="Cercle d&#x27;influence" class="not-found">Cercle d&#x27;influence</a>
 
 </li>
 <li>
-<a href="/responsabilite" title="Responsabilité">Responsabilité</a>
+<a href="/responsabilite" title="Responsabilité" class="not-found">Responsabilité</a>
 
 </li>
 <li>
-<a href="/ali-abdaal-how-to-be-happier-stoicism-masterclass#la-dichotomie-du-controle" title="Ali Abdaal - How To Be Happier Stoicism Masterclass">Ali Abdaal - How To Be Happier Stoicism Masterclass</a>
+<a href="/ali-abdaal-how-to-be-happier-stoicism-masterclass#la-dichotomie-du-controle" title="Ali Abdaal - How To Be Happier Stoicism Masterclass" class="not-found">Ali Abdaal - How To Be Happier Stoicism Masterclass</a>
 
 </li>
 <li>
-<a href="/ali-abdaal-how-to-be-happier-stoicism-masterclass#les-2-seules-choses-que-l&#x27;on-peut-controler" title="Ali Abdaal - How To Be Happier Stoicism Masterclass">Ali Abdaal - How To Be Happier Stoicism Masterclass</a>
+<a href="/ali-abdaal-how-to-be-happier-stoicism-masterclass#les-2-seules-choses-que-l&#x27;on-peut-controler" title="Ali Abdaal - How To Be Happier Stoicism Masterclass" class="not-found">Ali Abdaal - How To Be Happier Stoicism Masterclass</a>
 
 </li>
 <li>
-<a href="/les-7-habitudes-de-ceux-qui-realisent-tout-ce-qu&#x27;ils-entreprennent-stephen-r.-covey" title="Les 7 habitudes de ceux qui réalisent tout ce qu&#x27;ils entreprennent  - Stephen R. Covey">Les 7 habitudes de ceux qui réalisent tout ce qu&#x27;ils entreprennent  - Stephen R. Covey</a>
+<a href="/les-7-habitudes-de-ceux-qui-realisent-tout-ce-qu&#x27;ils-entreprennent-stephen-r.-covey" title="Les 7 habitudes de ceux qui réalisent tout ce qu&#x27;ils entreprennent  - Stephen R. Covey" class="not-found">Les 7 habitudes de ceux qui réalisent tout ce qu&#x27;ils entreprennent  - Stephen R. Covey</a>
 
 </li>
 <li><a href="https://amazon.fr/dp/B01HE7TG7Y/">Happy - Derren Brown</a></li>
@@ -270,7 +270,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
             <webfeeds:featuredImage url="https://johackim.com/covers/etcher.jpg"/>
             <content:encoded><![CDATA[<p><a href="https://etcher.balena.io/">Etcher</a> est un logiciel de gravure d&#x27;image disque open-source.</p>
 <p>Il vous permet de graver des images disque (.iso, .img, etc.) sur des supports de stockage (clés USB, cartes SD, etc.).</p>
-<p>Utile pour créer une <a href="/usb" title="clé USB">clé USB</a> bootable et installer un système d&#x27;exploitation (ex: Ubuntu, Windows, etc...) sur un ordinateur.</p>
+<p>Utile pour créer une <a href="/usb" title="clé USB" class="not-found">clé USB</a> bootable et installer un système d&#x27;exploitation (ex: Ubuntu, Windows, etc...) sur un ordinateur.</p>
 
 <p>Une fois installé, il vous suffit de :</p>
 <ol>
@@ -280,7 +280,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <li>Lancer la gravure</li>
 </ol>
 <p>Une fois la gravure terminée, vous pourrez brancher votre clé USB sur votre ordinateur pour installer votre nouveau système d&#x27;exploitation.</p>
-<p>Je l&#x27;utilise souvent pour installer des distributions Linux comme <a href="/arch-linux" title="Arch Linux">Arch Linux</a>, <a href="/dietpi" title="DietPI">DietPI</a> ou autre.</p>
+<p>Je l&#x27;utilise souvent pour installer des distributions Linux comme <a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>, <a href="/dietpi" title="DietPI">DietPI</a> ou autre.</p>
 
 <p>Ce logiciel est disponible pour Windows, macOS et Linux.</p>]]></content:encoded>
         </item>
@@ -293,7 +293,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
             <pubDate>Mon, 20 May 2024 10:00:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/triangle-cognitif.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/triangle-cognitif.jpg"/>
-            <content:encoded><![CDATA[<p>Le triangle cognitif (cognitive triangle en anglais) est un modèle utilisé en <a href="/therapie-cognitivo-comportementale" title="Thérapie cognitivo-comportementale">Thérapie cognitivo-comportementale</a> qui illustre la relation entre nos pensées, nos émotions et nos comportements.</p>
+            <content:encoded><![CDATA[<p>Le triangle cognitif (cognitive triangle en anglais) est un modèle utilisé en <a href="/tcc" title="Thérapie cognitivo-comportementale">Thérapie cognitivo-comportementale</a> qui illustre la relation entre nos pensées, nos émotions et nos comportements.</p>
 
 <svg aria-roledescription="flowchart-v2" viewBox="-8 -8 403.796875 84" style="max-width:403.796875px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-1"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-A LE-B" id="L-A-B-0" d="M77.265625,26.616635972989563L81.43229166666667,24.930529977491304C85.59895833333333,23.24442398199304,93.93229166666667,19.872211990996522,102.265625,18.186105995498263C110.59895833333333,16.5,118.93229166666667,16.5,123.09895833333333,16.5L127.265625,16.5"></path><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-B LE-C" id="L-B-C-0" d="M208.96875,16.5L213.13541666666666,16.5C217.30208333333334,16.5,225.63541666666666,16.5,235.155352447411,18.041666666666668C244.67528822815532,19.583333333333332,255.38182645631068,22.666666666666668,260.7350955703883,24.208333333333332L266.088364684466,25.75"></path><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-C LE-A" id="L-C-A-0" d="M266.088364684466,58.75L260.7350955703883,60.291666666666664C255.38182645631068,61.833333333333336,244.67528822815532,64.91666666666667,228.346758697411,66.45833333333333C212.01822916666666,68,190.06770833333334,68,168.1171875,68C146.16666666666666,68,124.21614583333333,68,109.07421875,66.31389400450173C93.93229166666667,64.62778800900348,85.59895833333333,61.255576018006956,81.43229166666667,59.56947002250869L77.265625,57.88336402701044"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(38.6328125, 42.25)" id="flowchart-A-12" class="node default default"><rect height="33" width="77.265625" y="-16.5" x="-38.6328125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-31.1328125, -9)" class="label"><foreignObject height="18" width="62.265625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Pensées</span></div></foreignObject></g></g><g transform="translate(168.1171875, 16.5)" id="flowchart-B-13" class="node default default"><rect height="33" width="81.703125" y="-16.5" x="-40.8515625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-33.3515625, -9)" class="label"><foreignObject height="18" width="66.703125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Émotions</span></div></foreignObject></g></g><g transform="translate(323.3828125, 42.25)" id="flowchart-C-15" class="node default default"><rect height="33" width="128.828125" y="-16.5" x="-64.4140625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-56.9140625, -9)" class="label"><foreignObject height="18" width="113.828125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Comportements</span></div></foreignObject></g></g></g></g></g></svg>
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTF7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctMSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctMSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTEgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctMSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy0xIC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctMSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy0xIC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTEgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTEgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctMSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy0xIC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTEgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTEgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctMSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctMSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctMSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy0xIDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
@@ -309,11 +309,11 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>Pour cela, nous pouvons utiliser plusieurs techniques comme :</p>
 <ul>
 <li>
-<a href="/restructuration-cognitive" title="La restructuration cognitive">La restructuration cognitive</a>
+<a href="/restructuration-cognitive" title="La restructuration cognitive" class="not-found">La restructuration cognitive</a>
 
 </li>
 <li>
-<a href="/la-methode-socratique" title="La méthode socratique">La méthode socratique</a>
+<a href="/la-methode-socratique" title="La méthode socratique" class="not-found">La méthode socratique</a>
 
 </li>
 <li>
@@ -329,7 +329,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <li><a href="https://therapistaid.com/therapy-worksheet/cbt-triangle">https://therapistaid.com/therapy-worksheet/cbt-triangle</a></li>
 <li><a href="https://hudsontherapygroup.com/blog/cognitive-triangle">https://hudsontherapygroup.com/blog/cognitive-triangle</a></li>
 <li>
-<a href="/rewire-nicole-vignola" title="Rewire - Nicole Vignola">Rewire - Nicole Vignola</a>
+<a href="/rewire-nicole-vignola" title="Rewire - Nicole Vignola" class="not-found">Rewire - Nicole Vignola</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -398,9 +398,9 @@ Créer votre boot USB avec <a href="/etcher" title="Etcher">Etcher</a> ou <code>
             <pubDate>Mon, 06 May 2024 10:00:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/journal-de-pensees.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/journal-de-pensees.jpg"/>
-            <content:encoded><![CDATA[<p>Un journal de pensées (Thought record) est un outil de <a href="/restructuration-cognitive" title="Restructuration cognitive">Restructuration cognitive</a> utilisé en <a href="/therapie-cognitivo-comportementale" title="Thérapie cognitivo-comportementale">Thérapie cognitivo-comportementale</a>.</p>
+            <content:encoded><![CDATA[<p>Un journal de pensées (Thought record) est un outil de <a href="/restructuration-cognitive" title="Restructuration cognitive" class="not-found">Restructuration cognitive</a> utilisé en <a href="/tcc" title="Thérapie cognitivo-comportementale">Thérapie cognitivo-comportementale</a>.</p>
 
-<p>Inspiré des <a href="/colonnes-de-beck" title="Colonnes de Beck">Colonnes de Beck</a>, il est utilisé pour identifier, recenser et remettre en question ses pensées automatiques négatives.</p>
+<p>Inspiré des <a href="/colonnes-de-beck" title="Colonnes de Beck" class="not-found">Colonnes de Beck</a>, il est utilisé pour identifier, recenser et remettre en question ses pensées automatiques négatives.</p>
 
 <p>Il est composé de 5 parties :</p>
 <ol>
@@ -820,7 +820,7 @@ labels:
 <li>microG Companion</li>
 <li>Services Framework Proxy</li>
 </ul>
-<p>Puis de lancer l&#x27;application microG Services pour vous connecter à un <a href="/compte-google-anonyme" title="compte Google">compte Google</a> via le bouton &quot;Sign in&quot;.</p>
+<p>Puis de lancer l&#x27;application microG Services pour vous connecter à un <a href="/comment-detenir-un-compte-google-anonyme" title="compte Google">compte Google</a> via le bouton &quot;Sign in&quot;.</p>
 
 <h2>Utilisation</h2>
 <p>Une fois installé et connecté, vous pouvez démarrer l&#x27;application que vous souhaitez utiliser.</p>
@@ -837,7 +837,7 @@ labels:
 <p>Références :</p>
 <ul>
 <li>
-<a href="/android" title="Android">Android</a>
+<a href="/android" title="Android" class="not-found">Android</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -972,7 +972,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 <p>Références :</p>
 <ul>
 <li>
-<a href="/automatisation" title="Automatisation">Automatisation</a>
+<a href="/automatisation" title="Automatisation" class="not-found">Automatisation</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -1179,7 +1179,7 @@ make # Par exemple
 <li><a href="https://github.com/crosstool-ng/crosstool-ng">https://github.com/crosstool-ng/crosstool-ng</a></li>
 <li><a href="https://www.chicoree.fr/w/Compilation_crois%C3%A9e_facile_pour_Raspberry_Pi">https://www.chicoree.fr/w/Compilation_croisée_facile_pour_Raspberry_Pi</a></li>
 <li>
-<a href="/compilateur" title="Compilateur">Compilateur</a>
+<a href="/compilateur" title="Compilateur" class="not-found">Compilateur</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -1356,7 +1356,7 @@ echo -e &#x27;pcm.!default bluealsa\nctl.!default bluealsa&#x27; | sudo tee /etc
 <ul>
 <li><a href="https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html">https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html</a></li>
 <li>
-<a href="/raspberry-pi" title="Raspberry PI">Raspberry PI</a>
+<a href="/raspberry-pi" title="Raspberry PI" class="not-found">Raspberry PI</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -1579,7 +1579,7 @@ python ab_decrypt.py -b backup.ab -o backup.tar
 <p>Références :</p>
 <ul>
 <li>
-<a href="/android" title="Android">Android</a>
+<a href="/android" title="Android" class="not-found">Android</a>
 
 </li>
 <li><a href="https://github.com/liriliri/aya">https://github.com/liriliri/aya</a></li>
@@ -1686,7 +1686,7 @@ SUM:                            73            888              3           7407
 <li><a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_1_/_Syst%C3%A8me_2_:_Les_deux_vitesses_de_la_pens%C3%A9e">https://fr.wikipedia.org/wiki/Système_1_/_Système_2_:_Les_deux_vitesses_de_la_pensée</a></li>
 <li><a href="https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking">https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking</a></li>
 <li>
-<a href="/systeme-1-systeme-2-daniel-kahneman" title="Système 1, système 2 - Daniel Kahneman">Système 1, système 2 - Daniel Kahneman</a>
+<a href="/systeme-1-systeme-2-daniel-kahneman" title="Système 1, système 2 - Daniel Kahneman" class="not-found">Système 1, système 2 - Daniel Kahneman</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -1740,15 +1740,15 @@ SUM:                            73            888              3           7407
 <li><a href="https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/">https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/</a></li>
 <li><a href="https://twitter.com/george__mack/status/1699109802020852223">https://twitter.com/george__mack/status/1699109802020852223</a></li>
 <li>
-<a href="/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing">Corey Haines - Mental Models For Marketing</a>
+<a href="/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing" class="not-found">Corey Haines - Mental Models For Marketing</a>
 
 </li>
 <li>
-<a href="/la-technique-de-l&#x27;echelle" title="La technique de l&#x27;échelle">La technique de l&#x27;échelle</a>
+<a href="/la-technique-de-lechelle" title="La technique de l&#x27;échelle">La technique de l&#x27;échelle</a>
 
 </li>
 <li>
-<a href="/les-5-pourquoi" title="Les 5 pourquoi">Les 5 pourquoi</a>
+<a href="/les-5-pourquoi" title="Les 5 pourquoi" class="not-found">Les 5 pourquoi</a>
 
 </li>
 <li><a href="https://youtu.be/LOMkBihsWZw?t=140">Productivity Game - The great mental models - Shane Parrish</a></li>
@@ -1838,7 +1838,7 @@ console.log({ followers });
             <pubDate>Sun, 01 Oct 2023 21:01:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/systemes-vs-objectifs.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/systemes-vs-objectifs.jpg"/>
-            <content:encoded><![CDATA[<p>Après avoir lu plusieurs livres dont <a href="/atomic-habits-james-clear" title="Atomic Habits">Atomic Habits</a> de James Clear et <a href="/scott-adams-how-to-fail-at-almost-everything-and-still-win-big" title="How to Fail at Almost Everything and Still Win Big">How to Fail at Almost Everything and Still Win Big</a> du dessinateur Scott Adams, j&#x27;ai enfin compris la différence entre un objectif et un système.</p>
+            <content:encoded><![CDATA[<p>Après avoir lu plusieurs livres dont <a href="/atomic-habits-james-clear" title="Atomic Habits">Atomic Habits</a> de James Clear et <a href="/scott-adams-how-to-fail-at-almost-everything-and-still-win-big" title="How to Fail at Almost Everything and Still Win Big" class="not-found">How to Fail at Almost Everything and Still Win Big</a> du dessinateur Scott Adams, j&#x27;ai enfin compris la différence entre un objectif et un système.</p>
 
 <h2>Qu&#x27;est-ce qu&#x27;un objectif ?</h2>
 <p>Un objectif est un but/évènement/résultat que l&#x27;on souhaite atteindre/vivre un jour, dans le futur.</p>
@@ -1862,7 +1862,7 @@ console.log({ followers });
 <ul>
 <li><strong>Les objectifs sont temporaires</strong>, une fois l&#x27;événement terminé (exemple : terminer un marathon), on perd la raison de notre motivation.</li>
 <li>
-<strong>Les objectifs sont décourageants</strong>, trop lointains ou trop ambitieux, ils mettent à mal notre motivation et nous poussent à procrastiner (voir la <a href="/loi-de-parkinson" title="Loi de Parkinson">Loi de Parkinson</a>).
+<strong>Les objectifs sont décourageants</strong>, trop lointains ou trop ambitieux, ils mettent à mal notre motivation et nous poussent à procrastiner (voir la <a href="/loi-de-parkinson" title="Loi de Parkinson" class="not-found">Loi de Parkinson</a>).
 
 </li>
 <li><strong>Les objectifs sont incontrôlables</strong>, les évènements extérieurs (météo, santé, covid, crise financière, concurrence, etc...) peuvent facilement mettre à mal nos objectifs.</li>
@@ -1948,11 +1948,11 @@ console.log({ followers });
 <p>Références :</p>
 <ul>
 <li>
-<a href="/design" title="Design">Design</a>
+<a href="/design" title="Design" class="not-found">Design</a>
 
 </li>
 <li>
-<a href="/design-system" title="Design system">Design system</a>
+<a href="/design-system" title="Design system" class="not-found">Design system</a>
 
 </li>
 <li><a href="https://youtu.be/x1YstBqmYxA?t=980">Grafikart.fr - Organiser son projet JavaScript</a></li>
@@ -1977,7 +1977,7 @@ console.log({ followers });
 <p>Les circonstances de la vie affectent notre croissance.</p>
 <ul>
 <li>
-Créer un <a href="/journaling" title="journal">journal</a>
+Créer un <a href="/journaling" title="journal" class="not-found">journal</a>
 
 </li>
 <li>Noter les difficultés sur lesquelles on a dû faire face dans la vie</li>
@@ -1985,7 +1985,7 @@ Créer un <a href="/journaling" title="journal">journal</a>
 </ul>
 <h2>Challenge 2 : Mettre en place votre miroir de responsabilité</h2>
 <p><em>Set Up Your &quot;Accountability Mirror&quot;</em></p>
-<p>Pour ne plus avoir de difficultés à atteindre ses objectifs, <a href="/la-technique-de-l&#x27;echelle" title="diviser vos objectifs en petites étapes">diviser vos objectifs en petites étapes</a>, travaillez régulièrement vers elles et tenez-vous <a href="/responsabilite" title="responsable">responsable</a> de votre réussite.</p>
+<p>Pour ne plus avoir de difficultés à atteindre ses objectifs, <a href="/la-technique-de-lechelle" title="diviser vos objectifs en petites étapes">diviser vos objectifs en petites étapes</a>, travaillez régulièrement vers elles et tenez-vous <a href="/responsabilite" title="responsable" class="not-found">responsable</a> de votre réussite.</p>
 
 <p>Mettre ses objectifs en évidence (exemple : des post-it sur son miroir).</p>
 <p>Ce &quot;miroir de responsabilité&quot; aide à découper ses objectifs/rêves en plusieurs étapes visibles.</p>
@@ -2041,7 +2041,7 @@ Créer un <a href="/journaling" title="journal">journal</a>
 <li>Anticipez la difficulté et créer/adopter un plan pour y faire face</li>
 </ul>
 <h2>Challenge 6 : Remplissez votre boite à cookies</h2>
-<p><em>Stock Your <a href="/cookie-jar" title="Cookie Jar">Cookie Jar</a></em></p>
+<p><em>Stock Your <a href="/cookie-jar" title="Cookie Jar" class="not-found">Cookie Jar</a></em></p>
 
 <blockquote class="callout quote">
                     
@@ -2051,7 +2051,7 @@ Créer un <a href="/journaling" title="journal">journal</a>
                         </div>
                     
                     <div class="callout-content">
-                        <p></p><p> Another strategy to keep yourself working toward your goals even when you face obstacles is <a href="/fosse-inverse" title="reminding yourself of your previous accomplishments">reminding yourself of your previous accomplishments</a>. Goggins calls this collection of accomplishments your Cookie Jar</p><p></p>
+                        <p></p><p> Another strategy to keep yourself working toward your goals even when you face obstacles is <a href="/fosse-inverse" title="reminding yourself of your previous accomplishments" class="not-found">reminding yourself of your previous accomplishments</a>. Goggins calls this collection of accomplishments your Cookie Jar</p><p></p>
                     </div>
                 </blockquote>
 <ol>
@@ -2107,19 +2107,19 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 
 </li>
 <li>
-<a href="/design" title="Design">Design</a>
+<a href="/design" title="Design" class="not-found">Design</a>
 
 </li>
 <li>
-<a href="/marketing" title="Marketing">Marketing</a>
+<a href="/marketing" title="Marketing" class="not-found">Marketing</a>
 
 </li>
 <li>
-<a href="/finance" title="Finance">Finance</a>
+<a href="/finance" title="Finance" class="not-found">Finance</a>
 
 </li>
 <li>
-<a href="/vente" title="Vente">Vente</a>
+<a href="/vente" title="Vente" class="not-found">Vente</a>
 
 </li>
 <li>
@@ -2158,9 +2158,9 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 </ol>
 <p>Si vous avez coché toutes les cases, bravo, vous avez perdu 10 ans de votre vie !</p>
 <p>Être indie hacker ne demande pas de travailler en costard cravate et de passer ces journées au téléphone ou dans des réunions pour être &quot;professionnel&quot;, c&#x27;est tout le contraire.</p>
-<p>Ne cherchez pas une <a href="/idee" title="Idée">Idée</a>, commencez uniquement par résoudre le <a href="/probleme-dur" title="problème des gens">problème des gens</a>.</p>
+<p>Ne cherchez pas une <a href="/idee" title="Idée" class="not-found">Idée</a>, commencez uniquement par résoudre le <a href="/probleme-dur" title="problème des gens" class="not-found">problème des gens</a>.</p>
 
-<p>Créez un <a href="/mvp" title="MVP">MVP</a> et vendez-le à une <a href="/avatar" title="audience">audience</a> spécifique.</p>
+<p>Créez un <a href="/mvp" title="MVP" class="not-found">MVP</a> et vendez-le à une <a href="/avatar" title="audience" class="not-found">audience</a> spécifique.</p>
 
 <p>Cela demande un grand nombre d&#x27;itérations et peut prendre plusieurs années avant de pouvoir en vivre.</p>
 <h2>🏆 Indie hackers populaires</h2>
@@ -2265,7 +2265,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <p>Références :</p>
 <ul>
 <li>
-<a href="/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing">Corey Haines - Mental Models For Marketing</a>
+<a href="/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing" class="not-found">Corey Haines - Mental Models For Marketing</a>
 
 </li>
 <li>Le livre de la jungle - Younès Rharbaoui</li>
@@ -2350,10 +2350,10 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
             <pubDate>Sat, 09 Jul 2022 12:47:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/dopamine.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/dopamine.jpg"/>
-            <content:encoded><![CDATA[<p>La dopamine est un neurotransmetteur et une <a href="/hormones" title="hormone">hormone</a> de la récompense qui génère une sensation de satisfaction lorsque l&#x27;on termine une tâche, reçoit une notification sur notre smartphone ou un like sur Twitter.</p>
+            <content:encoded><![CDATA[<p>La dopamine est un neurotransmetteur et une <a href="/hormones" title="hormone" class="not-found">hormone</a> de la récompense qui génère une sensation de satisfaction lorsque l&#x27;on termine une tâche, reçoit une notification sur notre smartphone ou un like sur Twitter.</p>
 
 <p>C&#x27;est l&#x27;hormone de la motivation.</p>
-<p>Cette <a href="/hormones" title="hormone">hormone</a> nous incite à réaliser des actions avec une <a href="/gratification-immediate" title="gratification immédiate">gratification immédiate</a> plutôt qu&#x27;une action à <a href="/gratification-differee" title="gratification différée">gratification différée</a>.</p>
+<p>Cette <a href="/hormones" title="hormone" class="not-found">hormone</a> nous incite à réaliser des actions avec une <a href="/gratification-immediate" title="gratification immédiate" class="not-found">gratification immédiate</a> plutôt qu&#x27;une action à <a href="/gratification-differee" title="gratification différée" class="not-found">gratification différée</a>.</p>
 
 <blockquote>
 <p>La dopamine est libérée non seulement lorsque vous éprouvez du plaisir, mais également quand vous l’anticipez.^[<a href="/atomic-habits-james-clear" title="Atomic Habits - James Clear">Atomic Habits - James Clear</a>].</p>
@@ -2371,15 +2371,15 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <ul>
 <li>The Molecule of More - Daniel Z. Lieberman</li>
 <li>
-<a href="/dopamine-nation-anna-lembke" title="Dopamine Nation - Anna Lembke">Dopamine Nation - Anna Lembke</a>
+<a href="/dopamine-nation-anna-lembke" title="Dopamine Nation - Anna Lembke" class="not-found">Dopamine Nation - Anna Lembke</a>
 
 </li>
 <li>
-<a href="/behave-robert-sapolsky" title="Behave - Robert Sapolsky">Behave - Robert Sapolsky</a>
+<a href="/behave-robert-sapolsky" title="Behave - Robert Sapolsky" class="not-found">Behave - Robert Sapolsky</a>
 
 </li>
 <li>
-<a href="/dopamine-detox-thibaut-meurisse" title="Dopamine Detox - Thibaut Meurisse">Dopamine Detox - Thibaut Meurisse</a>
+<a href="/dopamine-detox-thibaut-meurisse" title="Dopamine Detox - Thibaut Meurisse" class="not-found">Dopamine Detox - Thibaut Meurisse</a>
 
 </li>
 <li><a href="https://arte.tv/dopamine/">Arte - Documentaire sur la dopamine</a></li>
@@ -2419,11 +2419,11 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <p>Références :</p>
 <ul>
 <li>
-<a href="/behave-robert-sapolsky" title="Behave - Robert Sapolsky">Behave - Robert Sapolsky</a>
+<a href="/behave-robert-sapolsky" title="Behave - Robert Sapolsky" class="not-found">Behave - Robert Sapolsky</a>
 
 </li>
 <li>
-<a href="/les-lois-de-la-nature-humaine-robert-greene#les-3-parties-du-cerveau" title="Les lois de la nature humaine - Robert Greene">Les lois de la nature humaine - Robert Greene</a>
+<a href="/les-lois-de-la-nature-humaine#les-3-parties-du-cerveau" title="Les lois de la nature humaine - Robert Greene">Les lois de la nature humaine - Robert Greene</a>
 
 </li>
 <li><a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_cerveau_triunique">https://fr.wikipedia.org/wiki/Théorie_du_cerveau_triunique</a></li>
@@ -2558,7 +2558,7 @@ EOF
 <li><a href="https://marmelab.com/blog/2023/11/20/screenshot-ci.html">https://marmelab.com/blog/2023/11/20/screenshot-ci.html</a></li>
 <li><a href="https://pro.academind.com/p/cypress-end-to-end-testing-getting-started">https://pro.academind.com/p/cypress-end-to-end-testing-getting-started</a></li>
 <li>
-<a href="/testing" title="Testing">Testing</a>
+<a href="/testing" title="Testing" class="not-found">Testing</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -2693,7 +2693,7 @@ mkfs.ext4 /dev/mapper/arch-home
 mkswap /dev/mapper/arch-swap
 </code></pre>
 <h2>Chiffrer un dossier</h2>
-<p>Pour chiffrer un dossier, vous pouvez soit utiliser <a href="/ecryptfs" title="eCryptfs">eCryptfs</a> :</p>
+<p>Pour chiffrer un dossier, vous pouvez soit utiliser <a href="/chiffrer-un-dossier-avec-ecryptfs" title="eCryptfs">eCryptfs</a> :</p>
 
 <pre><code class="language-bash">ecryptfs-setup-private # Création du dossier chiffré ~/.Private
 ecryptfs-mount-private # Montage du dossier pour pouvoir copier des fichier à l&#x27;intérieur
@@ -3042,7 +3042,7 @@ quickemu --vm android-9.0-x86.conf
 
 </li>
 <li>
-<a href="/virtualisation" title="Virtualisation">Virtualisation</a>
+<a href="/virtualisation" title="Virtualisation" class="not-found">Virtualisation</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -3068,7 +3068,7 @@ quickemu --vm android-9.0-x86.conf
 <h2>Ungoogled-chromium</h2>
 <p>Si comme moi vous trouvez que Firefox est plus lent que Chrome/Chromium, vous pouvez installer la version degooglisé de Chrome.</p>
 <p>Vous pouvez l&#x27;<a href="https://ungoogled-software.github.io/ungoogled-chromium-binaries/">installer depuis cette page</a>.</p>
-<p>Si vous êtes sur Linux, vous pouvez aussi utiliser <a href="/flatpak" title="Flatpak">Flatpak</a> :</p>
+<p>Si vous êtes sur Linux, vous pouvez aussi utiliser <a href="/flatpak" title="Flatpak" class="not-found">Flatpak</a> :</p>
 
 <pre><code class="language-bash">flat install com.github.Eloston.UngoogledChromium
 </code></pre>
@@ -3177,7 +3177,7 @@ quickemu --vm android-9.0-x86.conf
 <p>Nous sommes tous narcissiques, certains plus que d&#x27;autres.</p>
 <p>Nous avons besoin d&#x27;être regardés pour nous sentir vivants.</p>
 </blockquote>
-<p>Dès notre naissance, nous réclamons un <strong><a href="/besoin-d&#x27;attention" title="Besoin d&#x27;attention">Besoin d&#x27;attention</a></strong> illimité.</p>
+<p>Dès notre naissance, nous réclamons un <strong><a href="/besoin-d&#x27;attention" title="Besoin d&#x27;attention" class="not-found">Besoin d&#x27;attention</a></strong> illimité.</p>
 
 <p>Notre estime de nous mêmes dépend de l&#x27;attention que les autres portent sur nous.</p>
 <p>Nous sommes par essence des êtres sociaux.</p>
@@ -3186,7 +3186,7 @@ quickemu --vm android-9.0-x86.conf
 <h2>L&#x27;échelle du narcissisme</h2>
 <h3>Les grands narcissiques</h3>
 <p>Ce sont les personnes qui n&#x27;ont pas un moi solide et cohérent.</p>
-<p>Les personnes qui ont une faible <a href="/estime-de-soi" title="estime d&#x27;eux même">estime d&#x27;eux même</a> et un fort degré <a href="/ego" title="d&#x27;égocentrisme">d&#x27;égocentrisme</a>.</p>]]></content:encoded>
+<p>Les personnes qui ont une faible <a href="/estime-de-soi" title="estime d&#x27;eux même" class="not-found">estime d&#x27;eux même</a> et un fort degré <a href="/ego" title="d&#x27;égocentrisme" class="not-found">d&#x27;égocentrisme</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Exporter l'historique de ses notes Telegram dans des fichiers textes]]></title>
@@ -3196,7 +3196,7 @@ quickemu --vm android-9.0-x86.conf
             <pubDate>Sun, 20 Mar 2022 23:17:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/exporter-lhistorique-telegram-dans-des-fichiers-textes.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/exporter-lhistorique-telegram-dans-des-fichiers-textes.jpg"/>
-            <content:encoded><![CDATA[<p>Ayant pour habitude de stocker toutes mes <a href="/note-temporaire" title="notes temporaires">notes temporaires</a> dans l&#x27;application mobile <a href="https://telegram.org/">Telegram</a>, j&#x27;ai automatisé l&#x27;extraction de mes notes dans mon <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
+            <content:encoded><![CDATA[<p>Ayant pour habitude de stocker toutes mes <a href="/notes-temporaires" title="notes temporaires">notes temporaires</a> dans l&#x27;application mobile <a href="https://telegram.org/">Telegram</a>, j&#x27;ai automatisé l&#x27;extraction de mes notes dans mon <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
 
 <h2>Solution 1 : Exporter les notes dans un seul fichier</h2>
 <p>La première solution est d&#x27;exécuter se script bash après avoir exporter mes messages sauvegardés au format <code>json</code> via le menu <code>Export chat history</code> de Telegram.</p>
@@ -3290,7 +3290,7 @@ done
 <li>Nassim Taleb - Le Cygne Noir</li>
 <li><a href="https://wisdomtheory.gumroad.com/l/100MM">100 Mental Models - Wisdom Theory</a></li>
 <li>
-<a href="/petites-habitudes-grandes-reussites-onur-karapinar" title="Petites habitudes, Grandes réussites - Onur Karapinar">Petites habitudes, Grandes réussites - Onur Karapinar</a>
+<a href="/petites-habitudes-grandes-reussites-onur-karapinar" title="Petites habitudes, Grandes réussites - Onur Karapinar" class="not-found">Petites habitudes, Grandes réussites - Onur Karapinar</a>
 
 </li>
 <li><a href="https://fs.blog/an-antifragile-way-of-life/">Farnam Street - 10 Principles to Live an Antifragile Life</a></li>
@@ -3315,7 +3315,7 @@ done
             <pubDate>Fri, 11 Mar 2022 12:00:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/mochi.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/mochi.jpg"/>
-            <content:encoded><![CDATA[<p><a href="https://mochi.cards/">Mochi</a> est un outil créé par <a href="https://github.com/knubie/">Matthew Steedman</a> pour créer des flashcards afin d&#x27;améliorer à mémoriser ses apprentissages via la méthode de la <a href="/repetition-espacee" title="Répétition espacée">Répétition espacée</a>.</p>
+            <content:encoded><![CDATA[<p><a href="https://mochi.cards/">Mochi</a> est un outil créé par <a href="https://github.com/knubie/">Matthew Steedman</a> pour créer des flashcards afin d&#x27;améliorer à mémoriser ses apprentissages via la méthode de la <a href="/repetition-espacee" title="Répétition espacée" class="not-found">Répétition espacée</a>.</p>
 
 <h2>Installation</h2>
 <p>Vous pouvez l&#x27;installer sur <a href="https://mochi.cards/releases/Mochi%20Setup%201.13.7.exe">Windows</a>, <a href="https://mochi.cards/releases/Mochi-1.13.7.AppImage">Linux</a>, <a href="https://mochi.cards/releases/releases/Mochi-1.13.7.dmg">macOS</a>, <a href="https://play.google.com/store/apps/details?id=cards.mochi.app">Android</a> et <a href="https://apps.apple.com/us/app/mochi-flashcards-and-notes/id1507775056">iOS</a>.</p>
@@ -3683,7 +3683,7 @@ const User = sequelize.define(&#x27;user&#x27;, {
 <ul>
 <li><a href="https://github.com/kaylh/RetroBat">https://github.com/kaylh/RetroBat</a></li>
 <li>
-<a href="/jeux-videos" title="Jeux vidéos">Jeux vidéos</a>
+<a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -3732,7 +3732,7 @@ const User = sequelize.define(&#x27;user&#x27;, {
             <pubDate>Sun, 26 Dec 2021 15:44:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/creer-un-systeme-dauthentification-oauth-avec-spotify.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-systeme-dauthentification-oauth-avec-spotify.jpg"/>
-            <content:encoded><![CDATA[<p>Voici comment créer un système d&#x27;authentification <a href="/oauth" title="OAuth">OAuth</a> avec Spotify.</p>
+            <content:encoded><![CDATA[<p>Voici comment créer un système d&#x27;authentification <a href="/oauth" title="OAuth" class="not-found">OAuth</a> avec Spotify.</p>
 
 <p>Commencez par <a href="https://developer.spotify.com/dashboard/">créer un compte développeur sur Spotify</a>.</p>
 <p>Une fois le compte créé, vous avez accès à un <strong>client ID</strong> et <strong>client Secret</strong>.</p>
@@ -3899,7 +3899,7 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
 <li><a href="https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-accordion--default">Exemple de storybook</a></li>
 <li><a href="https://youtube.com/watch?v=CLwX9EWlWJM">Grafikart - Tutoriel JavaScript : Storybook</a></li>
 <li>
-<a href="/design-system" title="Design system">Design system</a>
+<a href="/design-system" title="Design system" class="not-found">Design system</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -4022,7 +4022,7 @@ npm pkg set scripts.lint=&quot;next lint&quot;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews">Bigger Leaner Stronger - Michael Matthews</a>
+<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
 
 </li>
 <li>
@@ -4048,7 +4048,7 @@ npm pkg set scripts.lint=&quot;next lint&quot;
 <li>Aujourd&#x27;hui je ne travaille pas mais à partir de la semaine prochaine je reste concentré sur ma routine.</li>
 <li>Aujourd&#x27;hui je joue aux jeux vidéos, mais à partir de demain c&#x27;est sûr j&#x27;arrête.</li>
 </ul>
-<p>Une sorte de <a href="/biais-d&#x27;optimisme" title="Biais d&#x27;optimisme">Biais d&#x27;optimisme</a> qui nous poussent à mettre trop d&#x27;importance à notre futur soi.</p>
+<p>Une sorte de <a href="/biais-doptimisme" title="Biais d&#x27;optimisme">Biais d&#x27;optimisme</a> qui nous poussent à mettre trop d&#x27;importance à notre futur soi.</p>
 
 <p>Alors qu&#x27;il est fort probable que votre futur soi reste le même que votre moi d&#x27;aujourd&#x27;hui.</p>
 <p>Si on n&#x27;est pas capable de faire une action aujourd&#x27;hui, pourquoi le serait-on le lendemain ?</p>
@@ -4056,7 +4056,7 @@ npm pkg set scripts.lint=&quot;next lint&quot;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews">Bigger Leaner Stronger - Michael Matthews</a>
+<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -4111,7 +4111,7 @@ Vous n&#x27;êtes pas aller courir cette semaine du coup vous vous dites &quot;b
 <p>Références :</p>
 <ul>
 <li>
-<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews">Bigger Leaner Stronger - Michael Matthews</a>
+<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
 
 </li>
 <li>
@@ -4133,9 +4133,9 @@ Vous n&#x27;êtes pas aller courir cette semaine du coup vous vous dites &quot;b
             <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/flashcard.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/flashcard.jpg"/>
-            <content:encoded><![CDATA[<p>Fondée à partir du principe de la <strong><a href="/repetition-espacee" title="Répétition espacée">Répétition espacée</a></strong> (Spaced repetition en anglais) et du principe de la <strong><a href="/revision-active" title="Révision active">Révision active</a></strong> (Active Recall en anglais), la méthode des flashcards permet de se souvenir de ce que l&#x27;on apprend en plaçant sur des fiches cartonnées une question d&#x27;un côté et une réponse de l&#x27;autre.</p>
+            <content:encoded><![CDATA[<p>Fondée à partir du principe de la <strong><a href="/repetition-espacee" title="Répétition espacée" class="not-found">Répétition espacée</a></strong> (Spaced repetition en anglais) et du principe de la <strong><a href="/revision-active" title="Révision active" class="not-found">Révision active</a></strong> (Active Recall en anglais), la méthode des flashcards permet de se souvenir de ce que l&#x27;on apprend en plaçant sur des fiches cartonnées une question d&#x27;un côté et une réponse de l&#x27;autre.</p>
 
-<p>C&#x27;est un moyen très efficace pour faire face à <strong><a href="/la-courbe-de-l&#x27;oubli" title="La courbe de l&#x27;oubli">La courbe de l&#x27;oubli</a></strong> qui nous fait oublier toutes les informations que l&#x27;on a appris au bout de 6 mois.</p>
+<p>C&#x27;est un moyen très efficace pour faire face à <strong><a href="/la-courbe-de-l&#x27;oubli" title="La courbe de l&#x27;oubli" class="not-found">La courbe de l&#x27;oubli</a></strong> qui nous fait oublier toutes les informations que l&#x27;on a appris au bout de 6 mois.</p>
 
 <p>Les temps idéaux pour revoir chaque flashcard sont d’environ 10 minutes, un jour, une semaine, un mois et six mois.</p>
 <h2>Comment structurer une flashcard ?</h2>
@@ -4194,7 +4194,7 @@ Vous n&#x27;êtes pas aller courir cette semaine du coup vous vous dites &quot;b
             <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/shadow-linux.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/shadow-linux.jpg"/>
-            <content:encoded><![CDATA[<p>Anciennement, j&#x27;avais fait <a href="/jouer-sur-linux-avec-95percent-de-performance-native" title="un tutoriel sur  comment jouer sur Linux">un tutoriel sur  comment jouer sur Linux</a> et c&#x27;était une véritable galère.</p>
+            <content:encoded><![CDATA[<p>Anciennement, j&#x27;avais fait <a href="/jouer-sur-linux" title="un tutoriel sur  comment jouer sur Linux">un tutoriel sur  comment jouer sur Linux</a> et c&#x27;était une véritable galère.</p>
 
 <p>Aujourd&#x27;hui il existe <a href="https://shop.shadow.tech/pre-order/invite/JOARFUQO">Shadow</a> pour palier à ce problème.</p>
 <p>C&#x27;est un <strong>service cloud</strong> pour louer une machine <strong>Windows</strong> avec une bonne carte graphique afin de pouvoir jouer à ces jeux préférés.</p>
@@ -4318,7 +4318,7 @@ apt install -y shadowusb
 <li><a href="https://gitlab.com/aar642/shadow-repackaged#known-issues">https://gitlab.com/aar642/shadow-repackaged#known-issues</a></li>
 <li><a href="https://frsbg01.filebrowser.shadow.tech/shadowftp/login">https://frsbg01.filebrowser.shadow.tech/shadowftp/login</a></li>
 <li>
-<a href="/jeux-videos" title="Jeux vidéos">Jeux vidéos</a>
+<a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -4332,7 +4332,7 @@ apt install -y shadowusb
             <media:content url="https://johackim.com/covers/whatweb.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/whatweb.jpg"/>
             <content:encoded><![CDATA[<p><a href="https://github.com/urbanadventurer/WhatWeb">Whatweb</a> est un logiciel en ligne de commande comme <a href="https://wappalyzer.com/">wappalyzer</a> pour analyser les outils utilisés par un site internet.</p>
-<p>C&#x27;est un outil qui peut être utilisé en <a href="/cybersecurite" title="Cybersécurité">Cybersécurité</a> pendant la phase de <a href="/reconnaissance" title="Reconnaissance">Reconnaissance</a> d&#x27;un pentest.</p>
+<p>C&#x27;est un outil qui peut être utilisé en <a href="/cybersecurite" title="Cybersécurité">Cybersécurité</a> pendant la phase de <a href="/reconnaissance" title="Reconnaissance" class="not-found">Reconnaissance</a> d&#x27;un pentest.</p>
 
 <p>Pour l&#x27;installer sur Arch LInux, exécutez la commande suivante :</p>
 <pre><code class="language-bash">yay -S --noconfirm whatweb
@@ -4344,7 +4344,7 @@ apt install -y shadowusb
 <p>Références :</p>
 <ul>
 <li>
-<a href="/zero-to-mastery-complete-ethical-hacking-bootcamp-2022" title="Zero To Mastery - Complete Ethical Hacking Bootcamp 2022">Zero To Mastery - Complete Ethical Hacking Bootcamp 2022</a>
+<a href="/zero-to-mastery-complete-ethical-hacking-bootcamp-2022" title="Zero To Mastery - Complete Ethical Hacking Bootcamp 2022" class="not-found">Zero To Mastery - Complete Ethical Hacking Bootcamp 2022</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -4496,19 +4496,19 @@ export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
 <p>La <strong>qualité</strong> correspond à la pertinence de votre trafic, si vous recevez des personnes en lien avec ce que vous proposer sur votre site web ou non.</p>
 <p>Le terme <strong>organic</strong> veut dire que le trafic ne provient pas de trafic payant.</p>
 <p><strong>Le but du SEO est de générer plus de visiblité à votre site web, en étant mieux classé sur les moteurs de recherche via des mots clés pertinent</strong>.</p>
-<p>Un mot-clé (<a href="/keyword" title="Keyword">Keyword</a> en anglais) est simplement un mot clé ou une phrase taper sur Google.</p>
+<p>Un mot-clé (<a href="/keyword" title="Keyword" class="not-found">Keyword</a> en anglais) est simplement un mot clé ou une phrase taper sur Google.</p>
 
 <h2>SERP</h2>
-<p><a href="/serp" title="SERP">SERP</a> veut dire Search Engine Result Page. C&#x27;est simplement la page généré par un moteur de recherche lors d&#x27;une recherche.</p>
+<p><a href="/serp" title="SERP" class="not-found">SERP</a> veut dire Search Engine Result Page. C&#x27;est simplement la page généré par un moteur de recherche lors d&#x27;une recherche.</p>
 
 <p>Cette page peut contenir plusieurs parties :</p>
 <ul>
 <li>
-<a href="/keyword" title="Keyword">Keyword</a> - Votre mot clé
+<a href="/keyword" title="Keyword" class="not-found">Keyword</a> - Votre mot clé
 
 </li>
 <li>
-<a href="/google-snippets" title="Featured Snippets">Featured Snippets</a> - Un bloc qui résume et répond rapidement à la question demandé par un utilisateur
+<a href="/google-snippets" title="Featured Snippets" class="not-found">Featured Snippets</a> - Un bloc qui résume et répond rapidement à la question demandé par un utilisateur
 
 </li>
 <li>PAAs (People Also Ask) - Ce sont les questions et réponses fréquemment posés par les utilisateurs du moteur de recherche</li>
@@ -4516,14 +4516,14 @@ export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
 <li>Related searches - En bas de page, vous pouvez vous inspirer des suggestions que propose le moteur de recherche par rapport au mot clé renseigné</li>
 </ul>
 <h2>Keyword Research</h2>
-<p>Un mot-clé (<a href="/keyword" title="Keyword">Keyword</a> en anglais) est simplement un mot clé ou une phrase taper sur Google.</p>
+<p>Un mot-clé (<a href="/keyword" title="Keyword" class="not-found">Keyword</a> en anglais) est simplement un mot clé ou une phrase taper sur Google.</p>
 
-<p><a href="/keyword-research" title="Keyword Research">Keyword Research</a> (recherche de mots-clés) est le processus qui consiste à découvrir les mots-clés que les gens utilisent dans les moteurs de recherche (Google, Bing, YouTube, etc...)</p>
+<p><a href="/keyword-research" title="Keyword Research" class="not-found">Keyword Research</a> (recherche de mots-clés) est le processus qui consiste à découvrir les mots-clés que les gens utilisent dans les moteurs de recherche (Google, Bing, YouTube, etc...)</p>
 
 <h2>Outils de recherche de mots-clés</h2>
-<p><em><a href="/keyword-research-tools" title="Keyword Research Tools">Keyword Research Tools</a></em> en anglais.</p>
+<p><em><a href="/keyword-research-tools" title="Keyword Research Tools" class="not-found">Keyword Research Tools</a></em> en anglais.</p>
 
-<p>Ce sont tous les outils qui permettent de rechercher ce que les gens cherchent dans les moteurs de recherche (<a href="/keyword-research" title="Keyword Research">Keyword Research</a>), et de voir comment est classer votre site et ceux de de vos compétiteurs.</p>
+<p>Ce sont tous les outils qui permettent de rechercher ce que les gens cherchent dans les moteurs de recherche (<a href="/keyword-research" title="Keyword Research" class="not-found">Keyword Research</a>), et de voir comment est classer votre site et ceux de de vos compétiteurs.</p>
 
 <ul>
 <li><a href="https://ads.google.com/home/tools/keyword-planner/">Google Keyword Planner</a></li>
@@ -4534,7 +4534,7 @@ export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
 <p>Ces outils retournent ce type d&#x27;informations :</p>
 <ul>
 <li>
-Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> score du site
+Le <a href="/domain-authority" title="Domain Authority" class="not-found">Domain Authority</a> score du site
 
 </li>
 <li>Le nombre de Referring Domains</li>
@@ -4549,7 +4549,7 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <p>Ce sont des données très utiles pour connaitre le positionnement de vos concurrents et de voir comment vous vous situer par rapport à eux.</p>
 <p>Le but étant de créer du meilleur contenu afin de les dépasser dans le classement.</p>
 <h2>Evitez le cannibalisation SEO</h2>
-<p><em><a href="/cannibalisation-seo" title="Cannibalisation SEO">Cannibalisation SEO</a></em></p>
+<p><em><a href="/cannibalisation-seo" title="Cannibalisation SEO" class="not-found">Cannibalisation SEO</a></em></p>
 
 <p>Eviter la duplication de contenu et rédiger un contenu unique pour chaque URL pour ne pas que vos propres pages soit en compétition entre elles.</p>
 <p>Créez chaque contenu avec pour objectif de cibler des mots-clés spécifiques sur une URL spécifique, et éviter les autres mots-clés qui ne sont pas pertinent pour le contenu en question.</p>
@@ -4558,7 +4558,7 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <p>Optimisez les balises Title et H1 en mettant votre mot-clé principale à l&#x27;avant de vos balises</p>
 <p>Ces balises doivent êtres longuent de 80 à 120 charactères.</p>
 <p>Votre page doit contenir au minimum 400 mots si vous voulez qu&#x27;elle soit bien classé par les moteur de recherche.</p>
-<p>Incluez des questions dans votre contenu pour qu&#x27;elles apparaissent dans les <a href="/google-snippets" title="Google Snippets">Google Snippets</a></p>
+<p>Incluez des questions dans votre contenu pour qu&#x27;elles apparaissent dans les <a href="/google-snippets" title="Google Snippets" class="not-found">Google Snippets</a></p>
 
 <h2>Monitorer la performance de nos mots-clés</h2>
 <p>Il existe plusieurs outils pour tracker automatiquement le classement d&#x27;un site par rapport à certain mots-clés :</p>
@@ -4607,31 +4607,31 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <p>Le tableau affiche simplement l&#x27;évolution de la position de notre site pour chaque mots-clé tous les mois.</p>
 <p>L&#x27;outil <strong>Keyword Gap</strong> de SEMrush peut dévoiler sur quels mots-clés investir notre temps pour dépasser la concurrence.</p>
 <h2>Backlinks</h2>
-<p>Un <a href="/backlinks" title="backlink">backlink</a> est simplement une mention de votre site sur un autre site web.</p>
+<p>Un <a href="/backlinks" title="backlink" class="not-found">backlink</a> est simplement une mention de votre site sur un autre site web.</p>
 
-<p>Viser les sites avec un fort <a href="/domain-authority" title="Domain Authority">Domain Authority</a> (supérieur à 25), avec au moins 200 visites organiques mensuelles, et au moins 50 referring domains (nombre de nom de domaines différents qui recense des backlinks).</p>
+<p>Viser les sites avec un fort <a href="/domain-authority" title="Domain Authority" class="not-found">Domain Authority</a> (supérieur à 25), avec au moins 200 visites organiques mensuelles, et au moins 50 referring domains (nombre de nom de domaines différents qui recense des backlinks).</p>
 
-<p>Il existe plusieurs techniques pour avoir plus de backlinks (<a href="/link-building" title="Link Building">Link Building</a>) et améliorer notre <a href="/domain-authority" title="Domain Authority">Domain Authority</a></p>
+<p>Il existe plusieurs techniques pour avoir plus de backlinks (<a href="/link-building" title="Link Building" class="not-found">Link Building</a>) et améliorer notre <a href="/domain-authority" title="Domain Authority" class="not-found">Domain Authority</a></p>
 
 <ol>
 <li>
-<strong>Poster des articles invités</strong> (<a href="/guest-posting" title="Guest Posting">Guest Posting</a>), pour ça, faire plusieurs recherches Google (ex: healthy eating blogs &quot;submit a guest post&quot;) pour trouver un site de notre thématique qui donne la possiblité de poster des articles invités
+<strong>Poster des articles invités</strong> (<a href="/guest-posting" title="Guest Posting" class="not-found">Guest Posting</a>), pour ça, faire plusieurs recherches Google (ex: healthy eating blogs &quot;submit a guest post&quot;) pour trouver un site de notre thématique qui donne la possiblité de poster des articles invités
 
 </li>
 <li>
-<strong>&quot;Prendre&quot; les <a href="/backlinks" title="Backlinks">Backlinks</a> de nos compétiteurs</strong>. Trouver les backlinks de vos compétiteurs sur SEMrush et envoyer des articles invités à ces sites.
+<strong>&quot;Prendre&quot; les <a href="/backlinks" title="Backlinks" class="not-found">Backlinks</a> de nos compétiteurs</strong>. Trouver les backlinks de vos compétiteurs sur SEMrush et envoyer des articles invités à ces sites.
 
 </li>
 <li>
-<strong>Faire du <a href="/resource-page-link-building" title="Resource Page Link Building">Resource Page Link Building</a></strong>, le but étant de trouver des page de site dans notre domaine avec des mots comme &quot;useful resources&quot;, &quot;helpful links&quot;, etc... et de leur proposer notre ressource.
+<strong>Faire du <a href="/resource-page-link-building" title="Resource Page Link Building" class="not-found">Resource Page Link Building</a></strong>, le but étant de trouver des page de site dans notre domaine avec des mots comme &quot;useful resources&quot;, &quot;helpful links&quot;, etc... et de leur proposer notre ressource.
 
 </li>
 <li>
-<strong>Faire du <a href="/broken-link-building" title="Broken Link Building">Broken Link Building</a></strong>. Trouver les sites avec des liens morts dans leurs pages de ressources et leur proposer notre ressource.
+<strong>Faire du <a href="/broken-link-building" title="Broken Link Building" class="not-found">Broken Link Building</a></strong>. Trouver les sites avec des liens morts dans leurs pages de ressources et leur proposer notre ressource.
 
 </li>
 <li>
-<strong>Faire du <a href="/skyscraper-link-building" title="Skyscraper Link Building">Skyscraper Link Building</a></strong>. Trouver les pages avec beaucoup de backlinks (80 minimum), et faire un meilleur contenu (+profondeur, meilleur design, +astuces, etc...).
+<strong>Faire du <a href="/skyscraper-link-building" title="Skyscraper Link Building" class="not-found">Skyscraper Link Building</a></strong>. Trouver les pages avec beaucoup de backlinks (80 minimum), et faire un meilleur contenu (+profondeur, meilleur design, +astuces, etc...).
 
 </li>
 </ol>
@@ -4691,7 +4691,7 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <ul>
 <li><a href="https://daniloduchesnes.com/blog/parametres-utm/">https://daniloduchesnes.com/blog/parametres-utm/</a></li>
 <li>
-<a href="/analytics" title="Analytics">Analytics</a>
+<a href="/analytics" title="Analytics" class="not-found">Analytics</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -4838,7 +4838,7 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <p>Références :</p>
 <ul>
 <li>
-<a href="/liberez-votre-creativite-julia-cameron" title="Libérez votre créativité - Julia Cameron">Libérez votre créativité - Julia Cameron</a>
+<a href="/liberez-votre-creativite-julia-cameron" title="Libérez votre créativité - Julia Cameron" class="not-found">Libérez votre créativité - Julia Cameron</a>
 
 </li>
 <li><a href="https://player.vimeo.com/video/489259753">Emilio Abril - Page du matin</a></li>
@@ -4957,7 +4957,7 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <p>Références :</p>
 <ul>
 <li>
-<a href="/avalez-le-crapaud-brian-tracy" title="Avalez le crapaud - Brian Tracy">Avalez le crapaud - Brian Tracy</a>
+<a href="/avalez-le-crapaud-brian-tracy" title="Avalez le crapaud - Brian Tracy" class="not-found">Avalez le crapaud - Brian Tracy</a>
 
 </li>
 <li><a href="https://everlaab.com/prioriser-ses-taches-avec-la-methode-abcde/">https://everlaab.com/prioriser-ses-taches-avec-la-methode-abcde/</a></li>
@@ -4976,7 +4976,7 @@ Le <a href="/domain-authority" title="Domain Authority">Domain Authority</a> sco
 <ol>
 <li>Listez les entrées (input) -&gt; Temps, Motivation, Savoir</li>
 <li>
-Identifiez la contrainte (le <a href="/goulot-d&#x27;etranglement" title="Goulot d&#x27;étranglement">Goulot d&#x27;étranglement</a>) qui limite le flux de sortie (output) et empêche votre système de fonctionner.
+Identifiez la contrainte (le <a href="/goulot-d&#x27;etranglement" title="Goulot d&#x27;étranglement" class="not-found">Goulot d&#x27;étranglement</a>) qui limite le flux de sortie (output) et empêche votre système de fonctionner.
 
 </li>
 <li>Augmenter cette entrée</li>
@@ -4998,11 +4998,11 @@ Identifiez la contrainte (le <a href="/goulot-d&#x27;etranglement" title="Goulot
 <p>Références :</p>
 <ul>
 <li>
-<a href="/the-goal-eliyahu-goldratt" title="The Goal - Eliyahu Goldratt">The Goal - Eliyahu Goldratt</a>
+<a href="/the-goal-eliyahu-goldratt" title="The Goal - Eliyahu Goldratt" class="not-found">The Goal - Eliyahu Goldratt</a>
 
 </li>
 <li>
-<a href="/ipo" title="IPO">IPO</a>
+<a href="/ipo" title="IPO" class="not-found">IPO</a>
 
 </li>
 <li><a href="https://julian.com/blog/mental-model-examples">https://julian.com/blog/mental-model-examples</a></li>
@@ -5078,7 +5078,7 @@ Répétez ce processus chaque jour de travail
 <li><a href="https://jeancharleskurdali.com/le-systeme-en-4-etapes-que-vous-devez-absolument-connaitre-et-utiliser-pour-atteindre-vos-objectifs/">https://jeancharleskurdali.com/le-systeme-en-4-etapes-que-vous-devez-absolument-connaitre-et-utiliser-pour-atteindre-vos-objectifs/</a></li>
 <li><a href="https://amzn.to/3p6qNN3">Rethinking Positive Thinking - Gabriele Oettingen</a></li>
 <li>
-<a href="/goal-setting" title="Goal setting">Goal setting</a>
+<a href="/goal-setting" title="Goal setting" class="not-found">Goal setting</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -5106,15 +5106,15 @@ Répétez ce processus chaque jour de travail
 <p>D&#x27;après Artistote, la persuasion naît de la prise en compte de trois dimensions de la communication :</p>
 <ul>
 <li>
-L&#x27;<a href="/ethos" title="Ethos">Ethos</a> ; la confiance que le public accorde à la personne de l’orateur.
+L&#x27;<a href="/ethos" title="Ethos" class="not-found">Ethos</a> ; la confiance que le public accorde à la personne de l’orateur.
 
 </li>
 <li>
-Le <a href="/pathos" title="Pathos">Pathos</a> ; la disposition émotionnelle dans laquelle l’orateur met le public.
+Le <a href="/pathos" title="Pathos" class="not-found">Pathos</a> ; la disposition émotionnelle dans laquelle l’orateur met le public.
 
 </li>
 <li>
-Le <a href="/logos" title="Logos">Logos</a> ; les arguments que l’orateur soumet au jugement du public.
+Le <a href="/logos" title="Logos" class="not-found">Logos</a> ; les arguments que l’orateur soumet au jugement du public.
 
 </li>
 </ul>
@@ -5140,7 +5140,7 @@ Le <a href="/logos" title="Logos">Logos</a> ; les arguments que l’orateur soum
 <p>Faites la liste des deux, trois voire quatre problèmes que vous comptez régler avec votre projet, avec vos produits, avec vos services.</p>
 <h3>2. Assombrissez l&#x27;horizon</h3>
 <p>Montrez-lui les conséquences de si il n&#x27;agit pas.</p>
-<p>Utiliser <a href="/les-besoins-humains-fondamentaux" title="Les besoins humains fondamentaux">Les besoins humains fondamentaux</a> comme la sécurité, la santé, le plaisir, le confort, l’amour, la protection de ceux qu’on aime, la reconnaissance sociale.</p>
+<p>Utiliser <a href="/les-besoins-humains-fondamentaux" title="Les besoins humains fondamentaux" class="not-found">Les besoins humains fondamentaux</a> comme la sécurité, la santé, le plaisir, le confort, l’amour, la protection de ceux qu’on aime, la reconnaissance sociale.</p>
 
 <p>Montrez lui en quoi son inaction va l&#x27;empêcher d&#x27;assouvir ses besoins.</p>
 <h3>3. Dénoncez les coupables et leurs idées fausses</h3>
@@ -5149,19 +5149,19 @@ Le <a href="/logos" title="Logos">Logos</a> ; les arguments que l’orateur soum
 <p>Vous pouvez justifier une solution de 4 manières :</p>
 <ul>
 <li>
-<strong><a href="/l&#x27;opportunite" title="L&#x27;opportunité">L&#x27;opportunité</a></strong> : montrer que c&#x27;est le moment où jamais pour agir
+<strong><a href="/l&#x27;opportunite" title="L&#x27;opportunité" class="not-found">L&#x27;opportunité</a></strong> : montrer que c&#x27;est le moment où jamais pour agir
 
 </li>
 <li>
-<strong><a href="/la-faisabilite" title="La faisabilité">La faisabilité</a></strong> : montrer que la solution est réaliste et même simple à mettre en oeuvre
+<strong><a href="/la-faisabilite" title="La faisabilité" class="not-found">La faisabilité</a></strong> : montrer que la solution est réaliste et même simple à mettre en oeuvre
 
 </li>
 <li>
-<strong><a href="/l&#x27;utilite" title="L&#x27;utilité">L&#x27;utilité</a></strong> : montrer les conséquences positives de la mise en oeuvre de la solution
+<strong><a href="/l&#x27;utilite" title="L&#x27;utilité" class="not-found">L&#x27;utilité</a></strong> : montrer les conséquences positives de la mise en oeuvre de la solution
 
 </li>
 <li>
-<strong><a href="/la-moralite" title="La moralité">La moralité</a></strong> : montrer que la solution permet de concrétiser des valeurs universelles (liberté, égalité, fraternité, équité, respect, dignité, etc...)
+<strong><a href="/la-moralite" title="La moralité" class="not-found">La moralité</a></strong> : montrer que la solution permet de concrétiser des valeurs universelles (liberté, égalité, fraternité, équité, respect, dignité, etc...)
 
 </li>
 </ul>
@@ -5169,7 +5169,7 @@ Le <a href="/logos" title="Logos">Logos</a> ; les arguments que l’orateur soum
 <blockquote>
 <p>Si vous voulez que votre discours soit suivi d&#x27;effet, il y a une règle tout simple : donnez à vore public des actions concrètes à effectuer.</p>
 </blockquote>
-<p>Vous pouvez le faire de deux façons : en jouant sur <strong>l&#x27;envie de se démarquer</strong> (ex: &quot;seuls les plus audacieux passeront à l&#x27;action&quot;), ou sur <strong>le <a href="/conformisme" title="Conformisme">Conformisme</a></strong> et <strong>la <a href="/pression-sociale" title="Pression sociale">Pression sociale</a></strong> (ex: &quot;tous vos voisins sont déjà passés à l&#x27;action&quot;).</p>
+<p>Vous pouvez le faire de deux façons : en jouant sur <strong>l&#x27;envie de se démarquer</strong> (ex: &quot;seuls les plus audacieux passeront à l&#x27;action&quot;), ou sur <strong>le <a href="/conformisme" title="Conformisme" class="not-found">Conformisme</a></strong> et <strong>la <a href="/pression-sociale" title="Pression sociale" class="not-found">Pression sociale</a></strong> (ex: &quot;tous vos voisins sont déjà passés à l&#x27;action&quot;).</p>
 
 <h2>Convaincre != persuader</h2>
 <p>Convaincre veut dire changer l&#x27;opinion d&#x27;une personne.</p>
@@ -5205,12 +5205,12 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <li>Le sophisme de la pente glissante</li>
 </ul>
 <h2>Qu’est-ce qu’un argument ?</h2>
-<p>Un <a href="/argument" title="argument">argument</a> est composé de deux éléments : une <strong>prémisse</strong> et une <strong>conclusion</strong>.</p>
+<p>Un <a href="/argument" title="argument" class="not-found">argument</a> est composé de deux éléments : une <strong>prémisse</strong> et une <strong>conclusion</strong>.</p>
 
 <p>La conclusion est ce que vous voulez que votre public admette comme vrai, la prémisse est ce que vous lui donnez pour l’admettre.</p>
 <p>Exemple : &quot;Il faut lire tous les jours (conclusion) car la lecture réduit le stress (prémisse).&quot;</p>
 <h2>Quelques sophismes de base</h2>
-<p>Un <a href="/sophisme" title="sophisme">sophisme</a> est le contraire d&#x27;un bon argument.</p>
+<p>Un <a href="/sophisme" title="sophisme" class="not-found">sophisme</a> est le contraire d&#x27;un bon argument.</p>
 
 <ul>
 <li>La pétition de principe</li>
@@ -5335,7 +5335,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <h2>Hiérarchie visuelle</h2>
 <p>Tous les éléments ne sont pas égaux. Quand tous les éléments sont en compétition pour attirer l&#x27;attention, cela rend le design bruyant et chaotique.</p>
 <p><img src="https://i.imgur.com/xG9p1jc.png" alt="|400"/></p>
-<p>La <a href="/hierarchie-visuelle" title="Hiérarchie visuelle">Hiérarchie visuelle</a> fait référence à l&#x27;importance des éléments d&#x27;une interface les uns par rapport aux autres.</p>
+<p>La <a href="/hierarchie-visuelle" title="Hiérarchie visuelle" class="not-found">Hiérarchie visuelle</a> fait référence à l&#x27;importance des éléments d&#x27;une interface les uns par rapport aux autres.</p>
 
 <p>Lorsque vous minimisez délibérément les informations secondaires et tertiaires, et que vous faites l&#x27;effort de mettre en valeur les éléments les plus importants, le résultat est immédiatement plus agréable, même si la palette de couleurs, le choix de la police et la mise en page n&#x27;ont pas changé.</p>
 <p><img src="https://i.imgur.com/7Km1B2B.png" alt="|400"/></p>
@@ -5363,7 +5363,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
             <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/la-technique-de-lechelle.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/la-technique-de-lechelle.jpg"/>
-            <content:encoded><![CDATA[<p><strong>Diviser vos tâches en petites tâches</strong>, cela évitera la <a href="/procrastination" title="Procrastination">Procrastination</a> et enlèvera de la friction lorsque vous effectuerez cette tâche.</p>
+            <content:encoded><![CDATA[<p><strong>Diviser vos tâches en petites tâches</strong>, cela évitera la <a href="/procrastination" title="Procrastination" class="not-found">Procrastination</a> et enlèvera de la friction lorsque vous effectuerez cette tâche.</p>
 
 <p>Cela <strong>enlève aussi la complexité de la tâche</strong>.</p>
 <p>Par exemple, si écrire un livre est votre échelle, les barreaux sont :</p>
@@ -5390,7 +5390,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <li>La 25ème Heure - Guillaume Declair</li>
 <li><a href="https://youtube.com/shorts/rctN3Pf71pg">Emilio Abril - La technique des Navy SEALs pour devenir fort mentalement</a></li>
 <li>
-<a href="/chunking" title="Chunking">Chunking</a>
+<a href="/chunking" title="Chunking" class="not-found">Chunking</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -5425,7 +5425,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <li><a href="https://artofmanliness.com/career-wealth/career/work-deliberately-instead-reactively-rule-3/">https://artofmanliness.com/career-wealth/career/work-deliberately-instead-reactively-rule-3/</a></li>
 <li><a href="https://threetimeswiser.substack.com/p/issue-360-cognitive-patience-rule">https://threetimeswiser.substack.com/p/issue-360-cognitive-patience-rule</a></li>
 <li>
-<a href="/sunday-process" title="Sunday Process">Sunday Process</a>
+<a href="/sunday-process" title="Sunday Process" class="not-found">Sunday Process</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -5561,7 +5561,7 @@ grep -rin &lt;text&gt;
 <p>Identifier les blogs populaires de votre niche et donner leur un lien de partage de votre site (en échange d&#x27;un rémunération, d&#x27;un accès gratuit ou d&#x27;une réduction).</p>
 <p>Créez des posts invités si possible.</p>
 <h3>Publicité</h3>
-<p>D&#x27;après <a href="/ryan-holiday" title="Ryan Holiday">Ryan Holiday</a>, l&#x27;approche directe des grosse média est rarement bonne. Il faut les approchez obliquement.</p>
+<p>D&#x27;après <a href="/ryan-holiday" title="Ryan Holiday" class="not-found">Ryan Holiday</a>, l&#x27;approche directe des grosse média est rarement bonne. Il faut les approchez obliquement.</p>
 
 <p>Répérez les petits blogs qu&#x27;un gros média relai et placez-vous dessus.</p>
 <p>Donnez leur des histoires attractives au niveau émotionnel.</p>
@@ -5581,15 +5581,15 @@ grep -rin &lt;text&gt;
 <p>Les indicateurs à connaitres sont :</p>
 <ul>
 <li>
-Le <a href="/taux-de-clic" title="Taux de clic">Taux de clic</a> (CTR) : Le pourcentage d&#x27;impression publicitaire sur le nombre de clics. Exemple : si vous avez 100 personnes qui voient votre publicité et que 3 cliquent dessus, vous avez un CTR de 3%.
+Le <a href="/taux-de-clic" title="Taux de clic" class="not-found">Taux de clic</a> (CTR) : Le pourcentage d&#x27;impression publicitaire sur le nombre de clics. Exemple : si vous avez 100 personnes qui voient votre publicité et que 3 cliquent dessus, vous avez un CTR de 3%.
 
 </li>
 <li>
-Le <a href="/cout-par-clic" title="Coût par clic">Coût par clic</a> (CPC) : Le montant à payer pour un clic sur votre pub.
+Le <a href="/cout-par-clic" title="Coût par clic" class="not-found">Coût par clic</a> (CPC) : Le montant à payer pour un clic sur votre pub.
 
 </li>
 <li>
-Le <a href="/cout-d&#x27;acquisition-client" title="Coût par acquisition">Coût par acquisition</a> (CPA) : Le coût de recrutement d&#x27;un client (CPC / pourcentage de conversion).
+Le <a href="/cout-d&#x27;acquisition-client" title="Coût par acquisition" class="not-found">Coût par acquisition</a> (CPA) : Le coût de recrutement d&#x27;un client (CPC / pourcentage de conversion).
 
 </li>
 </ul>
@@ -5759,7 +5759,7 @@ parse_firefox_bookmark(bdict)
 <ul>
 <li><a href="https://jagan.be/blog/post/shorts/Small-snipet-to-export-Firefox-bookmarks.json-to-markdown/">https://jagan.be/blog/post/shorts/Small-snipet-to-export-Firefox-bookmarks.json-to-markdown/</a></li>
 <li>
-<a href="/navigateur-web" title="Navigateur web">Navigateur web</a>
+<a href="/navigateur-web" title="Navigateur web" class="not-found">Navigateur web</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -5803,7 +5803,7 @@ source ~/.bashrc
 <p>Références :</p>
 <ul>
 <li>
-<a href="/python" title="Python">Python</a>
+<a href="/python" title="Python" class="not-found">Python</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -6081,11 +6081,11 @@ git push origin master
 <p>Références :</p>
 <ul>
 <li>
-<a href="/arch-linux" title="Arch Linux">Arch Linux</a>
+<a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>
 
 </li>
 <li>
-<a href="/yay" title="Yay">Yay</a>
+<a href="/yay" title="Yay" class="not-found">Yay</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -6195,7 +6195,7 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
 <p>Références :</p>
 <ul>
 <li>
-<a href="/rss" title="RSS">RSS</a>
+<a href="/rss" title="RSS" class="not-found">RSS</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -6273,7 +6273,7 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
 <h3>Soyez indéfinissable</h3>
 <p>Pour capter l’attention d’un public, pour le séduire afin qu’il ne cesse de penser à vous, il faut lui adresser des signaux contradictoires.</p>
 <h3>Susciter la jalousie</h3>
-<p>Que vos admirateurs soient des amis ou des soupirants, peu importe : leur présence créera <a href="/l&#x27;effet-harem" title="L&#x27;effet harem">L&#x27;effet harem</a>.</p>
+<p>Que vos admirateurs soient des amis ou des soupirants, peu importe : leur présence créera <a href="/l&#x27;effet-harem" title="L&#x27;effet harem" class="not-found">L&#x27;effet harem</a>.</p>
 
 <blockquote class="callout quote">
                     
@@ -6365,11 +6365,11 @@ quickemu --vm macos-catalina.conf
 <p>Références :</p>
 <ul>
 <li>
-<a href="/path-dependence" title="Path dependence">Path dependence</a>
+<a href="/path-dependence" title="Path dependence" class="not-found">Path dependence</a>
 
 </li>
 <li>
-<a href="/decisions" title="Décisions">Décisions</a>
+<a href="/decisions" title="Décisions" class="not-found">Décisions</a>
 
 </li>
 <li><a href="https://youtu.be/PsLaI4jDftA?t=179">Big Think - 3 game theory tactics, explained</a></li>
@@ -6405,7 +6405,7 @@ quickemu --vm macos-catalina.conf
 <h2>3. Vérifier l&#x27;objectif de l&#x27;auteur (Pourquoi ?)</h2>
 <p>L&#x27;auteur est-il objectif ? Quel est son objectif ?</p>
 <p>Dans quel but l&#x27;information a-t-elle été créée ?</p>
-<p>Vérifier si il y a des <a href="/conflits-d&#x27;interets" title="Conflits d&#x27;intérêts">Conflits d&#x27;intérêts</a> (ex : rémunŕation par de la publicité).</p>
+<p>Vérifier si il y a des <a href="/conflits-d&#x27;interets" title="Conflits d&#x27;intérêts" class="not-found">Conflits d&#x27;intérêts</a> (ex : rémunŕation par de la publicité).</p>
 
 <h2>4. Vérifier si l&#x27;information est exacte (Comment ?)</h2>
 <p>Vérifiez si l&#x27;information est un fait ou une opinion.</p>
@@ -6570,7 +6570,7 @@ yay -S --noconfirm nishanths-license-git
 <li><a href="https://youtu.be/OP3dA2GcAh8?t=304">Ali Abdaal - The Second Brain, A Life-Changing Productivity System</a></li>
 <li><a href="https://youtu.be/HXDBY129N0E">Eliott Meunier - Le hack de productivité ultime : procrastiner 2h/jour</a></li>
 <li>
-<a href="/tiago-forte-building-a-second-brain" title="Tiago Forte - Building A Second Brain">Tiago Forte - Building A Second Brain</a>
+<a href="/tiago-forte-building-a-second-brain" title="Tiago Forte - Building A Second Brain" class="not-found">Tiago Forte - Building A Second Brain</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -6657,7 +6657,7 @@ sudo dsvpn server vpn.key auto &lt;port&gt;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/vpn" title="VPN">VPN</a>
+<a href="/vpn" title="VPN" class="not-found">VPN</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -6732,7 +6732,7 @@ export default app;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/reseau" title="Network">Network</a>
+<a href="/reseau" title="Network" class="not-found">Network</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -7093,7 +7093,7 @@ class ActionCheckDomain(Action):
 <li>Douleur liée à soi (réputation, accomplissement, avancement, émancipation)</li>
 </ol>
 <p>Une douleur peut être intense, pénible, pressante ou ennuyeuse.</p>
-<p>L&#x27;intensité de la douleur dépendra en partie du <a href="/l&#x27;echelle-de-sensibilisation" title="niveau de sensibilisation">niveau de sensibilisation</a> de votre prospect.</p>
+<p>L&#x27;intensité de la douleur dépendra en partie du <a href="/les-5-niveaux-de-conscience" title="niveau de sensibilisation">niveau de sensibilisation</a> de votre prospect.</p>
 
 <h2>Parlez à votre audience</h2>
 <blockquote>
@@ -7121,7 +7121,7 @@ class ActionCheckDomain(Action):
             <pubDate>Sun, 18 Jul 2021 19:21:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/travailler-en-deep-work-sur-linux.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/travailler-en-deep-work-sur-linux.jpg"/>
-            <content:encoded><![CDATA[<p>Pour travailler en <a href="/deep-work" title="Deep Work">Deep Work</a> sur <a href="/linux" title="Linux">Linux</a>, je me suis créé <a href="https://github.com/johackim/dotfiles/blob/85175e7d30e6f673bf73b47a62b0aa6574509351/bin/lock">un script maison</a>.</p>
+            <content:encoded><![CDATA[<p>Pour travailler en <a href="/deep-work" title="Deep Work" class="not-found">Deep Work</a> sur <a href="/linux" title="Linux">Linux</a>, je me suis créé <a href="https://github.com/johackim/dotfiles/blob/85175e7d30e6f673bf73b47a62b0aa6574509351/bin/lock">un script maison</a>.</p>
 
 <p>Ce script a pour but de m&#x27;empêcher d&#x27;avoir accès à des sites (ex: Youtube, Twitter, ect...) et applications spécifiques (Signal, Mailspring, etc...) qui m&#x27;empêchent d&#x27;être productif.</p>
 <p>L&#x27;avantage de ce script, c&#x27;est qu&#x27;il m&#x27;empêche aussi de débloquer l&#x27;accès avec le compte root.</p>
@@ -7187,7 +7187,7 @@ class ActionCheckDomain(Action):
 <p>Si vous résolvez un problème qui n&#x27;existe pas, cela peut être technologiquement sexy, mais vous n&#x27;aurez pas d&#x27;utilisateurs.</p>
 <p>Le problème doit toujours venir en premier, pas la technologie, ni la solution.</p>
 <h2>Pour devenir gros, commencez petit</h2>
-<p><a href="/niche" title="Les niches">Les niches</a> sont des segments de marché spécifiques qui sont suffisamment peu profonds pour être facilement accessibles et qui ne comptent pas beaucoup d&#x27;acteurs.</p>
+<p><a href="/niche" title="Les niches" class="not-found">Les niches</a> sont des segments de marché spécifiques qui sont suffisamment peu profonds pour être facilement accessibles et qui ne comptent pas beaucoup d&#x27;acteurs.</p>
 
 <p>C&#x27;est un excellent point de départ, car leur valeur économique est trop faible pour intéresser les grandes entreprises.</p>
 <p>Aucune grosse entreprise à commencé gros :</p>
@@ -7313,7 +7313,7 @@ Excellente exécution = 1,000,000€</p>
 <p><strong>Limitez certaines fonctionnalitées à des utilisateurs</strong> (Pay-per-feature) :</p>
 <p>Analysez les fonctionnalités de votre application les plus utilisés et ajoutez une popup &quot;Pour utiliser cette fonctionnalité, veuillez mettre à jour votre compte&quot;.</p>
 <p><strong>Publicités natives</strong> :</p>
-<p>Utiliser des <a href="/publicites-natives" title="Publicités natives">Publicités natives</a> au lieu d&#x27;utiliser des publicités Google AdSense toutes moches qui ne rapporte pas grand-chose.</p>
+<p>Utiliser des <a href="/publicites-natives" title="Publicités natives" class="not-found">Publicités natives</a> au lieu d&#x27;utiliser des publicités Google AdSense toutes moches qui ne rapporte pas grand-chose.</p>
 
 <p><strong>Parrainages</strong> :</p>
 <p>Demandez à des compagnies de sponsoriser votre projet en ajoutant leur logo sur votre site pour un montant mensuel.</p>
@@ -7480,7 +7480,7 @@ sudo systemctl restart sshd
 <p>Références :</p>
 <ul>
 <li>
-<a href="/ssh" title="SSH">SSH</a>
+<a href="/ssh" title="SSH" class="not-found">SSH</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -7795,7 +7795,7 @@ sudo systemctl restart sshd
 <p>Si vous changez la trajectoire d&#x27;un vol d&#x27;avion Los Angeles / New York de seulement 3,5 degrés, cela vous fera attérir à Washington au lieu de New York.</p>
 <p>C&#x27;est pareil pour vos habitudes, un léger changement de 1% en bien ou en mal peut complètement changer votre avenir.</p>
 <h2>Le cumul de gains marginaux</h2>
-<p><strong>Le cumul de <a href="/gains-marginaux" title="Gains marginaux">Gains marginaux</a></strong> est une philosophie inventée par l&#x27;entraineur de cyclisme Dave Brailsford qui consiste à rechercher toutes les marges d&#x27;amélioration, aussi petites soit-elles, dans tout ce que vous entreprenez.</p>
+<p><strong>Le cumul de <a href="/gains-marginaux" title="Gains marginaux" class="not-found">Gains marginaux</a></strong> est une philosophie inventée par l&#x27;entraineur de cyclisme Dave Brailsford qui consiste à rechercher toutes les marges d&#x27;amélioration, aussi petites soit-elles, dans tout ce que vous entreprenez.</p>
 
 <blockquote>
 <p>Si on envisage la compétition cycliste en la décomposant par élément, si on améliore chaque élément de 1%, on obtiendra une augmentation globale considérable des performances. Dave Brailsford</p>
@@ -7907,7 +7907,7 @@ sudo systemctl restart sshd
 <p><strong>Je vais [COMPORTEMENT] à [MOMENT], dans [LIEU].</strong></p>
 <p>Si vous ne savez pas quand commencer, choisissez le premier jour de la semaine, du moi ou de l&#x27;année. Un nouveau départ est toujours motivant.</p>
 <h2>La superposition d&#x27;habitudes</h2>
-<p><strong>La superposition d&#x27;habitudes</strong> (ou <strong><a href="/habit-stacking" title="Habit stacking">Habit stacking</a></strong> en anglais), terme initialement inventé par BJ Fogg sous le terme <strong>Anchoring</strong> est simplement le fait d&#x27;associer une habitude à une autre.</p>
+<p><strong>La superposition d&#x27;habitudes</strong> (ou <strong><a href="/habit-stacking" title="Habit stacking" class="not-found">Habit stacking</a></strong> en anglais), terme initialement inventé par BJ Fogg sous le terme <strong>Anchoring</strong> est simplement le fait d&#x27;associer une habitude à une autre.</p>
 
 <p><strong>Après [HABITUDE ACTUELLE], je vais [NOUVELLE HABITUDE].</strong></p>
 <p>Exemples :</p>
@@ -7967,7 +7967,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 <p>Avec des habitudes identitaires, l’accent est mis sur ce que vous souhaitez devenir.</p>
 <p>Il est plus facile d&#x27;arrêter de fumer en s&#x27;identifiant comme non-fumeur qu&#x27;en s&#x27;identifiant comme fumeur occasionnel.</p>
 <h2>Le regroupement de tentations</h2>
-<p>Le regroupement de tentations (<a href="/temptation-bundling" title="Temptation bundling">Temptation bundling</a> en anglais) fonctionne en liant une action que vous voulez faire à une action que vous devez faire.</p>
+<p>Le regroupement de tentations (<a href="/temptation-bundling" title="Temptation bundling" class="not-found">Temptation bundling</a> en anglais) fonctionne en liant une action que vous voulez faire à une action que vous devez faire.</p>
 
 <p>Exemple : Associer les séries Netflix (ce qu&#x27;on a envie de faire) à faire de l&#x27;exercice sur son vélo (ce qu&#x27;on devrait faire).</p>
 <p>Cela rend vos habitudes plus attractives.</p>
@@ -8073,7 +8073,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 <li>Courir 5 kilomètres -&gt; Mettre mes chaussures de sport</li>
 </ul>
 <p>Une habitude ne doit pas être considérée comme difficile, les actions qui suivent peuvent être difficiles, mais les 2 premières minutes doivent être faciles.</p>
-<p>Votre objectif n&#x27;est pas les actions difficiles, mais l&#x27;<a href="/habitude-passerelle" title="Habitude passerelle">Habitude passerelle</a>. Votre habitude doit être établie avant d&#x27;être améliorée.</p>
+<p>Votre objectif n&#x27;est pas les actions difficiles, mais l&#x27;<a href="/habitude-passerelle" title="Habitude passerelle" class="not-found">Habitude passerelle</a>. Votre habitude doit être établie avant d&#x27;être améliorée.</p>
 
 <p>Presque tout objectif de vie peut être transformé en un comportement de 2 minutes, exemple : Je veux vivre longtemps -&gt; Je dois rester en forme -&gt; Je dois faire de l&#x27;exercice -&gt; Je dois mettre mes chaussures de sport.</p>
 <h2>Dispositif d&#x27;engagement</h2>
@@ -8124,7 +8124,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 <p>Nous nous soucions énormément de ce que les autres pensent de nous et nous ne voulons pas qu&#x27;ils aient une opinion négative.</p>
 <h2>Le principe de Boucles d’Or</h2>
 <p>Nous sommes extrêmement motivés lorsque nous exécutons des tâches qui sont à la limite de nos capacités du moment. Pas trop difficiles. Pas trop faciles. Juste au bon niveau de difficulté.</p>
-<p>En psychologie, cette approche s&#x27;appelle <a href="/la-loi-de-yerkes-dodson" title="La loi de Yerkes-Dodson">La loi de Yerkes-Dodson</a> qui définit le niveau d&#x27;éveil ou d&#x27;excitation comme le point médian entre l&#x27;ennui et la peur.</p>
+<p>En psychologie, cette approche s&#x27;appelle <a href="/la-loi-de-yerkes-dodson" title="La loi de Yerkes-Dodson" class="not-found">La loi de Yerkes-Dodson</a> qui définit le niveau d&#x27;éveil ou d&#x27;excitation comme le point médian entre l&#x27;ennui et la peur.</p>
 
 <h2>Apprécier l&#x27;ennui</h2>
 <blockquote>
@@ -8299,11 +8299,11 @@ webfsd -F -p 5000
 <li><a href="https://gist.github.com/willurd/5720255">https://gist.github.com/willurd/5720255</a></li>
 <li><a href="https://github.com/rejetto/hfs/">https://github.com/rejetto/hfs/</a></li>
 <li>
-<a href="/nginx" title="Nginx">Nginx</a>
+<a href="/nginx" title="Nginx" class="not-found">Nginx</a>
 
 </li>
 <li>
-<a href="/apache" title="Apache">Apache</a>
+<a href="/apache" title="Apache" class="not-found">Apache</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8456,7 +8456,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 <p>La personne qui rédige le code est appelée conducteur (driver).</p>
 <p>L&#x27;autre personne est l&#x27;observateur (observer), il assiste le conducteur en décelant les imperfections, en vérifiant que le code implémente correctement le design et en suggérant des alternatives de développement.</p>
 <p>Les rôles s&#x27;échangent régulièrement pendant la séance de programmation.</p>
-<p>Le pair programming fait partie des bonnes pratiques de l&#x27;<a href="/extreme-programming" title="Extreme Programming">Extreme Programming</a>.</p>]]></content:encoded>
+<p>Le pair programming fait partie des bonnes pratiques de l&#x27;<a href="/extreme-programming" title="Extreme Programming" class="not-found">Extreme Programming</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Note temporaire]]></title>
@@ -8479,7 +8479,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 <p>Références :</p>
 <ul>
 <li>
-<a href="/zettelkasten" title="Zettelkasten">Zettelkasten</a>
+<a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8492,7 +8492,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
             <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/notes-permanentes.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/notes-permanentes.jpg"/>
-            <content:encoded><![CDATA[<p>Parcourez vos notes <a href="/note-temporaire" title="temporaires">temporaires</a> et <a href="/note-litteraire" title="littéraires">littéraires</a> et réfléchissez à la manière dont elles se rapportent à ce qui est pertinent pour vos propres recherches, réflexions ou intérêts.</p>
+            <content:encoded><![CDATA[<p>Parcourez vos notes <a href="/notes-temporaires" title="temporaires">temporaires</a> et <a href="/notes-litteraires" title="littéraires">littéraires</a> et réfléchissez à la manière dont elles se rapportent à ce qui est pertinent pour vos propres recherches, réflexions ou intérêts.</p>
 
 <p>L&#x27;idée n&#x27;est pas de collecter, mais de développer des idées, des arguments et des discussions.</p>
 <p><strong>Rédigez une note pour chaque idée et écrivez comme si vous écriviez pour quelqu&#x27;un d&#x27;autre : utilisez des phrases complètes, indiquez vos sources, faites des références et essayez d&#x27;être aussi précis, clair et bref que possible.</strong></p>
@@ -8507,7 +8507,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 <p>Références :</p>
 <ul>
 <li>
-<a href="/zettelkasten" title="Zettelkasten">Zettelkasten</a>
+<a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8535,7 +8535,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 <p>Références :</p>
 <ul>
 <li>
-<a href="/zettelkasten" title="Zettelkasten">Zettelkasten</a>
+<a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8566,7 +8566,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 <li><a href="https://app.mailbrew.com/s/newsletter/pFhBz0TpXK9g">https://app.mailbrew.com/s/newsletter/pFhBz0TpXK9g</a></li>
 <li><a href="https://youtu.be/_t9R1AnB7ho&amp;t=344">Odysseas - Effective Note-Taking to Remember More + Create New Ideas</a></li>
 <li>
-<a href="/atomique" title="Atomique">Atomique</a>
+<a href="/atomique" title="Atomique" class="not-found">Atomique</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8580,17 +8580,17 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
             <media:content url="https://johackim.com/covers/mon-processus-de-prise-de-notes.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/mon-processus-de-prise-de-notes.jpg"/>
             <content:encoded><![CDATA[<h2>La méthode Zettelkasten</h2>
-<p>Lorsque je prend des notes, j&#x27;utilise en partie la méthode <a href="/zettelkasten" title="Zettelkasten">Zettelkasten</a>.</p>
+<p>Lorsque je prend des notes, j&#x27;utilise en partie la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>.</p>
 
-<p>Dès que j&#x27;ai des idées qui me viennent en tête, je prend des <a href="/note-temporaire" title="notes temporaires">notes temporaires</a> dans un fichier <a href="/markdown" title="Markdown">Markdown</a> <code>inbox.md</code> dans <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
+<p>Dès que j&#x27;ai des idées qui me viennent en tête, je prend des <a href="/notes-temporaires" title="notes temporaires">notes temporaires</a> dans un fichier <a href="/markdown" title="Markdown" class="not-found">Markdown</a> <code>inbox.md</code> dans <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
 
-<p>Si je lis un livre, un article, écoute un podcast ou regarde une vidéo, je rédige avec mes propres mots une <a href="/note-litteraire" title="note littéraire">note littéraire</a> de tout les <strong>concepts</strong> m&#x27;intéresse dans le contenu.</p>
+<p>Si je lis un livre, un article, écoute un podcast ou regarde une vidéo, je rédige avec mes propres mots une <a href="/notes-litteraires" title="note littéraire">note littéraire</a> de tout les <strong>concepts</strong> m&#x27;intéresse dans le contenu.</p>
 
-<p>Une fois la <a href="/note-litteraire" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="/note-permanente" title="notes permanentes">notes permanentes</a>.</p>
+<p>Une fois la <a href="/notes-litteraires" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="/notes-permanentes" title="notes permanentes">notes permanentes</a>.</p>
 
 <svg aria-roledescription="flowchart-v2" viewBox="-8 -8 329.875 132" style="max-width:329.875px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-5"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Temporaire LE-Permanente" id="L-Temporaire-Permanente-0" d="M72.859375,33L72.859375,37.166666666666664C72.859375,41.333333333333336,72.859375,49.666666666666664,81.99278363453816,58C91.1261922690763,66.33333333333333,109.39300953815261,74.66666666666667,118.52641817269075,78.83333333333333L127.65982680722891,83"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Littéraire LE-Permanente" id="L-Littéraire-Permanente-0" d="M254.796875,33L254.796875,37.166666666666664C254.796875,41.333333333333336,254.796875,49.666666666666664,245.66346636546186,58C236.5300577309237,66.33333333333333,218.2632404618474,74.66666666666667,209.12983182730923,78.83333333333333L199.9964231927711,83"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(72.859375, 16.5)" id="flowchart-Temporaire-8" class="node default default"><rect height="33" width="145.71875" y="-16.5" x="-72.859375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-65.359375, -9)" class="label"><foreignObject height="18" width="130.71875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Notes temporaires</span></div></foreignObject></g></g><g transform="translate(163.828125, 99.5)" id="flowchart-Permanente-9" class="node default default"><rect height="33" width="138.640625" y="-16.5" x="-69.3203125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-61.8203125, -9)" class="label"><foreignObject height="18" width="123.640625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Note permanente</span></div></foreignObject></g></g><g transform="translate(254.796875, 16.5)" id="flowchart-Littéraire-10" class="node default default"><rect height="33" width="118.15625" y="-16.5" x="-59.078125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-51.578125, -9)" class="label"><foreignObject height="18" width="103.15625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Notes littéraire</span></div></foreignObject></g></g></g></g></g></svg>
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTV7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTUgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy01IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy01IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTUgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTUgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTUgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTUgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy01IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
-<p>~~Ce sur quoi mon processus diffère de la méthode <a href="/zettelkasten" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.~~</p>
+<p>~~Ce sur quoi mon processus diffère de la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.~~</p>
 
 <p>J&#x27;ajoute les références du contenu d&#x27;origine (URLs, page d&#x27;un livre, timecode d&#x27;une vidéo ou d&#x27;un podcast, etc...) pour avoir une trace des contenus originellement consommées.</p>
 <h2>Les 4 règles à respecter</h2>
@@ -8867,7 +8867,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li><a href="https://community.swipefiles.com/c/mental-models-for-marketing/process-4-5-eisenhower-matrix">Corey Haines - Eisenhower Matrix</a></li>
 <li><a href="https://onurkarapinar.teachable.com/courses/553823/lectures/10277218">Onur Karapinar - Déterminer vos priorités</a></li>
 <li>
-<a href="/le-livre-des-decisions-mikael-krogerus" title="Le livre des décisions - Mikael Krogerus">Le livre des décisions - Mikael Krogerus</a>
+<a href="/le-livre-des-decisions-mikael-krogerus" title="Le livre des décisions - Mikael Krogerus" class="not-found">Le livre des décisions - Mikael Krogerus</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8904,11 +8904,11 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
             <media:content url="https://johackim.com/covers/les-cinq-elements-de-toute-entreprise.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/les-cinq-elements-de-toute-entreprise.jpg"/>
             <content:encoded><![CDATA[<p>Une entreprise est par essence un système qui contient et exécute continuellement 5 éléments :</p>
-<p>1. <strong>La création de <a href="/valeur" title="Valeur">Valeur</a></strong>. Découvrir ce que les gens veulent ou ce dont ils ont besoin, puis le créer.
-2. <strong>Le <a href="/marketing" title="Marketing">Marketing</a></strong>. Attirer l’attention et développer une demande pour ce que vous avez créé.
-3. <strong>La <a href="/vente" title="Vente">Vente</a></strong>. Transformer des prospects en clients qui paient.
-4. <strong>Délivrer la <a href="/valeur" title="Valeur">Valeur</a></strong>. Donner à vos clients ce que vous leur avez promis et vous assurer qu’ils sont satisfaits.
-5. <strong>La <a href="/finance" title="Finance">Finance</a></strong>. Gagner suffisamment d’argent pour poursuivre votre activité et récompenser vos efforts.</p>
+<p>1. <strong>La création de <a href="/valeur" title="Valeur" class="not-found">Valeur</a></strong>. Découvrir ce que les gens veulent ou ce dont ils ont besoin, puis le créer.
+2. <strong>Le <a href="/marketing" title="Marketing" class="not-found">Marketing</a></strong>. Attirer l’attention et développer une demande pour ce que vous avez créé.
+3. <strong>La <a href="/vente" title="Vente" class="not-found">Vente</a></strong>. Transformer des prospects en clients qui paient.
+4. <strong>Délivrer la <a href="/valeur" title="Valeur" class="not-found">Valeur</a></strong>. Donner à vos clients ce que vous leur avez promis et vous assurer qu’ils sont satisfaits.
+5. <strong>La <a href="/finance" title="Finance" class="not-found">Finance</a></strong>. Gagner suffisamment d’argent pour poursuivre votre activité et récompenser vos efforts.</p>
 
 <p>Quiconque essaie de vous présenter la gestion d’une entreprise comme quelque chose d’extrêmement compliqué tente, soit de vous impressionner, soit de vous vendre quelque chose dont vous n’avez pas besoin.</p>
 <p>Une entreprise, peut importe sa taille, s&#x27;occupe chaque jour de :</p>
@@ -8929,7 +8929,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Références :</p>
 <ul>
 <li>
-<a href="/le-personal-mba-josh-kaufman" title="Le Personal MBA - Josh Kaufman">Le Personal MBA - Josh Kaufman</a>
+<a href="/le-personal-mba-josh-kaufman" title="Le Personal MBA - Josh Kaufman" class="not-found">Le Personal MBA - Josh Kaufman</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -8942,7 +8942,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
             <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/le-modele-comportemental-de-fogg.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/le-modele-comportemental-de-fogg.jpg"/>
-            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/8oYGbWm.jpeg"/><p>Trois élements doivent être présent pour qu&#x27;un comportement se produise : la <strong><a href="/motivation" title="Motivation">Motivation</a></strong>, la <strong>capacité</strong>, et le <strong>déclencheur</strong>.</p>
+            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/8oYGbWm.jpeg"/><p>Trois élements doivent être présent pour qu&#x27;un comportement se produise : la <strong><a href="/motivation" title="Motivation" class="not-found">Motivation</a></strong>, la <strong>capacité</strong>, et le <strong>déclencheur</strong>.</p>
 
 <p><img src="https://i.imgur.com/8oYGbWm.jpeg" alt="Modèle comportemental de Fogg|400"/></p>
 <p>Il y a trois types de motivateurs pour qualifier la <strong>motivation</strong> :</p>
@@ -8966,7 +8966,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Références :</p>
 <ul>
 <li>
-<a href="/petites-habitudes-grandes-reussites-onur-karapinar" title="Petites habitudes, Grandes réussites - Onur Karapinar">Petites habitudes, Grandes réussites - Onur Karapinar</a>
+<a href="/petites-habitudes-grandes-reussites-onur-karapinar" title="Petites habitudes, Grandes réussites - Onur Karapinar" class="not-found">Petites habitudes, Grandes réussites - Onur Karapinar</a>
 
 </li>
 <li><a href="https://behaviormodel.org/">https://behaviormodel.org/</a></li>
@@ -8987,7 +8987,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Références :</p>
 <ul>
 <li>
-<a href="/antifragile-nassim-taleb" title="Antifragile - Nassim Taleb">Antifragile - Nassim Taleb</a>
+<a href="/antifragile-nassim-taleb" title="Antifragile - Nassim Taleb" class="not-found">Antifragile - Nassim Taleb</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -9036,16 +9036,16 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Le processus engendre des événements que les autres voient comme le fruit de la chance. La chance n’est pas un événement mais la conséquence d’un processus.</p>
 <p>La plupart des gens adorent les événements mais détestent les processus, car cela demande des sacrifices que peu de gens font, pour mener la vie que peu de gens vivent.</p>
 <h2>Surveillez vos croyances</h2>
-<p><a href="/croyance" title="Les croyances">Les croyances</a> précèdent les choix, qui eux-mêmes précèdent les actions.</p>
+<p><a href="/croyance" title="Les croyances" class="not-found">Les croyances</a> précèdent les choix, qui eux-mêmes précèdent les actions.</p>
 
 <p><mark>Qu’elles soient vraies ou non</mark>, les croyances sont des mécanismes puissants à l’origine des actions.</p>
 <p>Si vous voulez changer de vie, changez de choix. Pour changer de choix, vous devez changer de système de croyances.</p>
 <h2>La médiocrité</h2>
 <p>Les personnes médiocres arrêtent d&#x27;apprendre après leur études.</p>
-<p>Ils ne prennent aucune <a href="/responsabilite" title="Responsabilité">Responsabilité</a>, remettent la faute sur les autres et comptent sur les homme politiques et le gouvernement pour les aider. Ils pensent que tout leur est dù (soins médicaux gratuits, éducation gratuite, essence gratuite, remboursement d’emprunt immobilier gratuit).</p>
+<p>Ils ne prennent aucune <a href="/responsabilite" title="Responsabilité" class="not-found">Responsabilité</a>, remettent la faute sur les autres et comptent sur les homme politiques et le gouvernement pour les aider. Ils pensent que tout leur est dù (soins médicaux gratuits, éducation gratuite, essence gratuite, remboursement d’emprunt immobilier gratuit).</p>
 
 <p>Ils vivent au jour le jour, joue au Loto, au casino et achètent irrationnellement de quoi impréssionner les autres, des vêtements de marque, des accessoires et des loisirs proportionnels à leurs revenus.</p>
-<p>Ils préviligient toujours les actions à <a href="/satisfaction-immediate-vs.-satisfaction-differeres" title="Satisfaction immédiate aux actions à satisfaction différérés">Satisfaction immédiate aux actions à satisfaction différérés</a>.</p>
+<p>Ils préviligient toujours les actions à <a href="/satisfaction-immediate-vs.-satisfaction-differeres" title="Satisfaction immédiate aux actions à satisfaction différérés" class="not-found">Satisfaction immédiate aux actions à satisfaction différérés</a>.</p>
 
 <p>Il y a toujours plus d’argent qui sort que d’argent qui rentre.</p>
 <p>Leur plan c&#x27;est de n&#x27;avoir aucun plan.</p>
@@ -9097,7 +9097,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Dès le moment où l’on arrête de se former, on arrête de croître.</p>
 <p>Développer constamment vos connaissances et votre savoir est essentiel pour votre voyage.</p>
 <h2>La perception de l&#x27;argent</h2>
-<p><a href="/argent" title="L&#x27;argent">L&#x27;argent</a> est le reflet du nombre de vies sur lesquelles j’ai un impact. L’argent reflète la valeur que je crée.</p>]]></content:encoded>
+<p><a href="/argent" title="L&#x27;argent" class="not-found">L&#x27;argent</a> est le reflet du nombre de vies sur lesquelles j’ai un impact. L’argent reflète la valeur que je crée.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Ikigai]]></title>
@@ -9132,7 +9132,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Références :</p>
 <ul>
 <li>
-<a href="/ikigai-hector-garcia" title="IKIGAI - Héctor Garcia">IKIGAI - Héctor Garcia</a>
+<a href="/ikigai-hector-garcia" title="IKIGAI - Héctor Garcia" class="not-found">IKIGAI - Héctor Garcia</a>
 
 </li>
 <li><a href="https://fourminutebooks.com/ikigai/">https://fourminutebooks.com/ikigai/</a></li>
@@ -9482,7 +9482,7 @@ gi () {
 
 </li>
 <li>
-<a href="/iops" title="IOPS">IOPS</a>
+<a href="/iops" title="IOPS" class="not-found">IOPS</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -9503,7 +9503,7 @@ gi () {
 <p>Ajoutez l&#x27;URL de la liste de chaînes françaises M3U suivante : <a href="https://raw.githubusercontent.com/iptv-org/iptv/master/channels/fr.m3u">https://raw.githubusercontent.com/iptv-org/iptv/master/channels/fr.m3u</a></p>
 <p>Redémarrez Kodi et accédez à toutes vos chaînes de télévision dans TV.</p>
 <p>Pour accéder à d&#x27;autres chaînes que celle de la France, rendez-vous <a href="https://github.com/iptv-org/iptv/">sur ce dépôt Github</a> ou sur <a href="https://docs.google.com/spreadsheets/d/137Yw178ruq_v7_33al_B1PoGPyuGCANDNhLnDGXdrVg/">ce Spreadsheet</a>.</p>
-<p>~~Et si vous ne trouvez pas une chaine, vous pouvez vous inscrire <a href="/compte-google-anonyme" title="avec un compte gmail">avec un compte gmail</a> sur le service <a href="https://bestbuyiptv.store/user/registration/register.html">bestbuyiptv</a> qui donne accès à une période d&#x27;essai gratuite de 24H.~~ (Ne fonctionne plus)</p>]]></content:encoded>
+<p>~~Et si vous ne trouvez pas une chaine, vous pouvez vous inscrire <a href="/comment-detenir-un-compte-google-anonyme" title="avec un compte gmail">avec un compte gmail</a> sur le service <a href="https://bestbuyiptv.store/user/registration/register.html">bestbuyiptv</a> qui donne accès à une période d&#x27;essai gratuite de 24H.~~ (Ne fonctionne plus)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Rclone]]></title>
@@ -9850,7 +9850,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 <p>Références :</p>
 <ul>
 <li>
-<a href="/jeux-videos" title="Jeux vidéos">Jeux vidéos</a>
+<a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
 
 </li>
 <li><a href="https://videogamecanon.com/">https://videogamecanon.com/</a></li>
@@ -10212,7 +10212,7 @@ export default IndexPage;
 <p>Références :</p>
 <ul>
 <li>
-<a href="/automatisation" title="Automatisation">Automatisation</a>
+<a href="/automatisation" title="Automatisation" class="not-found">Automatisation</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -10361,7 +10361,7 @@ module.exports = {
 <p>Références :</p>
 <ul>
 <li>
-<a href="/rss" title="RSS">RSS</a>
+<a href="/rss" title="RSS" class="not-found">RSS</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -10843,19 +10843,19 @@ plugins: [
 
 </li>
 <li>
-<a href="/syntaxe-markdown-d&#x27;obsidian-dans-gatsby" title="Syntaxe markdown d&#x27;Obsidian dans Gatsby">Syntaxe markdown d&#x27;Obsidian dans Gatsby</a>
+<a href="/ajouter-le-support-de-la-syntaxe-markdown-d&#x27;obsidian-dans-gatsby" title="Syntaxe markdown d&#x27;Obsidian dans Gatsby">Syntaxe markdown d&#x27;Obsidian dans Gatsby</a>
 
 </li>
 <li>
-<a href="/creer-un-graph-viewer-comme-obsidian-avec-gatsby" title="Créer un Graph Viewer comme Obsidian avec Gatsby">Créer un Graph Viewer comme Obsidian avec Gatsby</a>
+<a href="/creer-un-graph-viewer-comme-obsidian-avec-gatsby" title="Créer un Graph Viewer comme Obsidian avec Gatsby" class="not-found">Créer un Graph Viewer comme Obsidian avec Gatsby</a>
 
 </li>
 <li>
-<a href="/creer-une-table-des-matieres-sur-gatsby" title="Créer une table des matières sur Gatsby">Créer une table des matières sur Gatsby</a>
+<a href="/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby" title="Créer une table des matières sur Gatsby">Créer une table des matières sur Gatsby</a>
 
 </li>
 <li>
-<a href="/ameliorer-le-seo-de-gatsby" title="Améliorer le SEO de Gatsby">Améliorer le SEO de Gatsby</a>
+<a href="/ameliorer-le-seo-de-gatsby" title="Améliorer le SEO de Gatsby" class="not-found">Améliorer le SEO de Gatsby</a>
 
 </li>
 </ol>
@@ -10950,7 +10950,7 @@ plugins: [
 </code></pre>
 <p>Vous pouvez ensuite vous rendre à l&#x27;adresse <a href="http://localhost:9117/">http://localhost:9117/</a> pour ajouter des Trackers torrent.</p>
 <h2>Utilisation avec Flaresolverr</h2>
-<p>Vous pouvez aussi paramétrer <a href="/flaresolverr" title="Flaresolverr">Flaresolverr</a> pour contourner la protection de Cloudflare si besoin.</p>
+<p>Vous pouvez aussi paramétrer <a href="/contourner-la-protection-cloudflare" title="Flaresolverr">Flaresolverr</a> pour contourner la protection de Cloudflare si besoin.</p>
 
 <p>Pour démarrer Flaresolverr avec Jackett, exécutez les commandes suivantes :</p>
 <pre><code class="language-bash">docker network create jackett
@@ -11361,7 +11361,7 @@ docker run -it --name mpw -p 80:80 johackim/mpw
 
 </li>
 <li>
-<a href="/ufw" title="UFW">UFW</a>
+<a href="/ufw" title="UFW" class="not-found">UFW</a>
 
 </li>
 <li>
@@ -12023,7 +12023,7 @@ networks:
             <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/glusterfs.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/glusterfs.jpg"/>
-            <content:encoded><![CDATA[<p><strong>GlusterFS</strong> est <a href="/systeme-de-fichiers-distribue" title="Système de fichiers distribué">Système de fichiers distribué</a> qui peut évoluer de manière progressive pour stocker plusieurs pétaoctets de données.</p>
+            <content:encoded><![CDATA[<p><strong>GlusterFS</strong> est <a href="/systeme-de-fichiers-distribue" title="Système de fichiers distribué" class="not-found">Système de fichiers distribué</a> qui peut évoluer de manière progressive pour stocker plusieurs pétaoctets de données.</p>
 
 <p>Pour installer un serveur GlusterFS :</p>
 <pre><code class="language-bash">apt update &amp;&amp; apt install -yq glusterfs-server
@@ -12090,7 +12090,7 @@ mount -a
 <li><code>![[Linking Note^]]</code> : Intégrer un bloc d&#x27;une autre note</li>
 <li><code>![[Filename]]</code> : Intégrer une autre note</li>
 <li>
-<code>!<a href="/image.filetype" title="250">250</a></code> : Insérer une image embed de 250px de largeur
+<code>!<a href="/image.filetype" title="250" class="not-found">250</a></code> : Insérer une image embed de 250px de largeur
 
 </li>
 <li><code>![|250](https://site.xyz/image.png)</code> : Insérer une image de 250px de largeur</li>
@@ -12226,7 +12226,7 @@ Le format Markdown en texte brut vous donne également une interopérabilité in
 <li><a href="https://thesweetsetup.com/obsidian/">Mike Schmitz - The Sweet Setup</a></li>
 <li><a href="https://courses.nicolevanderhoeven.com/o4e">Nicole van der Hoeven - Obsidian for Everyone</a></li>
 <li>
-<a href="/creer-un-plugin-obsidian" title="Créer un plugin Obsidian">Créer un plugin Obsidian</a>
+<a href="/creer-un-plugin-obsidian" title="Créer un plugin Obsidian" class="not-found">Créer un plugin Obsidian</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -12313,7 +12313,7 @@ Le format Markdown en texte brut vous donne également une interopérabilité in
             <pubDate>Tue, 11 May 2021 12:20:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/compte-facebook-anonyme.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/compte-facebook-anonyme.jpg"/>
-            <content:encoded><![CDATA[<p>Détenir un compte Facebook anonyme est beaucoup plus complexe qu&#x27;<a href="/compte-google-anonyme" title="avoir un compte Google anonyme">avoir un compte Google anonyme</a>.</p>
+            <content:encoded><![CDATA[<p>Détenir un compte Facebook anonyme est beaucoup plus complexe qu&#x27;<a href="/comment-detenir-un-compte-google-anonyme" title="avoir un compte Google anonyme">avoir un compte Google anonyme</a>.</p>
 
 <p>Pour créer un compte Facebook anonyme, il faut passer par 6 étapes :</p>
 <ol>
@@ -12846,7 +12846,7 @@ Couche 3 : <mark>Passages soulignés</mark>
 <p>Références :</p>
 <ul>
 <li>
-<a href="/the-one-thing-garry-keller" title="The One Thing - Garry Keller">The One Thing - Garry Keller</a>
+<a href="/the-one-thing-gary-keller" title="The One Thing - Garry Keller">The One Thing - Garry Keller</a>
 
 </li>
 <li>
@@ -12854,7 +12854,7 @@ Couche 3 : <mark>Passages soulignés</mark>
 
 </li>
 <li>
-<a href="/marketing-mania-la-methode-des-90-jours" title="Marketing Mania - La méthode des 90 jours">Marketing Mania - La méthode des 90 jours</a>
+<a href="/marketing-mania-la-methode-des-90-jours" title="Marketing Mania - La méthode des 90 jours" class="not-found">Marketing Mania - La méthode des 90 jours</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -14383,7 +14383,7 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 <p>Dans certains cas, vous pouvez trouver d&#x27;autres créateurs qui proposent un produit complémentaire qui pourrait très bien être combiné avec votre produit afin que vous puissiez faire équipe et vendre un ensemble contenant les deux produits avec une petite remise. De cette façon, vous pouvez tirer parti de vos deux publics.</p>
 <p>Exemple: Killer Design + Efficient Development = <code>$$$</code></p>
 <h2>9. Faire des contributions open-source</h2>
-<p>Il existe plusieurs manières d&#x27;être rémunéré pour nos contributions <a href="/open-source" title="open-source">open-source</a>.</p>
+<p>Il existe plusieurs manières d&#x27;être rémunéré pour nos contributions <a href="/open-source" title="open-source" class="not-found">open-source</a>.</p>
 
 <p>Un exemple notable est <a href="https://patreon.com/">Patreon</a> via un don mensuel ou, encore mieux, GitHub a récemment lancé <a href="https://github.com/sponsors">GitHub Sponsors</a>, qui est un autre excellent moyen d&#x27;obtenir du soutien.</p>
 <p>Ce qui est génial avec les sponsors GitHub, c&#x27;est qu&#x27;il n&#x27;y a pas de commissions, ce qui signifie que vous pouvez conserver l&#x27;intégralité du don, contrairement à Patreon, qui conserve un pourcentage de chaque don.</p>
@@ -14987,17 +14987,17 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <p>Vous avez en quelque sorte <strong>prévalidé</strong> votre idée, elle n&#x27;est pas complètement validée, car <strong>cela reste seulement des hypothèses</strong>.</p>
 <p><strong>L&#x27;unique façon de valider une idée est de faire sortir la carte de crédit de vos clients pour acheter votre produit.</strong></p>
 <p>Donc, placez-vous dans les mailles du filet et suggérez à votre audience d&#x27;acheter votre solution, peu importe si elle existe ou non.</p>
-<p>Et n&#x27;oubliez pas, <a href="/arretez-de-demander-si-votre-idee-d&#x27;entreprise-est-bonne-!" title="tout le monde s&#x27;en fiche de votre idée">tout le monde s&#x27;en fiche de votre idée</a>, la seule chose qui les intéressent c&#x27;est de résoudre leurs problèmes.</p>
+<p>Et n&#x27;oubliez pas, <a href="/arretez-de-demander-si-votre-idee-d-entreprise-est-bonne" title="tout le monde s&#x27;en fiche de votre idée">tout le monde s&#x27;en fiche de votre idée</a>, la seule chose qui les intéressent c&#x27;est de résoudre leurs problèmes.</p>
 
 <hr/>
 <p>Références :</p>
 <ul>
 <li>
-<a href="/start-small-stay-small-rob-walling" title="Start Small, Stay Small - Rob Walling">Start Small, Stay Small - Rob Walling</a>
+<a href="/start-small-stay-small-rob-walling" title="Start Small, Stay Small - Rob Walling" class="not-found">Start Small, Stay Small - Rob Walling</a>
 
 </li>
 <li>
-<a href="/will-it-fly-pat-flynn" title="Will It Fly? - Pat Flynn">Will It Fly? - Pat Flynn</a>
+<a href="/will-it-fly-pat-flynn" title="Will It Fly? - Pat Flynn" class="not-found">Will It Fly? - Pat Flynn</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -15076,7 +15076,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <h2>Attention</h2>
 <p>Le but de cette partie est d&#x27;<strong>attirer l&#x27;attention</strong>.</p>
 <p>Cela se passe généralement avec le titre et/ou l&#x27;image d&#x27;un article, d&#x27;une vidéo, d&#x27;un e-mail ect...</p>
-<p>Pour en savoir plus, vous pouvez consulter l&#x27;article &quot;<a href="/ecrire-un-titre" title="Comment rédiger un titre efficace ?">Comment rédiger un titre efficace ?</a>&quot;.</p>
+<p>Pour en savoir plus, vous pouvez consulter l&#x27;article &quot;<a href="/comment-ecrire-un-titre-efficace" title="Comment rédiger un titre efficace ?">Comment rédiger un titre efficace ?</a>&quot;.</p>
 
 <h2>Intérêt</h2>
 <p>Ensuite, on <strong>garde l&#x27;attention de la personne</strong> en suscitant son intérêt avec <strong>des faits</strong>, <strong>des statistiques, des utilisations, des histoires</strong> (<strong>storytelling</strong>) <strong>intéressantes</strong> en rapport avec notre produit.</p>
@@ -15100,7 +15100,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <p>Il est toujours préférable de ne donner qu&#x27;une seule option.</p>
 <p>Montrez-lui où cliquer, donnez-lui un numéro à appeler ou dites-lui comment acheter.</p>
 <h2>Conclusion</h2>
-<p>La psychologie de cet outil est basée sur le <a href="/modele-c.a.b" title="Modèle C.A.B">Modèle C.A.B</a> (Cognition, Affect, Behavior).</p>
+<p>La psychologie de cet outil est basée sur le <a href="/modele-c.a.b" title="Modèle C.A.B" class="not-found">Modèle C.A.B</a> (Cognition, Affect, Behavior).</p>
 
 <p>En gros, la personne apprend à vous connaître, à ressentir quelque chose, et passe à l&#x27;action.</p>
 <p>AIDA est un outil indispensable pour convaincre une personne d&#x27;acheter un produit.</p>
@@ -15162,7 +15162,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 
 </li>
 <li>
-<a href="/la-methode-c.b.i" title="La méthode C.B.I">La méthode C.B.I</a>
+<a href="/la-methode-c.b.i" title="La méthode C.B.I" class="not-found">La méthode C.B.I</a>
 
 </li>
 </ul>
@@ -15360,7 +15360,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <ul>
 <li><a href="https://blog.microlinux.fr/lineageos-samsung-galaxy/">Installer LineageOS sur un smartphone Samsung Galaxy</a></li>
 <li>
-<a href="/android" title="Android">Android</a>
+<a href="/android" title="Android" class="not-found">Android</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -15443,11 +15443,11 @@ mv swaks /usr/local/bin/
 <p>Références :</p>
 <ul>
 <li>
-<a href="/serveur-e-mail" title="Serveur e-mail">Serveur e-mail</a>
+<a href="/serveur-e-mail" title="Serveur e-mail" class="not-found">Serveur e-mail</a>
 
 </li>
 <li>
-<a href="/e-mail" title="E-mail">E-mail</a>
+<a href="/e-mail" title="E-mail" class="not-found">E-mail</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -15520,9 +15520,9 @@ mv swaks /usr/local/bin/
 <li><strong>Faire appel à l&#x27;intérêt personnel d&#x27;une personne</strong></li>
 </ul>
 <p>Par quoi les gens se sentent-ils concernés ? Par <strong>eux-mêmes</strong>. D&#x27;où l&#x27;intérêt d&#x27;en appeler à leur intérêt personnel.</p>
-<p>C&#x27;est le <strong><a href="/benefice-du-benefice" title="bénéfice du bénéfice">bénéfice du bénéfice</a></strong> que vous devez expliquer. En d&#x27;autres termes, les consommateurs n&#x27;achètent pas des forêts de 0,5 millimètre. Ils achètent des trous de 0,5 millimètre pour pouvoir accrocher des photos de leurs enfants.</p>
+<p>C&#x27;est le <strong><a href="/benefice-du-benefice" title="bénéfice du bénéfice" class="not-found">bénéfice du bénéfice</a></strong> que vous devez expliquer. En d&#x27;autres termes, les consommateurs n&#x27;achètent pas des forêts de 0,5 millimètre. Ils achètent des trous de 0,5 millimètre pour pouvoir accrocher des photos de leurs enfants.</p>
 
-<p>Le &quot;<strong><a href="/wiifm" title="qu&#x27;avez-vous à y gagner ?">qu&#x27;avez-vous à y gagner ?</a></strong>&quot;, dois être un élément centre de tout discours.</p>
+<p>Le &quot;<strong><a href="/wiifm" title="qu&#x27;avez-vous à y gagner ?" class="not-found">qu&#x27;avez-vous à y gagner ?</a></strong>&quot;, dois être un élément centre de tout discours.</p>
 
 <h2>Faites en sorte que votre message soit basé sur une histoire</h2>
 <p>Les gens se souviennent des histoires bien plus facilement qu&#x27;une liste de faits.</p>
@@ -15608,7 +15608,7 @@ mv swaks /usr/local/bin/
 <p><strong>L&#x27;unique façon de vérifier que son idée est bonne, c&#x27;est vendre.</strong></p>
 <p><strong>Le seul moyen de faire disparaitre le mensonge des gens est de se faire payer.</strong></p>
 <p>Pour ça, la stratégie consiste à <strong>créer du contenu</strong> tout en donnant la possibilité d&#x27;acheter notre produit.</p>
-<p>Il existe un terme populaire dans le monde des startups qui résume bien cette stratégie : &quot;<strong><a href="/fake-it-till-you-make-it" title="Fake it till you make it">Fake it till you make it</a></strong>&quot;.</p>
+<p>Il existe un terme populaire dans le monde des startups qui résume bien cette stratégie : &quot;<strong><a href="/fake-it-till-you-make-it" title="Fake it till you make it" class="not-found">Fake it till you make it</a></strong>&quot;.</p>
 
 <p>Proposer à votre audience un produit en <strong>prévente</strong> dans le but de vérifier la réaction de votre marché cible avant la création du produit.</p>
 <p>Cela peut se faire à l&#x27;aide d&#x27;une <a href="https://i.imgur.com/08VRypv.jpg">simple page de vente</a> ou bien d&#x27;une <a href="https://fr.ulule.com/netravaillezjamais/">campagne crowdfunding</a> par exemple.</p>
@@ -15635,7 +15635,7 @@ mv swaks /usr/local/bin/
             <pubDate>Wed, 02 Oct 2019 06:00:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/comment-contourner-le-pare-feu-de-mon-ecole.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/comment-contourner-le-pare-feu-de-mon-ecole.jpg"/>
-            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/GFzjMHU.png"/><link rel="preload" as="image" href="https://i.imgur.com/pU0dKUh.png"/><p>Pendant mes études (il y a 4 ans déjà), du jour au lendemain, mon école a mis en place un système de <a href="/deep-packet-inspection" title="DPI">DPI</a> (deep packet inspection) pour contrôler plus efficacement les protocoles utilisés par les étudiants et bannir les VPNs de façon plus radicale que de simplement bloquer les ports sortants.</p>
+            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/GFzjMHU.png"/><link rel="preload" as="image" href="https://i.imgur.com/pU0dKUh.png"/><p>Pendant mes études (il y a 4 ans déjà), du jour au lendemain, mon école a mis en place un système de <a href="/dpi" title="DPI">DPI</a> (deep packet inspection) pour contrôler plus efficacement les protocoles utilisés par les étudiants et bannir les VPNs de façon plus radicale que de simplement bloquer les ports sortants.</p>
 
 <p><strong>Que faire quand son école met tout en œuvre pour pas que l&#x27;on accède à nos sites ou jeux préférés ?</strong></p>
 <p>Avant tout, voici un petit rappel de ce que sont un <strong>VPN</strong> et un <strong>DPI</strong>.</p>
@@ -15768,7 +15768,7 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
 <li><strong>Biais cognitifs</strong> (Confirmation, Aversion à la perte, Association, Optimisme etc...)</li>
 <li><strong>Facteurs d&#x27;influence</strong> (Preuve sociale, Réciprocité, Rareté, Appréciation, Autorité, Cohérence)</li>
 <li>
-<strong>Gestion de projet</strong> (<a href="/smart" title="SMART">SMART</a>, <a href="/plan-de-90-jours" title="Plan de 90 jours">Plan de 90 jours</a>, <a href="/the-one-thing" title="The One Thing">The One Thing</a>, North Star)
+<strong>Gestion de projet</strong> (<a href="/objectifs-smart" title="SMART">SMART</a>, <a href="/plan-de-90-jours" title="Plan de 90 jours" class="not-found">Plan de 90 jours</a>, <a href="/the-one-thing" title="The One Thing" class="not-found">The One Thing</a>, North Star)
 
 </li>
 <li><strong>Productivité</strong> (Inbox Zero, Loi de Pareto, Getting things done)</li>
@@ -16119,7 +16119,7 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
 <li><strong>R</strong>evenue : Comment gagnez-vous de l’argent ?</li>
 </ul>
 <h3>On fait évoluer le projet en fonction des enseignements</h3>
-<p>À partir de là, je pense qu&#x27;<strong>il faut plus d&#x27;un jour</strong> pour tirer suffisamment d&#x27;enseignements. Si le <strong>taux de rétention</strong> est élevé, et que <strong>40%</strong> de vos utilisateurs déclarent qu&#x27;ils seraient très déçus s’ils ne pouvaient plus utiliser votre produit (<strong><a href="/test-de-sean-ellis" title="Test de Sean Ellis">Test de Sean Ellis</a></strong>), alors vous pouvez passer à l&#x27;<strong>étape de conception</strong>. Je parlerai de cette étape dans un prochain article.</p>
+<p>À partir de là, je pense qu&#x27;<strong>il faut plus d&#x27;un jour</strong> pour tirer suffisamment d&#x27;enseignements. Si le <strong>taux de rétention</strong> est élevé, et que <strong>40%</strong> de vos utilisateurs déclarent qu&#x27;ils seraient très déçus s’ils ne pouvaient plus utiliser votre produit (<strong><a href="/test-de-sean-ellis" title="Test de Sean Ellis" class="not-found">Test de Sean Ellis</a></strong>), alors vous pouvez passer à l&#x27;<strong>étape de conception</strong>. Je parlerai de cette étape dans un prochain article.</p>
 
 <p>Dans le cas contraire, je réitère ce processus de 10 étapes, je créer des hypothèses, et je valide ou non ces hypothèses en fonction des enseignements (metrics et feedbacks).</p>
 <p>L&#x27;idéal pour votre produit serait qu&#x27;il réponde correctement à ces 3 axes (<strong>viabilité</strong>, <strong>faisabilité</strong> et <strong>désirabilité</strong>), en un minimum de temps et sans dépenser trop d&#x27;argent.</p>
@@ -16524,18 +16524,18 @@ cryptsetup luksClose crypt
                         <p>Contenu archivé</p>
                     </div>
                 </blockquote>
-<p>Afin d&#x27;éviter de réinstaller manuellement <a href="/arch-linux" title="Arch Linux">Arch Linux</a> chaque année j&#x27;ai automatisé son installation à l&#x27;aide d&#x27;un fichier makefile. Fini la configuration manuelle de LVM, LUKS, UEFI, Grub, Nvidia, Alsa, Xorg, i3, vim, tmux, mutt, gtk etc...</p>
+<p>Afin d&#x27;éviter de réinstaller manuellement <a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a> chaque année j&#x27;ai automatisé son installation à l&#x27;aide d&#x27;un fichier makefile. Fini la configuration manuelle de LVM, LUKS, UEFI, Grub, Nvidia, Alsa, Xorg, i3, vim, tmux, mutt, gtk etc...</p>
 
 <p><strong>ATTENTION ! Les commandes <code>make</code> décrites dans cet article ont été créé seulement pour mon usage personnel, elles seront mises à jour plus tard pour un usage plus général. Je vous conseille de lire le fichier makefile si vous souhaitez les utiliser.</strong></p>
 <h2>TL;DR</h2>
 <p><a href="https://github.com/johackim/dotfiles">https://github.com/johackim/dotfiles</a></p>
 <h2>Étapes d&#x27;installation</h2>
-<p>De manière générale l&#x27;installation de <a href="/arch-linux" title="Arch Linux">Arch Linux</a> comprend de nombreuses étapes :</p>
+<p>De manière générale l&#x27;installation de <a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a> comprend de nombreuses étapes :</p>
 
 <ul>
 <li>Création, formatage et chiffrement des partitions</li>
 <li>
-Installation des fichiers de base de <a href="/arch-linux" title="Arch Linux">Arch Linux</a>
+Installation des fichiers de base de <a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>
 
 </li>
 <li>Configuration du fichier <code>/etc/fstab</code></li>
@@ -16557,7 +16557,7 @@ Installation des fichiers de base de <a href="/arch-linux" title="Arch Linux">Ar
 <li>Installation d&#x27;un gestionnaire de fenêtre léger (i3)</li>
 <li>Installation de mes packages</li>
 </ul>
-<p>J&#x27;ai créé un <a href="https://github.com/johackim/dotfiles/blob/3670f49216c8ffc70e1ea2f79617f12c681cbade/makefile">fichier makefile</a> qui contient toutes les commandes shell à exécuter lors de l&#x27;installation. Dorénavant, si je souhaite faire une installation complète, j&#x27;ai uniquement 2 commandes à entrer, une pour la création des partitions et l&#x27;autre pour l&#x27;installation de <a href="/arch-linux" title="Arch Linux">Arch Linux</a>.</p>
+<p>J&#x27;ai créé un <a href="https://github.com/johackim/dotfiles/blob/3670f49216c8ffc70e1ea2f79617f12c681cbade/makefile">fichier makefile</a> qui contient toutes les commandes shell à exécuter lors de l&#x27;installation. Dorénavant, si je souhaite faire une installation complète, j&#x27;ai uniquement 2 commandes à entrer, une pour la création des partitions et l&#x27;autre pour l&#x27;installation de <a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>.</p>
 
 <pre><code class="language-bash">make create-new-partitions
 make install-new-arch
@@ -16585,7 +16585,7 @@ make install-new-arch
 <li><a href="https://github.com/helmuthdu/aui">https://github.com/helmuthdu/aui</a></li>
 <li><a href="https://github.com/MatMoul/archfi">https://github.com/MatMoul/archfi</a></li>
 <li>
-<a href="/arch-linux" title="Arch Linux">Arch Linux</a>
+<a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -16683,7 +16683,7 @@ make install-new-arch
 <p>Références :</p>
 <ul>
 <li>
-<a href="/podcast" title="Podcast">Podcast</a>
+<a href="/podcast" title="Podcast" class="not-found">Podcast</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -16735,7 +16735,7 @@ make install-new-arch
 <p>Références :</p>
 <ul>
 <li>
-<a href="/mes-prochains-achats" title="To buy">To buy</a>
+<a href="/mes-prochains-achats" title="To buy" class="not-found">To buy</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -16868,7 +16868,7 @@ lsmod | grep virtio # Check virtio modules
 <li><a href="https://youtu.be/dsDUtzMkxFk">GrayWolfTech - Play games in Windows on Linux! PCI passthrough quick guide</a></li>
 <li><a href="https://youtu.be/6FI31QDtyy4">Tymscar - Native Performance Windows Games On Linux Quick GPU Passthrough</a></li>
 <li>
-<a href="/jeux-videos" title="Jeux vidéos">Jeux vidéos</a>
+<a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -17186,7 +17186,7 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
 <li><a href="https://lifehacker.com.au/2015/02/how-to-see-if-your-vpn-is-leaking-your-ip-address-and-how-to-stop-it/">How To See If Your VPN Is Leaking Your IP Address (And How To Stop It)</a></li>
 <li><a href="https://ivpn.net/knowledgebase/troubleshooting/my-real-location-is-detected-when-connected-to-vpn-how-to-disable-geolocation/">My real location is detected when connected to VPN. How to disable geolocation?</a></li>
 <li>
-<a href="/torrent" title="Torrent">Torrent</a>
+<a href="/torrent" title="Torrent" class="not-found">Torrent</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -17344,7 +17344,7 @@ openvpn dockvpn.ovpn
 <p>Références :</p>
 <ul>
 <li>
-<a href="/vpn" title="VPN">VPN</a>
+<a href="/vpn" title="VPN" class="not-found">VPN</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -18137,7 +18137,7 @@ docker deploy isso
 <p>Références :</p>
 <ul>
 <li>
-<a href="/hebergeur-web" title="Hébergeur web">Hébergeur web</a>
+<a href="/hebergeur-web" title="Hébergeur web" class="not-found">Hébergeur web</a>
 
 </li>
 </ul>]]></content:encoded>
