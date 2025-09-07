@@ -4,38 +4,33 @@ My personal website
 
 ## ✨ Features
 
-- [x] Obsidian Markdown syntax
-- [x] MDX support
-- [x] Dark Mode
-- [x] Newsletter
-- [x] Table of contents
-- [x] Comments
-- [x] Custom SEO
-- [x] Custom 404 page
-- [x] 100% Lighthouse performance score
+- [x] Wikilinks
+- [x] Mermaid
+- [x] Sitemap
+- [x] robots.txt
+- [x] Github Pages
+- [x] Custom 404
 - [x] Tailwind CSS
-- [x] Posthog support
+- [x] Meta tags
 - [x] RSS Feed
-- [x] Sitemap support
-- [x] Mermaid support
-- [x] Graph Viewer
-- [x] Redirections 301
-- [x] Rendering without JavaScript
-- [x] IPFS support
-- [ ] Search support
+- [x] No javascript
+- [x] Favicon
+- [x] Newsletter
+- [x] Responsive
+- [x] Comments
+- [x] Callouts
+- [x] Analytics
+- [ ] Search
+- [ ] Dark Mode
+- [ ] Graph Viewer
+- [ ] Member access
+- [ ] Security headers
+- [ ] Table of content
 
-## 🛠️ Technology stack
-
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
-- [Markdown](https://daringfireball.net/projects/markdown/)
-- [IPFS](https://ipfs.tech/)
-
-## 💻 Running locally
+## 💻 Usage
 
 ```bash
-yarn
-cp .env.dist .env
+npm install
 npm run dev
 ```
 
