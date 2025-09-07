@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 07 Sep 2025 14:48:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2025 15:01:56 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -19,7 +19,7 @@
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -113,18 +113,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">Eliott Meunier - 20 jours de randonnée + Burn Out + Life Update - HPR #1</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Quand on commence à méditer, ce qui se passe, c&#x27;est que, on veut se concentrer sur l&#x27;instant présent, mais il y a notre mental qui est en train de nous envoyer ailleurs.Il part, il commence à dialoguer tout seul dans sa tête.&quot;Ah tiens, qu&#x27;est-ce que je vais manger ce soir?&quot;&quot;Ah peut-être du pesto, mais tiens, est-ce qu&#x27;il me reste encore des pâtes?&quot;&quot;Ah mais en fait, attends, elle est intolérante au gluten.&quot;Quand tu commences à méditer, tu pars super loin dans tes pensées, dans tes raisonnements intellectuels avant de te rendre compte même que tu étais parti.Et donc, tu fais des rappels.Tu prends ton lassaut, tu ramènes la pensée dans l&#x27;instant présent pour la voir et la dissoudre.Mais parfois, il se passe une, deux, trois minutes avant que tu te rendes compte.Donc là, c&#x27;est le début de la méditation.Et plus tu progresses, plus tes rappels sont rapides.Donc, tu arrives à les ramener au bout de 4-5 secondes.Et ensuite tu les vois même avant qu&#x27;ils commencent à t&#x27;emmener et donc tu les ramènes.À la fin, tu as une sorte de couteau où tu coupes les raisonnements intellectuels avant même qu&#x27;ils se forment et ensuite tu n&#x27;as plus de raisonnement intellectuel.Ça, c&#x27;est la méditation.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://exploringkodawari.blog/mindfulness-is-pausing/</div>
                         </div>
                     
@@ -205,18 +194,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">The Art of Living - Epictetus</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Happiness and freedom begin with a clear understanding of one principle: Some things are within our control, and some things are not.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Shantideva</div>
                         </div>
                     
@@ -295,7 +273,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
             <webfeeds:featuredImage url="https://johackim.com/covers/triangle-cognitif.jpg"/>
             <content:encoded><![CDATA[<p>Le triangle cognitif (cognitive triangle en anglais) est un modèle utilisé en <a href="/tcc" title="Thérapie cognitivo-comportementale">Thérapie cognitivo-comportementale</a> qui illustre la relation entre nos pensées, nos émotions et nos comportements.</p>
 
-<svg aria-roledescription="flowchart-v2" viewBox="-8 -8 403.796875 84" style="max-width:403.796875px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-1"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-A LE-B" id="L-A-B-0" d="M77.265625,26.616635972989563L81.43229166666667,24.930529977491304C85.59895833333333,23.24442398199304,93.93229166666667,19.872211990996522,102.265625,18.186105995498263C110.59895833333333,16.5,118.93229166666667,16.5,123.09895833333333,16.5L127.265625,16.5"></path><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-B LE-C" id="L-B-C-0" d="M208.96875,16.5L213.13541666666666,16.5C217.30208333333334,16.5,225.63541666666666,16.5,235.155352447411,18.041666666666668C244.67528822815532,19.583333333333332,255.38182645631068,22.666666666666668,260.7350955703883,24.208333333333332L266.088364684466,25.75"></path><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-C LE-A" id="L-C-A-0" d="M266.088364684466,58.75L260.7350955703883,60.291666666666664C255.38182645631068,61.833333333333336,244.67528822815532,64.91666666666667,228.346758697411,66.45833333333333C212.01822916666666,68,190.06770833333334,68,168.1171875,68C146.16666666666666,68,124.21614583333333,68,109.07421875,66.31389400450173C93.93229166666667,64.62778800900348,85.59895833333333,61.255576018006956,81.43229166666667,59.56947002250869L77.265625,57.88336402701044"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(38.6328125, 42.25)" id="flowchart-A-12" class="node default default"><rect height="33" width="77.265625" y="-16.5" x="-38.6328125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-31.1328125, -9)" class="label"><foreignObject height="18" width="62.265625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Pensées</span></div></foreignObject></g></g><g transform="translate(168.1171875, 16.5)" id="flowchart-B-13" class="node default default"><rect height="33" width="81.703125" y="-16.5" x="-40.8515625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-33.3515625, -9)" class="label"><foreignObject height="18" width="66.703125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Émotions</span></div></foreignObject></g></g><g transform="translate(323.3828125, 42.25)" id="flowchart-C-15" class="node default default"><rect height="33" width="128.828125" y="-16.5" x="-64.4140625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-56.9140625, -9)" class="label"><foreignObject height="18" width="113.828125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Comportements</span></div></foreignObject></g></g></g></g></g></svg>
+
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTF7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctMSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctMSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTEgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctMSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy0xIC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctMSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy0xIC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTEgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTEgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctMSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy0xIC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTEgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTEgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctMSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctMSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctMSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy0xIDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
 <p>Il est basé sur l&#x27;idée que ces trois éléments sont interdépendants et s&#x27;influencent mutuellement :</p>
 <ul>
@@ -375,7 +353,7 @@ Créer votre boot USB avec <a href="/etcher" title="Etcher">Etcher</a> ou <code>
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -517,7 +495,7 @@ Créer votre boot USB avec <a href="/etcher" title="Etcher">Etcher</a> ou <code>
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -1246,7 +1224,7 @@ sudo pacman -Rsn ollama
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -1659,18 +1637,7 @@ SUM:                            73            888              3           7407
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">Daniel Kahneman</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>We should aim for a compromise: recognize situations when we’re vulnerable to mistakes, and avoid large mistakes when the stakes are high.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">The Science of Self-Control - Menno Henselmans</div>
                         </div>
                     
@@ -1716,7 +1683,7 @@ SUM:                            73            888              3           7407
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://x.com/Giuliano_Mana/status/1875543112325722481</div>
                         </div>
                     
@@ -2004,49 +1971,7 @@ Créer un <a href="/journaling" title="journal" class="not-found">journal</a>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">quote</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>When working toward your goals, it’s easy to sabotage your success by doubting yourself. For example, you might feel intimidated by your opponents—anyone who you think doubts your ability to succeed, and who makes you doubt yourself. This could be a boss, teacher, or coworker.Instead, work to harness your feelings around that perceived doubt and use them to apply yourself and prove your opponent wrong.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">quote</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Goggins calls this “taking souls”—acknowledging your opponents and using your feelings toward them to fuel your best work, take them by surprise, and earn their respect.</p>
-                    </div>
-                </blockquote>
-<h2>Challenge 5 : Visualiser le succès</h2>
-<p><em>Visualize Success</em></p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">quote</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>The only guaranteed way to fail is to quit</p>
-                    </div>
-                </blockquote>
-<ul>
-<li>Visualiser un challenge et un obstacle que vous avez besoin de dépasser</li>
-<li>Anticipez la difficulté et créer/adopter un plan pour y faire face</li>
-</ul>
-<h2>Challenge 6 : Remplissez votre boite à cookies</h2>
-<p><em>Stock Your <a href="/cookie-jar" title="Cookie Jar" class="not-found">Cookie Jar</a></em></p>
-
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">quote</div>
                         </div>
                     
@@ -2131,7 +2056,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Courtland Allen - Créateur de indiehackers.com</div>
                         </div>
                     
@@ -2234,7 +2159,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <li>Recommandation</li>
 <li>Revenu</li>
 </ol>
-<svg aria-roledescription="flowchart-v2" viewBox="-8 -8 686.8125 49" style="max-width:686.8125px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-3"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Acquisition LE-Activation" id="L-Acquisition-Activation-0" d="M92.375,16.5L96.54166666666667,16.5C100.70833333333333,16.5,109.04166666666667,16.5,117.375,16.5C125.70833333333333,16.5,134.04166666666666,16.5,138.20833333333334,16.5L142.375,16.5"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Activation LE-Rétention" id="L-Activation-Rétention-0" d="M226.75,16.5L230.91666666666666,16.5C235.08333333333334,16.5,243.41666666666666,16.5,251.75,16.5C260.0833333333333,16.5,268.4166666666667,16.5,272.5833333333333,16.5L276.75,16.5"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Rétention LE-Recommandation" id="L-Rétention-Recommandation-0" d="M360.25,16.5L364.4166666666667,16.5C368.5833333333333,16.5,376.9166666666667,16.5,385.25,16.5C393.5833333333333,16.5,401.9166666666667,16.5,406.0833333333333,16.5L410.25,16.5"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Recommandation LE-Revenu" id="L-Recommandation-Revenu-0" d="M550.65625,16.5L554.8229166666666,16.5C558.9895833333334,16.5,567.3229166666666,16.5,575.65625,16.5C583.9895833333334,16.5,592.3229166666666,16.5,596.4895833333334,16.5L600.65625,16.5"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(46.1875, 16.5)" id="flowchart-Acquisition-10" class="node default default"><rect height="33" width="92.375" y="-16.5" x="-46.1875" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-38.6875, -9)" class="label"><foreignObject height="18" width="77.375"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Acquisition</span></div></foreignObject></g></g><g transform="translate(184.5625, 16.5)" id="flowchart-Activation-11" class="node default default"><rect height="33" width="84.375" y="-16.5" x="-42.1875" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-34.6875, -9)" class="label"><foreignObject height="18" width="69.375"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Activation</span></div></foreignObject></g></g><g transform="translate(318.5, 16.5)" id="flowchart-Rétention-12" class="node default default"><rect height="33" width="83.5" y="-16.5" x="-41.75" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-34.25, -9)" class="label"><foreignObject height="18" width="68.5"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Rétention</span></div></foreignObject></g></g><g transform="translate(480.453125, 16.5)" id="flowchart-Recommandation-13" class="node default default"><rect height="33" width="140.40625" y="-16.5" x="-70.203125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-62.703125, -9)" class="label"><foreignObject height="18" width="125.40625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Recommandation</span></div></foreignObject></g></g><g transform="translate(635.734375, 16.5)" id="flowchart-Revenu-14" class="node default default"><rect height="33" width="70.15625" y="-16.5" x="-35.078125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-27.578125, -9)" class="label"><foreignObject height="18" width="55.15625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Revenu</span></div></foreignObject></g></g></g></g></g></svg>
+
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTN7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTMgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctMyAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy0zIC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTMgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTMgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy0zIC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTMgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctMyAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTMgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTMgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTMgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMyAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTMgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMyAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctMyBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMyAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy0zIC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctMyAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy0zIC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTMgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTMgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctMyAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy0zIC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTMgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTMgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTMgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy0zIC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctMyAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctMyAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTMgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMyBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctMyAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy0zIDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
 <h2>1. Acquisition</h2>
 <p>Il s&#x27;agit ici de récupérer le nombre de nouveaux visiteurs uniques qui arrivent sur votre site via un ensemble de canaux différents.</p>
@@ -2289,7 +2214,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/4HZJkT8.png"/><blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -2798,7 +2723,7 @@ gpg&gt; save
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://g-loaded.eu/2010/11/01/change-expiration-date-gpg-key/</div>
                         </div>
                     
@@ -2835,7 +2760,7 @@ gpg&gt; save
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Edward Snowden</div>
                         </div>
                     
@@ -2961,7 +2886,7 @@ export PATH=$PATH:$ASDF_DATA_DIR/shims
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -3125,7 +3050,7 @@ quickemu --vm android-9.0-x86.conf
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -3258,7 +3183,7 @@ done
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Nassim Taleb</div>
                         </div>
                     
@@ -3364,37 +3289,7 @@ Et une réponse
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">Marc Aurèle - Pensées pour moi-même (Livre V chapitre XX)</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>« The impediment to action advances action. What stands in the way becomes the way. »</p>
-                    </div>
-                </blockquote>
-<p>Qui peut se traduire par : &quot;L&#x27;obstacle à l&#x27;action fait avancer l&#x27;action. Ce qui se trouve sur le chemin devient le chemin.&quot;</p>
-<p>Ou plus précisément &quot;Ce qui nous empêche d’agir devient le motif de notre action, et ce qui nous barre la route devient ce vers quoi nous marchons.&quot;</p>
-<p><strong>Les obstacles de la vie sont inévitables, au lieu de les éviter, mieux vaut les voir comme une opportunité.</strong></p>
-<p>Une opportunité d&#x27;apprendre quelque chose et de mieux faire face aux défis futurs.</p>
-<p>On ne contrôle pas le monde extérieur, mais on peut contrôler notre réaction.</p>
-<p><img src="https://i.imgur.com/CEk5c0i.jpg" alt="|400"/>
-<img src="https://i.imgur.com/PXVpcnT.jpg" alt="|400"/>
-<img src="https://i.imgur.com/ktpFD4C.jpg" alt="|400"/></p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">James Clear</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>You cannot remove struggle from life, but you can improve your ability to handle challenge.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Mark Manson</div>
                         </div>
                     
@@ -3972,7 +3867,7 @@ npm pkg set scripts.lint=&quot;next lint&quot;
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">L’ancien président des États-Unis Dwight D. Eisenhower</div>
                         </div>
                     
@@ -4010,7 +3905,7 @@ npm pkg set scripts.lint=&quot;next lint&quot;
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Gurwinder - Licensing effect</div>
                         </div>
                     
@@ -4986,7 +4881,7 @@ Identifiez la contrainte (le <a href="/goulot-d&#x27;etranglement" title="Goulot
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -5094,7 +4989,7 @@ Répétez ce processus chaque jour de travail
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -5250,7 +5145,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://www.julian.com/blog/mental-model-examples</div>
                         </div>
                     
@@ -5277,7 +5172,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/fh9TORr.png"/><link rel="preload" as="image" href="https://i.imgur.com/TGPzhyU.png"/><link rel="preload" as="image" href="https://i.imgur.com/vX642TQ.png"/><link rel="preload" as="image" href="https://i.imgur.com/xG9p1jc.png"/><link rel="preload" as="image" href="https://i.imgur.com/7Km1B2B.png"/><link rel="preload" as="image" href="https://i.imgur.com/qC6PnKe.png"/><link rel="preload" as="image" href="https://i.imgur.com/KUStwdS.png"/><link rel="preload" as="image" href="https://i.imgur.com/Vr13q71.png"/><link rel="preload" as="image" href="https://i.imgur.com/aBSHApV.png"/><link rel="preload" as="image" href="https://i.imgur.com/gdcU3nm.png"/><link rel="preload" as="image" href="https://i.imgur.com/7i5Mz4s.png"/><link rel="preload" as="image" href="https://i.imgur.com/hJyOb0I.png"/><link rel="preload" as="image" href="https://i.imgur.com/wDUbNX2.png"/><blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -5407,7 +5302,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Hyperfocus - Chris Bailey</div>
                         </div>
                     
@@ -5444,7 +5339,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://gurwinder.substack.com/p/40-useful-concepts-you-should-know</div>
                         </div>
                     
@@ -5546,7 +5441,7 @@ grep -rin &lt;text&gt;
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -6161,7 +6056,7 @@ jobs:
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -6222,74 +6117,7 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Les 9 profils de séducteurs</h2>
-<p>L’analyse de ces 9 profils vous fera prendre conscience de vos attraits, autrement dit de vos atouts de base dans la séduction.</p>
-<ol>
-<li>La sirène</li>
-<li>Le libertin</li>
-<li>L&#x27;amant idéal</li>
-<li>Le Dandy</li>
-<li>L&#x27;Eternel enfant</li>
-<li>La coquette</li>
-<li>Le charmeur</li>
-<li>La figure charismatique</li>
-<li>La star</li>
-</ol>
-<h2>Découvrez ce qu&#x27;elle désire</h2>
-<p>Il faut se polariser intensément sur l’autre personne, découvrir ce dont elle manque et ce qui la déçoit.</p>
-<p>À qui a tout reçu, il manque le danger, la rébellion. À qui a connu le danger, il manque un sentiment de sécurité. À qui n’a obtenu que des satisfactions prosaïques, il manque quelque chose de plus noble, de plus créatif. <mark><b>Notre idéal est l’image de ce qui nous manque</b></mark>.</p>
-<p>Rares sont les êtres capables de résister à la tentation de suivre celui ou celle qui semble s’adapter à leurs désirs, donner vie à leurs fantasmes.</p>
-<h2>Être autonome</h2>
-<p>Dans le domaine de la séduction, la confiance en soi est vitale. Un manque de sûreté en soi éloigne, l’assurance et l’autonomie attirent.</p>
-<p><strong>Moins vous semblerez avoir besoin des autres, plus ils rechercheront votre compagnie</strong>.</p>
-<p>Une fois que vous aurez assimilé l’importance de ce point dans toute relation amoureuse, vous n’aurez aucun mal à faire taire votre insécurité affective.</p>
-<h2>Concentrez votre attention sur elle</h2>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">Benjamin Disraeli</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>« Parlez à quelqu’un de lui-même et il vous écoutera des heures »</p>
-                    </div>
-                </blockquote>
-<p>Soyez empathique, concentrez tout votre attention sur elle, comprenez son humeur et adaptez-vous à elle.</p>
-<p>Sachez écouter et observer. Faites parler la personne qui vous intéresse, amenez-la à se dévoiler.</p>
-<p>Plus vous en saurez sur elle, mieux vous saurez monopoliser son attention, jouer sur ses désirs et besoins particuliers, adapter vos flatteries à ses insécurités.</p>
-<p>Faites d’elle la vedette de la soirée et elle ne pourra plus se passer de vous : vous l’aurez piégée dans une dépendance.</p>
-<h2>Soyez agréable</h2>
-<p>La gaieté et la drôlerie charment bien plus que le sérieux et la critique.</p>
-<p>Distrayez-la de ses problèmes en vous montrant agréable à vivre.</p>
-<h2>Le processus de séduction</h2>
-<h3>Choisir sa victime</h3>
-<p>Comment sélectionner ses cibles ? À la façon dont elles réagissent à vos approches.</p>
-<p>La victime adéquate est celle chez qui vous pouvez combler un vide, à qui vous apparaissez comme quelqu’un de neuf et d’intéressant.</p>
-<p>Un être comblé est presque impossible à séduire.</p>
-<h3>Inspirer confiance</h3>
-<p>Si vous abattez toutes vos cartes d’entrée de jeu, vous risquez de susciter une résistance durable.</p>
-<p><strong>La première fois, ayez l’air de tout sauf d’un séducteur.</strong></p>
-<p>Bien des femmes désirent ce qui leur échappe, et détestent ce qu’on leur offre avec instance.</p>
-<p>Si vous lui donnez d’emblée l’impression qu’elle a elle-même fait le premier pas, vous aurez gagné la partie.</p>
-<p>Approchez vous petit à petit, gardez des entretiens amicaux afin d&#x27;obtenir des informations sur elle.</p>
-<h3>Soyez indéfinissable</h3>
-<p>Pour capter l’attention d’un public, pour le séduire afin qu’il ne cesse de penser à vous, il faut lui adresser des signaux contradictoires.</p>
-<h3>Susciter la jalousie</h3>
-<p>Que vos admirateurs soient des amis ou des soupirants, peu importe : leur présence créera <a href="/l&#x27;effet-harem" title="L&#x27;effet harem" class="not-found">L&#x27;effet harem</a>.</p>
-
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Stendhal</div>
                         </div>
                     
@@ -6339,7 +6167,7 @@ cd mac-on-linux-with-qemu
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -6814,7 +6642,7 @@ udisks --detach /dev/sdX
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://entreprendre.service-public.fr/vosdroits/F23547</div>
                         </div>
                     
@@ -6841,7 +6669,7 @@ udisks --detach /dev/sdX
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Contenu archivé</div>
                         </div>
                     
@@ -7360,7 +7188,7 @@ Excellente exécution = 1,000,000€</p>
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -7389,18 +7217,7 @@ Excellente exécution = 1,000,000€</p>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">https://customercamp.co/mere-exposure-effect/</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>The more we see something, the more we come to like and trust it.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -7430,7 +7247,7 @@ Excellente exécution = 1,000,000€</p>
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -7565,19 +7382,7 @@ sudo systemctl restart sshd
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Notre tendance à chercher coûte que coûte une explication logique à chaque histoire quitte à en inventer une et à négliger la vérité brute.</p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -7605,7 +7410,7 @@ sudo systemctl restart sshd
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -7635,7 +7440,7 @@ sudo systemctl restart sshd
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -7712,23 +7517,7 @@ sudo systemctl restart sshd
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">Et tout le monde s&#x27;en fout #80 - Toi</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Ton cerveau, il confirme ce que tu crois.En gros, plus tu crois un truc, et plus ton cerveau va sélectionner dans la réalité des détails qui va mettre bout à bout pour te prouver que ce que tu crois, c&#x27;est la vérité.Le cerveau, il renforce ce sur quoi tu poses ton attention tous les jours.Ça ne veut pas dire que ce que tu crois, c&#x27;est faux. Ça veut dire que ce que tu vises détermine ce que tu vois.</p>
-                    </div>
-                </blockquote>
-<p>Pour l&#x27;éviter le plus possible, vous pouvez :</p>
-<ul>
-<li>Être conscient de son existence (la base)</li>
-<li>Chercher activement des informations qui contredisent et réfutent nos croyances</li>
-</ul>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Arrêtez de vous tromper - Rolf Dobelli</div>
                         </div>
                     
@@ -7760,7 +7549,7 @@ sudo systemctl restart sshd
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -7874,7 +7663,7 @@ sudo systemctl restart sshd
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">James Clear</div>
                         </div>
                     
@@ -8599,7 +8388,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 
 <p>Une fois la <a href="/notes-litteraires" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="/notes-permanentes" title="notes permanentes">notes permanentes</a>.</p>
 
-<svg aria-roledescription="flowchart-v2" viewBox="-8 -8 329.875 132" style="max-width:329.875px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-5"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Temporaire LE-Permanente" id="L-Temporaire-Permanente-0" d="M72.859375,33L72.859375,37.166666666666664C72.859375,41.333333333333336,72.859375,49.666666666666664,81.99278363453816,58C91.1261922690763,66.33333333333333,109.39300953815261,74.66666666666667,118.52641817269075,78.83333333333333L127.65982680722891,83"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Littéraire LE-Permanente" id="L-Littéraire-Permanente-0" d="M254.796875,33L254.796875,37.166666666666664C254.796875,41.333333333333336,254.796875,49.666666666666664,245.66346636546186,58C236.5300577309237,66.33333333333333,218.2632404618474,74.66666666666667,209.12983182730923,78.83333333333333L199.9964231927711,83"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(72.859375, 16.5)" id="flowchart-Temporaire-8" class="node default default"><rect height="33" width="145.71875" y="-16.5" x="-72.859375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-65.359375, -9)" class="label"><foreignObject height="18" width="130.71875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Notes temporaires</span></div></foreignObject></g></g><g transform="translate(163.828125, 99.5)" id="flowchart-Permanente-9" class="node default default"><rect height="33" width="138.640625" y="-16.5" x="-69.3203125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-61.8203125, -9)" class="label"><foreignObject height="18" width="123.640625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Note permanente</span></div></foreignObject></g></g><g transform="translate(254.796875, 16.5)" id="flowchart-Littéraire-10" class="node default default"><rect height="33" width="118.15625" y="-16.5" x="-59.078125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-51.578125, -9)" class="label"><foreignObject height="18" width="103.15625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Notes littéraire</span></div></foreignObject></g></g></g></g></g></svg>
+
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTV7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTUgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy01IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy01IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTUgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTUgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTUgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTUgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy01IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
 <p>~~Ce sur quoi mon processus diffère de la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.~~</p>
 
@@ -8864,7 +8653,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">L’ancien président des États-Unis Dwight D. Eisenhower</div>
                         </div>
                     
@@ -9014,7 +8803,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -9162,7 +8951,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -9340,7 +9129,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <p>Ces trois lois nous enferment dans un cycle qui peut durer une trentaine de secondes. Les tests et le code de production sont écrits ensemble, en commençant par les tests.</p>
 <p>Si nous travaillons de cette manière, nous écrivons des dizaines de tests par jour, des centaines de tests par mois et des milliers de tests par an. Si nous travaillons ainsi, ces tests couvrent virtuellement tout le code de production.</p>
 <h2>Pratiquer le TDD en 5 étapes</h2>
-<svg aria-roledescription="flowchart-v2" viewBox="-8 -8 399.421875 84" style="max-width:399.421875px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-6"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Think LE-Red" id="L-Think-Red-0" d="M54.125,28.864945978391354L58.291666666666664,26.80412164865946C62.458333333333336,24.74329731892757,70.79166666666667,20.621648659463784,79.125,18.56082432973189C87.45833333333333,16.5,95.79166666666667,16.5,99.95833333333333,16.5L104.125,16.5"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Red LE-Green" id="L-Red-Green-0" d="M148.484375,16.5L152.65104166666666,16.5C156.81770833333334,16.5,165.15104166666666,16.5,173.484375,16.5C181.81770833333334,16.5,190.15104166666666,16.5,194.31770833333334,16.5L198.484375,16.5"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Green LE-Refactor" id="L-Green-Refactor-0" d="M257.953125,11.067513559805882L262.1197916666667,10.306261299838235C266.2864583333333,9.545009039870587,274.6197916666667,8.022504519935294,282.953125,8.97150547707018C291.2864583333333,9.920506434205064,299.6197916666667,13.341012868410127,303.7864583333333,15.05126608551266L307.953125,16.76151930261519"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Refactor LE-Think" id="L-Refactor-Think-0" d="M316.7331730769231,48.75L311.1031650641026,51.958333333333336C305.47315705128204,55.166666666666664,294.21314102564105,61.583333333333336,279.4607371794872,64.79166666666667C264.7083333333333,68,246.46354166666666,68,228.21875,68C209.97395833333334,68,191.72916666666666,68,174.74348958333334,68C157.7578125,68,142.03125,68,126.3046875,68C110.578125,68,94.8515625,68,82.82161458333333,65.93917567026811C70.79166666666667,63.87835134053622,62.458333333333336,59.75670268107243,58.291666666666664,57.695878351340546L54.125,55.635054021608646"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Refactor LE-Green" id="L-Refactor-Green-0" d="M307.953125,32.25L303.7864583333333,32.25C299.6197916666667,32.25,291.2864583333333,32.25,282.953125,31.051027690550956C274.6197916666667,29.852055381101916,266.2864583333333,27.454110762203825,262.1197916666667,26.25513845275478L257.953125,25.056166143305738"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(27.0625, 42.25)" id="flowchart-Think-14" class="node default default"><rect height="33" width="54.125" y="-16.5" x="-27.0625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-19.5625, -9)" class="label"><foreignObject height="18" width="39.125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Think</span></div></foreignObject></g></g><g transform="translate(126.3046875, 16.5)" id="flowchart-Red-15" class="node default default"><rect height="33" width="44.359375" y="-16.5" x="-22.1796875" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-14.6796875, -9)" class="label"><foreignObject height="18" width="29.359375"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Red</span></div></foreignObject></g></g><g transform="translate(228.21875, 16.5)" id="flowchart-Green-16" class="node default default"><rect height="33" width="59.46875" y="-16.5" x="-29.734375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-22.234375, -9)" class="label"><foreignObject height="18" width="44.46875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Green</span></div></foreignObject></g></g><g transform="translate(345.6875, 32.25)" id="flowchart-Refactor-17" class="node default default"><rect height="33" width="75.46875" y="-16.5" x="-37.734375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-30.234375, -9)" class="label"><foreignObject height="18" width="60.46875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Refactor</span></div></foreignObject></g></g></g></g></g></svg>
+
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTZ7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTYgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNiAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy02IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTYgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTYgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy02IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTYgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNiAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTYgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTYgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTYgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNiAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTYgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNiAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNiBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNiAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy02IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNiAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy02IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTYgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTYgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNiAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy02IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTYgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTYgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTYgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy02IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNiAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNiAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTYgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNiBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNiAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy02IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
 <p>Le processus préconisé par TDD comporte cinq étapes :</p>
 <ol>
@@ -9572,7 +9361,7 @@ sudo chmod +x /usr/local/bin/rclone
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://rclone.org/commands/rclone_sync/</div>
                         </div>
                     
@@ -11133,7 +10922,7 @@ echo &quot;hello world&quot; &gt; _site/index.html
             <media:content url="https://johackim.com/covers/creer-un-service-docker-avec-plusieurs-replicas.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-service-docker-avec-plusieurs-replicas.jpg"/>
             <content:encoded><![CDATA[<p>Il est possible de créer plusieurs conteneurs dans un seul service Docker. Ces conteneurs sont appelé des replicas.</p>
-<svg aria-roledescription="flowchart-v2" viewBox="-8 -8 398.5 132" style="max-width:398.5px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-1"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Service LE-Conteneur1" id="L-Service-Conteneur1-0" d="M163.7421875,26.189534635500053L145.04036458333334,31.49127886291671C126.33854166666667,36.79302309033337,88.93489583333333,47.39651154516668,70.23307291666667,56.864922439250016C51.53125,66.33333333333333,51.53125,74.66666666666667,51.53125,78.83333333333333L51.53125,83"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Service LE-Conteneur2" id="L-Service-Conteneur2-0" d="M197.921875,33L197.921875,37.166666666666664C197.921875,41.333333333333336,197.921875,49.666666666666664,197.921875,58C197.921875,66.33333333333333,197.921875,74.66666666666667,197.921875,78.83333333333333L197.921875,83"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none;stroke-width:2px;stroke-dasharray:3" class="edge-thickness-normal edge-pattern-dotted flowchart-link LS-Service LE-Conteneur3" id="L-Service-Conteneur3-0" d="M232.1015625,26.652231044509058L249.69140625,31.876859203757547C267.28125,37.101487363006036,302.4609375,47.550743681503015,320.05078125,56.942038507418175C337.640625,66.33333333333333,337.640625,74.66666666666667,337.640625,78.83333333333333L337.640625,83"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(197.921875, 16.5)" id="flowchart-Service-12" class="node default default"><rect height="33" width="68.359375" y="-16.5" x="-34.1796875" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-26.6796875, -9)" class="label"><foreignObject height="18" width="53.359375"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Service</span></div></foreignObject></g></g><g transform="translate(51.53125, 99.5)" id="flowchart-Conteneur1-13" class="node default default"><rect height="33" width="103.0625" y="-16.5" x="-51.53125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-44.03125, -9)" class="label"><foreignObject height="18" width="88.0625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Conteneur 1</span></div></foreignObject></g></g><g transform="translate(197.921875, 99.5)" id="flowchart-Conteneur2-15" class="node default default"><rect height="33" width="89.71875" y="-16.5" x="-44.859375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-37.359375, -9)" class="label"><foreignObject height="18" width="74.71875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Conteneur</span></div></foreignObject></g></g><g transform="translate(337.640625, 99.5)" id="flowchart-Conteneur3-17" class="node default default"><rect height="33" width="89.71875" y="-16.5" x="-44.859375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-37.359375, -9)" class="label"><foreignObject height="18" width="74.71875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Conteneur</span></div></foreignObject></g></g></g></g></g></svg>
+
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTF7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctMSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTEgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctMSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTEgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctMSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy0xIC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctMSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy0xIC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTEgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTEgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctMSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy0xIC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTEgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTEgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTEgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy0xIC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctMSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctMSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTEgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctMSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctMSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy0xIDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
 <p>La commande suivante aura pour objectif de créer 3 replicas basé sur l&#x27;image Docker ghost :</p>
 <pre><code class="language-bash">docker service create --replicas 3 ghost
@@ -11153,7 +10942,7 @@ echo &quot;hello world&quot; &gt; _site/index.html
 <blockquote class="callout note">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">note</div>
                         </div>
                     
@@ -12375,7 +12164,7 @@ Le format Markdown en texte brut vous donne également une interopérabilité in
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -12577,19 +12366,7 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
-                            <div class="callout-title-inner">quote</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>« ==Quelle est l&#x27;UNIQUE chose que vous pouvez faire, de telle sorte qu&#x27;en la faisant, tout le reste deviendra plus facile ou inutile ?== »</p>
-                    </div>
-                </blockquote>
-<p>Ce qui reprend un peu l&#x27;idée de ce proverbe :</p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Proverbe Russe</div>
                         </div>
                     
@@ -12666,7 +12443,7 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/N9BAE3u.png"/><blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -12801,7 +12578,7 @@ Couche 3 : <mark>Passages soulignés</mark>
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -12961,7 +12738,7 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -13005,7 +12782,7 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 <p>Une sorte de <strong>Wikipédia personnel</strong>.</p>
 <p>PS: Il ne s&#x27;agit pas d&#x27;un blog traditionnel où je publie de simples articles de manière chronologiques_.</p>
 <h2>Visualisation de mon second cerveau</h2>
-<svg aria-roledescription="flowchart-v2" viewBox="-8 -8 593.375 531" style="max-width:593.375px" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-svg-7"><g><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="10" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointEnd"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 0 L 10 5 L 0 10 z"></path></marker><marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="0" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-pointStart"><path style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 0 5 L 10 10 L 10 0 z"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleEnd"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1" viewBox="0 0 10 10" class="marker flowchart" id="flowchart-circleStart"><circle style="stroke-width:1;stroke-dasharray:1, 0" class="arrowMarkerPath" r="5" cy="5" cx="5"></circle></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossEnd"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1" viewBox="0 0 11 11" class="marker cross flowchart" id="flowchart-crossStart"><path style="stroke-width:2;stroke-dasharray:1, 0" class="arrowMarkerPath" d="M 1,1 l 9,9 M 10,1 l -9,9"></path></marker><g class="root"><g class="clusters"><g id="subGraph2" class="cluster default"><rect height="166" width="577.375" y="349" x="0" ry="0" rx="0"></rect><g transform="translate(217.0859375, 349)" class="cluster-label"><foreignObject height="18" width="143.203125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Système de partage</span></div></foreignObject></g></g><g id="subGraph1" class="cluster default"><rect height="83" width="399.421875" y="216" x="97.58984375" ry="0" rx="0"></rect><g transform="translate(223.03515625, 216)" class="cluster-label"><foreignObject height="18" width="148.53125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Mon second cerveau</span></div></foreignObject></g></g><g id="subGraph0" class="cluster default"><rect height="166" width="473.015625" y="0" x="59.953125" ry="0" rx="0"></rect><g transform="translate(173.5390625, 0)" class="cluster-label"><foreignObject height="18" width="245.84375"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Système de capture d&#x27;informations</span></div></foreignObject></g></g></g><g class="edgePaths"><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Content LE-Readwise" id="L-Content-Readwise-0" d="M296.4609375,58L296.4609375,83L296.4609375,108"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Readwise LE-Obsidian" id="L-Readwise-Obsidian-0" d="M296.4609375,141L296.4609375,166L296.4609375,191L296.4609375,216L296.4609375,241"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Obsidian LE-Next.js" id="L-Obsidian-Next.js-0" d="M236.148343373494,274L144.765625,299L144.765625,324L144.765625,349L144.765625,374"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Obsidian LE-Newsletter" id="L-Obsidian-Newsletter-0" d="M296.4609375,274L296.4609375,299L296.4609375,324L296.4609375,349L296.4609375,374"></path><path marker-end="url(#flowchart-pointEnd)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Obsidian LE-Twitter" id="L-Obsidian-Twitter-0" d="M364.29047439759034,274L467.0625,299L467.0625,324L467.0625,349L467.0625,374"></path><path marker-end="url(#flowchart-pointEnd)" marker-start="url(#flowchart-pointStart)" style="fill:none" class="edge-thickness-normal edge-pattern-solid flowchart-link LS-Next.js LE-SEO" id="L-Next.js-SEO-0" d="M144.765625,407L144.765625,432L144.765625,457"></path></g><g class="edgeLabels"><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel"><g transform="translate(0, 0)" class="label"><foreignObject height="0" width="0"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g transform="translate(144.765625, 390.5)" id="flowchart-Next.js-29" class="node default default"><rect height="33" width="112.8125" y="-16.5" x="-56.40625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-48.90625, -9)" class="label"><foreignObject height="18" width="97.8125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">johackim.com</span></div></foreignObject></g></g><g transform="translate(296.4609375, 390.5)" id="flowchart-Newsletter-31" class="node default default"><rect height="33" width="90.578125" y="-16.5" x="-45.2890625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-37.7890625, -9)" class="label"><foreignObject height="18" width="75.578125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Newsletter</span></div></foreignObject></g></g><g transform="translate(467.0625, 390.5)" id="flowchart-Twitter-33" class="node default default"><rect height="33" width="150.625" y="-16.5" x="-75.3125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-67.8125, -9)" class="label"><foreignObject height="18" width="135.625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Twitter + Mastodon</span></div></foreignObject></g></g><g transform="translate(144.765625, 473.5)" id="flowchart-SEO-35" class="node default default"><rect height="33" width="219.53125" y="-16.5" x="-109.765625" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-102.265625, -9)" class="label"><foreignObject height="18" width="204.53125"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">SEO (Moteurs de recherche)</span></div></foreignObject></g></g><g transform="translate(296.4609375, 257.5)" id="flowchart-Obsidian-27" class="node default default"><rect height="33" width="222.1875" y="-16.5" x="-111.09375" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-103.59375, -9)" class="label"><foreignObject height="18" width="207.1875"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Obsidian (fichiers markdown)</span></div></foreignObject></g></g><g transform="translate(296.4609375, 124.5)" id="flowchart-Readwise-25" class="node default default"><rect height="33" width="85.265625" y="-16.5" x="-42.6328125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-35.1328125, -9)" class="label"><foreignObject height="18" width="70.265625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Readwise</span></div></foreignObject></g></g><g transform="translate(296.4609375, 41.5)" id="flowchart-Content-24" class="node default default"><rect height="33" width="403.015625" y="-16.5" x="-201.5078125" ry="0" rx="0" class="basic label-container"></rect><g transform="translate(-194.0078125, -9)" class="label"><foreignObject height="18" width="388.015625"><div style="display:inline-block;white-space:nowrap" xmlns="http://www.w3.org/1999/xhtml"><span class="nodeLabel">Articles, Livres, Vidéos, Podcasts, Newsletters, Tweets</span></div></foreignObject></g></g></g></g></g></svg>
+
 <link href="data:text/css;base64,I21lcm1haWQtc3ZnLTd7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNyAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy03IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy03IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNyAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTcgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNyBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy03IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNyAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy03IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTcgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTcgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNyAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy03IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTcgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTcgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy03IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNyAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNyAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNyAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy03IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
 <h2>Mon système de capture d&#x27;informations</h2>
 <p>C&#x27;est à cet endroit que je capture toutes les informations (RSS, Newsletters, Tweets, Vidéos YouTube, etc...).</p>
@@ -15963,7 +15740,7 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -16445,7 +16222,7 @@ networks:
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/G6N9zs2.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/Gqne66g.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/J4rP0bc.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/kLD5VcT.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/CKAPoeq.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/8uVsCQM.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/VJYRRd0.jpg"/><blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -16528,7 +16305,7 @@ cryptsetup luksClose crypt
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -16897,7 +16674,7 @@ lsmod | grep virtio # Check virtio modules
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -17215,18 +16992,7 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Archived content</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Edward Snowden</div>
                         </div>
                     
@@ -17713,7 +17479,7 @@ docker run -d --name tiny-tiny-rss --link db:postgres -e SELF_URL_PATH=http://lo
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -18315,7 +18081,7 @@ exit $?
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
@@ -18399,7 +18165,7 @@ exit $?
             <content:encoded><![CDATA[<blockquote class="callout info">
                     
                         <div class="callout-title">
-                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">info</div>
                         </div>
                     
