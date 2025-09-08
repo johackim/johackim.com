@@ -21,7 +21,7 @@ export default () => {
                             <p className="font-bold">🚧 Ce contenu n'est pas encore disponible</p>
                             <p>Abonnez-vous pour être informé dès qu'il sortira... </p>
                             <Link href="/newsletter" passHref>
-                                <button type="button" className="bg-cyan-600 text-white hover:text-white hover:bg-cyan-700 px-5 py-2 rounded-md cursor-pointer">S'abonner</button>
+                                <button type="button" className="bg-cyan-700 text-white hover:text-white hover:bg-cyan-800 px-5 py-2 rounded-md cursor-pointer">S'abonner</button>
                             </Link>
                             <p>
                                 <small>
