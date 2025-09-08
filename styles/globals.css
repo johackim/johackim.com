@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 @custom-variant prose-inline-code (&.prose :where(:not(pre)>code):not(:where([class~="not-prose"] *)));
+@custom-variant prose-mark (&.prose :where(mark:not(:where([class~="not-prose"] *))));
 
 /* Blockquote */
 
