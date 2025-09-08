@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import posthog from 'posthog-js';
+import posthog from 'posthog-js/dist/module.no-external';
 import { useEffect } from 'react';
 import { DefaultSeo } from 'next-seo';
 import { useRouter } from 'next/router';
@@ -17,7 +17,6 @@ export default ({ Component, pageProps }) => {
     useEffect(() => {
         posthog.init('kDBqvv-5vPNiTDaYA9jSfKRC-5KhDWqhRQYAc4g3Dp8', {
             api_host: 'https://ph.johackim.com',
-            advanced_disable_feature_flags: true,
         });
 
         const handleRouteChange = () => posthog.capture('$pageview');
