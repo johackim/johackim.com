@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 08 Sep 2025 14:29:30 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 19:08:04 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -953,6 +953,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 <a href="/automatisation" title="Automatisation" class="not-found">Automatisation</a>
 
 </li>
+<li><a href="https://npmjs.com/search?q=keywords%3An8n-community-node-package">https://npmjs.com/search?q=keywords%3An8n-community-node-package</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
