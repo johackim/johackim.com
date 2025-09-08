@@ -101,7 +101,7 @@ export const getStaticProps = async ({ params }) => {
 
     await createCoverSvg(content?.title, content?.permalink);
 
-    const isIndex = permalink.toLowerCase() === indexFile.toLowerCase();
+    const isIndex = permalink?.toLowerCase() === indexFile?.toLowerCase();
 
     return { props: { source, isIndex, ...content } };
 };
@@ -112,7 +112,7 @@ export const getStaticPaths = async () => {
     const markdownFiles = await getContentList();
 
     const paths = markdownFiles
-        .filter(({ permalink }) => permalink.toLowerCase() !== indexFile.toLowerCase())
+        .filter(({ permalink }) => permalink?.toLowerCase() !== indexFile?.toLowerCase())
         .map(({ permalink }) => ({ params: { permalink: [permalink] } }));
 
     paths.push({ params: { permalink: [] } });
