@@ -65,7 +65,7 @@ export default ({ subscribers }) => {
                 <form onSubmit={handleSubmit} className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
                     <input type="email" name="email" className="p-2 border border-gray-300 rounded-md focus:outline-none focus:shadow-outline-none focus:ring-0 text-gray-700 w-full md:w-80" placeholder="Entrez votre email" required />
 
-                    <button type="submit" className="px-5 py-2 rounded-md cursor-pointer bg-gray-600 text-white hover:text-white hover:bg-gray-700">
+                    <button type="submit" className="px-5 py-2 rounded-md cursor-pointer bg-cyan-600 text-white hover:text-white hover:bg-cyan-700">
                         {isLoading ? (<span>Chargement en cours...</span>) : (<span>S'abonner à mon second cerveau</span>)}
                     </button>
                 </form>

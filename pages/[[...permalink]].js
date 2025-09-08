@@ -15,7 +15,7 @@ const components = {
                 <Link
                     title="Note bientôt disponible"
                     href={`/soon?title=${encodeURIComponent(title)}`}
-                    className="!no-underline border-b-2 border-dotted border-gray-400"
+                    className="!no-underline border-b-2 border-dotted border-cyan-500"
                 >
                     {children}
                 </Link>
@@ -70,14 +70,14 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
                         <span>{new Date(dateUpdated).toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
                         <span>
                             &nbsp;par&nbsp;
-                            <Link href="/a-propos" className="underline">
+                            <Link href="/a-propos" className="underline text-cyan-600">
                                 johackim
                             </Link>
                         </span>
                     </>
                 )}
             </div>
-            <article className="prose break-words prose-a:font-normal prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300">
+            <article className="prose break-words prose-a:font-normal prose-a:text-cyan-600 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300">
                 <MDXRemote {...source} components={components} />
             </article>
             {comments && (

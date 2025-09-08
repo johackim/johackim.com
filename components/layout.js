@@ -19,7 +19,7 @@ export default ({ children, className = '' }) => (
                     <Link href="/" className="hover:underline hidden md:block">Accueil</Link>
                     <Link href="/articles" className="hover:underline hidden md:block">Articles</Link>
                     <Link href="/newsletter" passHref>
-                        <button type="button" className="bg-gray-600 text-white hover:text-white hover:bg-gray-700 px-2.5 py-1.5 rounded-md cursor-pointer">S'abonner</button>
+                        <button type="button" className="bg-cyan-600 text-white hover:text-white hover:bg-cyan-700 px-2.5 py-1.5 rounded-md cursor-pointer">S'abonner</button>
                     </Link>
                 </nav>
             </div>
