@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 07 Sep 2025 19:10:56 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 01:26:45 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -4371,186 +4371,6 @@ export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
 <li><a href="https://github.com/abba23/spotify-adblock">https://github.com/abba23/spotify-adblock</a></li>
 <li><a href="https://github.com/serialoverflow/blockify">https://github.com/serialoverflow/blockify</a></li>
 <li><a href="https://github.com/x0uid/SpotifyAdBlock">https://github.com/x0uid/SpotifyAdBlock</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé de la formation SEO Fundamentals de Zero To Mastery]]></title>
-            <description><![CDATA[Découvrez les bases du SEO, des mots-clés aux backlinks, pour optimiser votre visibilité web et surpasser vos concurrents. Apprenez à utiliser les outils SEO clés.]]></description>
-            <link>https://johackim.com/zero-to-mastery-seo-fundamentals?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/zero-to-mastery-seo-fundamentals</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 31 Oct 2021 21:43:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/zero-to-mastery-seo-fundamentals.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/zero-to-mastery-seo-fundamentals.jpg"/>
-            <content:encoded><![CDATA[<p>Les 5 premiers liens de Google récupèrent 67% du traffic et le premier lien récupère 25-35% du traffic.</p>
-<h2>C&#x27;est quoi le SEO ?</h2>
-<blockquote>
-<p>Le SEO (Search Engine Optimisation) est la pratique qui consiste à augmenter la quantité et la qualité du trafic de votre site web via les recherches organiques des moteurs de recherche. - Moz.com</p>
-</blockquote>
-<p>Le terme <strong>quantité</strong> correspond au nombre de personnes qui arrivent sur votre site web.</p>
-<p>La <strong>qualité</strong> correspond à la pertinence de votre trafic, si vous recevez des personnes en lien avec ce que vous proposer sur votre site web ou non.</p>
-<p>Le terme <strong>organic</strong> veut dire que le trafic ne provient pas de trafic payant.</p>
-<p><strong>Le but du SEO est de générer plus de visiblité à votre site web, en étant mieux classé sur les moteurs de recherche via des mots clés pertinent</strong>.</p>
-<p>Un mot-clé (<a href="/keyword" title="Keyword" class="not-found">Keyword</a> en anglais) est simplement un mot clé ou une phrase taper sur Google.</p>
-
-<h2>SERP</h2>
-<p><a href="/serp" title="SERP" class="not-found">SERP</a> veut dire Search Engine Result Page. C&#x27;est simplement la page généré par un moteur de recherche lors d&#x27;une recherche.</p>
-
-<p>Cette page peut contenir plusieurs parties :</p>
-<ul>
-<li>
-<a href="/keyword" title="Keyword" class="not-found">Keyword</a> - Votre mot clé
-
-</li>
-<li>
-<a href="/google-snippets" title="Featured Snippets" class="not-found">Featured Snippets</a> - Un bloc qui résume et répond rapidement à la question demandé par un utilisateur
-
-</li>
-<li>PAAs (People Also Ask) - Ce sont les questions et réponses fréquemment posés par les utilisateurs du moteur de recherche</li>
-<li>Résultats organiques - Les résultats du moteur de recherche au mot-clé renseigné</li>
-<li>Related searches - En bas de page, vous pouvez vous inspirer des suggestions que propose le moteur de recherche par rapport au mot clé renseigné</li>
-</ul>
-<h2>Keyword Research</h2>
-<p>Un mot-clé (<a href="/keyword" title="Keyword" class="not-found">Keyword</a> en anglais) est simplement un mot clé ou une phrase taper sur Google.</p>
-
-<p><a href="/keyword-research" title="Keyword Research" class="not-found">Keyword Research</a> (recherche de mots-clés) est le processus qui consiste à découvrir les mots-clés que les gens utilisent dans les moteurs de recherche (Google, Bing, YouTube, etc...)</p>
-
-<h2>Outils de recherche de mots-clés</h2>
-<p><em><a href="/keyword-research-tools" title="Keyword Research Tools" class="not-found">Keyword Research Tools</a></em> en anglais.</p>
-
-<p>Ce sont tous les outils qui permettent de rechercher ce que les gens cherchent dans les moteurs de recherche (<a href="/keyword-research" title="Keyword Research" class="not-found">Keyword Research</a>), et de voir comment est classer votre site et ceux de de vos compétiteurs.</p>
-
-<ul>
-<li><a href="https://ads.google.com/home/tools/keyword-planner/">Google Keyword Planner</a></li>
-<li><a href="https://semrush.com/">SEMrush</a></li>
-<li><a href="https://trends.google.com/trends/">Google Trends</a></li>
-<li><a href="https://answerthepublic.com/">Answer the Public</a></li>
-</ul>
-<p>Ces outils retournent ce type d&#x27;informations :</p>
-<ul>
-<li>
-Le <a href="/domain-authority" title="Domain Authority" class="not-found">Domain Authority</a> score du site
-
-</li>
-<li>Le nombre de Referring Domains</li>
-<li>Le nombre de Backlinks</li>
-<li>Les mots clés recherchés (Keywords)</li>
-<li>Le volume de recherche (Search Volume)</li>
-<li>Compétition / Difficulté (Keyword Difficulty)</li>
-<li>CPC moyen (Coût par clic)</li>
-<li>Progression de la position vos mots-clés (Position)</li>
-<li>Progression de la position des mots-clés de vos concurrents</li>
-</ul>
-<p>Ce sont des données très utiles pour connaitre le positionnement de vos concurrents et de voir comment vous vous situer par rapport à eux.</p>
-<p>Le but étant de créer du meilleur contenu afin de les dépasser dans le classement.</p>
-<h2>Evitez le cannibalisation SEO</h2>
-<p><em><a href="/cannibalisation-seo" title="Cannibalisation SEO" class="not-found">Cannibalisation SEO</a></em></p>
-
-<p>Eviter la duplication de contenu et rédiger un contenu unique pour chaque URL pour ne pas que vos propres pages soit en compétition entre elles.</p>
-<p>Créez chaque contenu avec pour objectif de cibler des mots-clés spécifiques sur une URL spécifique, et éviter les autres mots-clés qui ne sont pas pertinent pour le contenu en question.</p>
-<h2>Optimiser le contenu de ses pages</h2>
-<p>Augmentez le nombre de fois où votre mot-clé cible est renseigné.</p>
-<p>Optimisez les balises Title et H1 en mettant votre mot-clé principale à l&#x27;avant de vos balises</p>
-<p>Ces balises doivent êtres longuent de 80 à 120 charactères.</p>
-<p>Votre page doit contenir au minimum 400 mots si vous voulez qu&#x27;elle soit bien classé par les moteur de recherche.</p>
-<p>Incluez des questions dans votre contenu pour qu&#x27;elles apparaissent dans les <a href="/google-snippets" title="Google Snippets" class="not-found">Google Snippets</a></p>
-
-<h2>Monitorer la performance de nos mots-clés</h2>
-<p>Il existe plusieurs outils pour tracker automatiquement le classement d&#x27;un site par rapport à certain mots-clés :</p>
-<ul>
-<li><a href="https://semrush.com/">SEMrush</a></li>
-<li><a href="https://ahrefs.com/">Ahrefs</a></li>
-<li><a href="https://seranking.com/">SERanking</a></li>
-<li><a href="https://linkdex.com/">Linkdex</a></li>
-<li><a href="https://seoclarity.net/">SEO Clarity</a></li>
-</ul>
-<p>Excel peut aussi être utilisé pour importer les données de ces outils, le tableau peut ressembler à quelque chose comme ça :</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>Keyword</th><th>Mai 2021</th><th>Juin 2021</th><th>Juillet 2021</th><th>Etc..</th></tr></thead><tbody><tr><td>Canne à pêche</td><td>20</td><td>18</td><td>5</td><td>x</td></tr><tr><td>Bateau</td><td>29</td><td>29</td><td>28</td><td>x</td></tr><tr><td>Poissons</td><td>2</td><td>4</td><td>1</td><td>x</td></tr></tbody></table>
-<p>Le tableau affiche simplement l&#x27;évolution de la position de notre site pour chaque mots-clé tous les mois.</p>
-<p>L&#x27;outil <strong>Keyword Gap</strong> de SEMrush peut dévoiler sur quels mots-clés investir notre temps pour dépasser la concurrence.</p>
-<h2>Backlinks</h2>
-<p>Un <a href="/backlinks" title="backlink" class="not-found">backlink</a> est simplement une mention de votre site sur un autre site web.</p>
-
-<p>Viser les sites avec un fort <a href="/domain-authority" title="Domain Authority" class="not-found">Domain Authority</a> (supérieur à 25), avec au moins 200 visites organiques mensuelles, et au moins 50 referring domains (nombre de nom de domaines différents qui recense des backlinks).</p>
-
-<p>Il existe plusieurs techniques pour avoir plus de backlinks (<a href="/link-building" title="Link Building" class="not-found">Link Building</a>) et améliorer notre <a href="/domain-authority" title="Domain Authority" class="not-found">Domain Authority</a></p>
-
-<ol>
-<li>
-<strong>Poster des articles invités</strong> (<a href="/guest-posting" title="Guest Posting" class="not-found">Guest Posting</a>), pour ça, faire plusieurs recherches Google (ex: healthy eating blogs &quot;submit a guest post&quot;) pour trouver un site de notre thématique qui donne la possiblité de poster des articles invités
-
-</li>
-<li>
-<strong>&quot;Prendre&quot; les <a href="/backlinks" title="Backlinks" class="not-found">Backlinks</a> de nos compétiteurs</strong>. Trouver les backlinks de vos compétiteurs sur SEMrush et envoyer des articles invités à ces sites.
-
-</li>
-<li>
-<strong>Faire du <a href="/resource-page-link-building" title="Resource Page Link Building" class="not-found">Resource Page Link Building</a></strong>, le but étant de trouver des page de site dans notre domaine avec des mots comme &quot;useful resources&quot;, &quot;helpful links&quot;, etc... et de leur proposer notre ressource.
-
-</li>
-<li>
-<strong>Faire du <a href="/broken-link-building" title="Broken Link Building" class="not-found">Broken Link Building</a></strong>. Trouver les sites avec des liens morts dans leurs pages de ressources et leur proposer notre ressource.
-
-</li>
-<li>
-<strong>Faire du <a href="/skyscraper-link-building" title="Skyscraper Link Building" class="not-found">Skyscraper Link Building</a></strong>. Trouver les pages avec beaucoup de backlinks (80 minimum), et faire un meilleur contenu (+profondeur, meilleur design, +astuces, etc...).
-
-</li>
-</ol>
-<h2>Facteur de classement de Google</h2>
-<ul>
-<li>Referring domains &amp; backlinks</li>
-<li>Organic CPC (click-through rate)</li>
-<li>Domain authority</li>
-<li>Mobile usability</li>
-<li>Dwell time &amp; bounce rate</li>
-<li>On-page SEO</li>
-<li>Content quality (E.A.T)</li>
-</ul>
-<p>Plus d&#x27;infos sur <a href="https://backlinko.com/google-ranking-factors">https://backlinko.com/google-ranking-factors</a></p>
-<h2>Les trois pilliers du SEO</h2>
-<ul>
-<li>Technical Strategy</li>
-<li>Content Strategy</li>
-<li>Linking Strategy</li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://academy.zerotomastery.io/p/seo-content-optimization">https://academy.zerotomastery.io/p/seo-content-optimization</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -12010,12 +11830,17 @@ mount -a
 <table><thead><tr><th>Plugin</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lynchjames/obsidian-mind-map">Mindmap</a></td><td>Créer des mindmaps</td></tr><tr><td><a href="https://github.com/mgmeyers/obsidian-kanban">Kanban</a></td><td>Créer des boards kanban</td></tr><tr><td><a href="https://github.com/tgrosinger/advanced-tables-obsidian">Avanced-tables</a></td><td>Simplifier l&#x27;édition des tableaux</td></tr><tr><td><a href="https://github.com/lynchjames/note-refactor-obsidian">Note-refactor</a></td><td>Séparer une note en plusieurs notes</td></tr><tr><td><a href="https://github.com/pyrochlore/obsidian-tracker">Tracker</a></td><td>Collecter des données à afficher des graphiques</td></tr><tr><td><a href="https://github.com/st3v3nmw/obsidian-spaced-repetition">Flashcards</a></td><td>Créer des Flashcards</td></tr><tr><td><a href="https://github.com/deathau/sliding-panes-obsidian">Andy Matuschak Mode</a></td><td>Activer le mode d&#x27;affichage Andy Matuschak</td></tr><tr><td><a href="https://github.com/phibr0/obsidian-charts">Obsidian Charts</a></td><td>Créer des graphiques</td></tr><tr><td><a href="https://github.com/blacksmithgu/obsidian-dataview">Dataview</a></td><td>Créer des tableaux basées sur ses notes</td></tr><tr><td><a href="https://github.com/schemar/obsidian-tasks">Tasks</a></td><td>Gérer ses tâches</td></tr><tr><td><a href="https://github.com/hipstersmoothie/obsidian-plugin-toc">Toc</a></td><td>Créer automatiquement un sommaire</td></tr><tr><td><a href="https://github.com/pjeby/tag-wrangler">Tag-wrangler</a></td><td>Améliorer la gestion des tags</td></tr><tr><td><a href="https://github.com/zsviczian/obsidian-excalidraw-plugin">Excalidraw</a></td><td>Dessiner sur Obsidian</td></tr><tr><td><a href="https://github.com/Richardsl/heatmap-calendar-obsidian">Heatmap calendar</a></td><td>Afficher un calendrier comme Github Activity</td></tr><tr><td><a href="https://github.com/nothingislost/obsidian-hover-editor">Hover Editor</a></td><td>Améliorer le mode prévisualisation des liens</td></tr><tr><td><a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/CSS+Snippets/Alternate+Checkboxes+(SlRvb)">Alternative Checkboxes</a></td><td>Design pour améliorer les checkboxes</td></tr><tr><td><a href="https://github.com/platers/obsidian-linter/">Obsidian linter</a></td><td>Linter markdown</td></tr><tr><td><a href="https://github.com/Quorafind/Obsidian-Surfing">Surfing</a></td><td>Navigateur web intégré à Obsidian</td></tr></tbody></table>
 <h2>Sécurité</h2>
 <p>D&#x27;un point de vue sécurité, voilà ce qui est affiché sur la page d&#x27;accueil d&#x27;Obsidian :</p>
-<pre><code class="language-text">À notre époque où les services de cloud computing peuvent fermer, être rachetés ou changer de politique de confidentialité à tout moment, la dernière chose que vous voulez est un format propriétaire et un verrouillage des données.
-
-Avec Obsidian, vos données se trouvent dans un dossier local. Ne laissez plus jamais le travail de votre vie pris en otage dans le cloud.
-
-Le format Markdown en texte brut vous donne également une interopérabilité inégalée pour utiliser n&#x27;importe quel type de synchronisation, de chiffrage ou de traitement de données qui fonctionne avec des fichiers en texte brut.
-</code></pre>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">quote</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>À notre époque où les services de cloud computing peuvent fermer, être rachetés ou changer de politique de confidentialité à tout moment, la dernière chose que vous voulez est un format propriétaire et un verrouillage des données.Avec Obsidian, vos données se trouvent dans un dossier local. Ne laissez plus jamais le travail de votre vie pris en otage dans le cloud.Le format Markdown en texte brut vous donne également une interopérabilité inégalée pour utiliser n&#x27;importe quel type de synchronisation, de chiffrage ou de traitement de données qui fonctionne avec des fichiers en texte brut.</p>
+                    </div>
+                </blockquote>
 <p>Et lorsque vous activez <a href="https://obsidian.md/sync">la fonctionnalité Sync</a>, les données sont chiffrées de bout en bout par défaut.</p>
 <p><a href="https://help.obsidian.md/Obsidian+Sync/Security+and+privacy">Plus d&#x27;informations</a></p>
 <hr/>
