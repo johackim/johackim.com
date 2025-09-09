@@ -11,6 +11,11 @@ export default () => {
 
     useEffect(() => {
         document.addEventListener('scroll', scrollProgress);
+        scrollProgress();
+
+        return () => {
+            document.removeEventListener('scroll', scrollProgress);
+        };
     }, []);
 
     return <div className="bg-cyan-600 h-1 z-30 fixed inset-0" style={{ width: `${progress}%` }} />;
