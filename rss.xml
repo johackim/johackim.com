@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 15 Sep 2025 09:05:36 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2025 09:05:48 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -9274,6 +9274,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28815.html">The Bear</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=30084.html">The Penguin</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=19344.html">Baron Noir</a></li>
+<li>Adolescence</li>
 </ul>
 <hr/>
 <p>Références :</p>
