@@ -22,6 +22,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lint
       - run: yarn build
+      - run: curl -Lo ./out/install https://raw.github.com/johackim/dotfiles/master/.local/bin/install.sh
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
