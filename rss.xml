@@ -4,9 +4,48 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Thu, 02 Oct 2025 09:05:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Oct 2025 15:27:22 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Nouveau jailbreak du Kindle]]></title>
+            <link>https://johackim.com/jailbreak-kindle?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/jailbreak-kindle</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 30 Sep 2025 10:00:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/jailbreak-kindle.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/jailbreak-kindle.jpg"/>
+            <content:encoded><![CDATA[<p>Un nouveau jailbreak du Kindle nommé AdBreak vient d&#x27;être publié le 24 septembre 2025 sur <a href="https://kindlemodding.org/jailbreaking/AdBreak/">kindlemodding.org</a>.</p>
+<p>Pour réaliser ce jailbreak, il faut que la version du firmware de votre Kindle soit <code>&gt;= 5.18.1</code> et <code>&lt;= 5.18.5</code>.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Faites de la place en supprimant un des fichiers du dossier fill_disk si besoin.</p>
+                    </div>
+                </blockquote>
+<p>Débranchez votre Kindle et tapez <code>;log mrpi</code> dans la barre de recherche de votre Kindle et appuyez sur entrée.</p>
+<p>Un livre <code>KUAL</code> devrait apparaitre dans votre bibliothèque.</p>
+<p>Télécharger <a href="https://github.com/koreader/koreader/releases/download/v2025.08/koreader-kindlehf-v2025.08.zip">koreader-kindlehf-v2025.08.zip</a>.</p>
+<p>Copiez les dossiers <code>extensions</code> et <code>koreader</code> à la racine de votre Kindle.</p>
+<p>Débranchez votre Kindle et cliquez sur le livre <code>KUAL</code> puis cliquez sur KOReader</p>
+<hr/>
+<p>Références :</p>
+<ul>
+<li>
+<a href="/kindle" title="Kindle" class="not-found">Kindle</a>
+
+</li>
+<li><a href="https://kindlemodding.org/jailbreaking/AdBreak/">https://kindlemodding.org/jailbreaking/AdBreak/</a></li>
+<li><a href="https://mobileread.com/forums/showthread.php?t=370048">https://mobileread.com/forums/showthread.php?t=370048</a></li>
+<li><a href="https://mobileread.com/forums/showthread.php?t=225030">https://mobileread.com/forums/showthread.php?t=225030</a></li>
+<li><a href="https://discord.com/channels/1083603487025274911/1166993303221321758/1421875686561546271">https://discord.com/channels/1083603487025274911/1166993303221321758/1421875686561546271</a></li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Téléchargez vos livres Kindle]]></title>
             <link>https://johackim.com/exporter-ses-livres-kindle?utm_source=rss&amp;utm_medium=rss</link>
