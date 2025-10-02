@@ -4,9 +4,167 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Thu, 02 Oct 2025 15:33:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Oct 2025 15:53:05 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Nouveau jailbreak du Kindle]]></title>
+            <link>https://johackim.com/jailbreak-kindle?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/jailbreak-kindle</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Tue, 30 Sep 2025 10:00:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/jailbreak-kindle.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/jailbreak-kindle.jpg"/>
+            <content:encoded><![CDATA[<p>Un nouveau jailbreak du Kindle nommé AdBreak vient d&#x27;être publié le 24 septembre 2025 sur <a href="https://kindlemodding.org/jailbreaking/AdBreak/">kindlemodding.org</a>.</p>
+<p>Pour réaliser ce jailbreak, il faut que la version du firmware de votre Kindle soit <code>&gt;= 5.18.1</code> et <code>&lt;= 5.18.5</code>.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Si la version de votre firmware est inférieure à 5.18.1, utilisez le jailbreak WinterBreak.</p>
+                    </div>
+                </blockquote>
+<p>Voici les étapes pour jailbreaker votre Kindle.</p>
+<h2>1. Mettre votre Kindle en mode avion pour éviter les mises à jour</h2>
+<p>Pour activer le mode avion, allez dans Paramètres -&gt; Wi-fi -&gt; Mode avion.</p>
+<h2>2. Supprimer les fichiers update_kindle.bin sur votre Kindle</h2>
+<p>Pour éviter que votre Kindle se mette à jour, vérifiez s’il existe des fichiers du type <code>update_kindle.bin</code>.</p>
+<p>Connectez votre Kindle à votre ordinateur via un câble USB.</p>
+<p>Et supprimer tous les fichiers du type <code>update_kindle.bin</code> (ex: <code>update_kindle_10th_5.18.1.bin</code>) qui existent.</p>
+<h2>3. Remplissez votre Kindle pour laisser seulement 50 Mo de disponible</h2>
+<p>Pour éviter que Amazon mette à jour votre liseuse, laissez 50 Mo de disponible.</p>
+<p>Si vous êtes sur Linux, exécutez le script suivant sur la racine de votre Kindle.</p>
+<pre><code class="language-bash">wget https://raw.github.com/bastianmarin/Kindle-Filler-Disk/main/Filler.sh
+bash Filler.sh
+</code></pre>
+<p>Pour vérifier l&#x27;espace disponible de votre Kindle, allez dans Paramètres &gt; Options de l&#x27;appareil &gt; Informations sur l&#x27;appareil &gt; Espace disponible.</p>
+<h2>4. Enregistrez votre Kindle sur un compte Amazon</h2>
+<p>Votre Kindle a besoin d&#x27;être enregistré/relié à un compte Amazon pour pouvoir effectuer l&#x27;étape d&#x27;après.</p>
+<p>Pour enregistrer votre Kindle, allez dans Paramètres &gt; Votre compte &gt; Enregistrer l&#x27;appareil.</p>
+<p>Une fois enregistré, votre Kindle devrait apparaitre <a href="https://amazon.fr/hz/mycd/digital-console/alldevices">sur votre compte Amazon</a>.</p>
+<h2>5. Activez les publicités de votre Kindle</h2>
+<p>Le jailbreak exploite une faille en provenance du système de publicité.</p>
+<p>Du coup, il faut activer les offres spéciales depuis <a href="https://amazon.fr/hz/mycd/digital-console/alldevices">votre compte Amazon</a>.</p>
+<p>Réactivez le WIFI de votre Kindle en désactivant le mode avion.</p>
+<p>Laissez votre Kindle pendant un certain temps, connecté à Internet, afin qu&#x27;il puisse télécharger des publicités.</p>
+<p>Personnellement, je me balade dans la boutique Amazon sur la page d&#x27;accueil pour stimuler le Kindle.</p>
+<p>Des publicités devraient apparaitre sur l&#x27;écran de veille de votre Kindle lorsque vous appuyez sur le bouton de veille.</p>
+<p>Réactivez le mode avion de votre Kindle.</p>
+<p>Cliquez sur le menu en haut à droite et sélectionnez &quot;Afficher toutes les publicités&quot;.</p>
+<h2>6. Jailbreak du Kindle</h2>
+<p>Branchez votre Kindle et copiez le dossier <code>system/.assets</code> sur votre ordinateur.</p>
+<p><a href="https://mobileread.com/forums/attachment.php?attachmentid=218255&amp;d=1758739462">Téléchargez le fichier adbreak.zip</a> puis l&#x27;extraire dans le dossier <code>.assets</code> qui se trouve sur votre ordinateur.</p>
+<p>Si vous êtes sur Linux, exécutez la commande suivante :</p>
+<pre><code class="language-bash">find . -name &#x27;details.html&#x27; -exec cp adbreak.html {} \;
+</code></pre>
+<p>Supprimez le dossier <code>.assets</code> de votre Kindle et remplacez-le par le nouveau.</p>
+<p>Personnellement j&#x27;exécute les commandes suivantes :</p>
+<pre><code class="language-bash">mv .assets .assets.bak
+mv ~/Downloads/.assets/ .
+</code></pre>
+<p>Débranchez votre Kindle, cliquez sur une annonce et une fois que vous avez cliqué sur &quot;Bang!&quot;, le script jailbreak devrait s&#x27;exécuter.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>You can safely ignore any &quot;application error&quot; popups, they are irrelevant.</p>
+                    </div>
+                </blockquote>
+<p>Cela devrait afficher cela :</p>
+<pre><code class="language-txt">**** AdBreak Jailbreak ****
+********************** 1.0.0 *
+install_touch_update_key - Copying the jailbreak updater key
+Developer keys installed successfully (Standard Method)! (pubdevkey01.pem)
+Enabled developer flag
+Enabled mntus exec flag
+                                      
+**************************************
+*** Finished installing jailbreak! ***
+***                                ***
+***   Please Install HOTFIX now    ***
+**************************************
+</code></pre>
+<h2>7. Persister le jailbreak avec le HotFix</h2>
+<p>Pour éviter que le Jailbreak disparaisse, installez le hotfix.</p>
+<p><a href="https://github.com/KindleModding/Hotfix/releases/latest/download/Update_hotfix_universal.bin">Téléchargez le HotFix</a>.</p>
+<p>Copiez le fichier <code>Update_hotfix_universal.bin</code> à la racine de votre Kindle.</p>
+<p>Gardez le mode avion activé.</p>
+<p>Débrancher votre Kindle, puis ouvrir les paramètres, cliquer sur les trois points et sélectionner &quot;Mettre à jour votre Kindle&quot;.</p>
+<p>Une fois le Kindle redémarré, sélectionnez le livre <code>Run Hotfix</code> dans votre bibliothèque.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Vous devrez exécuter ce livre Run Hotfix après chaque mise à jour de votre Kindle.</p>
+                    </div>
+                </blockquote>
+<h2>8. Désactiver les mises à jour OTA</h2>
+<p>Voici la procédure pour éviter que des mises à jour soit automatiquement installés via le WIFI.</p>
+<p>Télécharger l&#x27;extension <a href="https://www.mobileread.com/forums/attachment.php?attachmentid=184438&amp;d=1609580931">renameotabin.zip</a>.</p>
+<p>Extraire le fichier puis copier le dossier <code>renameotabin</code> dans le dossier <code>extensions</code> de votre Kindle.</p>
+<p>Débranchez votre Kindle puis cliquez sur <code>Rename OTA Binaries</code> puis <code>Rename</code> depuis le menu du livre <code>KUAL</code>.</p>
+<p>Votre Kindle redémarrera automatiquement.</p>
+<p>Les mises à jour automatiques sont maintenant désactivées et je peux utiliser le wifi de mon Kindle.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Pour réinitialiser, rétrograder ou mettre à jour votre Kindle, ouvrez KUAL et sélectionnez Rename OTA Binaries puis Restore.</p>
+                    </div>
+                </blockquote>
+<h2>9. Installation de KOReader (facultatif)</h2>
+<p>Pour installer KOReader, il faut d&#x27;abord installer KUAL (Kindle Unified Application Launcher) et MRPI (MobileRead Package Installer).</p>
+<p>Pour installer MRPI, téléchargez les fichiers <a href="https://fw.notmarek.com/khf/kual-mrinstaller-khf.tar.xz">kual-mrinstaller-khf.tar.xz</a> et <a href="https://storage.gra.cloud.ovh.net/v1/AUTH_2ac4bfee353948ec8ea7fd1710574097/mr-public/KUAL/KUAL-c6ac782-20250419.tar.xz">KUAL-c6ac782-20250419.tar.xz</a></p>
+<ul>
+<li>Extraire les fichiers <code>kual-mrinstaller-khf.tar.xz</code> et <code>KUAL-c6ac782-20250419.tar.xz</code></li>
+<li>Copiez les dossiers <code>extensions</code> and <code>mrpackages</code> à la racine de votre Kindle.</li>
+<li>Copiez le fichier <code>Update_KUALBooklet_c6ac782_install.bin</code> dans le dossier <code>mrpackages</code>.</li>
+</ul>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Faites de la place en supprimant un des fichiers du dossier fill_disk si besoin.</p>
+                    </div>
+                </blockquote>
+<p>Débranchez votre Kindle et tapez <code>;log mrpi</code> dans la barre de recherche de votre Kindle et appuyez sur entrée.</p>
+<p>Un livre <code>KUAL</code> devrait apparaitre dans votre bibliothèque.</p>
+<p>Télécharger <a href="https://github.com/koreader/koreader/releases/download/v2025.08/koreader-kindlehf-v2025.08.zip">koreader-kindlehf-v2025.08.zip</a>.</p>
+<p>Copiez les dossiers <code>extensions</code> et <code>koreader</code> à la racine de votre Kindle.</p>
+<p>Débranchez votre Kindle et cliquez sur le livre <code>KUAL</code> puis cliquez sur KOReader</p>
+<hr/>
+<p>Références :</p>
+<ul>
+<li>
+<a href="/kindle" title="Kindle" class="not-found">Kindle</a>
+
+</li>
+<li><a href="https://kindlemodding.org/jailbreaking/AdBreak/">https://kindlemodding.org/jailbreaking/AdBreak/</a></li>
+<li><a href="https://mobileread.com/forums/showthread.php?t=370048">https://mobileread.com/forums/showthread.php?t=370048</a></li>
+<li><a href="https://mobileread.com/forums/showthread.php?t=225030">https://mobileread.com/forums/showthread.php?t=225030</a></li>
+<li><a href="https://discord.com/channels/1083603487025274911/1166993303221321758/1421875686561546271">https://discord.com/channels/1083603487025274911/1166993303221321758/1421875686561546271</a></li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Téléchargez vos livres Kindle]]></title>
             <link>https://johackim.com/exporter-ses-livres-kindle?utm_source=rss&amp;utm_medium=rss</link>
@@ -114,6 +272,17 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Eliott Meunier - 20 jours de randonnée + Burn Out + Life Update - HPR #1</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Quand on commence à méditer, ce qui se passe, c&#x27;est que, on veut se concentrer sur l&#x27;instant présent, mais il y a notre mental qui est en train de nous envoyer ailleurs.Il part, il commence à dialoguer tout seul dans sa tête.&quot;Ah tiens, qu&#x27;est-ce que je vais manger ce soir?&quot;&quot;Ah peut-être du pesto, mais tiens, est-ce qu&#x27;il me reste encore des pâtes?&quot;&quot;Ah mais en fait, attends, elle est intolérante au gluten.&quot;Quand tu commences à méditer, tu pars super loin dans tes pensées, dans tes raisonnements intellectuels avant de te rendre compte même que tu étais parti.Et donc, tu fais des rappels.Tu prends ton lassaut, tu ramènes la pensée dans l&#x27;instant présent pour la voir et la dissoudre.Mais parfois, il se passe une, deux, trois minutes avant que tu te rendes compte.Donc là, c&#x27;est le début de la méditation.Et plus tu progresses, plus tes rappels sont rapides.Donc, tu arrives à les ramener au bout de 4-5 secondes.Et ensuite tu les vois même avant qu&#x27;ils commencent à t&#x27;emmener et donc tu les ramènes.À la fin, tu as une sorte de couteau où tu coupes les raisonnements intellectuels avant même qu&#x27;ils se forment et ensuite tu n&#x27;as plus de raisonnement intellectuel.Ça, c&#x27;est la méditation.</p>
+                    </div>
+                </blockquote>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">https://exploringkodawari.blog/mindfulness-is-pausing/</div>
                         </div>
                     
@@ -191,6 +360,17 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <li>Etc..</li>
 </ul>
 <p>Il est inutile de dépenser notre énergie sur ce qui ne dépend pas de nous.</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">The Art of Living - Epictetus</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Happiness and freedom begin with a clear understanding of one principle: Some things are within our control, and some things are not.</p>
+                    </div>
+                </blockquote>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
@@ -1642,6 +1822,17 @@ SUM:                            73            888              3           7407
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Daniel Kahneman</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>We should aim for a compromise: recognize situations when we’re vulnerable to mistakes, and avoid large mistakes when the stakes are high.</p>
+                    </div>
+                </blockquote>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">The Science of Self-Control - Menno Henselmans</div>
                         </div>
                     
@@ -1972,6 +2163,48 @@ Créer un <a href="/journaling" title="journal" class="not-found">journal</a>
 </ul>
 <h2>Challenge 4: Battre votre adversaire</h2>
 <p><em>Best Your Opponent, How to use your feelings about your opponent to your advantage?</em></p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">quote</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>When working toward your goals, it’s easy to sabotage your success by doubting yourself. For example, you might feel intimidated by your opponents—anyone who you think doubts your ability to succeed, and who makes you doubt yourself. This could be a boss, teacher, or coworker.Instead, work to harness your feelings around that perceived doubt and use them to apply yourself and prove your opponent wrong.</p>
+                    </div>
+                </blockquote>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">quote</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Goggins calls this “taking souls”—acknowledging your opponents and using your feelings toward them to fuel your best work, take them by surprise, and earn their respect.</p>
+                    </div>
+                </blockquote>
+<h2>Challenge 5 : Visualiser le succès</h2>
+<p><em>Visualize Success</em></p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">quote</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>The only guaranteed way to fail is to quit</p>
+                    </div>
+                </blockquote>
+<ul>
+<li>Visualiser un challenge et un obstacle que vous avez besoin de dépasser</li>
+<li>Anticipez la difficulté et créer/adopter un plan pour y faire face</li>
+</ul>
+<h2>Challenge 6 : Remplissez votre boite à cookies</h2>
+<p><em>Stock Your <a href="/cookie-jar" title="Cookie Jar" class="not-found">Cookie Jar</a></em></p>
+
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
@@ -3291,6 +3524,36 @@ Et une réponse
             <media:content url="https://johackim.com/covers/signification-pendentif-obstacle-is-the-way.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/signification-pendentif-obstacle-is-the-way.jpg"/>
             <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/CEk5c0i.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/PXVpcnT.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/ktpFD4C.jpg"/><p><a href="https://store.dailystoic.com/collections/pendants/products/the-obstacle-is-the-way-pendant">Le médaillon The Obstacle Is The Way de Ryan Holiday</a> provient d&#x27;une citation de l&#x27;un des pères du <strong>stoïcisme</strong> <strong>Marc Aurèle</strong> dans son livre &quot;<a href="https://amzn.to/36nC9q1">Pensées pour moi-même</a>&quot;.</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Marc Aurèle - Pensées pour moi-même (Livre V chapitre XX)</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>« The impediment to action advances action. What stands in the way becomes the way. »</p>
+                    </div>
+                </blockquote>
+<p>Qui peut se traduire par : &quot;L&#x27;obstacle à l&#x27;action fait avancer l&#x27;action. Ce qui se trouve sur le chemin devient le chemin.&quot;</p>
+<p>Ou plus précisément &quot;Ce qui nous empêche d’agir devient le motif de notre action, et ce qui nous barre la route devient ce vers quoi nous marchons.&quot;</p>
+<p><strong>Les obstacles de la vie sont inévitables, au lieu de les éviter, mieux vaut les voir comme une opportunité.</strong></p>
+<p>Une opportunité d&#x27;apprendre quelque chose et de mieux faire face aux défis futurs.</p>
+<p>On ne contrôle pas le monde extérieur, mais on peut contrôler notre réaction.</p>
+<p><img src="https://i.imgur.com/CEk5c0i.jpg" alt="|400"/>
+<img src="https://i.imgur.com/PXVpcnT.jpg" alt="|400"/>
+<img src="https://i.imgur.com/ktpFD4C.jpg" alt="|400"/></p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">James Clear</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>You cannot remove struggle from life, but you can improve your ability to handle challenge.</p>
+                    </div>
+                </blockquote>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
@@ -5943,6 +6206,73 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
+                            <div class="callout-title-inner">info</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Contenu en cours de création</p>
+                    </div>
+                </blockquote>
+<h2>Les 9 profils de séducteurs</h2>
+<p>L’analyse de ces 9 profils vous fera prendre conscience de vos attraits, autrement dit de vos atouts de base dans la séduction.</p>
+<ol>
+<li>La sirène</li>
+<li>Le libertin</li>
+<li>L&#x27;amant idéal</li>
+<li>Le Dandy</li>
+<li>L&#x27;Eternel enfant</li>
+<li>La coquette</li>
+<li>Le charmeur</li>
+<li>La figure charismatique</li>
+<li>La star</li>
+</ol>
+<h2>Découvrez ce qu&#x27;elle désire</h2>
+<p>Il faut se polariser intensément sur l’autre personne, découvrir ce dont elle manque et ce qui la déçoit.</p>
+<p>À qui a tout reçu, il manque le danger, la rébellion. À qui a connu le danger, il manque un sentiment de sécurité. À qui n’a obtenu que des satisfactions prosaïques, il manque quelque chose de plus noble, de plus créatif. <mark><b>Notre idéal est l’image de ce qui nous manque</b></mark>.</p>
+<p>Rares sont les êtres capables de résister à la tentation de suivre celui ou celle qui semble s’adapter à leurs désirs, donner vie à leurs fantasmes.</p>
+<h2>Être autonome</h2>
+<p>Dans le domaine de la séduction, la confiance en soi est vitale. Un manque de sûreté en soi éloigne, l’assurance et l’autonomie attirent.</p>
+<p><strong>Moins vous semblerez avoir besoin des autres, plus ils rechercheront votre compagnie</strong>.</p>
+<p>Une fois que vous aurez assimilé l’importance de ce point dans toute relation amoureuse, vous n’aurez aucun mal à faire taire votre insécurité affective.</p>
+<h2>Concentrez votre attention sur elle</h2>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Benjamin Disraeli</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>« Parlez à quelqu’un de lui-même et il vous écoutera des heures »</p>
+                    </div>
+                </blockquote>
+<p>Soyez empathique, concentrez tout votre attention sur elle, comprenez son humeur et adaptez-vous à elle.</p>
+<p>Sachez écouter et observer. Faites parler la personne qui vous intéresse, amenez-la à se dévoiler.</p>
+<p>Plus vous en saurez sur elle, mieux vous saurez monopoliser son attention, jouer sur ses désirs et besoins particuliers, adapter vos flatteries à ses insécurités.</p>
+<p>Faites d’elle la vedette de la soirée et elle ne pourra plus se passer de vous : vous l’aurez piégée dans une dépendance.</p>
+<h2>Soyez agréable</h2>
+<p>La gaieté et la drôlerie charment bien plus que le sérieux et la critique.</p>
+<p>Distrayez-la de ses problèmes en vous montrant agréable à vivre.</p>
+<h2>Le processus de séduction</h2>
+<h3>Choisir sa victime</h3>
+<p>Comment sélectionner ses cibles ? À la façon dont elles réagissent à vos approches.</p>
+<p>La victime adéquate est celle chez qui vous pouvez combler un vide, à qui vous apparaissez comme quelqu’un de neuf et d’intéressant.</p>
+<p>Un être comblé est presque impossible à séduire.</p>
+<h3>Inspirer confiance</h3>
+<p>Si vous abattez toutes vos cartes d’entrée de jeu, vous risquez de susciter une résistance durable.</p>
+<p><strong>La première fois, ayez l’air de tout sauf d’un séducteur.</strong></p>
+<p>Bien des femmes désirent ce qui leur échappe, et détestent ce qu’on leur offre avec instance.</p>
+<p>Si vous lui donnez d’emblée l’impression qu’elle a elle-même fait le premier pas, vous aurez gagné la partie.</p>
+<p>Approchez vous petit à petit, gardez des entretiens amicaux afin d&#x27;obtenir des informations sur elle.</p>
+<h3>Soyez indéfinissable</h3>
+<p>Pour capter l’attention d’un public, pour le séduire afin qu’il ne cesse de penser à vous, il faut lui adresser des signaux contradictoires.</p>
+<h3>Susciter la jalousie</h3>
+<p>Que vos admirateurs soient des amis ou des soupirants, peu importe : leur présence créera <a href="/l&#x27;effet-harem" title="L&#x27;effet harem" class="not-found">L&#x27;effet harem</a>.</p>
+
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Stendhal</div>
                         </div>
                     
@@ -7043,6 +7373,17 @@ Excellente exécution = 1,000,000€</p>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
+                            <div class="callout-title-inner">https://customercamp.co/mere-exposure-effect/</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>The more we see something, the more we come to like and trust it.</p>
+                    </div>
+                </blockquote>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -7208,6 +7549,18 @@ sudo systemctl restart sshd
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
+                            <div class="callout-title-inner">info</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Contenu en cours de création</p>
+                    </div>
+                </blockquote>
+<p>Notre tendance à chercher coûte que coûte une explication logique à chaque histoire quitte à en inventer une et à négliger la vérité brute.</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
@@ -7339,6 +7692,22 @@ sudo systemctl restart sshd
 <p>Avec ce biais, nous ne voyons que ce que nous voulons voir, et nous ignorons le reste.</p>
 <p>Cela nous enferme dans notre bulle et nous empêche de voir les choses sous un angle différent.</p>
 <p>Si nous avons une vision negative de nous-même, nous allons sans cesse le confirmer en ne voyant que les éléments qui vont dans ce sens. Ce qui va renforcer cette croyance et nous enfermer dans un cercle vicieux.</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Et tout le monde s&#x27;en fout #80 - Toi</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Ton cerveau, il confirme ce que tu crois.En gros, plus tu crois un truc, et plus ton cerveau va sélectionner dans la réalité des détails qui va mettre bout à bout pour te prouver que ce que tu crois, c&#x27;est la vérité.Le cerveau, il renforce ce sur quoi tu poses ton attention tous les jours.Ça ne veut pas dire que ce que tu crois, c&#x27;est faux. Ça veut dire que ce que tu vises détermine ce que tu vois.</p>
+                    </div>
+                </blockquote>
+<p>Pour l&#x27;éviter le plus possible, vous pouvez :</p>
+<ul>
+<li>Être conscient de son existence (la base)</li>
+<li>Chercher activement des informations qui contredisent et réfutent nos croyances</li>
+</ul>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
@@ -12198,6 +12567,18 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
+                            <div class="callout-title-inner">quote</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>« ==Quelle est l&#x27;UNIQUE chose que vous pouvez faire, de telle sorte qu&#x27;en la faisant, tout le reste deviendra plus facile ou inutile ?== »</p>
+                    </div>
+                </blockquote>
+<p>Ce qui reprend un peu l&#x27;idée de ce proverbe :</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
                             <div class="callout-title-inner">Proverbe Russe</div>
                         </div>
                     
@@ -16821,6 +17202,17 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
             <media:content url="https://johackim.com/covers/protect-your-privacy.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/protect-your-privacy.jpg"/>
             <content:encoded><![CDATA[<blockquote class="callout info">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">info</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Archived content</p>
+                    </div>
+                </blockquote>
+<blockquote class="callout quote">
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
