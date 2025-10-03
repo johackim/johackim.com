@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Fri, 03 Oct 2025 09:05:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Oct 2025 14:30:38 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -34,12 +34,14 @@
 <h2>2. Supprimer les fichiers update_kindle.bin sur votre Kindle</h2>
 <p>Pour éviter que votre Kindle se mette à jour, vérifiez s’il existe des fichiers du type <code>update_kindle.bin</code>.</p>
 <p>Connectez votre Kindle à votre ordinateur via un câble USB.</p>
-<p>Et supprimer tous les fichiers du type <code>update_kindle.bin</code> (ex: <code>update_kindle_10th_5.18.1.bin</code>) qui existent.</p>
+<p>Et supprimer tous les fichiers du type <code>update_kindle.bin</code> (ex: <code>update_kindle_10th_5.18.1.bin</code>) qui existent à la racine de votre Kindle.</p>
 <h2>3. Remplissez votre Kindle pour laisser seulement 50 Mo de disponible</h2>
 <p>Pour éviter que Amazon mette à jour votre liseuse, laissez 50 Mo de disponible.</p>
-<p>Si vous êtes sur Linux, exécutez le script suivant sur la racine de votre Kindle.</p>
-<pre><code class="language-bash">wget https://raw.github.com/bastianmarin/Kindle-Filler-Disk/main/Filler.sh
-bash Filler.sh
+<p>Si vous êtes sur Windows, copiez et exécutez le script <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/blob/main/Filler.ps1">Filler.ps1</a> à la racine de votre Kindle :</p>
+<pre><code class="language-powershell">powershell -ExecutionPolicy Bypass -File .\Filler.ps1
+</code></pre>
+<p>Si vous êtes sur Linux, exécutez le script <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/blob/main/Filler.sh">Filler.sh</a> à la racine de votre Kindle :</p>
+<pre><code class="language-bash">bash Filler.sh
 </code></pre>
 <p>Pour vérifier l&#x27;espace disponible de votre Kindle, allez dans Paramètres &gt; Options de l&#x27;appareil &gt; Informations sur l&#x27;appareil &gt; Espace disponible.</p>
 <h2>4. Enregistrez votre Kindle sur un compte Amazon</h2>
@@ -58,14 +60,11 @@ bash Filler.sh
 <h2>6. Jailbreak du Kindle</h2>
 <p>Branchez votre Kindle et copiez le dossier <code>system/.assets</code> sur votre ordinateur.</p>
 <p><a href="https://mobileread.com/forums/attachment.php?attachmentid=218255&amp;d=1758739462">Téléchargez le fichier adbreak.zip</a> puis l&#x27;extraire dans le dossier <code>.assets</code> qui se trouve sur votre ordinateur.</p>
+<p>Si vous êtes sur WIndows, double-cliquez sur le fichier <code>replace.bat</code>.</p>
 <p>Si vous êtes sur Linux, exécutez la commande suivante :</p>
 <pre><code class="language-bash">find . -name &#x27;details.html&#x27; -exec cp adbreak.html {} \;
 </code></pre>
 <p>Supprimez le dossier <code>.assets</code> de votre Kindle et remplacez-le par le nouveau.</p>
-<p>Personnellement j&#x27;exécute les commandes suivantes :</p>
-<pre><code class="language-bash">mv .assets .assets.bak
-mv ~/Downloads/.assets/ .
-</code></pre>
 <p>Débranchez votre Kindle, cliquez sur une annonce et une fois que vous avez cliqué sur &quot;Bang!&quot;, le script jailbreak devrait s&#x27;exécuter.</p>
 <blockquote class="callout note">
                     
@@ -78,7 +77,7 @@ mv ~/Downloads/.assets/ .
                         <p>You can safely ignore any &quot;application error&quot; popups, they are irrelevant.</p>
                     </div>
                 </blockquote>
-<p>Cela devrait afficher cela :</p>
+<p>Cela devrait afficher le message suivant :</p>
 <pre><code class="language-txt">**** AdBreak Jailbreak ****
 ********************** 1.0.0 *
 install_touch_update_key - Copying the jailbreak updater key
@@ -110,7 +109,7 @@ Enabled mntus exec flag
                         <p>Vous devrez exécuter ce livre Run Hotfix après chaque mise à jour de votre Kindle.</p>
                     </div>
                 </blockquote>
-<h2>8. Désactiver les mises à jour OTA</h2>
+<h2>8. Désactiver les mises à jour OTA (facultatif)</h2>
 <p>Voici la procédure pour éviter que des mises à jour soit automatiquement installés via le WIFI.</p>
 <p>Télécharger l&#x27;extension <a href="https://www.mobileread.com/forums/attachment.php?attachmentid=184438&amp;d=1609580931">renameotabin.zip</a>.</p>
 <p>Extraire le fichier puis copier le dossier <code>renameotabin</code> dans le dossier <code>extensions</code> de votre Kindle.</p>
