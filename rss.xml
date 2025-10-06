@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 05 Oct 2025 09:05:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Oct 2025 09:05:44 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -9425,6 +9425,65 @@ gi () {
 </code></pre>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Mes séries préférés]]></title>
+            <link>https://johackim.com/mes-series-preferes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-series-preferes</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/mes-series-preferes.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/mes-series-preferes.jpg"/>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=17966.html">Mr. Robot</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=17907.html">Le bureau des légendes</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=3517.html">Breaking Bad</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=10855.html">Black mirror</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7663.html">House of cards</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=446.html">How I met your mother</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=21504.html">La Casa de Papel</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=10214.html">Vikings</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=20328.html">Dark</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=11701.html">Silicon Valley</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7157.html">Game of thrones</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=30.html">The Wire</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7330.html">The Walking Dead</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=19156.html">Stranger Things</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=669.html">H</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24836.html">En thérapie</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=23024.html">Sex Education</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24940.html">How To Sell Drugs Online (Fast)</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=21143.html">Atypical</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=29898.html">Squid Game</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=58.html">24 heures chrono</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=18529.html">The Last Kingdom</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22668.html">The Boys</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24971.html">Le Jeu de la dame</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22963.html">The Mandalorian</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=27908.html">Ahsoka</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22408.html">One Piece</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7684.html">Misfits</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=9285.html">Homeland</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=451.html">Prison break</a></li>
+</ul>
+<p>À regarder :</p>
+<ul>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22429.html">Chernobyl</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28257.html">Black Bird</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=32897.html">The Playlist</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=33158.html">En Place</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=33200.html">The Day of the Jackal</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28815.html">The Bear</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=30084.html">The Penguin</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=19344.html">Baron Noir</a></li>
+<li>Adolescence</li>
+<li>S.W.A.T.</li>
+</ul>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://next-episode.net/">https://next-episode.net/</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Les différents types de sauvegarde]]></title>
             <link>https://johackim.com/types-de-sauvegarde?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/types-de-sauvegarde</guid>
@@ -9595,64 +9654,6 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 <h2>Regarder un fichier video distant</h2>
 <pre><code class="language-bash">rclone cat &lt;remote&gt;:/&lt;bucket&gt;/&lt;file.mp4&gt; | mpv -
 </code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mes séries préférés]]></title>
-            <link>https://johackim.com/mes-series-preferes?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/mes-series-preferes</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/mes-series-preferes.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/mes-series-preferes.jpg"/>
-            <content:encoded><![CDATA[<ul>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=17966.html">Mr. Robot</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=17907.html">Le bureau des légendes</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=3517.html">Breaking Bad</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=10855.html">Black mirror</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7663.html">House of cards</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=446.html">How I met your mother</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=21504.html">La Casa de Papel</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=10214.html">Vikings</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=20328.html">Dark</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=11701.html">Silicon Valley</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7157.html">Game of thrones</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=30.html">The Wire</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7330.html">The Walking Dead</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=19156.html">Stranger Things</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=669.html">H</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24836.html">En thérapie</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=23024.html">Sex Education</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24940.html">How To Sell Drugs Online (Fast)</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=21143.html">Atypical</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=29898.html">Squid Game</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=58.html">24 heures chrono</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=18529.html">The Last Kingdom</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22668.html">The Boys</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24971.html">Le Jeu de la dame</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22963.html">The Mandalorian</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=27908.html">Ahsoka</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22408.html">One Piece</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7684.html">Misfits</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=9285.html">Homeland</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=451.html">Prison break</a></li>
-</ul>
-<p>À regarder :</p>
-<ul>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22429.html">Chernobyl</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28257.html">Black Bird</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=32897.html">The Playlist</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=33158.html">En Place</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=33200.html">The Day of the Jackal</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28815.html">The Bear</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=30084.html">The Penguin</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=19344.html">Baron Noir</a></li>
-<li>Adolescence</li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://next-episode.net/">https://next-episode.net/</a></li>
-</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Mes jeux vidéos préférés]]></title>
