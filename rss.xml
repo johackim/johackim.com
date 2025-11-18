@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 17 Nov 2025 16:03:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2025 09:05:11 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -25,7 +25,7 @@
                         </div>
                     
                     <div class="callout-content">
-                        <p>Évitez de mettre à jour votre Kindle en version 5.18.6, la faille Adbreak à été patché.</p>
+                        <p>Évitez de mettre à jour votre Kindle en version 5.18.6, la faille Adbreak a été patché.</p>
                     </div>
                 </blockquote>
 <blockquote class="callout note">
@@ -71,7 +71,7 @@
 <h2>6. Jailbreak du Kindle</h2>
 <p>Branchez votre Kindle et copiez le dossier <code>system/.assets</code> sur votre ordinateur.</p>
 <p><a href="https://mobileread.com/forums/attachment.php?attachmentid=218255&amp;d=1758739462">Téléchargez le fichier adbreak.zip</a> puis l&#x27;extraire dans le dossier <code>.assets</code> qui se trouve sur votre ordinateur.</p>
-<p>Si vous êtes sur WIndows, double-cliquez sur le fichier <code>replace.bat</code>.</p>
+<p>Si vous êtes sur Windows, double-cliquez sur le fichier <code>replace.bat</code>.</p>
 <p>Si vous êtes sur Linux, exécutez la commande suivante :</p>
 <pre><code class="language-bash">find . -name &#x27;details.html&#x27; -exec cp adbreak.html {} \;
 </code></pre>
@@ -120,7 +120,7 @@ Enabled mntus exec flag
                         <p>Vous devrez exécuter ce livre Run Hotfix après chaque mise à jour de votre Kindle.</p>
                     </div>
                 </blockquote>
-<h2>8. Désactiver les mises à jour OTA (facultatif)</h2>
+<h2>8. Désactiver les mises à jour over-the-air (facultatif)</h2>
 <p>Voici la procédure pour éviter que des mises à jour soit automatiquement installés via le WIFI.</p>
 <p>Télécharger l&#x27;extension <a href="https://www.mobileread.com/forums/attachment.php?attachmentid=184438&amp;d=1609580931">renameotabin.zip</a>.</p>
 <p>Extraire le fichier puis copier le dossier <code>renameotabin</code> dans le dossier <code>extensions</code> de votre Kindle.</p>
@@ -11723,6 +11723,7 @@ Les <strong>services globaux</strong> ; un seul réplica sera attribué sur chaq
 <li>Local</li>
 <li>Etc...</li>
 </ul>
+<p>Chaque fois que vous lancez la commande <code>restic backup</code>, cela créer un nouvel instantané (un &quot;snapshot&quot;) immuable qui est une photographie de l&#x27;état de vos fichiers à ce moment précis.</p>
 <p>Et si vous souhaitez plus de <a href="https://rclone.org/#providers">backends</a> (Nextcloud, Dropbox, OVH, etc...), il est possible de coupler restic avec <a href="/rclone" title="Rclone">Rclone</a>.</p>
 
 <h2>Installation</h2>
@@ -11797,11 +11798,9 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-User=myuser
-Group=myuser
 ExecStart=restic -q backup ${HOME}
-# ExecStartPost=curl -sL https://webhook.example.com
-Environment=RESTIC_REPOSITORY=s3:s3.eu-central-003.backblazeb2.com/mybucket
+# ExecStartPost=curl -sL https://mywebhook.example.com
+Environment=RESTIC_REPOSITORY=s3:example.com/mybucket
 Environment=RESTIC_PASSWORD=myp@ssw0rd
 Environment=HOME=/home/myuser
 Restart=on-failure
