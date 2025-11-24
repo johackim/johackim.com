@@ -13,6 +13,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://johackim.com/bypass-api-twitter</loc>
+        <lastmod>2025-11-18T14:38:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://johackim.com/libreelec</loc>
         <lastmod>2025-06-15T16:50:00</lastmod>
         <changefreq>daily</changefreq>
@@ -399,12 +405,6 @@
     <url>
         <loc>https://johackim.com/tauri</loc>
         <lastmod>2024-04-15T10:00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/bypass-api-twitter</loc>
-        <lastmod>2024-04-13T14:38:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>

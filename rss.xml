@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 23 Nov 2025 13:57:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2025 09:06:02 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -1942,7 +1942,7 @@ SUM:                            73            888              3           7407
 <blockquote class="callout important">
                     
                     <div class="callout-content">
-                        <p>Depuis que le projet Nitter est arrêté, la solution présentée dans cet article ne fonctionne plus. Depuis, j&#x27;utilise l&#x27;API gratuite de Rapid API.</p>
+                        <p>Depuis que le projet Nitter est arrêté, la solution présentée dans cet article ne fonctionne plus. Depuis, j&#x27;utilise l&#x27;API gratuite de Rapid API ou celle-ci</p>
                     </div>
                 </blockquote>
 <p>Au lieu de passer par Twitter directement, je passe par <a href="https://nitter.net/">Nitter</a>, un <a href="https://github.com/mendel5/alternative-front-ends">front-end</a> open-source pour Twitter.</p>
@@ -2621,6 +2621,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 </ul>
 <h2>2. Playlists</h2>
 <ul>
+<li><a href="https://youtube.com/@LofiGirl/videos">Lofi girl</a></li>
 <li><a href="https://youtube.com/@MusicLabChill/videos">Music Lab Work</a></li>
 <li><a href="https://open.spotify.com/artist/7Bu9LhH1zCBJyKLkqN432L">Martia&#x27;s Muses</a></li>
 <li><a href="https://open.spotify.com/playlist/37i9dQZF1DXaf6XmhwlgC6">Atmospheric Focus</a></li>
