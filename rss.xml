@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 03 Dec 2025 20:40:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2025 20:45:08 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -40,7 +40,7 @@
 <p>Vous pouvez vous-même vérifier si vos conversations sont envoyées à des services tiers en analysant le trafic réseau de votre téléphone.</p>
 <p>Des outils comme <a href="https://wireshark.org">Wireshark</a> et <a href="https://github.com/emanuele-f/PCAPdroid">PCAPdroid</a> (Android) permettent d&#x27;analyser le trafic réseau de votre téléphone.</p>
 <p>Vous pouvez voir qu&#x27;après une visite sur un site comme Google, Facebook, Twitter ou Instagram des requêtes sont envoyées sur les noms de domaines google.com, facebook.com, twitter.com ou instagram.com.</p>
-<iframe src="https://peertube.ethibox.fr/videos/embed/25806d5b-589e-491c-860b-38b8e3eaad83?loop=1&amp;autoplay=1&amp;title=0&amp;warningTitle=0&amp;controlBar=0&amp;peertubeLink=0&amp;p2p=0" style="width:100%;aspect-ratio:16/9" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<iframe src="https://peertube.ethibox.fr/videos/embed/25806d5b-589e-491c-860b-38b8e3eaad83?loop=1&amp;autoplay=1&amp;title=0&amp;warningTitle=0&amp;controlBar=0&amp;peertubeLink=0&amp;p2p=0" class="w-full aspect-video" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 <p>En revanche, si vous parlez de &quot;nourriture pour chat&quot; devant votre téléphone sans rien toucher, <strong>rien n&#x27;est envoyé</strong>.</p>
 <p>Dans tous les cas, <strong>une lumière orange 🟠 (sur iPhone) et verte 🟢 (sur Android) apparaît</strong> à chaque fois que votre microphone est utilisé.</p>
 <p>Privilégiez les applications où le code source est libre (ex : <a href="https://firefox.com">Firefox</a>, <a href="https://signal.org">Signal</a>) plutôt que des applications propriétaires (ex : <a href="https://google.com/chrome/">Chrome</a>, <a href="https://whatsapp.com">WhatsApp</a>).</p>
