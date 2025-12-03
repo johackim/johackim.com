@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 03 Dec 2025 09:06:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2025 16:02:02 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -855,13 +855,18 @@ index.storage_context.persist()
 <p>Les adresses IP agressives sont envoyées à CrowdSec pour être partagés entre tous les utilisateurs afin d&#x27;améliorer la sécurité de chacun.</p>
 <h2>Installation</h2>
 <p>Pour l&#x27;installer sur <strong>Ubuntu</strong> ou <strong>Debian</strong> :</p>
-<pre><code class="language-bash">curl -s https://packagecloud.io/install/repositories/crowdsec/crowdsec/script.deb.sh | sudo bash
+<pre><code class="language-bash">curl -s https://install.crowdsec.net | sudo sh
 sudo apt install -y crowdsec
 </code></pre>
 <p>Pour l&#x27;installer sur <strong>Arch Linux</strong> :</p>
 <pre><code class="language-bash">yay -S --noconfirm crowdsec-bin
 </code></pre>
 <p>Pour les autres systèmes, <a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec/">voir la documentation</a>.</p>
+<h2>Désinstallation</h2>
+<pre><code class="language-bash">sudo apt purge -y crowdsec crowdsec-firewall-bouncer-iptables
+sudo apt autoremove -y
+sudo rm -rf /usr/share/crowdsec/
+</code></pre>
 <h2>Utilisation classique</h2>
 <p>CrowdSec a plusieurs composants :</p>
 <ul>
@@ -908,6 +913,13 @@ while read -r ip; do cscli decisions add -t ban -i $ip; done &lt; blocklist.txt
 <pre><code class="language-bash">cscli scenarios remove --force crowdsecurity/http-probing
 cscli scenarios remove --force crowdsecurity/http-crawl-non_statics
 </code></pre>
+<h2>Tester la sécurité</h2>
+<p>Effectuez 10 connexions ssh échoués d&#x27;affilé :</p>
+<pre><code class="language-bash">for i in {1..10}; do ssh fakeuser@&lt;IP_ADDRESS&gt;; done
+</code></pre>
+<p>Puis vérifiez les décisions de crowdec :</p>
+<pre><code class="language-bash">sudo cscli decisions list
+</code></pre>
 <h2>Utilisation avec Traefik</h2>
 <p>Pour utiliser CrowdSec avec Traefik, j&#x27;utilise ces 2 stacks docker :</p>
 <ul>
@@ -936,6 +948,7 @@ labels:
 <li><a href="https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin">https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin</a></li>
 <li><a href="https://github.com/fbonalair/traefik-crowdsec-bouncer">https://github.com/fbonalair/traefik-crowdsec-bouncer</a></li>
 <li><a href="https://app.crowdsec.net/hub/author/crowdsecurity/collections/traefik">https://app.crowdsec.net/hub/author/crowdsecurity/collections/traefik</a></li>
+<li><a href="https://blog.stephane-robert.info/docs/securiser/reseaux/crowdsec/">https://blog.stephane-robert.info/docs/securiser/reseaux/crowdsec/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2987,6 +3000,23 @@ gpg&gt; save
 <p>Pour gérer plus facilement ses clés, il existe <code>gpg-tui</code> :</p>
 <pre><code class="language-bash">sudo pacman -S gpg-tui
 </code></pre>
+<h2>Enlever la date d&#x27;expiration</h2>
+<pre><code class="language-bash">gpg --edit-key &lt;ID&gt;
+&gt; expire
+&gt; 0
+&gt; save
+</code></pre>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Tapez key 1 si il s&#x27;agit d&#x27;une subkey.</p>
+                    </div>
+                </blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -4258,6 +4288,7 @@ Vous découvrez le principe de l&#x27;éclairage trois points, vous ferez beauco
 <ul>
 <li><a href="https://cm.stackedmarketer.com/t/j-e-eudfly-dkdhjdliv-r/">Psychology of Marketing</a></li>
 <li><a href="https://customercamp.co/frequency-illusion/">https://customercamp.co/frequency-illusion/</a></li>
+<li><a href="https://sketchplanations.com/the-frequency-illusion">https://sketchplanations.com/the-frequency-illusion</a></li>
 <li><a href="https://customercamp.co/baader-meinhof-phenomenon/">https://customercamp.co/baader-meinhof-phenomenon/</a></li>
 <li><a href="https://42courses.com/blog/home/2022/9/2/42-effects-you-should-know-part-2">https://42courses.com/blog/home/2022/9/2/42-effects-you-should-know-part-2</a></li>
 <li><a href="https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recDAHpHP68dhfDfX">https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recDAHpHP68dhfDfX</a></li>
@@ -10045,6 +10076,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=1941.html">Il était une fois en Amérique</a></li>
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=271957.html">Martin Eden</a></li>
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=271687.html">Nomadland</a></li>
+<li>Rainman</li>
 </ul>
 <h2>Films que je n&#x27;aime pas</h2>
 <ul>
