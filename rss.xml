@@ -4,9 +4,107 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 03 Dec 2025 16:15:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2025 16:24:41 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Est-ce que notre téléphone nous écoute ?]]></title>
+            <link>https://johackim.com/est-ce-que-notre-telephone-nous-ecoute?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/est-ce-que-notre-telephone-nous-ecoute</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 03 Dec 2025 20:34:44 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/est-ce-que-notre-telephone-nous-ecoute.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/est-ce-que-notre-telephone-nous-ecoute.jpg"/>
+            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/AHEDdxZ.png"/><p>Tous nos téléphones sont équipés d&#x27;un microphone 🎤.</p>
+<ul>
+<li>🏛️ Les <strong>gouvernements</strong> pourraient s&#x27;en servir pour surveiller et stopper les opposants politiques ou les terroristes.</li>
+<li>💼 Les <strong>entreprises</strong> pourraient s&#x27;en servir pour nous proposer des publicités ciblées et augmenter leurs profits.</li>
+<li>🥷 Les <strong>hackers</strong> pourraient s&#x27;en servir pour nous espionner et voler nos informations personnelles.</li>
+</ul>
+<p>À l&#x27;échelle d&#x27;un pays comme la France (+67 millions d&#x27;habitants), cela représenterait une mine d&#x27;or d&#x27;informations à exploiter 💰.</p>
+<p>Sachant cela, la question est légitime, <strong>est-ce que notre téléphone nous écoute ?</strong></p>
+<h2>Est-ce techniquement possible ?</h2>
+<p>Techniquement, espionner les conversations de millions de personnes 24h/24 reviendrait à <strong>envoyer, stocker, transcrire, analyser et filtrer des quantités astronomiques de données</strong>.</p>
+<p>À titre d&#x27;exemple, un enregistrement audio de 1 minute représente environ entre 10 et 100 ko de données.</p>
+<p>Pour 1 million de personnes, cela représenterait 100 Go de données par minute, soit 144 To par jour.</p>
+<p>Il faudrait investir dans d&#x27;énormes espaces de stockage et des serveurs avec une très grande puissance de calcul.</p>
+<p>Le coût financier serait bien supérieur à la rentabilité des informations collectées.</p>
+<p>Et même si la transcription était réalisée localement sur le téléphone, cela impacterait considérablement la batterie et les performances du téléphone.</p>
+<p>Ce qui irait en contradiction avec l&#x27;objectif des constructeurs de téléphones qui veulent fabriquer des téléphones plus performants et avec une meilleure autonomie.</p>
+<p>Et un tel trafic réseau ne passerait pas inaperçu du point de vue des experts en cybersécurité.</p>
+<p>La probabilité pour que personne ne s&#x27;en rende compte est extrêmement faible.</p>
+<p>Les <strong>assistants vocaux</strong> comme Siri (Apple), Alexa (Amazon) ou Assistant (Google) font ce que l&#x27;on appelle de <strong>l&#x27;écoute passive</strong>.</p>
+<p>Il s&#x27;agit d&#x27;un processus qui tourne en boucle sur une mémoire tampon de quelques secondes et qui a pour seul but de démarrer un enregistrement uniquement lorsqu&#x27;il entend <strong>le mot réveil</strong> ⏰ « Dis Siri », « OK Google » ou « Alexa ».</p>
+<p>Tant que le mot de réveil n&#x27;est pas déclenché, rien n&#x27;est enregistré.</p>
+<h2>Comment vérifier si votre téléphone vous écoute ?</h2>
+<p>Vous pouvez vous-même vérifier si vos conversations sont envoyées à des services tiers en analysant le trafic réseau de votre téléphone.</p>
+<p>Des outils comme <a href="https://wireshark.org">Wireshark</a> ou <a href="https://github.com/emanuele-f/PCAPdroid">PCAPdroid</a> (Android) permettent d&#x27;analyser le trafic réseau de votre téléphone.</p>
+<p>Vous pouvez voir qu&#x27;après une visite sur un site comme Google, Facebook, Twitter ou Instagram des requêtes sont envoyées sur les noms de domaines google.fr, facebook.com, twitter.com ou instagram.com.</p>
+<p>En revanche, si vous parlez de &quot;nourriture pour chat&quot; devant votre téléphone sans rien toucher, <strong>rien n&#x27;est envoyé</strong>.</p>
+<p>Dans tous les cas, <strong>une lumière orange 🟠 (sur iPhone) et verte 🟢 (sur Android) apparaît</strong> à chaque fois que votre microphone est utilisé.</p>
+<p>Privilégiez les applications où le code source est libre (ex : <a href="https://firefox.com">Firefox</a>, <a href="https://signal.org">Signal</a>) plutôt que des applications propriétaires (ex : <a href="https://google.com/chrome/">Chrome</a>, <a href="https://whatsapp.com">WhatsApp</a>).</p>
+<ul>
+<li>Les applications propriétaires sont des boites noires où le code source est accessible uniquement par le créateur</li>
+<li>Les applications libres sont des boites transparentes où le code source est accessible à tout le monde</li>
+</ul>
+<p>Vous pouvez vous-même inspecter les lignes de code des applications si vous avez des compétences en programmation.</p>
+<p>Si une ligne de code est suspicieuse, elle peut être détectée et signalée par votre ami développeur ou par la communauté open-source.</p>
+<h2>Pourquoi ai-je l&#x27;impression que mon téléphone m&#x27;écoute ?</h2>
+<p>La triste vérité, c&#x27;est que les entreprises n&#x27;ont pas besoin d&#x27;écouter vos conversations pour vous proposer des publicités ciblées.</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">https://spreadprivacy.com/how-does-google-track-me-even-when-im-not-using-it/</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>86.5% des 75 000 sites les plus populaires au monde utilisent Google Analytics et 34.2% utilisent Facebook Pixel.</p>
+                    </div>
+                </blockquote>
+<p>Résultat, lorsque vous créez un compte Google ou Facebook et que vous vous baladez sur internet, ils récupèrent tout votre historique de navigation.</p>
+<p>Si vous partagez des informations comme votre âge, votre adresse IP, votre géolocalisation, vos photos et vos centres d&#x27;intérêt, ils peuvent vous proposer des publicités ultra-ciblées.</p>
+<p>Il se peut aussi que vous soyez victime d&#x27;un <a href="/biais-cognitifs" title="biais cognitif">biais cognitif</a> appelé <a href="/lillusion-de-frequence" title="L&#x27;illusion de fréquence">L&#x27;illusion de fréquence</a>.</p>
+
+<p><img src="https://i.imgur.com/AHEDdxZ.png" alt="L&#x27;illusion de fréquence"/></p>
+<p>Lorsque vous remarquez quelque chose pour la première fois, vous avez tendance à le voir partout.</p>
+<p>Par exemple, si vous parlez d&#x27;une nouvelle voiture avec un ami, vous allez commencer à remarquer cette voiture partout.</p>
+<h2>Comment protéger votre téléphone ?</h2>
+<p>Si vous souhaitez protéger votre vie privée et améliorer la sécurité de votre téléphone, voici une liste de tâches à faire :</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled=""/> Désinstallez/désactivez votre assistant vocal</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Supprimer votre historique de navigation internet une fois par mois</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Désactivez les permissions des applications qui utilisent le microphone depuis les paramètres de votre téléphone</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Installer une application de messagerie sécurisée (ex: <a href="https://signal.org">Signal</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Installer un navigateur internet open-source (ex: <a href="https://firefox.com">Firefox</a> ou <a href="https://chromium.org">Chromium</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Supprimer vos données personnelles d&#x27;internet via un service de suppression (ex: <a href="https://incogni.com">Incogni</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Installer un bloqueur de publicités sur votre navigateur internet (ex : <a href="https://ublockorigin.com">uBlock Origin</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/>
+Installer un <a href="/vpn" title="VPN" class="not-found">VPN</a> (ex : <a href="https://protonvpn.com">ProtonVPN</a> ou <a href="https://mullvad.net">Mullvad</a>)
+
+</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Utiliser une boite e-mail sécurisée (ex : <a href="https://proton.me/fr/mail">ProtonMail</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Utiliser un serveur DNS sécurisé (ex : <a href="https://quad9.net">quad9</a> ou <a href="https://nextdns.io">NextDNS</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Installez un système d&#x27;exploitation axé sur la vie privée (<a href="https://grapheneos.org/">GrapheneOS</a>, <a href="https://e.foundation">/e/OS</a> ou <a href="https://lineageos.org">LineageOS</a>)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""/> Achetez un téléphone axé sur la vie privée (<a href="https://fairphone.com">Fairphone</a>, <a href="https://puri.sm/products/librem-5/">Librem</a> ou <a href="https://store.google.com/fr/product/pixel_10">Pixel</a> (avec GrapheneOS))</li>
+</ul>
+<p>Pour résumer, <strong>non, votre téléphone n&#x27;enregistre pas vos conversations</strong>.</p>
+<p>Les entreprises n&#x27;ont pas besoin de le faire pour vous proposer des publicités ciblées.</p>
+<p>Et si vous souhaitez protéger votre vie privée, suivez les conseils ci-dessus 😉 !</p>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://youtu.be/4P-bsrvhG1w">Underscore_ - Finalement, nos téléphones pourraient bel et bien nous écouter</a></li>
+<li><a href="https://youtu.be/cwAmqc3_H8Y">Léo Duff - Non, votre iPhone ne vous écoute pas (c&#x27;est pire)</a></li>
+<li><a href="https://youtu.be/-nH-iBWWbeg">Defend Intelligence - Nos téléphones nous écoutent ?</a></li>
+<li><a href="https://youtu.be/0lz2KRRGQZI">Aywen - J&#x27;ai Vérifié si mon iPhone m&#x27;écoute (et j&#x27;ai la réponse)</a></li>
+<li><a href="https://youtu.be/B7aLYH8zL7w">Clique TV - Est-ce que nos téléphones nous écoutent ? - CANAL+</a></li>
+<li><a href="https://youtu.be/ulcFCgSI4cs">Le Grand JD - Google nous écoute ?</a></li>
+<li><a href="https://korben.info/telephone-ecoute-publicite-mythe-surveillance.html">https://korben.info/telephone-ecoute-publicite-mythe-surveillance.html</a></li>
+<li><a href="https://korben.info/smartphone-espionnage-publicite-ciblee-mythe-realite.html">https://korben.info/smartphone-espionnage-publicite-ciblee-mythe-realite.html</a></li>
+<li><a href="https://numerama.com/tech/1801696-non-nos-smartphones-ne-nous-ecoutent-pas.html">https://numerama.com/tech/1801696-non-nos-smartphones-ne-nous-ecoutent-pas.html</a></li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Comment jailbreaker son Kindle avec la faille Adbreak ?]]></title>
             <link>https://johackim.com/jailbreak-kindle?utm_source=rss&amp;utm_medium=rss</link>
