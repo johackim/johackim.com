@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://johackim.com</loc>
-        <lastmod>2025-12-03T20:34:44</lastmod>
+        <lastmod>undefined</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -79,13 +79,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/mes-series-preferes</loc>
+        <loc>https://johackim.com/mes-films-preferes</loc>
         <lastmod>2025-01-24T20:36:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/mes-films-preferes</loc>
+        <loc>https://johackim.com/mes-series-preferes</loc>
         <lastmod>2025-01-24T20:36:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -121,13 +121,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/modeles-mentaux</loc>
+        <loc>https://johackim.com/biais-cognitifs</loc>
         <lastmod>2024-11-16T19:19:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/biais-cognitifs</loc>
+        <loc>https://johackim.com/modeles-mentaux</loc>
         <lastmod>2024-11-16T19:19:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -139,19 +139,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/warez</loc>
-        <lastmod>2024-11-16T16:44:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/seo</loc>
-        <lastmod>2024-11-16T16:44:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/programmation</loc>
+        <loc>https://johackim.com/entrepreneuriat</loc>
         <lastmod>2024-11-16T16:44:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -163,13 +151,25 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/entrepreneuriat</loc>
+        <loc>https://johackim.com/productivite</loc>
         <lastmod>2024-11-16T16:44:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/productivite</loc>
+        <loc>https://johackim.com/programmation</loc>
+        <lastmod>2024-11-16T16:44:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/seo</loc>
+        <lastmod>2024-11-16T16:44:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/warez</loc>
         <lastmod>2024-11-16T16:44:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -691,12 +691,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/liberte-numerique</loc>
-        <lastmod>2022-06-14T22:02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/les-lois-de-la-nature-humaine</loc>
         <lastmod>2022-06-14T09:31</lastmod>
         <changefreq>daily</changefreq>
@@ -709,13 +703,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/exporter-lhistorique-telegram-dans-des-fichiers-textes</loc>
+        <loc>https://johackim.com/antifragile</loc>
         <lastmod>2022-03-20T23:17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/antifragile</loc>
+        <loc>https://johackim.com/exporter-lhistorique-telegram-dans-des-fichiers-textes</loc>
         <lastmod>2022-03-20T23:17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -739,13 +733,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/lockpicking</loc>
+        <loc>https://johackim.com/creer-un-systeme-dauthentification-oauth-avec-spotify</loc>
         <lastmod>2021-12-26T15:44</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/creer-un-systeme-dauthentification-oauth-avec-spotify</loc>
+        <loc>https://johackim.com/lockpicking</loc>
         <lastmod>2021-12-26T15:44</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -763,19 +757,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/leffet-de-compensation-morale</loc>
-        <lastmod>2021-11-21T20:31</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/le-futur-illusoire</loc>
-        <lastmod>2021-11-21T20:31</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lillusion-de-frequence</loc>
+        <loc>https://johackim.com/flashcard</loc>
         <lastmod>2021-11-21T20:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -787,19 +769,31 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/flashcard</loc>
+        <loc>https://johackim.com/lillusion-de-frequence</loc>
         <lastmod>2021-11-21T20:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/whatweb</loc>
-        <lastmod>2021-11-15T09:33</lastmod>
+        <loc>https://johackim.com/le-futur-illusoire</loc>
+        <lastmod>2021-11-21T20:31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/leffet-de-compensation-morale</loc>
+        <lastmod>2021-11-21T20:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://johackim.com/creer-un-mode-dark-avec-gatsby-et-tailwind-css</loc>
+        <lastmod>2021-11-15T09:33</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/whatweb</loc>
         <lastmod>2021-11-15T09:33</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -817,13 +811,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/parametres-utm</loc>
-        <lastmod>2021-10-24T20:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/la-regle-des-4u</loc>
+        <loc>https://johackim.com/five-life-goals</loc>
         <lastmod>2021-10-24T20:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -835,25 +823,19 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/five-life-goals</loc>
+        <loc>https://johackim.com/la-regle-des-4u</loc>
         <lastmod>2021-10-24T20:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/page-du-matin</loc>
-        <lastmod>2021-10-17T22:19</lastmod>
+        <loc>https://johackim.com/parametres-utm</loc>
+        <lastmod>2021-10-24T20:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/nextdns</loc>
-        <lastmod>2021-10-17T22:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/la-methode-para</loc>
+        <loc>https://johackim.com/la-theorie-des-contraintes</loc>
         <lastmod>2021-10-17T22:19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -865,7 +847,19 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/la-theorie-des-contraintes</loc>
+        <loc>https://johackim.com/la-methode-para</loc>
+        <lastmod>2021-10-17T22:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/nextdns</loc>
+        <lastmod>2021-10-17T22:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/page-du-matin</loc>
         <lastmod>2021-10-17T22:19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -877,25 +871,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/woop-framework</loc>
-        <lastmod>2021-10-06T16:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir</loc>
-        <lastmod>2021-10-06T16:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/regret-minimization-framework</loc>
-        <lastmod>2021-10-06T16:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/refactoring-ui-adam-wathan</loc>
+        <loc>https://johackim.com/la-regle-des-2-minutes</loc>
         <lastmod>2021-10-06T16:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -907,7 +883,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/la-regle-des-2-minutes</loc>
+        <loc>https://johackim.com/refactoring-ui-adam-wathan</loc>
+        <lastmod>2021-10-06T16:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/regret-minimization-framework</loc>
         <lastmod>2021-10-06T16:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -919,25 +901,19 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/trouver-des-fichiers-en-double-sur-linux</loc>
-        <lastmod>2021-09-27T22:29</lastmod>
+        <loc>https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir</loc>
+        <lastmod>2021-10-06T16:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/traction-gabriel-weinberg</loc>
-        <lastmod>2021-09-27T22:29</lastmod>
+        <loc>https://johackim.com/woop-framework</loc>
+        <lastmod>2021-10-06T16:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown</loc>
-        <lastmod>2021-09-27T22:29</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/changer-la-version-de-python-facilement-avec-pyenv</loc>
         <lastmod>2021-09-27T22:29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -949,31 +925,25 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/webtorrent</loc>
-        <lastmod>2021-09-16T22:10</lastmod>
+        <loc>https://johackim.com/traction-gabriel-weinberg</loc>
+        <lastmod>2021-09-27T22:29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/modifier-le-fuseau-horraire-dun-serveur-linux</loc>
-        <lastmod>2021-09-16T22:10</lastmod>
+        <loc>https://johackim.com/trouver-des-fichiers-en-double-sur-linux</loc>
+        <lastmod>2021-09-27T22:29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/mes-musiques-preferes</loc>
-        <lastmod>2021-09-16T22:10</lastmod>
+        <loc>https://johackim.com/changer-la-version-de-python-facilement-avec-pyenv</loc>
+        <lastmod>2021-09-27T22:29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://johackim.com/detecter-le-format-dune-date</loc>
-        <lastmod>2021-09-16T22:10</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-une-version-modifie-dun-package-aur-sur-arch-linux</loc>
         <lastmod>2021-09-16T22:10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -991,8 +961,26 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/recuperer-le-flux-rss-dune-chaine-youtube</loc>
-        <lastmod>2021-08-29T19:14</lastmod>
+        <loc>https://johackim.com/mes-musiques-preferes</loc>
+        <lastmod>2021-09-16T22:10</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/modifier-le-fuseau-horraire-dun-serveur-linux</loc>
+        <lastmod>2021-09-16T22:10</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-une-version-modifie-dun-package-aur-sur-arch-linux</loc>
+        <lastmod>2021-09-16T22:10</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/webtorrent</loc>
+        <lastmod>2021-09-16T22:10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -1003,13 +991,19 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/demarrer-macos-sur-linux</loc>
-        <lastmod>2021-08-22T20:37</lastmod>
+        <loc>https://johackim.com/recuperer-le-flux-rss-dune-chaine-youtube</loc>
+        <lastmod>2021-08-29T19:14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://johackim.com/biais-des-couts-irrecuperables</loc>
+        <lastmod>2021-08-22T20:37</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/demarrer-macos-sur-linux</loc>
         <lastmod>2021-08-22T20:37</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1045,24 +1039,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat</loc>
-        <lastmod>2021-08-01T21:31</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-un-serveur-vpn-avec-dsvpn</loc>
-        <lastmod>2021-08-01T21:31</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/bloquer-les-adresse-ips-dun-reseau-externe-avec-expressjs</loc>
-        <lastmod>2021-08-01T21:31</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/limiter-la-bande-passante-dune-interface-reseau-sous-linux</loc>
         <lastmod>2021-08-01T21:31</lastmod>
         <changefreq>daily</changefreq>
@@ -1075,7 +1051,25 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://johackim.com/bloquer-les-adresse-ips-dun-reseau-externe-avec-expressjs</loc>
+        <lastmod>2021-08-01T21:31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://johackim.com/faire-sa-declaration-dimpot-en-tant-quauto-entrepreneur</loc>
+        <lastmod>2021-08-01T21:31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-un-serveur-vpn-avec-dsvpn</loc>
+        <lastmod>2021-08-01T21:31</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat</loc>
         <lastmod>2021-08-01T21:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1087,7 +1081,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/zero-to-sold-arvid-kahl</loc>
+        <loc>https://johackim.com/make-pieter-levels</loc>
         <lastmod>2021-07-18T19:21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1099,74 +1093,8 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/make-pieter-levels</loc>
+        <loc>https://johackim.com/zero-to-sold-arvid-kahl</loc>
         <lastmod>2021-07-18T19:21</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lillusion-des-series</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/leffet-de-simple-exposition</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/leffet-de-halo</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/demarrer-une-application-gui-avec-ssh</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/creer-un-theme-obsidian</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-narratif</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-du-survivant</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-du-monde-juste</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-du-tribalisme</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-de-laversion-a-la-perte</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-doptimisme</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -1183,13 +1111,73 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/debugger-un-site-internet-sur-ipad-depuis-linux</loc>
-        <lastmod>2021-07-05T16:31</lastmod>
+        <loc>https://johackim.com/biais-doptimisme</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/generer-dynamiquement-des-images-avec-node-canvas</loc>
+        <loc>https://johackim.com/biais-de-laversion-a-la-perte</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/biais-du-tribalisme</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/biais-du-monde-juste</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/biais-du-survivant</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/biais-narratif</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/creer-un-theme-obsidian</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/demarrer-une-application-gui-avec-ssh</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/leffet-de-halo</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/leffet-de-simple-exposition</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/lillusion-des-series</loc>
+        <lastmod>2021-07-11T09:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/debugger-un-site-internet-sur-ipad-depuis-linux</loc>
         <lastmod>2021-07-05T16:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1201,109 +1189,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/tester-les-touches-de-son-clavier-sur-linux</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
+        <loc>https://johackim.com/generer-dynamiquement-des-images-avec-node-canvas</loc>
+        <lastmod>2021-07-05T16:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/installer-prettier</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/pair-programming</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/notes-temporaires</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/notes-permanentes</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/notes-litteraires</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/note-atomique</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/mon-processus-de-prise-de-notes</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/modeles-de-prix-pour-un-saas</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/matrice-deisenhower</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/loi-de-pareto</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/les-cinq-elements-de-toute-entreprise</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/le-modele-comportemental-de-fogg</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/leffet-lindy</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lautoroute-du-millionaire-mj-demarco</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/ikigai</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/extraire-les-sous-titres-d'une-video-youtube</loc>
+        <loc>https://johackim.com/creer-un-ebook-a-partir-d'un-fichier-markown</loc>
         <lastmod>2021-06-27T19:19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1315,14 +1207,110 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/creer-un-ebook-a-partir-d'un-fichier-markown</loc>
+        <loc>https://johackim.com/extraire-les-sous-titres-d'une-video-youtube</loc>
         <lastmod>2021-06-27T19:19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/chiffrer-un-dossier-avec-ecryptfs</loc>
+        <loc>https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne</loc>
         <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/ikigai</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/lautoroute-du-millionaire-mj-demarco</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/leffet-lindy</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/le-modele-comportemental-de-fogg</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/les-cinq-elements-de-toute-entreprise</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/loi-de-pareto</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/matrice-deisenhower</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/modeles-de-prix-pour-un-saas</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/mon-processus-de-prise-de-notes</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/note-atomique</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/notes-litteraires</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/notes-permanentes</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/notes-temporaires</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/pair-programming</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-prettier</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/objectifs-smart</loc>
+        <lastmod>2021-06-27T19:19:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -1333,8 +1321,14 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/objectifs-smart</loc>
-        <lastmod>2021-06-27T19:19:00</lastmod>
+        <loc>https://johackim.com/tester-les-touches-de-son-clavier-sur-linux</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/chiffrer-un-dossier-avec-ecryptfs</loc>
+        <lastmod>2021-06-27T19:19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -1351,67 +1345,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/types-de-sauvegarde</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/tester-la-vitesse-d'ecriture-d'un-disque-dur-sur-linux</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/regarder-la-television-avec-kodi</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/rclone</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/kopia</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/kodi</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/integrer-tailwind-css-a-gatsby</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/iptv</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/gerer-un-stockage-zapier-avec-curl</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/gerer-les-workspaces-avec-terraform</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/initialiser-eslint-sur-un-projet-javascript</loc>
+        <loc>https://johackim.com/creer-un-flux-rss-avec-gatsby</loc>
         <lastmod>2021-06-07T20:36</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1423,7 +1357,49 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/creer-un-flux-rss-avec-gatsby</loc>
+        <loc>https://johackim.com/inspecter-toutes-les-couches-d'une-image-docker</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/initialiser-eslint-sur-un-projet-javascript</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/gerer-les-workspaces-avec-terraform</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/gerer-un-stockage-zapier-avec-curl</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/iptv</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/integrer-tailwind-css-a-gatsby</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/kodi</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/kopia</loc>
         <lastmod>2021-06-07T20:36</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1435,13 +1411,31 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/inspecter-toutes-les-couches-d'une-image-docker</loc>
+        <loc>https://johackim.com/rclone</loc>
         <lastmod>2021-06-07T20:36</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/initialiser-un-projet-gatsby</loc>
+        <loc>https://johackim.com/regarder-la-television-avec-kodi</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/tester-la-vitesse-d'ecriture-d'un-disque-dur-sur-linux</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/types-de-sauvegarde</loc>
+        <lastmod>2021-06-07T20:36</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby</loc>
         <lastmod>2021-05-31T16:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1453,7 +1447,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby</loc>
+        <loc>https://johackim.com/initialiser-un-projet-gatsby</loc>
         <lastmod>2021-05-31T16:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1471,19 +1465,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/regarder-la-meteo-depuis-un-terminal</loc>
-        <lastmod>2021-05-30T19:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/mettre-a-jour-l'infrastructure</loc>
-        <lastmod>2021-05-30T19:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/initialiser-terraform</loc>
+        <loc>https://johackim.com/creer-un-service-docker-avec-plusieurs-replicas</loc>
         <lastmod>2021-05-30T19:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1495,31 +1477,31 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/creer-un-service-docker-avec-plusieurs-replicas</loc>
-        <lastmod>2021-05-30T19:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/contourner-la-protection-cloudflare</loc>
         <lastmod>2021-05-30T19:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/pare-feu</loc>
-        <lastmod>2021-05-18T21:17</lastmod>
+        <loc>https://johackim.com/initialiser-terraform</loc>
+        <lastmod>2021-05-30T19:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/ips</loc>
-        <lastmod>2021-05-18T21:17</lastmod>
+        <loc>https://johackim.com/mettre-a-jour-l'infrastructure</loc>
+        <lastmod>2021-05-30T19:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/ids</loc>
+        <loc>https://johackim.com/regarder-la-meteo-depuis-un-terminal</loc>
+        <lastmod>2021-05-30T19:50</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/dpi</loc>
         <lastmod>2021-05-18T21:17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1531,7 +1513,19 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/dpi</loc>
+        <loc>https://johackim.com/ids</loc>
+        <lastmod>2021-05-18T21:17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/ips</loc>
+        <lastmod>2021-05-18T21:17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/pare-feu</loc>
         <lastmod>2021-05-18T21:17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1543,85 +1537,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/traefik</loc>
+        <loc>https://johackim.com/docker-swarm</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/traefik-et-let's-encrypt</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/terraform</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/supprimer-un-conteneur-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/stack-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/service-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lister-les-conteneurs-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-traefik-avec-docker-swarm</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-terraform</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/initialiser-un-cluster-docker-swarm</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/glusterfs</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/entrer-a-l'interieur-d'un-conteneur-docker</loc>
+        <loc>https://johackim.com/creer-un-volume-docker</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1633,13 +1555,85 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/docker-swarm</loc>
+        <loc>https://johackim.com/entrer-a-l'interieur-d'un-conteneur-docker</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/creer-un-volume-docker</loc>
+        <loc>https://johackim.com/glusterfs</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/initialiser-un-cluster-docker-swarm</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-docker</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-terraform</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/installer-traefik-avec-docker-swarm</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/lister-les-conteneurs-docker</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/service-docker</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/stack-docker</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/supprimer-un-conteneur-docker</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/terraform</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/traefik-et-let's-encrypt</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/traefik</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1657,25 +1651,19 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/l'obstacle-est-le-chemin-ryan-holiday</loc>
-        <lastmod>2021-05-04T08:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/devenez-hebergeur-web-independant</loc>
         <lastmod>2021-05-04T08:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/the-one-thing-gary-keller</loc>
-        <lastmod>2021-04-28T10:52</lastmod>
+        <loc>https://johackim.com/l'obstacle-est-le-chemin-ryan-holiday</loc>
+        <lastmod>2021-05-04T08:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/taylor-pearson-the-effective-entrepreneur</loc>
+        <loc>https://johackim.com/plan-de-90-jours</loc>
         <lastmod>2021-04-28T10:52</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1687,7 +1675,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/plan-de-90-jours</loc>
+        <loc>https://johackim.com/taylor-pearson-the-effective-entrepreneur</loc>
+        <lastmod>2021-04-28T10:52</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/the-one-thing-gary-keller</loc>
         <lastmod>2021-04-28T10:52</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
