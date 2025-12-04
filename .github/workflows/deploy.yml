@@ -10,8 +10,6 @@ jobs:
   deploy:
     permissions:
       contents: write
-    env:
-      OBSIDIAN_SITE_ID: ${{ secrets.OBSIDIAN_SITE_ID }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

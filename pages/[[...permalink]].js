@@ -5,7 +5,9 @@ import Layout from '../components/layout';
 import Commento from '../components/commento';
 import Code from '../components/code';
 import Progress from '../components/progress';
-import { getContentList, getContent, getOptions, getArticlesPage, createCoverSvg, compile } from '../lib/utils';
+import { getContentList, getContent, getArticlesPage, createCoverSvg, compile } from '../lib/utils';
+
+const INDEX_FILE = 'Start';
 
 const components = {
     pre: Code,
@@ -91,9 +93,7 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
 );
 
 export const getStaticProps = async ({ params }) => {
-    const { indexFile } = await getOptions();
-
-    const permalink = params?.permalink?.[0] ?? indexFile;
+    const permalink = params?.permalink?.[0] ?? INDEX_FILE;
 
     const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink);
 
@@ -101,18 +101,16 @@ export const getStaticProps = async ({ params }) => {
 
     await createCoverSvg(content?.title, content?.permalink);
 
-    const isIndex = permalink?.toLowerCase() === indexFile?.toLowerCase();
+    const isIndex = permalink?.toLowerCase() === INDEX_FILE?.toLowerCase();
 
     return { props: { source, isIndex, ...content } };
 };
 
 export const getStaticPaths = async () => {
-    const { indexFile } = await getOptions();
-
     const markdownFiles = await getContentList();
 
     const paths = markdownFiles
-        .filter(({ permalink }) => permalink?.toLowerCase() !== indexFile?.toLowerCase())
+        .filter(({ permalink }) => permalink?.toLowerCase() !== INDEX_FILE?.toLowerCase())
         .map(({ permalink }) => ({ params: { permalink: [permalink] } }));
 
     paths.push({ params: { permalink: [] } });
