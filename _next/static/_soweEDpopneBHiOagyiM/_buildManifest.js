@@ -1,18 +1,18 @@
 self.__BUILD_MANIFEST = {
   "/404": [
-    "static/chunks/cb2552d4a9d79d3c.js"
+    "static/chunks/c4cc8d41615108ec.js"
   ],
   "/[[...permalink]]": [
-    "static/chunks/a1a9b7314a67c13b.js"
+    "static/chunks/5fc1cf4b4a2bbae5.js"
   ],
   "/_error": [
-    "static/chunks/dfd32b9927e8f4fa.js"
+    "static/chunks/4f95971eff3d5039.js"
   ],
   "/newsletter": [
-    "static/chunks/746ca93b2983885e.js"
+    "static/chunks/234184b6b3e5fd7f.js"
   ],
   "/soon": [
-    "static/chunks/5beebda8c3aa0dd1.js"
+    "static/chunks/8f2dcda20589fbca.js"
   ],
   "__rewrites": {
     "afterFiles": [],
