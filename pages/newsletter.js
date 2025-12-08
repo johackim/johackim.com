@@ -57,12 +57,12 @@ export default ({ subscribers }) => {
     return (
         <Layout>
             <section className="min-h-[calc(100vh-6rem)] flex flex-col justify-center items-center">
-                <h2 className="font-semibold text-gray-700 text-center text-2xl lg:text-6xl">
+                <h2 className="font-semibold text-gray-700 text-center text-4xl lg:text-6xl">
                     {`Rejoignez les ${subscribers} abonnées`}
                 </h2>
                 <p className="text-center my-1 text-base text-gray-500 lg:text-3xl">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
 
-                <form onSubmit={handleSubmit} className="my-4 grid gap-2 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
+                <form onSubmit={handleSubmit} className="my-4 grid gap-2 w-full px-4 sm:grid-flow-col sm:auto-cols-max sm:justify-center">
                     <input type="email" name="email" className="p-2 border border-gray-300 rounded-md focus:outline-none focus:shadow-outline-none focus:ring-0 text-gray-700 w-full md:w-80" placeholder="Entrez votre email" required />
 
                     <button type="submit" className="px-5 py-2 rounded-md cursor-pointer bg-cyan-700 text-white hover:text-white hover:bg-cyan-800">
