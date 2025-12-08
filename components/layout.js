@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default ({ children, className = '' }) => (
     <>
         <header className="flex shadow-md inset-x-0 h-16 items-center z-30 text-gray-700 bg-white fixed top-0">
-            <div className="container m-auto flex items-center justify-between flex-wrap px-4 lg:max-w-screen-lg">
+            <div className="container m-auto flex items-center justify-between flex-wrap px-2 sm:px-4 lg:max-w-screen-lg">
                 <Link href="/">
                     <div className="flex items-center">
                         <Image src="/profile.jpg" alt="logo" className="rounded-full w-12" width="48" height="48" />
@@ -17,7 +17,7 @@ export default ({ children, className = '' }) => (
 
                 <nav className="grid grid-flow-col gap-4 items-center">
                     <Link href="/" className="hover:underline hidden md:block">Accueil</Link>
-                    <Link href="/articles" className="hover:underline hidden md:block">Articles</Link>
+                    <Link href="/articles" className="hover:underline md:block">Articles</Link>
                     <Link href="/newsletter" passHref>
                         <button type="button" className="bg-cyan-700 text-white hover:text-white hover:bg-cyan-800 px-2.5 py-1.5 rounded-md cursor-pointer">S'abonner</button>
                     </Link>
