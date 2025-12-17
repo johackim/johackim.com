@@ -8,7 +8,7 @@
   "devDependencies": {
     "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
-    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -17,13 +17,13 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "mdx-mermaid": "^2.0.3",
-    "next": "^16.0.7",
+    "next": "^16.0.10",
     "next-mdx-remote": "^5.0.0",
     "next-seo": "^6.8.0",
     "postcss": "^8.5.6",
-    "posthog-js": "^1.301.1",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
+    "posthog-js": "^1.309.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "rehype-raw": "^7.0.0",
     "remark-comment": "^1.0.0",
     "remark-emoji": "^5.0.2",
@@ -33,7 +33,7 @@
     "rss": "^1.2.2",
     "sharp": "^0.34.5",
     "slugify": "^1.6.6",
-    "tailwindcss": "^4.1.17",
+    "tailwindcss": "^4.1.18",
     "validator": "^13.15.23"
   }
 }
