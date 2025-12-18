@@ -1,8 +1,6 @@
 import '../styles/globals.css';
-import posthog from 'posthog-js/dist/module.no-external';
-import { useEffect } from 'react';
+import Script from 'next/script';
 import { DefaultSeo } from 'next-seo';
-import { useRouter } from 'next/router';
 import { Roboto } from 'next/font/google';
 
 const roboto = Roboto({
@@ -11,49 +9,37 @@ const roboto = Roboto({
     subsets: ['latin'],
 });
 
-export default ({ Component, pageProps }) => {
-    const router = useRouter();
-
-    useEffect(() => {
-        posthog.init('kDBqvv-5vPNiTDaYA9jSfKRC-5KhDWqhRQYAc4g3Dp8', {
-            api_host: 'https://ph.johackim.com',
-        });
-
-        const handleRouteChange = () => posthog.capture('$pageview');
-        router.events.on('routeChangeComplete', handleRouteChange);
-
-        return () => {
-            router.events.off('routeChangeComplete', handleRouteChange);
-        };
-    }, []);
-
-    return (
-        <>
-            <DefaultSeo
-                defaultTitle="Johackim - Hacker indépendant"
-                titleTemplate="%s | Johackim - Hacker indépendant"
-                description="Créateur indépendant de projets open-source"
-                openGraph={{
-                    url: 'https://johackim.com',
-                    locale: 'fr_FR',
-                    site_name: 'johackim',
-                    type: 'website',
-                }}
-                twitter={{
-                    handle: '@_johackim',
-                    site: '@_johackim',
-                    cardType: 'summary_large_image',
-                }}
-            />
-            {/* eslint-disable react/no-unknown-property */}
-            <style jsx global>
-                {`
+export default ({ Component, pageProps }) => (
+    <>
+        <Script
+            defer
+            src="https://u.johackim.com/script.js"
+            data-website-id="56bfd1d7-6234-47bd-96f7-44d966bb0ca4"
+        />
+        <DefaultSeo
+            defaultTitle="Johackim - Hacker indépendant"
+            titleTemplate="%s | Johackim - Hacker indépendant"
+            description="Créateur indépendant de projets open-source"
+            openGraph={{
+                url: 'https://johackim.com',
+                locale: 'fr_FR',
+                site_name: 'johackim',
+                type: 'website',
+            }}
+            twitter={{
+                handle: '@_johackim',
+                site: '@_johackim',
+                cardType: 'summary_large_image',
+            }}
+        />
+        {/* eslint-disable react/no-unknown-property */}
+        <style jsx global>
+            {`
                     html {
                         font-family: ${roboto.style.fontFamily};
                     }
                 `}
-            </style>
-            <Component {...pageProps} />
-        </>
-    );
-};
+        </style>
+        <Component {...pageProps} />
+    </>
+);

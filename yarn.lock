@@ -440,13 +440,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@posthog/core@1.8.1":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@posthog/core/-/core-1.8.1.tgz#590327b0878f2148d9327a962301b0b54ffea796"
-  integrity sha512-jfzBtQIk9auRi/biO+G/gumK5KxqsD5wOr7XpYMROE/I3pazjP4zIziinp21iQuIQJMXrDvwt9Af3njgOGwtew==
-  dependencies:
-    cross-spawn "^7.0.6"
-
 "@puppeteer/browsers@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@puppeteer/browsers/-/browsers-2.3.0.tgz#791ea7d80450fea24eb19fb1d70c367ad4e08cae"
@@ -1182,11 +1175,6 @@ confusing-browser-globals@^1.0.10:
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
-core-js@^3.38.1:
-  version "3.46.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.46.0.tgz#323a092b96381a9184d0cd49ee9083b2f93373bb"
-  integrity sha512-vDMm9B0xnqqZ8uSBpZ8sNtRtOdmfShrvT6h2TuQGLs0Is+cR0DYbj/KWP6ALVNbWPpqA/qPLoOuppJN07humpA==
-
 cosmiconfig@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-9.0.0.tgz#34c3fc58287b915f3ae905ab6dc3de258b55ad9d"
@@ -1197,7 +1185,7 @@ cosmiconfig@^9.0.0:
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
 
-cross-spawn@^7.0.2, cross-spawn@^7.0.6:
+cross-spawn@^7.0.2:
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.6.tgz#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
   integrity sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==
@@ -1925,11 +1913,6 @@ fd-slicer@~1.1.0:
   integrity sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==
   dependencies:
     pend "~1.2.0"
-
-fflate@^0.4.8:
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/fflate/-/fflate-0.4.8.tgz#f90b82aefbd8ac174213abb338bd7ef848f0f5ae"
-  integrity sha512-FJqqoDBR00Mdj9ppamLa/Y7vxm+PRmNWA67N846RvsoYVMKB4q3y/de5PA7gUmRMYK/8CMz2GDZQmCRN1wBcWA==
 
 file-entry-cache@^6.0.1:
   version "6.0.1"
@@ -4187,22 +4170,6 @@ postcss@^8.4.41, postcss@^8.5.6:
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-posthog-js@^1.309.1:
-  version "1.309.1"
-  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.309.1.tgz#5baecb2b706e7a397382ee4b3b944446502d51e5"
-  integrity sha512-JUJcQhYzNNKO0cgnSbowCsVi2RTu75XGZ2EmnTQti4tMGRCTOv/HCnZasdFniBGZ0rLugQkaScYca/84Ta2u5Q==
-  dependencies:
-    "@posthog/core" "1.8.1"
-    core-js "^3.38.1"
-    fflate "^0.4.8"
-    preact "^10.19.3"
-    web-vitals "^4.2.4"
-
-preact@^10.19.3:
-  version "10.27.2"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.27.2.tgz#19b9009c1be801a76a0aaf0fe5ba665985a09312"
-  integrity sha512-5SYSgFKSyhCbk6SrXyMpqjb5+MQBgfvEKE/OC+PujcY34sOpqtr+0AZQtPYx5IA6VxynQ7rUPCtKzyovpj9Bpg==
-
 prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
@@ -5292,11 +5259,6 @@ web-namespaces@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-2.0.1.tgz#1010ff7c650eccb2592cebeeaf9a1b253fd40692"
   integrity sha512-bKr1DkiNa2krS7qxNtdrtHAmzuYGFQLiQ13TsorsdT6ULTkPLKuu5+GsFpDlg6JFjUTwX2DyhMPG2be8uPrqsQ==
-
-web-vitals@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-4.2.4.tgz#1d20bc8590a37769bd0902b289550936069184b7"
-  integrity sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==
 
 which-boxed-primitive@^1.1.0, which-boxed-primitive@^1.1.1:
   version "1.1.1"

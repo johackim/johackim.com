@@ -21,7 +21,6 @@
     "next-mdx-remote": "^5.0.0",
     "next-seo": "^6.8.0",
     "postcss": "^8.5.6",
-    "posthog-js": "^1.309.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "rehype-raw": "^7.0.0",
