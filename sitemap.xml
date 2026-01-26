@@ -7,6 +7,18 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://johackim.com/shred</loc>
+        <lastmod>2025-12-15T10:19:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/crowdsec</loc>
+        <lastmod>2025-12-13T10:00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://johackim.com/est-ce-que-notre-telephone-nous-ecoute</loc>
         <lastmod>2025-12-03T20:34:44</lastmod>
         <changefreq>daily</changefreq>
@@ -253,12 +265,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/crowdsec</loc>
-        <lastmod>2024-05-30T10:00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/etcher</loc>
         <lastmod>2024-05-27T10:00:00</lastmod>
         <changefreq>daily</changefreq>
@@ -363,12 +369,6 @@
     <url>
         <loc>https://johackim.com/biais-auto-complaisance</loc>
         <lastmod>2024-05-13T17:00:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/shred</loc>
-        <lastmod>2024-05-13T10:19:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -1369,12 +1369,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/gerer-les-workspaces-avec-terraform</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/gerer-un-stockage-zapier-avec-curl</loc>
         <lastmod>2021-06-07T20:36</lastmod>
         <changefreq>daily</changefreq>
@@ -1471,12 +1465,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/detruire-l'infrastructure</loc>
-        <lastmod>2021-05-30T19:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/contourner-la-protection-cloudflare</loc>
         <lastmod>2021-05-30T19:50</lastmod>
         <changefreq>daily</changefreq>
@@ -1484,12 +1472,6 @@
     </url>
     <url>
         <loc>https://johackim.com/initialiser-terraform</loc>
-        <lastmod>2021-05-30T19:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/mettre-a-jour-l'infrastructure</loc>
         <lastmod>2021-05-30T19:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1567,6 +1549,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</loc>
+        <lastmod>2021-05-17T17:32</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://johackim.com/initialiser-un-cluster-docker-swarm</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
@@ -1574,18 +1562,6 @@
     </url>
     <url>
         <loc>https://johackim.com/installer-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/installer-terraform</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>

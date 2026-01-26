@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 30 Dec 2025 17:06:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 00:18:06 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -26,7 +26,7 @@
 <h2>Est-ce techniquement possible ?</h2>
 <p>Techniquement, espionner les conversations de millions de personnes 24h/24 reviendrait à <strong>envoyer, stocker, transcrire, analyser et filtrer des quantités astronomiques de données</strong>.</p>
 <p>À titre d&#x27;exemple, un enregistrement audio de 1 minute représente environ entre 10 et 100 ko de données.</p>
-<p>Pour 1 million de personnes, cela représenterait 100 Go de données par minute, soit 144 To par jour.</p>
+<p>Pour &quot;seulement&quot; 1 million de personnes, cela représenterait 100 Go de données par minute, soit 144 To par jour.</p>
 <p>Il faudrait investir dans d&#x27;énormes espaces de stockage et des serveurs avec une très grande puissance de calcul.</p>
 <p>Le coût financier serait bien supérieur à la rentabilité des informations collectées.</p>
 <p>Et même si la transcription était réalisée localement sur le téléphone, cela impacterait considérablement la batterie et les performances du téléphone.</p>
@@ -962,85 +962,277 @@ sudo apt install -y crowdsec
 </code></pre>
 <p>Pour les autres systèmes, <a href="https://doc.crowdsec.net/docs/getting_started/install_crowdsec/">voir la documentation</a>.</p>
 <h2>Désinstallation</h2>
+<p>Pour le désinstaller :</p>
 <pre><code class="language-bash">sudo apt purge -y crowdsec crowdsec-firewall-bouncer-iptables
 sudo apt autoremove -y
-sudo rm -rf /usr/share/crowdsec/
+sudo rm -rf /usr/share/crowdsec/ /etc/crowdsec/
 </code></pre>
-<h2>Utilisation classique</h2>
-<p>CrowdSec a plusieurs composants :</p>
-<ul>
-<li><strong>Parser</strong> : Analyse les logs pour les transformer en événements.</li>
-<li><strong>Scenario</strong> : Analyse les événements pour les transformer en décisions.</li>
-<li><strong>Decision</strong> : Action à effectuer suite à un événement.</li>
-<li><strong>Bouncer</strong> : Outil pour appliquer les décisions.</li>
-<li><strong>Collection</strong> : Ensemble de parsers, scenarios et bouncers.</li>
-</ul>
-<p>Pour démarrer CrowdSec, il faut lancer le service :</p>
-<pre><code class="language-bash">sudo systemctl start crowdsec
+<h2>Initialisation</h2>
+<p>Pour démarrer CrowdSec, il faut démarrer le service :</p>
+<pre><code class="language-bash">sudo systemctl enable --now crowdsec
 </code></pre>
-<p>Pour bloquer les adresses IP, il faut installer le bouncer iptables (ou nftables) :</p>
+<p>Par défaut, crowdsec ne fait que lire les logs et afficher des <em>alertes</em>.</p>
+<p>Pour réellement bloquer les adresses IP suite à une <em>décision</em>, il faut installer le <em>bouncer</em> iptables :</p>
 <pre><code class="language-bash">apt install -y crowdsec-firewall-bouncer-iptables # Ubuntu/Debian
-# ou
+# Ou
 yay -S --noconfirm crowdsec-firewall-bouncer-iptables # Arch Linux
 
 # Démarrer le service
-sudo systemctl start crowdsec-firewall-bouncer
+sudo systemctl enable --now crowdsec-firewall-bouncer
 </code></pre>
-<p>Pour bannir une adresse IP :</p>
+<h2>Bannir une adresse IP</h2>
+<p>Pour bannir une adresse IP, voici la commande :</p>
 <pre><code class="language-bash">cscli decisions add -t ban -i &lt;IP&gt;
 </code></pre>
-<p>Il n&#x27;est pas possible de bannir une IP définitivement, mais vous pouvez mettre une durée de +100ans avec le paramètre <code>-d 999999h</code> 😅.</p>
-<p>Pour inspecter une attaque :</p>
+<p>Ou une plage d&#x27;adresse IPs :</p>
+<pre><code class="language-bash">cscli decisions add -t ban -r &lt;CIDR&gt;
+</code></pre>
+<p>Il n&#x27;est pas possible de bannir une IP définitivement, mais vous pouvez utiliser le paramètre <code>-d 999999h</code> pour mettre une durée de +100ans.</p>
+<h2>Lister les alertes</h2>
+<p>Vous pouvez lister les attaques détectées par CrowdSec :</p>
+<pre><code class="language-bash">cscli alerts list
+</code></pre>
+<p>Et les inspecter plus en détail :</p>
 <pre><code class="language-bash">cscli alerts inspect -d &lt;id&gt;
 </code></pre>
+<h2>Console de CrowdSec</h2>
 <p>Et si vous souhaitez relier votre serveur à la Console de CrowdSec (facultatif) :</p>
 <ul>
 <li>Inscrivez-vous gratuitement sur <a href="https://app.crowdsec.net/signup">https://app.crowdsec.net/signup</a></li>
-<li>Exécuter la commande <code>cscli console enroll &lt;key&gt;</code> (la clé est affiché sur <a href="https://app.crowdsec.net/security-engines">https://app.crowdsec.net/security-engines</a>)</li>
+<li>Exécuter la commande <code>cscli console enroll &lt;key&gt;</code> (la clé est affichée sur <a href="https://app.crowdsec.net/security-engines">https://app.crowdsec.net/security-engines</a>)</li>
 </ul>
 <p>Cela vous permettra d&#x27;ajouter des blocklists facilement.</p>
-<p>Autrement, vous pouvez toujours exécuter une commande comme celle-ci :</p>
-<pre><code class="language-bash"># https://github.com/firehol/blocklist-ipsets/
-while read -r ip; do cscli decisions add -t ban -i $ip; done &lt; blocklist.txt
+<h2>Ajouter une blocklist manuellement</h2>
+<p>Le plus simple pour ajouter une blocklist, c&#x27;est de passer par la [[#Console de CrowdSec|console]].</p>
+<p>Mais il est possible d&#x27;importer manuellement une blocklist (ex: <a href="https://github.com/firehol/blocklist-ipsets/">https://github.com/firehol/blocklist-ipsets/</a>) :</p>
+<pre><code class="language-bash">for ip in $(cat blocklist.txt); do cscli decisions add -t ban -i &quot;$ip&quot;; done
 </code></pre>
+<h2>Ajouter une whitelist manuellement</h2>
 <p>Et si vous souhaitez whitelister des IPs (ex: <a href="https://api.github.com/meta">les IPs de Github</a>), éditez le fichier <code>/etc/crowdsec/parsers/s02-enrich/whitelists.yaml</code> et relancez le service crowdsec.</p>
+<p>Vous pouvez aussi créer un fichier <code>/etc/crowdsec/parsers/s02-enrich/custom-whitelist.yaml</code>.</p>
+<p>Exemple :</p>
+<pre><code class="language-yml">name: custom/zammad-whitelist
+description: &quot;Whitelist traffic&quot;
+whitelist:
+  reason: &quot;Legitimate traffic&quot;
+  expression:
+    - evt.Line.Raw contains &#x27;zammad&#x27;
+</code></pre>
+<p>Pour vérifiez que votre whitelist est bien pris en compte, vous pouvez exécuter un <code>cscli metrics | grep whitelist</code>.</p>
+<p>Créez le fichier <code>/etc/crowdsec/postoverflows/s01-whitelist/custom-whitelist.yaml</code> si vous souhaitez l&#x27;appliquer uniquement pour un scenario spécifique :</p>
+<pre><code class="language-yml">name: custom/zammad-whitelist
+description: &quot;Whitelist traffic&quot;
+filter: &quot;evt.Overflow.Alert.Scenario == &#x27;custom/http-crawl-non_statics&#x27;&quot;
+whitelist:
+  reason: &quot;Legitimate traffic&quot;
+  expression:
+    - evt.Line.Raw contains &#x27;zammad&#x27;
+</code></pre>
+<p>Vous pouvez vérifier que votre postoverflow existe bien avec <code>cscli postoverflows list</code>.</p>
+<h2>Voir l&#x27;état de CrowdSec</h2>
 <p>Pour avoir un visuel de l&#x27;état de crowdsec :</p>
 <pre><code class="language-bash">cscli metrics
 </code></pre>
-<p>Si vous rencontrez un faux positif, vous pouvez identifier la raison du bannissement avec <code>cscli alerts inspect -d &lt;id&gt;</code> et désactiver le ban avec <code>cscli decisions remove --id &lt;id&gt;</code> ou le scénario en question avec <code>cscli scenarios remove &lt;scenario&gt;</code>.</p>
-<p>Exemples :</p>
-<pre><code class="language-bash">cscli scenarios remove --force crowdsecurity/http-probing
-cscli scenarios remove --force crowdsecurity/http-crawl-non_statics
+<h2>Supprimer les faux positifs</h2>
+<p>Si vous rencontrez un faux positif, vous pouvez modifier les seuils de tolérance :</p>
+<ol>
+<li>Identifier la raison du bannissement avec <code>cscli alerts inspect -d &lt;id&gt;</code></li>
+<li>Ajuster le <code>leakspeed</code> (vitesse d&#x27;oubli des erreurs), <code>capacity</code> (nombre d&#x27;erreurs avant ban) ou <code>filter</code> du scenario</li>
+<li>(facultatif) Ou supprimer le scenario en question via <code>cscli decisions remove --scenario &lt;scenario&gt;</code></li>
+<li>Puis redémarrez avec <code>systemctl restart crowdsec</code> ou <code>kill -1 1</code> (si docker)</li>
+<li>Désactiver le ban manuellement avec <code>cscli decisions remove --id &lt;id&gt;</code></li>
+</ol>
+<p>Par exemple, j&#x27;ai supprimé le lien symbolique <code>/etc/crowdsec/scenarios/http-generic-bf.yaml</code> et j&#x27;ai créer un nouveau fichier <code>/etc/crowdsec/scenarios/http-generic-bf-custom.yaml</code> avec les valeurs suivantes :</p>
+<pre><code class="language-diff">--- /etc/crowdsec/hub/scenarios/crowdsecurity/http-generic-bf.yaml
++++ /etc/crowdsec/scenarios/http-generic-bf-custom.yaml
+@@ -21,12 +21,12 @@
+ # Generic 401 Authorization Errors
+ type: leaky
+ #debug: true
+-name: LePresidente/http-generic-401-bf
++name: custom/http-generic-401-bf
+ description: &quot;Detect generic 401 Authorization error brute force&quot;
+ filter: &quot;evt.Meta.log_type == &#x27;http_access-log&#x27; &amp;&amp; evt.Parsed.verb == &#x27;POST&#x27; &amp;&amp; evt.Meta.http_status == &#x27;401&#x27;&quot;
+ groupby: evt.Meta.source_ip
+-capacity: 5
+-leakspeed: &quot;10s&quot;
++capacity: 10
++leakspeed: &quot;5s&quot;
+ blackhole: 1m
+ labels:
+   confidence: 3
+@@ -41,12 +41,12 @@
+ # Generic 403 Forbidden (Authorization) Errors
+ type: leaky
+ #debug: true
+-name: LePresidente/http-generic-403-bf
++name: custom/http-generic-403-bf
+ description: &quot;Detect generic 403 Forbidden (Authorization) error brute force&quot;
+ filter: &quot;evt.Meta.log_type == &#x27;http_access-log&#x27; &amp;&amp; evt.Parsed.verb == &#x27;POST&#x27; &amp;&amp; evt.Meta.http_status == &#x27;403&#x27;&quot;
+ groupby: evt.Meta.source_ip
+-capacity: 5
+-leakspeed: &quot;10s&quot;
++capacity: 10
++leakspeed: &quot;5s&quot;
+ blackhole: 1m
+ labels:
+   confidence: 3
 </code></pre>
-<h2>Tester la sécurité</h2>
-<p>Effectuez 10 connexions ssh échoués d&#x27;affilé :</p>
+<p>Pareil pour le scenario <code>http-crawl-non_statics</code> :</p>
+<pre><code class="language-diff">--- /etc/crowdsec/hub/scenarios/crowdsecurity/http-crawl-non_statics.yaml
++++ /etc/crowdsec/scenarios/http-crawl-non_statics-custom.yaml
+@@ -1,10 +1,10 @@
+ type: leaky
+-name: crowdsecurity/http-crawl-non_statics
++name: custom/http-crawl-non_statics
+ description: &quot;Detect aggressive crawl on non static resources&quot;
+ filter: &quot;evt.Meta.log_type in [&#x27;http_access-log&#x27;, &#x27;http_error-log&#x27;] &amp;&amp; evt.Parsed.static_ressource == &#x27;false&#x27; &amp;&amp; evt.Parsed.verb in [&#x27;GET&#x27;, &#x27;HEAD&#x27;]&quot;
+ distinct: &quot;evt.Parsed.file_name&quot;
+-leakspeed: 0.5s
+-capacity: 40
++leakspeed: 0.2s
++capacity: 100
+ #debug: true
+ #this limits the memory cache (and event_sequences in output) to five events
+ cache_size: 5
+</code></pre>
+<p>Vos nouveaux scenarios devraient apparaitre dans le retour de la commande suivante :</p>
+<pre><code class="language-bash">cscli metrics | grep custom
+</code></pre>
+<h2>Création d&#x27;un scenario personnalisé</h2>
+<p>Créer un fichier (ex: <code>http-socketio-flood.yaml</code>) dans le dossier <code>/etc/crowdsec/scenarios/</code> avec le contenu suivant :</p>
+<pre><code class="language-yaml">type: leaky
+name: custom/socketio-flood
+description: &quot;Detect Socket.IO polling flood&quot;
+filter: &quot;evt.Meta.log_type in [&#x27;http_access-log&#x27;, &#x27;http_request&#x27;] &amp;&amp; evt.Parsed.request contains &#x27;/socket.io/&#x27;&quot;
+groupby: &quot;evt.Meta.source_ip&quot;
+capacity: 40
+leakspeed: &quot;1s&quot;
+blackhole: 1m
+labels:
+ service: http
+ type: dos
+ remediation: true
+</code></pre>
+<p>Ne pas éditer les fichiers dans le dossier <code>/etc/crowdsec/hub/scenarios/crowdsecurity/</code> car chaque modification peut être écraser par un simple <code>cscli hub update</code>.</p>
+<h2>Tester la sécurité de son serveur</h2>
+<p>Pour vérifier si votre configuration de crowdsec fonctionne correctement vous pouvez simuler des attaques.</p>
+<p>Par exemple, simuler des tentatives de connexion SSH échouées :</p>
 <pre><code class="language-bash">for i in {1..10}; do ssh fakeuser@&lt;IP_ADDRESS&gt;; done
 </code></pre>
+<p>Ou pour tester la sécurité de votre serveur HTTP(S) :</p>
+<pre><code class="language-bash">for i in {1..50}; do curl -s &quot;https://example.com/non-existent-page-$i&quot;; done
+# Ou
+nikto -host https://example.com
+</code></pre>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Effectuer ce test via une autre adresse IP (ex: via un VPN) pour éviter d&#x27;être bloqué 😅.</p>
+                    </div>
+                </blockquote>
 <p>Puis vérifiez les décisions de crowdec :</p>
 <pre><code class="language-bash">sudo cscli decisions list
 </code></pre>
+<p>Si une décision apparait, vous ne devriez plus avoir accès au serveur SSH ou HTTP(S) pendant plusieurs heures.</p>
 <h2>Utilisation avec Traefik</h2>
-<p>Pour utiliser CrowdSec avec Traefik, j&#x27;utilise ces 2 stacks docker :</p>
+<p>Pour utiliser CrowdSec avec Traefik et Docker Swarm, j&#x27;utilise ces 2 stacks docker :</p>
 <ul>
 <li><a href="https://github.com/ethibox/awesome-stacks/blob/master/stacks/traefik-crowdsec.yml">Traefik</a></li>
 <li><a href="https://github.com/ethibox/awesome-stacks/blob/master/stacks/crowdsec.yml">Crowdsec</a></li>
 </ul>
-<p>Une fois installé, j&#x27;ajoute la configuration suivante dans le fichier <code>/etc/crowdsec/acquis.yaml</code> à l&#x27;intérieur du conteneur Crowdsec :</p>
+<p>Installation de traefik :</p>
+<pre><code class="language-bash">ACCESSLOG=true MIDDLEWARES=crowdsec-bouncer@file ACME_EMAIL=noreply@example.com docker stack deploy -c &lt;(curl -so - https://raw.githubusercontent.com/ethibox/awesome-stacks/master/stacks/traefik.yml) traefik
+</code></pre>
+<p>Installation de crowdsec :</p>
+<pre><code class="language-bash">docker stack deploy -c stacks/crowdsec.yml crowdsec
+</code></pre>
+<p>Une fois installé, j&#x27;ajoute la configuration suivante dans le fichier <code>/etc/crowdsec/acquis.d/traefik.yaml</code> à l&#x27;intérieur du conteneur Crowdsec :</p>
 <pre><code class="language-txt">filenames:
   - /var/log/traefik/access.log
 labels:
   type: traefik
 </code></pre>
-<p>Ensuite, je rentre la commande suivante à l&#x27;intérieur du conteneur CrowdSec :</p>
-<pre><code class="language-bash">cscli bouncers add traefik-bouncer
+<p>J&#x27;ajoute un fichier <code>dynamic.yml</code> avec le contenu suivant :</p>
+<pre><code class="language-bash">http:
+  middlewares:
+    crowdsec-bouncer:
+      forwardAuth:
+        address: http://crowdsec_bouncer:8080/api/v1/forwardAuth
+        trustForwardHeader: true
 </code></pre>
+<p>Ensuite, je rentre la commande suivante à l&#x27;intérieur du conteneur CrowdSec :</p>
+<pre><code class="language-bash">docker exec -it $(docker ps -qf name=crowdsec_crowdsec) cscli bouncers add traefik-bouncer
+</code></pre>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Il est possible de devoir exécuter cscli bouncers delete traefik-bouncer avant pour pouvoir récupérer la clé.</p>
+                    </div>
+                </blockquote>
 <p>Et je redémarre la stack docker avec la variable d&#x27;environnement <code>CROWDSEC_BOUNCER_API_KEY</code> qui contient la clé d&#x27;api qui s&#x27;affiche en sortie de la commande précédente.</p>
 <p>Chaque service relié à Traefik sera protégé par CrowdSec.</p>
 <p>Si vous exécutez une commande comme <code>dirsearch -u https://example.com</code> sur un de vos sites internet, votre IP sera automatiquement banni pendant 4h.</p>
+<p>J&#x27;ai quelques erreur au démarrage de traefik :</p>
+<pre><code class="language-txt">ERR Error calling http://crowdsec_bouncer:8080/api/v1/forwardAuth error=&quot;Get \&quot;http://crowdsec_bouncer:8080/api/v1/forwardAuth\&quot;: context canceled&quot; middlewareName=crowdsec-bouncer@file middlewareType=ForwardAuth
+</code></pre>
+<p>Mais cela n&#x27;empêche un bon fonctionnement. Cela semble être des faux positifs.</p>
+<p>Je vous conseille d&#x27;ajouter une tâche cron avec <a href="/logrotate" title="logrotate" class="not-found">logrotate</a> pour limiter la taille des fichiers de log afin d&#x27;éviter de saturer votre stockage :</p>
+
+<pre><code class="language-bash">@daily logrotate -f /etc/logrotate.d/traefik
+</code></pre>
+<p>Avec la configuration suivante dans le fichier <code>/etc/logrotate.d/traefik</code> :</p>
+<pre><code class="language-txt">/var/log/traefik/access.log {
+    rotate 14
+    missingok
+    notifempty
+    create 644 root root
+    postrotate
+        docker ps -qf name=traefik_traefik | xargs -r docker kill --signal=&quot;USR1&quot;
+        docker ps -qf name=crowdsec_crowdsec | xargs -r docker kill --signal=&quot;HUP&quot;
+    endscript
+}
+</code></pre>
+<p>Et pour éviter d&#x27;utiliser la collection <code>crowdsecurity/sshd</code>, vu que cela concerne uniquement traefik, je supprime la collection via la commande suivante :</p>
+<pre><code class="language-bash">cscli collections remove --force crowdsecurity/sshd
+</code></pre>
+<h2>Tester la configuration crowdsec</h2>
+<p>Pour éviter d&#x27;avoir le service crowdsec qui plante lors du changement, vous pouvez tester votre configuration avant :</p>
+<pre><code class="language-bash">crowdsec -c /etc/crowdsec/config.yaml -t
+</code></pre>
+<h2>Installer une nouvelle collection</h2>
+<p>Si vous avez des bruteforce sur des application spécifique (ex: wordpress), vous pouvez installer des collections :</p>
+<pre><code class="language-bash">cscli collections install crowdsecurity/wordpress
+# Ou juste un scenario :
+cscli scenarios install crowdsecurity/http-bf-wordpress_bf_xmlrpc
+# Ou une liste blanche :
+cscli parsers install crowdsecurity/nextcloud-whitelist
+</code></pre>
+<p>Possibilité de chercher des collections ou des scenario depuis les pages suivantes :</p>
+<ul>
+<li><a href="https://app.crowdsec.net/hub/collections">https://app.crowdsec.net/hub/collections</a></li>
+<li><a href="https://app.crowdsec.net/hub/scenarios">https://app.crowdsec.net/hub/scenarios</a></li>
+</ul>
+<h2>Débloquer une IP</h2>
+<pre><code class="language-bash">cscli alert list --ip &lt;ip&gt;
+cscli alert inspect &lt;id&gt;
+cat /var/log/traefik/access.log | grep &lt;ip&gt;
+</code></pre>
 <hr/>
 <p>Références :</p>
 <ul>
 <li><a href="https://youtu.be/5K7Aj5ya7uI">Korben - Découverte et installation de Crowdsec</a></li>
+<li><a href="https://docs.crowdsec.net/">https://docs.crowdsec.net/</a></li>
 <li><a href="https://crowdsec.net/blog/enhance-docker-compose-security">https://crowdsec.net/blog/enhance-docker-compose-security</a></li>
 <li><a href="https://blog.levassb.ovh/post/crowdsec/">https://blog.levassb.ovh/post/crowdsec/</a></li>
 <li><a href="https://github.com/crowdsecurity/hub/blob/master/collections/crowdsecurity/traefik.yaml">https://github.com/crowdsecurity/hub/blob/master/collections/crowdsecurity/traefik.yaml</a></li>
@@ -1048,6 +1240,7 @@ labels:
 <li><a href="https://github.com/fbonalair/traefik-crowdsec-bouncer">https://github.com/fbonalair/traefik-crowdsec-bouncer</a></li>
 <li><a href="https://app.crowdsec.net/hub/author/crowdsecurity/collections/traefik">https://app.crowdsec.net/hub/author/crowdsecurity/collections/traefik</a></li>
 <li><a href="https://blog.stephane-robert.info/docs/securiser/reseaux/crowdsec/">https://blog.stephane-robert.info/docs/securiser/reseaux/crowdsec/</a></li>
+<li><a href="https://it-connect.fr/reverse-proxy-traefik-integration-de-crowdsec-pour-bloquer-les-attaques/">https://it-connect.fr/reverse-proxy-traefik-integration-de-crowdsec-pour-bloquer-les-attaques/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3072,6 +3265,8 @@ max-cache-ttl 0
 <p>Pour récupérer une clé publique complète, exécutez la commande suivante :</p>
 <pre><code class="language-bash">gpg --armor --export &lt;KEY_ID&gt;
 </code></pre>
+<p>Le <code>KEY_ID</code> correspond à la valeur après <code>sec/</code> via la ligne de commande <code>gpg --list-secret-keys --keyid-format LONG</code>.</p>
+<p>Cette clé peut être envoyer sur Github ou Gitlab pour vérifier les commits par exemple.</p>
 <h2>Changer la date d&#x27;expiration d&#x27;une clé</h2>
 <p>Si vous voulez modifier la date d&#x27;expiration d&#x27;un clé GPG, exécutez la commande suivante :</p>
 <pre><code class="language-bash">gpg --edit-key &lt;KEY&gt;
@@ -3973,7 +4168,7 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
 <hr/>
 <p>Références :</p>
 <ul>
-<li><a href="https://github.com/kaylh/RetroBat">https://github.com/kaylh/RetroBat</a></li>
+<li><a href="https://github.com/RetroBat-Official/retrobat-setup">https://github.com/RetroBat-Official/retrobat-setup</a></li>
 <li>
 <a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
 
@@ -4660,6 +4855,10 @@ apt install -y shadowusb
 <li><a href="https://frsbg01.filebrowser.shadow.tech/shadowftp/login">https://frsbg01.filebrowser.shadow.tech/shadowftp/login</a></li>
 <li>
 <a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
+
+</li>
+<li>
+<a href="/cloud-desktop" title="Cloud gaming" class="not-found">Cloud gaming</a>
 
 </li>
 </ul>]]></content:encoded>
@@ -5741,7 +5940,7 @@ parse_firefox_bookmark(bdict)
 <li><a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">AntennaPod</a> (Podcast)</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.goodreads">Goodreads</a> (Livres)</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.readermobile">Readwise Reader</a> (Client RSS)</li>
-<li><a href="https://play.google.com/store/apps/details?id=app.organicmaps">Organic Maps</a> (Navigation)</li>
+<li><strong><a href="https://play.google.com/store/apps/details?id=app.organicmaps">Organic Maps</a> (Navigation)</strong></li>
 <li><a href="https://play.google.com/store/apps/details?id=app.comaps.google">Comaps</a> (Navigation)</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.waze">Waze</a> (Navigation)</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.generalmagic.magicearth">Magic Earth</a> (Navigation)</li>
@@ -5776,9 +5975,60 @@ parse_firefox_bookmark(bdict)
 <li><a href="https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app">https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app</a></li>
 </ul>
 <h2>Launchers</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>App</th><th>Note</th><th>Downloads</th><th>Open-source</th></tr></thead><tbody><tr><td><strong>Niagara</strong></td><td>4.7 (167k)</td><td>10M</td><td></td></tr><tr><td>Lawnchair</td><td>4.2 (37k)</td><td>1M</td><td>✓</td></tr><tr><td>Before Launcher</td><td>4.8 (12.4k)</td><td>500K</td><td></td></tr><tr><td>minimalist phone</td><td>4.2 (45k)</td><td>5M</td><td></td></tr><tr><td>Kvaesitso</td><td></td><td></td><td>✓</td></tr><tr><td>Olauncher</td><td>4.8 (65k)</td><td>1M</td><td>✓</td></tr></tbody></table>
 <ul>
 <li><a href="https://fmhy.net/android-iosguide#app-launchers">https://fmhy.net/android-iosguide#app-launchers</a></li>
 <li><a href="https://github.com/GeorgeClensy/Escape-Launcher">https://github.com/GeorgeClensy/Escape-Launcher</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=bitpit.launcher">https://play.google.com/store/apps/details?id=bitpit.launcher</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.beforesoft.launcher">https://play.google.com/store/apps/details?id=com.beforesoft.launcher</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.qqlabs.minimalistlauncher">https://play.google.com/store/apps/details?id=com.qqlabs.minimalistlauncher</a></li>
 <li><a href="https://grabster.notion.site/6671f3b62d8043c4aaaae22a241e3f05?v=91d9b664887643298f85fe18044d3560">https://grabster.notion.site/6671f3b62d8043c4aaaae22a241e3f05?v=91d9b664887643298f85fe18044d3560</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -6675,7 +6925,8 @@ rm -f unwatermarked.pdf uncompressed.pdf fixed.pdf
 </code></pre>
 <h2>Alternatives à BleachBit</h2>
 <ul>
-<li><a href="https://www.ccleaner.com/">CCleaner</a> (uniquement sur Windows ou MacOS)</li>
+<li><a href="https://pcmanager.microsoft.com/en-us">Microsoft PC Manager</a> (nouveau)</li>
+<li><a href="https://ccleaner.com/">CCleaner</a> (uniquement sur Windows ou MacOS)</li>
 <li><a href="https://github.com/qarmin/czkawka">Czkawka</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -9417,11 +9668,12 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
 <ul>
 <li><a href="https://everlaab.com/objectif-smart/">https://everlaab.com/objectif-smart/</a></li>
 <li><a href="https://braink.it/principles/smart-goals">https://braink.it/principles/smart-goals</a></li>
+<li><a href="https://sketchplanations.com/smart-goals">https://sketchplanations.com/smart-goals</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Shred]]></title>
-            <description><![CDATA[Supprimer définitivement des fichiers sur Linux avec la commande shred.]]></description>
+            <description><![CDATA[Supprimer définitivement des fichiers sur Linux]]></description>
             <link>https://johackim.com/shred?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/shred</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9429,32 +9681,52 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
             <media:content url="https://johackim.com/covers/shred.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/shred.jpg"/>
             <content:encoded><![CDATA[<p>Lorsqu&#x27;un fichier est supprimé, son contenu peut rester dans le système de fichiers, à moins qu&#x27;il ne soit explicitement écrasé par un autre contenu.</p>
-<p>Pour palier à ce problème, il existe shred.</p>
+<p>Pour pallier à ce problème, il existe <a href="https://doc.ubuntu-fr.org/shred">shred</a>.</p>
 <p>Shred est un utilitaire qui permet de supprimer définitivement des fichiers en écrivant des données aléatoires dessus.</p>
 <p>Il est installé par défaut sur la plupart des distributions Linux.</p>
+<h2>Supprimer un fichier</h2>
 <p>Pour supprimer un fichier, il suffit de lancer la commande suivante :</p>
 <pre><code class="language-bash">shred -v -n2 -z -u &lt;file&gt;
 </code></pre>
-<p>Exemple :</p>
-<pre><code class="language-bash">shred -v -n2 -z -u /home/user/secret.txt
+<h2>Supprimer un dossier</h2>
+<p>Shred ne pas pas directement supprimer un dossier, mais combiné avec <code>find</code> cela fonctionne :</p>
+<pre><code class="language-bash">find &lt;folder&gt; -type f -exec shred -v -n2 -z -u {} \;
 </code></pre>
+<h2>Remplir l&#x27;espace libre</h2>
+<p>Après avoir exécuté votre commande shred, remplissez l&#x27;espace vide de votre disque dur :</p>
+<pre><code class="language-bash">dd if=/dev/urandom of=/random bs=1M status=progress; sync; \rm /random;
+# Ou
+wipe -r /dev/sda1
+</code></pre>
+<h2>Supprimer une partition ou un disque</h2>
 <p>Pour supprimer une partition ou un disque, il suffit de lancer la commande suivante :</p>
 <pre><code class="language-bash">shred -v -n2 -z &lt;partition|device&gt;
 </code></pre>
-<p>Exemple :</p>
-<blockquote class="callout attention">
+<blockquote class="callout warning">
                     
                     <div class="callout-content">
-                        <p>La commande suivante est très dangereuse, elle supprimera toutes les données sur le disque. Assurez-vous de bien spécifier le bon disque.</p>
+                        <p>Apparemment, à cause du Wear Leveling, la commande shred semble inefficace sur les SSD.</p>
                     </div>
                 </blockquote>
-<pre><code class="language-bash">shred -v -n2 -z -u /dev/sda
+<p>Détectez si votre disque dur est un SSD ou un HDD avec la commande :</p>
+<pre><code class="language-bash">lsblk -d -o NAME,ROTA,SIZE,MODEL
 </code></pre>
+<p>Vérifiez dans la colonne ROTA :</p>
+<ul>
+<li>1 = Le disque tourne. C&#x27;est un HDD (Disque dur mécanique).</li>
+<li>0 = Le disque ne tourne pas. C&#x27;est un SSD (ou NVMe).</li>
+</ul>
+<p>Si votre disque dur est un SSD, mieux vaut exécuter les commandes suivantes :</p>
+<pre><code class="language-bash">blkdiscard -f &lt;device&gt;
+wipefs -a &lt;device&gt;
+nvme format --ses=1 &lt;device&gt;
+</code></pre>
+<p>Si vous supprimez un serveur, réinstallez l&#x27;OS (Rebuild) avec un système différent (ex: passer de Debian à CentOS).</p>
 <hr/>
 <p>Références :</p>
 <ul>
-<li><a href="https://wiki.archlinux.org/title/Securely_wipe_disk">https://wiki.archlinux.org/title/Securely_wipe_disk</a></li>
-<li><a href="https://doc.ubuntu-fr.org/secure-delete">https://doc.ubuntu-fr.org/secure-delete</a></li>
+<li><a href="https://wiki.archlinux.org/title/Securely_wipe_disk#shred">https://wiki.archlinux.org/title/Securely_wipe_disk#shred</a></li>
+<li><a href="https://github.com/martijnvanbrummelen/nwipe">https://github.com/martijnvanbrummelen/nwipe</a></li>
 <li>
 <a href="/vie-privee" title="Privacy">Privacy</a>
 
@@ -9761,32 +10033,6 @@ console.log(&#x27;Mon code javascript&#x27;);
         }
     ]
 }
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Gérer les workspaces avec Terraform]]></title>
-            <link>https://johackim.com/gerer-les-workspaces-avec-terraform?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/gerer-les-workspaces-avec-terraform</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/gerer-les-workspaces-avec-terraform.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/gerer-les-workspaces-avec-terraform.jpg"/>
-            <content:encoded><![CDATA[<p>Terraform donne la possibilité de gérer facilement des espaces de travail :</p>
-<h2>Créer un workspace</h2>
-<pre><code class="language-bash">terraform workspace new &lt;name&gt;
-</code></pre>
-<p>Vous pouvez par exemple créer 2 espaces de travail <code>dev</code> et <code>prod</code> pour effectuer vos tests sur l&#x27;infructure de <code>dev</code> avant d&#x27;appliquer des changement sur l&#x27;infrastructure de <code>prod</code> :</p>
-<pre><code class="language-bash">terraform workspace new dev
-terraform workspace new prod
-</code></pre>
-<h2>Sélectionner un workspace</h2>
-<pre><code class="language-bash">terraform workspace select &lt;name&gt;
-</code></pre>
-<h2>Supprimer un workspace</h2>
-<pre><code class="language-bash">terraform workspace delete &lt;name&gt;
-</code></pre>
-<h2>Lister les workspaces</h2>
-<pre><code class="language-bash">terraform workspace list
 </code></pre>]]></content:encoded>
         </item>
         <item>
@@ -10136,7 +10382,11 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=1941.html">Il était une fois en Amérique</a></li>
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=271957.html">Martin Eden</a></li>
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=271687.html">Nomadland</a></li>
+<li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=324466.html">Nuremberg</a></li>
 <li>Rainman</li>
+<li>Lamborguini</li>
+<li>Encanto</li>
+<li>LOL 2.0</li>
 </ul>
 <h2>Films que je n&#x27;aime pas</h2>
 <ul>
@@ -10147,6 +10397,9 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <h2>Moteurs de recherche</h2>
 <ul>
 <li><a href="https://tastedive.com/">https://tastedive.com/</a></li>
+<li><a href="https://imdb.com/chart/top/">https://imdb.com/chart/top/</a></li>
+<li><a href="https://imdb.com/chart/moviemeter/">https://imdb.com/chart/moviemeter/</a></li>
+<li><a href="https://allocine.fr/film/meilleurs/">https://allocine.fr/film/meilleurs/</a></li>
 <li><a href="https://flickmetrix.com/movies">https://flickmetrix.com/movies</a></li>
 <li><a href="https://phi-phenomenon.org/rank/">https://phi-phenomenon.org/rank/</a></li>
 <li><a href="https://nothing-to-watch.port80.ch/">https://nothing-to-watch.port80.ch/</a></li>
@@ -10305,16 +10558,27 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li><a href="https://store.steampowered.com/app/636480/Ravenfield/">Ravenfield</a></li>
 <li><a href="https://store.steampowered.com/app/2138720/REMATCH/">Rematch</a></li>
 <li><a href="https://store.steampowered.com/app/3263320/">Carry The Glass</a></li>
-<li><a href="https://store.steampowered.com/app/3527290/PEAK/">PEAK</a></li>
-<li><a href="https://store.steampowered.com/app/1116540/DAVIGO_VR_vs_PC/">DAVIGO: VR vs. PC</a> (VR)</li>
-<li><a href="https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/">Kayak VR: Mirage</a> (VR)</li>
-<li>Goat simulator 3</li>
-<li>Horizon: Call of the Mountain (VR)</li>
-<li>The Climb 2 (VR)</li>
-<li>Job Simulator (VR)</li>
-<li>Kitchen Panic (VR)</li>
-<li>Cooking simulator (VR)</li>
-<li><a href="https://store.steampowered.com/app/433340/Slime_Rancher/">https://store.steampowered.com/app/433340/Slime_Rancher/</a></li>
+<li><a href="https://store.steampowered.com/app/433340/Slime_Rancher/">Slime Rancher</a></li>
+<li><a href="https://store.steampowered.com/app/850190/Goat_Simulator_3/">Goat simulator 3</a></li>
+<li><a href="https://store.steampowered.com/app/275850/No_Mans_Sky/">No Man&#x27;s Sky</a></li>
+<li><strong><a href="https://store.steampowered.com/app/1805110/Solarpunk/">Solarpunk</a></strong></li>
+<li><strong><a href="https://store.steampowered.com/app/3527290/PEAK/">PEAK</a></strong></li>
+<li><strong><a href="https://store.steampowered.com/app/3949040/RV_There_Yet/">RV There Yet?</a></strong></li>
+<li>R.E.P.O.</li>
+<li>Crusader Kings 3</li>
+<li>Zoochosis</li>
+<li>We Were Here</li>
+<li>Mount &amp; Blade II: Bannerlord - War Sails</li>
+</ul>
+<h2>Jeux VR</h2>
+<ul>
+<li><a href="https://store.steampowered.com/app/1116540/DAVIGO_VR_vs_PC/">DAVIGO: VR vs. PC</a></li>
+<li><a href="https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/">Kayak VR: Mirage</a></li>
+<li>Horizon: Call of the Mountain</li>
+<li>The Climb 2</li>
+<li>Job Simulator</li>
+<li>Kitchen Panic</li>
+<li>Cooking simulator</li>
 </ul>
 <h2>Party Games / Couch Gaming</h2>
 <ul>
@@ -10338,7 +10602,7 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li>One-armed cook</li>
 <li>Yet Another Zombie Defense</li>
 <li>Biped</li>
-<li>RV There Yet?</li>
+<li>KIBORG</li>
 </ul>
 <hr/>
 <p>Références :</p>
@@ -10407,6 +10671,9 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <p>Références :</p>
 <ul>
 <li><a href="https://next-episode.net/">https://next-episode.net/</a></li>
+<li><a href="https://imdb.com/chart/toptv/">https://imdb.com/chart/toptv/</a></li>
+<li><a href="https://imdb.com/chart/tvmeter/">https://imdb.com/chart/tvmeter/</a></li>
+<li><a href="https://allocine.fr/series/meilleures/">https://allocine.fr/series/meilleures/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -10510,7 +10777,7 @@ sudo chmod +x /usr/local/bin/rclone
 <pre><code class="language-bash">rclone config # Choisir &quot;crypt&quot; (11) comme type de stockage
 </code></pre>
 <h2>Voir la liste des remotes</h2>
-<pre><code class="language-bash">rclone listremote
+<pre><code class="language-bash">rclone listremotes
 </code></pre>
 <h2>Voir la liste les dossiers/buckets</h2>
 <pre><code class="language-bash">rclone lsd &lt;remote&gt;:
@@ -10580,6 +10847,9 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 </code></pre>
 <h2>Regarder un fichier video distant</h2>
 <pre><code class="language-bash">rclone cat &lt;remote&gt;:/&lt;bucket&gt;/&lt;file.mp4&gt; | mpv -
+</code></pre>
+<h2>Voir les fonctionnalités supporté par un fournisseur</h2>
+<pre><code class="language-bash">rclone backend features &lt;provider&gt;
 </code></pre>]]></content:encoded>
         </item>
         <item>
@@ -11081,18 +11351,6 @@ plugins: [
 <p>Si on exécute la commande <code>docker ps -a</code>, on remarquera l&#x27;apparition de 3 conteneurs ghost.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Détruire l'infrastructure]]></title>
-            <link>https://johackim.com/detruire-l&apos;infrastructure?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/detruire-l&apos;infrastructure</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/detruire-l&apos;infrastructure.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/detruire-l&apos;infrastructure.jpg"/>
-            <content:encoded><![CDATA[<p>Pour détruire une infrastructure géré par Terraform :</p>
-<pre><code class="language-bash">terraform destroy
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Flaresolverr]]></title>
             <link>https://johackim.com/contourner-la-protection-cloudflare?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/contourner-la-protection-cloudflare</guid>
@@ -11273,7 +11531,7 @@ resource &quot;docker_image&quot; &quot;image_id&quot; {
 <p>Il peut être intégré dans des outils de recherche de torrent comme qBittorrent par exemple.</p>
 <h2>Installation</h2>
 <p>Pour l&#x27;installer avec Docker, exécutez la commande suivante :</p>
-<pre><code class="language-bash">docker run -d --name jackett --restart=always --pull always -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 linuxserver/jackett
+<pre><code class="language-bash">docker run -d --name jackett --restart=always --pull always -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
 </code></pre>
 <p>Vous pouvez ensuite vous rendre à l&#x27;adresse <a href="http://localhost:9117/">http://localhost:9117/</a> pour ajouter des Trackers torrent.</p>
 <h2>Utilisation avec Flaresolverr</h2>
@@ -11282,7 +11540,7 @@ resource &quot;docker_image&quot; &quot;image_id&quot; {
 <p>Pour démarrer Flaresolverr avec Jackett, exécutez les commandes suivantes :</p>
 <pre><code class="language-bash">docker network create jackett
 docker run -d --name flaresolverr --restart=always --pull always --network jackett -p 8191:8191 -e LOG_LEVEL=info ghcr.io/flaresolverr/flaresolverr:latest
-docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 linuxserver/jackett
+docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
 </code></pre>
 <p>Et renseignez dans <a href="http://flaresolverr:8191">http://flaresolverr:8191</a> dans le paramètre <code>FlareSolverr API URL</code> sur Jackett.</p>]]></content:encoded>
         </item>
@@ -11347,26 +11605,6 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
 <li><a href="https://github.com/slundi/RatioUp">https://github.com/slundi/RatioUp</a></li>
 <li><a href="https://github.com/ap-pauloafonso/ratio-spoof">https://github.com/ap-pauloafonso/ratio-spoof</a></li>
 <li><a href="https://github.com/NikolayIT/RatioMaster.NET">https://github.com/NikolayIT/RatioMaster.NET</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mettre à jour l'infrastructure]]></title>
-            <link>https://johackim.com/mettre-a-jour-l&apos;infrastructure?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/mettre-a-jour-l&apos;infrastructure</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/mettre-a-jour-l&apos;infrastructure.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/mettre-a-jour-l&apos;infrastructure.jpg"/>
-            <content:encoded><![CDATA[<p>Pour mettre à jour l&#x27;infrastructure :</p>
-<pre><code class="language-bash">terraform apply
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/terraform" title="Terraform">Terraform</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -11498,7 +11736,7 @@ pkg install ffmpeg
 <p>Pour scanner un fichier, un répertoire ou tout le système de fichier :</p>
 <pre><code class="language-bash">clamscan &lt;file&gt;
 clamscan -r -i &lt;folder&gt;
-clamscan -r -i --exclude-dir=&#x27;^/sys|^/dev&#x27; /
+clamscan -r -i --exclude-dir=&#x27;^/sys|^/dev&#x27; --log=/var/log/clamscan.log /
 </code></pre>
 <p>Pour executé ClamAV en tâche de fond vous pouvez exécutez la commande suivante :</p>
 <pre><code class="language-bash">sudo systemctl start clamav-daemon.service
@@ -11762,7 +12000,7 @@ mount -a
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Installer Grafana et Prometheus avec Docker Swarm]]></title>
+            <title><![CDATA[Grafana]]></title>
             <link>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -11770,154 +12008,18 @@ mount -a
             <media:content url="https://johackim.com/covers/installer-grafana-et-prometheus-avec-docker-swarm.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/installer-grafana-et-prometheus-avec-docker-swarm.jpg"/>
             <content:encoded><![CDATA[<p>Pour monitorer une infrastructure, il existe Grafana et Prometheus.</p>
-<p>Prometheus se chargera de collecter les données (CPU, RAM, DISK, etc..) des différents serveurs, et Grafana les affichera sur un dashboard.</p>
-<p>Installer <a href="/docker-swarm" title="Docker Swarm">Docker Swarm</a> et <a href="/traefik" title="Traefik">Traefik</a> puis créez et démarrez la stack Docker <code>monitoring.yml</code> :</p>
-
-<pre><code class="language-yaml"># monitoring.yml
-version: &#x27;3.8&#x27;
-
-services:
-  prometheus:
-    image: prom/prometheus:v2.27.0
-    entrypoint: /bin/sh -c &#x27;/bin/sh -c &quot;$${@}&quot;&#x27;
-    command:
-      - /bin/sh
-      - -c
-      - |
-        chown -R 65534:root /prometheus
-        wget --no-cache -qnc https://raw.githubusercontent.com/johackim/stacks/v2/configs/prometheus.yml -O /etc/prometheus/prometheus.yml
-        prometheus --config.file=/etc/prometheus/prometheus.yml \
-        --storage.tsdb.path=/prometheus \
-        --storage.tsdb.retention.time=7d \
-        --web.console.libraries=/usr/share/prometheus/console_libraries \
-        --web.console.templates=/usr/share/prometheus/consoles \
-        --web.route-prefix=/prometheus \
-        --web.external-url=${SCHEME:-http}://${DOMAIN:-grafana.localhost}/prometheus
-    volumes:
-      - ${VOLUME_PATH}prometheus:/prometheus
-      - ${VOLUME_PATH}config:/etc/prometheus/
-    deploy:
-      labels:
-        - traefik.enable=true
-        - traefik.http.routers.grafana-prom-${NUMBER:-1}.rule=Host(`${DOMAIN:-grafana.localhost}`) &amp;&amp; PathPrefix(`/prometheus/`)
-        - traefik.http.routers.grafana-prom-${NUMBER:-1}.entrypoints=${SCHEME:-http}
-        - traefik.http.routers.grafana-prom-${NUMBER:-1}.service=grafana-prom-${NUMBER:-1}
-        - traefik.http.routers.grafana-prom-${NUMBER:-1}.tls.certresolver=letsencrypt
-        - traefik.http.services.grafana-prom-${NUMBER:-1}.loadbalancer.server.port=9090
-        - traefik.http.routers.grafana-prom-${NUMBER:-1}.middlewares=grafana-prom-${NUMBER:-1}-auth
-        - traefik.http.middlewares.grafana-prom-${NUMBER:-1}-auth.basicauth.users=${PROMETHEUS_USER:-admin}:${PROMETHEUS_PASSWORD:-htpasswd}
-    networks:
-      - internal
-      - traefik
-
-  grafana:
-    image: grafana/grafana:7.5.6
-    user: root
-    environment:
-      - GF_SMTP_ENABLED=true
-      - GF_SMTP_FROM_ADDRESS=${SMTP_FROM:-noreply@example.com}
-      - GF_SMTP_HOST=${SMTP_HOST:-mail.service.host:587}
-      - GF_SMTP_PASSWORD=${SMTP_PASSWORD:-myp@ssw0rd}
-      - GF_SMTP_USER=${SMTP_USERNAME:-noreply@example.com}
-      - GF_SERVER_ROOT_URL=${SCHEME:-http}://${DOMAIN:-grafana.localhost}
-    volumes:
-      - ${VOLUME_PATH}grafana:/var/lib/grafana
-    deploy:
-      labels:
-        - traefik.enable=true
-        - traefik.http.routers.grafana-${NUMBER:-1}.rule=Host(`${DOMAIN:-grafana.localhost}`)
-        - traefik.http.routers.grafana-${NUMBER:-1}.entrypoints=${SCHEME:-http}
-        - traefik.http.routers.grafana-${NUMBER:-1}.service=grafana-${NUMBER:-1}
-        - traefik.http.routers.grafana-${NUMBER:-1}.tls.certresolver=letsencrypt
-        - traefik.http.services.grafana-${NUMBER:-1}.loadbalancer.server.port=3000
-    networks:
-      - internal
-      - traefik
-
-  cadvisor:
-    image: gcr.io/cadvisor/cadvisor:v0.37.5
-    command: -docker_only=true
-    volumes:
-      - /:/rootfs:ro
-      - /var/run:/var/run:rw
-      - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
-    deploy:
-      mode: global
-    networks:
-      - internal
-
-  node-exporter:
-    image: prom/node-exporter:v1.1.2
-    hostname: &quot;{{.Node.Hostname}}&quot;
-    volumes:
-      - /sys:/host/sys:ro
-      - /:/rootfs:ro
-      - /proc:/host/proc:ro
-      - /etc/hostname:/etc/hostname
-      - /mnt:/mnt:ro
-    environment:
-      - NODE_ID={{.Node.ID}}
-    command:
-      - &#x27;--path.sysfs=/host/sys&#x27;
-      - &#x27;--path.procfs=/host/proc&#x27;
-      - &#x27;--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc)($$|/)&#x27;
-      - &#x27;--no-collector.ipvs&#x27;
-    deploy:
-      mode: global
-      resources:
-        limits:
-          memory: 128M
-        reservations:
-          memory: 64M
-    networks:
-      - internal
-
-volumes:
-  config:
-  grafana:
-  prometheus:
-
-networks:
-  internal:
-    driver: overlay
-    attachable: true
-  traefik:
-    external: true
-    name: traefik-net
+<p>Prometheus se chargera de collecter les données (CPU, RAM, DISK, etc..) des serveurs et Grafana les affichera sur un dashboard.</p>
+<h2>Installation</h2>
+<pre><code class="language-bash">DOMAIN=grafana.example.com docker stack deploy -c &lt;(curl -so - https://raw.github.com/ethibox/awesome-stacks/master/stacks/monitoring.yml) monitoring
 </code></pre>
-<p>PS: Si vous souhaitez accéder à Grafana en http plutôt qu&#x27;en https, commentez la ligne <code>traefik.http.routers.grafana.tls.certresolver=letsencrypt</code>.</p>
-<pre><code class="language-bash">docker stack deploy -c monitoring.yml monitoring
-</code></pre>
-<p>Une fois installé vous pouvez vous rendre sur <a href="http://grafana.localhost">http://grafana.localhost</a> avec les identifiants <code>admin:admin</code> et ajoutez prometheus en tant que Data Source.</p>
-<p>Vous pouvez ensuite ajouter un dashboard pour monitorer vos serveurs (Conteneurs, CPU, RAM, stockage, etc...).</p>
-<p>Voici <a href="https://drive.proton.me/urls/Z1YKM1G9ZW#W8MCYJZH33f3">mon Dashboard</a> si vous souhaitez vous en inspirer.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Installer Terraform]]></title>
-            <link>https://johackim.com/installer-terraform?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/installer-terraform</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 17 May 2021 17:32:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/installer-terraform.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/installer-terraform.jpg"/>
-            <content:encoded><![CDATA[<p>Pour installer Terraform, rendez-vous sur <a href="https://terraform.io/downloads.html">la page de téléchargement</a>.</p>
-<p>Téléchargez et installez le fichier adapté à votre système d&#x27;exploitation (Linux, Mac ou Windows).</p>
-<p>Exemple pour linux :</p>
-<pre><code class="language-bash">wget https://releases.hashicorp.com/terraform/0.15.3/terraform_0.15.3_linux_amd64.zip
-unzip terraform_0.15.3_linux_amd64.zip
-sudo mv terraform /usr/local/bin
-</code></pre>
-<pre><code class="language-bash">terraform -version # Terraform v0.15.3
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/terraform" title="Terraform">Terraform</a>
-
-</li>
-</ul>]]></content:encoded>
+<h2>Utilisation</h2>
+<p>Une fois installé vous pouvez vous rendre sur <a href="http://grafana.localhost">http://grafana.localhost</a> avec les identifiants <code>admin:admin</code> et ajoutez prometheus <code>http://prometheus:9090/prometheus</code> en tant que Data Source.</p>
+<p>Vous pouvez ensuite créer un dashboard pour monitorer vos serveurs (Conteneurs, CPU, RAM, stockage, etc...).</p>
+<p>Voici <a href="https://drive.proton.me/urls/Z1YKM1G9ZW#W8MCYJZH33f3">mon Dashboard</a> si vous souhaitez vous en inspirer.</p>
+<p>Il faut modifier tous les uid du fichier json avec celui de votre data source.</p>
+<p>Et pour définir le dashboard en tant que page d&#x27;accueil, il faut l&#x27;ajouter en tant que &quot;Home Dashboard&quot; dans les paramètres de votre profil utilisateur.</p>
+<p>Ajouter des alertes depuis l&#x27;onglet &quot;Alert rules&quot;.</p>
+<p>Pour éviter de recevoir des notifications de manière répétitive, il faut mettre <code>1y</code> l&#x27;option &quot;Repeat Interval&quot; du menu &quot;Notification policies&quot; au lieu de <code>4h</code>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Installer Traefik avec Docker Swarm]]></title>
@@ -11993,7 +12095,7 @@ networks:
 <pre><code class="language-bash">sudo pacman -S restic
 </code></pre>
 <p>Ou manuellement :</p>
-<pre><code class="language-bash">export RESTIC_VERSION=0.16.4
+<pre><code class="language-bash">export RESTIC_VERSION=0.18.1
 wget https://github.com/restic/restic/releases/download/v$RESTIC_VERSION/restic_${RESTIC_VERSION}_linux_amd64.bz2
 bzip2 -d restic_${RESTIC_VERSION}_linux_amd64.bz2
 mv restic_${RESTIC_VERSION}_linux_amd64 /bin/restic
@@ -12011,26 +12113,29 @@ aws_secret_access_key = &lt;AWS_SECRET_ACCESS_KEY&gt;
 <pre><code class="language-bash">restic -r s3:s3.fr-par.scw.cloud/&lt;bucket_name&gt; backup ~/
 </code></pre>
 <p>Il est possible de facilement automatiser la sauvegarde via une tâche cron :</p>
-<pre><code class="language-cron"># Sauvegarde du dossier ~/ chaque jour à minuit
-0 0 * * * RESTIC_PASSWORD=&lt;PASSWORD&gt; restic -r s3:s3.fr-par.scw.cloud/&lt;bucket_name&gt; backup ~/
+<pre><code class="language-bash">RESTIC_REPOSITORY=&quot;MY_REPOSITORY&quot; # Exemple: s3:s3.fr-par.scw.cloud/mybucket
+RESTIC_PASSWORD=&quot;MY_PASSWORD&quot;
+
+0 0 * * * restic backup /home/myuser/
 </code></pre>
 <h2>Consulter les sauvegardes</h2>
-<pre><code class="language-bash">restic -r &lt;remote&gt; snapshots
+<pre><code class="language-bash">restic snapshots
 </code></pre>
 <h2>Restaurer une sauvegarde</h2>
-<pre><code class="language-bash">restic -r &lt;remote&gt; restore &lt;id&gt; --target &lt;folder&gt;
+<pre><code class="language-bash">restic restore &lt;id&gt; --target &lt;folder&gt;
 </code></pre>
 <h2>Restaurer un fichier spécifique</h2>
-<pre><code class="language-bash">restic -r &lt;remote&gt; restore &lt;id&gt; --include &lt;file_path&gt; --target &lt;folder&gt;
+<pre><code class="language-bash">restic restore &lt;id&gt; --include &lt;file_path&gt; --target &lt;folder&gt;
 </code></pre>
 <h2>Monter une sauvegarde</h2>
 <p>Pour monter une sauvegarde restic sur un dossier :</p>
-<pre><code class="language-bash">restic -r &lt;remote&gt; mount &lt;folder&gt;
+<pre><code class="language-bash">restic mount &lt;folder&gt;
 </code></pre>
 <h2>Libérer de l&#x27;espace</h2>
 <p>Pour libérer de l&#x27;espace :</p>
-<pre><code class="language-bash">restic -r &lt;remote&gt; forget --keep-within 30d
-restic -r &lt;remote&gt; prune
+<pre><code class="language-bash">restic forget --keep-within 30d --prune
+# Ou
+restic forget --keep-within 30d --group-by &quot;paths&quot; --prune # Ignorer le nom de la machine
 </code></pre>
 <h2>Mettre à jour restic</h2>
 <p>Pour mettre à jour restic :</p>
@@ -12039,14 +12144,14 @@ restic -r &lt;remote&gt; prune
 <h2>Débloquer l&#x27;accès</h2>
 <p>Si pour une raison ou une autre votre accès est bloqué, exécuter la commande suivante :</p>
 <pre><code class="language-bash">kill &lt;pid&gt;
-restic -r &lt;remote&gt; unlock
+restic unlock
 </code></pre>
 <h2>Mettre à jour le mot de passe d&#x27;un repository</h2>
-<pre><code class="language-bash">restic -r &lt;remote&gt; key list
-restic -r &lt;remote&gt; key add
+<pre><code class="language-bash">restic key list
+restic key add
 </code></pre>
 <h2>Connaitre la taille d&#x27;un repository</h2>
-<pre><code class="language-bash">restic -r &lt;remote&gt; stats
+<pre><code class="language-bash">restic stats
 </code></pre>
 <h2>Créer une sauvegarde automatique quotidienne</h2>
 <p>Créer un service dans le fichier <code>~/.config/systemd/user/restic.service</code>:</p>
@@ -12112,6 +12217,9 @@ Les <strong>services globaux</strong> ; un seul réplica sera attribué sur chaq
 <p>Vous pouvez accéder à votre application Ghost à l&#x27;adresse : <a href="http://localhost:2368">http://localhost:2368</a></p>
 <p>Pour mettre à jour un service :</p>
 <pre><code class="language-bash">docker service update --force --image ghost:5 ghost
+</code></pre>
+<p>Pour stopper un service :</p>
+<pre><code class="language-bash">docker service scale ghost=0
 </code></pre>]]></content:encoded>
         </item>
         <item>
@@ -12151,7 +12259,7 @@ services:
             <content:encoded><![CDATA[<p><a href="https://terraform.io/">Terraform</a> est un logiciel open-source pour construire, modifier et versionner une infrastructure de manière sûre et efficace.</p>
 <p>C&#x27;est un outil infrastructure as code.</p>
 <p>Vous utilisez des fichiers de configuration au format .tf (HashiCorp) pour décrire les composants que vous souhaitez avoir dans votre infrastructure et Terraform s&#x27;occupe de générer un plan d&#x27;exécution et de l&#x27;exécuter.</p>
-<p>Terraform supporte un grand nombre de <a href="https://registry.terraform.io/search/providers">fournisseurs d&#x27;infrastructure cloud</a> :</p>
+<p>Terraform supporte beaucoup de <a href="https://registry.terraform.io/search/providers">fournisseurs d&#x27;infrastructure cloud</a> :</p>
 <ul>
 <li><a href="https://registry.terraform.io/providers/scaleway/scaleway/latest/docs">Scaleway</a></li>
 <li><a href="https://registry.terraform.io/providers/ovh/ovh/latest/docs">OVH</a></li>
@@ -12160,6 +12268,45 @@ services:
 <li><a href="https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs">Azure</a></li>
 <li><a href="https://registry.terraform.io/providers/hashicorp/google/latest/docs">GCP</a></li>
 <li>ect...</li>
+</ul>
+<h2>Installation</h2>
+<p>Pour installer Terraform, rendez-vous sur <a href="https://terraform.io/downloads.html">la page de téléchargement</a>.</p>
+<p>Téléchargez et installez le fichier adapté à votre système d&#x27;exploitation (Linux, Mac ou Windows).</p>
+<p>Sur Arch Linux :</p>
+<pre><code class="language-bash">sudo pacman -S terraform
+</code></pre>
+<h2>Utilisation</h2>
+<p>Initialiser Terraform :</p>
+<pre><code class="language-bash">terraform init
+</code></pre>
+<p>Vérifier la configuration :</p>
+<pre><code class="language-bash">terraform plan
+</code></pre>
+<p>Mettre à jour l&#x27;infrastructure :</p>
+<pre><code class="language-bash">terraform apply
+</code></pre>
+<p>Importer un objet existant :</p>
+<pre><code class="language-bash">terraform import openstack_lb_loadbalancer_v2.lb_1 &lt;ID&gt;
+</code></pre>
+<p>Voir l&#x27;état actuel de l&#x27;infrastructure :</p>
+<pre><code class="language-bash">terraform show
+</code></pre>
+<p>Gérer un workspace :</p>
+<pre><code class="language-bash">terraform workspace new &lt;name&gt; # Créer un workspace (ex: dev, prod)
+terraform workspace select &lt;name&gt; # Sélectionner un workspace
+terraform workspace delete &lt;name&gt; # Supprimer un workspace
+terraform workspace list # Lister les workspaces
+</code></pre>
+<p>Linter les fichiers .tf :</p>
+<pre><code class="language-bash">terraform fmt -check -recursive
+</code></pre>
+<p>Détruire une infrastructure :</p>
+<pre><code class="language-bash">terraform destroy
+</code></pre>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://developer.hashicorp.com/terraform/install">https://developer.hashicorp.com/terraform/install</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -15549,7 +15696,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Installer Lineage OS sur un Samsung Galaxy J3 2016 SMJ320FN]]></title>
+            <title><![CDATA[Installer LineageOS sur un Samsung Galaxy J3 2016 SMJ320FN]]></title>
             <description><![CDATA[Petit tutoriel rapide sur l'installation de Lineage OS sur un smartphone Samsung Galaxy J3 2016 SMJ320FN.]]></description>
             <link>https://johackim.com/installer-lineage-os-sur-un-samsung-galaxy-j3-2016?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-lineage-os-sur-un-samsung-galaxy-j3-2016</guid>
@@ -17084,6 +17231,10 @@ lsmod | grep virtio # Check virtio modules
 <a href="/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
 
 </li>
+<li>
+<a href="/qemu" title="Qemu" class="not-found">Qemu</a>
+
+</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -17392,7 +17543,7 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
 <li><strong>Activer le mode &quot;Anonymous&quot; de qBittorrent</strong>, ça vous permettra de cacher certaines informations (user-agent, IP, Port, etc...).</li>
 </ul>
 <p><img src="https://i.imgur.com/7YRAALb.png" alt="Qbittorrent anonymous mode"/></p>
-<p><strong>NOTE</strong> : Si le service de <a href="https://torguard.net/checkmytorrentipaddress.php">Torguard</a> ne fonctionne pas, vous pouvez essayer <a href="http://dev.cbcdn.com/ipmagnet/">ipMagnet</a>.</p>
+<p><strong>NOTE</strong> : Si le service de <a href="https://torguard.net/checkmytorrentipaddress.php">Torguard</a> ne fonctionne pas, vous pouvez essayer <a href="http://dev.cbcdn.com/ipmagnet/">ipMagnet</a> ou <a href="https://torrentpeek.net">TorrentPeek</a>.</p>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -18653,6 +18804,7 @@ HiddenServicePort 80 127.0.0.1:80
 <li><a href="https://github.com/amalshaji/portr">portr</a></li>
 <li><a href="https://github.com/ekzhang/bore">bore</a></li>
 <li><a href="https://github.com/fosrl/pangolin">pangolin</a></li>
+<li><a href="https://github.com/punkpeye/pipenet">pipenet</a></li>
 <li>
 <a href="/zerotier" title="Zerotier">Zerotier</a>
 
