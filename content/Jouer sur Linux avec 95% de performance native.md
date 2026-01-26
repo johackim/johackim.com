@@ -164,3 +164,4 @@ Références :
 - [GrayWolfTech - Play games in Windows on Linux! PCI passthrough quick guide](https://youtu.be/dsDUtzMkxFk)
 - [Tymscar - Native Performance Windows Games On Linux Quick GPU Passthrough](https://youtu.be/6FI31QDtyy4)
 - [[Jeux vidéos]]
+- [[Qemu]]

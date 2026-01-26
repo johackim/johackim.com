@@ -54,3 +54,6 @@ rss: true
 Références :
 
 - https://next-episode.net/
+- https://imdb.com/chart/toptv/
+- https://imdb.com/chart/tvmeter/
+- https://allocine.fr/series/meilleures/

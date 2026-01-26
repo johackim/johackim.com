@@ -42,7 +42,7 @@ rclone config # Choisir "crypt" (11) comme type de stockage
 ## Voir la liste des remotes
 
 ```bash
-rclone listremote
+rclone listremotes
 ```
 
 ## Voir la liste les dossiers/buckets
@@ -159,4 +159,10 @@ rclone size <remote>:/
 
 ```bash
 rclone cat <remote>:/<bucket>/<file.mp4> | mpv -
+```
+
+## Voir les fonctionnalités supporté par un fournisseur
+
+```bash
+rclone backend features <provider>
 ```

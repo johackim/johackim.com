@@ -144,6 +144,10 @@ Pour récupérer une clé publique complète, exécutez la commande suivante :
 gpg --armor --export <KEY_ID>
 ```
 
+Le `KEY_ID` correspond à la valeur après `sec/` via la ligne de commande `gpg --list-secret-keys --keyid-format LONG`.
+
+Cette clé peut être envoyer sur Github ou Gitlab pour vérifier les commits par exemple.
+
 ## Changer la date d'expiration d'une clé
 
 Si vous voulez modifier la date d'expiration d'un clé GPG, exécutez la commande suivante :

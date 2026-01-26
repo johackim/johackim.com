@@ -17,7 +17,7 @@ rss: true
 - [AntennaPod](https://play.google.com/store/apps/details?id=de.danoeh.antennapod) (Podcast)
 - [Goodreads](https://play.google.com/store/apps/details?id=com.goodreads) (Livres)
 - [Readwise Reader](https://play.google.com/store/apps/details?id=com.readermobile) (Client RSS)
-- [Organic Maps](https://play.google.com/store/apps/details?id=app.organicmaps) (Navigation)
+- **[Organic Maps](https://play.google.com/store/apps/details?id=app.organicmaps) (Navigation)**
 - [Comaps](https://play.google.com/store/apps/details?id=app.comaps.google) (Navigation)
 - [Waze](https://play.google.com/store/apps/details?id=com.waze) (Navigation)
 - [Magic Earth](https://play.google.com/store/apps/details?id=com.generalmagic.magicearth) (Navigation)
@@ -53,6 +53,18 @@ rss: true
 
 ## Launchers
 
+| App              | Note        | Downloads | Open-source |
+| ---------------- | ----------- | --------- | ----------- |
+| **Niagara**      | 4.7 (167k)  | 10M       |             |
+| Lawnchair        | 4.2 (37k)   | 1M        | ✓           |
+| Before Launcher  | 4.8 (12.4k) | 500K      |             |
+| minimalist phone | 4.2 (45k)   | 5M        |             |
+| Kvaesitso        |             |           | ✓           |
+| Olauncher        | 4.8 (65k)   | 1M        | ✓           |
+
 - https://fmhy.net/android-iosguide#app-launchers
 - https://github.com/GeorgeClensy/Escape-Launcher
+- https://play.google.com/store/apps/details?id=bitpit.launcher
+- https://play.google.com/store/apps/details?id=com.beforesoft.launcher
+- https://play.google.com/store/apps/details?id=com.qqlabs.minimalistlauncher
 - https://grabster.notion.site/6671f3b62d8043c4aaaae22a241e3f05?v=91d9b664887643298f85fe18044d3560

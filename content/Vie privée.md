@@ -17,7 +17,7 @@ comments: false
 - [[Installer un serveur VPN avec dsvpn]]
 - [[BleachBit]]
 - [[Cryptsetup]]
-- [[Lineage OS]]
+- [[LineageOS]]
 - [[NextDNS]]
 - [[Pourquoi protéger sa vie privée]]
 - [[Surveillance téléphonique]]

@@ -38,7 +38,7 @@ sudo pacman -S restic
 Ou manuellement :
 
 ```bash
-export RESTIC_VERSION=0.16.4
+export RESTIC_VERSION=0.18.1
 wget https://github.com/restic/restic/releases/download/v$RESTIC_VERSION/restic_${RESTIC_VERSION}_linux_amd64.bz2
 bzip2 -d restic_${RESTIC_VERSION}_linux_amd64.bz2
 mv restic_${RESTIC_VERSION}_linux_amd64 /bin/restic
@@ -66,27 +66,29 @@ restic -r s3:s3.fr-par.scw.cloud/<bucket_name> backup ~/
 
 Il est possible de facilement automatiser la sauvegarde via une tâche cron :
 
-```cron
-# Sauvegarde du dossier ~/ chaque jour à minuit
-0 0 * * * RESTIC_PASSWORD=<PASSWORD> restic -r s3:s3.fr-par.scw.cloud/<bucket_name> backup ~/
+```bash
+RESTIC_REPOSITORY="MY_REPOSITORY" # Exemple: s3:s3.fr-par.scw.cloud/mybucket
+RESTIC_PASSWORD="MY_PASSWORD"
+
+0 0 * * * restic backup /home/myuser/
 ```
 
 ## Consulter les sauvegardes
 
 ```bash
-restic -r <remote> snapshots
+restic snapshots
 ```
 
 ## Restaurer une sauvegarde
 
 ```bash
-restic -r <remote> restore <id> --target <folder>
+restic restore <id> --target <folder>
 ```
 
 ## Restaurer un fichier spécifique
 
 ```bash
-restic -r <remote> restore <id> --include <file_path> --target <folder>
+restic restore <id> --include <file_path> --target <folder>
 ```
 
 ## Monter une sauvegarde
@@ -94,7 +96,7 @@ restic -r <remote> restore <id> --include <file_path> --target <folder>
 Pour monter une sauvegarde restic sur un dossier :
 
 ```bash
-restic -r <remote> mount <folder>
+restic mount <folder>
 ```
 
 ## Libérer de l'espace
@@ -102,8 +104,9 @@ restic -r <remote> mount <folder>
 Pour libérer de l'espace :
 
 ```bash
-restic -r <remote> forget --keep-within 30d
-restic -r <remote> prune
+restic forget --keep-within 30d --prune
+# Ou
+restic forget --keep-within 30d --group-by "paths" --prune # Ignorer le nom de la machine
 ```
 
 ## Mettre à jour restic
@@ -120,20 +123,20 @@ Si pour une raison ou une autre votre accès est bloqué, exécuter la commande 
 
 ```bash
 kill <pid>
-restic -r <remote> unlock
+restic unlock
 ```
 
 ## Mettre à jour le mot de passe d'un repository
 
 ```bash
-restic -r <remote> key list
-restic -r <remote> key add
+restic key list
+restic key add
 ```
 
 ## Connaitre la taille d'un repository
 
 ```bash
-restic -r <remote> stats
+restic stats
 ```
 
 ## Créer une sauvegarde automatique quotidienne

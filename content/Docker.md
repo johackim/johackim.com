@@ -50,6 +50,7 @@ Je vous partage les bases de tout ce que vous devez savoir pour commencer à ma�
 # Remove unused containers
 docker rm $(docker ps -qf status=exited)
 docker rm $(docker ps -qf status=created)
+docker rm $(docker ps -qf status=dead)
 
 # Remove unused volumes
 docker volume rm -f $(docker volume ls -qf dangling=true)
@@ -62,4 +63,25 @@ docker cp <container_id>:<file_path> <output_path>
 
 # Voir les stats (cpu, memory)
 docker stats --no-stream
+
+# Supprimer tous les conteneurs, images et volumes inutilisés
+docker system prune -af
+
+# Trouver le conteneur en lien avec son PID
+docker ps -f id=$(grep -o "[0-9a-f]\{64\}" /proc/<PID>/cgroup | head -n 1)
+
+# Connaitre la raison du crash d'un conteneur
+docker inspect <container> --format='Code: {{.Status.ContainerStatus.ExitCode}} Raison: {{.Status.Message}}'
+
+# Composer une stack docker
+docker compose -f <stack.yml> config
+
+# Déployer une stack avec un fichier .env
+env $(cat .env) docker stack deploy -c stack.yml stack
+
+# Arrêter un service docker
+docker service scale service_name=0
+
+# Voir les tags d'une image (ex: jitsi/jvb) sur docker hub
+for i in {1..20}; do curl -s "https://registry.hub.docker.com/v2/repositories/$IMAGE/tags?page_size=100&page=$i" | jq -r '.results[] | .name'; done | sort -V
 ```

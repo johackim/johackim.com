@@ -58,7 +58,6 @@ Références :
 - [The 10x Engineer - A Tool kit of mental models](https://medium.com/10x-curiosity/b9781d9e1cb2)
 - [Michael Simmons - The Top 12 Most Useful & Universal Mental Models](https://i.imgur.com/70Hwkhj.jpg)
 - [George MacGill : Comment prendre de meilleures décisions](https://medium.com/essentiels/f41cb604d3d0)
-- [The Latticework: Interconnecting the Big Ideas from the Big Disciplines](https://ltcwrk.com/)
 - [Julian Shapiro - Mental models](https://julian.com/blog/mental-model-examples)
 - [Modèles Mentaux #1 : L'idée qui valait 1 milliard](https://youtube.com/watch?v=geyT-7ApNRQ)
 - [Everlaab - Liste de modèles mentaux pour mieux raisonner](https://everlaab.com/liste-de-modeles-mentaux/)

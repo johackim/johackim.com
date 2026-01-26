@@ -42,6 +42,7 @@ Optimisez la qualité de votre classement dans les moteurs de recherche.
 - [[Long-tail keywords]]
 - [[SEO on-page]]
 - [[Groupbuy#SEO|SEO Groupbuy]]
+- dofollow/nofollow
 
 ---
 

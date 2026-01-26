@@ -174,7 +174,11 @@ rss: true
 - [Il était une fois en Amérique](https://allocine.fr/film/fichefilm_gen_cfilm=1941.html)
 - [Martin Eden](https://allocine.fr/film/fichefilm_gen_cfilm=271957.html)
 - [Nomadland](https://allocine.fr/film/fichefilm_gen_cfilm=271687.html)
+- [Nuremberg](https://allocine.fr/film/fichefilm_gen_cfilm=324466.html)
 - Rainman
+- Lamborguini
+- Encanto
+- LOL 2.0
 
 ## Films que je n'aime pas
 
@@ -185,6 +189,9 @@ rss: true
 ## Moteurs de recherche
 
 - https://tastedive.com/
+- https://imdb.com/chart/top/
+- https://imdb.com/chart/moviemeter/
+- https://allocine.fr/film/meilleurs/
 - https://flickmetrix.com/movies
 - https://phi-phenomenon.org/rank/
 - https://nothing-to-watch.port80.ch/

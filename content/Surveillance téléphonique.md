@@ -24,7 +24,7 @@ Techniquement, espionner les conversations de millions de personnes 24h/24 revie
 
 À titre d'exemple, un enregistrement audio de 1 minute représente environ entre 10 et 100 ko de données.
 
-Pour 1 million de personnes, cela représenterait 100 Go de données par minute, soit 144 To par jour.
+Pour "seulement" 1 million de personnes, cela représenterait 100 Go de données par minute, soit 144 To par jour.
 
 Il faudrait investir dans d'énormes espaces de stockage et des serveurs avec une très grande puissance de calcul.
 

@@ -37,7 +37,7 @@ Pour scanner un fichier, un répertoire ou tout le système de fichier :
 ```bash
 clamscan <file>
 clamscan -r -i <folder>
-clamscan -r -i --exclude-dir='^/sys|^/dev' /
+clamscan -r -i --exclude-dir='^/sys|^/dev' --log=/var/log/clamscan.log /
 ```
 
 Pour executé ClamAV en tâche de fond vous pouvez exécutez la commande suivante :

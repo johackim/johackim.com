@@ -25,3 +25,4 @@ Références :
 
 - https://everlaab.com/objectif-smart/
 - https://braink.it/principles/smart-goals
+- https://sketchplanations.com/smart-goals

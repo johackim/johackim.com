@@ -181,7 +181,7 @@ export default [
 ];
 ```
 
-Problème, elsint 9 ne supporte pas le style guide de airbnb -> https://github.com/airbnb/javascript/issues/2961
+Problème, elsint 9 ne supporte pas le [[Style Guide]] de airbnb -> https://github.com/airbnb/javascript/issues/2961
 
 Du coup il y a plein de règles dont j'ai l'habitude qui ne s'appliquent pas...
 

@@ -198,3 +198,4 @@ Références :
 - https://gitlab.com/aar642/shadow-repackaged#known-issues
 - https://frsbg01.filebrowser.shadow.tech/shadowftp/login
 - [[Jeux vidéos]]
+- [[Cloud desktop|Cloud gaming]]

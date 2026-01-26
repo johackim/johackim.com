@@ -51,6 +51,7 @@ Références :
 - https://znotes.org/caie/igcse/computer-science-0478/
 - https://cs50.harvard.edu/x/
 - https://mitocw.ups.edu.ec/courses/electrical-engineering-and-computer-science/archived-electrical-engineering-and-computer-science-courses/
+- https://cs251.com/
 - [Fireship - 100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis)
 - [Fireship - CS101](https://youtube.com/watch?v=zDNaUi2cjv4&list=PL0vfts4VzfNjQOM9VClyL5R0LeuTxlAR3)
 - [cocadmin - L'histoire du tout premier ordinateur](https://youtu.be/x9t9kLNbWJ4)

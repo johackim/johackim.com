@@ -80,6 +80,7 @@ HiddenServicePort 80 127.0.0.1:80
 - [portr](https://github.com/amalshaji/portr)
 - [bore](https://github.com/ekzhang/bore)
 - [pangolin](https://github.com/fosrl/pangolin)
+- [pipenet](https://github.com/punkpeye/pipenet)
 - [[Zerotier]]
 - Cloudflare Tunnel
 - AWS Direct Connect

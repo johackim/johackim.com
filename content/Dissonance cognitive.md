@@ -45,3 +45,4 @@ Références :
 - https://cm.stackedmarketer.com/t/j-e-shkpik-dkhjslutd-a/
 - https://changingminds.org/explanations/theories/cognitive_dissonance.htm
 - https://fronterabrands.com/cognitive-dissonance/
+- [Laganne   - Le Méchant Le Plus Parfait : Walter White](https://youtu.be/oR7QtAfNFVQ?t=417)

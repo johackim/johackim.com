@@ -150,16 +150,27 @@ rss: true
 - [Ravenfield](https://store.steampowered.com/app/636480/Ravenfield/)
 - [Rematch](https://store.steampowered.com/app/2138720/REMATCH/)
 - [Carry The Glass](https://store.steampowered.com/app/3263320/)
-- [PEAK](https://store.steampowered.com/app/3527290/PEAK/)
-- [DAVIGO: VR vs. PC](https://store.steampowered.com/app/1116540/DAVIGO_VR_vs_PC/) (VR)
-- [Kayak VR: Mirage](https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/) (VR)
-- Goat simulator 3
-- Horizon: Call of the Mountain (VR)
-- The Climb 2 (VR)
-- Job Simulator (VR)
-- Kitchen Panic (VR)
-- Cooking simulator (VR)
-- https://store.steampowered.com/app/433340/Slime_Rancher/
+- [Slime Rancher](https://store.steampowered.com/app/433340/Slime_Rancher/)
+- [Goat simulator 3](https://store.steampowered.com/app/850190/Goat_Simulator_3/)
+- [No Man's Sky](https://store.steampowered.com/app/275850/No_Mans_Sky/)
+- **[Solarpunk](https://store.steampowered.com/app/1805110/Solarpunk/)**
+- **[PEAK](https://store.steampowered.com/app/3527290/PEAK/)**
+- **[RV There Yet?](https://store.steampowered.com/app/3949040/RV_There_Yet/)**
+- R.E.P.O.
+- Crusader Kings 3
+- Zoochosis
+- We Were Here
+- Mount & Blade II: Bannerlord - War Sails
+
+## Jeux VR
+
+- [DAVIGO: VR vs. PC](https://store.steampowered.com/app/1116540/DAVIGO_VR_vs_PC/)
+- [Kayak VR: Mirage](https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/)
+- Horizon: Call of the Mountain
+- The Climb 2
+- Job Simulator
+- Kitchen Panic
+- Cooking simulator
 
 ## Party Games / Couch Gaming
 
@@ -183,7 +194,7 @@ rss: true
 - One-armed cook
 - Yet Another Zombie Defense
 - Biped
-- RV There Yet?
+- KIBORG
 
 ---
 

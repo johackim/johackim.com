@@ -6,6 +6,7 @@ aliases:
   - Goals vs. Systems
   - Objectif vs. Système
   - Processus vs. Événement
+  - Processus vs. Résultat
 datePublished: 2023-10-01T21:01:00
 dateUpdated: 2023-10-01T21:01:00
 permalink: systemes-vs-objectifs

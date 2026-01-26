@@ -61,7 +61,7 @@ Créez une infrastructure automatisée de A à Z pour héberger vos applications
 
 ## IV. Administrez votre infrastructure avec Grafana et Portainer
 
-1. [[Installer Grafana et Prometheus avec Docker Swarm]]
+1. [[Grafana]]
 2. [[Alerting|Soyez immédiatement alerté au moindre problème]]
 3. [[Portainer|Gérer votre infrastructure avec Portainer]]
 

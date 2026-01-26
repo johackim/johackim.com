@@ -67,5 +67,5 @@ Cette touche spéciale vous permettra de gérer Retrobat et les émulateurs avec
 
 Références :
 
-- https://github.com/kaylh/RetroBat
+- https://github.com/RetroBat-Official/retrobat-setup
 - [[Jeux vidéos]]

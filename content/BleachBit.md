@@ -5,6 +5,7 @@ permalink: nettoyer-son-ordinateur-sur-linux-avec-bleachbit
 title: Nettoyer son ordinateur sur Linux avec BleachBit
 publish: true
 rss: true
+aliases: [Ccleaner]
 ---
 
 Pour nettoyer mon ordinateur sous Linux, j'utilise [BleachBit](https://bleachbit.org/).
@@ -45,5 +46,6 @@ sudo -E bleachbit -w /
 
 ## Alternatives à BleachBit
 
-- [CCleaner](https://www.ccleaner.com/) (uniquement sur Windows ou MacOS)
+- [Microsoft PC Manager](https://pcmanager.microsoft.com/en-us) (nouveau)
+- [CCleaner](https://ccleaner.com/) (uniquement sur Windows ou MacOS)
 - [Czkawka](https://github.com/qarmin/czkawka)

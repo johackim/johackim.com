@@ -1,5 +1,5 @@
 ---
-title: Installer Lineage OS sur un Samsung Galaxy J3 2016 SMJ320FN
+title: Installer LineageOS sur un Samsung Galaxy J3 2016 SMJ320FN
 permalink: installer-lineage-os-sur-un-samsung-galaxy-j3-2016
 datePublished: 2020-09-10T06:00
 dateUpdated: 2020-09-10T06:00

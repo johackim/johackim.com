@@ -31,7 +31,7 @@ J'utilise personnellement [qBittorrent](https://github.com/qbittorrent/qBittorre
 
 ![Qbittorrent anonymous mode](https://i.imgur.com/7YRAALb.png)
 
-**NOTE** : Si le service de [Torguard](https://torguard.net/checkmytorrentipaddress.php) ne fonctionne pas, vous pouvez essayer [ipMagnet](http://dev.cbcdn.com/ipmagnet/).
+**NOTE** : Si le service de [Torguard](https://torguard.net/checkmytorrentipaddress.php) ne fonctionne pas, vous pouvez essayer [ipMagnet](http://dev.cbcdn.com/ipmagnet/) ou [TorrentPeek](https://torrentpeek.net).
 
 ---
 

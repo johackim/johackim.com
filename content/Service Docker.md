@@ -36,3 +36,9 @@ Pour mettre à jour un service :
 ```bash
 docker service update --force --image ghost:5 ghost
 ```
+
+Pour stopper un service :
+
+```bash
+docker service scale ghost=0
+```

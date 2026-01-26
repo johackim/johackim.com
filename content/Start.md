@@ -14,16 +14,16 @@ Bienvenue dans [[Mon second cerveau|mon second cerveau]] ! 👋
 
 Je m'appelle Joachim alias « Johackim », j'ai **33 ans** et je suis **hacker indépendant** ; créateur de projets open-source.
 
+- 💻 [[Programmation]]
+- 🧠 [[Psychologie]]
 - 🎒 [[Indie hacker]]
 - 🔮 [[Obsidian]]
 - 🐧 [[Linux]]
 - 🐳 [[Docker]]
-- 💻 [[Programmation]]
 - ⚡️ [[Productivité]]
 - 🥷 [[Cybersécurité]]
 - 🛡️ [[Vie privée]]
 - 📚 [[Livres]]
-- 🧠 [[Psychologie]]
 - 🗺️ [[Modèles mentaux]]
 
 [Abonnez-vous](/newsletter) pour recevoir les mises à jour de mon second cerveau, ou [[A propos de moi|cliquez-ici pour en savoir plus sur moi]]
