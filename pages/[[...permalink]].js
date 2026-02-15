@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { MDXRemote } from 'next-mdx-remote';
-import { NextSeo, ArticleJsonLd } from 'next-seo';
+import Head from 'next/head';
+import { generateNextSeo } from 'next-seo/pages';
+import { ArticleJsonLd } from 'next-seo';
 import Layout from '../components/layout';
 import Commento from '../components/commento';
 import Code from '../components/code';
@@ -35,27 +37,29 @@ const components = {
 // eslint-disable-next-line complexity
 const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments, isIndex }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
-        <Progress />
-        <NextSeo
-            title={isIndex ? '' : title}
-            description={description}
-            openGraph={{
-                title,
+        <Head>
+            {generateNextSeo({
+                title: isIndex ? '' : title,
                 description,
-                type: 'article',
-                article: {
-                    ...(datePublished && { publishedTime: (new Date(datePublished)).toISOString() }),
-                    ...(dateUpdated && { modifiedTime: (new Date(dateUpdated).toISOString()) }),
+                openGraph: {
+                    title,
+                    description,
+                    type: 'article',
+                    article: {
+                        ...(datePublished && { publishedTime: (new Date(datePublished)).toISOString() }),
+                        ...(dateUpdated && { modifiedTime: (new Date(dateUpdated).toISOString()) }),
+                    },
+                    images: [{ url: `https://johackim.com/covers/${permalink}.jpg` }],
                 },
-                images: [{ url: `https://johackim.com/covers/${permalink}.jpg` }],
-            }}
-        />
+            })}
+        </Head>
+        <Progress />
         <ArticleJsonLd
-            title={title}
+            headline={title}
             type="article"
             url={`https://johackim.com/${permalink}`}
-            images={[`https://johackim.com/covers/${permalink}.jpg`]}
-            authorName="Johackim"
+            image={`https://johackim.com/covers/${permalink}.jpg`}
+            author="Johackim"
             description={description}
             {...(datePublished && { datePublished: (new Date(datePublished)).toISOString() })}
             {...(dateUpdated && { dateModified: (new Date(dateUpdated).toISOString()) })}

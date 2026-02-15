@@ -25,6 +25,7 @@ export default fixupConfigRules([
             'max-len': [0],
             'object-curly-newline': [0],
             'import/extensions': [0],
+            'import/no-unresolved': [2, { ignore: ['next-seo/pages'] }],
             'import/no-extraneous-dependencies': [0],
             'import/prefer-default-export': [0],
             'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
