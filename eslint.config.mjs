@@ -1,15 +1,16 @@
 import js from '@eslint/js';
 import globals from 'globals';
 import { FlatCompat } from '@eslint/eslintrc';
+import { fixupConfigRules } from '@eslint/compat';
 
 const compat = new FlatCompat({
     baseDirectory: process.cwd(),
     recommendedConfig: js.configs.recommended,
 });
 
-export default [
+export default fixupConfigRules([
     ...compat.extends('airbnb'),
-    { ignores: ['.next/'] },
+    { ignores: ['.next/', 'out/'] },
     {
         languageOptions: {
             ecmaVersion: 'latest',
@@ -39,4 +40,4 @@ export default [
             'max-depth': [2, 2],
         },
     },
-];
+]);
