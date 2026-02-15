@@ -11,6 +11,7 @@
     "@eslint/eslintrc": "^3.3.6",
     "@headlessui/react": "^2.2.10",
     "@heroicons/react": "^2.2.0",
+    "@streamdown/mermaid": "^1.0.2",
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.20",
     "eslint": "^10.8.1",
