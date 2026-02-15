@@ -92,6 +92,7 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
     </Layout>
 );
 
+// eslint-disable-next-line complexity
 export const getStaticProps = async ({ params }) => {
     const permalink = params?.permalink?.[0] ?? INDEX_FILE;
 
