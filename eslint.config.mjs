@@ -1,12 +1,8 @@
-import js from '@eslint/js';
 import globals from 'globals';
 import { FlatCompat } from '@eslint/eslintrc';
 import { fixupConfigRules } from '@eslint/compat';
 
-const compat = new FlatCompat({
-    baseDirectory: process.cwd(),
-    recommendedConfig: js.configs.recommended,
-});
+const compat = new FlatCompat({ baseDirectory: process.cwd() });
 
 export default fixupConfigRules([
     ...compat.extends('airbnb'),
