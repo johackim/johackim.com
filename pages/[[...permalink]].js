@@ -27,7 +27,7 @@ const rehypeUnwrapLiParagraphs = () => (tree) => {
 const INDEX_FILE = 'Start';
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, markdown, permalink, comments, isIndex }) => (
+const Page = ({ title, description, datePublished, dateUpdated, markdown, permalink, comments, isIndex, markdownFiles }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
         <Head>
             {generateNextSeo({
@@ -84,7 +84,7 @@ const Page = ({ title, description, datePublished, dateUpdated, markdown, permal
                 >
                     <Streamdown
                         mode="static"
-                        remarkPlugins={[...Object.values(defaultRemarkPlugins), remarkObsidian]}
+                        remarkPlugins={[...Object.values(defaultRemarkPlugins), [remarkObsidian, { markdownFiles }]]}
                         rehypePlugins={[defaultRehypePlugins.raw, rehypeUnwrapLiParagraphs]}
                         plugins={{ mermaid }}
                         controls={{ code: { copy: true, download: false }, mermaid: false }}
@@ -108,13 +108,15 @@ const Page = ({ title, description, datePublished, dateUpdated, markdown, permal
 export const getStaticProps = async ({ params }) => {
     const permalink = params?.permalink?.[0] ?? INDEX_FILE;
 
+    const markdownFiles = await getContentList();
+
     const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink);
 
     await createCoverSvg(content?.title, content?.permalink);
 
     const isIndex = permalink?.toLowerCase() === INDEX_FILE?.toLowerCase();
 
-    return { props: { markdown, isIndex, ...content } };
+    return { props: { markdown, isIndex, markdownFiles, ...content } };
 };
 
 export const getStaticPaths = async () => {

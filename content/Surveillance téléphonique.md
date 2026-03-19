@@ -52,7 +52,7 @@ Des outils comme [Wireshark](https://wireshark.org) et [PCAPdroid](https://githu
 
 Vous pouvez voir qu'après une visite sur un site comme Google, Facebook, Twitter ou Instagram des requêtes sont envoyées sur les noms de domaines google.com, facebook.com, twitter.com ou instagram.com.
 
-<iframe src="https://peertube.ethibox.fr/videos/embed/25806d5b-589e-491c-860b-38b8e3eaad83?loop=1&amp;autoplay=1&amp;title=0&amp;warningTitle=0&amp;controlBar=0&amp;peertubeLink=0&amp;p2p=0" style={{ width: '100%', aspectRatio: '16/9' }} frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+<iframe src="https://peertube.ethibox.fr/videos/embed/25806d5b-589e-491c-860b-38b8e3eaad83?loop=1&amp;autoplay=1&amp;title=0&amp;warningTitle=0&amp;controlBar=0&amp;peertubeLink=0&amp;p2p=0" style="width: 100%; aspect-ratio: 16/9" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
 En revanche, si vous parlez de "nourriture pour chat" devant votre téléphone sans rien toucher, **rien n'est envoyé**.
 
