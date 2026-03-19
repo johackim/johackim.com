@@ -62,6 +62,69 @@
     @apply !fill-gray-200 !stroke-gray-800;
 }
 
+/* Code blocks */
+
+[data-streamdown="code-block"] {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    gap: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    content-visibility: visible !important;
+    contain-intrinsic-size: none !important;
+}
+
+[data-streamdown="code-block-header"] {
+    display: none !important;
+}
+
+[data-streamdown="code-block-body"] {
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+[data-streamdown="code-block-body"] pre {
+    @apply !bg-gray-200 !text-gray-700 !rounded-md !mt-0 !mb-0 !p-4;
+}
+
+[data-streamdown="code-block-body"] code {
+    @apply !text-xs !whitespace-pre-wrap !break-words;
+}
+
+[data-streamdown="code-block-body"] code span::before {
+    display: none !important;
+}
+
+[data-streamdown="code-block"]:not([data-language="mermaid"]) {
+    position: relative;
+}
+
+[data-streamdown="code-block-actions"] {
+    visibility: hidden;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin: 0.75rem !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    z-index: 10;
+}
+
+[data-streamdown="code-block"]:hover [data-streamdown="code-block-actions"] {
+    visibility: visible;
+}
+
+[data-streamdown="code-block-actions"] button {
+    @apply !rounded-md !text-xs !bg-gray-300 !p-1.5 !cursor-pointer !leading-none !border-none;
+}
+
 /* Commento */
 
 #commento .commento-submit-button {

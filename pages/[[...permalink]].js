@@ -87,7 +87,7 @@ const Page = ({ title, description, datePublished, dateUpdated, markdown, permal
                         remarkPlugins={[...Object.values(defaultRemarkPlugins), remarkObsidian]}
                         rehypePlugins={[defaultRehypePlugins.raw, rehypeUnwrapLiParagraphs]}
                         plugins={{ mermaid }}
-                        controls={false}
+                        controls={{ code: { copy: true, download: false }, mermaid: false }}
                         components={components}
                     >
                         {markdown}
