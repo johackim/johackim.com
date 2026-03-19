@@ -10,21 +10,11 @@ import components from '../lib/components';
 import Commento from '../components/commento';
 import Progress from '../components/progress';
 import { getContentList, getContent, getArticlesPage, createCoverSvg } from '../lib/utils';
-
-const rehypeUnwrapLiParagraphs = () => (tree) => {
-    const visit = (node) => {
-        if (node.children) {
-            node.children.forEach(visit);
-            if (node.tagName === 'li') {
-                // eslint-disable-next-line no-param-reassign
-                node.children = node.children.flatMap((child) => (child.tagName === 'p' ? child.children : [child]));
-            }
-        }
-    };
-    visit(tree);
-};
+import { rehypeUnwrapLiParagraphs } from '../lib/rehype';
 
 const INDEX_FILE = 'Start';
+
+const stopIfMermaid = (e) => { if (e.target.closest('[data-streamdown="mermaid"]')) e.stopPropagation(); };
 
 // eslint-disable-next-line complexity
 const Page = ({ title, description, datePublished, dateUpdated, markdown, permalink, comments, isIndex, markdownFiles }) => (
@@ -79,8 +69,8 @@ const Page = ({ title, description, datePublished, dateUpdated, markdown, permal
                 className="prose break-words prose-a:font-normal prose-a:text-cyan-700 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300 prose-td:border-gray-300 prose-td:border prose-td:px-4 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 [&_blockquote_.callout-title]:flex [&_blockquote_.callout-title]:gap-2 [&>*>*>:first-child]:mt-0 [&>*>*>:last-child]:mb-0"
             >
                 <div
-                    onWheelCapture={(e) => { if (e.target.closest('[data-streamdown="mermaid"]')) e.stopPropagation(); }}
-                    onPointerDownCapture={(e) => { if (e.target.closest('[data-streamdown="mermaid"]')) e.stopPropagation(); }}
+                    onWheelCapture={stopIfMermaid}
+                    onPointerDownCapture={stopIfMermaid}
                 >
                     <Streamdown
                         mode="static"
@@ -110,7 +100,7 @@ export const getStaticProps = async ({ params }) => {
 
     const markdownFiles = await getContentList();
 
-    const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink);
+    const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink, markdownFiles);
 
     await createCoverSvg(content?.title, content?.permalink);
 
