@@ -5,35 +5,60 @@
 
 /* Mermaid */
 
-[id^='mermaid-svg'] > svg {
+[data-streamdown="mermaid-block"] {
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    gap: 0 !important;
+}
+
+[data-streamdown="mermaid-block"] > div:first-child {
+    display: none !important;
+}
+
+[data-streamdown="mermaid-block"] > div:last-child {
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+[data-streamdown="mermaid"],
+[data-streamdown="mermaid"] div {
+    width: 100% !important;
+    overflow: visible !important;
+    cursor: default !important;
+}
+
+[data-streamdown="mermaid"] svg {
     @apply h-auto mt-4;
 }
 
-[id^='mermaid-svg'] g,
-[id^='mermaid-svg'] foreignObject {
+[data-streamdown="mermaid"] g,
+[data-streamdown="mermaid"] foreignObject {
     @apply leading-none;
 }
 
-[id^='mermaid-svg'] .label rect {
+[data-streamdown="mermaid"] .label rect {
     @apply !fill-transparent;
 }
 
-[id^='mermaid-svg'] .edgeLabel {
+[data-streamdown="mermaid"] .edgeLabel {
     @apply !bg-transparent;
 }
 
-[id^='mermaid-svg'] .flowchart-link,
-[id^='mermaid-svg'] .path {
+[data-streamdown="mermaid"] .flowchart-link,
+[data-streamdown="mermaid"] .path {
     @apply !stroke-gray-700;
 }
 
-[id^='mermaid-svg'] .arrowheadPath,
-[id^='mermaid-svg'] .marker {
+[data-streamdown="mermaid"] .arrowheadPath,
+[data-streamdown="mermaid"] .marker {
     @apply !fill-gray-700;
 }
 
-[id^='mermaid-svg'] .cluster rect,
-[id^='mermaid-svg'] rect.label-container {
+[data-streamdown="mermaid"] .cluster rect,
+[data-streamdown="mermaid"] rect.label-container {
     @apply !fill-gray-200 !stroke-gray-800;
 }
 

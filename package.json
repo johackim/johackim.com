@@ -29,7 +29,7 @@
     "rss": "^1.2.2",
     "sharp": "^0.34.5",
     "slugify": "^1.6.6",
-    "streamdown": "^2.2.0",
+    "streamdown": "^2.5.0",
     "tailwindcss": "^4.2.1",
     "unist-util-visit": "^5.1.0",
     "validator": "^13.15.26"
