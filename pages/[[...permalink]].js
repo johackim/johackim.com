@@ -9,7 +9,7 @@ import Layout from '../components/layout';
 import components from '../lib/components';
 import Commento from '../components/commento';
 import Progress from '../components/progress';
-import { getContentList, getContent, getArticlesPage, createCoverSvg } from '../lib/utils';
+import { getContentList, getContent, getArticlesPage, createCoverSvg, resolveWikilinks } from '../lib/utils';
 import { rehypeUnwrapLiParagraphs } from '../lib/rehype';
 
 const mermaid = createMermaidPlugin({
@@ -23,7 +23,7 @@ const INDEX_FILE = 'Start';
 const stopIfMermaid = (e) => { if (e.target.closest('[data-streamdown="mermaid"]')) e.stopPropagation(); };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, markdown, permalink, comments, isIndex, markdownFiles }) => (
+const Page = ({ title, description, datePublished, dateUpdated, markdown, permalink, comments, isIndex }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
         <Head>
             {generateNextSeo({
@@ -77,7 +77,7 @@ const Page = ({ title, description, datePublished, dateUpdated, markdown, permal
                 <div onWheelCapture={stopIfMermaid} onPointerDownCapture={stopIfMermaid}>
                     <Streamdown
                         mode="static"
-                        remarkPlugins={[...Object.values(defaultRemarkPlugins), [remarkObsidian, { markdownFiles }]]}
+                        remarkPlugins={[...Object.values(defaultRemarkPlugins), remarkObsidian]}
                         rehypePlugins={[defaultRehypePlugins.raw, rehypeUnwrapLiParagraphs]}
                         plugins={{ mermaid }}
                         controls={{ code: { copy: true, download: false }, mermaid: false }}
@@ -103,13 +103,14 @@ export const getStaticProps = async ({ params }) => {
 
     const markdownFiles = await getContentList();
 
-    const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink, markdownFiles);
+    const { markdown: rawMarkdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink, markdownFiles);
 
     await createCoverSvg(content?.title, content?.permalink);
 
     const isIndex = permalink?.toLowerCase() === INDEX_FILE?.toLowerCase();
+    const markdown = resolveWikilinks(rawMarkdown, markdownFiles);
 
-    return { props: { markdown, isIndex, markdownFiles, ...content } };
+    return { props: { markdown, isIndex, ...content } };
 };
 
 export const getStaticPaths = async () => {
