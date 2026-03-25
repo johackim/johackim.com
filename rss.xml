@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 25 Mar 2026 17:48:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2026 18:20:43 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -59,7 +59,7 @@ greywall -- gemini
 </code></pre>
 <p>Je l&#x27;utilise personnellement pour utiliser des agents IA sur <a href="/obsidian" title="Obsidian">Obsidian</a> sans leur donner accès à mes notes privées.</p>
 
-<p>Et pour encore plus de <a href="/vie-privee" title="Vie privée">Vie privée</a>, vous pouvez utiliser des agents IA en local directement sur votre ordinateur avec <a href="/ollama" title="Ollama">Ollama</a>.</p>
+<p>Et pour encore plus de <a href="/vie-privee" title="Vie privée">Vie privée</a>, vous pouvez utiliser des modèles IA en local (ex: Qwen, GLM, Kimi) directement sur votre ordinateur avec <a href="/ollama" title="Ollama">Ollama</a>.</p>
 
 <hr/>
 <p>Références :</p>
