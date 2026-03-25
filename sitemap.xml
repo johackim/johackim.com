@@ -7,6 +7,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://johackim.com/greywall</loc>
+        <lastmod>2026-03-25T00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://johackim.com/shred</loc>
         <lastmod>2025-12-15T10:19:00</lastmod>
         <changefreq>daily</changefreq>
