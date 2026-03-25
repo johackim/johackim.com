@@ -4,9 +4,69 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 25 Mar 2026 17:43:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2026 17:48:23 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Greywall]]></title>
+            <link>https://johackim.com/greywall?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/greywall</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/greywall.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/greywall.jpg"/>
+            <content:encoded><![CDATA[<p>Pour éviter que vos fichiers sensibles soient accessibles par les agents IA, il existe <a href="https://greywall.io/">Greywall</a>.</p>
+<p>Greywall est une sorte de pare-feu pour agents IA qui vous permet de contrôler et surveiller les accès au système de fichiers et au réseau lorsque vous utilisez des outils comme <a href="https://claude.com/fr-fr/product/claude-code">Claude Code</a> ou <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>.</p>
+<p>Il agit comme un proxy entre l&#x27;agent et votre machine, vous offrant une visibilité complète sur ses actions.</p>
+<p>Il est actuellement disponible uniquement sur Linux et MacOS.</p>
+<h2>Installation</h2>
+<p><a href="https://github.com/GreyhavenHQ/greywall/releases/latest">Téléchargez Greywall</a> et exécutez les commandes suivantes :</p>
+<pre><code class="language-bash">tar xvf greywall_0.2.8_Linux_x86_64.tar.gz
+sudo mv greywall /usr/local/bin/
+</code></pre>
+<p>N&#x27;oubliez pas d&#x27;installer <code>socat</code> :</p>
+<pre><code class="language-bash">sudo pacman -S socat
+# Ou
+sudo apt install -y socat
+</code></pre>
+<h2>Utilisation</h2>
+<pre><code class="language-bash">greywall setup
+systemctl --user start greyproxy.service
+</code></pre>
+<p>Rendez-vous sur <a href="http://localhost:43080/dashboard">http://localhost:43080/dashboard</a></p>
+<pre><code class="language-bash">greywall -- claude
+# Ou
+greywall -- gemini
+</code></pre>
+<p>Vous pouvez éditer la configuration dans <code>~/.config/greywall/greywall.json</code> :</p>
+<pre><code class="language-json">{
+  &quot;filesystem&quot;: {
+    &quot;denyRead&quot;: [
+      &quot;PRIVATE.md&quot;
+    ]
+  }
+}
+</code></pre>
+<p>Vous pouvez également créer un fichier <code>.greywall.json</code> dans le dossier en cours et le charger avec la commande suivante :</p>
+<pre><code class="language-bash">greywall --settings .greywall.json -- claude
+</code></pre>
+<h2>Debug</h2>
+<p>Pour débugger, utilisez le paramètre <code>--debug</code> :</p>
+<pre><code class="language-bash">greywall --debug
+</code></pre>
+<h2>Stop</h2>
+<pre><code class="language-bash">systemctl --user stop greyproxy.service
+</code></pre>
+<p>Je l&#x27;utilise personnellement pour utiliser des agents IA sur <a href="/obsidian" title="Obsidian">Obsidian</a> sans leur donner accès à mes notes privées.</p>
+
+<p>Et pour encore plus de <a href="/vie-privee" title="Vie privée">Vie privée</a>, vous pouvez utiliser des agents IA en local directement sur votre ordinateur avec <a href="/ollama" title="Ollama">Ollama</a>.</p>
+
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://github.com/GreyhavenHQ/greywall/">https://github.com/GreyhavenHQ/greywall/</a></li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Est-ce que notre téléphone nous écoute ?]]></title>
             <link>https://johackim.com/est-ce-que-notre-telephone-nous-ecoute?utm_source=rss&amp;utm_medium=rss</link>
