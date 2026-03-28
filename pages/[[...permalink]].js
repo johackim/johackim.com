@@ -1,41 +1,29 @@
 import Link from 'next/link';
-import { MDXRemote } from 'next-mdx-remote';
 import Head from 'next/head';
 import { generateNextSeo } from 'next-seo/pages';
 import { ArticleJsonLd } from 'next-seo';
+import { Streamdown, defaultRemarkPlugins, defaultRehypePlugins } from 'streamdown';
+import { createMermaidPlugin } from '@streamdown/mermaid';
+import remarkObsidian from 'remark-obsidian';
 import Layout from '../components/layout';
+import components from '../lib/components';
 import Commento from '../components/commento';
-import Code from '../components/code';
 import Progress from '../components/progress';
-import { getContentList, getContent, getArticlesPage, createCoverSvg, compile } from '../lib/utils';
+import { getContentList, getContent, getArticlesPage, createCoverSvg, resolveWikilinks } from '../lib/utils';
+import { rehypeUnwrapLiParagraphs } from '../lib/rehype';
+
+const mermaid = createMermaidPlugin({
+    config: {
+        fontFamily: 'Roboto, sans-serif',
+    },
+});
 
 const INDEX_FILE = 'Start';
 
-const components = {
-    pre: Code,
-    a: ({ href, title, children, className = '' }) => {
-        if (className.includes('not-found')) {
-            return (
-                <Link
-                    title="Note bientôt disponible"
-                    href={`/soon?title=${encodeURIComponent(title)}`}
-                    className="!no-underline border-b-2 border-dotted border-cyan-700"
-                >
-                    {children}
-                </Link>
-            );
-        }
-
-        if (/^https?:\/\//.test(href)) {
-            return <Link href={href} className={className} target="_blank">{children}</Link>;
-        }
-
-        return <Link href={href} className={className}>{children}</Link>;
-    },
-};
+const stopIfMermaid = (e) => { if (e.target.closest('[data-streamdown="mermaid"]')) e.stopPropagation(); };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments, isIndex }) => (
+const Page = ({ title, description, datePublished, dateUpdated, markdown, permalink, comments, isIndex }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
         <Head>
             {generateNextSeo({
@@ -83,8 +71,21 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
                     </>
                 )}
             </div>
-            <article className="prose break-words prose-a:font-normal prose-a:text-cyan-700 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300 prose-td:border-gray-300 prose-td:border prose-td:px-4 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 [&_blockquote_.callout-title]:flex [&_blockquote_.callout-title]:gap-2">
-                <MDXRemote {...source} components={components} />
+            <article
+                className="prose break-words prose-a:font-normal prose-a:text-cyan-700 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300 prose-td:border-gray-300 prose-td:border prose-td:px-4 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 [&_blockquote_.callout-title]:flex [&_blockquote_.callout-title]:gap-2 [&>*>*>:first-child]:mt-0 [&>*>*>:last-child]:mb-0"
+            >
+                <div onWheelCapture={stopIfMermaid} onPointerDownCapture={stopIfMermaid}>
+                    <Streamdown
+                        mode="static"
+                        remarkPlugins={[...Object.values(defaultRemarkPlugins), remarkObsidian]}
+                        rehypePlugins={[defaultRehypePlugins.raw, rehypeUnwrapLiParagraphs]}
+                        plugins={{ mermaid }}
+                        controls={{ code: { copy: true, download: false }, mermaid: false }}
+                        components={components}
+                    >
+                        {markdown}
+                    </Streamdown>
+                </div>
             </article>
             {comments && (
                 <div className="md:px-4">
@@ -100,15 +101,16 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
 export const getStaticProps = async ({ params }) => {
     const permalink = params?.permalink?.[0] ?? INDEX_FILE;
 
-    const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink);
+    const markdownFiles = await getContentList();
 
-    const source = await compile(markdown);
+    const { markdown: rawMarkdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink, markdownFiles);
 
     await createCoverSvg(content?.title, content?.permalink);
 
     const isIndex = permalink?.toLowerCase() === INDEX_FILE?.toLowerCase();
+    const markdown = resolveWikilinks(rawMarkdown, markdownFiles);
 
-    return { props: { source, isIndex, ...content } };
+    return { props: { markdown, isIndex, ...content } };
 };
 
 export const getStaticPaths = async () => {
