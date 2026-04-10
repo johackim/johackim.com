@@ -30,4 +30,5 @@ Références :
 - https://effectiviology.com/halo-effect/
 - https://braink.it/principles/halo-effect
 - https://cm.stackedmarketer.com/t/j-e-wyuydhy-dkhjslutd-yh/
+- [Gnooki - Le biais qui décide si les gens t’aiment ou pas](https://youtu.be/yAGQxGPMti8)
 - https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recuwMDLiVwaywCQJ

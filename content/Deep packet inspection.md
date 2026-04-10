@@ -15,6 +15,7 @@ L'inspection profonde de paquets ou **DPI** (deep packet inspection) est une tec
 
 Références :
 
+- https://github.com/x011/smtp-tunnel-proxy
 - https://github.com/ValdikSS/GoodbyeDPI
 - https://github.com/xvzc/SpoofDPI
 - [[Cybersécurité]]

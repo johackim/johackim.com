@@ -544,8 +544,8 @@ Au lieu de cela, ils sont distribués via des fichiers exécutables (c'est-à-di
 
 Sur Twitter, il y a plusieurs bons exemples de SaaS :
 
-- [Simon Høiberg](https://twitter.com/simonhoiberg) qui a créé [Sigmetic](https://web.archive.org/web/20210123095701/https%3A%2F%2Fsigmetic%2Eio) lors du défi [100DaysOfTechStartup](https://web.archive.org/web/20201101052701/https%3A%2F%2F100daysoftechstartup%2Ecom)
-- [Daniel Vassallo](https://twitter.com/dvassallo) qui construit actuellement [Userbase](https://userbase.com/)
+- [Simon Høiberg](https://x.com/simonhoiberg) qui a créé [Sigmetic](https://web.archive.org/web/20210123095701/https%3A%2F%2Fsigmetic%2Eio) lors du défi [100DaysOfTechStartup](https://web.archive.org/web/20201101052701/https%3A%2F%2F100daysoftechstartup%2Ecom)
+- [Daniel Vassallo](https://x.com/dvassallo) qui construit actuellement [Userbase](https://userbase.com/)
 
 Ce sont des personnes ayant des compétences en logiciel qui ont créé leurs propres produits SaaS, les ont commercialisées via Twitter et qui gagnent maintenant de l'argent grâce à leurs produits.
 

@@ -26,6 +26,12 @@ Installation sur Arch Linux :
 sudo pacman -S gnupg
 ```
 
+Ajouter la ligne suivante dans le fichier `~/.gnupg/gpg-agent.conf` :
+
+```conf
+pinentry-program /usr/bin/pinentry-gtk
+```
+
 ## Initialisation
 
 Pour initialiser GnuPG, il faut créer une clé de chiffrement

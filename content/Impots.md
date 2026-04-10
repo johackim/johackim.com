@@ -68,6 +68,8 @@ Pour les joindre, rendez-vous sur https://cfspro.impots.gouv.fr/mire/accueil.do 
 
 Extrait Kbis ou [avis de situation au répertoire Sirene / Extrait RNE](https://avis-situation-sirene.insee.fr) (Attestation de l'INSEE) quand on est auto-entrepreneur.
 
+À partir de 77 700€ par an, je ne suis plus auto-entrepreneur.
+
 ## Impots sur le revenu
 
 - Tranche 1 : Moins de 11 294€ = 0% d'impots

@@ -19,7 +19,7 @@ J'utilise cette technique sur [mon blog](https://github.com/johackim/johackim.co
 
 ## Avec une requête cURL
 
-Si vous exécutez la commande suivante, vous obtiendrez le nombre de followers de [mon compte Twitter](https://twitter.com/_johackim) :
+Si vous exécutez la commande suivante, vous obtiendrez le nombre de followers de [mon compte Twitter](https://x.com/_johackim) :
 
 ```bash
 curl -sL --insecure https://nitter.net/_johackim \

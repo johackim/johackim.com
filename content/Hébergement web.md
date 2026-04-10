@@ -5,6 +5,7 @@ permalink: hebergement-web
 tags:
   - moc
 aliases:
+  - DevOps
   - Sysadmin
   - Self-hosted
   - Self-hosting

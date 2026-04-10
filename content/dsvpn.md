@@ -3,6 +3,8 @@ datePublished: 2021-08-01T21:31
 dateUpdated: 2021-08-01T21:31
 title: Installer un serveur VPN (très rapidement) avec dsvpn
 permalink: installer-un-serveur-vpn-avec-dsvpn
+aliases: [Installer un serveur VPN avec dsvpn]
+links: "[[VPN]]"
 publish: true
 rss: true
 note: 67
@@ -49,9 +51,3 @@ sudo dsvpn client vpn.key <server_ip> <port>
 ```
 
 Voilà ! 😀
-
----
-
-Références :
-
-- [[VPN]]

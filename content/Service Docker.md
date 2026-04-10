@@ -42,3 +42,9 @@ Pour stopper un service :
 ```bash
 docker service scale ghost=0
 ```
+
+Pour ajouter/modifier une variable d'environnement :
+
+```bash
+docker service update --env-add NOM_DE_LA_VARIABLE=nouvelle_valeur nom_du_service
+```

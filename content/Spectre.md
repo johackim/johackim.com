@@ -24,7 +24,7 @@ Cela m'évite de fournir ma vie à des gestionnaires de mots de passe propriéta
 Exemple : si vous voulez générer/retrouver le mot de passe de l'un de vos comptes (ex : Twitter), vous devez renseigner 3 informations dans l'application :
 
 1. Votre Identifiant Twitter (ex : johackim)
-2. L'URL ou le nom de l'application (ex : twitter.com)
+2. L'URL ou le nom de l'application (ex : x.com)
 3. Votre MasterPassword (ex : mym@sterp@ssw0rd)
 
 Et cela vous génère un mot de passe unique basé sur ces 3 informations que vous pouvez utiliser en tant que mot de passe Twitter.
@@ -56,7 +56,7 @@ java -jar masterpassword-gui.jar
 Lancer l'application sur votre périphérique préféré et renseigner les 3 informations suivantes :
 
 1. Votre Identifiant (nom d'utilisateur ou e-mail)
-2. L'URL ou le nom de l'application (ex : twitter.com ou twitter)
+2. L'URL ou le nom de l'application (ex : x.com ou twitter)
 3. Votre MasterPassword (ex : mym@sterp@ssw0rd)
 
 ```bash

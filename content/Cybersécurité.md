@@ -114,3 +114,5 @@ Références :
 - https://sectools.org
 - https://goodreads.com/review/list/85931536-johackim?shelf=hacker
 - https://portswigger.net/web-security
+- https://github.com/KeygraphHQ/shannon
+- https://github.com/mukul975/Anthropic-Cybersecurity-Skills

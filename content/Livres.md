@@ -89,3 +89,6 @@ Références :
 - [Sloww Reading List (400+ Books)](https://docs.google.com/spreadsheets/d/19SYBbt972qQzpbC55Puvi52YInUwQSABHXFhPT_w_Ac/)
 - https://lifeclub.org/book-categories/
 - https://scotthyoung.com/blog/2022/12/13/the-ten-book-rule-for-smarter-thinking/
+- https://hardcover.app
+- https://goodreads.com
+- https://thestorygraph.com

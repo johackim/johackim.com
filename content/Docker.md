@@ -5,6 +5,7 @@ datePublished: 2021-05-17T17:32
 dateUpdated: 2021-05-17T17:32
 publish: true
 comments: false
+tags: [moc]
 note: 74
 ---
 
@@ -72,6 +73,9 @@ docker ps -f id=$(grep -o "[0-9a-f]\{64\}" /proc/<PID>/cgroup | head -n 1)
 
 # Connaitre la raison du crash d'un conteneur
 docker inspect <container> --format='Code: {{.Status.ContainerStatus.ExitCode}} Raison: {{.Status.Message}}'
+
+# Vérifier le entrypoint et la command d'une image docker (sans oublier de pull l'image)
+docker inspect <image>:<version> --format 'ENTRYPOINT: {{json .Config.Entrypoint}} CMD: {{json .Config.Cmd}}'
 
 # Composer une stack docker
 docker compose -f <stack.yml> config

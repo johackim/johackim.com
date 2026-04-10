@@ -4,6 +4,7 @@ dateUpdated: 2021-05-18T21:17
 permalink: pare-feu
 aliases:
   - Firewall
+  - Blocklist
 publish: true
 rss: true
 note: 65
@@ -27,5 +28,6 @@ Et voici une liste d'IPs à bloquer :
 - https://blocklist.de/en/index.html
 - https://feeds.dshield.org/block.txt
 - https://spamhaus.org/drop/drop_v4.json
-- https://iplists.firehol.org/ (https://github.com/firehol/blocklist-ipsets/)
+- https://github.com/firehol/blocklist-ipsets/
+- https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist/
 - https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt

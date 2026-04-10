@@ -9,6 +9,8 @@ aliases:
 publish: true
 rss: true
 note: 84
+links:
+    - "[[Matomo]]"
 ---
 
 Consultez facilement le parcours et les taux de conversion des actions de vos visiteurs (inscription, achat en ligne, etc..) à l'aide de la fonctionnalité Funnel de Matomo.

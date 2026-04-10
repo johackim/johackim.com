@@ -69,3 +69,4 @@ Références :
 - [API de Spotify 2](https://developer.spotify.com/console/)
 - [Documentation OAuth de spotify](https://developer.spotify.com/documentation/general/guides/authorization/)
 - [Grafikart - Comprendre l'OAUTH 2.0](https://grafikart.fr/tutoriels/oauth2-php-google-1171)
+- [[Spotify]]

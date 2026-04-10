@@ -38,7 +38,7 @@ C'est un concept qui peut être appliqué dans plusieurs domaines et qui nous ai
 - [[Le principe d'inversion]]
 - [[Méthode scientifique]]
 - [[Loi de Parkinson]]
-- [[Contraste]]
+- [[Contrast]]
 - [[Game theory]]
 - [[Correlation vs. Causalité]]
 - [[The Paradox of Choice]]
@@ -66,8 +66,8 @@ Références :
 - [James Clear - Mental Models](https://jamesclear.com/mental-models)
 - [Buy a deck of mental models](https://wisecharlie.com/)
 - [30 mental models to add to your thinking toolbox](https://nesslabs.com/mental-models)
-- [40 powerful concepts for understanding the world](https://twitter.com/G_S_Bhogal/status/1225561131122597896)
-- [40 useful concepts you should know](https://twitter.com/G_S_Bhogal/status/1492255231169679365)
+- [40 powerful concepts for understanding the world](https://x.com/G_S_Bhogal/status/1225561131122597896)
+- [40 useful concepts you should know](https://x.com/G_S_Bhogal/status/1492255231169679365)
 - [Kevin Kirkpatrick - Path Nine](https://pathnine.substack.com/)
 - [Laws, Theories, Principles and Patterns that developers will find useful](https://github.com/dwmkerr/hacker-laws)
 - [BJJ Mental Models](https://bjjmentalmodels.com/database/)

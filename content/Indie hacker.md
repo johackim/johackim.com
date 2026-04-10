@@ -6,6 +6,41 @@ datePublished: 2022-11-17T11:45:42
 dateUpdated: 2024-01-02T15:27:43
 publish: true
 rss: true
+links:
+  - "[[AARRR]]"
+  - "[[Boilerplate]]"
+  - "[[Business model]]"
+  - "[[Canaux d'acquisition]]"
+  - "[[Changelog]]"
+  - "[[Do Things That Don't Scale]]"
+  - "[[Étude de marché]]"
+  - "[[Evergreen]]"
+  - "[[Financement pour bootstrapeurs]]"
+  - "[[Flights]]"
+  - "[[Franchise]]"
+  - "[[Jobs to be done]]"
+  - "[[KPI]]"
+  - "[[L'échelle de la valeur]]"
+  - "[[Landing Page]]"
+  - "[[Lancement]]"
+  - "[[Lead magnet]]"
+  - "[[Lean Canvas]]"
+  - "[[Lean manufacturing]]"
+  - "[[Les cinq éléments de toute entreprise]]"
+  - "[[Méthodes agiles]]"
+  - "[[Nom]]"
+  - "[[Onboarding]]"
+  - "[[Positionnement]]"
+  - "[[Pricing]]"
+  - "[[Product Market Fit]]"
+  - "[[Product-Led Growth]]"
+  - "[[Productisation]]"
+  - "[[Proposition de valeur unique]]"
+  - "[[Ramen profitability]]"
+  - "[[Roadmap]]"
+  - "[[Service client]]"
+  - "[[Typographie]]"
+  - "[[Validation]]"
 ---
 
 Je vous partage les bases de tout ce que vous devez savoir à propos des indie hackers, même si vous n'avez pas beaucoup de temps.
@@ -67,13 +102,13 @@ Cela demande un grand nombre d'itérations et peut prendre plusieurs années ava
 
 Voici quelques exemples de indie hackers connus :
 
-- [Pieter Levels](https://twitter.com/levelsio) - Créateur de [Nomadlist](https://nomadlist.com/) -> ([40,000€ / mois](https://indiehackers.com/product/nomad-list/revenue))
-- [Arvid Kahl](https://twitter.com/arvidkahl) - Créateur de [Feedback Panda](https://feedbackpanda.com/) -> ([55,000€ / mois](https://indiehackers.com/product/feedbackpanda))
-- [Danny Postma](https://twitter.com/dannypostmaa) - Créateur de [Headlime](https://headlime.com/) -> ([20, 000€ / mois](https://failory.com/interview/headlime))
-- [Alex West](https://twitter.com/alexwestco) - Créateur de [Cyberleads](https://getcyberleads.com/) -> ([35, 000€ / mois](https://twitter.com/alexwestco/status/1587144417613324290))
-- [Jon Yongfook](https://twitter.com/yongfook) - Créateur de [Bannerbear](https://bannerbear.com/) -> ([46, 000€ / mois](https://bannerbear.com/open/))
-- [Jakob Greenfeld](https://twitter.com/jakobgreenfeld) - Créateur de [Opportunities](https://opportunities.so/)
-- [Jim raptis](https://twitter.com/d__raptis) - Créateur de [Brandbird](https://brandbird.app/)
+- [Pieter Levels](https://x.com/levelsio) - Créateur de [Nomadlist](https://nomadlist.com/) -> ([40,000€ / mois](https://indiehackers.com/product/nomad-list/revenue))
+- [Arvid Kahl](https://x.com/arvidkahl) - Créateur de [Feedback Panda](https://feedbackpanda.com/) -> ([55,000€ / mois](https://indiehackers.com/product/feedbackpanda))
+- [Danny Postma](https://x.com/dannypostmaa) - Créateur de [Headlime](https://headlime.com/) -> ([20, 000€ / mois](https://failory.com/interview/headlime))
+- [Alex West](https://x.com/alexwestco) - Créateur de [Cyberleads](https://getcyberleads.com/) -> ([35, 000€ / mois](https://x.com/alexwestco/status/1587144417613324290))
+- [Jon Yongfook](https://x.com/yongfook) - Créateur de [Bannerbear](https://bannerbear.com/) -> ([46, 000€ / mois](https://bannerbear.com/open/))
+- [Jakob Greenfeld](https://x.com/jakobgreenfeld) - Créateur de [Opportunities](https://opportunities.so/)
+- [Jim raptis](https://x.com/d__raptis) - Créateur de [Brandbird](https://brandbird.app/)
 
 ## 📚 Meilleurs livres de indie hackers
 
@@ -109,7 +144,7 @@ Voici les communautés de indie hackers les plus connus :
 - [MicroFounder](https://microfounder.com/) 🇺🇸
 - [Women Make](https://womenmake.com/) 🇺🇸
 - [Indie maker](https://indiemakers.fr/) 🇫🇷
-- [Le chantier](https://lechantier.co/) 🇫🇷
+- ~~[Le chantier](https://lechantier.co/) 🇫🇷~~ (RIP)
 
 ## 🔗 Autres ressources
 
@@ -117,3 +152,8 @@ Voici quelques liens et sites internet sur le sujet :
 
 - https://github.com/johackim/awesome-indiehackers
 - https://makerbox.club
+- https://whatisanindiemaker.com/
+- https://rameerez.com/what-is-indie-hacking/
+- https://entrepreneurlist.io/
+- https://landingfolio.com/library
+- https://thenounproject.com/

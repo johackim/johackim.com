@@ -3,6 +3,7 @@ datePublished: 2022-03-20T23:17
 dateUpdated: 2022-03-20T23:17
 aliases:
   - Antifragility
+  - Antifragilité
 title: Antifragile
 permalink: antifragile
 publish: true

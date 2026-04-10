@@ -42,6 +42,7 @@ Optimisez la qualité de votre classement dans les moteurs de recherche.
 - [[Long-tail keywords]]
 - [[SEO on-page]]
 - [[Groupbuy#SEO|SEO Groupbuy]]
+- E-E-A-T
 - dofollow/nofollow
 
 ---
@@ -70,7 +71,7 @@ Références :
 - [Woorank](https://woorank.com/)
 - [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
 - [Débugger les meta tags de Google](https://search.google.com/structured-data/testing-tool/)
-- [Débugger les meta tags de Twitter](https://cards-dev.twitter.com/validator)
+- [Débugger les meta tags de Twitter](https://cards-dev.x.com/validator)
 - [Débugger les meta tags](https://metatags.io/)
 - https://keywordseverywhere.com/
 - https://seoreviewtools.com/content-analysis/
@@ -79,5 +80,4 @@ Références :
 - https://backlinko.com/seo-checklist
 - https://backlinko.com/seo-tools
 - https://fr.semrush.com/blog/checklist-seo/
-- https://gregberge.com/fr/blog/gatsby-seo
 - https://issuedetector.com/

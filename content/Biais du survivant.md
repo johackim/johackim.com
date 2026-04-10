@@ -4,8 +4,7 @@ dateUpdated: 2021-07-11T09:50
 permalink: biais-du-survivant
 publish: true
 rss: true
-aliases:
-  - Survivorship bias
+aliases: [Survivorship bias]
 ---
 
 Notre tendance à privilégier les succès d'une histoire plutôt que les échecs.

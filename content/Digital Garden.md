@@ -7,11 +7,14 @@ rss: true
 aliases:
   - Jardin numérique
 note: 61
+links:
+  - "[[PKM]]"
 ---
 
 Un jardin numérique (en anglais : digital garden) est un espace en ligne qui se trouve à l'intersection d'un carnet de notes et d'un blog, où des graines de pensées sont partagés et cultivés en public.
 
-> The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the resulting "showpiece" and more on the process, care, and craft it takes to get there. - Joel Hooks
+> [!QUOTE] Joel Hooks
+> The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the resulting "showpiece" and more on the process, care, and craft it takes to get there.
 
 ---
 

@@ -72,5 +72,5 @@ Références :
 - https://useronboard.com/features-vs-benefits/
 - https://medium.com/startup-grind/people-dont-buy-products-they-buy-better-versions-of-themselves-2ce85fdb5ff1
 - https://swipefile.com/writing-feature-benefits-formula/
-- https://twitter.com/AaronOrendorff/status/1569395857375518721
+- https://x.com/AaronOrendorff/status/1569395857375518721
 - [Marketing Mania - La psychologie diabolique des clubs de strip-tease](https://youtu.be/Usu8b7ibPzA?t=1046)

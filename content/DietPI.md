@@ -63,7 +63,7 @@ Pour activer le bluetooth :
 apt install -y bluez-alsa-utils
 ```
 
-3. Créer la configuration suivante :
+1. Créer la configuration suivante :
 
 ```bash
 sudo cp /etc/asound.conf /etc/asound.conf.bak

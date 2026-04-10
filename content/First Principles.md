@@ -55,7 +55,7 @@ Références :
 - https://betterprogramming.pub/first-principles-thinking-the-most-powerful-way-to-think-947ac6717057
 - https://web.archive.org/web/20190403111940/www.wired.com/2012/10/ff-elon-musk-qa/
 - https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/
-- https://twitter.com/george__mack/status/1699109802020852223
+- https://x.com/george__mack/status/1699109802020852223
 - [[Corey Haines - Mental Models For Marketing]]
 - [[La technique de l'échelle]]
 - [[Les 5 pourquoi]]

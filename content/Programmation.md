@@ -35,7 +35,6 @@ comments: false
 - [[gitignore|.gitignore]]
 - [[React]]
 - [[JavaScript]]
-- [[Gatsby]]
 - [[Jest]]
 - [[Vim]]
 - [[CSS]]

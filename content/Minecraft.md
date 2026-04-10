@@ -89,9 +89,9 @@ Par exemple, pour le shader [Shrimple](https://modrinth.com/shader/shrimple) (qu
 java -jar Iris-Installer-3.2.1.jar
 ```
 
-2. Puis téléchargez le shader shrimple au format zip et placez-le dans le dossier `~/.minecraft/shaderpacks/`.
+1. Puis téléchargez le shader shrimple au format zip et placez-le dans le dossier `~/.minecraft/shaderpacks/`.
 
-3. Démarrez Minecraft avec iris depuis le launcher officiel.
+2. Démarrez Minecraft avec iris depuis le launcher officiel.
 
 ## Installer une map
 

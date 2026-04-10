@@ -27,6 +27,13 @@ C'est ce que certains bouddhistes appellent "The Monkey Mind".
 
 La [[Mindfulness|pleine conscience]] est une pratique qui permet de réduire l'activité de cette partie du cerveau.
 
+<!-- ignore -->
+
+> [!QUOTE] Gemini Pro 3
+> De nombreuses pensées surgissent de manière involontaire, déclenchées par notre environnement (une odeur, un mot), nos émotions ou nos souvenirs. En neurosciences, cela est souvent lié au Réseau du Mode par Défaut (DMN), qui s'active quand le cerveau "rêvasse".
+
+<!-- end ignore -->
+
 ---
 
 Références :

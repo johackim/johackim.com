@@ -110,15 +110,12 @@ iptables -F -t nat
 iptables -X
 iptables -X -t mangle
 iptables -X -t nat
-iptables -F INPUT
 iptables -A INPUT -i lo -j ACCEPT
-iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-iptables -A INPUT -p tcp --dport 80 -j ACCEPT
-iptables -A INPUT -p tcp --dport 443 -j ACCEPT
-iptables -A INPUT -j DROP
+iptables -P INPUT DROP
 iptables-save > /etc/iptables/iptables.rules
-sudo systemctl enable --now iptables.service
+systemctl enable --now iptables.service
 ```
 
 Elle permet de bloquer toutes les connexions entrantes.

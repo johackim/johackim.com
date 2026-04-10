@@ -7,6 +7,8 @@ aliases:
 publish: true
 rss: true
 note: 71
+links:
+    - "[[Monitoring]]"
 ---
 
 Pour monitorer une infrastructure, il existe Grafana et Prometheus.

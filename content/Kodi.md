@@ -37,6 +37,15 @@ PS2 : Si vous n'arrivez pas à installer l'Add-on YouTube, exécutez la commande
 
 Pour éviter les erreurs "Lost websocket connection" de Chorus, activer le paramètre "Allow remote control from applications on other systems".
 
+## Bug "Can not initialize OpenGL context" et "Unable to init rendering system"
+
+Le seul moyen que j'ai trouvé pour résoudre ce problème c'est d'utiliser [[Flatpak]] :
+
+```bash
+flatpak install flathub tv.kodi.Kodi
+flatpak run tv.kodi.Kodi
+```
+
 ---
 
 J'ai une erreur de bar verte lorsque je regarde une vidéo sur Kodi via la distribution Dietpi.

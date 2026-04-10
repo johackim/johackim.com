@@ -9,7 +9,7 @@ import Code from '../components/code';
 import Progress from '../components/progress';
 import { getContentList, getContent, getArticlesPage, createCoverSvg, compile } from '../lib/utils';
 
-const INDEX_FILE = 'Start';
+const INDEX_FILE = '202104091703';
 
 const components = {
     pre: Code,
@@ -115,7 +115,7 @@ export const getStaticPaths = async () => {
     const markdownFiles = await getContentList();
 
     const paths = markdownFiles
-        .filter(({ permalink }) => permalink?.toLowerCase() !== INDEX_FILE?.toLowerCase())
+        .filter(({ fileName }) => fileName !== INDEX_FILE)
         .map(({ permalink }) => ({ params: { permalink: [permalink] } }));
 
     paths.push({ params: { permalink: [] } });

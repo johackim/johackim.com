@@ -2,7 +2,7 @@
 title: Restic
 permalink: restic
 datePublished: 2021-05-17T17:32
-dateUpdated: 2024-12-04T10:09:00
+dateUpdated: 2026-04-02T00:00
 publish: true
 rss: true
 note: 78
@@ -10,14 +10,14 @@ note: 78
 
 Pour sauvegarder des données sous Linux, il existe [restic](https://github.com/restic/restic) en tant que logiciel de backups.
 
-Restic peut sauvegarder des données sur différent backends :
+Restic peut sauvegarder des données sur différents backends :
 
 - Buckets S3 (minio, scaleway, AWS, etc...)
 - SFTP
 - Local
 - Etc...
 
-Chaque fois que vous lancez la commande `restic backup`, cela créer un nouvel instantané (un "snapshot") immuable qui est une photographie de l'état de vos fichiers à ce moment précis.
+Chaque fois que vous lancez la commande `restic backup`, cela crée un nouvel instantané (un "snapshot") immuable qui est une photographie de l'état de vos fichiers à ce moment précis.
 
 Et si vous souhaitez plus de [backends](https://rclone.org/#providers) (Nextcloud, Dropbox, OVH, etc...), il est possible de coupler restic avec [[Rclone]].
 
@@ -79,6 +79,12 @@ RESTIC_PASSWORD="MY_PASSWORD"
 restic snapshots
 ```
 
+## Vérifier l'intégrité d'un repository
+
+```bash
+restic check
+```
+
 ## Restaurer une sauvegarde
 
 ```bash
@@ -101,7 +107,13 @@ restic mount <folder>
 
 ## Libérer de l'espace
 
-Pour libérer de l'espace :
+Pour libérer de l'espace en supprimant les données qui ne sont plus référencées dans aucun snapshot :
+
+```bash
+restic prune
+```
+
+Pour libérer de l'espace en gardant uniquement les snapshots des 30 derniers jours :
 
 ```bash
 restic forget --keep-within 30d --prune
@@ -119,7 +131,7 @@ restic self-update
 
 ## Débloquer l'accès
 
-Si pour une raison ou une autre votre accès est bloqué, exécuter la commande suivante :
+Si pour une raison ou une autre votre accès est bloqué, exécutez la commande suivante :
 
 ```bash
 kill <pid>
@@ -175,7 +187,7 @@ RandomizedDelaySec=300
 WantedBy=timers.target
 ```
 
-Activez le timer :
+Activer le timer :
 
 ```bash
 sudo loginctl enable-linger <user>
@@ -183,3 +195,37 @@ reboot
 systemctl --user daemon-reload
 systemctl --user enable --now restic.timer
 ```
+
+Désactiver le timer :
+
+```bash
+systemctl --user disable --now restic.timer
+```
+
+Pour déclencher le backup manuellement :
+
+```bash
+systemctl --user --no-block start restic.service
+```
+
+## Optimiser un repository
+
+Vérifier la version du repository :
+
+```bash
+restic cat config
+```
+
+Si le repository est en version 1, il faut le migrer en version 2 :
+
+```bash
+restic migrate upgrade_repo_v2
+```
+
+Et exécuter la commande suivante pour optimiser le repository :
+
+```bash
+RESTIC_COMPRESSION=max restic prune --repack-uncompressed [--dry-run]
+```
+
+Utilisez bien l'option `--dru-run` pour vérifier que l'optimisation vaut bien le coup avant de lancer la commande, car c'est une commande très lourde.

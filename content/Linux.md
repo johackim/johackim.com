@@ -54,7 +54,7 @@ comments: false
 - [[Fonts]]
 - [[i3]]
 - [[Polybar]]
-- [[Wpg]]
+- [[Wpgtk]]
 - [[Polkit]]
 - [[Variables d'enviromments]]
 - [[Kernel]]

@@ -33,4 +33,4 @@ Références :
 - https://github.com/s0md3v/be-a-hacker
 - http://paulgraham.com/gh.html
 - https://danielmiessler.com/study/programmer_hacker_developer/
-- https://twitter.com/samykamkar
+- https://x.com/samykamkar

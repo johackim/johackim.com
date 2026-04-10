@@ -31,7 +31,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto('https://johackim.com');
-  await page.screenshot({ path: 'example.png' });
+  await page.screenshot({ path: 'example.png', fullPage: true });
 
   await browser.close();
 })();
@@ -109,3 +109,8 @@ await puppeteer.launch({ headless: false });
 ```
 
 Cela vous permettra de visualiser le rendu directement depuis un vrai navigateur.
+
+## Alternatives
+
+- [Selenium](https://github.com/SeleniumHQ/selenium)
+- [Playwright](https://github.com/microsoft/playwright)

@@ -6,7 +6,7 @@ publish: true
 note: 49
 ---
 
-Pour installer [docker](https://docker.com/) sur un serveur Linux (Ubuntu ou Debian), il suffit d'exécuter cette commande :
+Pour installer [docker](https://docker.com/) sur un serveur Linux (Ubuntu ou Debian), il suffit d'exécuter la commande suivante :
 
 ```bash
 apt update && apt install -yq docker.io

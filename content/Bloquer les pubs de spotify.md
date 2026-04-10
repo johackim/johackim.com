@@ -24,3 +24,4 @@ Références :
 - https://github.com/abba23/spotify-adblock
 - https://github.com/serialoverflow/blockify
 - https://github.com/x0uid/SpotifyAdBlock
+- [[Spotify]]

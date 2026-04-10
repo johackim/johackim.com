@@ -15,7 +15,7 @@ Il analyse le comportement des visiteurs via les logs et répond de manière ada
 - Bloquer l'adresse IP
 - Ajouter un captcha
 - Ajouter un code HTTP 403
-- ect...
+- etc.
 
 Les adresses IP agressives sont envoyées à CrowdSec pour être partagés entre tous les utilisateurs afin d'améliorer la sécurité de chacun.
 
@@ -110,9 +110,16 @@ Cela vous permettra d'ajouter des blocklists facilement.
 
 Le plus simple pour ajouter une blocklist, c'est de passer par la [[#Console de CrowdSec|console]].
 
-Mais il est possible d'importer manuellement une blocklist (ex: https://github.com/firehol/blocklist-ipsets/) :
+Mais il est possible d'importer manuellement une blocklist (ex: https://github.com/firehol/blocklist-ipsets/ ou https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist/) :
 
 ```bash
+# Depuis un fichier local
+cscli decisions import --format values -i blocklist.txt
+
+# Depuis une URL
+curl -s https://raw.githubusercontent.com/... | cscli decisions import -i -
+
+# Alternative si import non disponible
 for ip in $(cat blocklist.txt); do cscli decisions add -t ban -i "$ip"; done
 ```
 
@@ -275,7 +282,7 @@ nikto -host https://example.com
 > [!NOTE]
 > Effectuer ce test via une autre adresse IP (ex: via un VPN) pour éviter d'être bloqué 😅.
 
-Puis vérifiez les décisions de crowdec :
+Puis vérifiez les décisions de crowdsec :
 
 ```bash
 sudo cscli decisions list
@@ -306,7 +313,7 @@ Une fois installé, j'ajoute la configuration suivante dans le fichier `/etc/cro
 
 ```txt
 filenames:
-  - /var/log/traefik/access.log
+  - /var/log/traefik/access.json
 labels:
   type: traefik
 ```
@@ -343,7 +350,7 @@ J'ai quelques erreur au démarrage de traefik :
 ERR Error calling http://crowdsec_bouncer:8080/api/v1/forwardAuth error="Get \"http://crowdsec_bouncer:8080/api/v1/forwardAuth\": context canceled" middlewareName=crowdsec-bouncer@file middlewareType=ForwardAuth
 ```
 
-Mais cela n'empêche un bon fonctionnement. Cela semble être des faux positifs.
+Mais cela n'empêche pas un bon fonctionnement. Cela semble être des faux positifs.
 
 Je vous conseille d'ajouter une tâche cron avec [[logrotate]] pour limiter la taille des fichiers de log afin d'éviter de saturer votre stockage :
 
@@ -354,7 +361,7 @@ Je vous conseille d'ajouter une tâche cron avec [[logrotate]] pour limiter la t
 Avec la configuration suivante dans le fichier `/etc/logrotate.d/traefik` :
 
 ```txt
-/var/log/traefik/access.log {
+/var/log/traefik/access.json {
     rotate 14
     missingok
     notifempty
@@ -402,7 +409,20 @@ Possibilité de chercher des collections ou des scenario depuis les pages suivan
 ```bash
 cscli alert list --ip <ip>
 cscli alert inspect <id>
-cat /var/log/traefik/access.log | grep <ip>
+cat /var/log/traefik/access.json | grep <ip>
+cscli decisions remove --ip <ip>
+```
+
+## Supprimer toutes les décisions
+
+```bash
+cscli decisions delete --all
+```
+
+## Débugger une requête
+
+```bash
+echo $(tail -n1 /var/log/traefik/access.json) | cscli explain --file - --type=json --verbose
 ```
 
 ---

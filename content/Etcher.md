@@ -15,6 +15,16 @@ Il vous permet de graver des images disque (.iso, .img, etc.) sur des supports d
 
 Utile pour créer une [[USB|clé USB]] bootable et installer un système d'exploitation (ex: Ubuntu, Windows, etc...) sur un ordinateur.
 
+## Installation
+
+Sur Arch Linux :
+
+```bash
+yay -S --noconfirm etcher-bin
+```
+
+## Utilisation
+
 Une fois installé, il vous suffit de :
 
 1. Télécharger votre image disque (exemple : [Ubuntu](https://www.ubuntu-fr.org/download/))

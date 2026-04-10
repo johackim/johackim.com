@@ -36,6 +36,8 @@ Pour démarrer le service ollama :
 
 ```bash
 sudo systemctl start ollama
+# Ou
+ollama *serve*
 ```
 
 ## Utilisation
@@ -91,7 +93,19 @@ Nos données restent privées et l'on peut discuter avec un modèle d'IA sans ê
 
 ## Désinstallation
 
-Pour désintaller Ollama :
+Pour désinstaller Ollama installé via le script `curl` :
+
+```bash
+sudo systemctl disable --now ollama
+sudo rm /etc/systemd/system/ollama.service
+sudo rm -r $(which ollama | tr 'bin' 'lib')
+sudo rm $(which ollama)
+sudo userdel ollama
+sudo groupdel ollama
+sudo rm -r /usr/share/ollama
+```
+
+Pour désinstaller Ollama sur Arch Linux :
 
 ```bash
 sudo systemctl disable --now ollama

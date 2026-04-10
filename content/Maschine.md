@@ -12,7 +12,8 @@ note: 83
 
 Si vous êtes compositeur de musiques, voici toutes les étapes à suivre pour installer un environnement de musique sur Windows avec Ableton et Maschine.
 
-**DISCLAIMER : Tout ce qui est dans cet article est présenté uniquement à des fins éducatives. Les liens présents dans cet article ne proviennent pas de moi ou d'une source officielle. Veuillez suivre ce tutoriel UNIQUEMENT en connaissance de cause.**
+> [!WARNING] Disclaimer
+> Tout ce qui est dans cet article est présenté uniquement à des fins éducatives. Les liens présents dans cet article ne proviennent pas de moi ou d'une source officielle. Veuillez suivre ce tutoriel UNIQUEMENT en connaissance de cause.**
 
 ## Installation de Ableton
 
@@ -83,6 +84,18 @@ PS : Certaines bibliothèques (ex: rounds ou razor) demande l'installation d'un 
 <!-- ignore -->
 
 Les installations VR semble mieux fonctionner que les R2R ?
+
+## Utilisation de Maschine
+
+- Pad mode pour sélectionner une piste
+- Browser plugin pour sélectionner un instrument
+- Keyboard pour jouer des notes simples
+- Chords pour jouer des sortes d'accords
+- Shift+rec pour démarrer au début
+- Play pour démarrer le métro/le son enregistré
+- Note repeat pour jouer des répétitions de note en auto
+- Mute pour muter une piste
+- Mixer pour changer le volume d'un instrument
 
 ---
 

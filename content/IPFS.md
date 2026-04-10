@@ -173,6 +173,7 @@ Références :
 
 - https://filebase.com/
 - https://thebidouilleur.xyz/blog/ipfs/
+- https://github.com/glitternetwork/pinme
 - https://github.com/ipfs-cluster/ipfs-cluster/
 - https://github.com/ipfs-shipyard/ipfs-deploy
 - https://ipfs.github.io/public-gateway-checker/

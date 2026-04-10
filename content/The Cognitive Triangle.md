@@ -44,7 +44,7 @@ Pour cela, nous pouvons utiliser plusieurs techniques comme :
 Références :
 
 - https://i.imgur.com/zLgt3bF.png
-- https://twitter.com/george__mack/status/1721117741057220859
+- https://x.com/george__mack/status/1721117741057220859
 - https://therapistaid.com/therapy-worksheet/cbt-triangle
 - https://hudsontherapygroup.com/blog/cognitive-triangle
 - [[Rewire - Nicole Vignola]]

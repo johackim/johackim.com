@@ -49,7 +49,7 @@ Devenez invisible aux yeux du gouvernement, des GAFAM (Google, Facebook, Amazon,
 
 1. [[Supprimer mes données publique|Supprimez vos données publiques]]
 2. [[Metadata]]
-3. [[Éviter les algorithmes de reconnaissance facial]]
+3. [[Reconnaissance facial|Éviter les algorithmes de reconnaissance facial]]
 
 ## VI. Créez-vous une identité anonyme
 
@@ -57,7 +57,7 @@ Devenez invisible aux yeux du gouvernement, des GAFAM (Google, Facebook, Amazon,
 2. [[Compte Facebook anonyme|Créez-vous un compte Facebook anonyme]]
 3. [[Numéro de téléphone anonyme|Détenez un numéro de téléphone anonyme]]
 4. [[Carte bancaire prépayé anonyme|Détenez une carte bancaire prépayé anonyme]]
-5. [[Faites-vous livrer un colis de manière anonyme]]
+5. [[Tracker un colis|Faites-vous livrer un colis de manière anonyme]]
 
 <!-- ignore -->
 

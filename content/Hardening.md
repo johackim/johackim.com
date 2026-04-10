@@ -6,6 +6,8 @@ publish: true
 rss: true
 aliases:
   - Durcissement
+links:
+    - "[[Cybersécurité]]"
 ---
 
 Le durcissement (ou **hardening** en anglais) est un processus destiné à sécuriser un système en réduisant le plus possible sa surface d'attaque.
@@ -44,3 +46,4 @@ ansible-playbook playbook.yml
 Références :
 
 - https://github.com/trimstray/the-practical-linux-hardening-guide
+- https://bearstech.com/societe/blog/linux-hardening-une-approche-pragmatique-transcript-de-webinaire

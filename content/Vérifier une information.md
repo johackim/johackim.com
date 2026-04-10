@@ -2,8 +2,7 @@
 datePublished: 2021-08-15T19:41
 dateUpdated: 2021-08-15T19:41
 permalink: comment-verifier-une-source-information
-aliases:
-  - Comment vérifier la véracité d'une information ?
+aliases: [Comment vérifier la véracité d'une information ?]
 publish: true
 rss: true
 note: 79

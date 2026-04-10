@@ -1,4 +1,7 @@
 ---
+links:
+    - "[[Chatbot]]"
+    - "[[AI]]"
 title: Comment créer un chatbot open-source avec Rasa ?
 permalink: creer-un-chatbot-avec-rasa
 aliases: [Comment créer un chatbot avec Rasa ?]

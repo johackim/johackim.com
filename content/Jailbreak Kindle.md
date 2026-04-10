@@ -106,7 +106,7 @@ install_touch_update_key - Copying the jailbreak updater key
 Developer keys installed successfully (Standard Method)! (pubdevkey01.pem)
 Enabled developer flag
 Enabled mntus exec flag
-                                      
+
 **************************************
 *** Finished installing jailbreak! ***
 ***                                ***

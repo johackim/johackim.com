@@ -190,3 +190,79 @@ Désactiver les règles pour tout un fichier :
 ```js
 /* eslint-disable */
 ```
+
+## Eslint 9
+
+```bash
+npm init
+npm init @eslint/config@latest
+npm pkg set scripts.lint="eslint ."
+yarn lint
+```
+
+```js
+import js from '@eslint/js';
+import { FlatCompat } from '@eslint/eslintrc';
+
+const compat = new FlatCompat({
+    baseDirectory: process.cwd(),
+    recommendedConfig: js.configs.recommended,
+});
+
+export default [
+    ...compat.extends('airbnb-base'),
+    {
+        rules: {
+            indent: [2, 4, { SwitchCase: 1 }],
+            'max-len': [0],
+            'object-curly-newline': [0],
+            'import/no-extraneous-dependencies': [0],
+            'import/prefer-default-export': [0],
+            'no-restricted-syntax': [0],
+            complexity: [2, 7],
+            'max-depth': [2, 2],
+        },
+    },
+];
+```
+
+## Eslint 10
+
+```bash
+yarn add eslint @eslint/eslintrc @eslint/compat eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y globals
+npm pkg set scripts.lint="eslint ."
+yarn lint
+```
+
+```js
+import globals from 'globals';
+import { FlatCompat } from '@eslint/eslintrc';
+import { fixupConfigRules } from '@eslint/compat';
+
+const compat = new FlatCompat({ baseDirectory: process.cwd() });
+
+export default fixupConfigRules([
+    ...compat.extends('airbnb'),
+    {
+        languageOptions: {
+            ecmaVersion: 'latest',
+            sourceType: 'module',
+            globals: {
+                ...globals.browser,
+                ...globals.node,
+            },
+        },
+        rules: {
+            indent: [2, 4, { SwitchCase: 1 }],
+            'max-len': [0],
+            'object-curly-newline': [0],
+            'import/extensions': [0],
+            'import/no-extraneous-dependencies': [0],
+            'import/prefer-default-export': [0],
+            'no-restricted-syntax': [0],
+            complexity: [2, 7],
+            'max-depth': [2, 2],
+        },
+    },
+]);
+```

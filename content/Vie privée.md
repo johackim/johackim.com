@@ -14,7 +14,7 @@ comments: false
 - [[Compte Facebook anonyme]]
 - [[Suivre l'actualité sans réseaux sociaux]]
 - [[Adresse email jetable]]
-- [[Installer un serveur VPN avec dsvpn]]
+- [[dsvpn]]
 - [[BleachBit]]
 - [[Cryptsetup]]
 - [[LineageOS]]
@@ -26,7 +26,6 @@ comments: false
 - [[OSINT]]
 - [[Carte bancaire prépayé anonyme]]
 - [[Serveur anonyme]]
-- [[VPS qui acceptent les cryptomonnaies]]
 - [[Numéro de téléphone anonyme]]
 - [[FairEmail]]
 - [[Anonymisation]]
@@ -49,7 +48,7 @@ Références :
 - https://github.com/tycrek/degoogle
 - https://github.com/Lissy93/personal-security-checklist
 - https://github.com/Lissy93/awesome-privacy
-- https://fmhy.net/adblockvpnguide#privacy
+- https://fmhy.net/privacy
 - https://reddit.com/r/privacy/wiki/index/
 - https://gofoss.net/protect-your-freedom/
 - https://deidentification.co/smart-video-anonymization/

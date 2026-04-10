@@ -50,7 +50,7 @@ Mais il a quelques spécificités de syntaxes supplémentaires :
 - `![[Image.filetype|250]]` : Insérer une image embed de 250px de largeur
 - `![|250](https://site.xyz/image.png)` : Insérer une image de 250px de largeur
 - `![](https://youtube.com/watch?v=NnTvZWp5Q7o)` : Intégrer une vidéo YouTube
-- `![](https://twitter.com/obsdmd/status/1580548874246443010)` : Intégrer un Tweet
+- `![](https://x.com/obsdmd/status/1580548874246443010)` : Intégrer un Tweet
 - `#tag` : Créer un tag
 - `#nested/tag` : Créer un sous-tag
 - `[^Ref]` et `[^Ref]: Footnote text.` : Créer une note de bas de page

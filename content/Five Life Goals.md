@@ -13,7 +13,7 @@ publish: true
 rss: true
 ---
 
-Pour prioriser ses objectifs, Warren Buffet utilise une méthode qu'il appelle **la règle 5/25** (ou la **stratégie des 2 listes**).
+Pour prioriser ses objectifs, il existe une méthode qu'il appelle **la règle 5/25** (ou la **stratégie des 2 listes**).
 
 1. Créez une liste des 25 principales choses que vous aimeriez faire dans la vie.
 2. Gardez les cinq premières choses de cette liste. (The Priority List)
@@ -21,7 +21,8 @@ Pour prioriser ses objectifs, Warren Buffet utilise une méthode qu'il appelle *
 
 Ne travaillez que sur les tâches qui se rapportent aux cinq premiers objectifs.
 
-**PS: Contrairement aux centaines de références à ce sujet [sur internet](https://twitter.com/richwebz/status/1597243978738442240) et [les livres](https://amzn.to/312RSIn), [cette méthode n'a jamais été inventé ni pratiqué par Warren Buffet](https://youtu.be/9d0oTksDb8A?t=5567).**
+> [!WARNING]
+> Contrairement aux centaines de références à ce sujet [sur internet](https://x.com/richwebz/status/1597243978738442240) et [les livres](https://amzn.to/312RSIn), [cette méthode n'a jamais été inventé ni pratiqué par Warren Buffet](https://youtu.be/9d0oTksDb8A?t=5567).
 
 ---
 

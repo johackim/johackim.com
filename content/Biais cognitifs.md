@@ -3,6 +3,8 @@ title: Biais cognitifs
 permalink: biais-cognitifs
 datePublished: 2021-06-27T19:19
 dateUpdated: 2024-11-16T19:19:00
+tags:
+  - moc
 aliases:
   - Bias
   - Biais psychologiques
@@ -29,18 +31,13 @@ Les biais cognitifs sont un ensemble de particularités de l'esprit humain qui f
 - [[L'effet de halo]]
 - [[L'effet de simple exposition]]
 - [[L'effet de faux consensus]]
-- [[Biais d'association]]
-- [[Biais d'absurdité]]
-- [[Biais d'humour]]
 - [[Biais d'autorité]]
 - [[Biais de récence]]
 - [[Biais de disponibilité]]
 - [[Biais de projection]]
-- [[Biais de publication]]
 - [[Biais de la tache aveugle]]
 - [[Biais de normalité]]
 - [[Biais de généralisation]]
-- [[Biais des incitations]]
 - [[Biais des émotions]]
 - [[Biais d'omission]]
 - [[Biais de proportionnalité]]
@@ -55,51 +52,40 @@ Les biais cognitifs sont un ensemble de particularités de l'esprit humain qui f
 - [[L'effet Pratfall]]
 - [[L'effet placebo]]
 - [[L'effet d'amorçage]]
-- [[L'effet spectateur]]
 - [[L'effet Julien Lepers]]
 - [[L'effet Dunning-Kruger]]
-- [[Biais de la tache aveugle]]
 - [[Gambler's Fallacy]]
-- Omission Bias
-- Proportionality Bias
-- Moral Credential Effect
-- [[Biais d'auto-complaisance]]
+- [[L'effet de compensation morale]]
 - [[Biais de cadrage]]
 - [[Effet acteur-observateur]]
-- Picture Superiority Effect
-- Outcome Bias
-- [[L'effet de simple exposition]]
-- Hard-Easy Effect
-- Survivorship Bias
-- Baader-Meinhof Phenomenon
-- Availability Heuristics
-- [[L'effet Dunning-Kruger]]
-- [[L'effet de halo]]
+- [[Picture Superiority Effect]]
+- [[Biais de résultat]]
+- [[Hard-Easy Effect]]
 - [[L'effet Pygmalion]]
 - [[Effet de leurre]]
 - [[Biais de sélection]]
-- [[Biais d'ancrage]]
-- [[Biais de confirmation]]
-- Overconfidence Effect
-- Egocentric Bias
-- Information Bias
+- [[Egocentric Bias]]
 - [[Hindsight bias]]
-- [[Biais de projection|Projection bias]]
-- Apophenia Bias
 - [[Serial-position effect]]
-- [[Biais de récence]]
-- [[Biais d'autorité]]
 - [[Unit Bias]]
-- Availability Cascade
 - [[L'effet de mode]]
 - [[Illusory truth effect]]
-- Next-in-Line Effect
 - [[In-group bias]]
-- [[L'effet de projecteur]]
 - [[Choice-supportive bias]]
 - [[Ostrich effect]]
-- Selective Perception Bias
 - [[Peak-end rule]]
+- [[Biais d'association]]
+- [[Biais d'absurdité]]
+- [[Biais d'humour]]
+- [[Biais de publication]]
+- [[Biais des incitations]]
+- [[L'effet spectateur]]
+- Overconfidence Effect
+- Information Bias
+- Apophenia Bias
+- Availability Cascade
+- Next-in-Line Effect
+- Selective Perception Bias
 
 ---
 
