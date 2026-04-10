@@ -24,7 +24,7 @@ note: 68
 - [[Inbox Zero]]
 - [[Synthétisation progressive]]
 - [[Travailler en Deep Work sur Linux]]
-- [[202106272129]]
+- [[202106272129|Mon processus de prise de notes]]
 - [[La règle des 2 minutes]]
 - [[La règle des 3 tâches]]
 - [[La méthode Ivy Lee]]

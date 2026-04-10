@@ -454,7 +454,9 @@ Le système le plus simple est un calendrier à rayer tous les jours lorsque vou
 
 Comme Jerry Seinfield avec son carnet de blague à remplir chaque jour. Ne vous occuper pas de la qualité de votre habitude, fixer vous simplement comme objectif de **ne pas briser la chaine**.
 
-Pour éviter d'être démotivé par le fait de devoir évaluer la progression de vos habitudes, **suivez systématiquement une seule habitude plutôt que dix** et associer la méthode de la [[202107111151#La superposition d'habit[[Atomic Habits - James Clear#La superposition d'habitudes|superposition d'habitudes]]s [HABITUDE ACTUELLE], je vais [EFFECTUER UN SUIVI DE MON HABITUDE].**
+Pour éviter d'être démotivé par le fait de devoir évaluer la progression de vos habitudes, **suivez systématiquement une seule habitude plutôt que dix** et associer la méthode de la [[Atomic Habits - James Clear#La superposition d'habitudes|superposition d'habitudes]]  avec le suivi des habitudes :
+
+**Après [HABITUDE ACTUELLE], je vais [EFFECTUER UN SUIVI DE MON HABITUDE].**
 
 ## Évitez "La spirale d'erreurs répétées" ou "Le cycle tout ou rien"
 
