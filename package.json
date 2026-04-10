@@ -7,13 +7,13 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@eslint/compat": "^2.0.3",
+    "@eslint/compat": "^2.0.5",
     "@eslint/eslintrc": "^3.3.5",
-    "@headlessui/react": "^2.2.9",
+    "@headlessui/react": "^2.2.10",
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/postcss": "^4.2.2",
     "@tailwindcss/typography": "^0.5.19",
-    "eslint": "^10.1.0",
+    "eslint": "^10.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
@@ -23,9 +23,9 @@
     "next": "^16.1.7",
     "next-mdx-remote": "^5.0.0",
     "next-seo": "^7.2.0",
-    "postcss": "^8.5.8",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "postcss": "^8.5.9",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "rehype-raw": "^7.0.0",
     "remark-comment": "^1.0.0",
     "remark-emoji": "^5.0.2",
@@ -34,8 +34,8 @@
     "remark-obsidian": "^1.11.1",
     "rss": "^1.2.2",
     "sharp": "^0.34.5",
-    "slugify": "^1.6.8",
+    "slugify": "^1.6.9",
     "tailwindcss": "^4.2.2",
-    "validator": "^13.15.26"
+    "validator": "^13.15.35"
   }
 }
