@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 08 Apr 2026 20:30:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 11:06:39 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -99,7 +99,7 @@ greywall -- gemini
 <h2>Comment vérifier si votre téléphone vous écoute ?</h2>
 <p>Vous pouvez vous-même vérifier si vos conversations sont envoyées à des services tiers en analysant le trafic réseau de votre téléphone.</p>
 <p>Des outils comme <a href="https://wireshark.org">Wireshark</a> et <a href="https://github.com/emanuele-f/PCAPdroid">PCAPdroid</a> (Android) permettent d&#x27;analyser le trafic réseau de votre téléphone.</p>
-<p>Vous pouvez voir qu&#x27;après une visite sur un site comme Google, Facebook, Twitter ou Instagram des requêtes sont envoyées sur les noms de domaines google.com, facebook.com, twitter.com ou instagram.com.</p>
+<p>Vous pouvez voir qu&#x27;après une visite sur un site comme Google, Facebook, Twitter ou Instagram des requêtes sont envoyées sur les noms de domaines google.com, facebook.com, x.com ou instagram.com.</p>
 <iframe src="https://peertube.ethibox.fr/videos/embed/25806d5b-589e-491c-860b-38b8e3eaad83?loop=1&amp;autoplay=1&amp;title=0&amp;warningTitle=0&amp;controlBar=0&amp;peertubeLink=0&amp;p2p=0" style="width:100%;aspect-ratio:16/9" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 <p>En revanche, si vous parlez de &quot;nourriture pour chat&quot; devant votre téléphone sans rien toucher, <strong>rien n&#x27;est envoyé</strong>.</p>
 <p>Dans tous les cas, <strong>une lumière orange 🟠 (sur iPhone) et verte 🟢 (sur Android) apparaît</strong> à chaque fois que votre microphone est utilisé.</p>
@@ -254,7 +254,7 @@ install_touch_update_key - Copying the jailbreak updater key
 Developer keys installed successfully (Standard Method)! (pubdevkey01.pem)
 Enabled developer flag
 Enabled mntus exec flag
-                                      
+
 **************************************
 *** Finished installing jailbreak! ***
 ***                                ***
@@ -599,6 +599,11 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>Il vous permet de graver des images disque (.iso, .img, etc.) sur des supports de stockage (clés USB, cartes SD, etc.).</p>
 <p>Utile pour créer une <a href="/usb" title="clé USB" class="not-found">clé USB</a> bootable et installer un système d&#x27;exploitation (ex: Ubuntu, Windows, etc...) sur un ordinateur.</p>
 
+<h2>Installation</h2>
+<p>Sur Arch Linux :</p>
+<pre><code class="language-bash">yay -S --noconfirm etcher-bin
+</code></pre>
+<h2>Utilisation</h2>
 <p>Une fois installé, il vous suffit de :</p>
 <ol>
 <li>Télécharger votre image disque (exemple : <a href="https://www.ubuntu-fr.org/download/">Ubuntu</a>)</li>
@@ -652,7 +657,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>Références :</p>
 <ul>
 <li><a href="https://i.imgur.com/zLgt3bF.png">https://i.imgur.com/zLgt3bF.png</a></li>
-<li><a href="https://twitter.com/george__mack/status/1721117741057220859">https://twitter.com/george__mack/status/1721117741057220859</a></li>
+<li><a href="https://x.com/george__mack/status/1721117741057220859">https://x.com/george__mack/status/1721117741057220859</a></li>
 <li><a href="https://therapistaid.com/therapy-worksheet/cbt-triangle">https://therapistaid.com/therapy-worksheet/cbt-triangle</a></li>
 <li><a href="https://hudsontherapygroup.com/blog/cognitive-triangle">https://hudsontherapygroup.com/blog/cognitive-triangle</a></li>
 <li>
@@ -1009,7 +1014,7 @@ index.storage_context.persist()
 <li>Bloquer l&#x27;adresse IP</li>
 <li>Ajouter un captcha</li>
 <li>Ajouter un code HTTP 403</li>
-<li>ect...</li>
+<li>etc.</li>
 </ul>
 <p>Les adresses IP agressives sont envoyées à CrowdSec pour être partagés entre tous les utilisateurs afin d&#x27;améliorer la sécurité de chacun.</p>
 <h2>Installation</h2>
@@ -1064,8 +1069,15 @@ sudo systemctl enable --now crowdsec-firewall-bouncer
 <p>Cela vous permettra d&#x27;ajouter des blocklists facilement.</p>
 <h2>Ajouter une blocklist manuellement</h2>
 <p>Le plus simple pour ajouter une blocklist, c&#x27;est de passer par la [[#Console de CrowdSec|console]].</p>
-<p>Mais il est possible d&#x27;importer manuellement une blocklist (ex: <a href="https://github.com/firehol/blocklist-ipsets/">https://github.com/firehol/blocklist-ipsets/</a>) :</p>
-<pre><code class="language-bash">for ip in $(cat blocklist.txt); do cscli decisions add -t ban -i &quot;$ip&quot;; done
+<p>Mais il est possible d&#x27;importer manuellement une blocklist (ex: <a href="https://github.com/firehol/blocklist-ipsets/">https://github.com/firehol/blocklist-ipsets/</a> ou <a href="https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist/">https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist/</a>) :</p>
+<pre><code class="language-bash"># Depuis un fichier local
+cscli decisions import --format values -i blocklist.txt
+
+# Depuis une URL
+curl -s https://raw.githubusercontent.com/... | cscli decisions import -i -
+
+# Alternative si import non disponible
+for ip in $(cat blocklist.txt); do cscli decisions add -t ban -i &quot;$ip&quot;; done
 </code></pre>
 <h2>Ajouter une whitelist manuellement</h2>
 <p>Et si vous souhaitez whitelister des IPs (ex: <a href="https://api.github.com/meta">les IPs de Github</a>), éditez le fichier <code>/etc/crowdsec/parsers/s02-enrich/whitelists.yaml</code> et relancez le service crowdsec.</p>
@@ -1196,7 +1208,7 @@ nikto -host https://example.com
                         <p>Effectuer ce test via une autre adresse IP (ex: via un VPN) pour éviter d&#x27;être bloqué 😅.</p>
                     </div>
                 </blockquote>
-<p>Puis vérifiez les décisions de crowdec :</p>
+<p>Puis vérifiez les décisions de crowdsec :</p>
 <pre><code class="language-bash">sudo cscli decisions list
 </code></pre>
 <p>Si une décision apparait, vous ne devriez plus avoir accès au serveur SSH ou HTTP(S) pendant plusieurs heures.</p>
@@ -1214,7 +1226,7 @@ nikto -host https://example.com
 </code></pre>
 <p>Une fois installé, j&#x27;ajoute la configuration suivante dans le fichier <code>/etc/crowdsec/acquis.d/traefik.yaml</code> à l&#x27;intérieur du conteneur Crowdsec :</p>
 <pre><code class="language-txt">filenames:
-  - /var/log/traefik/access.log
+  - /var/log/traefik/access.json
 labels:
   type: traefik
 </code></pre>
@@ -1246,13 +1258,13 @@ labels:
 <p>J&#x27;ai quelques erreur au démarrage de traefik :</p>
 <pre><code class="language-txt">ERR Error calling http://crowdsec_bouncer:8080/api/v1/forwardAuth error=&quot;Get \&quot;http://crowdsec_bouncer:8080/api/v1/forwardAuth\&quot;: context canceled&quot; middlewareName=crowdsec-bouncer@file middlewareType=ForwardAuth
 </code></pre>
-<p>Mais cela n&#x27;empêche un bon fonctionnement. Cela semble être des faux positifs.</p>
+<p>Mais cela n&#x27;empêche pas un bon fonctionnement. Cela semble être des faux positifs.</p>
 <p>Je vous conseille d&#x27;ajouter une tâche cron avec <a href="/logrotate" title="logrotate" class="not-found">logrotate</a> pour limiter la taille des fichiers de log afin d&#x27;éviter de saturer votre stockage :</p>
 
 <pre><code class="language-bash">@daily logrotate -f /etc/logrotate.d/traefik
 </code></pre>
 <p>Avec la configuration suivante dans le fichier <code>/etc/logrotate.d/traefik</code> :</p>
-<pre><code class="language-txt">/var/log/traefik/access.log {
+<pre><code class="language-txt">/var/log/traefik/access.json {
     rotate 14
     missingok
     notifempty
@@ -1286,7 +1298,14 @@ cscli parsers install crowdsecurity/nextcloud-whitelist
 <h2>Débloquer une IP</h2>
 <pre><code class="language-bash">cscli alert list --ip &lt;ip&gt;
 cscli alert inspect &lt;id&gt;
-cat /var/log/traefik/access.log | grep &lt;ip&gt;
+cat /var/log/traefik/access.json | grep &lt;ip&gt;
+cscli decisions remove --ip &lt;ip&gt;
+</code></pre>
+<h2>Supprimer toutes les décisions</h2>
+<pre><code class="language-bash">cscli decisions delete --all
+</code></pre>
+<h2>Débugger une requête</h2>
+<pre><code class="language-bash">echo $(tail -n1 /var/log/traefik/access.json) | cscli explain --file - --type=json --verbose
 </code></pre>
 <hr/>
 <p>Références :</p>
@@ -1745,6 +1764,8 @@ curl -fsSL https://ollama.com/install.sh | OLLAMA_VERSION=0.1.32 sh # Pour une v
 </code></pre>
 <p>Pour démarrer le service ollama :</p>
 <pre><code class="language-bash">sudo systemctl start ollama
+# Ou
+ollama *serve*
 </code></pre>
 <h2>Utilisation</h2>
 <p>Pour démarrer un modèle d&#x27;IA, il suffit de lancer la commande <code>ollama run</code> suivi du nom du modèle.</p>
@@ -1774,7 +1795,16 @@ curl -fsSL https://ollama.com/install.sh | OLLAMA_VERSION=0.1.32 sh # Pour une v
 <p>Cela donne un rendu très équivalent à ChatGPT.</p>
 <p>Nos données restent privées et l&#x27;on peut discuter avec un modèle d&#x27;IA sans être censuré.</p>
 <h2>Désinstallation</h2>
-<p>Pour désintaller Ollama :</p>
+<p>Pour désinstaller Ollama installé via le script <code>curl</code> :</p>
+<pre><code class="language-bash">sudo systemctl disable --now ollama
+sudo rm /etc/systemd/system/ollama.service
+sudo rm -r $(which ollama | tr &#x27;bin&#x27; &#x27;lib&#x27;)
+sudo rm $(which ollama)
+sudo userdel ollama
+sudo groupdel ollama
+sudo rm -r /usr/share/ollama
+</code></pre>
+<p>Pour désinstaller Ollama sur Arch Linux :</p>
 <pre><code class="language-bash">sudo systemctl disable --now ollama
 sudo rm -rf /var/lib/ollama
 sudo pacman -Rsn ollama
@@ -1857,7 +1887,7 @@ Installez ce package :
 </ol>
 <pre><code class="language-bash">apt install -y bluez-alsa-utils
 </code></pre>
-<ol start="3">
+<ol>
 <li>Créer la configuration suivante :</li>
 </ol>
 <pre><code class="language-bash">sudo cp /etc/asound.conf /etc/asound.conf.bak
@@ -2275,7 +2305,7 @@ SUM:                            73            888              3           7407
 <li><a href="https://betterprogramming.pub/first-principles-thinking-the-most-powerful-way-to-think-947ac6717057">https://betterprogramming.pub/first-principles-thinking-the-most-powerful-way-to-think-947ac6717057</a></li>
 <li><a href="https://web.archive.org/web/20190403111940/www.wired.com/2012/10/ff-elon-musk-qa/">https://web.archive.org/web/20190403111940/www.wired.com/2012/10/ff-elon-musk-qa/</a></li>
 <li><a href="https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/">https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/</a></li>
-<li><a href="https://twitter.com/george__mack/status/1699109802020852223">https://twitter.com/george__mack/status/1699109802020852223</a></li>
+<li><a href="https://x.com/george__mack/status/1699109802020852223">https://x.com/george__mack/status/1699109802020852223</a></li>
 <li>
 <a href="/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing" class="not-found">Corey Haines - Mental Models For Marketing</a>
 
@@ -2313,7 +2343,7 @@ SUM:                            73            888              3           7407
 <p>Au lieu de passer par Twitter directement, je passe par <a href="https://nitter.net/">Nitter</a>, un <a href="https://github.com/mendel5/alternative-front-ends">front-end</a> open-source pour Twitter.</p>
 <p>J&#x27;utilise cette technique sur <a href="https://github.com/johackim/johackim.com/commit/a771519fbe142c9aee768841821ccac3d34f798a">mon blog</a> pour afficher le nombre de followers de mon compte Twitter.</p>
 <h2>Avec une requête cURL</h2>
-<p>Si vous exécutez la commande suivante, vous obtiendrez le nombre de followers de <a href="https://twitter.com/_johackim">mon compte Twitter</a> :</p>
+<p>Si vous exécutez la commande suivante, vous obtiendrez le nombre de followers de <a href="https://x.com/_johackim">mon compte Twitter</a> :</p>
 <pre><code class="language-bash">curl -sL --insecure https://nitter.net/_johackim \
   -H &#x27;accept-encoding: deflate, gzip&#x27; \
   -H &#x27;accept-language: en&#x27; \
@@ -2703,13 +2733,13 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <h2>🏆 Indie hackers populaires</h2>
 <p>Voici quelques exemples de indie hackers connus :</p>
 <ul>
-<li><a href="https://twitter.com/levelsio">Pieter Levels</a> - Créateur de <a href="https://nomadlist.com/">Nomadlist</a> -&gt; (<a href="https://indiehackers.com/product/nomad-list/revenue">40,000€ / mois</a>)</li>
-<li><a href="https://twitter.com/arvidkahl">Arvid Kahl</a> - Créateur de <a href="https://feedbackpanda.com/">Feedback Panda</a> -&gt; (<a href="https://indiehackers.com/product/feedbackpanda">55,000€ / mois</a>)</li>
-<li><a href="https://twitter.com/dannypostmaa">Danny Postma</a> - Créateur de <a href="https://headlime.com/">Headlime</a> -&gt; (<a href="https://failory.com/interview/headlime">20, 000€ / mois</a>)</li>
-<li><a href="https://twitter.com/alexwestco">Alex West</a> - Créateur de <a href="https://getcyberleads.com/">Cyberleads</a> -&gt; (<a href="https://twitter.com/alexwestco/status/1587144417613324290">35, 000€ / mois</a>)</li>
-<li><a href="https://twitter.com/yongfook">Jon Yongfook</a> - Créateur de <a href="https://bannerbear.com/">Bannerbear</a> -&gt; (<a href="https://bannerbear.com/open/">46, 000€ / mois</a>)</li>
-<li><a href="https://twitter.com/jakobgreenfeld">Jakob Greenfeld</a> - Créateur de <a href="https://opportunities.so/">Opportunities</a></li>
-<li><a href="https://twitter.com/d__raptis">Jim raptis</a> - Créateur de <a href="https://brandbird.app/">Brandbird</a></li>
+<li><a href="https://x.com/levelsio">Pieter Levels</a> - Créateur de <a href="https://nomadlist.com/">Nomadlist</a> -&gt; (<a href="https://indiehackers.com/product/nomad-list/revenue">40,000€ / mois</a>)</li>
+<li><a href="https://x.com/arvidkahl">Arvid Kahl</a> - Créateur de <a href="https://feedbackpanda.com/">Feedback Panda</a> -&gt; (<a href="https://indiehackers.com/product/feedbackpanda">55,000€ / mois</a>)</li>
+<li><a href="https://x.com/dannypostmaa">Danny Postma</a> - Créateur de <a href="https://headlime.com/">Headlime</a> -&gt; (<a href="https://failory.com/interview/headlime">20, 000€ / mois</a>)</li>
+<li><a href="https://x.com/alexwestco">Alex West</a> - Créateur de <a href="https://getcyberleads.com/">Cyberleads</a> -&gt; (<a href="https://x.com/alexwestco/status/1587144417613324290">35, 000€ / mois</a>)</li>
+<li><a href="https://x.com/yongfook">Jon Yongfook</a> - Créateur de <a href="https://bannerbear.com/">Bannerbear</a> -&gt; (<a href="https://bannerbear.com/open/">46, 000€ / mois</a>)</li>
+<li><a href="https://x.com/jakobgreenfeld">Jakob Greenfeld</a> - Créateur de <a href="https://opportunities.so/">Opportunities</a></li>
+<li><a href="https://x.com/d__raptis">Jim raptis</a> - Créateur de <a href="https://brandbird.app/">Brandbird</a></li>
 </ul>
 <h2>📚 Meilleurs livres de indie hackers</h2>
 <p>Voici les meilleurs de livres sur le sujet :</p>
@@ -2745,13 +2775,18 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <li><a href="https://microfounder.com/">MicroFounder</a> 🇺🇸</li>
 <li><a href="https://womenmake.com/">Women Make</a> 🇺🇸</li>
 <li><a href="https://indiemakers.fr/">Indie maker</a> 🇫🇷</li>
-<li><a href="https://lechantier.co/">Le chantier</a> 🇫🇷</li>
+<li><del><a href="https://lechantier.co/">Le chantier</a> 🇫🇷</del> (RIP)</li>
 </ul>
 <h2>🔗 Autres ressources</h2>
 <p>Voici quelques liens et sites internet sur le sujet :</p>
 <ul>
 <li><a href="https://github.com/johackim/awesome-indiehackers">https://github.com/johackim/awesome-indiehackers</a></li>
 <li><a href="https://makerbox.club">https://makerbox.club</a></li>
+<li><a href="https://whatisanindiemaker.com/">https://whatisanindiemaker.com/</a></li>
+<li><a href="https://rameerez.com/what-is-indie-hacking/">https://rameerez.com/what-is-indie-hacking/</a></li>
+<li><a href="https://entrepreneurlist.io/">https://entrepreneurlist.io/</a></li>
+<li><a href="https://landingfolio.com/library">https://landingfolio.com/library</a></li>
+<li><a href="https://thenounproject.com/">https://thenounproject.com/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2892,15 +2927,27 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <p>C&#x27;est l&#x27;hormone de la motivation.</p>
 <p>Cette <a href="/hormones" title="hormone" class="not-found">hormone</a> nous incite à réaliser des actions avec une <a href="/gratification-immediate" title="gratification immédiate" class="not-found">gratification immédiate</a> plutôt qu&#x27;une action à <a href="/gratification-differee" title="gratification différée" class="not-found">gratification différée</a>.</p>
 
-<blockquote>
-<p>La dopamine est libérée non seulement lorsque vous éprouvez du plaisir, mais également quand vous l’anticipez.^[<a href="/atomic-habits-james-clear" title="Atomic Habits - James Clear">Atomic Habits - James Clear</a>].</p>
-
-</blockquote>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner"><a href="/atomic-habits-james-clear" title="Atomic Habits - James Clear">Atomic Habits - James Clear</a></div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p></p><p> La dopamine est libérée non seulement lorsque vous éprouvez du plaisir, mais également quand vous l’anticipez.</p><p></p>
+                    </div>
+                </blockquote>
 <p>Un manque de dopamine peut engendrer des problèmes mentaux comme des troubles de l&#x27;attention ou d&#x27;hyperactivité.</p>
 <blockquote class="callout question">
                     
+                        <div class="callout-title">
+                            
+                            <div class="callout-title-inner">Qu&#x27;est ce que la dopamine ?</div>
+                        </div>
+                    
                     <div class="callout-content">
-                        <p>- Qu&#x27;est ce que la dopamine ? Neurotransmetteur qui se libère lorsque l&#x27;on éprouve du plaisir ou qu&#x27;on l&#x27;anticipe.</p>
+                        <p>Neurotransmetteur qui se libère lorsque l&#x27;on éprouve du plaisir ou qu&#x27;on l&#x27;anticipe.</p>
                     </div>
                 </blockquote>
 <hr/>
@@ -2923,8 +2970,9 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <li><a href="https://jeancharleskurdali.substack.com/p/comprendre-et-combattre-notre-addiction">JCK - Comprendre et combattre notre addiction à la dopamine</a></li>
 <li><a href="https://reddit.com/r/Nootropics/comments/xufynu/using_dopamine_supplements_to_hack_motivation_the/">Using Dopamine Supplements to Hack Motivation: the Neurobiology of Ambition</a></li>
 <li><a href="https://honest-broker.com/p/the-state-of-the-culture-2024">https://honest-broker.com/p/the-state-of-the-culture-2024</a></li>
-<li><a href="https://youtu.be/tjjqyiHczcc">Ali Abdaal - How to Control Your Dopamine for Maximum Productivity</a></li>
 <li><a href="https://issa-h.notion.site/The-Anti-Dopamine-Detox-Manifesto-23b3ed2101e580c094c4f2afe1c7bc76">https://issa-h.notion.site/The-Anti-Dopamine-Detox-Manifesto-23b3ed2101e580c094c4f2afe1c7bc76</a></li>
+<li><a href="https://youtu.be/tjjqyiHczcc">Ali Abdaal - How to Control Your Dopamine for Maximum Productivity</a></li>
+<li><a href="https://youtu.be/QVWINTeyUOk">Versatile - This Dopamine Trick Will Make You Addicted To Studying</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3102,7 +3150,7 @@ EOF
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mes blogs préférés]]></title>
+            <title><![CDATA[202110312244]]></title>
             <link>https://johackim.com/mes-blogs-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-blogs-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3263,6 +3311,9 @@ gpg --encrypt mon_dossier.tar.gz # Chiffrement de l&#x27;archive
 </code></pre>
 <p>Installation sur Arch Linux :</p>
 <pre><code class="language-bash">sudo pacman -S gnupg
+</code></pre>
+<p>Ajouter la ligne suivante dans le fichier <code>~/.gnupg/gpg-agent.conf</code> :</p>
+<pre><code class="language-conf">pinentry-program /usr/bin/pinentry-gtk
 </code></pre>
 <h2>Initialisation</h2>
 <p>Pour initialiser GnuPG, il faut créer une clé de chiffrement</p>
@@ -3879,51 +3930,6 @@ done
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mochi, une application pour mieux retenir vos apprentissages.]]></title>
-            <link>https://johackim.com/mochi?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/mochi</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Fri, 11 Mar 2022 12:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/mochi.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/mochi.jpg"/>
-            <content:encoded><![CDATA[<p><a href="https://mochi.cards/">Mochi</a> est un outil créé par <a href="https://github.com/knubie/">Matthew Steedman</a> pour créer des flashcards afin d&#x27;améliorer à mémoriser ses apprentissages via la méthode de la <a href="/repetition-espacee" title="Répétition espacée" class="not-found">Répétition espacée</a>.</p>
-
-<h2>Installation</h2>
-<p>Vous pouvez l&#x27;installer sur <a href="https://mochi.cards/releases/Mochi%20Setup%201.13.7.exe">Windows</a>, <a href="https://mochi.cards/releases/Mochi-1.13.7.AppImage">Linux</a>, <a href="https://mochi.cards/releases/releases/Mochi-1.13.7.dmg">macOS</a>, <a href="https://play.google.com/store/apps/details?id=cards.mochi.app">Android</a> et <a href="https://apps.apple.com/us/app/mochi-flashcards-and-notes/id1507775056">iOS</a>.</p>
-<h2>Utilisation</h2>
-<p>Les cartes peuvent être rédigé en markdown.</p>
-<p>Pour créer des cartes avec <strong>un texte à trou</strong> :</p>
-<pre><code class="language-markdown">Créer une carte avec un {{text à trou}}.
-</code></pre>
-<p>Pour créer des cartes <strong>question/réponse</strong> :</p>
-<pre><code class="language-markdown">Créer une carte avec une question
-
----
-
-Et une réponse
-</code></pre>
-<p>Vous pouvez aussi créer des templates pour créer vos cartes plus rapidement :</p>
-<pre><code class="language-markdown">## &lt;&lt; Mot en français &gt;&gt;
-
----
-
-&lt;&lt; English word &gt;&gt;
-
-&gt; &lt;&lt; Example sentence &gt;&gt;
-</code></pre>
-<h2>Bug d&#x27;écran noir</h2>
-<p>Si comme moi, vous êtes sur Android 7 et/ou Lineage OS et que vous avez <a href="https://i.imgur.com/9N5X4PT.jpg">un bug d&#x27;écran noir</a> au démarrage de l&#x27;application, il faut mettre à jour Android System WebView :</p>
-<ul>
-<li>
-<strong>Installez <a href="https://play.google.com/store/apps/details?id=com.google.android.webview">Android System WebView</a></strong> depuis votre Store préféré (ex: <a href="https://f-droid.org/fr/packages/com.aurora.store/">Aurora</a>).
-</li>
-<li>
-<strong>Désactivez l&#x27;ancienne version de Android System Webview</strong> depuis le menu Settings -&gt; Apps -&gt; Show system -&gt; Android System Webview -&gt; Disable.
-</li>
-</ul>
-<p>Vous pouvez à présent profiter de votre application 😀 !</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Signification du pendentif "The Obstacle Is the Way" de Ryan Holiday]]></title>
             <link>https://johackim.com/signification-pendentif-obstacle-is-the-way?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/signification-pendentif-obstacle-is-the-way</guid>
@@ -3984,6 +3990,51 @@ Et une réponse
 
 </li>
 </ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mochi, une application pour mieux retenir vos apprentissages.]]></title>
+            <link>https://johackim.com/mochi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mochi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 11 Mar 2022 12:00:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/mochi.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/mochi.jpg"/>
+            <content:encoded><![CDATA[<p><a href="https://mochi.cards/">Mochi</a> est un outil créé par <a href="https://github.com/knubie/">Matthew Steedman</a> pour créer des flashcards afin d&#x27;améliorer à mémoriser ses apprentissages via la méthode de la <a href="/repetition-espacee" title="Répétition espacée" class="not-found">Répétition espacée</a>.</p>
+
+<h2>Installation</h2>
+<p>Vous pouvez l&#x27;installer sur <a href="https://mochi.cards/releases/Mochi%20Setup%201.13.7.exe">Windows</a>, <a href="https://mochi.cards/releases/Mochi-1.13.7.AppImage">Linux</a>, <a href="https://mochi.cards/releases/releases/Mochi-1.13.7.dmg">macOS</a>, <a href="https://play.google.com/store/apps/details?id=cards.mochi.app">Android</a> et <a href="https://apps.apple.com/us/app/mochi-flashcards-and-notes/id1507775056">iOS</a>.</p>
+<h2>Utilisation</h2>
+<p>Les cartes peuvent être rédigé en markdown.</p>
+<p>Pour créer des cartes avec <strong>un texte à trou</strong> :</p>
+<pre><code class="language-markdown">Créer une carte avec un {{text à trou}}.
+</code></pre>
+<p>Pour créer des cartes <strong>question/réponse</strong> :</p>
+<pre><code class="language-markdown">Créer une carte avec une question
+
+---
+
+Et une réponse
+</code></pre>
+<p>Vous pouvez aussi créer des templates pour créer vos cartes plus rapidement :</p>
+<pre><code class="language-markdown">## &lt;&lt; Mot en français &gt;&gt;
+
+---
+
+&lt;&lt; English word &gt;&gt;
+
+&gt; &lt;&lt; Example sentence &gt;&gt;
+</code></pre>
+<h2>Bug d&#x27;écran noir</h2>
+<p>Si comme moi, vous êtes sur Android 7 et/ou Lineage OS et que vous avez <a href="https://i.imgur.com/9N5X4PT.jpg">un bug d&#x27;écran noir</a> au démarrage de l&#x27;application, il faut mettre à jour Android System WebView :</p>
+<ul>
+<li>
+<strong>Installez <a href="https://play.google.com/store/apps/details?id=com.google.android.webview">Android System WebView</a></strong> depuis votre Store préféré (ex: <a href="https://f-droid.org/fr/packages/com.aurora.store/">Aurora</a>).
+</li>
+<li>
+<strong>Désactivez l&#x27;ancienne version de Android System Webview</strong> depuis le menu Settings -&gt; Apps -&gt; Show system -&gt; Android System Webview -&gt; Disable.
+</li>
+</ul>
+<p>Vous pouvez à présent profiter de votre application 😀 !</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Neovim : la version améliorée et allégée de vim]]></title>
@@ -4136,6 +4187,10 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
 <li><a href="https://developer.spotify.com/console/">API de Spotify 2</a></li>
 <li><a href="https://developer.spotify.com/documentation/general/guides/authorization/">Documentation OAuth de spotify</a></li>
 <li><a href="https://grafikart.fr/tutoriels/oauth2-php-google-1171">Grafikart - Comprendre l&#x27;OAUTH 2.0</a></li>
+<li>
+<a href="/spotify" title="Spotify" class="not-found">Spotify</a>
+
+</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4634,6 +4689,51 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
 </ul>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[L'effet de compensation morale]]></title>
+            <link>https://johackim.com/leffet-de-compensation-morale?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/leffet-de-compensation-morale</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/leffet-de-compensation-morale.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/leffet-de-compensation-morale.jpg"/>
+            <content:encoded><![CDATA[<p>Terme créé par les psychologues, <strong>l&#x27;effet de compensation morale</strong> (ou Licensing effect en anglais) désigne le fait de se donner bonne conscience en effectuant une mauvaise action après avoir fait une bonne action.</p>
+<p>On se donne des excuses du genre, j&#x27;ai réussi à faire ça donc je peux me permettre de ne pas faire ça.</p>
+<p>Exemples :</p>
+<ul>
+<li>Manger un burger parce que je suis allé à la salle de sport.</li>
+<li>Arrêter de travailler, car j&#x27;ai réalisé une tâche difficile.</li>
+<li>Je viens déjà de dépenser 500 €, je ne suis plus à ça près.</li>
+</ul>
+<p>Lorsque vous remarquez ce comportement, souvenez de la raison principale de votre action, exemple : Changer de physique ou s&#x27;acheter une nouvelle maison.</p>
+<p>Des études ont même montré que pour certains, le simple fait de penser à une de leurs bonnes actions augmente le risque de se montrer trop indulgent avec soi-même ou de s’adonner à un comportement immoral.</p>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Gurwinder - Licensing effect</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Believing you’re good can make you behave bad. Those who consider themselves virtuous worry less about their own behavior, making them more susceptible to ethical lapses. A big cause of immorality is self-righteous morality.</p>
+                    </div>
+                </blockquote>
+<hr/>
+<p>Références :</p>
+<ul>
+<li>
+<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
+
+</li>
+<li>
+<a href="/psychologie" title="Psychologie">Psychologie</a>
+
+</li>
+<li><a href="https://fr.wikipedia.org/wiki/Hypocrisie_morale">https://fr.wikipedia.org/wiki/Hypocrisie_morale</a></li>
+<li><a href="https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV">https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV</a></li>
+<li><a href="https://gurwinder.substack.com/p/30-useful-principles-autumn-2023">https://gurwinder.substack.com/p/30-useful-principles-autumn-2023</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[L'effet what the hell]]></title>
             <link>https://johackim.com/leffet-what-the-hell?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/leffet-what-the-hell</guid>
@@ -4723,51 +4823,6 @@ Vous découvrez le principe de l&#x27;éclairage trois points, vous ferez beauco
 <a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
 
 </li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[L’effet de compensation morale]]></title>
-            <link>https://johackim.com/leffet-de-compensation-morale?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/leffet-de-compensation-morale</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 21 Nov 2021 20:31:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/leffet-de-compensation-morale.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/leffet-de-compensation-morale.jpg"/>
-            <content:encoded><![CDATA[<p>Terme créé par les psychologues, <strong>l&#x27;effet de compensation morale</strong> (ou Licensing effect en anglais) désigne le fait de se donner bonne conscience en effectuant une mauvaise action après avoir fait une bonne action.</p>
-<p>On se donne des excuses du genre, j&#x27;ai réussi à faire ça donc je peux me permettre de ne pas faire ça.</p>
-<p>Exemples :</p>
-<ul>
-<li>Manger un burger parce que je suis allé à la salle de sport.</li>
-<li>Arrêter de travailler, car j&#x27;ai réalisé une tâche difficile.</li>
-<li>Je viens déjà de dépenser 500 €, je ne suis plus à ça près.</li>
-</ul>
-<p>Lorsque vous remarquez ce comportement, souvenez de la raison principale de votre action, exemple : Changer de physique ou s&#x27;acheter une nouvelle maison.</p>
-<p>Des études ont même montré que pour certains, le simple fait de penser à une de leurs bonnes actions augmente le risque de se montrer trop indulgent avec soi-même ou de s’adonner à un comportement immoral.</p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Gurwinder - Licensing effect</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Believing you’re good can make you behave bad. Those who consider themselves virtuous worry less about their own behavior, making them more susceptible to ethical lapses. A big cause of immorality is self-righteous morality.</p>
-                    </div>
-                </blockquote>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
-
-</li>
-<li>
-<a href="/psychologie" title="Psychologie">Psychologie</a>
-
-</li>
-<li><a href="https://fr.wikipedia.org/wiki/Hypocrisie_morale">https://fr.wikipedia.org/wiki/Hypocrisie_morale</a></li>
-<li><a href="https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV">https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV</a></li>
-<li><a href="https://gurwinder.substack.com/p/30-useful-principles-autumn-2023">https://gurwinder.substack.com/p/30-useful-principles-autumn-2023</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4924,111 +4979,6 @@ apt install -y shadowusb
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Créer un mode dark avec Gatsby et Tailwind CSS]]></title>
-            <link>https://johackim.com/creer-un-mode-dark-avec-gatsby-et-tailwind-css?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/creer-un-mode-dark-avec-gatsby-et-tailwind-css</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 15 Nov 2021 09:33:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/creer-un-mode-dark-avec-gatsby-et-tailwind-css.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-mode-dark-avec-gatsby-et-tailwind-css.jpg"/>
-            <content:encoded><![CDATA[<p>Pour créer un thème dark avec <a href="https://gatsbyjs.com/">Gatsby</a> et <a href="https://tailwindcss.com/">TailwindCSS</a>, une fois que vous avez <a href="/initialiser-un-projet-gatsby" title="initialisé Gatsby">initialisé Gatsby</a> et <a href="/integrer-tailwind-css-a-gatsby" title="paramétré Tailwind CSS">paramétré Tailwind CSS</a>, il vous faut simplement installer le package <code>react-helmet</code> et créer 3-4 fichiers.</p>
-
-<h2>1. Installer react-helmet</h2>
-<p>Installer le package react-helmet pour pouvoir overrider la classe de votre balise <code>html</code>.</p>
-<pre><code class="language-bash">yarn add -D react-helmet gatsby-plugin-react-helmet
-</code></pre>
-<pre><code class="language-js">// gatsby-config.js
-
-module.exports = {
-    plugins: [
-        // ...
-        &#x27;gatsby-plugin-react-helmet&#x27;,
-    ],
-};
-</code></pre>
-<h2>2. Activer le darkMode dans Tailwind CSS</h2>
-<p>Dans le fichier <code>tailwind.config.js</code>, activez le darkMode en lui attribuant la valeur <code>class</code>, cela permettra de prendre en compte les classes html <code>dark:</code> :</p>
-<pre><code class="language-bash">// tailwind.config.js
-
-module.exports = {
-    darkMode: &#x27;class&#x27;,
-};
-</code></pre>
-<h2>3. Créer un Switch button</h2>
-<p>Créez un composant <code>switch.js</code>, il contient le button qui peut alterner votre dark mode :</p>
-<pre><code class="language-js">// src/components/switch.js
-
-import React, { useState, useEffect } from &#x27;react&#x27;;
-
-const isBrowser = () =&gt; typeof window !== &#x27;undefined&#x27;;
-
-const getItem = (name) =&gt; isBrowser() &amp;&amp; localStorage.getItem(name);
-
-const setItem = (name, item) =&gt; isBrowser() &amp;&amp; localStorage.setItem(name, item);
-
-export default ({ onChange }) =&gt; {
-    const [darkMode, setDarkMode] = useState(getItem(&#x27;darkMode&#x27;) === &#x27;true&#x27; || (isBrowser() &amp;&amp; window.matchMedia(&#x27;(prefers-color-scheme: dark)&#x27;).matches));
-
-    useEffect(() =&gt; {
-        setItem(&#x27;darkMode&#x27;, darkMode);
-        onChange(darkMode);
-    }, [darkMode]);
-
-    return (
-        &lt;button type=&quot;button&quot; className=&quot;border px-2&quot; onClick={() =&gt; setDarkMode(!darkMode)}&gt;Switch&lt;/button&gt;
-    );
-};
-</code></pre>
-<p>Intégrez votre composant <code>Switch</code> dans votre page Gatsby <code>index.js</code> :</p>
-<pre><code class="language-javascript">// src/pages/index.js
-
-import React, { useState } from &#x27;react&#x27;;
-import Helmet from &#x27;react-helmet&#x27;;
-
-import Switch from &#x27;../components/switch&#x27;;
-
-const IndexPage = () =&gt; {
-    const [darkMode, setDarkMode] = useState(typeof window !== &#x27;undefined&#x27; &amp;&amp; localStorage.getItem(&#x27;darkMode&#x27;) === &#x27;true&#x27;);
-
-    return (
-        &lt;&gt;
-            &lt;Helmet
-                htmlAttributes={{ class: darkMode ? &#x27;dark&#x27; : &#x27;light&#x27; }}
-                bodyAttributes={{ class: &#x27;dark:bg-gray-900 dark:text-gray-300&#x27; }}
-            /&gt;
-            &lt;Switch onChange={(isDark) =&gt; setDarkMode(isDark)} /&gt;
-        &lt;/&gt;
-    );
-};
-
-export default IndexPage;
-</code></pre>
-<h2>4. Créer un fichier gatsby-ssr.js (facultatif)</h2>
-<p>Cette étape est facultatif, mais elle permet d&#x27;améliorer la vitesse de rendu du thème dark.</p>
-<pre><code class="language-js">// gatsby-ssr.js
-
-import React from &#x27;react&#x27;;
-
-export { wrapRootElement } from &#x27;./gatsby-browser&#x27;;
-
-export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
-    const setColorsByTheme = () =&gt; {
-        const darkMode = localStorage.getItem(&#x27;darkMode&#x27;) === &#x27;true&#x27; || window.matchMedia(&#x27;(prefers-color-scheme: dark)&#x27;).matches;
-        document.documentElement.className = darkMode ? &#x27;dark&#x27; : &#x27;light&#x27;;
-    };
-
-    const calledFunction = `(${setColorsByTheme})()`;
-    setPreBodyComponents(&lt;script key=&quot;darkMode&quot; dangerouslySetInnerHTML={{ __html: calledFunction }} /&gt;);
-};
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://joshwcomeau.com/react/dark-mode/">https://joshwcomeau.com/react/dark-mode/</a></li>
-<li><a href="https://github.com/insin/gatsby-plugin-dark-mode/">https://github.com/insin/gatsby-plugin-dark-mode/</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Whatweb]]></title>
             <link>https://johackim.com/whatweb?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/whatweb</guid>
@@ -5076,6 +5026,10 @@ export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
 <li><a href="https://github.com/abba23/spotify-adblock">https://github.com/abba23/spotify-adblock</a></li>
 <li><a href="https://github.com/serialoverflow/blockify">https://github.com/serialoverflow/blockify</a></li>
 <li><a href="https://github.com/x0uid/SpotifyAdBlock">https://github.com/x0uid/SpotifyAdBlock</a></li>
+<li>
+<a href="/spotify" title="Spotify" class="not-found">Spotify</a>
+
+</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -5086,14 +5040,19 @@ export const onRenderBody = ({ setPreBodyComponents }) =&gt; {
             <pubDate>Sun, 24 Oct 2021 20:00:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/five-life-goals.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/five-life-goals.jpg"/>
-            <content:encoded><![CDATA[<p>Pour prioriser ses objectifs, Warren Buffet utilise une méthode qu&#x27;il appelle <strong>la règle 5/25</strong> (ou la <strong>stratégie des 2 listes</strong>).</p>
+            <content:encoded><![CDATA[<p>Pour prioriser ses objectifs, il existe une méthode qu&#x27;il appelle <strong>la règle 5/25</strong> (ou la <strong>stratégie des 2 listes</strong>).</p>
 <ol>
 <li>Créez une liste des 25 principales choses que vous aimeriez faire dans la vie.</li>
 <li>Gardez les cinq premières choses de cette liste. (The Priority List)</li>
 <li>Jetez les 20 autres éléments. (The Avoidance List)</li>
 </ol>
 <p>Ne travaillez que sur les tâches qui se rapportent aux cinq premiers objectifs.</p>
-<p><strong>PS: Contrairement aux centaines de références à ce sujet <a href="https://twitter.com/richwebz/status/1597243978738442240">sur internet</a> et <a href="https://amzn.to/312RSIn">les livres</a>, <a href="https://youtu.be/9d0oTksDb8A?t=5567">cette méthode n&#x27;a jamais été inventé ni pratiqué par Warren Buffet</a>.</strong></p>
+<blockquote class="callout warning">
+                    
+                    <div class="callout-content">
+                        <p>Contrairement aux centaines de références à ce sujet sur internet et les livres, cette méthode n&#x27;a jamais été inventé ni pratiqué par Warren Buffet.</p>
+                    </div>
+                </blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -5591,14 +5550,7 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
 <p>Vous pouvez ensuite vous connectez en ssh via la commande :</p>
 <pre><code class="language-bash">ssh root@&lt;ip&gt;
 </code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/linux" title="Linux">Linux</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Le mot de passe par défaut est <code>libreelec</code>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Résumé du livre Refactoring UI de Adam Wathan]]></title>
@@ -5936,6 +5888,60 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 </ul>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[202109280029]]></title>
+            <link>https://johackim.com/mes-applications-android?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mes-applications-android</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/mes-applications-android.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/mes-applications-android.jpg"/>
+            <content:encoded><![CDATA[<h2>Mes applications android</h2>
+<ul>
+<li><a href="https://f-droid.org/en">F-droid</a> (Store d&#x27;application)</li>
+<li><a href="https://f-droid.org/fr/packages/com.aurora.store/">Aurora Store</a> (Store d&#x27;application)</li>
+<li><a href="https://github.com/ImranR98/Obtainium">Obtainium</a> (Store d&#x27;application)</li>
+<li><a href="https://play.google.com/store/apps/details?id=org.mozilla.focus">Firefox Focus</a> (Navigateur web)</li>
+<li><a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms">Signal</a> (SMS)</li>
+<li><a href="https://play.google.com/store/apps/details?id=ch.protonmail.android">Proton Mail</a> (Client e-mail)</li>
+<li><a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">AntennaPod</a> (Podcast)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.goodreads">Goodreads</a> (Livres)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.readermobile">Readwise Reader</a> (Client RSS)</li>
+<li><a href="https://play.google.com/store/apps/details?id=app.organicmaps">Organic Maps</a> (Navigation)</li>
+<li><a href="https://play.google.com/store/apps/details?id=app.comaps.google">Comaps</a> (Navigation)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.waze">Waze</a> (Navigation)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.generalmagic.magicearth">Magic Earth</a> (Navigation)</li>
+<li><a href="https://play.google.com/store/apps/details?id=org.isoron.uhabits">Loop Habit tracker</a> (Tracker d&#x27;habitudes)</li>
+<li><a href="https://github.com/FriesI23/mhabit">Table Habit</a> (Tracker d&#x27;habitudes)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.termux">Termux</a> (Terminal)</li>
+<li><a href="https://play.google.com/store/apps/details?id=cards.mochi.app">Mochi</a> (Flashcards)</li>
+<li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/">NewPipe</a> (Client YouTube)</li>
+<li><a href="https://github.com/InfinityLoop1308/PipePipe">PipePipe</a> (Client YouTube)</li>
+<li><a href="https://play.google.com/store/apps/details?id=org.xbmc.kore">Kore</a> (Client Kodi)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.rb.rocketbook">Rocketbook</a> (Notes)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.stayfocused">Stay Focused</a> (Productivité)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.flyersoft.moonreaderp">Moon+ Reader Pro</a> (Livres)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.File.Manager.Filemanager">Es file explorer file manager</a> (Fichiers)</li>
+<li><a href="https://github.com/breezy-weather/breezy-weather">Breezy Weather</a> (Météo)</li>
+<li><a href="">WeatherMaster</a><a href="https://github.com/PranshulGG/WeatherMaster">https://github.com/PranshulGG/WeatherMaster</a> (Météo)</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.github.jamesgay.fitnotes">FitNotes</a> (Sport)</li>
+<li><a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">OpenTracks</a> (Sport)</li>
+<li><a href="https://play.google.com/store/apps/details?id=de.tadris.fitness">FitoTrack</a> (Sport)</li>
+<li><a href="https://github.com/akaMrNagar/Mindful">Mindful</a> (Productivité)</li>
+<li><a href="https://play.google.com/store/apps/details?id=bitpit.launcher">Niagara</a> (Launcher)</li>
+<li><a href="https://github.com/seedvault-app/seedvault">Seedvault</a> (Backups)</li>
+<li><a href="https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin.playstore">FUTO Keyboard</a> (Clavier)</li>
+<li><a href="https://github.com/cylonid/NativeAlphaForAndroid">Native Alpha</a> (Mini browser)</li>
+</ul>
+<h2>Applications à tester</h2>
+<ul>
+<li><a href="https://github.com/MuntashirAkon/AppManager/">https://github.com/MuntashirAkon/AppManager/</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=xyz.kinnu">https://play.google.com/store/apps/details?id=xyz.kinnu</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.notebloc.app">https://play.google.com/store/apps/details?id=com.notebloc.app</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.tracked.mobile">https://play.google.com/store/apps/details?id=com.tracked.mobile</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app">https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Exporter ses bookmarks Firefox en markdown]]></title>
             <link>https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown</guid>
@@ -5979,117 +5985,6 @@ parse_firefox_bookmark(bdict)
 <a href="/navigateur-web" title="Navigateur web" class="not-found">Navigateur web</a>
 
 </li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mes applications Android]]></title>
-            <link>https://johackim.com/mes-applications-android?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/mes-applications-android</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/mes-applications-android.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/mes-applications-android.jpg"/>
-            <content:encoded><![CDATA[<h2>Mes applications android</h2>
-<ul>
-<li><a href="https://f-droid.org/en">F-droid</a> (Store d&#x27;application)</li>
-<li><a href="https://f-droid.org/fr/packages/com.aurora.store/">Aurora Store</a> (Store d&#x27;application)</li>
-<li><a href="https://github.com/ImranR98/Obtainium">Obtainium</a> (Store d&#x27;application)</li>
-<li><a href="https://play.google.com/store/apps/details?id=org.mozilla.focus">Firefox Focus</a> (Navigateur web)</li>
-<li><a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms">Signal</a> (SMS)</li>
-<li><a href="https://play.google.com/store/apps/details?id=ch.protonmail.android">Proton Mail</a> (Client e-mail)</li>
-<li><a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">AntennaPod</a> (Podcast)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.goodreads">Goodreads</a> (Livres)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.readermobile">Readwise Reader</a> (Client RSS)</li>
-<li><strong><a href="https://play.google.com/store/apps/details?id=app.organicmaps">Organic Maps</a> (Navigation)</strong></li>
-<li><a href="https://play.google.com/store/apps/details?id=app.comaps.google">Comaps</a> (Navigation)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.waze">Waze</a> (Navigation)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.generalmagic.magicearth">Magic Earth</a> (Navigation)</li>
-<li><a href="https://play.google.com/store/apps/details?id=org.isoron.uhabits">Loop Habit tracker</a> (Tracker d&#x27;habitudes)</li>
-<li><a href="https://github.com/FriesI23/mhabit">Table Habit</a> (Tracker d&#x27;habitudes)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.termux">Termux</a> (Terminal)</li>
-<li><a href="https://play.google.com/store/apps/details?id=cards.mochi.app">Mochi</a> (Flashcards)</li>
-<li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/">NewPipe</a> (Client YouTube)</li>
-<li><a href="https://github.com/InfinityLoop1308/PipePipe">PipePipe</a> (Client YouTube)</li>
-<li><a href="https://play.google.com/store/apps/details?id=org.xbmc.kore">Kore</a> (Client Kodi)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.rb.rocketbook">Rocketbook</a> (Notes)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.stayfocused">Stay Focused</a> (Productivité)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.flyersoft.moonreaderp">Moon+ Reader Pro</a> (Livres)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.File.Manager.Filemanager">Es file explorer file manager</a> (Fichiers)</li>
-<li><a href="https://github.com/breezy-weather/breezy-weather">Breezy Weather</a> (Météo)</li>
-<li><a href="">WeatherMaster</a><a href="https://github.com/PranshulGG/WeatherMaster">https://github.com/PranshulGG/WeatherMaster</a> (Météo)</li>
-<li><a href="https://play.google.com/store/apps/details?id=com.github.jamesgay.fitnotes">FitNotes</a> (Sport)</li>
-<li><a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">OpenTracks</a> (Sport)</li>
-<li><a href="https://play.google.com/store/apps/details?id=de.tadris.fitness">FitoTrack</a> (Sport)</li>
-<li><a href="https://github.com/akaMrNagar/Mindful">Mindful</a> (Productivité)</li>
-<li><a href="https://play.google.com/store/apps/details?id=app.olauncher">OLauncher</a> (Launcher)</li>
-<li><a href="https://github.com/OlauncherCF/OlauncherCF">OlauncherCF</a> (Launcher)</li>
-<li><a href="https://github.com/seedvault-app/seedvault">Seedvault</a> (Backups)</li>
-<li><a href="https://play.google.com/store/apps/details?id=org.futo.inputmethod.latin.playstore">FUTO Keyboard</a> (Clavier)</li>
-</ul>
-<h2>Applications à tester</h2>
-<ul>
-<li><a href="https://github.com/MuntashirAkon/AppManager/">https://github.com/MuntashirAkon/AppManager/</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=xyz.kinnu">https://play.google.com/store/apps/details?id=xyz.kinnu</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=com.notebloc.app">https://play.google.com/store/apps/details?id=com.notebloc.app</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=com.tracked.mobile">https://play.google.com/store/apps/details?id=com.tracked.mobile</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app">https://play.google.com/store/apps/details?id=fr.sesamvitale.cartevitale.app</a></li>
-</ul>
-<h2>Launchers</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th>App</th><th>Note</th><th>Downloads</th><th>Open-source</th></tr></thead><tbody><tr><td><strong>Niagara</strong></td><td>4.7 (167k)</td><td>10M</td><td></td></tr><tr><td>Lawnchair</td><td>4.2 (37k)</td><td>1M</td><td>✓</td></tr><tr><td>Before Launcher</td><td>4.8 (12.4k)</td><td>500K</td><td></td></tr><tr><td>minimalist phone</td><td>4.2 (45k)</td><td>5M</td><td></td></tr><tr><td>Kvaesitso</td><td></td><td></td><td>✓</td></tr><tr><td>Olauncher</td><td>4.8 (65k)</td><td>1M</td><td>✓</td></tr></tbody></table>
-<ul>
-<li><a href="https://fmhy.net/android-iosguide#app-launchers">https://fmhy.net/android-iosguide#app-launchers</a></li>
-<li><a href="https://github.com/GeorgeClensy/Escape-Launcher">https://github.com/GeorgeClensy/Escape-Launcher</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=bitpit.launcher">https://play.google.com/store/apps/details?id=bitpit.launcher</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=com.beforesoft.launcher">https://play.google.com/store/apps/details?id=com.beforesoft.launcher</a></li>
-<li><a href="https://play.google.com/store/apps/details?id=com.qqlabs.minimalistlauncher">https://play.google.com/store/apps/details?id=com.qqlabs.minimalistlauncher</a></li>
-<li><a href="https://grabster.notion.site/6671f3b62d8043c4aaaae22a241e3f05?v=91d9b664887643298f85fe18044d3560">https://grabster.notion.site/6671f3b62d8043c4aaaae22a241e3f05?v=91d9b664887643298f85fe18044d3560</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -6284,118 +6179,7 @@ source ~/.bashrc
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Détecter le format d'une date]]></title>
-            <link>https://johackim.com/detecter-le-format-dune-date?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/detecter-le-format-dune-date</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/detecter-le-format-dune-date.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/detecter-le-format-dune-date.jpg"/>
-            <content:encoded><![CDATA[<p>Pour connaitre le format d&#x27;une date, il existe l&#x27;outil en ligne <a href="https://nsdateformatter.com/">NSDateFormatter</a>.</p>
-<p>Renseignez votre date (ex : <code>2021-01-01T10:00</code>) dans le champs <code>DATE INPUT</code> et le site retournera le format de la date -&gt; <code>ISO 8601 format</code>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/programmation" title="Programmation">Programmation</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Extraire les sous-titres d'une vidéo mkv]]></title>
-            <link>https://johackim.com/extraire-les-sous-titre-dune-video-mkv?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/extraire-les-sous-titre-dune-video-mkv</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/extraire-les-sous-titre-dune-video-mkv.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/extraire-les-sous-titre-dune-video-mkv.jpg"/>
-            <content:encoded><![CDATA[<p>Pour extraire les sous-titres d&#x27;une vidéo MKV, il existe le package <code>mkvtoolnix-cli</code> :</p>
-<pre><code class="language-bash">sudo pacman -S mkvtoolnix-cli
-</code></pre>
-<p>Une fois installé, vous pouvez récupérer la liste numéroté des pistes vidéos et des sous-titre avec la commande suivante :</p>
-<pre><code class="language-bash">mkvinfo How.to.Sell.Drugs.Online.Fast.S03E01.MULTi.1080p.WEB.x264-ALLDAYiN.mkv
-
-# Ou
-
-mediainfo How.to.Sell.Drugs.Online.Fast.S03E01.MULTi.1080p.WEB.x264-ALLDAYiN.mkv
-</code></pre>
-<p>Trouvez le numéro de la piste (ex: <code>5</code>) de sous-titres que vous voulez extraire et exécutez la commande :</p>
-<pre><code class="language-bash">mkvextract tracks How.to.Sell.Drugs.Online.Fast.S03E01.MULTi.1080p.WEB.x264-ALLDAYiN.mkv 5:How.to.Sell.Drugs.Online.Fast.S03E01.MULTi.1080p.WEB.x264-ALLDAYiN.srt
-</code></pre>
-<p>Voilà ! 😀</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Github Pages]]></title>
-            <link>https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/deployer-automatiquement-un-depot-sur-github-pages.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/deployer-automatiquement-un-depot-sur-github-pages.jpg"/>
-            <content:encoded><![CDATA[<p>Pour déployer automatiquement son code sur Github Pages, il existe les GitHub Actions.</p>
-<p>Créez un fichier Yaml dans le dossier <code>.github/workflows/</code> à la racine de votre dépôt git (ex: <code>.github/workflows/deploy.yml</code>).</p>
-<pre><code class="language-yaml">name: Deploy
-
-on: push
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-      - name: Install packages
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-</code></pre>
-<p><del><a href="https://github.com/settings/tokens/new">Générer un token</a> avec à un accès au scope <code>repo</code> puis ajoutez le en tant qu&#x27;Action Secret <code>GH_TOKEN</code> dans les settings de votre dépot Github (Settings -&gt; Secrets -&gt; New repository secret).</del> (Utiliser la variable GITHUB_TOKEN autogénéré par Github à la place).</p>
-<p>Sans oubliez de modifier les paramètres du dépôt : <code>Settings -&gt; Actions -&gt; General -&gt; Workflow permissions -&gt; Read and write permissions -&gt; Save</code>.</p>
-<p>Déployez votre code, et il sera automatiquement déployé sur une branche <code>gh-pages</code> à chaque push sur la branche master.</p>
-<p>Enfin, activez Github pages dans les Settings -&gt; Pages.</p>
-<p>Pour ajouter un nom de domaine root, changez la zone de type A de votre nom de domaine avec l&#x27;une des valeurs suivantes :</p>
-<pre><code class="language-txt">185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153
-</code></pre>
-<blockquote class="callout note">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Pour connaitre la liste des adresse IPs, exécutez la commande dig A your_github_username.github.io.</p>
-                    </div>
-                </blockquote>
-<p>Ou une zone de type CNAME avec <code>your_github_username.github.io</code> si vous utilisez un sous-domaine.</p>
-<blockquote class="callout important">
-                    
-                    <div class="callout-content">
-                        <p>N&#x27;oubliez pas de créer un fichier CNAME avec votre nom de domaine ou sous-domaine à l&#x27;intérieur du fichier pour que Github Page garde bien le nom de domaine lors des prochains déploiements.</p>
-                    </div>
-                </blockquote>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mes artistes préférés]]></title>
+            <title><![CDATA[202110242200]]></title>
             <link>https://johackim.com/mes-musiques-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-musiques-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6545,6 +6329,94 @@ jobs:
 <li><a href="https://deezer.com/en/artist/17160">Rockin&#x27; Squat</a></li>
 <li><a href="https://deezer.com/en/artist/6568">Lino</a></li>
 <li><a href="https://deezer.com/en/artist/10452069">Kalash Criminel</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Détecter le format d'une date]]></title>
+            <link>https://johackim.com/detecter-le-format-dune-date?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/detecter-le-format-dune-date</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/detecter-le-format-dune-date.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/detecter-le-format-dune-date.jpg"/>
+            <content:encoded><![CDATA[<p>Pour connaitre le format d&#x27;une date, il existe l&#x27;outil en ligne <a href="https://nsdateformatter.com/">NSDateFormatter</a>.</p>
+<p>Renseignez votre date (ex : <code>2021-01-01T10:00</code>) dans le champs <code>DATE INPUT</code> et le site retournera le format de la date -&gt; <code>ISO 8601 format</code>.</p>
+<hr/>
+<p>Références :</p>
+<ul>
+<li>
+<a href="/programmation" title="Programmation">Programmation</a>
+
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Github Pages]]></title>
+            <link>https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/deployer-automatiquement-un-depot-sur-github-pages.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/deployer-automatiquement-un-depot-sur-github-pages.jpg"/>
+            <content:encoded><![CDATA[<p>Pour déployer automatiquement son code sur Github Pages, il existe les GitHub Actions.</p>
+<p>Créez un fichier Yaml dans le dossier <code>.github/workflows/</code> à la racine de votre dépôt git (ex: <code>.github/workflows/deploy.yml</code>).</p>
+<pre><code class="language-yaml">name: Deploy
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install packages
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+</code></pre>
+<p><del><a href="https://github.com/settings/tokens/new">Générer un token</a> avec à un accès au scope <code>repo</code> puis ajoutez le en tant qu&#x27;Action Secret <code>GH_TOKEN</code> dans les settings de votre dépot Github (Settings -&gt; Secrets -&gt; New repository secret).</del> (Utiliser la variable GITHUB_TOKEN autogénéré par Github à la place).</p>
+<p>Sans oubliez de modifier les paramètres du dépôt : <code>Settings -&gt; Actions -&gt; General -&gt; Workflow permissions -&gt; Read and write permissions -&gt; Save</code>.</p>
+<p>Déployez votre code, et il sera automatiquement déployé sur une branche <code>gh-pages</code> à chaque push sur la branche master.</p>
+<p>Enfin, activez Github pages dans les Settings -&gt; Pages.</p>
+<p>Pour ajouter un nom de domaine root, changez la zone de type A de votre nom de domaine avec l&#x27;une des valeurs suivantes :</p>
+<pre><code class="language-txt">185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+</code></pre>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Pour connaitre la liste des adresse IPs, exécutez la commande dig A your_github_username.github.io.</p>
+                    </div>
+                </blockquote>
+<p>Ou une zone de type CNAME avec <code>your_github_username.github.io</code> si vous utilisez un sous-domaine.</p>
+<blockquote class="callout important">
+                    
+                    <div class="callout-content">
+                        <p>N&#x27;oubliez pas de créer un fichier CNAME avec votre nom de domaine ou sous-domaine à l&#x27;intérieur du fichier pour que Github Page garde bien le nom de domaine lors des prochains déploiements.</p>
+                    </div>
+                </blockquote>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site">https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -7226,46 +7098,6 @@ export default app;
 <p>Pour les joindre, rendez-vous sur <a href="https://cfspro.impots.gouv.fr/mire/accueil.do">https://cfspro.impots.gouv.fr/mire/accueil.do</a> puis &quot;Coordonnées du gestionnaire et prise de rendez-vous&quot;. Il y aura l&#x27;adresse email, le téléphone et l&#x27;adresse physique de votre centre d&#x27;impot local.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Installer un serveur VPN (très rapidement) avec dsvpn]]></title>
-            <link>https://johackim.com/installer-un-serveur-vpn-avec-dsvpn?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/installer-un-serveur-vpn-avec-dsvpn</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/installer-un-serveur-vpn-avec-dsvpn.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/installer-un-serveur-vpn-avec-dsvpn.jpg"/>
-            <content:encoded><![CDATA[<p><a href="https://github.com/jedisct1/dsvpn">Dsvpn</a> permet de créer un serveur VPN très simplement.</p>
-<h2>Installation</h2>
-<p>Pour l&#x27;installer dsvpn sur Arch Linux :</p>
-<pre><code class="language-bash">yay -S --noconfirm dsvpn
-</code></pre>
-<p>Si vous êtes sur une autre distribution Linux comme Debian ou Ubuntu :</p>
-<pre><code class="language-bash">git clone https://github.com/jedisct1/dsvpn
-cd dsvpn
-make
-sudo cp dsvpn /usr/local/bin/dsvpn
-</code></pre>
-<p>Et sur raspberry :</p>
-<pre><code class="language-bash">env OPTFLAGS=-mfpu=neon make
-</code></pre>
-<h2>Utilisation</h2>
-<p>Pour créer un serveur VPN, voici les deux commandes à lancer :</p>
-<pre><code class="language-bash">dd if=/dev/urandom of=vpn.key count=1 bs=32
-sudo dsvpn server vpn.key auto &lt;port&gt;
-</code></pre>
-<p>Pour s&#x27;y connecter depuis un client :</p>
-<pre><code class="language-bash">sudo dsvpn client vpn.key &lt;server_ip&gt; &lt;port&gt;
-</code></pre>
-<p>Voilà ! 😀</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/vpn" title="VPN" class="not-found">VPN</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Se connecter à un serveur IRC avec Weechat]]></title>
             <link>https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat</guid>
@@ -7311,6 +7143,38 @@ sudo dsvpn server vpn.key auto &lt;port&gt;
 
 </li>
 </ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Installer un serveur VPN (très rapidement) avec dsvpn]]></title>
+            <link>https://johackim.com/installer-un-serveur-vpn-avec-dsvpn?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/installer-un-serveur-vpn-avec-dsvpn</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 01 Aug 2021 21:31:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/installer-un-serveur-vpn-avec-dsvpn.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/installer-un-serveur-vpn-avec-dsvpn.jpg"/>
+            <content:encoded><![CDATA[<p><a href="https://github.com/jedisct1/dsvpn">Dsvpn</a> permet de créer un serveur VPN très simplement.</p>
+<h2>Installation</h2>
+<p>Pour l&#x27;installer dsvpn sur Arch Linux :</p>
+<pre><code class="language-bash">yay -S --noconfirm dsvpn
+</code></pre>
+<p>Si vous êtes sur une autre distribution Linux comme Debian ou Ubuntu :</p>
+<pre><code class="language-bash">git clone https://github.com/jedisct1/dsvpn
+cd dsvpn
+make
+sudo cp dsvpn /usr/local/bin/dsvpn
+</code></pre>
+<p>Et sur raspberry :</p>
+<pre><code class="language-bash">env OPTFLAGS=-mfpu=neon make
+</code></pre>
+<h2>Utilisation</h2>
+<p>Pour créer un serveur VPN, voici les deux commandes à lancer :</p>
+<pre><code class="language-bash">dd if=/dev/urandom of=vpn.key count=1 bs=32
+sudo dsvpn server vpn.key auto &lt;port&gt;
+</code></pre>
+<p>Pour s&#x27;y connecter depuis un client :</p>
+<pre><code class="language-bash">sudo dsvpn client vpn.key &lt;server_ip&gt; &lt;port&gt;
+</code></pre>
+<p>Voilà ! 😀</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment créer un chatbot open-source avec Rasa ?]]></title>
@@ -8165,9 +8029,8 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 <p>C&#x27;est un moyen simple de savoir si vous avez ou non pris une habitude.</p>
 <p>Le système le plus simple est un calendrier à rayer tous les jours lorsque vous appliquez votre routine.</p>
 <p>Comme Jerry Seinfield avec son carnet de blague à remplir chaque jour. Ne vous occuper pas de la qualité de votre habitude, fixer vous simplement comme objectif de <strong>ne pas briser la chaine</strong>.</p>
-<p>Pour éviter d&#x27;être démotivé par le fait de devoir évaluer la progression de vos habitudes, <strong>suivez systématiquement une seule habitude plutôt que dix</strong> et associer la méthode de la <a href="/atomic-habits-james-clear#la-superposition-d&#x27;habitudes" title="superposition d&#x27;habitudes">superposition d&#x27;habitudes</a>  avec le suivi des habitudes :</p>
+<p>Pour éviter d&#x27;être démotivé par le fait de devoir évaluer la progression de vos habitudes, <strong>suivez systématiquement une seule habitude plutôt que dix</strong> et associer la méthode de la [[202107111151#La superposition d&#x27;habit<a href="/atomic-habits-james-clear#la-superposition-d&#x27;habitudes" title="superposition d&#x27;habitudes">superposition d&#x27;habitudes</a>s [HABITUDE ACTUELLE], je vais [EFFECTUER UN SUIVI DE MON HABITUDE].**</p>
 
-<p><strong>Après [HABITUDE ACTUELLE], je vais [EFFECTUER UN SUIVI DE MON HABITUDE].</strong></p>
 <h2>Évitez &quot;La spirale d&#x27;erreurs répétées&quot; ou &quot;Le cycle tout ou rien&quot;</h2>
 <blockquote>
 <p>« La première règle de la capitalisation : ne jamais arrêter inutilement. » Charlie Munger</p>
@@ -8611,6 +8474,7 @@ sudo systemctl restart sshd
 <li><a href="https://effectiviology.com/halo-effect/">https://effectiviology.com/halo-effect/</a></li>
 <li><a href="https://braink.it/principles/halo-effect">https://braink.it/principles/halo-effect</a></li>
 <li><a href="https://cm.stackedmarketer.com/t/j-e-wyuydhy-dkhjslutd-yh/">https://cm.stackedmarketer.com/t/j-e-wyuydhy-dkhjslutd-yh/</a></li>
+<li><a href="https://youtu.be/yAGQxGPMti8">Gnooki - Le biais qui décide si les gens t’aiment ou pas</a></li>
 <li><a href="https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recuwMDLiVwaywCQJ">https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recuwMDLiVwaywCQJ</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -8802,38 +8666,38 @@ createImage(&#x27;Hello World!&#x27;);
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Créer un ebook à partir d'un fichier markown]]></title>
-            <link>https://johackim.com/creer-un-ebook-a-partir-d&apos;un-fichier-markown?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/creer-un-ebook-a-partir-d&apos;un-fichier-markown</guid>
+            <title><![CDATA[202106272129]]></title>
+            <link>https://johackim.com/mon-processus-de-prise-de-notes?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mon-processus-de-prise-de-notes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
             <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/creer-un-ebook-a-partir-d&apos;un-fichier-markown.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-ebook-a-partir-d&apos;un-fichier-markown.jpg"/>
-            <content:encoded><![CDATA[<p>Pour créer un ebook à partir d&#x27;un fichier markdown, il est possible d&#x27;utiliser Pandoc sur <a href="/linux" title="Linux">Linux</a>.</p>
+            <media:content url="https://johackim.com/covers/mon-processus-de-prise-de-notes.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/mon-processus-de-prise-de-notes.jpg"/>
+            <content:encoded><![CDATA[<h2>La méthode Zettelkasten</h2>
+<p>Lorsque je prend des notes, j&#x27;utilise en partie la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>.</p>
 
-<h2>Installation de Pandoc sur Linux</h2>
-<p>Sur Ubuntu et Debian :</p>
-<pre><code class="language-bash">apt update &amp;&amp; apt install -y pandoc texlive texlive-latex-extra
-</code></pre>
-<p>Sur Arch Linux :</p>
-<pre><code class="language-bash">pacman -S --noconfirm pandoc texlive-bin texlive-core
-</code></pre>
-<h2>Création d&#x27;un ebook au format epub</h2>
-<pre><code class="language-bash">pandoc input.md -o output.epub
-</code></pre>
-<h2>Création d&#x27;un ebook au format pdf</h2>
-<pre><code class="language-bash">pandoc input.md -o output.pdf
-</code></pre>
-<h2>Création d&#x27;un ebook au format mobi</h2>
-<pre><code class="language-bash">pandoc input.md -o output.mobi
-</code></pre>
-<h2>Création d&#x27;un ebook avec Docker</h2>
-<pre><code class="language-bash">docker run -it -v $PWD:/mnt pandoc/core input.md -o /mnt/output.mobi
-</code></pre>
-<h2>Ajouter une cover</h2>
-<p>Pour ajouter une cover :</p>
-<pre><code class="language-bash">pandoc input.md --epub-cover-image cover.png -o output.epub
-</code></pre>]]></content:encoded>
+<p>Dès que j&#x27;ai des idées qui me viennent en tête, je prend des <a href="/notes-temporaires" title="notes temporaires">notes temporaires</a> dans un fichier <a href="/markdown" title="Markdown" class="not-found">Markdown</a> <code>inbox.md</code> dans <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
+
+<p>Si je lis un livre, un article, écoute un podcast ou regarde une vidéo, je rédige avec mes propres mots une <a href="/notes-litteraires" title="note littéraire">note littéraire</a> de tout les <strong>concepts</strong> m&#x27;intéresse dans le contenu.</p>
+
+<p>Une fois la <a href="/notes-litteraires" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="/notes-permanentes" title="notes permanentes">notes permanentes</a>.</p>
+
+
+<link href="data:text/css;base64,I21lcm1haWQtc3ZnLTV7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTUgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy01IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy01IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTUgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTUgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTUgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTUgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy01IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
+<p>~~Ce sur quoi mon processus diffère de la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.~~</p>
+
+<p>J&#x27;ajoute les références du contenu d&#x27;origine (URLs, page d&#x27;un livre, timecode d&#x27;une vidéo ou d&#x27;un podcast, etc...) pour avoir une trace des contenus originellement consommées.</p>
+<h2>Les 4 règles à respecter</h2>
+<p>Voici mes <strong>4 règles à respecter lorsque je prends des notes</strong> :</p>
+<ol>
+<li>
+Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a href="/note-atomique" title="atomique">atomique</a> (<strong>Une note = Un concept</strong>)
+
+</li>
+<li><strong>Ne jamais copier-coller</strong> un contenu.</li>
+<li><strong>Utiliser ses propres mots</strong> pour rédiger une note.</li>
+<li>Toujours renseigner les <strong>références</strong> d&#x27;une note.</li>
+</ol>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Digital Garden]]></title>
@@ -8844,9 +8708,17 @@ createImage(&#x27;Hello World!&#x27;);
             <media:content url="https://johackim.com/covers/digital-garden.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/digital-garden.jpg"/>
             <content:encoded><![CDATA[<p>Un jardin numérique (en anglais : digital garden) est un espace en ligne qui se trouve à l&#x27;intersection d&#x27;un carnet de notes et d&#x27;un blog, où des graines de pensées sont partagés et cultivés en public.</p>
-<blockquote>
-<p>The phrase &quot;digital garden&quot; is a metaphor for thinking about writing and creating that focuses less on the resulting &quot;showpiece&quot; and more on the process, care, and craft it takes to get there. - Joel Hooks</p>
-</blockquote>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Joel Hooks</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>The phrase &quot;digital garden&quot; is a metaphor for thinking about writing and creating that focuses less on the resulting &quot;showpiece&quot; and more on the process, care, and craft it takes to get there.</p>
+                    </div>
+                </blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -8856,29 +8728,6 @@ createImage(&#x27;Hello World!&#x27;);
 <li><a href="https://maggieappleton.com/garden-history">https://maggieappleton.com/garden-history</a></li>
 <li><a href="https://nesslabs.com/digital-garden-set-up">https://nesslabs.com/digital-garden-set-up</a></li>
 <li>Michael Simmons - Digital Garden Mastery Manual</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Extraire les sous-titres d'une vidéo YouTube]]></title>
-            <link>https://johackim.com/extraire-les-sous-titres-d&apos;une-video-youtube?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/extraire-les-sous-titres-d&apos;une-video-youtube</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/extraire-les-sous-titres-d&apos;une-video-youtube.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/extraire-les-sous-titres-d&apos;une-video-youtube.jpg"/>
-            <content:encoded><![CDATA[<p>Pour extraire les sous-titres d&#x27;une vidéo YouTube, il existe à ma connaissance 2 solutions efficaces.</p>
-<h2>Savesubs.com</h2>
-<p>Vous pouvez vous rendre sur le site <a href="https://savesubs.com/">savesubs.com</a> et insérer l&#x27;URL de votre vidéo YouTube.</p>
-<p>Le service vous retournera un fichier au format <code>.srt</code> ou <code>.txt</code> de votre vidéo à télécharger.</p>
-<h2>Youtube-dl</h2>
-<p>Ou alors, vous pouvez utiliser le logiciel <code>youtube-dl</code> accessible en ligne de commande :</p>
-<pre><code class="language-bash">youtube-dl --write-auto-sub --sub-lang &lt;lang&gt; --skip-download &lt;youtube_video&gt;
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://github.com/NotJoeMartinez/yt-fts">https://github.com/NotJoeMartinez/yt-fts</a></li>
-<li><a href="https://filmot.com/">https://filmot.com/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -9482,40 +9331,6 @@ createImage(&#x27;Hello World!&#x27;);
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mon processus de prise de notes]]></title>
-            <link>https://johackim.com/mon-processus-de-prise-de-notes?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/mon-processus-de-prise-de-notes</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/mon-processus-de-prise-de-notes.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/mon-processus-de-prise-de-notes.jpg"/>
-            <content:encoded><![CDATA[<h2>La méthode Zettelkasten</h2>
-<p>Lorsque je prend des notes, j&#x27;utilise en partie la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>.</p>
-
-<p>Dès que j&#x27;ai des idées qui me viennent en tête, je prend des <a href="/notes-temporaires" title="notes temporaires">notes temporaires</a> dans un fichier <a href="/markdown" title="Markdown" class="not-found">Markdown</a> <code>inbox.md</code> dans <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
-
-<p>Si je lis un livre, un article, écoute un podcast ou regarde une vidéo, je rédige avec mes propres mots une <a href="/notes-litteraires" title="note littéraire">note littéraire</a> de tout les <strong>concepts</strong> m&#x27;intéresse dans le contenu.</p>
-
-<p>Une fois la <a href="/notes-litteraires" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="/notes-permanentes" title="notes permanentes">notes permanentes</a>.</p>
-
-
-<link href="data:text/css;base64,I21lcm1haWQtc3ZnLTV7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNSAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy01IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTUgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNSAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTUgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNSBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy01IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNSAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy01IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTUgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTUgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNSAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTUgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTUgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTUgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy01IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNSAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTUgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNSBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNSAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy01IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
-<p>~~Ce sur quoi mon processus diffère de la méthode <a href="/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.~~</p>
-
-<p>J&#x27;ajoute les références du contenu d&#x27;origine (URLs, page d&#x27;un livre, timecode d&#x27;une vidéo ou d&#x27;un podcast, etc...) pour avoir une trace des contenus originellement consommées.</p>
-<h2>Les 4 règles à respecter</h2>
-<p>Voici mes <strong>4 règles à respecter lorsque je prends des notes</strong> :</p>
-<ol>
-<li>
-Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a href="/note-atomique" title="atomique">atomique</a> (<strong>Une note = Un concept</strong>)
-
-</li>
-<li><strong>Ne jamais copier-coller</strong> un contenu.</li>
-<li><strong>Utiliser ses propres mots</strong> pour rédiger une note.</li>
-<li>Toujours renseigner les <strong>références</strong> d&#x27;une note.</li>
-</ol>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Note atomique]]></title>
             <link>https://johackim.com/note-atomique?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/note-atomique</guid>
@@ -9831,32 +9646,6 @@ nvme format --ses=1 &lt;device&gt;
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Tester les touches de son clavier sur Linux]]></title>
-            <link>https://johackim.com/tester-les-touches-de-son-clavier-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/tester-les-touches-de-son-clavier-sur-linux</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/tester-les-touches-de-son-clavier-sur-linux.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/tester-les-touches-de-son-clavier-sur-linux.jpg"/>
-            <content:encoded><![CDATA[<p>Pour tester et vérifier que les touches de son clavier fonctionne correctement, il existe un outil sur <a href="/linux" title="Linux">Linux</a> du nom de <code>xev</code>, pour l&#x27;installer, exécutez la commande suivante :</p>
-
-<pre><code class="language-bash">apt update &amp;&amp; apt -yq install xorg-xev
-</code></pre>
-<p>Pour le lancer :</p>
-<pre><code class="language-bash">xev
-</code></pre>
-<p>Appuyez ensuite sur les touches de votre clavier pour vérifier si votre ordinateur les prend bien en compte.</p>
-<p>Très utile lorsque certaines touches de son clavier sont dysfonctionnelles 😀.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/linux" title="Linux">Linux</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Tor]]></title>
             <link>https://johackim.com/tor?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/tor</guid>
@@ -9957,318 +9746,7 @@ gi () {
 </code></pre>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Créer un flux RSS avec Gatsby]]></title>
-            <link>https://johackim.com/creer-un-flux-rss-avec-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/creer-un-flux-rss-avec-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/creer-un-flux-rss-avec-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-flux-rss-avec-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Pour créer un flux RSS avec Gatsby, installez le plugin <code>gatsby-plugin-feed</code> :</p>
-<pre><code class="language-bash">npm install gatsby-plugin-feed
-</code></pre>
-<p>Puis, ajoutez au fichier <code>gatsby-config.js</code> la configuration suivante :</p>
-<pre><code class="language-js">// gatsby-config.js
-module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-plugin-feed`,
-    },
-  ],
-};
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/rss" title="RSS" class="not-found">RSS</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Créer une bar de progression de lecture sur Gatsby]]></title>
-            <link>https://johackim.com/creer-une-bar-de-progression-de-lecture-sur-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/creer-une-bar-de-progression-de-lecture-sur-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/creer-une-bar-de-progression-de-lecture-sur-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/creer-une-bar-de-progression-de-lecture-sur-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Il existe <a href="https://gatsbyjs.com/plugins/gatsby-plugin-page-progress/">un plugin Gatsby</a> qui permet d&#x27;automatiquement ajouter une bar de progression de lecture :</p>
-<pre><code class="language-bash">yarn add -D gatsby-plugin-page-progress
-</code></pre>
-<pre><code class="language-javascript">// gatsby-config.js
-{
-    resolve: &#x27;gatsby-plugin-page-progress&#x27;,
-    options: {
-        height: 3,
-        prependToBody: false,
-        color: &#x27;#4A5563&#x27;,
-        footerHeight: 500,
-        headerHeight: 0,
-    },
-},
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Docker history]]></title>
-            <link>https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/inspecter-toutes-les-couches-d&apos;une-image-docker.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/inspecter-toutes-les-couches-d&apos;une-image-docker.jpg"/>
-            <content:encoded><![CDATA[<p>Pour inspecter toutes les couches d&#x27;une image <a href="/docker" title="Docker">Docker</a>, il existe la commande suivante :</p>
-
-<pre><code class="language-bash">docker history --no-trunc &lt;image&gt;
-</code></pre>
-<p>ou</p>
-<pre><code class="language-bash">docker run -v /var/run/docker.sock:/var/run/docker.sock --rm ghcr.io/laniksj/dfimage &lt;image&gt;
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Initialiser eslint sur un projet JavaScript]]></title>
-            <link>https://johackim.com/initialiser-eslint-sur-un-projet-javascript?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/initialiser-eslint-sur-un-projet-javascript</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/initialiser-eslint-sur-un-projet-javascript.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/initialiser-eslint-sur-un-projet-javascript.jpg"/>
-            <content:encoded><![CDATA[<p>Pour initialiser eslint sur un projet JavaScript il existe la commande suivante :</p>
-<pre><code class="language-bash">npm init @eslint/config@v0.4.6
-npm pkg set scripts.lint=&quot;eslint .&quot;
-</code></pre>
-<p>Personnellement j&#x27;ajoute les règles suivantes au fichier <code>.eslintrc.json</code> :</p>
-<pre><code class="language-js">// .eslintrc.json
-&quot;rules&quot;: {
-    &quot;indent&quot;: [2, 4, { &quot;SwitchCase&quot;: 1 }],
-    &quot;max-len&quot;: [0],
-    &quot;object-curly-newline&quot;: [0],
-    &quot;import/no-extraneous-dependencies&quot;: [0],
-    &quot;import/prefer-default-export&quot;: [0],
-    &quot;react/jsx-filename-extension&quot;: [1, { &quot;extensions&quot;: [&quot;.js&quot;, &quot;.jsx&quot;] }],
-    &quot;react/jsx-props-no-spreading&quot;: [0],
-    &quot;react/jsx-indent-props&quot;: [2, 4],
-    &quot;react/jsx-indent&quot;: [2, 4],
-    &quot;react/prop-types&quot;: [0],
-    &quot;react/no-unescaped-entities&quot;: [0],
-    &quot;react/function-component-definition&quot;: [0],
-    &quot;react/react-in-jsx-scope&quot;: [0],
-    &quot;no-restricted-syntax&quot;: [0],
-    &quot;complexity&quot;: [2, 6],
-    &quot;max-depth&quot;: [2, 2]
-}
-</code></pre>
-<p>Si jamais vous rencontrez une erreur <code>File ignored by default</code> pour un fichier qui se situe dans un dossier caché (ex: <code>.storybook</code>), ajoutez la ligne suivante à votre fichier <code>.eslintrc.json</code> :</p>
-<pre><code class="language-bash">&quot;ignorePatterns&quot;: [&quot;!.storybook&quot;],
-</code></pre>
-<p>Si vous souhaitez ignorer une ligne de code, ajoutez le commentaire <code>// eslint-disable-line</code>.</p>
-<p>Et pour plusieurs lignes de code :</p>
-<pre><code class="language-js">/* eslint-disable */
-console.log(&#x27;Mon code javascript&#x27;);
-/* eslint-enable */
-
-// Ou une règle particulière
-
-/* eslint-disable max-lines-per-function */
-console.log(&#x27;Mon code javascript&#x27;);
-/* eslint-enable */
-
-// Ou
-
-/* eslint-disable-next-line complexity */
-console.log(&#x27;Mon code javascript&#x27;);
-</code></pre>
-<p>Si vous voulez définir des exceptions, ajoutez une ligne <code>overrides</code> :</p>
-<pre><code class="language-json">{
-    &quot;rules&quot;: {
-        &quot;max-lines-per-function&quot;: [&quot;error&quot;, 25],
-    },
-    &quot;overrides&quot;: [
-        {
-            &quot;files&quot;: [&quot;components/**&quot;],
-            &quot;rules&quot;: {
-                &quot;max-lines-per-function&quot;: [&quot;error&quot;, 120]
-            }
-        }
-    ]
-}
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Gérer un stockage Zapier avec cURL]]></title>
-            <link>https://johackim.com/gerer-un-stockage-zapier-avec-curl?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/gerer-un-stockage-zapier-avec-curl</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/gerer-un-stockage-zapier-avec-curl.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/gerer-un-stockage-zapier-avec-curl.jpg"/>
-            <content:encoded><![CDATA[<p>Zapier permet de stocker et de récupérer des données dans un mini-espace de stockage appelé <a href="https://zapier.com/help/doc/how-get-started-storage-zapier">Storage by Zapier</a>.</p>
-<p>Personnellement, je me sers de cet espace de stockage pour stocker les données provenant des tâches Zapier, exemple : une liste de tweets qui s&#x27;autopublie sur Twitter.</p>
-<p>Il est possible de récupérer le contenu d&#x27;un stockage Zapier avec une simple commande Linux curl :</p>
-<pre><code class="language-bash">curl -s https://store.zapier.com/api/records\?secret\=&lt;uuid_secret_key&gt;
-</code></pre>
-<p>Et pour ajouter des données à un stockage Zapier :</p>
-<pre><code class="language-bash">curl -s -X POST -H &quot;Content-Type: application/json&quot; -d &#x27;{&quot;list&quot;: [&quot;item1&quot;, &quot;item2&quot;]}&#x27; https://store.zapier.com/api/records\?secret\=&lt;uuid_secret_key&gt;
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/automatisation" title="Automatisation" class="not-found">Automatisation</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[IPTV]]></title>
-            <link>https://johackim.com/iptv?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/iptv</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/iptv.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/iptv.jpg"/>
-            <content:encoded><![CDATA[<p>L’Internet Protocol TeleVision ou, IPTV, est le fait d’accéder à des chaines de télévision avec internet. Ce qui permet ’avoir accès à la télévision sur un ordinateur ou smartphone.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Intégrer Tailwind CSS à gatsby]]></title>
-            <link>https://johackim.com/integrer-tailwind-css-a-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/integrer-tailwind-css-a-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/integrer-tailwind-css-a-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/integrer-tailwind-css-a-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Pour intégrer <a href="https://tailwindcss.com/">Tailwind CSS</a> dans <a href="https://gatsbyjs.com/">Gatsby</a>, installez les packages npm suivants :</p>
-<pre><code class="language-bash">npm install -D tailwindcss postcss autoprefixer gatsby-plugin-postcss
-</code></pre>
-<h2>1. Configurer Tailwind &amp; Postcss</h2>
-<p>Créez les fichiers de configuration <code>tailwind.config.js</code>, <code>postcss.config.js</code> et <code>gatsby-config.js</code> :</p>
-<pre><code class="language-javascript">// tailwind.config.js
-
-module.exports = {
-    purge: [&#x27;./src/**/*.{js,jsx,ts,tsx}&#x27;],
-    darkMode: false,
-    theme: {
-        extend: {},
-    },
-    variants: {
-        extend: {},
-    },
-    plugins: [],
-};
-</code></pre>
-<pre><code class="language-javascript">// postcss.config.js
-
-module.exports = {
-    plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-    },
-};
-</code></pre>
-<pre><code class="language-javascript">// gatsby-config.js
-
-module.exports = {
-    plugins: [&#x27;gatsby-plugin-postcss&#x27;],
-}
-</code></pre>
-<h2>2. Créer un fichier style.css</h2>
-<p>Puis créez un fichier <code>style.css</code> à intégrer dans le fichier <code>gatsby-browser.js</code> :</p>
-<pre><code class="language-css">/* src/style.css */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</code></pre>
-<pre><code class="language-js">// gatsby-browser.js
-
-import &#x27;./src/style.css&#x27;;
-</code></pre>
-<h2>3. Utiliser Tailwind CSS dans votre code</h2>
-<p>Vous pouvez à présent utiliser Tailwind CSS partout dans votre code 😀 :</p>
-<pre><code class="language-js">// src/pages/index.js
-
-import React from &#x27;react&#x27;;
-
-const IndexPage = () =&gt; (
-    &lt;p className=&quot;text-red-800&quot;&gt;Hello world!&lt;/p&gt;
-);
-
-export default IndexPage;
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://tailwindcss.com/docs/guides/gatsby">https://tailwindcss.com/docs/guides/gatsby</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Kodi]]></title>
-            <link>https://johackim.com/kodi?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/kodi</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/kodi.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/kodi.jpg"/>
-            <content:encoded><![CDATA[<p>Kodi (anciennement XBMC) est un lecteur multimédia libre qui tourne nativement sur les systèmes d’exploitation BSD, Raspbian, GNU/Linux, Mac OS X, Microsoft Windows, Android et iOS.</p>
-<h2>Installer un dépôt sur Kodi</h2>
-<p>Un dépôt ou repository regroupe une sélection d&#x27;extensions (ou add-ons), que vous pouvez installer directement depuis l&#x27;application Kodi. Vous n&#x27;avez donc pas besoin de chercher add-on par add-on, tout est regroupé dans un dépôt ou repository.</p>
-<p>Le plus connu de tous c&#x27;est <a href="https://superrepo.org/">SuperRepo</a> qui compte pas moins de 5000 add-ons.</p>
-<p>Pour ajouter un dépôt :</p>
-<ol>
-<li>Rendez-vous dans Système (la petite icône engrenage en haut à gauche)</li>
-<li>Dans le gestionnaire de fichiers</li>
-<li>Appuyer sur &quot;Ajouter une source&quot;</li>
-<li>Ajouter l&#x27;adresse : <a href="http://srp.nu">http://srp.nu</a> là où il y a marqué &quot;aucun&quot;, et donnez-lui un nom (ex : &quot;SuperRepo&quot;).</li>
-<li>Rendez-vous ensuite dans Système → Extensions</li>
-<li>Appuyer sur &quot;Installer depuis un fichier zip&quot;</li>
-<li>Sélectionnez votre source précédemment nommée &quot;SuperRepo&quot; → Krypton → all → <code>superrepo.kodi.krypton.all-0.7.04.zip</code></li>
-</ol>
-<p>Voilà ! Maintenant vous pouvez parcourir toutes les extensions et prendre celles dont vous avez besoin depuis le menu Système → Extensions → Installer depuis un dépôt → SuperRepo.</p>
-<p>Cette installation fonctionne avec SuperRepo de la même façon que n&#x27;importe quel autre dépôt 😉</p>
-<p>PS : Pour supprimer l&#x27;icône thermomètre, ajoutez le paramètre <code>avoid_warnings=1</code> dans le fichier <code>/boot/config.txt</code>.</p>
-<p>PS2 : Si vous n&#x27;arrivez pas à installer l&#x27;Add-on YouTube, exécutez la commande <code>sudo apt install -y kodi-inputstream-adaptive</code></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Kopia]]></title>
-            <link>https://johackim.com/kopia?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/kopia</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/kopia.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/kopia.jpg"/>
-            <content:encoded><![CDATA[<p><a href="https://github.com/kopia/kopia">Kopia</a> est un logiciel de sauvegarde disponible sur Windows, macOS et Linux.</p>
-<h2>Initialiser un dépôt</h2>
-<pre><code class="language-bash">kopia repository create s3 --bucket=&lt;bucket&gt; --access-key=&lt;access_key&gt; --secret-access-key=&lt;secret_key&gt; --endpoint &lt;endpoint&gt;
-</code></pre>
-<h2>Créer une sauvegarde</h2>
-<pre><code class="language-bash">kopia snapshot create &lt;dossier|fichier&gt;
-</code></pre>
-<h2>Monter un dépôt</h2>
-<pre><code class="language-bash">kopia mount all &lt;dossier&gt;
-kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
-</code></pre>
-<h2>Se déconnecter d&#x27;un dépôt</h2>
-<pre><code class="language-bash">kopia repository disconnect
-</code></pre>
-<h2>Se connecter à un dépôt</h2>
-<pre><code class="language-bash">kopia repository connect s3 --bucket=&lt;bucket&gt; --access-key=&lt;access_key&gt; --secret-access-key=&lt;secret_key&gt; --endpoint &lt;endpoint&gt;
-</code></pre>
-<h2>Lister les sauvegardes</h2>
-<pre><code class="language-bash">kopia snapshot list
-</code></pre>
-<h2>Lister les fichier d&#x27;une sauvegarde</h2>
-<pre><code class="language-bash">kapia ls -l &lt;snpashot_id&gt;
-</code></pre>
-<h2>Supprimer une sauvegarde</h2>
-<pre><code class="language-bash">kopia snapshot delete &lt;snapshot_id&gt; --delete
-</code></pre>
-<h2>Changer le type de compression</h2>
-<pre><code class="language-bash">kopia policy set --global --compression=pgzip
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mes films préférés]]></title>
+            <title><![CDATA[202106072236]]></title>
             <link>https://johackim.com/mes-films-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-films-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -10442,11 +9920,12 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=1941.html">Il était une fois en Amérique</a></li>
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=271957.html">Martin Eden</a></li>
 <li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=271687.html">Nomadland</a></li>
-<li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=324466.html">Nuremberg</a></li>
+<li><a href="https://allocine.fr/film/fichefilm_gen_cfilm=1000012480.html">Le rêve américain</a></li>
 <li>Rainman</li>
 <li>Lamborguini</li>
 <li>Encanto</li>
 <li>LOL 2.0</li>
+<li>War Machine</li>
 </ul>
 <h2>Films que je n&#x27;aime pas</h2>
 <ul>
@@ -10467,7 +9946,7 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mes jeux vidéos préférés]]></title>
+            <title><![CDATA[202106072237]]></title>
             <link>https://johackim.com/mes-jeux-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-jeux-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -10599,7 +10078,6 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li><a href="https://store.steampowered.com/app/2708450/Oh_Deer/">Oh Deer</a></li>
 <li><a href="https://store.steampowered.com/app/2840770/">Avatar: Frontiers of Pandora</a></li>
 <li><a href="https://store.steampowered.com/app/409710/BioShock_Remastered/">BioShock™ Remastered</a></li>
-<li><a href="https://store.steampowered.com/app/1304930/The_Outlast_Trials/">The Outlast Trials</a></li>
 <li><a href="https://store.steampowered.com/app/1959280/Over_Jump_Rally/">Over Jump Rally</a></li>
 <li><a href="https://store.steampowered.com/app/1771300/Kingdom_Come_Deliverance_II/">Kingdom Come Deliverance 2</a></li>
 <li><a href="https://jeuxvideo.com/jeux/jeu-1933820/">Tomb Raider IV-VI Remastered</a></li>
@@ -10621,6 +10099,9 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li><a href="https://store.steampowered.com/app/433340/Slime_Rancher/">Slime Rancher</a></li>
 <li><a href="https://store.steampowered.com/app/850190/Goat_Simulator_3/">Goat simulator 3</a></li>
 <li><a href="https://store.steampowered.com/app/275850/No_Mans_Sky/">No Man&#x27;s Sky</a></li>
+<li><a href="https://store.steampowered.com/app/1064070/OddBallers/">OddBallers</a></li>
+<li><a href="https://store.steampowered.com/app/4069520/Super_Battle_Golf/">Super Battle Golf</a></li>
+<li><a href="https://store.steampowered.com/app/1304930/The_Outlast_Trials/">The Outlast Trials</a></li>
 <li><strong><a href="https://store.steampowered.com/app/1805110/Solarpunk/">Solarpunk</a></strong></li>
 <li><strong><a href="https://store.steampowered.com/app/3527290/PEAK/">PEAK</a></strong></li>
 <li><strong><a href="https://store.steampowered.com/app/3949040/RV_There_Yet/">RV There Yet?</a></strong></li>
@@ -10663,6 +10144,9 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li>Yet Another Zombie Defense</li>
 <li>Biped</li>
 <li>KIBORG</li>
+<li>Never Alone</li>
+<li>Wobbly Life</li>
+<li>Unrailed!</li>
 </ul>
 <hr/>
 <p>Références :</p>
@@ -10673,10 +10157,11 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 </li>
 <li><a href="https://videogamecanon.com/">https://videogamecanon.com/</a></li>
 <li><a href="https://acclaimedvideogames.com/">https://acclaimedvideogames.com/</a></li>
+<li><a href="https://store.steampowered.com/search/?category2=39">https://store.steampowered.com/search/?category2=39</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mes séries préférés]]></title>
+            <title><![CDATA[202106072238]]></title>
             <link>https://johackim.com/mes-series-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-series-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -10706,12 +10191,12 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=29898.html">Squid Game</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=58.html">24 heures chrono</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=18529.html">The Last Kingdom</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=16950.html">Better Call Saul</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22668.html">The Boys</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=24971.html">Le Jeu de la dame</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22963.html">The Mandalorian</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=27908.html">Ahsoka</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=22408.html">One Piece</a></li>
-<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=7684.html">Misfits</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=9285.html">Homeland</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=451.html">Prison break</a></li>
 </ul>
@@ -10737,6 +10222,191 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
 </ul>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Docker history]]></title>
+            <link>https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/inspecter-toutes-les-couches-d&apos;une-image-docker.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/inspecter-toutes-les-couches-d&apos;une-image-docker.jpg"/>
+            <content:encoded><![CDATA[<p>Pour inspecter toutes les couches d&#x27;une image <a href="/docker" title="Docker">Docker</a>, il existe la commande suivante :</p>
+
+<pre><code class="language-bash">docker history --no-trunc &lt;image&gt;
+</code></pre>
+<p>ou</p>
+<pre><code class="language-bash">docker run -v /var/run/docker.sock:/var/run/docker.sock --rm ghcr.io/laniksj/dfimage &lt;image&gt;
+</code></pre>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Initialiser eslint sur un projet JavaScript]]></title>
+            <link>https://johackim.com/initialiser-eslint-sur-un-projet-javascript?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/initialiser-eslint-sur-un-projet-javascript</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/initialiser-eslint-sur-un-projet-javascript.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/initialiser-eslint-sur-un-projet-javascript.jpg"/>
+            <content:encoded><![CDATA[<p>Pour initialiser eslint sur un projet JavaScript il existe la commande suivante :</p>
+<pre><code class="language-bash">npm init @eslint/config@v0.4.6
+npm pkg set scripts.lint=&quot;eslint .&quot;
+</code></pre>
+<p>Personnellement j&#x27;ajoute les règles suivantes au fichier <code>.eslintrc.json</code> :</p>
+<pre><code class="language-js">// .eslintrc.json
+&quot;rules&quot;: {
+    &quot;indent&quot;: [2, 4, { &quot;SwitchCase&quot;: 1 }],
+    &quot;max-len&quot;: [0],
+    &quot;object-curly-newline&quot;: [0],
+    &quot;import/no-extraneous-dependencies&quot;: [0],
+    &quot;import/prefer-default-export&quot;: [0],
+    &quot;react/jsx-filename-extension&quot;: [1, { &quot;extensions&quot;: [&quot;.js&quot;, &quot;.jsx&quot;] }],
+    &quot;react/jsx-props-no-spreading&quot;: [0],
+    &quot;react/jsx-indent-props&quot;: [2, 4],
+    &quot;react/jsx-indent&quot;: [2, 4],
+    &quot;react/prop-types&quot;: [0],
+    &quot;react/no-unescaped-entities&quot;: [0],
+    &quot;react/function-component-definition&quot;: [0],
+    &quot;react/react-in-jsx-scope&quot;: [0],
+    &quot;no-restricted-syntax&quot;: [0],
+    &quot;complexity&quot;: [2, 6],
+    &quot;max-depth&quot;: [2, 2]
+}
+</code></pre>
+<p>Si jamais vous rencontrez une erreur <code>File ignored by default</code> pour un fichier qui se situe dans un dossier caché (ex: <code>.storybook</code>), ajoutez la ligne suivante à votre fichier <code>.eslintrc.json</code> :</p>
+<pre><code class="language-bash">&quot;ignorePatterns&quot;: [&quot;!.storybook&quot;],
+</code></pre>
+<p>Si vous souhaitez ignorer une ligne de code, ajoutez le commentaire <code>// eslint-disable-line</code>.</p>
+<p>Et pour plusieurs lignes de code :</p>
+<pre><code class="language-js">/* eslint-disable */
+console.log(&#x27;Mon code javascript&#x27;);
+/* eslint-enable */
+
+// Ou une règle particulière
+
+/* eslint-disable max-lines-per-function */
+console.log(&#x27;Mon code javascript&#x27;);
+/* eslint-enable */
+
+// Ou
+
+/* eslint-disable-next-line complexity */
+console.log(&#x27;Mon code javascript&#x27;);
+</code></pre>
+<p>Si vous voulez définir des exceptions, ajoutez une ligne <code>overrides</code> :</p>
+<pre><code class="language-json">{
+    &quot;rules&quot;: {
+        &quot;max-lines-per-function&quot;: [&quot;error&quot;, 25],
+    },
+    &quot;overrides&quot;: [
+        {
+            &quot;files&quot;: [&quot;components/**&quot;],
+            &quot;rules&quot;: {
+                &quot;max-lines-per-function&quot;: [&quot;error&quot;, 120]
+            }
+        }
+    ]
+}
+</code></pre>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Gérer un stockage Zapier avec cURL]]></title>
+            <link>https://johackim.com/gerer-un-stockage-zapier-avec-curl?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/gerer-un-stockage-zapier-avec-curl</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/gerer-un-stockage-zapier-avec-curl.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/gerer-un-stockage-zapier-avec-curl.jpg"/>
+            <content:encoded><![CDATA[<p>Zapier permet de stocker et de récupérer des données dans un mini-espace de stockage appelé <a href="https://zapier.com/help/doc/how-get-started-storage-zapier">Storage by Zapier</a>.</p>
+<p>Personnellement, je me sers de cet espace de stockage pour stocker les données provenant des tâches Zapier, exemple : une liste de tweets qui s&#x27;autopublie sur Twitter.</p>
+<p>Il est possible de récupérer le contenu d&#x27;un stockage Zapier avec une simple commande Linux curl :</p>
+<pre><code class="language-bash">curl -s https://store.zapier.com/api/records\?secret\=&lt;uuid_secret_key&gt;
+</code></pre>
+<p>Et pour ajouter des données à un stockage Zapier :</p>
+<pre><code class="language-bash">curl -s -X POST -H &quot;Content-Type: application/json&quot; -d &#x27;{&quot;list&quot;: [&quot;item1&quot;, &quot;item2&quot;]}&#x27; https://store.zapier.com/api/records\?secret\=&lt;uuid_secret_key&gt;
+</code></pre>
+<hr/>
+<p>Références :</p>
+<ul>
+<li>
+<a href="/automatisation" title="Automatisation" class="not-found">Automatisation</a>
+
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[IPTV]]></title>
+            <link>https://johackim.com/iptv?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/iptv</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/iptv.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/iptv.jpg"/>
+            <content:encoded><![CDATA[<p>L’Internet Protocol TeleVision ou, IPTV, est le fait d’accéder à des chaines de télévision avec internet. Ce qui permet ’avoir accès à la télévision sur un ordinateur ou smartphone.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kodi]]></title>
+            <link>https://johackim.com/kodi?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/kodi</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/kodi.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/kodi.jpg"/>
+            <content:encoded><![CDATA[<p>Kodi (anciennement XBMC) est un lecteur multimédia libre qui tourne nativement sur les systèmes d’exploitation BSD, Raspbian, GNU/Linux, Mac OS X, Microsoft Windows, Android et iOS.</p>
+<h2>Installer un dépôt sur Kodi</h2>
+<p>Un dépôt ou repository regroupe une sélection d&#x27;extensions (ou add-ons), que vous pouvez installer directement depuis l&#x27;application Kodi. Vous n&#x27;avez donc pas besoin de chercher add-on par add-on, tout est regroupé dans un dépôt ou repository.</p>
+<p>Le plus connu de tous c&#x27;est <a href="https://superrepo.org/">SuperRepo</a> qui compte pas moins de 5000 add-ons.</p>
+<p>Pour ajouter un dépôt :</p>
+<ol>
+<li>Rendez-vous dans Système (la petite icône engrenage en haut à gauche)</li>
+<li>Dans le gestionnaire de fichiers</li>
+<li>Appuyer sur &quot;Ajouter une source&quot;</li>
+<li>Ajouter l&#x27;adresse : <a href="http://srp.nu">http://srp.nu</a> là où il y a marqué &quot;aucun&quot;, et donnez-lui un nom (ex : &quot;SuperRepo&quot;).</li>
+<li>Rendez-vous ensuite dans Système → Extensions</li>
+<li>Appuyer sur &quot;Installer depuis un fichier zip&quot;</li>
+<li>Sélectionnez votre source précédemment nommée &quot;SuperRepo&quot; → Krypton → all → <code>superrepo.kodi.krypton.all-0.7.04.zip</code></li>
+</ol>
+<p>Voilà ! Maintenant vous pouvez parcourir toutes les extensions et prendre celles dont vous avez besoin depuis le menu Système → Extensions → Installer depuis un dépôt → SuperRepo.</p>
+<p>Cette installation fonctionne avec SuperRepo de la même façon que n&#x27;importe quel autre dépôt 😉</p>
+<p>PS : Pour supprimer l&#x27;icône thermomètre, ajoutez le paramètre <code>avoid_warnings=1</code> dans le fichier <code>/boot/config.txt</code>.</p>
+<p>PS2 : Si vous n&#x27;arrivez pas à installer l&#x27;Add-on YouTube, exécutez la commande <code>sudo apt install -y kodi-inputstream-adaptive</code></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Kopia]]></title>
+            <link>https://johackim.com/kopia?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/kopia</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/kopia.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/kopia.jpg"/>
+            <content:encoded><![CDATA[<p><a href="https://github.com/kopia/kopia">Kopia</a> est un logiciel de sauvegarde disponible sur Windows, macOS et Linux.</p>
+<h2>Initialiser un dépôt</h2>
+<pre><code class="language-bash">kopia repository create s3 --bucket=&lt;bucket&gt; --access-key=&lt;access_key&gt; --secret-access-key=&lt;secret_key&gt; --endpoint &lt;endpoint&gt;
+</code></pre>
+<h2>Créer une sauvegarde</h2>
+<pre><code class="language-bash">kopia snapshot create &lt;dossier|fichier&gt;
+</code></pre>
+<h2>Monter un dépôt</h2>
+<pre><code class="language-bash">kopia mount all &lt;dossier&gt;
+kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
+</code></pre>
+<h2>Se déconnecter d&#x27;un dépôt</h2>
+<pre><code class="language-bash">kopia repository disconnect
+</code></pre>
+<h2>Se connecter à un dépôt</h2>
+<pre><code class="language-bash">kopia repository connect s3 --bucket=&lt;bucket&gt; --access-key=&lt;access_key&gt; --secret-access-key=&lt;secret_key&gt; --endpoint &lt;endpoint&gt;
+</code></pre>
+<h2>Lister les sauvegardes</h2>
+<pre><code class="language-bash">kopia snapshot list
+</code></pre>
+<h2>Lister les fichier d&#x27;une sauvegarde</h2>
+<pre><code class="language-bash">kapia ls -l &lt;snpashot_id&gt;
+</code></pre>
+<h2>Supprimer une sauvegarde</h2>
+<pre><code class="language-bash">kopia snapshot delete &lt;snapshot_id&gt; --delete
+</code></pre>
+<h2>Changer le type de compression</h2>
+<pre><code class="language-bash">kopia policy set --global --compression=pgzip
+</code></pre>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Puppeteer]]></title>
             <link>https://johackim.com/puppeteer?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/puppeteer</guid>
@@ -10759,7 +10429,7 @@ const puppeteer = require(&#x27;puppeteer&#x27;);
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(&#x27;https://johackim.com&#x27;);
-  await page.screenshot({ path: &#x27;example.png&#x27; });
+  await page.screenshot({ path: &#x27;example.png&#x27;, fullPage: true });
 
   await browser.close();
 })();
@@ -10809,7 +10479,12 @@ const html = await page.evaluate(() =&gt; document.body.innerHTML);
 <p>Pour débugger, désactivez le mode <code>headless</code> :</p>
 <pre><code class="language-bash">await puppeteer.launch({ headless: false });
 </code></pre>
-<p>Cela vous permettra de visualiser le rendu directement depuis un vrai navigateur.</p>]]></content:encoded>
+<p>Cela vous permettra de visualiser le rendu directement depuis un vrai navigateur.</p>
+<h2>Alternatives</h2>
+<ul>
+<li><a href="https://github.com/SeleniumHQ/selenium">Selenium</a></li>
+<li><a href="https://github.com/microsoft/playwright">Playwright</a></li>
+</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Rclone]]></title>
@@ -11053,346 +10728,14 @@ iptables -F -t nat
 iptables -X
 iptables -X -t mangle
 iptables -X -t nat
-iptables -F INPUT
 iptables -A INPUT -i lo -j ACCEPT
-iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-iptables -A INPUT -p tcp --dport 80 -j ACCEPT
-iptables -A INPUT -p tcp --dport 443 -j ACCEPT
-iptables -A INPUT -j DROP
+iptables -P INPUT DROP
 iptables-save &gt; /etc/iptables/iptables.rules
-sudo systemctl enable --now iptables.service
+systemctl enable --now iptables.service
 </code></pre>
 <p>Elle permet de bloquer toutes les connexions entrantes.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Créer une table des matières des fichiers markdown avec Gatsby]]></title>
-            <link>https://johackim.com/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Après avoir <a href="/initialiser-un-projet-gatsby" title="Initialiser un projet Gatsby">Initialiser un projet Gatsby</a> et <a href="/importer-ses-notes-markdown-dans-gatsby" title="importer vos fichiers markdown">importer vos fichiers markdown</a>, vous pouvez créer automatiquement la table des matière d&#x27;un fichier markdown dans Gatsby.</p>
-
-<pre><code class="language-javascript">// gatsby-node.js
-exports.createPages = async ({ actions, graphql, reporter }) =&gt; {
-    const { createPage } = actions;
-
-    const result = await graphql(`
-        {
-            allMarkdownRemark {
-                edges {
-                    node {
-                        id
-                        html
-                        headings {
-                            value
-                            depth
-                        }
-                        parent {
-                            ... on File {
-                                name
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    `);
-
-    if (result.errors) {
-        reporter.panicOnBuild(&#x27;Error while running GraphQL query.&#x27;);
-        return;
-    }
-
-    const markdowns = result.data.allMarkdownRemark.edges;
-
-    const noteTemplate = require.resolve(&#x27;./src/templates/noteTemplate.js&#x27;);
-
-    markdowns.forEach(({ node }) =&gt; {
-        const { id, html, headings } = node;
-
-        createPage({
-            path: `/${node.parent.name}`,
-            component: noteTemplate,
-            context: { id, html, headings },
-        });
-    });
-};
-</code></pre>
-<pre><code class="language-javascript">// src/components/toc.js
-import React from &#x27;react&#x27;;
-import { Link } from &#x27;gatsby&#x27;;
-import slugify from &#x27;slugify&#x27;;
-
-export default ({ headings = [], depthMin = 1, className = &#x27;&#x27; }) =&gt; {
-    if (!headings.length) return false;
-
-    return (
-        &lt;ul className={className}&gt;
-            {headings.filter(({ depth }) =&gt; depth &gt;= depthMin).map(({ value }) =&gt; {
-                const id = slugify(value, { lower: true, strict: true });
-
-                return (
-                    &lt;li key={value}&gt;
-                        &lt;Link to={`#${id}`} title={value}&gt;
-                            {value}
-                        &lt;/Link&gt;
-                    &lt;/li&gt;
-                );
-            })}
-        &lt;/ul&gt;
-    );
-};
-</code></pre>
-<pre><code class="language-js">// src/templates/noteTemplate.js
-import React from &#x27;react&#x27;;
-import Toc from &#x27;../components/toc&#x27;;
-
-export default function Template({ pageContext }) {
-    const { html, headings } = pageContext;
-
-    return (
-        &lt;&gt;
-            &lt;Toc headings={headings} depthMin={2} /&gt;
-            &lt;div dangerouslySetInnerHTML={{ __html: html }} /&gt;
-        &lt;/&gt;
-    );
-}
-</code></pre>
-<p>Pour créer automatiquement les id sur chaque header, il existe le plugin <a href="https://gatsbyjs.com/plugins/gatsby-remark-autolink-headers/">gatsby-remark-autolink-headers</a> :</p>
-<pre><code class="language-npm">yarn add -D gatsby-remark-autolink-headers
-</code></pre>
-<pre><code class="language-javascript">// gatsby-config.js
-module.exports = {
-    plugins: [
-        {
-            resolve: &#x27;gatsby-source-filesystem&#x27;,
-            options: {
-                path: &#x27;./content&#x27;,
-            },
-        },
-        {
-            resolve: &#x27;gatsby-transformer-remark&#x27;,
-            options: {
-                plugins: [
-                    {
-                        resolve: &#x27;gatsby-remark-autolink-headers&#x27;,
-                        options: {
-                            icon: false,
-                        },
-                    },
-                ],
-            },
-        },
-    ],
-};
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Importer ses notes markdown dans Gatsby]]></title>
-            <link>https://johackim.com/importer-ses-notes-markdown-dans-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/importer-ses-notes-markdown-dans-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/importer-ses-notes-markdown-dans-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/importer-ses-notes-markdown-dans-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Après avoir <a href="/initialiser-un-projet-gatsby" title="Initialiser un projet Gatsby">Initialiser un projet Gatsby</a>, créez un dossier <code>content</code> qui va contenir toutes vos notes au format markdown (ex: <code>content/hello-world.md</code>).</p>
-
-<p><strong>NOTE</strong> : Vous pouvez ouvrir se dossier avec Obsidian ou n&#x27;importe quel éditeur de fichier markdown pour éditer vos notes.</p>
-<p>Installez et configurez le package <code>gatsby-source-filesystem</code> &amp; <code>gatsby-transformer-remark</code> pour pouvoir detecter les fichiers markdown de votre dossier <code>content</code> dans Gatsby  :</p>
-<pre><code class="language-bash">yarn add -D gatsby-source-filesystem gatsby-transformer-remark
-</code></pre>
-<pre><code class="language-javascript">// gatsby-config.js
-
-module.exports = {
-    plugins: [
-        {
-            resolve: &#x27;gatsby-source-filesystem&#x27;,
-            options: {
-                path: &#x27;./content&#x27;,
-            },
-        },
-        {
-            resolve: &#x27;gatsby-transformer-remark&#x27;,
-        },
-    ],
-};
-</code></pre>
-<p>Créez le fichier <code>gatsby-node.js</code> avec la configuration si dessous pour pouvoir créer des pages pour chacune de vos notes markdown :</p>
-<pre><code class="language-js">// gatsby-node.js
-
-exports.createPages = async ({ actions, graphql, reporter }) =&gt; {
-    const { createPage } = actions;
-
-    const result = await graphql(`
-        {
-            allMarkdownRemark {
-                edges {
-                    node {
-                        id
-                        html
-                        parent {
-                            ... on File {
-                                name
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    `);
-
-    if (result.errors) {
-        reporter.panicOnBuild(&#x27;Error while running GraphQL query.&#x27;);
-        return;
-    }
-
-    const markdowns = result.data.allMarkdownRemark.edges;
-
-    const noteTemplate = require.resolve(&#x27;./src/templates/noteTemplate.js&#x27;);
-
-    markdowns.forEach(({ node }) =&gt; {
-        const { id, html } = node;
-
-        createPage({
-            path: `/${node.parent.name}`,
-            component: noteTemplate,
-            context: { id, html },
-        });
-    });
-};
-</code></pre>
-<pre><code class="language-js">// src/templates/noteTemplate.js
-
-import React from &#x27;react&#x27;;
-
-export default function Template({ pageContext }) {
-    const { html } = pageContext;
-
-    return &lt;div dangerouslySetInnerHTML={{ __html: html }} /&gt;;
-}
-</code></pre>
-<p>Si vous avez une note <code>hello-world.md</code> dans votre dossier <code>content</code> et que vous vous rendez à l&#x27;adresse <a href="http://localhost:8000/hello-world">http://localhost:8000/hello-world</a>, cela devrait afficher le contenu de votre fichier markdown.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Initialiser un projet Gatsby]]></title>
-            <link>https://johackim.com/initialiser-un-projet-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/initialiser-un-projet-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/initialiser-un-projet-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/initialiser-un-projet-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Pour initialiser un projet <a href="https://gatsbyjs.com/">Gatsby</a>, il suffit d&#x27;installer <a href="https://nodejs.org">node.js</a> puis exécuter cette commande :</p>
-<pre><code class="language-bash">npm install --save gatsby react react-dom
-</code></pre>
-<p>Une fois installé, vous pouvez démarrer Gatsby avec la commande suivante :</p>
-<pre><code class="language-bash">./node_modules/.bin/gatsby develop
-</code></pre>
-<p>Puis ajoutez ces lignes dans votre fichier <code>package.json</code> afin d&#x27;avoir accès aux commandes de gatsby plus facilement :</p>
-<pre><code class="language-json">&quot;scripts&quot;: {
-    &quot;build&quot;: &quot;gatsby build&quot;,
-    &quot;start&quot;: &quot;gatsby develop&quot;,
-    &quot;serve&quot;: &quot;gatsby serve&quot;,
-    &quot;clean&quot;: &quot;gatsby clean&quot;
-}
-</code></pre>
-<p>Vous pouvez à présent exécuter la commande <code>npm start</code> pour démarrer Gatsby.</p>
-<p>PS : Exécutez la commande <code>npm init -f</code> si votre fichier <code>package.json</code> n&#x27;existe pas.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Syntaxe markdown d'Obsidian dans Gatsby]]></title>
-            <link>https://johackim.com/ajouter-le-support-de-la-syntaxe-markdown-d&apos;obsidian-dans-gatsby?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/ajouter-le-support-de-la-syntaxe-markdown-d&apos;obsidian-dans-gatsby</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 31 May 2021 16:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/ajouter-le-support-de-la-syntaxe-markdown-d&apos;obsidian-dans-gatsby.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/ajouter-le-support-de-la-syntaxe-markdown-d&apos;obsidian-dans-gatsby.jpg"/>
-            <content:encoded><![CDATA[<p>Les fichiers markdown dans <a href="/obsidian" title="Obsidian">Obsidian</a> peuvent avoir une syntaxe spéciale propre à Obsidian :</p>
-
-<ul>
-<li><code>[[Internal link]]</code></li>
-<li><code>[[Internal link|With custom text]]</code></li>
-<li><code>[[Internal link#heading]]</code></li>
-<li><code>[[Internal link#heading|With custom text]]</code></li>
-<li><code>[[Embed note]]</code></li>
-<li><code>[[Embed note#heading]]</code></li>
-</ul>
-<p>Cette syntaxe permet de relier des notes entre elles via des liens bidirectionnels (<code>[[Internal link]]</code>).</p>
-<p>Pour ajouter le support de ces liens, j&#x27;ai créé un plugin <a href="https://github.com/johackim/gatsby-remark-obsidian">gatsby-remark-obsidian</a>.</p>
-<p>Vous pouvez intégrer ce plugin avec Remark ou MDX :</p>
-<pre><code class="language-javascript">// gatsby-config.js
-plugins: [
-    {
-        resolve: &quot;gatsby-transformer-remark&quot;,
-        options: {
-            plugins: [
-                {
-                    resolve: &#x27;gatsby-remark-obsidian&#x27;,
-                },
-            ]
-        }
-    },
-],
-</code></pre>
-<p>Si vous utilisez MDX :</p>
-<pre><code class="language-javascript">// gatsby-config.js
-plugins: [
-    {
-        resolve: &#x27;gatsby-plugin-mdx&#x27;,
-        options: {
-            extensions: [&#x27;.md&#x27;],
-            gatsbyRemarkPlugins: [
-                {
-                    resolve: &#x27;gatsby-remark-obsidian&#x27;,
-                },
-            ],
-        },
-    },
-],
-</code></pre>
-<p>PS : Si vous utilisez Next.js, j&#x27;ai créé <a href="https://github.com/johackim/remark-obsidian">un autre plugin</a>.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Créer un digital garden de A à Z avec Gatsby et Obsidian]]></title>
-            <link>https://johackim.com/creer-un-digital-garden?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/creer-un-digital-garden</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 31 May 2021 15:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/creer-un-digital-garden.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-digital-garden.jpg"/>
-            <content:encoded><![CDATA[<ol>
-<li>
-<a href="/initialiser-un-projet-gatsby" title="Initialiser un projet Gatsby">Initialiser un projet Gatsby</a>
-
-</li>
-<li>
-<a href="/importer-ses-notes-markdown-dans-gatsby" title="Importer ses notes markdown dans Gatsby">Importer ses notes markdown dans Gatsby</a>
-
-</li>
-<li>
-<a href="/ajouter-le-support-de-la-syntaxe-markdown-d&#x27;obsidian-dans-gatsby" title="Syntaxe markdown d&#x27;Obsidian dans Gatsby">Syntaxe markdown d&#x27;Obsidian dans Gatsby</a>
-
-</li>
-<li>
-<a href="/creer-un-graph-viewer-comme-obsidian-avec-gatsby" title="Créer un Graph Viewer comme Obsidian avec Gatsby" class="not-found">Créer un Graph Viewer comme Obsidian avec Gatsby</a>
-
-</li>
-<li>
-<a href="/creer-une-table-des-matieres-des-fichiers-markdown-avec-gatsby" title="Créer une table des matières sur Gatsby">Créer une table des matières sur Gatsby</a>
-
-</li>
-<li>
-<a href="/ameliorer-le-seo-de-gatsby" title="Améliorer le SEO de Gatsby" class="not-found">Améliorer le SEO de Gatsby</a>
-
-</li>
-</ol>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://dev.to/joeholmes/creating-a-diy-digital-garden-with-obsidian-and-gatsby-378e">Creating a DIY Digital Garden with Obsidian and Gatsby</a></li>
-</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Créer un service Docker avec plusieurs replicas]]></title>
@@ -11534,6 +10877,7 @@ echo &quot;hello world&quot; &gt; _site/index.html
 <ul>
 <li><a href="https://filebase.com/">https://filebase.com/</a></li>
 <li><a href="https://thebidouilleur.xyz/blog/ipfs/">https://thebidouilleur.xyz/blog/ipfs/</a></li>
+<li><a href="https://github.com/glitternetwork/pinme">https://github.com/glitternetwork/pinme</a></li>
 <li><a href="https://github.com/ipfs-cluster/ipfs-cluster/">https://github.com/ipfs-cluster/ipfs-cluster/</a></li>
 <li><a href="https://github.com/ipfs-shipyard/ipfs-deploy">https://github.com/ipfs-shipyard/ipfs-deploy</a></li>
 <li><a href="https://ipfs.github.io/public-gateway-checker/">https://ipfs.github.io/public-gateway-checker/</a></li>
@@ -11599,8 +10943,8 @@ resource &quot;docker_image&quot; &quot;image_id&quot; {
 
 <p>Pour démarrer Flaresolverr avec Jackett, exécutez les commandes suivantes :</p>
 <pre><code class="language-bash">docker network create jackett
-docker run -d --name flaresolverr --restart=always --pull always --network jackett -p 8191:8191 -e LOG_LEVEL=info ghcr.io/flaresolverr/flaresolverr:latest
-docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
+docker run -d --name flaresolverr --restart=always --pull always --network jackett -e LOG_LEVEL=info ghcr.io/flaresolverr/flaresolverr:latest
+docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett:latest
 </code></pre>
 <p>Et renseignez dans <a href="http://flaresolverr:8191">http://flaresolverr:8191</a> dans le paramètre <code>FlareSolverr API URL</code> sur Jackett.</p>]]></content:encoded>
         </item>
@@ -11816,6 +11160,7 @@ clamd
 <hr/>
 <p>Références :</p>
 <ul>
+<li><a href="https://github.com/x011/smtp-tunnel-proxy">https://github.com/x011/smtp-tunnel-proxy</a></li>
 <li><a href="https://github.com/ValdikSS/GoodbyeDPI">https://github.com/ValdikSS/GoodbyeDPI</a></li>
 <li><a href="https://github.com/xvzc/SpoofDPI">https://github.com/xvzc/SpoofDPI</a></li>
 <li>
@@ -11859,6 +11204,7 @@ ansible-galaxy collection install devsec.hardening
 <p>Références :</p>
 <ul>
 <li><a href="https://github.com/trimstray/the-practical-linux-hardening-guide">https://github.com/trimstray/the-practical-linux-hardening-guide</a></li>
+<li><a href="https://bearstech.com/societe/blog/linux-hardening-une-approche-pragmatique-transcript-de-webinaire">https://bearstech.com/societe/blog/linux-hardening-une-approche-pragmatique-transcript-de-webinaire</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -11957,7 +11303,8 @@ Les Systèmes de prévention d&#x27;intrusion hôtes (ou <strong>HIPS</strong> 
 <li><a href="https://blocklist.de/en/index.html">https://blocklist.de/en/index.html</a></li>
 <li><a href="https://feeds.dshield.org/block.txt">https://feeds.dshield.org/block.txt</a></li>
 <li><a href="https://spamhaus.org/drop/drop_v4.json">https://spamhaus.org/drop/drop_v4.json</a></li>
-<li><a href="https://iplists.firehol.org/">https://iplists.firehol.org/</a> (<a href="https://github.com/firehol/blocklist-ipsets/">https://github.com/firehol/blocklist-ipsets/</a>)</li>
+<li><a href="https://github.com/firehol/blocklist-ipsets/">https://github.com/firehol/blocklist-ipsets/</a></li>
+<li><a href="https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist/">https://github.com/duggytuxy/Data-Shield_IPv4_Blocklist/</a></li>
 <li><a href="https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt">https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -11978,7 +11325,7 @@ Les Systèmes de prévention d&#x27;intrusion hôtes (ou <strong>HIPS</strong> 
 <p>Exemple : si vous voulez générer/retrouver le mot de passe de l&#x27;un de vos comptes (ex : Twitter), vous devez renseigner 3 informations dans l&#x27;application :</p>
 <ol>
 <li>Votre Identifiant Twitter (ex : johackim)</li>
-<li>L&#x27;URL ou le nom de l&#x27;application (ex : twitter.com)</li>
+<li>L&#x27;URL ou le nom de l&#x27;application (ex : x.com)</li>
 <li>Votre MasterPassword (ex : mym@sterp@ssw0rd)</li>
 </ol>
 <p>Et cela vous génère un mot de passe unique basé sur ces 3 informations que vous pouvez utiliser en tant que mot de passe Twitter.</p>
@@ -11999,7 +11346,7 @@ java -jar masterpassword-gui.jar
 <p>Lancer l&#x27;application sur votre périphérique préféré et renseigner les 3 informations suivantes :</p>
 <ol>
 <li>Votre Identifiant (nom d&#x27;utilisateur ou e-mail)</li>
-<li>L&#x27;URL ou le nom de l&#x27;application (ex : twitter.com ou twitter)</li>
+<li>L&#x27;URL ou le nom de l&#x27;application (ex : x.com ou twitter)</li>
 <li>Votre MasterPassword (ex : mym@sterp@ssw0rd)</li>
 </ol>
 <pre><code class="language-bash">spectre -u &lt;username&gt; &lt;domain.com&gt;
@@ -12137,14 +11484,14 @@ networks:
             <media:content url="https://johackim.com/covers/restic.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/restic.jpg"/>
             <content:encoded><![CDATA[<p>Pour sauvegarder des données sous Linux, il existe <a href="https://github.com/restic/restic">restic</a> en tant que logiciel de backups.</p>
-<p>Restic peut sauvegarder des données sur différent backends :</p>
+<p>Restic peut sauvegarder des données sur différents backends :</p>
 <ul>
 <li>Buckets S3 (minio, scaleway, AWS, etc...)</li>
 <li>SFTP</li>
 <li>Local</li>
 <li>Etc...</li>
 </ul>
-<p>Chaque fois que vous lancez la commande <code>restic backup</code>, cela créer un nouvel instantané (un &quot;snapshot&quot;) immuable qui est une photographie de l&#x27;état de vos fichiers à ce moment précis.</p>
+<p>Chaque fois que vous lancez la commande <code>restic backup</code>, cela crée un nouvel instantané (un &quot;snapshot&quot;) immuable qui est une photographie de l&#x27;état de vos fichiers à ce moment précis.</p>
 <p>Et si vous souhaitez plus de <a href="https://rclone.org/#providers">backends</a> (Nextcloud, Dropbox, OVH, etc...), il est possible de coupler restic avec <a href="/rclone" title="Rclone">Rclone</a>.</p>
 
 <h2>Installation</h2>
@@ -12181,6 +11528,9 @@ RESTIC_PASSWORD=&quot;MY_PASSWORD&quot;
 <h2>Consulter les sauvegardes</h2>
 <pre><code class="language-bash">restic snapshots
 </code></pre>
+<h2>Vérifier l&#x27;intégrité d&#x27;un repository</h2>
+<pre><code class="language-bash">restic check
+</code></pre>
 <h2>Restaurer une sauvegarde</h2>
 <pre><code class="language-bash">restic restore &lt;id&gt; --target &lt;folder&gt;
 </code></pre>
@@ -12192,7 +11542,10 @@ RESTIC_PASSWORD=&quot;MY_PASSWORD&quot;
 <pre><code class="language-bash">restic mount &lt;folder&gt;
 </code></pre>
 <h2>Libérer de l&#x27;espace</h2>
-<p>Pour libérer de l&#x27;espace :</p>
+<p>Pour libérer de l&#x27;espace en supprimant les données qui ne sont plus référencées dans aucun snapshot :</p>
+<pre><code class="language-bash">restic prune
+</code></pre>
+<p>Pour libérer de l&#x27;espace en gardant uniquement les snapshots des 30 derniers jours :</p>
 <pre><code class="language-bash">restic forget --keep-within 30d --prune
 # Ou
 restic forget --keep-within 30d --group-by &quot;paths&quot; --prune # Ignorer le nom de la machine
@@ -12202,7 +11555,7 @@ restic forget --keep-within 30d --group-by &quot;paths&quot; --prune # Ignorer l
 <pre><code class="language-bash">restic self-update
 </code></pre>
 <h2>Débloquer l&#x27;accès</h2>
-<p>Si pour une raison ou une autre votre accès est bloqué, exécuter la commande suivante :</p>
+<p>Si pour une raison ou une autre votre accès est bloqué, exécutez la commande suivante :</p>
 <pre><code class="language-bash">kill &lt;pid&gt;
 restic unlock
 </code></pre>
@@ -12242,12 +11595,29 @@ RandomizedDelaySec=300
 [Install]
 WantedBy=timers.target
 </code></pre>
-<p>Activez le timer :</p>
+<p>Activer le timer :</p>
 <pre><code class="language-bash">sudo loginctl enable-linger &lt;user&gt;
 reboot
 systemctl --user daemon-reload
 systemctl --user enable --now restic.timer
-</code></pre>]]></content:encoded>
+</code></pre>
+<p>Désactiver le timer :</p>
+<pre><code class="language-bash">systemctl --user disable --now restic.timer
+</code></pre>
+<p>Pour déclencher le backup manuellement :</p>
+<pre><code class="language-bash">systemctl --user --no-block start restic.service
+</code></pre>
+<h2>Optimiser un repository</h2>
+<p>Vérifier la version du repository :</p>
+<pre><code class="language-bash">restic cat config
+</code></pre>
+<p>Si le repository est en version 1, il faut le migrer en version 2 :</p>
+<pre><code class="language-bash">restic migrate upgrade_repo_v2
+</code></pre>
+<p>Et exécuter la commande suivante pour optimiser le repository :</p>
+<pre><code class="language-bash">RESTIC_COMPRESSION=max restic prune --repack-uncompressed [--dry-run]
+</code></pre>
+<p>Utilisez bien l&#x27;option <code>--dru-run</code> pour vérifier que l&#x27;optimisation vaut bien le coup avant de lancer la commande, car c&#x27;est une commande très lourde.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Service Docker]]></title>
@@ -12280,6 +11650,9 @@ Les <strong>services globaux</strong> ; un seul réplica sera attribué sur chaq
 </code></pre>
 <p>Pour stopper un service :</p>
 <pre><code class="language-bash">docker service scale ghost=0
+</code></pre>
+<p>Pour ajouter/modifier une variable d&#x27;environnement :</p>
+<pre><code class="language-bash">docker service update --env-add NOM_DE_LA_VARIABLE=nouvelle_valeur nom_du_service
 </code></pre>]]></content:encoded>
         </item>
         <item>
@@ -12501,7 +11874,7 @@ traefik:2.4.8 --providers.docker=true
 </li>
 <li><code>![|250](https://site.xyz/image.png)</code> : Insérer une image de 250px de largeur</li>
 <li><code>![](https://youtube.com/watch?v=NnTvZWp5Q7o)</code> : Intégrer une vidéo YouTube</li>
-<li><code>![](https://twitter.com/obsdmd/status/1580548874246443010)</code> : Intégrer un Tweet</li>
+<li><code>![](https://x.com/obsdmd/status/1580548874246443010)</code> : Intégrer un Tweet</li>
 <li><code>#tag</code> : Créer un tag</li>
 <li><code>#nested/tag</code> : Créer un sous-tag</li>
 <li><code>[^Ref]</code> et <code>[^Ref]: Footnote text.</code> : Créer une note de bas de page</li>
@@ -12643,7 +12016,7 @@ traefik:2.4.8 --providers.docker=true
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Ma stack technique]]></title>
+            <title><![CDATA[202105111506]]></title>
             <link>https://johackim.com/ma-stack-technique?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ma-stack-technique</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -12926,7 +12299,7 @@ traefik:2.4.8 --providers.docker=true
 </ol>
 <pre><code class="language-bash">java -jar Iris-Installer-3.2.1.jar
 </code></pre>
-<ol start="2">
+<ol>
 <li>
 Puis téléchargez le shader shrimple au format zip et placez-le dans le dossier <code>~/.minecraft/shaderpacks/</code>.
 </li>
@@ -13348,6 +12721,40 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 </section>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Mon second cerveau]]></title>
+            <description><![CDATA[Découvrez comment j'ai créé un "second cerveau" pour expérimenter, recenser et partager toutes mes idées.]]></description>
+            <link>https://johackim.com/mon-second-cerveau?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/mon-second-cerveau</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Fri, 16 Apr 2021 10:50:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/mon-second-cerveau.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/mon-second-cerveau.jpg"/>
+            <content:encoded><![CDATA[<p>Inspiré par le concept des <a href="/digital-garden" title="digital gardens">digital gardens</a> 🌱, <a href="https://buildingasecondbrain.com/">Building a Second Brain</a> 🧠 et <a href="https://linkingyourthinking.com/">Linking Your Thinking</a> 🗄️, je me suis créé un second cerveau ; un <strong>espace d&#x27;expérimentation</strong> où je recense et partage toutes mes <strong>idées</strong>, <strong>découvertes</strong> et <strong>notes personnelles</strong>.</p>
+
+<p>Une sorte de <strong>laboratoire</strong> où j&#x27;expérimente tout un tas de sujets.</p>
+<p>Un <strong>second cerveau</strong> où je stocke tous mes <strong>modèles mentaux</strong>.</p>
+<p>C&#x27;est ici que je partage mes <strong>méthodes de réflexions</strong>.</p>
+<p>Une sorte de <strong>Wikipédia personnel</strong>.</p>
+<p>PS: Il ne s&#x27;agit pas d&#x27;un blog traditionnel où je publie de simples articles de manière chronologiques_.</p>
+<h2>Visualisation de mon second cerveau</h2>
+
+<link href="data:text/css;base64,I21lcm1haWQtc3ZnLTd7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNyAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy03IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy03IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNyAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTcgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNyBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy03IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNyAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy03IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTcgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTcgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNyAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy03IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTcgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTcgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy03IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNyAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNyAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNyAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy03IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
+<h2>Mon système de capture d&#x27;informations</h2>
+<p>C&#x27;est à cet endroit que je capture toutes les informations (RSS, Newsletters, Tweets, Vidéos YouTube, etc...).</p>
+<p>Je ne consulte mon actualité qu&#x27;une fois par jour à l&#x27;aide de <strong><a href="https://read.readwise.io">Readwise</a></strong> qui rassemble tous les blogs, les podcasts, les chaines YouTube et les newsletter que je suis.</p>
+<h2>Mon second cerveau</h2>
+<p>C&#x27;est à cet endroit que je crée et sauvegarde toutes les informations qui me semblent pertinentes.</p>
+<p>Il s&#x27;agit d&#x27;un ensemble de fichiers texte bruts au format <strong>markdown</strong> reliés entre eux par des <code>[[liens bidirectionnels]]</code>.</p>
+<p>Ces fichiers peuvent être consultés avec n&#x27;importe quel éditeur de texte.</p>
+<p>Personnellement, j&#x27;utilise <a href="/neovim" title="Neovim">Neovim</a> et <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
+
+<p>L&#x27;ensemble est versionné avec <a href="https://github.com/git/git">git</a> et sauvegardé chaque jour sur un serveur externe.</p>
+<h2>Mon système de partage</h2>
+<p><strong>J&#x27;automatise chaque semaine le partage de mon second cerveau.</strong></p>
+<p>Toutes mes notes sont publiées sur mon blog avec <a href="https://github.com/johackim/johackim.com">Next.js, Obsidian Publish et IPFS</a>.</p>
+<p>Un récapitulatif est envoyé chaque mois sur <a href="https://johackim.com/newsletter">ma newsletter</a>.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[C'est quoi un hacker ?]]></title>
             <link>https://johackim.com/hacker?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/hacker</guid>
@@ -13385,42 +12792,8 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 <li><a href="https://github.com/s0md3v/be-a-hacker">https://github.com/s0md3v/be-a-hacker</a></li>
 <li><a href="http://paulgraham.com/gh.html">http://paulgraham.com/gh.html</a></li>
 <li><a href="https://danielmiessler.com/study/programmer_hacker_developer/">https://danielmiessler.com/study/programmer_hacker_developer/</a></li>
-<li><a href="https://twitter.com/samykamkar">https://twitter.com/samykamkar</a></li>
+<li><a href="https://x.com/samykamkar">https://x.com/samykamkar</a></li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mon second cerveau]]></title>
-            <description><![CDATA[Découvrez comment j'ai créé un "second cerveau" pour expérimenter, recenser et partager toutes mes idées.]]></description>
-            <link>https://johackim.com/mon-second-cerveau?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/mon-second-cerveau</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Fri, 16 Apr 2021 10:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/mon-second-cerveau.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/mon-second-cerveau.jpg"/>
-            <content:encoded><![CDATA[<p>Inspiré par le concept des <a href="/digital-garden" title="digital gardens">digital gardens</a> 🌱, <a href="https://buildingasecondbrain.com/">Building a Second Brain</a> 🧠 et <a href="https://linkingyourthinking.com/">Linking Your Thinking</a> 🗄️, je me suis créé un second cerveau ; un <strong>espace d&#x27;expérimentation</strong> où je recense et partage toutes mes <strong>idées</strong>, <strong>découvertes</strong> et <strong>notes personnelles</strong>.</p>
-
-<p>Une sorte de <strong>laboratoire</strong> où j&#x27;expérimente tout un tas de sujets.</p>
-<p>Un <strong>second cerveau</strong> où je stocke tous mes <strong>modèles mentaux</strong>.</p>
-<p>C&#x27;est ici que je partage mes <strong>méthodes de réflexions</strong>.</p>
-<p>Une sorte de <strong>Wikipédia personnel</strong>.</p>
-<p>PS: Il ne s&#x27;agit pas d&#x27;un blog traditionnel où je publie de simples articles de manière chronologiques_.</p>
-<h2>Visualisation de mon second cerveau</h2>
-
-<link href="data:text/css;base64,I21lcm1haWQtc3ZnLTd7Zm9udC1mYW1pbHk6InRyZWJ1Y2hldCBtcyIsdmVyZGFuYSxhcmlhbCxzYW5zLXNlcmlmO2ZvbnQtc2l6ZToxNnB4O2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmVycm9yLWljb257ZmlsbDojNTUyMjIyO30jbWVybWFpZC1zdmctNyAuZXJyb3ItdGV4dHtmaWxsOiM1NTIyMjI7c3Ryb2tlOiM1NTIyMjI7fSNtZXJtYWlkLXN2Zy03IC5lZGdlLXRoaWNrbmVzcy1ub3JtYWx7c3Ryb2tlLXdpZHRoOjJweDt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtdGhpY2tuZXNzLXRoaWNre3N0cm9rZS13aWR0aDozLjVweDt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtcGF0dGVybi1zb2xpZHtzdHJva2UtZGFzaGFycmF5OjA7fSNtZXJtYWlkLXN2Zy03IC5lZGdlLXBhdHRlcm4tZGFzaGVke3N0cm9rZS1kYXNoYXJyYXk6Mzt9I21lcm1haWQtc3ZnLTcgLmVkZ2UtcGF0dGVybi1kb3R0ZWR7c3Ryb2tlLWRhc2hhcnJheToyO30jbWVybWFpZC1zdmctNyAubWFya2Vye2ZpbGw6IzMzMzMzMztzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgLm1hcmtlci5jcm9zc3tzdHJva2U6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgc3Zne2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTZweDt9I21lcm1haWQtc3ZnLTcgLmxhYmVse2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAuY2x1c3Rlci1sYWJlbCB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmNsdXN0ZXItbGFiZWwgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAubGFiZWwgdGV4dCwjbWVybWFpZC1zdmctNyBzcGFue2ZpbGw6IzMzMztjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyAubm9kZSByZWN0LCNtZXJtYWlkLXN2Zy03IC5ub2RlIGNpcmNsZSwjbWVybWFpZC1zdmctNyAubm9kZSBlbGxpcHNlLCNtZXJtYWlkLXN2Zy03IC5ub2RlIHBvbHlnb24sI21lcm1haWQtc3ZnLTcgLm5vZGUgcGF0aHtmaWxsOiNFQ0VDRkY7c3Ryb2tlOiM5MzcwREI7c3Ryb2tlLXdpZHRoOjFweDt9I21lcm1haWQtc3ZnLTcgLm5vZGUgLmxhYmVse3RleHQtYWxpZ246Y2VudGVyO30jbWVybWFpZC1zdmctNyAubm9kZS5jbGlja2FibGV7Y3Vyc29yOnBvaW50ZXI7fSNtZXJtYWlkLXN2Zy03IC5hcnJvd2hlYWRQYXRoe2ZpbGw6IzMzMzMzMzt9I21lcm1haWQtc3ZnLTcgLmVkZ2VQYXRoIC5wYXRoe3N0cm9rZTojMzMzMzMzO3N0cm9rZS13aWR0aDoyLjBweDt9I21lcm1haWQtc3ZnLTcgLmZsb3djaGFydC1saW5re3N0cm9rZTojMzMzMzMzO2ZpbGw6bm9uZTt9I21lcm1haWQtc3ZnLTcgLmVkZ2VMYWJlbHtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7dGV4dC1hbGlnbjpjZW50ZXI7fSNtZXJtYWlkLXN2Zy03IC5lZGdlTGFiZWwgcmVjdHtvcGFjaXR5OjAuNTtiYWNrZ3JvdW5kLWNvbG9yOiNlOGU4ZTg7ZmlsbDojZThlOGU4O30jbWVybWFpZC1zdmctNyAuY2x1c3RlciByZWN0e2ZpbGw6I2ZmZmZkZTtzdHJva2U6I2FhYWEzMztzdHJva2Utd2lkdGg6MXB4O30jbWVybWFpZC1zdmctNyAuY2x1c3RlciB0ZXh0e2ZpbGw6IzMzMzt9I21lcm1haWQtc3ZnLTcgLmNsdXN0ZXIgc3Bhbntjb2xvcjojMzMzO30jbWVybWFpZC1zdmctNyBkaXYubWVybWFpZFRvb2x0aXB7cG9zaXRpb246YWJzb2x1dGU7dGV4dC1hbGlnbjpjZW50ZXI7bWF4LXdpZHRoOjIwMHB4O3BhZGRpbmc6MnB4O2ZvbnQtZmFtaWx5OiJ0cmVidWNoZXQgbXMiLHZlcmRhbmEsYXJpYWwsc2Fucy1zZXJpZjtmb250LXNpemU6MTJweDtiYWNrZ3JvdW5kOmhzbCg4MCwgMTAwJSwgOTYuMjc0NTA5ODAzOSUpO2JvcmRlcjoxcHggc29saWQgI2FhYWEzMztib3JkZXItcmFkaXVzOjJweDtwb2ludGVyLWV2ZW50czpub25lO3otaW5kZXg6MTAwO30jbWVybWFpZC1zdmctNyAuZmxvd2NoYXJ0VGl0bGVUZXh0e3RleHQtYW5jaG9yOm1pZGRsZTtmb250LXNpemU6MThweDtmaWxsOiMzMzM7fSNtZXJtYWlkLXN2Zy03IDpyb290ey0tbWVybWFpZC1mb250LWZhbWlseToidHJlYnVjaGV0IG1zIix2ZXJkYW5hLGFyaWFsLHNhbnMtc2VyaWY7fQ==" rel="stylesheet" type="text/css"/>
-<h2>Mon système de capture d&#x27;informations</h2>
-<p>C&#x27;est à cet endroit que je capture toutes les informations (RSS, Newsletters, Tweets, Vidéos YouTube, etc...).</p>
-<p>Je ne consulte mon actualité qu&#x27;une fois par jour à l&#x27;aide de <strong><a href="https://read.readwise.io">Readwise</a></strong> qui rassemble tous les blogs, les podcasts, les chaines YouTube et les newsletter que je suis.</p>
-<h2>Mon second cerveau</h2>
-<p>C&#x27;est à cet endroit que je crée et sauvegarde toutes les informations qui me semblent pertinentes.</p>
-<p>Il s&#x27;agit d&#x27;un ensemble de fichiers texte bruts au format <strong>markdown</strong> reliés entre eux par des <code>[[liens bidirectionnels]]</code>.</p>
-<p>Ces fichiers peuvent être consultés avec n&#x27;importe quel éditeur de texte.</p>
-<p>Personnellement, j&#x27;utilise <a href="/neovim" title="Neovim">Neovim</a> et <a href="/obsidian" title="Obsidian">Obsidian</a>.</p>
-
-<p>L&#x27;ensemble est versionné avec <a href="https://github.com/git/git">git</a> et sauvegardé chaque jour sur un serveur externe.</p>
-<h2>Mon système de partage</h2>
-<p><strong>J&#x27;automatise chaque semaine le partage de mon second cerveau.</strong></p>
-<p>Toutes mes notes sont publiées sur mon blog avec <a href="https://github.com/johackim/johackim.com">Next.js, Obsidian Publish et IPFS</a>.</p>
-<p>Un récapitulatif est envoyé chaque mois sur <a href="https://johackim.com/newsletter">ma newsletter</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Générer des idées de produits - Techniques actionnables pour trouver de nouvelles idées de business]]></title>
@@ -14828,8 +14201,8 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 <p>Au lieu de cela, ils sont distribués via des fichiers exécutables (c&#x27;est-à-dire qu&#x27;il s&#x27;agit de logiciels que vous installez sur votre ordinateur).</p>
 <p>Sur Twitter, il y a plusieurs bons exemples de SaaS :</p>
 <ul>
-<li><a href="https://twitter.com/simonhoiberg">Simon Høiberg</a> qui a créé <a href="https://web.archive.org/web/20210123095701/https%3A%2F%2Fsigmetic%2Eio">Sigmetic</a> lors du défi <a href="https://web.archive.org/web/20201101052701/https%3A%2F%2F100daysoftechstartup%2Ecom">100DaysOfTechStartup</a></li>
-<li><a href="https://twitter.com/dvassallo">Daniel Vassallo</a> qui construit actuellement <a href="https://userbase.com/">Userbase</a></li>
+<li><a href="https://x.com/simonhoiberg">Simon Høiberg</a> qui a créé <a href="https://web.archive.org/web/20210123095701/https%3A%2F%2Fsigmetic%2Eio">Sigmetic</a> lors du défi <a href="https://web.archive.org/web/20201101052701/https%3A%2F%2F100daysoftechstartup%2Ecom">100DaysOfTechStartup</a></li>
+<li><a href="https://x.com/dvassallo">Daniel Vassallo</a> qui construit actuellement <a href="https://userbase.com/">Userbase</a></li>
 </ul>
 <p>Ce sont des personnes ayant des compétences en logiciel qui ont créé leurs propres produits SaaS, les ont commercialisées via Twitter et qui gagnent maintenant de l&#x27;argent grâce à leurs produits.</p>
 <p>Malheureusement, la concurrence est extrême. Il y a des pays en développement qui peuvent fournir des logiciels presque gratuitement.</p>
@@ -15751,7 +15124,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <li><a href="https://useronboard.com/features-vs-benefits/">https://useronboard.com/features-vs-benefits/</a></li>
 <li><a href="https://medium.com/startup-grind/people-dont-buy-products-they-buy-better-versions-of-themselves-2ce85fdb5ff1">https://medium.com/startup-grind/people-dont-buy-products-they-buy-better-versions-of-themselves-2ce85fdb5ff1</a></li>
 <li><a href="https://swipefile.com/writing-feature-benefits-formula/">https://swipefile.com/writing-feature-benefits-formula/</a></li>
-<li><a href="https://twitter.com/AaronOrendorff/status/1569395857375518721">https://twitter.com/AaronOrendorff/status/1569395857375518721</a></li>
+<li><a href="https://x.com/AaronOrendorff/status/1569395857375518721">https://x.com/AaronOrendorff/status/1569395857375518721</a></li>
 <li><a href="https://youtu.be/Usu8b7ibPzA?t=1046">Marketing Mania - La psychologie diabolique des clubs de strip-tease</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -17150,15 +16523,7 @@ make install-new-arch
 <li><a href="https://fishisfast.com/">https://fishisfast.com/</a></li>
 <li><a href="https://colisexpat.com/">https://colisexpat.com/</a></li>
 </ul>
-<p>Voilà pour l&#x27;astuce de la semaine ;)</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/mes-prochains-achats" title="To buy" class="not-found">To buy</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Voilà pour l&#x27;astuce de la semaine ;)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment jouer sur Linux avec 95% de performance native ?]]></title>
