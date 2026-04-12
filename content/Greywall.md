@@ -82,6 +82,9 @@ Je l'utilise personnellement pour utiliser des agents IA sur [[Obsidian]] sans l
 
 Et pour encore plus de [[Vie privée]], vous pouvez utiliser des modèles IA en local (ex: Qwen, GLM, Kimi) directement sur votre ordinateur avec [[Ollama]].
 
+> [!ATTENTION]
+> Si vous avez une règle deny (ex: `20*.md`), que vous effectuez la commande `greywall` et qu'un nouveau fichier est créé entre temps, le fichier pourra être lu.
+
 ---
 
 Références :

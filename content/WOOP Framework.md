@@ -1,5 +1,6 @@
 ---
 title: WOOP Framework
+links: "[[Goal setting]]"
 permalink: woop-framework
 aliases: [WOOP Method]
 description: Découvrez le système WOOP pour atteindre vos objectifs en 4 étapes ; établir un souhait, déterminer les résultats, identifier les obstacles et planifier.
@@ -28,4 +29,3 @@ Références :
 - https://everlaab.com/methode-woop/
 - https://jeancharleskurdali.com/le-systeme-en-4-etapes-que-vous-devez-absolument-connaitre-et-utiliser-pour-atteindre-vos-objectifs/
 - [Rethinking Positive Thinking - Gabriele Oettingen](https://amzn.to/3p6qNN3)
-- [[Goal setting]]

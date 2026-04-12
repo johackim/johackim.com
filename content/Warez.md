@@ -26,6 +26,7 @@ note: 53
 - [[Prowlarr]]
 - [[Stremio]]
 - [[IPTV]]
+- [[DDL]]
 
 ---
 

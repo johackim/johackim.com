@@ -52,7 +52,6 @@ Références :
 - https://instantdomainsearch.com/
 - https://intodns.com/
 - https://whatsmydns.net/
-- https://mail-tester.com/
 - https://rameerez.com/send-this-article-to-your-friend-who-still-thinks-the-cloud-is-a-good-idea/
 - https://github.com/geek-cookbook/geek-cookbook
 - https://blog.railway.com/p/data-center-build-part-one

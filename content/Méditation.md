@@ -17,6 +17,8 @@ Le but n'est pas de vider son esprit, mais d'observer ses pensées (positives ou
 
 Ce n'est pas une pratique religieuse.
 
+Personellement, je vois la méditation comme une sorte de reset mentale.
+
 ## Processus
 
 Le processus d'une méditation est simple :
@@ -53,40 +55,6 @@ Il existe plusieurs applications :
 - [Insight Timer](https://play.google.com/store/apps/details?id=com.spotlightsix.zentimerlite2)
 - [Petit Bambou](https://play.google.com/store/apps/details?id=com.petitbambou)
 - [Waking Up](https://play.google.com/store/apps/details?id=org.wakingup.android)
-
-## Citations
-
-> [!QUOTE] [Eliott Meunier - 20 jours de randonnée + Burn Out + Life Update - HPR #1](https://youtu.be/TzOrWgm6fho)
-> Quand on commence à méditer, ce qui se passe, c'est que, on veut se concentrer sur l'instant présent, mais il y a notre mental qui est en train de nous envoyer ailleurs.
->
-> Il part, il commence à dialoguer tout seul dans sa tête.
->
-> - "Ah tiens, qu'est-ce que je vais manger ce soir?"
-> - "Ah peut-être du pesto, mais tiens, est-ce qu'il me reste encore des pâtes?"
-> - "Ah mais en fait, attends, elle est intolérante au gluten."
->
-> Quand tu commences à méditer, tu pars super loin dans tes pensées, dans tes raisonnements intellectuels avant de te rendre compte même que tu étais parti.
->
-> Et donc, tu fais des rappels.
->
-> Tu prends ton lassaut, tu ramènes la pensée dans l'instant présent pour la voir et la dissoudre.
->
-> Mais parfois, il se passe une, deux, trois minutes avant que tu te rendes compte.
->
-> Donc là, c'est le début de la méditation.
->
-> Et plus tu progresses, plus tes rappels sont rapides.
->
-> Donc, tu arrives à les ramener au bout de 4-5 secondes.
->
-> Et ensuite tu les vois même avant qu'ils commencent à t'emmener et donc tu les ramènes.
->
-> À la fin, tu as une sorte de couteau où tu coupes les raisonnements intellectuels **avant même qu'ils se forment** et ensuite tu n'as plus de raisonnement intellectuel.
->
-> Ça, c'est la méditation.
-
-> [!QUOTE] https://exploringkodawari.blog/mindfulness-is-pausing/
-> Meditation is a method or process while mindfulness is a state of being
 
 ---
 
