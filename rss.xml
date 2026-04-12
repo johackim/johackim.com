@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Fri, 10 Apr 2026 22:07:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Apr 2026 10:47:01 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -61,6 +61,12 @@ greywall -- gemini
 
 <p>Et pour encore plus de <a href="/vie-privee" title="Vie privée">Vie privée</a>, vous pouvez utiliser des modèles IA en local (ex: Qwen, GLM, Kimi) directement sur votre ordinateur avec <a href="/ollama" title="Ollama">Ollama</a>.</p>
 
+<blockquote class="callout attention">
+                    
+                    <div class="callout-content">
+                        <p>Si vous avez une règle deny (ex: 20*.md), que vous effectuez la commande greywall et qu&#x27;un nouveau fichier est créé entre temps, le fichier pourra être lu.</p>
+                    </div>
+                </blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -388,6 +394,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
             <content:encoded><![CDATA[<p>La méditation est un exercice mental qui consiste à rester concentré sur une seule chose comme sa respiration pour se recentrer sur le moment présent.</p>
 <p>Le but n&#x27;est pas de vider son esprit, mais d&#x27;observer ses pensées (positives ou négatives) sans jugement et de les laisser passer.</p>
 <p>Ce n&#x27;est pas une pratique religieuse.</p>
+<p>Personellement, je vois la méditation comme une sorte de reset mentale.</p>
 <h2>Processus</h2>
 <p>Le processus d&#x27;une méditation est simple :</p>
 <ol>
@@ -436,29 +443,6 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <li><a href="https://play.google.com/store/apps/details?id=com.petitbambou">Petit Bambou</a></li>
 <li><a href="https://play.google.com/store/apps/details?id=org.wakingup.android">Waking Up</a></li>
 </ul>
-<h2>Citations</h2>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Eliott Meunier - 20 jours de randonnée + Burn Out + Life Update - HPR #1</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Quand on commence à méditer, ce qui se passe, c&#x27;est que, on veut se concentrer sur l&#x27;instant présent, mais il y a notre mental qui est en train de nous envoyer ailleurs.Il part, il commence à dialoguer tout seul dans sa tête.&quot;Ah tiens, qu&#x27;est-ce que je vais manger ce soir?&quot;&quot;Ah peut-être du pesto, mais tiens, est-ce qu&#x27;il me reste encore des pâtes?&quot;&quot;Ah mais en fait, attends, elle est intolérante au gluten.&quot;Quand tu commences à méditer, tu pars super loin dans tes pensées, dans tes raisonnements intellectuels avant de te rendre compte même que tu étais parti.Et donc, tu fais des rappels.Tu prends ton lassaut, tu ramènes la pensée dans l&#x27;instant présent pour la voir et la dissoudre.Mais parfois, il se passe une, deux, trois minutes avant que tu te rendes compte.Donc là, c&#x27;est le début de la méditation.Et plus tu progresses, plus tes rappels sont rapides.Donc, tu arrives à les ramener au bout de 4-5 secondes.Et ensuite tu les vois même avant qu&#x27;ils commencent à t&#x27;emmener et donc tu les ramènes.À la fin, tu as une sorte de couteau où tu coupes les raisonnements intellectuels avant même qu&#x27;ils se forment et ensuite tu n&#x27;as plus de raisonnement intellectuel.Ça, c&#x27;est la méditation.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://exploringkodawari.blog/mindfulness-is-pausing/</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Meditation is a method or process while mindfulness is a state of being</p>
-                    </div>
-                </blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -5881,10 +5865,6 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 <li><a href="https://everlaab.com/methode-woop/">https://everlaab.com/methode-woop/</a></li>
 <li><a href="https://jeancharleskurdali.com/le-systeme-en-4-etapes-que-vous-devez-absolument-connaitre-et-utiliser-pour-atteindre-vos-objectifs/">https://jeancharleskurdali.com/le-systeme-en-4-etapes-que-vous-devez-absolument-connaitre-et-utiliser-pour-atteindre-vos-objectifs/</a></li>
 <li><a href="https://amzn.to/3p6qNN3">Rethinking Positive Thinking - Gabriele Oettingen</a></li>
-<li>
-<a href="/goal-setting" title="Goal setting" class="not-found">Goal setting</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
