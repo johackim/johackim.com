@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 12:53:37 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 13:01:23 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -3070,7 +3070,7 @@ EOF
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202110312244]]></title>
+            <title><![CDATA[Mes blogs préférés]]></title>
             <link>https://johackim.com/mes-blogs-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-blogs-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
