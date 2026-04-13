@@ -82,9 +82,8 @@ comments: false
 
 Références :
 
-- [Mon antilibrairie de +4000 livres](https://goodreads.com/review/list/85931536?order=a&sort=ratings)
+- [Mon antilibrairie de +5000 livres](https://goodreads.com/review/list/85931536?order=a&sort=ratings)
 - [Le TOP 100 de mes livres préférés](https://goodreads.com/review/list/85931536-johackim?shelf=top100)
-- [Optimize - PhilosophersNotes](https://optimize.me/pn)
 - [Sloww Reading List (400+ Books)](https://docs.google.com/spreadsheets/d/19SYBbt972qQzpbC55Puvi52YInUwQSABHXFhPT_w_Ac/)
 - https://lifeclub.org/book-categories/
 - https://scotthyoung.com/blog/2022/12/13/the-ten-book-rule-for-smarter-thinking/
