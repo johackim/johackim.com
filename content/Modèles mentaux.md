@@ -11,7 +11,6 @@ dateUpdated: 2024-11-16T19:19:00
 publish: true
 comments: false
 rating: 4
-note: 80
 ---
 
 Un modèle mental est un concept, un système ou une manière de voir le monde qui nous aide à comprendre comment les choses fonctionnent et qui peut être appliqué à plusieurs domaines.

@@ -7,7 +7,6 @@ permalink: page-du-matin
 publish: true
 rss: true
 rating: 3
-note: 63
 ---
 
 La méthode des pages du matin provient du célèbre livre [Libérez votre créativité de Julia Cameron](https://placedeslibraires.fr/livre/9782290355084-liberez-votre-creativite-osez-dire-oui-a-la-vie-julia-cameron/). **Cette méthode a pour but de "laver" notre cerveau de toutes nos pensées**.

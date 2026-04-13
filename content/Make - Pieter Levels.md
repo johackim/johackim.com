@@ -8,7 +8,6 @@ rss: true
 description: Un résumé pratique du livre Make de Pieter Levels, offre des conseils sur comment créer et lancer de produits, trouver votre audience spécifique, et monétiser votre travail avec succès.
 tags:
   - literature
-note: 88
 ---
 
 ## TL;DR

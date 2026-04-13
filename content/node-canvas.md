@@ -5,7 +5,6 @@ datePublished: 2021-07-05T16:31
 dateUpdated: 2021-07-05T16:31
 publish: true
 rss: true
-note: 57
 ---
 
 Pour générer des images de manière dynamique en Node.js, il existe la librairie `node-canvas` :

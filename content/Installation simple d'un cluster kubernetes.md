@@ -6,7 +6,6 @@ dateUpdated: 2017-11-10T17:52
 description: Voici deux méthodes pour installer simplement kubernetes. La première est une installation locale avec minikube, et la deuxième je l'ai réalisé sur mon cluster proxmox avec kubeadm.
 publish: true
 rss: true
-note: 91
 ---
 
 Vu la popularité du projet (dépôt github le plus discuté avec +350 000 commentaires) et faisant partie du monde des containers, je n'ai pas pu résister à l'envie de tester **kubernetes**. Voici deux méthodes pour installer simplement kubernetes. La première est une installation locale avec [minikube](https://github.com/kubernetes/minikube), et la deuxième je l'ai réalisé sur [[Homelab|mon cluster proxmox]] avec [kubeadm](https://github.com/kubernetes/kubeadm).

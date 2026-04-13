@@ -8,7 +8,6 @@ publish: true
 rss: true
 aliases:
   - Comment contourner le pare-feu de mon école ?
-note: 92
 ---
 
 Pendant mes études (il y a 4 ans déjà), du jour au lendemain, mon école a mis en place un système de [[Deep packet inspection|DPI]] (deep packet inspection) pour contrôler plus efficacement les protocoles utilisés par les étudiants et bannir les VPNs de façon plus radicale que de simplement bloquer les ports sortants.

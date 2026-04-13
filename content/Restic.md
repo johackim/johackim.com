@@ -5,7 +5,6 @@ datePublished: 2021-05-17T17:32
 dateUpdated: 2026-04-02T00:00
 publish: true
 rss: true
-note: 78
 ---
 
 Pour sauvegarder des données sous Linux, il existe [restic](https://github.com/restic/restic) en tant que logiciel de backups.

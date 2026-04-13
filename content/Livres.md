@@ -8,7 +8,6 @@ title: 📚 Résumés de livre
 description: De la nourriture pour votre cerveau
 publish: true
 comments: false
-note: 71
 ---
 
 ## 🎒 Indie hacker

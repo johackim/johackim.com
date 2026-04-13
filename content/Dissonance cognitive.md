@@ -8,7 +8,6 @@ aliases:
   - Cognitive dissonance
 rating: 4
 publish: true
-note: 60
 ---
 
 Une dissonance cognitive est un conflit interne entre plusieurs croyances contradictoires.

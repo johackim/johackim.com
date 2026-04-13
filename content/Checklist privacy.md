@@ -6,7 +6,6 @@ dateUpdated: 2018-01-15T08:00
 description: Arguing that you don't care about the right to privacy because you have nothing to hide, is no different than saying you don't care about free speech because you have nothing to say. Edward Snowden
 publish: true
 rss: true
-note: 91
 ---
 
 > [!INFO]

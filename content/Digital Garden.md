@@ -6,7 +6,6 @@ publish: true
 rss: true
 aliases:
   - Jardin numérique
-note: 61
 links:
   - "[[PKM]]"
 ---

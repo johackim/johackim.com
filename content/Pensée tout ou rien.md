@@ -15,7 +15,6 @@ aliases:
 datePublished: 2024-05-17T17:01:00
 dateUpdated: 2024-05-17T17:01:00
 publish: true
-note: 63
 ---
 
 La pensée tout ou rien (ou pensée dichotomique) est une [[Distorsion cognitive]] qui consiste à voir les choses de manière binaire sans aucune nuance.

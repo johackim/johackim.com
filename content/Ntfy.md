@@ -6,7 +6,6 @@ datePublished: 2024-01-29T10:00:00
 dateUpdated: 2024-01-29T10:00:00
 publish: true
 rss: true
-note: 79
 ---
 
 [Ntfy](https://ntfy.sh) est un logiciel de notification open-source. Il permet d'envoyer et de recevoir des notifications sur n'importe quel appareil (ordinateur, smartphone, tablette, etc.).

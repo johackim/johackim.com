@@ -7,7 +7,6 @@ aliases:
   - Ableton
 title: Installez un espace de production de musique sur Windows avec Ableton et Maschine
 publish: true
-note: 83
 ---
 
 Si vous êtes compositeur de musiques, voici toutes les étapes à suivre pour installer un environnement de musique sur Windows avec Ableton et Maschine.

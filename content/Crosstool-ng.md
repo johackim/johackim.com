@@ -8,7 +8,6 @@ datePublished: 2024-02-26T10:00:00
 dateUpdated: 2025-02-03T10:00:00
 publish: true
 rss: true
-note: 74
 ---
 
 [Crosstool-ng](https://github.com/crosstool-ng/crosstool-ng) est un outil permettant de compiler un logiciel avec une architecture différente de celle de notre ordinateur.

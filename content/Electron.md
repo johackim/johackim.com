@@ -6,7 +6,6 @@ datePublished: 2024-03-18T10:00:00
 dateUpdated: 2024-03-18T10:00:00
 publish: true
 rss: true
-note: 71
 ---
 
 [Electron](https://electronjs.org/) est un framework qui permet de créer des applications de bureau multi-plateformes.

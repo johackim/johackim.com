@@ -6,7 +6,6 @@ dateUpdated: 2021-01-04T11:44
 description: Choisir le bon ou le mauvais marché est la seule chose qui définit le succès de votre entreprise. Si vous choisissez le mauvais marché, votre entreprise est vouée à l'échec avant même de commencer.
 publish: true
 rss: true
-note: 84
 tags:
   - literature
 ---

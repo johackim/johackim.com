@@ -6,7 +6,6 @@ title: Télécharger des torrents depuis un navigateur web
 permalink: webtorrent
 publish: true
 rss: true
-note: 56
 ---
 
 Pour télécharger un torrent depuis un navigateur web, il existe un outil qui s'appelle `webtorrent`.

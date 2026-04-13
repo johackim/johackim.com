@@ -3,7 +3,6 @@ datePublished: 2021-05-17T17:32
 dateUpdated: 2021-05-17T17:32
 permalink: docker-swarm
 publish: true
-note: 61
 ---
 
 Docker Swarm est un **orchestrateur** qui exécute, coordonne et gère automatiquement le cycle de vie des conteneurs Docker.

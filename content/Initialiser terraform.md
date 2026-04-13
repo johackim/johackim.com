@@ -4,7 +4,6 @@ dateUpdated: 2021-05-30T19:50
 permalink: initialiser-terraform
 publish: true
 rss: true
-note: 50
 ---
 
 Pour initialiser terraform, créez un fichier `main.tf`, exemple :

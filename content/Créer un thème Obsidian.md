@@ -5,7 +5,6 @@ permalink: creer-un-theme-obsidian
 title: Comment créer un thème Obsidian ?
 publish: true
 rss: true
-note: 71
 ---
 
 Voici un tutoriel pour créer un thème [[Obsidian]].

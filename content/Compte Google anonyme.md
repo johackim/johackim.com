@@ -6,7 +6,6 @@ dateUpdated: 2018-01-01T08:00
 description: Est-il possible de s'inscrire sur Google sans divulguer ses informations personnelles (e-mail, téléphone, localisation, adresse IP) ?
 publish: true
 rss: true
-note: 96
 ---
 
 Est-il possible de s'inscrire sur Google sans divulguer ses informations personnelles (e-mail, téléphone, localisation, adresse IP) ?

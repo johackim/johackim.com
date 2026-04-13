@@ -4,7 +4,6 @@ dateUpdated: 2021-06-07T20:36
 permalink: kodi
 publish: true
 rss: true
-note: 61
 ---
 
 Kodi (anciennement XBMC) est un lecteur multimédia libre qui tourne nativement sur les systèmes d’exploitation BSD, Raspbian, GNU/Linux, Mac OS X, Microsoft Windows, Android et iOS.

@@ -8,7 +8,6 @@ aliases:
   - False Consensus Effect
 rating: 3
 publish: true
-note: 66
 ---
 
 L'effet de faux consensus (False Consensus Effect) est un [[Biais cognitifs|biais cognitif]].

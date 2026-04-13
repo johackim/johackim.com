@@ -5,7 +5,6 @@ datePublished: 2021-06-07T20:36
 dateUpdated: 2021-06-07T20:36
 publish: true
 rss: true
-note: 77
 ---
 
 Si vous souhaitez parser un site internet, il existe [puppeteer](https://github.com/puppeteer/puppeteer).

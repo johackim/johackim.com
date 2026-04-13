@@ -5,7 +5,6 @@ datePublished: 2025-09-30T10:00:00
 dateUpdated: 2025-11-23T10:00:00
 publish: true
 rss: true
-note: 89
 ---
 
 Un nouveau jailbreak du Kindle nommé AdBreak vient d'être publié le 24 septembre 2025 sur [kindlemodding.org](https://kindlemodding.org/jailbreaking/AdBreak/).

@@ -5,7 +5,6 @@ datePublished: 2022-06-22T01:21
 dateUpdated: 2022-06-22T02:19
 publish: true
 rss: true
-note: 79
 ---
 
 [Portmaster](https://github.com/safing/portmaster) est un outil pour monitorer toutes ses connexions réseaux et bloquer facilement les connexions indésirables.

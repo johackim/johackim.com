@@ -6,7 +6,6 @@ aliases:
   - Système de prévention d'intrusion
 publish: true
 rss: true
-note: 66
 ---
 
 Un **système de prévention d'intrusion** (ou **IPS** : Intrusion Prevention System), également appelé système de détection et de prévention des intrusions (ou **IDPS** : **intrusion detection and prevention systems**), est un logiciel pour détecter et bloquer les activités anormales ou suspecte sur un réseau ou un système de fichier.

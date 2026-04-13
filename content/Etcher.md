@@ -6,7 +6,6 @@ publish: true
 rss: true
 datePublished: 2024-05-27T10:00:00
 dateUpdated: 2024-05-27T10:00:00
-note: 68
 ---
 
 [Etcher](https://etcher.balena.io/) est un logiciel de gravure d'image disque open-source.

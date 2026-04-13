@@ -5,7 +5,6 @@ permalink: comment-verifier-une-source-information
 aliases: [Comment vérifier la véracité d'une information ?]
 publish: true
 rss: true
-note: 79
 ---
 
 Voici les étapes que j'utilise pour savoir si une information est vrai ou faux.

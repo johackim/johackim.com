@@ -6,7 +6,6 @@ dateUpdated: 2018-01-08T08:00
 description: Vous avez besoin d'un VPN et vous ne souhaitez pas vous embêter à configurer un serveur openvpn manuellement ? Voici une solution pour installer un VPN en 30 secondes.
 publish: true
 rss: true
-note: 71
 ---
 
 Vous avez besoin d'un VPN et vous ne souhaitez pas vous embêter à configurer un serveur openvpn manuellement ? Voici une solution pour installer un VPN en 30 secondes.

@@ -6,7 +6,6 @@ aliases:
 permalink: la-methode-para
 publish: true
 rss: true
-note: 70
 ---
 
 PARA est un acronyme inventé par [Tiago Forte](https://fortelabs.co/) qui fait référence à :

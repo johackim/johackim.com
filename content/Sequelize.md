@@ -5,7 +5,6 @@ title: Exécutez facilement vos opérations CRUD avec Sequelize
 permalink: sequelize
 publish: true
 rss: true
-note: 73
 ---
 
 Sequelize est un ORM Node.js qui permet de créer, éditer et supprimer des données dans une base de données (SQLite, MySQL, PostgreSQL, etc...).

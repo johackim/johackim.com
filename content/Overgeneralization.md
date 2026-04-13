@@ -9,7 +9,6 @@ aliases:
 datePublished: 2024-05-17T17:06:00
 dateUpdated: 2024-05-17T17:06:00
 publish: true
-note: 59
 ---
 
 La **généralisation excessive** (ou surgénéralisation) est une [[Distorsion cognitive]] qui consiste à généraliser à partir d'un seul événement.

@@ -8,7 +8,6 @@ aliases:
 publish: true
 rss: true
 description: Découvrez comment vérifier la demande du marché avant de lancer un produit. Apprenez à cerner votre audience, à identifier les mots-clés pertinents et à estimer le nombre de personnes à atteindre.
-note: 92
 ---
 
 Créer un produit dont personne ne veut est l'erreur numéro 1 en entrepreneuriat. Alors, avant de perdre 6 mois à créer un produit inutile, est-il possible de vérifier si une demande existe ?

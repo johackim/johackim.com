@@ -6,7 +6,6 @@ dateUpdated: 2019-04-22T06:00
 description: Y Combinator a publié en 2017 un article rassemblant les meilleurs conseils pour les entrepreneurs qui souhaitent créer leur entreprise. Voici un résumé en français.
 publish: true
 rss: true
-note: 61
 ---
 
 > [!INFO]

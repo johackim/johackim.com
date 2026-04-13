@@ -4,7 +4,6 @@ dateUpdated: 2021-09-27T22:29
 permalink: exporter-ses-bookmarks-firefox-en-markdown
 publish: true
 rss: true
-note: 59
 ---
 
 Pour exporter mes bookmarks de Firefox au format markdown, il faut d'abord récupérer un backup au format JSON :

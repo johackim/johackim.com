@@ -5,7 +5,6 @@ title: Comment supprimer un watermark ?
 permalink: watermark
 publish: true
 rss: true
-note: 63
 ---
 
 Certain PDF contient un watermark, quand il est répété un mode texte sur toutes les pages du PDF, il est possible de le supprimer depuis un ordinateur sous [[Linux]].

@@ -5,7 +5,6 @@ title: Exporter l'historique de ses notes Telegram dans des fichiers textes
 permalink: exporter-lhistorique-telegram-dans-des-fichiers-textes
 publish: true
 rss: true
-note: 72
 ---
 
 Ayant pour habitude de stocker toutes mes [[Note temporaire|notes temporaires]] dans l'application mobile [Telegram](https://telegram.org/), j'ai automatisé l'extraction de mes notes dans mon [[Obsidian]].

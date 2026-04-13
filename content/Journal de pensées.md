@@ -12,7 +12,6 @@ dateUpdated: 2024-05-06T10:00:00
 publish: true
 rss: true
 rating: 4
-note: 88
 ---
 
 Un journal de pensées (Thought record) est un outil de [[Restructuration cognitive]] utilisé en [[Thérapie cognitivo-comportementale]].

@@ -6,7 +6,6 @@ datePublished: 2021-05-30T19:50
 dateUpdated: 2024-06-22T19:50:00
 publish: true
 rss: true
-note: 71
 ---
 
 [Jackett](https://github.com/Jackett/Jackett) est un métamoteur de torrents open-source.

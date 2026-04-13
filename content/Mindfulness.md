@@ -11,7 +11,6 @@ aliases:
   - Pleine conscience
 publish: true
 rating: 5
-note: 68
 ---
 
 La pleine conscience (Mindfulness) est une pratique qui consiste à être conscient du moment présent, sans jugement ni attachement.

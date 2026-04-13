@@ -10,7 +10,6 @@ permalink: loi-de-pareto
 publish: true
 rss: true
 rating: 3
-note: 60
 ---
 
 Pour de nombreux événements, **==20% des actions amènent 80% des résultats==**.

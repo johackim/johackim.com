@@ -8,7 +8,6 @@ aliases:
   - youtube-dl
   - yt-dlp
   - Télecharger les vidéos de l'espace membre d'un site
-note: 59
 ---
 
 Pour télécharger les vidéos de l'espace membre d'un site, il suffit de se connecter au site, de reprendre le cookie puis d'utiliser [yt-dlp](https://github.com/yt-dlp/yt-dlp) (ou [youtube-dl-gui](https://mrs0m30n3.github.io/youtube-dl-gui/)).

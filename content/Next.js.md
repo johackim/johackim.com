@@ -6,7 +6,6 @@ datePublished: 2021-12-19T17:57:00
 dateUpdated: 2021-12-19T17:57:00
 publish: true
 rss: true
-note: 70
 ---
 
 [Next.js](https://nextjs.org/) est un framework JavaScript basé sur React pour créer des applications Web.

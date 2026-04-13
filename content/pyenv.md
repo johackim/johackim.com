@@ -5,7 +5,6 @@ datePublished: 2021-09-27T22:29
 dateUpdated: 2021-09-27T22:29
 publish: true
 rss: true
-note: 67
 ---
 
 Pour changer de version de Python facilement, de la même manière que nvm pour NodeJS, il existe l'outil [pyenv](https://github.com/pyenv/pyenv).

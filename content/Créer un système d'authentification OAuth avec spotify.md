@@ -4,7 +4,6 @@ dateUpdated: 2021-12-26T15:44
 permalink: creer-un-systeme-dauthentification-oauth-avec-spotify
 publish: true
 rss: true
-note: 70
 ---
 
 Voici comment créer un système d'authentification [[OAuth]] avec Spotify.

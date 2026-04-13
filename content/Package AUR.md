@@ -5,7 +5,6 @@ permalink: installer-une-version-modifie-dun-package-aur-sur-arch-linux
 title: Installer une version modifié d'un package AUR sur Arch Linux
 publish: true
 rss: true
-note: 71
 ---
 
 Sur Arch Linux, Il m'arrive parfois de vouloir installer un package (ex: `mailspring`) avec une version très récente et qui n'est pas encore packagé dans les dépôts AUR.

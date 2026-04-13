@@ -4,7 +4,6 @@ dateUpdated: 2021-05-30T19:50
 permalink: regarder-la-meteo-depuis-un-terminal
 publish: true
 rss: true
-note: 71
 ---
 
 Pour regarder la météo depuis un terminal, il existe le projet GitHub [wttr.in](https://github.com/chubin/wttr.in) qui permet de consulter la météo de sa ville avec une simple commande curl depuis un terminal Linux, Mac ou Windows.

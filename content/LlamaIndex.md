@@ -6,7 +6,6 @@ datePublished: 2024-04-29T10:00:00
 dateUpdated: 2024-04-29T10:00:00
 publish: true
 rss: true
-note: 91
 ---
 
 [LlamaIndex](https://llamaindex.ai/) est un framework open-source pour indexer des données et les rendre accessibles par un [[LLM]].

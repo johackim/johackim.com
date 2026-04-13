@@ -10,7 +10,6 @@ aliases:
 datePublished: 2024-05-17T17:08:00
 dateUpdated: 2024-05-17T17:08:00
 publish: true
-note: 59
 ---
 
 L'inférence arbitraire (ou la conclusions hâtive) est une [[Distorsion cognitive]] qui consiste à tirer des conclusions hâtives sans preuves suffisantes.

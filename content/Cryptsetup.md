@@ -6,7 +6,6 @@ datePublished: 2021-08-01T21:31
 dateUpdated: 2021-08-01T21:31
 publish: true
 rss: true
-note: 57
 ---
 
 [Cryptsetup](https://doc.ubuntu-fr.org/cryptsetup) est un outil pour chiffrer une partition d'un disque dur.

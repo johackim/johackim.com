@@ -5,7 +5,6 @@ permalink: ipfs
 title: Héberger un site sur le réseau IPFS
 publish: true
 rss: true
-note: 81
 ---
 
 IPFS est un système de fichiers interplanétaire.

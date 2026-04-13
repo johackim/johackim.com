@@ -7,7 +7,6 @@ publish: true
 rss: true
 aliases:
   - IRC
-note: 55
 ---
 
 ## Installer Weechat

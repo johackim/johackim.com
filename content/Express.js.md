@@ -5,7 +5,6 @@ datePublished: 2021-08-01T21:31
 dateUpdated: 2021-08-01T21:31
 publish: true
 rss: true
-note: 46
 ---
 
 Je dispose d'un serveur nodejs avec express et j'ai besoin d'autoriser l'accès à une route uniquement aux adresses IP de mon réseau interne.

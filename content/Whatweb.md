@@ -4,7 +4,6 @@ dateUpdated: 2021-11-15T09:33
 permalink: whatweb
 publish: true
 rss: true
-note: 54
 ---
 
 [Whatweb](https://github.com/urbanadventurer/WhatWeb) est un logiciel en ligne de commande comme [wappalyzer](https://wappalyzer.com/) pour analyser les outils utilisés par un site internet.

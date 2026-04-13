@@ -5,7 +5,6 @@ title: Mochi, une application pour mieux retenir vos apprentissages.
 permalink: mochi
 publish: true
 rss: true
-note: 78
 ---
 
 [Mochi](https://mochi.cards/) est un outil créé par [Matthew Steedman](https://github.com/knubie/) pour créer des flashcards afin d'améliorer à mémoriser ses apprentissages via la méthode de la [[Répétition espacée]].

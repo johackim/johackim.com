@@ -6,7 +6,6 @@ aliases:
 datePublished: 2024-05-17T17:14:00
 dateUpdated: 2024-05-17T17:14:00
 publish: true
-note: 64
 ---
 
 Une pensée automatique (Automatic thought) est une pensée qui apparaît spontanément en réponse à un déclencheur externe (situation, événement) ou interne (émotion, sensation).

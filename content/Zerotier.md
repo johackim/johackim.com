@@ -6,7 +6,6 @@ datePublished: 2024-03-11T10:00:00
 dateUpdated: 2024-03-11T10:00:00
 publish: true
 rss: true
-note: 75
 ---
 
 [Zerotier](https://zerotier.com/) est un logiciel de réseau privé virtuel qui permet de connecter des ordinateurs entre eux sur un réseau virtuel.

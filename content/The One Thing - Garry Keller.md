@@ -9,7 +9,6 @@ tags:
   - literature
 aliases:
   - Passez à l'essentiel ! - Gary Keller
-note: 93
 ---
 
 [The One Thing](https://placedeslibraires.fr/livre/9782379350474-the-one-thing-gary-keller/) est un livre de [[Productivité]] écrit par Garry Keller en 2013.

@@ -4,7 +4,6 @@ dateUpdated: 2021-10-17T22:19
 permalink: la-methode-abcde
 publish: true
 rss: true
-note: 61
 ---
 
 Lors de la planification de votre journée, dressez la liste de toutes les tâches que vous devez faire et ordonnez les selon la logique suivante :

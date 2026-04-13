@@ -8,7 +8,6 @@ aliases:
 publish: true
 rss: true
 rating: 3
-note: 57
 ---
 
 L'**effet Lindy** est une théorie selon laquelle l'espérance de vie future d'une chose non périssable, implique une espérance de vie restante plus longue à chaque fois qu'elle survit à une période de temps.

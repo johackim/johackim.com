@@ -9,7 +9,6 @@ rss: true
 aliases:
   - Choisir un nom
   - Trouver un nom
-note: 51
 ---
 
 Pour choisir un nom, j'utilise ces 2 sites :

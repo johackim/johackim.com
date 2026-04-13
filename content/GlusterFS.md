@@ -4,7 +4,6 @@ dateUpdated: 2021-05-17T17:32
 permalink: glusterfs
 publish: true
 rss: true
-note: 55
 ---
 
 **GlusterFS** est [[Système de fichiers distribué]] qui peut évoluer de manière progressive pour stocker plusieurs pétaoctets de données.

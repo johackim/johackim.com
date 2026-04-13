@@ -5,7 +5,6 @@ datePublished: 2021-12-19T17:57
 dateUpdated: 2024-03-04T17:57:00
 publish: true
 rss: true
-note: 84
 ---
 
 Storybook permet de créer des composants d'interface utilisateur indépendamment de la logique métier, des données et du contexte d'une application.

@@ -4,7 +4,6 @@ dateUpdated: 2021-06-27T19:19
 permalink: pair-programming
 publish: true
 rss: true
-note: 57
 ---
 
 Le pair programming est une méthode de travail dans laquelle deux développeurs travaillent ensemble sur un même ordinateur

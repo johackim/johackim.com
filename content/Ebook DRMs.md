@@ -5,7 +5,6 @@ datePublished: 2020-12-26T08:42
 dateUpdated: 2020-12-26T08:42
 description: Pour être libre de pouvoir consulter ses ebooks sur n'importe quel support, voici les étapes à suivre pour supprimer les DRMs d'un ebook acheté sur Amazon.
 publish: true
-note: 68
 ---
 
 Pour être libre de pouvoir consulter ses ebooks sur n'importe quel support, voici les étapes à suivre pour supprimer les DRMs d'un ebook acheté ou louer gratuitement via Kindle Unlimited sur Amazon.

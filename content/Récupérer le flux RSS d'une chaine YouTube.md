@@ -4,7 +4,6 @@ dateUpdated: 2021-08-29T19:14
 permalink: recuperer-le-flux-rss-dune-chaine-youtube
 publish: true
 rss: true
-note: 55
 ---
 
 Pour récupérer le flux RSS d'une chaine YouTube, prennez l'URL de votre chaine YouTube et convertissez le comme ceci :

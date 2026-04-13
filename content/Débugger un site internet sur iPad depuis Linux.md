@@ -4,7 +4,6 @@ dateUpdated: 2021-07-05T16:31
 permalink: debugger-un-site-internet-sur-ipad-depuis-linux
 publish: true
 rss: true
-note: 60
 ---
 
 J'ai rencontré un problème d'affichage d'un de mes sites sur iPad, du coup, pour débugger ça depuis mon ordinateur sous [[Linux|Arch Linux]], j'ai utilisé le package `ios-webkit-debug-proxy`.

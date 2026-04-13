@@ -10,7 +10,6 @@ dateUpdated: 2024-06-10T10:00:00
 publish: true
 rss: true
 rating: 4
-note: 65
 ---
 
 Le Default Mode Network (DMN) est la partie du cerveau qui s'active lorsque l'on est concentré sur aucune tâche.

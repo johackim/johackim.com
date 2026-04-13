@@ -6,7 +6,6 @@ dateUpdated: 2021-05-17T17:32
 publish: true
 comments: false
 tags: [moc]
-note: 74
 ---
 
 Cette page rassemble les informations les plus essentielles sur Docker.

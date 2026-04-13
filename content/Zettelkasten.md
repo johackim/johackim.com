@@ -10,7 +10,6 @@ description: Le livre How to Take Smart Notes de Sönke Ahrens est une introduct
 publish: true
 rss: true
 rating: 4
-note: 91
 ---
 
 Le livre **[How to Take Smart Notes](https://amzn.to/3mXQP36)** de Sönke Ahrens est une introduction à la **méthode de prise de note** allemande **Zettelkasten** (aussi appelé la méthode **slip-box** en anglais ou **boite à chaussure** en français) développée par Niklas Luhmann.

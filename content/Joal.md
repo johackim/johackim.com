@@ -8,7 +8,6 @@ aliases:
   - Ratio torrent
 publish: true
 rss: true
-note: 87
 ---
 
 [Joal](https://github.com/anthonyraymond/joal/) est un outil pour augmenter automatiquement son ratio sur les sites de torrent.

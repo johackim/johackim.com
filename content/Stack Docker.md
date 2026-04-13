@@ -4,7 +4,6 @@ dateUpdated: 2021-05-17T17:32
 permalink: stack-docker
 publish: true
 rss: true
-note: 48
 ---
 
 Pour créer une **stack Docker**, il suffit de créer un fichier YAML qui contient les détails des services Docker à démarrer (image, volumes, ports, labels, etc...) :

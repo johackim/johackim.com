@@ -3,7 +3,6 @@ datePublished: 2021-05-17T17:32
 dateUpdated: 2021-05-17T17:32
 permalink: installer-docker
 publish: true
-note: 49
 ---
 
 Pour installer [docker](https://docker.com/) sur un serveur Linux (Ubuntu ou Debian), il suffit d'exécuter la commande suivante :

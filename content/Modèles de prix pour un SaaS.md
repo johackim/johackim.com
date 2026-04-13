@@ -4,7 +4,6 @@ dateUpdated: 2021-06-27T19:19
 permalink: modeles-de-prix-pour-un-saas
 publish: true
 rss: true
-note: 81
 ---
 
 Il existe plusieurs modèles de prix pour un SaaS :

@@ -8,7 +8,6 @@ datePublished: 2024-11-12T03:51:00
 dateUpdated: 2024-11-16T03:51:00
 publish: true
 comments: false
-note: 70
 ---
 
 - [[Programmation]]

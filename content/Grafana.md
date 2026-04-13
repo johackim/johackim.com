@@ -6,7 +6,6 @@ aliases:
   - Installer Grafana et Prometheus avec Docker Swarm
 publish: true
 rss: true
-note: 71
 links:
     - "[[Monitoring]]"
 ---

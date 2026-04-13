@@ -4,7 +4,6 @@ dateUpdated: 2022-06-21T05:34
 permalink: quickemu
 publish: true
 rss: true
-note: 71
 ---
 
 [Quickemu](https://github.com/quickemu-project/quickemu) est un logiciel pour rapidement démarrer des machines virtuelles depuis Linux.

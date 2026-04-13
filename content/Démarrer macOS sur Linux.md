@@ -4,7 +4,6 @@ dateUpdated: 2021-08-22T20:37
 permalink: demarrer-macos-sur-linux
 publish: true
 rss: true
-note: 74
 ---
 
 Pour démarrer macOS sur [[Linux]], il existe 2 solutions :

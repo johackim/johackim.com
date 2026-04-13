@@ -8,7 +8,6 @@ aliases:
   - Comment débugger un problème de manière efficace ?
 publish: true
 rss: true
-note: 74
 ---
 
 Aujourd'hui, je partage avec vous mon processus pour résoudre des problèmes en apparence complexes, mais qui peuvent se résoudre facilement si l'on utilise la bonne méthode.

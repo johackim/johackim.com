@@ -8,7 +8,6 @@ aliases:
   - Comment jouer sur Linux avec 95% de performance native ?
 publish: true
 rss: true
-note: 88
 ---
 
 Voici une solution pour pouvoir jouer aux jeux vidéos depuis un environnement [[Linux]] avec 95% de performance native.

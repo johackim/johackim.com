@@ -5,7 +5,6 @@ dateUpdated: 2021-06-07T20:36
 permalink: initialiser-eslint-sur-un-projet-javascript
 publish: true
 rss: true
-note: 55
 ---
 
 Pour initialiser eslint sur un projet JavaScript il existe la commande suivante :

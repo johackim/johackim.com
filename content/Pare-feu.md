@@ -7,7 +7,6 @@ aliases:
   - Blocklist
 publish: true
 rss: true
-note: 65
 ---
 
 Un pare-feu (ou firewall) est un logiciel ou matériel de sécurité permettant d'autoriser ou bloquer le trafic entrant et/ou sortant d'un réseau.

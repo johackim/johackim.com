@@ -6,7 +6,6 @@ aliases:
   - Système de détection d'intrusion
 publish: true
 rss: true
-note: 67
 ---
 
 Un **système de détection d'intrusion** (ou **IDS** : Intrusion Detection System) est un logiciel utilisé pour monitorer et détecter les activités anormales ou suspectes sur un réseau ou un système de fichier.

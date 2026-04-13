@@ -4,7 +4,6 @@ dateUpdated: 2021-06-07T20:36
 permalink: iptv
 publish: true
 rss: true
-note: 50
 ---
 
 L’Internet Protocol TeleVision ou, IPTV, est le fait d’accéder à des chaines de télévision avec internet. Ce qui permet ’avoir accès à la télévision sur un ordinateur ou smartphone.

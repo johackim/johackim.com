@@ -8,7 +8,6 @@ rss: true
 aliases:
   - Headline
   - Tagline
-note: 81
 ---
 
 Je galère à chaque fois pour trouver et rédiger le titre d'un article, d'un e-mail, d'une landing page ou d'une formation. Du coup je me suis créé un processus avec une liste d'outils et techniques à utiliser pour écrire un titre efficace.

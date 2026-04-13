@@ -7,7 +7,6 @@ publish: true
 rss: true
 aliases:
   - nvim
-note: 81
 ---
 
 [Neovim](https://neovim.io/) est un éditeur de code basé sur Vim.

@@ -5,7 +5,6 @@ permalink: regarder-la-television-avec-kodi
 title: Regarder toutes les chaines de télévision gratuitement depuis son ordinateur
 publish: true
 rss: true
-note: 68
 ---
 
 Pour regarder la télévision avec Kodi il existe un addon [[IPTV]] du nom de [PVR IPTV Simple Client](https://kodi.wiki/view/Add-on:PVR_IPTV_Simple_Client).

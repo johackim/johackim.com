@@ -8,7 +8,6 @@ publish: true
 rss: true
 aliases:
   - Disqus alternative
-note: 93
 ---
 
 N'ayant pas envie d'utiliser une solution propriétaire pour gérer les commentaires de mon blog et d'envoyer mes données personnelles et les vôtres (adresse IP, nom et e-mail) sur des serveurs aux USA. Je me suis configuré une petite installation de [Isso](https://posativ.org/isso/).

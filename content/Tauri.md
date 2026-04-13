@@ -6,7 +6,6 @@ datePublished: 2024-04-15T10:00:00
 dateUpdated: 2024-04-15T10:00:00
 publish: true
 rss: true
-note: 69
 ---
 
 [Tauri](https://github.com/tauri-apps/tauri) est un framework open-source basé sur Rust pour construire des applications multiplateformes.

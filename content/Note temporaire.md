@@ -7,7 +7,6 @@ aliases:
   - Note éphémère
 publish: true
 rss: true
-note: 64
 ---
 
 **Ayez toujours quelque chose à portée de main avec lequel écrire pour capturer chaque idée qui vous vient à l'esprit**. Ne vous préoccupez pas trop de la manière dont vous écrivez ou du support sur lequel vous écrivez.

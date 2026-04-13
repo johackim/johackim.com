@@ -6,7 +6,6 @@ dateUpdated: 2017-11-27T08:00
 description: Cet article est destiné à toutes les personnes souhaitant automatiser l'envoie de leur newsletter avec de jolis e-mails responsive et la possibilité d'injecter du contenue dynamiquement comme les derniers articles d'un blog.
 publish: true
 rss: true
-note: 79
 ---
 
 Cet article est destiné à toutes les personnes souhaitant automatiser l'envoie de leur newsletter avec de jolis e-mails **responsive** et la possibilité d'injecter du contenue **dynamiquement** comme les derniers articles d'un blog.

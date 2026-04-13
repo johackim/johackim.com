@@ -5,7 +5,6 @@ permalink: libreelec
 description: Guide d'installation de LibreELEC sur un Raspberry PI
 publish: true
 rss: true
-note: 54
 ---
 
 Voici comment installer LibreELEC sur un Raspberry PI.

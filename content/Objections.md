@@ -6,7 +6,6 @@ dateUpdated: 2020-10-01T06:00
 description: Les doutes et questionnements d'un client envers vous et votre produit sont inévitables. Comment faire face aux 5 plus grosses objections qu'un client peut avoir ?
 publish: true
 rss: true
-note: 77
 ---
 
 Les doutes et questionnements d'un client envers vous et votre produit sont inévitables. Comment faire face aux 5 plus grosses objections qu'un client peut avoir ?

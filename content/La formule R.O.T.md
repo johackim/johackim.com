@@ -6,7 +6,6 @@ aliases:
 permalink: la-formule-r.o.t
 publish: true
 rss: true
-note: 56
 ---
 
 Si vous n'êtes pas créatif pour trouver un titre, le copywriter Neville Medhora à inventé la formule R.O.T (Résultats - Objections - Temps).

@@ -5,7 +5,6 @@ permalink: iptables
 description: Iptables est un pare-feu pour Linux. Il permet de bloquer ou d'autoriser des connexions entrantes et sortantes.
 publish: true
 rss: true
-note: 61
 ---
 
 Iptables est un pare-feu pour Linux. Il permet de bloquer ou d'autoriser des connexions entrantes et sortantes.

@@ -6,7 +6,6 @@ datePublished: 2024-03-04T10:00:00
 dateUpdated: 2024-03-04T22:00:00
 publish: true
 rss: true
-note: 76
 ---
 
 [Expo](https://expo.dev/) est un framework qui permet de créer des applications mobiles (Android, iOS) et web avec [React Native](https://reactnative.dev/).

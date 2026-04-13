@@ -10,7 +10,6 @@ aliases:
   - Moral credential effect
   - L'hypocrisie morale
 rating: 3
-note: 68
 ---
 
 Terme créé par les psychologues, **l'effet de compensation morale** (ou Licensing effect en anglais) désigne le fait de se donner bonne conscience en effectuant une mauvaise action après avoir fait une bonne action.

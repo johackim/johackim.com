@@ -8,7 +8,6 @@ datePublished: 2021-10-06T16:50
 dateUpdated: 2021-10-06T16:50
 publish: true
 rss: true
-note: 64
 ---
 
 Le système WOOP est composé de 4 parties :

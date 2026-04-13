@@ -3,7 +3,6 @@ datePublished: 2021-05-17T17:32
 dateUpdated: 2021-05-17T17:32
 permalink: creer-un-volume-docker
 publish: true
-note: 43
 ---
 
 Afin de concerver les données d'un conteneur sur notre machine hôte, il est possible de créer des volumes Docker :

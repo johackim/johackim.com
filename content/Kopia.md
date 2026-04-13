@@ -4,7 +4,6 @@ dateUpdated: 2021-06-07T20:36
 permalink: kopia
 publish: true
 rss: true
-note: 54
 ---
 
 [Kopia](https://github.com/kopia/kopia) est un logiciel de sauvegarde disponible sur Windows, macOS et Linux.

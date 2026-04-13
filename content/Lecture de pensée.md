@@ -7,7 +7,6 @@ dateUpdated: 2024-05-17T17:09:00
 aliases:
   - Mind reading
 publish: true
-note: 56
 ---
 
 La lecture de pensée consiste à supposer ce que les autres pensent ou ressentent sans preuves concrètes.

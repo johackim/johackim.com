@@ -6,7 +6,6 @@ permalink: chiffrer-un-dossier-avec-ecryptfs
 publish: true
 rss: true
 description: Guide pour chiffrer un dossier avec eCryptfs sur Ubuntu ou Debian.
-note: 54
 ---
 
 [eCryptfs](https://doc.ubuntu-fr.org/ecryptfs) est un outil pour chiffrer un dossier.

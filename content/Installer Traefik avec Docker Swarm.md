@@ -4,7 +4,6 @@ dateUpdated: 2021-05-17T17:32
 permalink: installer-traefik-avec-docker-swarm
 publish: true
 rss: true
-note: 57
 ---
 
 Pour installer Traefik avec [[Docker Swarm]], on créer une stack Docker `traefik.yml` :

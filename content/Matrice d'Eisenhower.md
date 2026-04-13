@@ -6,7 +6,6 @@ publish: true
 rss: true
 aliases:
   - Eisenhower Matrix
-note: 69
 ---
 
 La matrice d’Eisenhower nour permet de classer nos tâches selon leur importance et urgence :

@@ -5,7 +5,6 @@ datePublished: 2021-06-07T20:36
 dateUpdated: 2021-06-07T20:36
 publish: true
 rss: true
-note: 78
 ---
 
 [Rclone](https://rclone.org/) est un outil de backups open-source disponible sur Linux, macOS et Windows.

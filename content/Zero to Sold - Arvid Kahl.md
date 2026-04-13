@@ -7,7 +7,6 @@ publish: true
 rss: true
 tags:
   - literature
-note: 88
 ---
 
 ## C'est quoi le bootstrapping ?

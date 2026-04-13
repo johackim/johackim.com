@@ -8,7 +8,6 @@ aliases:
   - Supprimer définitivement des fichiers
 publish: true
 rss: true
-note: 69
 ---
 
 Lorsqu'un fichier est supprimé, son contenu peut rester dans le système de fichiers, à moins qu'il ne soit explicitement écrasé par un autre contenu.

@@ -5,7 +5,6 @@ permalink: dopamine
 publish: true
 rss: true
 rating: 3
-note: 70
 ---
 
 La dopamine est un neurotransmetteur et une [[Hormones|hormone]] de la récompense qui génère une sensation de satisfaction lorsque l'on termine une tâche, reçoit une notification sur notre smartphone ou un like sur Twitter.

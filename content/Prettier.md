@@ -5,7 +5,6 @@ datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
 publish: true
 rss: true
-note: 66
 ---
 
 [Prettier](https://prettier.io/) permet de formater votre code automatiquement selon vos besoins, par exemple :

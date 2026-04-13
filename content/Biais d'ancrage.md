@@ -7,7 +7,6 @@ aliases:
   - Anchoring bias
 publish: true
 rss: true
-note: 50
 ---
 
 > [!QUESTION]- Qu'est-ce que le biais d'ancrage ?

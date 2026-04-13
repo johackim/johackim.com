@@ -7,7 +7,6 @@ aliases:
   - Télécharger ses livres Kindle
 publish: true
 rss: true
-note: 76
 ---
 
 À compter du 26 février 2025, l’option « Télécharger et transférer via USB » sur Amazon ne sera plus disponible pour les livres Kindle.

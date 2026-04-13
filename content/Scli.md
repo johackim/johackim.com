@@ -7,7 +7,6 @@ aliases:
 permalink: scli
 publish: true
 rss: true
-note: 66
 ---
 
 Pour envoyer et recevoir des messages via l'application [Signal](https://signal.org/fr/download/) directement dans un terminal, il existe l'application [scli](https://github.com/isamert/scli).

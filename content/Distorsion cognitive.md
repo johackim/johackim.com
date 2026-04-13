@@ -8,7 +8,6 @@ datePublished: 2024-05-17T16:55:00
 dateUpdated: 2024-05-17T16:55:00
 publish: true
 rating: 5
-note: 70
 ---
 
 Une distorsion cognitive est une pensée ou une croyance irrationnelle qui influence la façon dont une personne perçoit la réalité.

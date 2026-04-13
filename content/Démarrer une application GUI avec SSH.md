@@ -4,7 +4,6 @@ dateUpdated: 2021-07-11T09:50
 permalink: demarrer-une-application-gui-avec-ssh
 publish: true
 rss: true
-note: 67
 ---
 
 Voici un petit tutoriel pour lancer une application graphique à distance via SSH.

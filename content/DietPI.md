@@ -6,7 +6,6 @@ datePublished: 2024-02-12T10:00:00
 dateUpdated: 2024-02-12T10:00:00
 publish: true
 rss: true
-note: 81
 ---
 
 [DietPi](https://dietpi.com/) est une distribution Linux légère pour les Raspberry Pi.

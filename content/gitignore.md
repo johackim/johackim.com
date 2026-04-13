@@ -6,7 +6,6 @@ datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
 publish: true
 rss: true
-note: 48
 ---
 
 Pour créer un fichier `.gitignore` rapidement, il existe le service [gitignore.io](https://gitignore.io/).

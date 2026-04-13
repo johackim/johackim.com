@@ -6,7 +6,6 @@ publish: true
 rss: true
 aliases: [The Ladder Technique]
 rating: 3
-note: 59
 ---
 
 **Diviser vos tâches en petites tâches**, cela évitera la [[Procrastination]] et enlèvera de la friction lorsque vous effectuerez cette tâche.

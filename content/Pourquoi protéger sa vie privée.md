@@ -7,7 +7,6 @@ aliases:
   - Pourquoi protéger sa vie privée ?
 publish: true
 rss: true
-note: 83
 ---
 
 Pourquoi protéger sa vie privée ? Selon moi, il existe plusieurs raisons.

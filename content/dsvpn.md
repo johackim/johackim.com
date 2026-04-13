@@ -7,7 +7,6 @@ aliases: [Installer un serveur VPN avec dsvpn]
 links: "[[VPN]]"
 publish: true
 rss: true
-note: 67
 ---
 
 [Dsvpn](https://github.com/jedisct1/dsvpn) permet de créer un serveur VPN très simplement.

@@ -8,7 +8,6 @@ aliases:
   - CAF
 publish: true
 rss: true
-note: 80
 ---
 
 ## Remplir sa déclaration d'impôt

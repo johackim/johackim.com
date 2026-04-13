@@ -6,7 +6,6 @@ datePublished: 2024-05-24T22:50:00
 dateUpdated: 2024-11-16T22:50:00
 tags: [moc]
 publish: true
-note: 70
 ---
 
 - [[Thérapie cognitivo-comportementale]]

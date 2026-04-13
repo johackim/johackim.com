@@ -7,7 +7,6 @@ aliases:
   - GPG
 publish: true
 rss: true
-note: 86
 ---
 
 GnuPG (ou GPG) est un outil de chiffrement disponible sur [Linux](https://gnupg.org/), [Windows](https://gpg4win.org/) et [macOS](https://gpgtools.org/).

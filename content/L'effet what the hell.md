@@ -8,7 +8,6 @@ dateUpdated: 2021-11-21T20:31
 publish: true
 rss: true
 rating: 3
-note: 59
 ---
 
 **L'effet What The Hell** est le fait de décider de prolonger une mauvaise action après avoir initié une mauvaise action.

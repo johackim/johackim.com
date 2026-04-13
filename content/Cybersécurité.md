@@ -12,7 +12,6 @@ title: 🥷 Cybersécurité
 description: Protégez-vous des méchants hackers
 publish: true
 comments: false
-note: 65
 ---
 
 - [[Bash Bunny]]

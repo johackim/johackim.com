@@ -8,7 +8,6 @@ aliases:
 permalink: regret-minimization-framework
 publish: true
 rss: true
-note: 61
 ---
 
 Pour maximiser votre bonheur à long terme, donnez la priorité aux projets que vous regretteriez le plus de ne pas avoir poursuivis lorsque vous serez vieux et que vous regarderez votre vie en arrière.

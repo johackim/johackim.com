@@ -6,7 +6,6 @@ publish: true
 rss: true
 aliases:
   - Docker service
-note: 61
 ---
 
 Pour déployer des conteneurs dans un cluster [[Docker Swarm]], il faut créer des **services Docker**.

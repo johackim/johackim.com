@@ -5,7 +5,6 @@ permalink: obsidian
 title: Obsidian
 publish: true
 rss: true
-note: 91
 ---
 
 [Obsidian](https://obsidian.md/) est une application de prise de notes comme [Evernote](https://evernote.com/), [Notion](https://notion.so/) et [Bear](https://bear.app/), mais se distingue en introduisant une nouvelle façon d'organiser et de prendre vos notes.
