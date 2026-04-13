@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:13:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 15:15:08 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -5488,7 +5488,7 @@ grep -rin &lt;text&gt;
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mes applications préférés]]></title>
+            <title><![CDATA[Mes applications Android préférés]]></title>
             <link>https://johackim.com/mes-applications-android?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-applications-android</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
