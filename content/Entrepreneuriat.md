@@ -26,7 +26,6 @@ note: 49
 - [[AARRR]]
 - [[Les cinq éléments de toute entreprise]]
 - [[Les meilleurs conseils pour créer un business]]
-- [[202104151458|Ma toolbox personnelle]]
 - [[Une sélection de livres pour entreprendre]]
 - [[Positionnement]]
 - [[Avatar]]

@@ -1,6 +1,5 @@
 ---
-links:
-    - "[[EDC]]"
+links: "[[EDC]]"
 title: Le kit de survie d'un développeur
 permalink: kit-de-survie-developpeur
 datePublished: 2018-10-12T06:00

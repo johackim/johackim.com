@@ -1,7 +1,5 @@
 ---
-links:
-  - "[[202110061850|To buy]]"
-  - "[[Tracker un colis]]"
+links: "[[Tracker un colis]]"
 title: Comment acheter un article non expédiable en France ?
 permalink: comment-acheter-article-non-expediable-en-france
 datePublished: 2018-04-09T06:00

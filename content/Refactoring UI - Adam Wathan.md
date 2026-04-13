@@ -1,17 +1,12 @@
 ---
-datePublished: 2021-10-06T16:50
-dateUpdated: 2021-10-06T16:50
 title: Résumé du livre Refactoring UI de Adam Wathan
 permalink: refactoring-ui-adam-wathan
+datePublished: 2021-10-06T16:50
+dateUpdated: 2021-10-06T16:50
+tags: [literature]
 publish: true
 rss: true
-tags:
-  - literature
-note: 82
 ---
-
-> [!INFO]
-> Contenu en cours de création
 
 ## Démarrez avec une fonctionnalité
 
