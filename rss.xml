@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 13:01:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 15:13:00 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -3763,68 +3763,6 @@ done
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Signification du pendentif "The Obstacle Is the Way" de Ryan Holiday]]></title>
-            <link>https://johackim.com/signification-pendentif-obstacle-is-the-way?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/signification-pendentif-obstacle-is-the-way</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Fri, 11 Mar 2022 12:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/signification-pendentif-obstacle-is-the-way.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/signification-pendentif-obstacle-is-the-way.jpg"/>
-            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/CEk5c0i.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/PXVpcnT.jpg"/><link rel="preload" as="image" href="https://i.imgur.com/ktpFD4C.jpg"/><p><a href="https://store.dailystoic.com/collections/pendants/products/the-obstacle-is-the-way-pendant">Le médaillon The Obstacle Is The Way de Ryan Holiday</a> provient d&#x27;une citation de l&#x27;un des pères du <strong>stoïcisme</strong> <strong>Marc Aurèle</strong> dans son livre &quot;<a href="https://amzn.to/36nC9q1">Pensées pour moi-même</a>&quot;.</p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Marc Aurèle - Pensées pour moi-même (Livre V chapitre XX)</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>« The impediment to action advances action. What stands in the way becomes the way. »</p>
-                    </div>
-                </blockquote>
-<p>Qui peut se traduire par : &quot;L&#x27;obstacle à l&#x27;action fait avancer l&#x27;action. Ce qui se trouve sur le chemin devient le chemin.&quot;</p>
-<p>Ou plus précisément &quot;Ce qui nous empêche d’agir devient le motif de notre action, et ce qui nous barre la route devient ce vers quoi nous marchons.&quot;</p>
-<p><strong>Les obstacles de la vie sont inévitables, au lieu de les éviter, mieux vaut les voir comme une opportunité.</strong></p>
-<p>Une opportunité d&#x27;apprendre quelque chose et de mieux faire face aux défis futurs.</p>
-<p>On ne contrôle pas le monde extérieur, mais on peut contrôler notre réaction.</p>
-<p><img src="https://i.imgur.com/CEk5c0i.jpg" alt="|400"/>
-<img src="https://i.imgur.com/PXVpcnT.jpg" alt="|400"/>
-<img src="https://i.imgur.com/ktpFD4C.jpg" alt="|400"/></p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">James Clear</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>You cannot remove struggle from life, but you can improve your ability to handle challenge.</p>
-                    </div>
-                </blockquote>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Mark Manson</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Don’t hope for a life without problems, There’s no such thing. Instead, hope for a life full of good problems.</p>
-                    </div>
-                </blockquote>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://amzn.to/3CGHPHG">The Daily Stoic - Ryan Holiday</a></li>
-<li><a href="https://youtube.com/watch?v=CxUd2E5QvM8">Daily Stoic - Marcus Aurelius&#x27; Most Influential Stoic Teaching</a></li>
-<li><a href="https://amzn.to/3L0y0Hk">L&#x27;obstacle est le chemin - Ryan Holiday</a></li>
-<li>
-<a href="/stoicisme" title="Stoïcisme">Stoïcisme</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Mochi, une application pour mieux retenir vos apprentissages.]]></title>
             <link>https://johackim.com/mochi?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mochi</guid>
@@ -5550,7 +5488,7 @@ grep -rin &lt;text&gt;
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Mes applications Android]]></title>
+            <title><![CDATA[Mes applications préférés]]></title>
             <link>https://johackim.com/mes-applications-android?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-applications-android</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5856,17 +5794,6 @@ source ~/.bashrc
 <li><a href="https://deezer.com/en/artist/4331">Ludovico Einaudi</a></li>
 <li><a href="https://deezer.com/fr/artist/4553724">Ludwig Goransson</a></li>
 <li><a href="https://deezer.com/fr/artist/67835">Ramin Djawadi</a></li>
-</ul>
-<h2>Mes rappeurs Préférés</h2>
-<ul>
-<li><a href="https://deezer.com/en/artist/104154">Scylla</a></li>
-<li><a href="https://deezer.com/fr/artist/5438206">Davodka</a></li>
-<li><a href="https://deezer.com/en/artist/12168">Keny Arkana</a></li>
-<li><a href="https://deezer.com/en/artist/5175734">Vald</a></li>
-<li><a href="https://deezer.com/en/artist/4077848">Vin&#x27;s</a></li>
-<li><a href="https://deezer.com/en/artist/17160">Rockin&#x27; Squat</a></li>
-<li><a href="https://deezer.com/en/artist/6568">Lino</a></li>
-<li><a href="https://deezer.com/en/artist/10452069">Kalash Criminel</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -9276,7 +9203,8 @@ gi () {
             <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/mes-series-preferes.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/mes-series-preferes.jpg"/>
-            <content:encoded><![CDATA[<ul>
+            <content:encoded><![CDATA[<h2>Mes séries préférés</h2>
+<ul>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=17966.html">Mr. Robot</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=17907.html">Le bureau des légendes</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=3517.html">Breaking Bad</a></li>
@@ -9308,7 +9236,7 @@ gi () {
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=9285.html">Homeland</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=451.html">Prison break</a></li>
 </ul>
-<p>À regarder :</p>
+<h2>À regarder</h2>
 <ul>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28257.html">Black Bird</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=32897.html">The Playlist</a></li>
@@ -9317,8 +9245,8 @@ gi () {
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=28815.html">The Bear</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=30084.html">The Penguin</a></li>
 <li><a href="https://allocine.fr/series/ficheserie_gen_cserie=19344.html">Baron Noir</a></li>
-<li>Adolescence</li>
-<li>S.W.A.T.</li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=36351.html">Adolescence</a></li>
+<li><a href="https://allocine.fr/series/ficheserie_gen_cserie=21058.html">S.W.A.T.</a></li>
 </ul>
 <hr/>
 <p>Références :</p>
@@ -11124,80 +11052,6 @@ traefik:2.4.8 --providers.docker=true
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Ma stack technique]]></title>
-            <link>https://johackim.com/ma-stack-technique?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/ma-stack-technique</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Tue, 11 May 2021 13:05:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/ma-stack-technique.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/ma-stack-technique.jpg"/>
-            <content:encoded><![CDATA[<h2>Front-end</h2>
-<ul>
-<li><a href="https://github.com/facebook/react">React</a></li>
-<li><a href="https://nextjs.org/">Next.js</a></li>
-<li><a href="https://github.com/tailwindlabs/tailwindcss">Tailwind CSS</a></li>
-<li><a href="https://storybook.js.org/">Storybook</a></li>
-<li><del><a href="https://github.com/gatsbyjs/gatsby">Gatsby</a></del></li>
-<li><del><a href="https://github.com/webpack/webpack">Webpack</a></del></li>
-</ul>
-<h2>Back-end</h2>
-<ul>
-<li><a href="https://github.com/vercel/next.js/">Next.js</a></li>
-<li><a href="https://github.com/nodejs/node">Node.js</a></li>
-<li><a href="https://github.com/sequelize/sequelize">Sequelize</a></li>
-<li><a href="https://github.com/expressjs/express">Express.js</a></li>
-<li><del><a href="https://github.com/prisma/prisma">Prisma</a></del></li>
-<li><del><a href="https://graphql.org/">GraphQL</a></del></li>
-<li><del><a href="https://php.net/">PHP</a></del></li>
-<li><del><a href="https://symfony.com/">Symfony</a></del></li>
-<li><del><a href="https://github.com/zendframework/zendframework">Zend</a></del></li>
-</ul>
-<h2>Testing</h2>
-<ul>
-<li><a href="https://github.com/facebook/jest">Jest</a></li>
-<li><a href="https://github.com/cypress-io/cypress">Cypress</a></li>
-</ul>
-<h2>SCM</h2>
-<ul>
-<li><a href="https://github.com/git/git">Git</a></li>
-<li><a href="https://conventionalcommits.org/">Conventional Commits</a></li>
-<li><a href="https://semver.org/">Semver</a></li>
-<li><a href="https://github.com/typicode/husky">Husky</a></li>
-</ul>
-<h2>Devops</h2>
-<ul>
-<li><a href="https://github.com/moby/moby">Docker &amp; Docker Swarm</a></li>
-<li><a href="https://github.com/kubernetes/kubernetes">Kubernetes</a></li>
-<li><a href="https://github.com/traefik/traefik">Traefik</a></li>
-<li><a href="https://github.com/ansible/ansible">Ansible</a></li>
-<li><a href="https://github.com/hashicorp/terraform">Terraform</a></li>
-<li><a href="https://docs.github.com/actions/learn-github-actions/workflow-syntax-for-github-actions">Github workflow</a></li>
-<li><a href="https://github.com/grafana/grafana">Grafana</a></li>
-<li><a href="https://github.com/prometheus/prometheus">Prometheus</a></li>
-<li><a href="https://github.com/jenkinsci/jenkins">Jenkins</a></li>
-<li><a href="https://github.com/rabbitmq/rabbitmq-server">RabbitMQ</a></li>
-</ul>
-<h2>Système</h2>
-<ul>
-<li><a href="https://github.com/archlinux/archinstall">Arch Linux</a></li>
-<li><a href="https://github.com/ohmyzsh/ohmyzsh">zsh</a></li>
-<li><a href="https://github.com/i3/i3">i3</a></li>
-<li><a href="https://neovim.io/">neovim</a></li>
-<li><a href="https://github.com/exg/rxvt-unicode">rxvt</a></li>
-<li><a href="https://github.com/tmux/tmux">tmux</a></li>
-<li><a href="https://github.com/johackim/dotfiles">dotfiles</a></li>
-<li><a href="https://github.com/polybar/polybar">polybar</a></li>
-<li><a href="https://github.com/dylanaraps/pywal">pywal</a></li>
-</ul>
-<h2>Languages</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
-<li><a href="https://go.dev/">GoLang</a></li>
-<li><a href="https://rust-lang.org/">Rust</a></li>
-<li><a href="https://python.org/">Python</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Créer un compte facebook anonyme]]></title>
             <link>https://johackim.com/compte-facebook-anonyme?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/compte-facebook-anonyme</guid>
@@ -11347,87 +11201,6 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
 <li><a href="https://minecraftmaps.com/">Site de cartes Minecraft (minecraftmaps.com)</a></li>
 <li><a href="https://planetminecraft.com/">Site de cartes Minecraft (planetminecraft.com)</a></li>
 <li><a href="https://fmhy.net/gaming-tools#minecraft-tools">https://fmhy.net/gaming-tools#minecraft-tools</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mes 3 étapes pour créer un plan de 90 jours]]></title>
-            <link>https://johackim.com/plan-de-90-jours?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/plan-de-90-jours</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/plan-de-90-jours.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/plan-de-90-jours.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Voici mon processus personnel de création d&#x27;un plan de 90 jours.</p>
-<h2>I. Revoir sa vision à 25 ans</h2>
-<p>Une vision de 25 ans, ce n&#x27;est pas forcément de savoir aujourd&#x27;hui ce que vous allez faire en 2050.</p>
-<p>C&#x27;est avant tout, réfléchir aujourd&#x27;hui à quel sont vos valeurs et qu&#x27;est ce qui est important pour vous dans la vie.</p>
-<p>Je créer ma vision en 2 étapes :</p>
-<h3>1. Réflexion ouverte</h3>
-<p>Je répond à la question suivante de manière très détaillé, sans penser à comment faire et sans nécessairement être réaliste.</p>
-<p><strong>Imaginez-vous dans 25 ans, en train de faire le bilan. Qu&#x27;avez vous accompli jusqu&#x27;ici pour que votre vie soit réussi ?</strong>.</p>
-<h3>2. Créer un document</h3>
-<p>Ensuite je reprend toutes les idées de ma réflexion ouverte pour les basculer dans un document clair avec les points suivant :</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Role</strong></td><td>Exemple : Écrivain</td></tr><tr><td><strong>Ce que je veux</strong></td><td>Exemple : Écrire un livre, Atteindre 2000€ de revenus mensuels</td></tr><tr><td><strong>Pourquoi je le veux</strong></td><td>Pourquoi vous voulez ça ? Pourquoi cela est-il significatif et excitant pour vous ?</td></tr><tr><td><strong>Ce que je ne veux pas</strong></td><td>Exemple : Travailler 10h / jour, être employé</td></tr></tbody></table>
-<h2>II. Définir son étoile du nord</h2>
-<p><strong>Votre étoile du nord est simplement l&#x27;objectif principal que vous souhaitez accomplir en priorité dans les 90 prochains jours.</strong></p>
-<p>L&#x27;étoile du nord est utile parce qu&#x27;elle fait passer la prise de décision de difficile et ardue à facile et sans effort.</p>
-<p>Elle permet également de relier vos actions hebdomadaires et quotidiennes à votre vision à long terme afin de rester motivé, engagé et d&#x27;éviter la procrastination.</p>
-<p>Pour définir votre étoile du nord, posez-vous uniquement cette question :</p>
-<p>&quot;<strong>Quelle est la chose ESSENTIELLE que je peux faire en 90 jours de telle sorte qu&#x27;en la faisant, tout le reste deviendra plus facile ou inutile pour progresser vers mon objectif de 25 ans ?</strong>&quot;</p>
-<h2>III. Définir ses tâches</h2>
-<p>Définissez toutes les tâches spécifiques qui ont le plus de chance de vous amener à cet objectif.</p>
-<p>Utilisez à chaque fois <strong>un verbe d&#x27;action</strong>, <strong>une quantité</strong> (ou oui/non) et <strong>une date limite</strong>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/the-one-thing-gary-keller" title="The One Thing - Garry Keller">The One Thing - Garry Keller</a>
-
-</li>
-<li>
-<a href="/taylor-pearson-the-effective-entrepreneur" title="Taylor Pearson - The Effective Entrepreneur" class="not-found">Taylor Pearson - The Effective Entrepreneur</a>
-
-</li>
-<li>
-<a href="/marketing-mania-la-methode-des-90-jours" title="Marketing Mania - La méthode des 90 jours" class="not-found">Marketing Mania - La méthode des 90 jours</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -14501,127 +14274,6 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Les ressources d'un hacker indépendant]]></title>
-            <link>https://johackim.com/ressources?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/ressources</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 24 Jun 2019 12:57:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/ressources.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/ressources.jpg"/>
-            <content:encoded><![CDATA[<p>Je vous partage ma liste personnelle de tous les outils que j&#x27;utilise, pour entreprendre, écrire, développer, faire du design, du marketing, du référencement etc...</p>
-<h2>Création</h2>
-<ul>
-<li><a href="https://photopea.com/">Photoshop en ligne</a></li>
-<li><a href="https://shutterstock.com/">Moteur de recherche d&#x27;image</a></li>
-<li><a href="https://thenounproject.com/">Moteur de recherche d&#x27;icône</a></li>
-<li><a href="https://draw.io/">Création de diagrammes en ligne</a></li>
-<li><a href="https://landingfolio.com">Design inspiration</a></li>
-<li><a href="https://canva.com/">Création d&#x27;images en ligne</a></li>
-<li><a href="https://pablo.buffer.com/">Créer des images attrayantes en moins de 30 secondes</a></li>
-<li><a href="https://placeit.net/">Placer le nom de sa marque sur des mockups</a></li>
-<li><a href="https://beacon.by/">Créer un lead magnet</a></li>
-<li><a href="http://tinify.com/">Compresser des images PNG et JPG</a></li>
-<li><a href="https://kdenlive.org/">Logiciel de montage vidéo</a></li>
-<li><a href="https://obsproject.com/">Logiciel de screencast</a></li>
-<li><a href="https://musicformakers.com/">Music For Makers 1</a>, <a href="https://epidemicsound.com/">2</a>, <a href="https://chillhop.com/">3</a>, <a href="https://cchound.com/">4</a>, <a href="https://premiumbeat.com/">5</a></li>
-<li><a href="https://designresourc.es/">Ressources de design</a></li>
-<li><a href="https://listemoji.com/">Liste d&#x27;emojis</a></li>
-<li><a href="https://resizer.in/">Agrandir une image</a></li>
-<li><a href="https://manypixels.co/">Design illimités</a>, <a href="https://designpickle.com/">2</a>, <a href="https://kimp.io/">3</a></li>
-<li><a href="https://copy.ai">IA pour écrire</a>, <a href="https://jasper.ai">2</a>, <a href="https://wordhero.co">3</a>, <a href="https://headlime.com">4</a>, <a href="https://rytr.me">5</a>, <a href="https://wordai.com">6</a></li>
-<li><a href="https://xnview.com/en/xnretro/">Logiciel de retouche photo</a></li>
-</ul>
-<h2>Référencement / performance</h2>
-<ul>
-<li><a href="https://webpagetest.org/">Tester la performance d&#x27;un site internet</a></li>
-<li><a href="https://web.archive.org/web/20171212101630/zeroblabla.io/seo/">Liste des bonnes pratiques SEO</a></li>
-<li><a href="https://similarweb.com/fr">Analyser la qualité du référencement d&#x27;un site internet</a></li>
-<li><a href="https://alexa.com/">Classement mondial des sites internet</a></li>
-<li><a href="https://latency.apex.sh/">Vérifier la latence d&#x27;un site internet depuis plusieurs parties du monde</a></li>
-<li><a href="http://debug.iframely.com/">Débugger les meta tags</a></li>
-<li><a href="https://cdnfonts.com/">CDN pour les fonts</a></li>
-</ul>
-<h2>Rédaction</h2>
-<ul>
-<li><a href="https://linguee.fr/">Traduire des mots</a></li>
-<li><a href="https://deepl.com/translator">Traduire des textes</a></li>
-<li><a href="http://crisco.unicaen.fr/des/">Chercher des Synonymes</a></li>
-<li><a href="https://antidote.info/">Correcteur d&#x27;orthographe</a></li>
-<li><a href="http://tempsreel.nouvelobs.com/abc-lettres/lettre.html">Modèles de lettre</a></li>
-<li><a href="https://emaildrips.com/">Inspiration email</a>, <a href="https://reallygoodemails.com/">2</a>, <a href="https://goodemailcopy.com/">3</a></li>
-</ul>
-<h2>Divers</h2>
-<ul>
-<li><a href="https://alternativeto.net/">Trouver une alternative à un logiciel</a></li>
-<li><a href="https://libhunt.com/">Trouver une alternative à une librairie</a></li>
-<li><a href="http://cloudconvert.org/">Convertir des fichier</a></li>
-<li><a href="https://fast.com/">Speedtest</a></li>
-<li><a href="https://etcher.io/">Gravez facilement des images sur des cartes SD et des clés USB</a></li>
-<li><a href="https://privacytools.io/">Liste d&#x27;outils pour protéger votre vie privée en ligne</a></li>
-<li><a href="https://namechk.com/">Vérifier la disponibilité d&#x27;un pseudo</a></li>
-<li><a href="https://thegrowthlist.co/">Une liste de growth hacks</a></li>
-<li><a href="https://pdfdrive.com">Trouver des fichiers PDF</a>, <a href="https://filechef.com/">2</a></li>
-<li><a href="https://xmind.net/">Logiciel de mindmapping</a></li>
-<li><a href="https://standardnotes.org/">Standardnotes</a></li>
-<li><a href="https://mullvad.net">Mullvad</a></li>
-<li><a href="https://toggl.com/">Toggl</a></li>
-<li><a href="https://github.com/wallabag/wallabag">Wallabag</a></li>
-<li><a href="https://readwise.io/">Readwise</a></li>
-<li><a href="https://mailbrew.com/?aff=johackim">Mailbrew</a></li>
-<li><a href="https://nextdns.io/?from=wrbpy5cs">Nextdns</a></li>
-<li><a href="https://obsidian.md/">Obsidian</a></li>
-<li><a href="https://hackaday.io/">Communauté de hackers</a></li>
-<li><a href="https://app.bionic-reading.com/">Envoyer un article sur son kindle</a>, <a href="https://epub.press/">2</a>, <a href="https://txtpaper.com/">3</a>, <a href="https://instapaper.com/">4</a></li>
-<li><a href="https://onehack.us/t/awesome-nice-list-treasure-explore-the-web-like-a-pro/213397">Awesome Nice List Treasure | Explore The Web Like A Pro</a></li>
-<li><a href="https://soundprint.co/">Soundprint - Find Your Quiet Place</a></li>
-<li><a href="https://usefulinterweb.com/">https://usefulinterweb.com/</a></li>
-<li><a href="https://ourworldindata.org/">https://ourworldindata.org/</a></li>
-<li><a href="https://freelearninglist.org/">https://freelearninglist.org/</a></li>
-<li><a href="https://archivve.visualizevalue.com/">https://archivve.visualizevalue.com/</a></li>
-<li><a href="https://trends.vc/archives/">https://trends.vc/archives/</a></li>
-<li><a href="https://docusign.net">https://docusign.net</a></li>
-<li><a href="https://yousign.com">https://yousign.com</a></li>
-<li><a href="https://ideel.io">https://ideel.io</a></li>
-<li><a href="https://papernest.com">https://papernest.com</a></li>
-</ul>
-<h2>Sources d&#x27;inspiration</h2>
-<ul>
-<li><a href="https://emaildrips.com">https://emaildrips.com</a></li>
-<li><a href="https://landingfolio.com">https://landingfolio.com</a></li>
-<li><a href="https://tailwindui.com">https://tailwindui.com</a></li>
-<li><a href="https://flowbite.com">https://flowbite.com</a></li>
-<li><a href="https://pageflows.com">https://pageflows.com</a></li>
-<li><a href="https://saasblocks.app">https://saasblocks.app</a></li>
-<li><a href="https://thenounproject.com">https://thenounproject.com</a></li>
-<li><a href="https://websitevice.com">https://websitevice.com</a></li>
-<li><a href="https://fmhy.net/devtools#frontend-tools">https://fmhy.net/devtools#frontend-tools</a></li>
-</ul>
-<h2>Lignes de commande linux</h2>
-<pre><code class="language-bash">- ncdu # Moyen rapide de voir quels répertoires utilisent votre espace disque
-- ncmpcpp # Lecteur de musique
-- newsboat # Client RSS
-- trash # Supprimer des fichiers non définitivement
-- vim # Editeur
-- cheat # https://github.com/chrisallenlane/cheat
-- cloudconvert # Convertir tout type de fichiers
-- youtube-dl # Télécharger des vidéo YouTube, Vimeo, Daylimotion, YouP...
-- mat # Supprimer les metadata d&#x27;un fichier
-- fast # Speedtest
-- bleachbit # Ccleaner alternative
-- mpw # Passwordless solution
-- kpcli # Client KeyPass
-- tmux # Multiplexeur de terminal
-- subliminal # Télécharger les sous-titres d&#x27;un fichier vidéo
-- borg # Backups chiffrés
-- rdcli # https://github.com/johackim/rdcli
-- alexa # https://github.com/johackim/alexa-cli
-- http # Client http
-- ag # Commande grep 2.0
-- fd # Commande alternative à find
-- ack # Grep amélioré
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[La méthode Inbox Zero pour gagner en productivité]]></title>
             <description><![CDATA[Pendant très longtemps, je suis resté en alerte à chaque message reçu (email, SMS, actualité...). Je passais plus de temps à lire et répondre à mes messages qu'à réaliser mes objectifs. Grâce à la méthode Inbox Zero je peux désormais me consacrer à l'essentiel de mes objectifs !]]></description>
             <link>https://johackim.com/la-methode-inbox-zero-pour-gagner-en-productivite?utm_source=rss&amp;utm_medium=rss</link>
@@ -16399,132 +16051,6 @@ docker run -d --name tiny-tiny-rss --link db:postgres -e SELF_URL_PATH=http://lo
 <p>Vous pouvez bien entendu suivre n&#x27;importe quel site d&#x27;information comme <a href="https://mrmondialisation.org/">mrmondialisation</a> ou bien vos subreddit pour ceux qui sont sur <a href="https://reddit.com/">reddit</a>.</p>
 <p>De cette manière je peux centraliser tous mes flux d&#x27;information et rester informé de l&#x27;actualité tout en restant plus ou moins à l’écart de certains services qui ne respectent pas toujours la vie privée de ces utilisateurs. Les possibilités sont nombreuses, si vous avez d&#x27;autres tips sur les flux RSS n&#x27;hésitez pas à en faire part dans les commentaires.</p>
 <p>À lundi prochain pour un nouvel article, bonne semaine ;)</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Ma toolbox personnelle]]></title>
-            <description><![CDATA[Voici une liste d'outils que j'utilise au quotidien en tant qu'entrepreneur et développeur. Elle sera mise à jour au fur et à mesure de mes découvertes.]]></description>
-            <link>https://johackim.com/ma-toolbox-personnel?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/ma-toolbox-personnel</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 04 Dec 2017 08:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/ma-toolbox-personnel.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/ma-toolbox-personnel.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu archivé</p>
-                    </div>
-                </blockquote>
-<p>Voici une liste d&#x27;outils que j&#x27;utilise au quotidien en tant qu&#x27;entrepreneur et développeur. Elle sera mise à jour au fur et à mesure de mes découvertes.</p>
-<h2>Entreprenariat</h2>
-<ul>
-<li><a href="https://koober.com/">Résumés des meilleurs livres d&#x27;entreprenariat</a></li>
-<li><a href="https://enboard.co/startup/">Startup ressources</a></li>
-<li><a href="https://youtube.com/user/Startupfood/videos">Conférences sur l&#x27;entrepenariat</a></li>
-<li><a href="https://github.com/jurismatic/jurismatic">Toute la doc légale &amp; open source pour les startups</a></li>
-<li><a href="https://taiga.io/">Outil de gestion de projet</a></li>
-<li><a href="https://legalstart.fr/">Gérer toutes vos formalités juridiques facilement</a></li>
-<li><a href="https://startizy.com/">Trouvez les solutions financières pour votre entreprise</a></li>
-</ul>
-<h2>Design</h2>
-<ul>
-<li><a href="https://uplabs.com">Site d&#x27;inspiration graphique</a></li>
-<li><a href="https://pixabay.com/">Moteur de recherche d&#x27;image</a></li>
-<li><a href="http://thenounproject.com/">Moteur de recherche d&#x27;icône</a></li>
-<li><a href="http://goodui.org/">Examples d&#x27;interfaces utilisateur avec des taux de conversion élevés</a></li>
-<li><a href="https://draw.io/">Site web de diagrammes en ligne</a></li>
-<li><a href="https://adpages.xyz/">Inspiration pour des landing page</a></li>
-<li><a href="https://canva.com/">Site pour créer des flyers, cartes de visite, posters etc...</a></li>
-<li><a href="https://logojoy.com/">Editeur de logo</a></li>
-<li><a href="http://vectorpaint.yaks.co.nz/">Editeur SVG</a></li>
-<li><a href="https://myfonts.com/">Identifier une font</a></li>
-<li><a href="https://whatfontis.com/">Trouver des fonts alternatives</a></li>
-<li><a href="https://pablo.buffer.com/">Concevez des images attrayantes pour vos messages sur les médias sociaux en moins de 30 secondes</a></li>
-</ul>
-<h2>Développement</h2>
-<ul>
-<li><a href="https://coggle.it/diagram/Vz9LvW8byvN0I38x">Technologies de développement web incontournable</a></li>
-<li><a href="https://github.com/kamranahmedse/developer-roadmap">Developer roadmap</a></li>
-<li><a href="https://zealdocs.org/">Documentation hors ligne pour les développeurs</a></li>
-<li><a href="http://gethifi.com/tools/regex">Tester ses expressions régulières</a></li>
-<li><a href="https://github.com/sindresorhus/awesome">Github Awesome</a></li>
-<li><a href="https://gchq.github.io/CyberChef/">Couteau suisse de l&#x27;encodage, la compression, le chiffrement et l&#x27;analyse de données</a></li>
-<li><a href="https://learn-anything.xyz/">Cartes interactives pour apprendre n&#x27;importe quoi</a></li>
-</ul>
-<h2>Sysadmin, DNS, mails</h2>
-<ul>
-<li><a href="http://dply.co">Créer un serveur cloud GRATUIT pendant 2 heures</a></li>
-<li><a href="https://instantdomainsearch.com/">Vérifier la disponibilité d&#x27;un nom de domaine</a></li>
-<li><a href="https://intodns.com/">Vérifier la santé de votre configuration DNS</a></li>
-<li><a href="http://whatsmydns.net/">Vérifier la propagation d&#x27;un changement DNS depuis plusieurs serveurs situés dans différentes parties du monde</a></li>
-<li><a href="http://mail-tester.com/">Vérifier la qualité d&#x27;un mail et de sa configuration DNS</a></li>
-<li><a href="https://uptimerobot.com/">Être notifié du downtime de votre site Web</a></li>
-<li><a href="https://mailtrap.io/">Faux serveur de test SMTP</a></li>
-</ul>
-<h2>Référencement / performance</h2>
-<ul>
-<li><a href="https://varvy.com/">Outil de référencement et guide d&#x27;optimisation</a></li>
-<li><a href="https://webpagetest.org/">Tester la performance d&#x27;un site internet</a></li>
-<li><a href="https://zeroblabla.io/seo/">Liste des bonnes pratiques SEO</a></li>
-<li><a href="https://similarweb.com/fr">Analyser la qualité du référencement d&#x27;un site internet</a></li>
-<li><a href="https://alexa.com/">Classement mondial des sites internet</a></li>
-<li><a href="https://latency.apex.sh/">Vérifier la latence d&#x27;un site internet depuis plusieurs parties du monde</a></li>
-</ul>
-<h2>Rédaction</h2>
-<ul>
-<li><a href="https://linguee.fr/">Traduire des mots</a></li>
-<li><a href="https://deepl.com/translator">Traduire des textes</a></li>
-<li><a href="http://crisco.unicaen.fr/des/">Chercher des Synonymes</a></li>
-<li><a href="https://antidote.info/">Correcteur d&#x27;orthographe PAYANT</a></li>
-<li><a href="http://tempsreel.nouvelobs.com/abc-lettres/lettre.html">Modèles de lettre</a></li>
-</ul>
-<h2>Autres</h2>
-<ul>
-<li><a href="https://photopea.com/">Photoshop en ligne</a></li>
-<li><a href="https://alternativeto.net/">Trouver une alternative à un logiciel</a></li>
-<li><a href="http://cloudconvert.org/">Convertir tout type de fichier</a></li>
-<li><a href="http://tinify.com/">Compresser images PNG et JPG</a></li>
-<li><a href="https://fast.com/">Speedtest</a></li>
-<li><a href="https://github.com/asciimoo/searx">Métamoteur de recherche open-source</a></li>
-<li><a href="https://framapic.org/">Hébergeur d&#x27;image</a></li>
-<li><a href="https://frama.link/">Raccourcisseur de lien</a></li>
-<li><a href="https://johackim.com/meilleures-solutions-adresse-mail-jetable/">Les meilleures solutions d&#x27;adresse mail jetable</a></li>
-<li><a href="https://syncthing.net/">Synchronisation de fichiers depuis plusieurs périphériques</a></li>
-<li><a href="https://etcher.io/">Gravez facilement des images sur des cartes SD et des clés USB</a></li>
-<li><a href="http://distrowatch.com">Liste des distributions linux</a></li>
-<li><a href="https://privacytools.io/">Liste d&#x27;outils pour protéger votre vie privée en ligne</a></li>
-<li><a href="https://namechk.com/">Vérifier la disponibilité d&#x27;un username</a></li>
-<li><a href="https://canva.com/">Outil pour concevoir un design</a></li>
-<li><a href="https://epidemicsound.com/">Librairie audio</a></li>
-<li><a href="https://kdenlive.org/">Montage vidéo</a></li>
-<li><a href="https://obsproject.com/">Screencast</a></li>
-</ul>
-<h2>Console</h2>
-<pre><code class="language-bash">cloudconvert -f png &lt;file.jpg&gt; # Convertir tout type de fichiers
-youtube-dl &lt;url&gt; # Télécharger des vidéos
-mat &lt;file&gt; # Supprimer les metadata d&#x27;un fichier
-fast # Speedtest
-bleachbit # Ccleaner alternative
-fdupes -r &lt;dir&gt; # Chercher les fichiers doublons
-ncdu # Moyen rapide de voir quels répertoires utilisent votre espace disque
-ag # grep 2.0
-http &lt;website&gt; # Client console http
-kpcli # Client console KeePass
-tmux # Multiplexeur de terminal
-cheat # https://github.com/chrisallenlane/cheat
-tldr # Man simplifié
-subliminal download -s -l fr &lt;file&gt; # Télécharger les sous-titres français d&#x27;un fichier vidéo
-borg # Backups chiffrés
-alexa &lt;website&gt; # Vérifer le classement d&#x27;un site internet
-curl ipinfo.io # Connaitre son IP public et sa localisation
-
-# Plus d&#x27;infos : http://github.com/johackim/dotfiles
-</code></pre>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Automatiser l'envoie d'une newsletter avec mjml et nodemailer]]></title>
