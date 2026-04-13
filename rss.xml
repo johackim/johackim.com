@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 12 Apr 2026 10:47:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 12:49:59 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -2826,76 +2826,12 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 </li>
 <li>Le livre de la jungle - Younès Rharbaoui</li>
 <li>
-<a href="/traction-gabriel-weinberg" title="Traction - Gabriel Weinberg">Traction - Gabriel Weinberg</a>
+<a href="/traction-gabriel-weinberg" title="Traction - Gabriel Weinberg" class="not-found">Traction - Gabriel Weinberg</a>
 
 </li>
 <li><a href="https://yannleonardi.com/framework-aarrr/">https://yannleonardi.com/framework-aarrr/</a></li>
 <li><a href="https://airtable.com/shrzVGqmdLpoPQF9i">https://airtable.com/shrzVGqmdLpoPQF9i</a></li>
 <li><a href="https://youtu.be/xf7oPPjvpA4">The Ouss Shadow Army - Le framework AARRR (OUSSAMA AMMAR)</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé du livre Thinking in Systems de Donella Meadows]]></title>
-            <link>https://johackim.com/thinking-in-systems?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/thinking-in-systems</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Thu, 28 Jul 2022 12:44:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/thinking-in-systems.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/thinking-in-systems.jpg"/>
-            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/4HZJkT8.png"/><blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Qu&#x27;est-ce qu&#x27;un système ?</h2>
-<p>Un système est composé de 3 choses :</p>
-<ol>
-<li><strong>Éléments</strong> : Choses individuelles dans le système</li>
-<li><strong>Interconnexions</strong> : Relations entre les éléments</li>
-<li><strong>Fonction/but</strong> : Ce que le système réalise</li>
-</ol>
-<p><strong>Un système est un ensemble d&#x27;éléments qui sont interconnectés de manière à réaliser un but</strong>. Chaque système est composé de sous-systèmes avec leurs propres buts.</p>
-<h2>Les stocks et les flux</h2>
-<p>Les stocks et les flux sont les fondations d&#x27;un système :</p>
-<ul>
-<li><strong>Un stock représente les éléments dans un système que l&#x27;on peut voir, compter ou mesurer.</strong></li>
-<li><strong>Les flux (entrants et sortants) sont les moyens par lesquels les stocks changent au fil du temps.</strong></li>
-</ul>
-<p>Exemple avec une baignoire :</p>
-<ul>
-<li>Le stock est le nombre de litres de d&#x27;eau</li>
-<li>Le flux entrant est l&#x27;eau qui entre part le robinet</li>
-<li>Le flux sortant est l&#x27;eau qui sort par l&#x27;évacuation</li>
-</ul>
-<p><img src="https://i.imgur.com/4HZJkT8.png" alt="|350"/></p>
-<p>Les stocks mettent du temps à changer. Il faut une seconde pour ouvrir le robinet et plusieurs minutes pour remplir la baignoire.</p>
-<h2>Boucles de rétroaction</h2>
-<p>Certains systèmes s&#x27;autorégulent dans le temps, d&#x27;autres sont hors de contrôle et évoluent ou diminuent exponentiellement.</p>
-<p>Pour qu&#x27;un système soit persistant, ils ont besoin de boucles de rétroaction (Feedbacks loops).</p>
-<p>Il existe 2 types de boucles :</p>
-<ol>
-<li>Les boucles d&#x27;équilibrage (Balancing loops)</li>
-<li>Les boucles de renforcement (Reinforcing loops)</li>
-</ol>
-<h3>Boucle d&#x27;équilibrage</h3>
-<p>Les boucles d&#x27;équilibrage (Balancing loops) sont des boucles qui autorégule le stock à la manière d&#x27;un thermostat :</p>
-<ul>
-<li>Si le niveau du stock est trop élevé, la boucle réduit le flux entrant et augmente le flux sortant.</li>
-<li>Si le niveau du stock est trop faible, la boucle augmente le flux entrant et réduit le flux sortant.</li>
-</ul>
-<h3>Boucle de renforcement</h3>
-<p>Les boucles de renforcement se comportent de manière opposée aux boucles d&#x27;équilibrage.</p>
-<p>Elles amplifient les comportements existants en augmentant ou en rétrécissant le stock plus rapidement.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://blas.com/wp-content/uploads/2019/07/Thinking-in-Systems.pdf">https://blas.com/wp-content/uploads/2019/07/Thinking-in-Systems.pdf</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2992,7 +2928,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 
 </li>
 <li>
-<a href="/les-lois-de-la-nature-humaine#les-3-parties-du-cerveau" title="Les lois de la nature humaine - Robert Greene">Les lois de la nature humaine - Robert Greene</a>
+<a href="/les-lois-de-la-nature-humaine-robert-greene#les-3-parties-du-cerveau" title="Les lois de la nature humaine - Robert Greene" class="not-found">Les lois de la nature humaine - Robert Greene</a>
 
 </li>
 <li><a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_cerveau_triunique">https://fr.wikipedia.org/wiki/Théorie_du_cerveau_triunique</a></li>
@@ -3684,93 +3620,6 @@ scli link
 <ul>
 <li><a href="https://privacytests.org/">https://privacytests.org/</a></li>
 <li><a href="https://vytal.io/">https://vytal.io/</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé du livre Les lois de la nature humaine de Robert Greene]]></title>
-            <link>https://johackim.com/les-lois-de-la-nature-humaine?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/les-lois-de-la-nature-humaine</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Tue, 14 Jun 2022 09:31:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/les-lois-de-la-nature-humaine.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/les-lois-de-la-nature-humaine.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Instinct grégaire</h2>
-<p>Notre tendance à établir deux clans séparés, ceux qui sont des nôtres et ceux qui n&#x27;en sont pas.</p>
-<h2>Les 3 parties du cerveau</h2>
-<ul>
-<li>Le cerveau réptilien (lizard brain) : la partie automatique/instinctive</li>
-<li>Le cerveau paléomammalien (ou cerveau limbique) : la partie émotionnelle</li>
-<li>Le cerveau néocortex : la partie qui contrôle les facultés cognitives ; le langage</li>
-</ul>
-<h2>Avoir conscience de son irationnalité</h2>
-<p>Le seul moyen de devenir rationnel et d&#x27;avoir conscience de son irationnalité.</p>
-<p>De prendre du recul lors de chaque action.</p>
-<p>Se croire supérieur à ça, est la preuve de son irationnalité la plus sûr.</p>
-<h2>Biais de conviction</h2>
-<p>Notre tendance à défendre coûte que coût les idées qui flattent notre égo.</p>
-<h2>Biais d&#x27;apparence</h2>
-<p>Notre tendance à voir les gens tel qu&#x27;ils nous apparaissent et non tels qu&#x27;ils sont.</p>
-<h2>Biais de conformisme</h2>
-<p>Notre tendance à adopter des idées et des opinions pour s&#x27;intégrer à un groupe plutôt que pour les idées elles même.</p>
-<h2>L&#x27;effet de groupe</h2>
-<p>Notre tendance à se laisser porter par les émotions collectives des parties politiques, manifestations ou concerts. C&#x27;est le niveau 2 du biais de conformisme.</p>
-<h2>Stratégies pour dévoiler son moi rationnel</h2>
-<h3>1. Se connaitre soit-même</h3>
-<blockquote>
-<p><mark><b>Le moi émotionnel se nourrit de l&#x27;ignorance</b></mark></p>
-</blockquote>
-<p>Identifier ses forces et ses faiblesses. Examiner ses décisions et note façon de fonctionner en état de stress.</p>
-<h3>2. Examiner ses émotions à la racine</h3>
-<p>Identifier le déclencheur de notre colère à froid et en étant le plus objectif possible.</p>
-<p>Utilisez un journal pour noter vos introspections.</p>
-<h3>3. Augmenter notre temps de réaction</h3>
-<p>Appuyer sur pause pour prendre du recul le temps que l&#x27;émotion passe.</p>
-<p>Écrire ce que l&#x27;on ressent dans un journal ou dans un e-mail de colère sans l&#x27;envoyer.</p>
-<h3>4. Acceptez les gens comme des faits</h3>
-<p>Nous souhaitons constamment changer les gens. Mais chaque personne est différente. Alors nous sommes tout le temps contrarié.</p>
-<p>Considérons les personnes comme des phénomènes aussi neutre que des planètes ou des plantes.</p>
-<h3>5. Aimez le rationnel</h3>
-<blockquote>
-<p>Maîtriser son moi émotionnel amène une sérénité générale et une clarté d&#x27;esprit.</p>
-</blockquote>
-<h2>Notre besoin fondamental d&#x27;attention</h2>
-<blockquote>
-<p>Nous sommes tous narcissiques, certains plus que d&#x27;autres.</p>
-<p>Nous avons besoin d&#x27;être regardés pour nous sentir vivants.</p>
-</blockquote>
-<p>Dès notre naissance, nous réclamons un <strong><a href="/besoin-d&#x27;attention" title="Besoin d&#x27;attention" class="not-found">Besoin d&#x27;attention</a></strong> illimité.</p>
-
-<p>Notre estime de nous mêmes dépend de l&#x27;attention que les autres portent sur nous.</p>
-<p>Nous sommes par essence des êtres sociaux.</p>
-<p>L&#x27;isolement nous mêne à la dépression.</p>
-<p>Tout ou presque est motivé par ce <strong>besoin fondamental</strong>.</p>
-<h2>L&#x27;échelle du narcissisme</h2>
-<h3>Les grands narcissiques</h3>
-<p>Ce sont les personnes qui n&#x27;ont pas un moi solide et cohérent.</p>
-<p>Les personnes qui ont une faible <a href="/estime-de-soi" title="estime d&#x27;eux même" class="not-found">estime d&#x27;eux même</a> et un fort degré <a href="/ego" title="d&#x27;égocentrisme" class="not-found">d&#x27;égocentrisme</a>.</p>
-
-<h3>Les narcissiques fonctionnels</h3>
-<p>TODO</p>
-<h3>Les narcissiques sains</h3>
-<p>TODO</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/psychologie" title="Psychologie">Psychologie</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4796,7 +4645,7 @@ Vous découvrez le principe de l&#x27;éclairage trois points, vous ferez beauco
 <li>Aujourd&#x27;hui je ne travaille pas mais à partir de la semaine prochaine je reste concentré sur ma routine.</li>
 <li>Aujourd&#x27;hui je joue aux jeux vidéos, mais à partir de demain c&#x27;est sûr j&#x27;arrête.</li>
 </ul>
-<p>Une sorte de <a href="/biais-doptimisme" title="Biais d&#x27;optimisme">Biais d&#x27;optimisme</a> qui nous poussent à mettre trop d&#x27;importance à notre futur soi.</p>
+<p>Une sorte de <a href="/biais-d&#x27;optimisme" title="Biais d&#x27;optimisme" class="not-found">Biais d&#x27;optimisme</a> qui nous poussent à mettre trop d&#x27;importance à notre futur soi.</p>
 
 <p>Alors qu&#x27;il est fort probable que votre futur soi reste le même que votre moi d&#x27;aujourd&#x27;hui.</p>
 <p>Si on n&#x27;est pas capable de faire une action aujourd&#x27;hui, pourquoi le serait-on le lendemain ?</p>
@@ -5544,18 +5393,7 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
             <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/refactoring-ui-adam-wathan.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/refactoring-ui-adam-wathan.jpg"/>
-            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/fh9TORr.png"/><link rel="preload" as="image" href="https://i.imgur.com/TGPzhyU.png"/><link rel="preload" as="image" href="https://i.imgur.com/vX642TQ.png"/><link rel="preload" as="image" href="https://i.imgur.com/xG9p1jc.png"/><link rel="preload" as="image" href="https://i.imgur.com/7Km1B2B.png"/><link rel="preload" as="image" href="https://i.imgur.com/qC6PnKe.png"/><link rel="preload" as="image" href="https://i.imgur.com/KUStwdS.png"/><link rel="preload" as="image" href="https://i.imgur.com/Vr13q71.png"/><link rel="preload" as="image" href="https://i.imgur.com/aBSHApV.png"/><link rel="preload" as="image" href="https://i.imgur.com/gdcU3nm.png"/><link rel="preload" as="image" href="https://i.imgur.com/7i5Mz4s.png"/><link rel="preload" as="image" href="https://i.imgur.com/hJyOb0I.png"/><link rel="preload" as="image" href="https://i.imgur.com/wDUbNX2.png"/><blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Démarrez avec une fonctionnalité</h2>
+            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/fh9TORr.png"/><link rel="preload" as="image" href="https://i.imgur.com/TGPzhyU.png"/><link rel="preload" as="image" href="https://i.imgur.com/vX642TQ.png"/><link rel="preload" as="image" href="https://i.imgur.com/xG9p1jc.png"/><link rel="preload" as="image" href="https://i.imgur.com/7Km1B2B.png"/><link rel="preload" as="image" href="https://i.imgur.com/qC6PnKe.png"/><link rel="preload" as="image" href="https://i.imgur.com/KUStwdS.png"/><link rel="preload" as="image" href="https://i.imgur.com/Vr13q71.png"/><link rel="preload" as="image" href="https://i.imgur.com/aBSHApV.png"/><link rel="preload" as="image" href="https://i.imgur.com/gdcU3nm.png"/><link rel="preload" as="image" href="https://i.imgur.com/7i5Mz4s.png"/><link rel="preload" as="image" href="https://i.imgur.com/hJyOb0I.png"/><link rel="preload" as="image" href="https://i.imgur.com/wDUbNX2.png"/><h2>Démarrez avec une fonctionnalité</h2>
 <p>Ne démarrez pas avec une mise en page (un layout). Vous faites une erreur si vous commencez par vous demander quelle va être votre barre de navigation ou votre footer.</p>
 <p>Par exemple, si vous créez un système de réservation de billet d&#x27;avion, vous pouvez commencer par créer une fonctionnalité &quot;Recherche de vols&quot; :</p>
 <ul>
@@ -5679,162 +5517,6 @@ grep -rin &lt;text&gt;
 <p>Comme ça, si vous vous souvenez juste d&#x27;une phrase en particulier, mais vous ne retrouvez pas le passage, vous pouvez automatiser votre recherche afin d&#x27;aller plus vite 😀.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Résumé du livre 12 leçons de rhétorique pour prendre le pouvoir de Victor Ferry]]></title>
-            <link>https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Wed, 06 Oct 2021 16:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Les 3 dimensions de la rhétorique</h2>
-<p>D&#x27;après Artistote, la persuasion naît de la prise en compte de trois dimensions de la communication :</p>
-<ul>
-<li>
-L&#x27;<a href="/ethos" title="Ethos" class="not-found">Ethos</a> ; la confiance que le public accorde à la personne de l’orateur.
-
-</li>
-<li>
-Le <a href="/pathos" title="Pathos" class="not-found">Pathos</a> ; la disposition émotionnelle dans laquelle l’orateur met le public.
-
-</li>
-<li>
-Le <a href="/logos" title="Logos" class="not-found">Logos</a> ; les arguments que l’orateur soumet au jugement du public.
-
-</li>
-</ul>
-<h2>Les trois questions à se poser en tant que théoricien de la rhétorique</h2>
-<p>Lorsque l&#x27;on entends un discours, demandez-vous :</p>
-<h3>1. Qu’est-ce que l’orateur essaie de faire ?</h3>
-<p>Trouvez quel est son objectif et pourquoi il cherche à prendre la parole. Veut-il me séduire, me convaincre, me rassurer, me mettre en colère, m&#x27;informer, me pousser à agir ?</p>
-<h3>2. Comment s’y prend-il ?</h3>
-<p>Pour un même objectif, il existe plusieurs stratégies. Exemple : vendre un produit en jouant sur la l&#x27;excitation de la nouveauté ou en le comparant à un autre moins efficace.</p>
-<h3>3. Était-ce la meilleure option ?</h3>
-<p>TODO</p>
-<h2>Testez l&#x27;efficacité de votre discours</h2>
-<p>Grâce à internet, vous pouvez vérifier l&#x27;impact d&#x27;un discours en récoltant des données qualitatives (commentaires) et quantitatives (vues, partages, clics sur l&#x27;appel à l&#x27;action).</p>
-<h2>Écrivez votre manifeste</h2>
-<blockquote>
-<p>Un manifeste, c&#x27;est le socle de votre pensée, de votre idéologie. C’est un document où vous allez noter votre diagnostic de ce qu’il faudrait régler en priorité et vos solutions pour rendre le monde un peu meilleur.</p>
-</blockquote>
-<h3>1. Identifiez le problème</h3>
-<blockquote>
-<p>C’est lorsque nous butons sur quelque chose que nous avons soif de solutions.</p>
-</blockquote>
-<p>Ne vous demandez pas &quot;Qu&#x27;est ce que je propose ?&quot; mais plutôt &quot;Quels problèmes je règle ?&quot;.</p>
-<p>Faites la liste des deux, trois voire quatre problèmes que vous comptez régler avec votre projet, avec vos produits, avec vos services.</p>
-<h3>2. Assombrissez l&#x27;horizon</h3>
-<p>Montrez-lui les conséquences de si il n&#x27;agit pas.</p>
-<p>Utiliser <a href="/les-besoins-humains-fondamentaux" title="Les besoins humains fondamentaux" class="not-found">Les besoins humains fondamentaux</a> comme la sécurité, la santé, le plaisir, le confort, l’amour, la protection de ceux qu’on aime, la reconnaissance sociale.</p>
-
-<p>Montrez lui en quoi son inaction va l&#x27;empêcher d&#x27;assouvir ses besoins.</p>
-<h3>3. Dénoncez les coupables et leurs idées fausses</h3>
-<p>Quels sont les opposants à votre idéologie ?</p>
-<h3>4. Justifiez votre solution</h3>
-<p>Vous pouvez justifier une solution de 4 manières :</p>
-<ul>
-<li>
-<strong><a href="/l&#x27;opportunite" title="L&#x27;opportunité" class="not-found">L&#x27;opportunité</a></strong> : montrer que c&#x27;est le moment où jamais pour agir
-
-</li>
-<li>
-<strong><a href="/la-faisabilite" title="La faisabilité" class="not-found">La faisabilité</a></strong> : montrer que la solution est réaliste et même simple à mettre en oeuvre
-
-</li>
-<li>
-<strong><a href="/l&#x27;utilite" title="L&#x27;utilité" class="not-found">L&#x27;utilité</a></strong> : montrer les conséquences positives de la mise en oeuvre de la solution
-
-</li>
-<li>
-<strong><a href="/la-moralite" title="La moralité" class="not-found">La moralité</a></strong> : montrer que la solution permet de concrétiser des valeurs universelles (liberté, égalité, fraternité, équité, respect, dignité, etc...)
-
-</li>
-</ul>
-<h3>5. Appelez à l&#x27;action</h3>
-<blockquote>
-<p>Si vous voulez que votre discours soit suivi d&#x27;effet, il y a une règle tout simple : donnez à vore public des actions concrètes à effectuer.</p>
-</blockquote>
-<p>Vous pouvez le faire de deux façons : en jouant sur <strong>l&#x27;envie de se démarquer</strong> (ex: &quot;seuls les plus audacieux passeront à l&#x27;action&quot;), ou sur <strong>le <a href="/conformisme" title="Conformisme" class="not-found">Conformisme</a></strong> et <strong>la <a href="/pression-sociale" title="Pression sociale" class="not-found">Pression sociale</a></strong> (ex: &quot;tous vos voisins sont déjà passés à l&#x27;action&quot;).</p>
-
-<h2>Convaincre != persuader</h2>
-<p>Convaincre veut dire changer l&#x27;opinion d&#x27;une personne.</p>
-<p>Persuader veut dire motiver le passage à l&#x27;action d&#x27;une personne.</p>
-<p>Si vous vous contentez de persuader une personne sans la convaincre auparavant, elle pourra vous en vouloir de l&#x27;avoir manipulé.</p>
-<p>La plupart des fumeurs sont convaincus que le tabac est mauvais pour la santé, mais il ne sont pas persuadé d&#x27;arrêter.</p>
-<h2>Les 5 canons de la rhéthorique</h2>
-<ul>
-<li><strong>L&#x27;invention</strong> : Vous rassemblez la matière de votre discours.</li>
-<li><strong>La disposition</strong> : Vous maximiser l&#x27;efficacité de chaque partie de votre discours.</li>
-<li><strong>Le style</strong> : Vous faites un choix sur les mots, les formules et les figures afin de rendre votre discours original et mémorable.</li>
-<li><strong>La mémoire</strong> : Vous vous détachez du texte et vous vous facalisez sur votre relation au public.</li>
-<li><strong>La performance</strong> : Travaillez sur le rhythme, le volume et le niveau d&#x27;énergie que vous donnez au public.</li>
-</ul>
-<h2>Post-vérité</h2>
-<blockquote>
-<p>L’année 2016 a été consacrée comme celle de la « post-vérité ». Que faut-il comprendre par ce terme ? Selon le dictionnaire d’Oxford, qui en a fait son mot de l’année, le terme désignerait des « circonstances dans lesquelles les faits objectifs ont moins d’influence pour former l’opinion publique que l’appel à l’émotion et aux croyances personnelles ». Total bullshit - Sebastian Dieguez</p>
-</blockquote>
-<h2>Les 4 tentacules de la post-vérité</h2>
-<ul>
-<li>Le relativisme</li>
-<li>L’intellectualisme</li>
-<li>Le populisme</li>
-<li>Le sensationnalisme</li>
-</ul>
-<p>L’attaque relativiste : « Mon point de vue vaut bien le vôtre »,
-L’attaque intellectualiste : « Comment pouvez-vous être sûr à 100 % de ce que vous avancez ? »,
-L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
-<h2>La stratégie du scandale</h2>
-<ul>
-<li>La grossièreté</li>
-<li>L’hyperbole</li>
-<li>Le sophisme de la pente glissante</li>
-</ul>
-<h2>Qu’est-ce qu’un argument ?</h2>
-<p>Un <a href="/argument" title="argument" class="not-found">argument</a> est composé de deux éléments : une <strong>prémisse</strong> et une <strong>conclusion</strong>.</p>
-
-<p>La conclusion est ce que vous voulez que votre public admette comme vrai, la prémisse est ce que vous lui donnez pour l’admettre.</p>
-<p>Exemple : &quot;Il faut lire tous les jours (conclusion) car la lecture réduit le stress (prémisse).&quot;</p>
-<h2>Quelques sophismes de base</h2>
-<p>Un <a href="/sophisme" title="sophisme" class="not-found">sophisme</a> est le contraire d&#x27;un bon argument.</p>
-
-<ul>
-<li>La pétition de principe</li>
-<li>L’argumentation ad populum</li>
-<li>L’argumentation ad baculum</li>
-<li>La généralisation hâtive</li>
-<li>Le Post hoc, ergo propter hoc</li>
-<li>La pente glissante</li>
-</ul>
-<h2>Test de vérité</h2>
-<ul>
-<li>Données qualitatives</li>
-<li>Données quantitatives</li>
-<li>Données expérimentales</li>
-</ul>
-<h2>5 étapes pour nous assurer de la qualité de nos arguments</h2>
-<ol>
-<li>Posez votre thèse</li>
-<li>Présentez un fait à l’appui de votre thèse</li>
-<li>Garantissez le passage de votre prémisse à la conclusion</li>
-<li>Clarifiez le domaine du savoir dont vous puisez votre garantie</li>
-<li>Identifiez les limites de votre argumentation</li>
-</ol>
-<h2>Test de validité</h2>
-<p>TODO</p>
-<h2>Les figures de style</h2>
-<p>TODO</p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[WOOP Framework]]></title>
             <description><![CDATA[Découvrez le système WOOP pour atteindre vos objectifs en 4 étapes ; établir un souhait, déterminer les résultats, identifier les obstacles et planifier.]]></description>
             <link>https://johackim.com/woop-framework?utm_source=rss&amp;utm_medium=rss</link>
@@ -5868,7 +5550,7 @@ L’attaque populiste : « Pour qui vous prenez-vous ? ».</p>
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202109280029]]></title>
+            <title><![CDATA[Mes applications Android]]></title>
             <link>https://johackim.com/mes-applications-android?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-applications-android</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5968,130 +5650,6 @@ parse_firefox_bookmark(bdict)
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Résumé du livre Traction du fondateur de Duckduckgo Gabriel Weinberg]]></title>
-            <description><![CDATA[La traction est le signe que votre entreprise décolle. A ce moment là, les KPI s'affollent (téléchargements, ventes, etc...).]]></description>
-            <link>https://johackim.com/traction-gabriel-weinberg?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/traction-gabriel-weinberg</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 27 Sep 2021 22:29:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/traction-gabriel-weinberg.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/traction-gabriel-weinberg.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Traction</h2>
-<p>La traction est le signe que votre entreprise décolle. A ce moment là, les KPI s&#x27;affollent (téléchargements, ventes, etc...).</p>
-<h2>Les 19 canaux de traction</h2>
-<h3>Blogs</h3>
-<p>Identifier les blogs populaires de votre niche et donner leur un lien de partage de votre site (en échange d&#x27;un rémunération, d&#x27;un accès gratuit ou d&#x27;une réduction).</p>
-<p>Créez des posts invités si possible.</p>
-<h3>Publicité</h3>
-<p>D&#x27;après <a href="/ryan-holiday" title="Ryan Holiday" class="not-found">Ryan Holiday</a>, l&#x27;approche directe des grosse média est rarement bonne. Il faut les approchez obliquement.</p>
-
-<p>Répérez les petits blogs qu&#x27;un gros média relai et placez-vous dessus.</p>
-<p>Donnez leur des histoires attractives au niveau émotionnel.</p>
-<blockquote>
-<p>La satisfaction est une émotion non virale. Ryan Holiday</p>
-</blockquote>
-<h3>Publicité non conventionnelle</h3>
-<p>Faites quelque chose de grant, bon marché, drôle et original.</p>
-<p>L&#x27;entreprise Blendtec à créer une série de vidéos intitulées &quot;Will it Blend ?&quot; qui a été vue des millions de fois.</p>
-<p>Le moteur de recherche DuckDuckGo a placé une pub sur un panneau d&#x27;affichage juste à côté du batiment de Google.</p>
-<p>Dollar Shave Club a capté l&#x27;attention avec sa vidéo de lancement intitulée &quot;Our Blades Are Fucking Great&quot;.</p>
-<p>Hipmunk a organisé des concours comme demander à leur audience sur Twitter pourquoi ils aimaient leur mère plus que Hipmunk. Les mamans des gagnants ont reçu des fleurs et des chocolats.</p>
-<p>Zappos créer la meilleur expérience client en répondant à toutes les reqûetes de ses clients (ex: Commander une pizza, échanger des vêtements de sport contre une friteuse, etc...).</p>
-<h3>SEM</h3>
-<p>Le marketing de moteur de recherche désigne la publicité placée sur les moteurs de recherche comme Google.</p>
-<p>Le terme englobe le référencement naturel (SEO) et le référencement payant (SEA, SMA).</p>
-<p>Les indicateurs à connaitres sont :</p>
-<ul>
-<li>
-Le <a href="/taux-de-clic" title="Taux de clic" class="not-found">Taux de clic</a> (CTR) : Le pourcentage d&#x27;impression publicitaire sur le nombre de clics. Exemple : si vous avez 100 personnes qui voient votre publicité et que 3 cliquent dessus, vous avez un CTR de 3%.
-
-</li>
-<li>
-Le <a href="/cout-par-clic" title="Coût par clic" class="not-found">Coût par clic</a> (CPC) : Le montant à payer pour un clic sur votre pub.
-
-</li>
-<li>
-Le <a href="/cout-d&#x27;acquisition-client" title="Coût par acquisition" class="not-found">Coût par acquisition</a> (CPA) : Le coût de recrutement d&#x27;un client (CPC / pourcentage de conversion).
-
-</li>
-</ul>
-<h3>Display Ads</h3>
-<p>Les annonces graphiques (Display Ads) sont les bannières que vous voyez sur les sites web comme :</p>
-<ul>
-<li>Linkedin</li>
-<li>Twitter</li>
-<li>Facebook</li>
-<li>Reddit</li>
-<li>YouTube</li>
-<li>Pinterest</li>
-<li>Etc...</li>
-</ul>
-<p>Passez par ses sites pour y afficher vos annonces graphiques ou demander à un petit site d&#x27;en afficher en échange d&#x27;un petit montant.</p>
-<h3>La publicité hors-ligne</h3>
-<p>Il existe plusieurs catégories de pubs hors-ligne :</p>
-<ul>
-<li>Télévision</li>
-<li>Radio</li>
-<li>Magazines</li>
-<li>Journaux</li>
-<li>Pages jaunes</li>
-<li>Etc..</li>
-</ul>
-<p>Pour mesurer l&#x27;impact des pubs hors-ligne, vous pouvez créer des URL uniques (ex: monsite.com/flyer) ou des codes promo spécifiques afin de savoir combien de visites ont générées votre campagne.</p>
-<p>Le prix peut aller de quelques centaines à plusieurs milliers d&#x27;euros selon l&#x27;emplacement et la taille de l&#x27;audience ciblé.</p>
-<h3>SEO</h3>
-<p>Il est difficile de se positionner sur les mots clés &quot;tête de traîne&quot;.</p>
-<p>Trouvez des mots clés longue traine populaire et créez des landing page avec un contenu de qualité dessus.</p>
-<h3>Marketing de contenu</h3>
-<p>Ecrivez des contenu au sujet des problèmes de vos clients.</p>
-<h3>Email Marketing</h3>
-<p>Créez des séquences e-mail personnalisé à destinations de vos utilisateurs.</p>
-<p>Vous pouvez faire des tests A/B pour mesurer les taux d&#x27;ouverture et de clics.</p>
-<h3>Marketing Viral</h3>
-<p>Devenir &quot;viral&quot; signifie que chaque utilisateur que vous récupérez vous apporte un au autre utilisateur.</p>
-<p>Cela forme une boucle qui se répéte encore et encore.</p>
-<p>Le bouche à oreille est une forme de marketing viral.</p>
-<blockquote>
-<p>La viralité intrinsèque intervient quand vous pouvez exploiter la valeur d&#x27;un produit simplement en invitant d&#x27;autres clients.</p>
-</blockquote>
-<p>Par exemple, un outil comme Facebook, Skype ou Snapshat est plus utile lorsqu&#x27;il y a d&#x27;autres personnes l&#x27;utilise avec vous.</p>
-<p>Hotmail affiche une signature par défault : &quot;Créez un compte e-mail gratuit avec Hotmail&quot;.</p>
-<p>Apple signe &quot;Envoyé depuis mon iPhone&quot;.</p>
-<p>Dropbox propose de gagner plus d&#x27;espace de stockage si vous amenez des amis à s&#x27;y inscrire.</p>
-<h3>Presse</h3>
-<p>TODO</p>
-<h3>Guest Blogging / Articles invités</h3>
-<p>TODO</p>
-<h3>Vente directe</h3>
-<p>TODO</p>
-<h3>Affiliation</h3>
-<p>TODO</p>
-<h3>Salons professionnels</h3>
-<p>TODO</p>
-<h3>Meetups</h3>
-<p>TODO</p>
-<h3>Conférences</h3>
-<p>TODO</p>
-<h3>Communautés</h3>
-<p>TODO</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://amzn.to/3o5Y5wF">Traction - Gabriel Weinberg</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Trouver des fichiers en double sur Linux]]></title>
             <link>https://johackim.com/trouver-des-fichiers-en-double-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/trouver-des-fichiers-en-double-sur-linux</guid>
@@ -6159,7 +5717,7 @@ source ~/.bashrc
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202110242200]]></title>
+            <title><![CDATA[Mes artistes préférés]]></title>
             <link>https://johackim.com/mes-musiques-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-musiques-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6508,105 +6066,6 @@ git push origin master
 <h2>Seeder un torrent</h2>
 <pre><code class="language-bash">webtorrent-hybrid seed [--torrent-port &lt;port&gt;] &lt;folder|file&gt;
 </code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé du livre L'Art de la séduction de Robert Greene]]></title>
-            <link>https://johackim.com/lart-de-la-seduction-robert-greene?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/lart-de-la-seduction-robert-greene</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 29 Aug 2021 19:14:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/lart-de-la-seduction-robert-greene.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/lart-de-la-seduction-robert-greene.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Les 9 profils de séducteurs</h2>
-<p>L’analyse de ces 9 profils vous fera prendre conscience de vos attraits, autrement dit de vos atouts de base dans la séduction.</p>
-<ol>
-<li>La sirène</li>
-<li>Le libertin</li>
-<li>L&#x27;amant idéal</li>
-<li>Le Dandy</li>
-<li>L&#x27;Eternel enfant</li>
-<li>La coquette</li>
-<li>Le charmeur</li>
-<li>La figure charismatique</li>
-<li>La star</li>
-</ol>
-<h2>Découvrez ce qu&#x27;elle désire</h2>
-<p>Il faut se polariser intensément sur l’autre personne, découvrir ce dont elle manque et ce qui la déçoit.</p>
-<p>À qui a tout reçu, il manque le danger, la rébellion. À qui a connu le danger, il manque un sentiment de sécurité. À qui n’a obtenu que des satisfactions prosaïques, il manque quelque chose de plus noble, de plus créatif. <mark><b>Notre idéal est l’image de ce qui nous manque</b></mark>.</p>
-<p>Rares sont les êtres capables de résister à la tentation de suivre celui ou celle qui semble s’adapter à leurs désirs, donner vie à leurs fantasmes.</p>
-<h2>Être autonome</h2>
-<p>Dans le domaine de la séduction, la confiance en soi est vitale. Un manque de sûreté en soi éloigne, l’assurance et l’autonomie attirent.</p>
-<p><strong>Moins vous semblerez avoir besoin des autres, plus ils rechercheront votre compagnie</strong>.</p>
-<p>Une fois que vous aurez assimilé l’importance de ce point dans toute relation amoureuse, vous n’aurez aucun mal à faire taire votre insécurité affective.</p>
-<h2>Concentrez votre attention sur elle</h2>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Benjamin Disraeli</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>« Parlez à quelqu’un de lui-même et il vous écoutera des heures »</p>
-                    </div>
-                </blockquote>
-<p>Soyez empathique, concentrez tout votre attention sur elle, comprenez son humeur et adaptez-vous à elle.</p>
-<p>Sachez écouter et observer. Faites parler la personne qui vous intéresse, amenez-la à se dévoiler.</p>
-<p>Plus vous en saurez sur elle, mieux vous saurez monopoliser son attention, jouer sur ses désirs et besoins particuliers, adapter vos flatteries à ses insécurités.</p>
-<p>Faites d’elle la vedette de la soirée et elle ne pourra plus se passer de vous : vous l’aurez piégée dans une dépendance.</p>
-<h2>Soyez agréable</h2>
-<p>La gaieté et la drôlerie charment bien plus que le sérieux et la critique.</p>
-<p>Distrayez-la de ses problèmes en vous montrant agréable à vivre.</p>
-<h2>Le processus de séduction</h2>
-<h3>Choisir sa victime</h3>
-<p>Comment sélectionner ses cibles ? À la façon dont elles réagissent à vos approches.</p>
-<p>La victime adéquate est celle chez qui vous pouvez combler un vide, à qui vous apparaissez comme quelqu’un de neuf et d’intéressant.</p>
-<p>Un être comblé est presque impossible à séduire.</p>
-<h3>Inspirer confiance</h3>
-<p>Si vous abattez toutes vos cartes d’entrée de jeu, vous risquez de susciter une résistance durable.</p>
-<p><strong>La première fois, ayez l’air de tout sauf d’un séducteur.</strong></p>
-<p>Bien des femmes désirent ce qui leur échappe, et détestent ce qu’on leur offre avec instance.</p>
-<p>Si vous lui donnez d’emblée l’impression qu’elle a elle-même fait le premier pas, vous aurez gagné la partie.</p>
-<p>Approchez vous petit à petit, gardez des entretiens amicaux afin d&#x27;obtenir des informations sur elle.</p>
-<h3>Soyez indéfinissable</h3>
-<p>Pour capter l’attention d’un public, pour le séduire afin qu’il ne cesse de penser à vous, il faut lui adresser des signaux contradictoires.</p>
-<h3>Susciter la jalousie</h3>
-<p>Que vos admirateurs soient des amis ou des soupirants, peu importe : leur présence créera <a href="/l&#x27;effet-harem" title="L&#x27;effet harem" class="not-found">L&#x27;effet harem</a>.</p>
-
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Stendhal</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Si vous vous voulez une femme, courtisez sa sœur.</p>
-                    </div>
-                </blockquote>
-<p>Puisque le désir des autres accroît votre valeur, faites-vous désirer : gardez vos distances, soyez inaccessible. Tout ce qui est rare est cher.</p>
-<h3>Créer des besoins… sans les satisfaire</h3>
-<p>Quelqu’un de parfaitement satisfait est impossible à séduire.</p>
-<p>Faites naître chez vos victimes tensions, mécontentements et frustrations.</p>
-<p>Leur fragilité vous offrira la fêlure par laquelle vous glisser en vous présentant comme la solution à leurs problèmes.</p>
-<h2>Citations</h2>
-<blockquote>
-<p>Les conquêtes amoureuses sont rarement dues à de grossiers stratagèmes : ceux-ci attirent à tout coup les soupçons. Elles tiennent au caractère du séducteur lui-même, à sa capacité de fasciner, d’attirer et de susciter chez l’autre des émotions incontrôlables.</p>
-</blockquote>
-<blockquote>
-<p>Une donnée essentielle de l’amour et du désir : si je te suis, tu me fuis, si je te fuis, tu me suis.</p>
-</blockquote>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Récupérer le flux RSS d'une chaine YouTube]]></title>
@@ -8102,33 +7561,6 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Biais d'optimisme]]></title>
-            <link>https://johackim.com/biais-doptimisme?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/biais-doptimisme</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/biais-doptimisme.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/biais-doptimisme.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>L&#x27;être humain a parfois tendance à surestimer le résultat positif d&#x27;une situation donnée. Selon son humeur par exemple.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://fr.wikipedia.org/wiki/Biais_d&#x27;optimisme">https://fr.wikipedia.org/wiki/Biais_d&#x27;optimisme</a></li>
-<li><a href="https://yourbias.is/optimism-bias">https://yourbias.is/optimism-bias</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Biais de confirmation]]></title>
             <link>https://johackim.com/biais-de-confirmation?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-de-confirmation</guid>
@@ -8226,34 +7658,6 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Biais du monde juste]]></title>
-            <link>https://johackim.com/biais-du-monde-juste?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/biais-du-monde-juste</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/biais-du-monde-juste.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/biais-du-monde-juste.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Notre tendance à croire à un monde juste où l&#x27;on obtient toujours ce que l&#x27;on mérite et inversement.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://effectiviology.com/just-world/">https://effectiviology.com/just-world/</a></li>
-<li><a href="https://yourbias.is/just-world-hypothesis">https://yourbias.is/just-world-hypothesis</a></li>
-<li><a href="https://fr.wikipedia.org/wiki/Croyance_en_un_monde_juste">https://fr.wikipedia.org/wiki/Croyance_en_un_monde_juste</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Biais du survivant]]></title>
             <link>https://johackim.com/biais-du-survivant?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-du-survivant</guid>
@@ -8283,44 +7687,6 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 <li><a href="https://thedecisionlab.com/biases/survivorship-bias">https://thedecisionlab.com/biases/survivorship-bias</a></li>
 <li><a href="https://cm.stackedmarketer.com/t/j-e-wkdiktt-dkhjslutd-s/">https://cm.stackedmarketer.com/t/j-e-wkdiktt-dkhjslutd-s/</a></li>
 <li><a href="https://sketchplanations.com/survivorship-bias-silent-evidence">https://sketchplanations.com/survivorship-bias-silent-evidence</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Biais narratif]]></title>
-            <link>https://johackim.com/biais-narratif?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/biais-narratif</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/biais-narratif.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/biais-narratif.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Notre tendance à chercher coûte que coûte une explication logique à chaque histoire quitte à en inventer une et à négliger la vérité brute.</p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">ChatGPT</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Le biais narratif est un phénomène où une histoire ou une narration est influencée par les préférences, les opinions ou les croyances de l&#x27;auteur ou du conteur. Cela peut se manifester de différentes manières, comme en choisissant certaines informations à inclure ou à exclure, en présentant les faits de manière partiale ou en donnant une interprétation subjective des événements. Le biais narratif peut être conscient ou inconscient, et peut avoir un impact sur la façon dont les auditeurs ou les lecteurs perçoivent l&#x27;histoire ou les personnages.</p>
-                    </div>
-                </blockquote>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://youtu.be/4wHgOgB4x9M">Marketing Mania - Biais Cognitifs #2 : Biais Narratif</a></li>
-<li>Nassim Taleb - Le Cygne Noir</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -8421,45 +7787,6 @@ sudo systemctl restart sshd
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[L'effet de halo]]></title>
-            <link>https://johackim.com/leffet-de-halo?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/leffet-de-halo</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/leffet-de-halo.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/leffet-de-halo.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Notre tendance à juger une chose ou une personne selon la première impression qu&#x27;elle nous a fait.</p>
-<p>Notre perception globale d&#x27;une personne ou d&#x27;une chose peut être influencé positivement ou négativement selon un trait spécifique.</p>
-<p>Exemples :</p>
-<ul>
-<li>Un élève bon en mathématique jugé très bon dans toutes les matières par un professeur</li>
-<li>Une personne sympathique jugée intelligente, drôle et gentil</li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://fr.wikipedia.org/wiki/Effet_de_halo">https://fr.wikipedia.org/wiki/Effet_de_halo</a></li>
-<li><a href="https://fronterablog.com/halo-effect/">https://fronterablog.com/halo-effect/</a></li>
-<li><a href="https://thedecisionlab.com/biases/halo-effect">https://thedecisionlab.com/biases/halo-effect</a></li>
-<li><a href="https://effectiviology.com/halo-effect/">https://effectiviology.com/halo-effect/</a></li>
-<li><a href="https://braink.it/principles/halo-effect">https://braink.it/principles/halo-effect</a></li>
-<li><a href="https://cm.stackedmarketer.com/t/j-e-wyuydhy-dkhjslutd-yh/">https://cm.stackedmarketer.com/t/j-e-wyuydhy-dkhjslutd-yh/</a></li>
-<li><a href="https://youtu.be/yAGQxGPMti8">Gnooki - Le biais qui décide si les gens t’aiment ou pas</a></li>
-<li><a href="https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recuwMDLiVwaywCQJ">https://airtable.com/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recuwMDLiVwaywCQJ</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[L'effet de simple exposition]]></title>
             <link>https://johackim.com/leffet-de-simple-exposition?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/leffet-de-simple-exposition</guid>
@@ -8499,34 +7826,6 @@ sudo systemctl restart sshd
 <li><a href="https://customercamp.co/mere-exposure-effect/">https://customercamp.co/mere-exposure-effect/</a></li>
 <li><a href="https://cm.stackedmarketer.com/t/j-e-gjdlkkt-dkhjslutd-yk/">https://cm.stackedmarketer.com/t/j-e-gjdlkkt-dkhjslutd-yk/</a></li>
 <li><a href="https://airtable.com/embed/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recRsPDyFe3Ir5hkt">https://airtable.com/embed/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recRsPDyFe3Ir5hkt</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[L'illusion des séries]]></title>
-            <link>https://johackim.com/lillusion-des-series?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/lillusion-des-series</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 11 Jul 2021 09:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/lillusion-des-series.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/lillusion-des-series.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Notre tendance à voir des coïncidences dans des événements aléatoires.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://fr.wikipedia.org/wiki/Illusion_des_s%C3%A9ries">https://fr.wikipedia.org/wiki/Illusion_des_séries</a></li>
-<li><a href="https://cm.stackedmarketer.com/t/j-e-sduhlud-dkhjslutd-m/">https://cm.stackedmarketer.com/t/j-e-sduhlud-dkhjslutd-m/</a></li>
-<li><a href="https://airtable.com/embed/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recjinPlAyVQ1JAB1">https://airtable.com/embed/appxNZXuZNjGSSgWd/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recjinPlAyVQ1JAB1</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -8647,7 +7946,7 @@ createImage(&#x27;Hello World!&#x27;);
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202106272129]]></title>
+            <title><![CDATA[Mon processus de prise de notes]]></title>
             <link>https://johackim.com/mon-processus-de-prise-de-notes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mon-processus-de-prise-de-notes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8712,71 +8011,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Résumé du livre How I Found Freedom in an Unfree World de Harry Browne]]></title>
-            <link>https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/how-i-found-freedom-in-an-unfree-world-harry-browne.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/how-i-found-freedom-in-an-unfree-world-harry-browne.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Jusqu&#x27;à présent le meilleur livre que j&#x27;ai lu dans ma vie. C&#x27;est un livre qui date de 1973 et qui parle en profondeur du sujet de la liberté.</p>
-<p>L&#x27;auteur y partage sa philosophie et ses principes de vie de manière très pragmatique.</p>
-<h2>Pourquoi vous n&#x27;êtes pas libre ?</h2>
-<h3>1. Les Pièges Identitaires</h3>
-<blockquote>
-<p>The purpose of knowing &quot;truth&quot; is to be able to make it work for you.</p>
-</blockquote>
-<p>Il existe deux pièges :</p>
-<ol>
-<li>La croyance que vous devez être quelqu&#x27;un d&#x27;autre que vous-même.</li>
-<li>La croyance que les autres agiront de la même façon que vous le feriez si vous étiez à leur place.</li>
-</ol>
-<p>Chaque personne est unique.</p>
-<p>De la même façon que personne n&#x27;a la même empreinte digital que vous, personne n&#x27;a les même connaissances, la même compréhension, la même atitude et les mêmes désirs que vous.</p>
-<p>Votre façon d&#x27;interpréter le monde est différente de celle des autres.</p>
-<p>Et tout comme vous, chaque personne agira en accord avec sa propre identité.</p>
-<p>Vous ne pouvez pas contrôler la nature d&#x27;autres personnes.</p>
-<p>Vous êtes dans <strong>le piège de l&#x27;identité</strong> lorsque vous laissez les autres déterminer ce qui est bien ou mal pour vous.</p>
-<p>Exemples :</p>
-<ul>
-<li>Faires de longues études parce que c&#x27;est &quot;important&quot; d&#x27;avoir un &quot;vrai&quot; métier</li>
-<li>Offrir un cadeau à chaque anniversaire parce que c&#x27;est plus poli.</li>
-<li>Acheter une belle voiture pour prouver que vous avez &quot;réussi&quot;</li>
-</ul>
-<p>De cette manière, vous permettez à quelqu&#x27;un d&#x27;autre de déterminer ce que vous devez penser et être.</p>
-<p>Lorsque vous allez sur ce chemin, vous niez votre propre identité.</p>
-<p>N&#x27;essayez pas de vous identifier à une personne idéale, à une étiquette ou à un code que les autres pensent être le meilleur pour vous.</p>
-<p>Ce n&#x27;est pas vous.</p>
-<h3>2. Les Pièges Intellectuels et Émotionnels</h3>
-<h3>3. Le Piège du Groupe</h3>
-<blockquote>
-<p>Et quand quelqu’un vous accuse d’être égoïste, souvenez-vous simplement qu’il est bouleversé uniquement parce que vous ne faites pas ce qu’il veut égoïstement que vous fassiez. Harry Browne</p>
-</blockquote>
-<h2>Comment devenir libre ?</h2>
-<p>TODO</p>
-<h2>Conclusion</h2>
-<p>TODO</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://amzn.to/3oMmsza">Harry Browne - How I Found Freedom in an Unfree World</a></li>
-<li><a href="https://copywriting-facile.tv/how-i-found-freedom-in-an-unfree-world-harry-browne/">Résumé du livre sur le site de Matthieu Deloison</a></li>
-<li><a href="https://des-livres-pour-changer-de-vie.com/comment-je-suis-devenu-libre-dans-un-monde-qui-ne-lest-pas/">Résumé du livre sur le site d&#x27;Olivier Roland</a></li>
-<li><a href="https://nateliason.com/notes/freedom-unfree-world-harry-browne">Résumé du livre sur le site de Nat Eliason</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Ikigai]]></title>
             <link>https://johackim.com/ikigai?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ikigai</guid>
@@ -8816,113 +8050,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li><a href="https://nesslabs.com/ikigai">https://nesslabs.com/ikigai</a></li>
 <li><a href="https://42courses.com/blog/home/2018/7/12/the-japanese-method-to-help-you-find-your-purpose-in-life">https://42courses.com/blog/home/2018/7/12/the-japanese-method-to-help-you-find-your-purpose-in-life</a></li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé du livre L'autoroute du millionnaire de MJ Demarco]]></title>
-            <link>https://johackim.com/lautoroute-du-millionaire-mj-demarco?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/lautoroute-du-millionaire-mj-demarco</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 27 Jun 2021 19:19:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/lautoroute-du-millionaire-mj-demarco.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/lautoroute-du-millionaire-mj-demarco.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Étudiez les millionnaires inconnu du grand publique</h2>
-<p>Vous n&#x27;avez pas besoin d&#x27;avoir nécessairement du talent physique ou être célèbre pour gagner beaucoup d&#x27;argent.</p>
-<p>Rapprocher vous des personnes de moins de 35 ans qui ont réussi en partant de rien.</p>
-<p>Étudier les millionnaires qui ne sont pas des célébrités. Trouver et/ou demandez leur comment ils gagnent leurs vie.</p>
-<h2>Changer d&#x27;environnement</h2>
-<p>MJ Demarco est partie à Phoenix avec 900 $ en poche, pas de boulot, pas d’amis, pas de famille, un vieux matelas, une Buick Skylark toute rouillée et plusieurs centaines de livres.</p>
-<p>Il est aller vivre dans un petit studio dans le centre de Phoenix qu&#x27;il louait pour 475 $ par mois.</p>
-<p>Pas de chambre à coucher, pas de meubles, juste un matelas qui envahissait la cuisine.</p>
-<blockquote>
-<p>Je vivais pauvre et sans aucune sécurité, mais je me sentais riche. <strong>J’avais le contrôle de ma vie</strong>.</p>
-</blockquote>
-<h2>Trouver un problème à résoudre</h2>
-<p>Si vous rencontrez un problème et qu&#x27;il n&#x27;existe pas de solution viable connu, c&#x27;est qu&#x27;il existe surement d&#x27;autres personnes dans la même situation que vous.</p>
-<p>Résolvez un problème que vous rencontrez afin d&#x27;aider d&#x27;autres personnes comme vous dans le besoin.</p>
-<blockquote>
-<p>Si je vivais à Chicago, mais que j’avais besoin d’une limousine à New York, où irais-je pour en trouver une ? Je n’avais pas d’annuaire des pages jaunes de New York sous la main, comme probablement tous ceux qui n’habitaient pas New York. Confronté à cette question, j’ai déduit que la même question se poserait pour d’autres voyageurs. Alors j’ai créé un site web pour résoudre ce problème.</p>
-</blockquote>
-<h2>Processus vs. événement</h2>
-<p><mark><b>La richesse est un processus, pas un événement. Sans processus, il n&#x27;y a pas d&#x27;événement</b></mark>.</p>
-<p>C’est le processus qui fait les millionnaires, et les événements que vous voyez et dont vous entendez parler sont le résultat de ce processus.</p>
-<p>La richesse échappe à beaucoup de gens parce qu’ils s’intéressent aux événements et ignorent les processus.</p>
-<p>Pour un chef cuisinier, la cuisine est le processus, et le repas est l’événement.</p>
-<p>Le processus engendre des événements que les autres voient comme le fruit de la chance. La chance n’est pas un événement mais la conséquence d’un processus.</p>
-<p>La plupart des gens adorent les événements mais détestent les processus, car cela demande des sacrifices que peu de gens font, pour mener la vie que peu de gens vivent.</p>
-<h2>Surveillez vos croyances</h2>
-<p><a href="/croyance" title="Les croyances" class="not-found">Les croyances</a> précèdent les choix, qui eux-mêmes précèdent les actions.</p>
-
-<p><mark>Qu’elles soient vraies ou non</mark>, les croyances sont des mécanismes puissants à l’origine des actions.</p>
-<p>Si vous voulez changer de vie, changez de choix. Pour changer de choix, vous devez changer de système de croyances.</p>
-<h2>La médiocrité</h2>
-<p>Les personnes médiocres arrêtent d&#x27;apprendre après leur études.</p>
-<p>Ils ne prennent aucune <a href="/responsabilite" title="Responsabilité" class="not-found">Responsabilité</a>, remettent la faute sur les autres et comptent sur les homme politiques et le gouvernement pour les aider. Ils pensent que tout leur est dù (soins médicaux gratuits, éducation gratuite, essence gratuite, remboursement d’emprunt immobilier gratuit).</p>
-
-<p>Ils vivent au jour le jour, joue au Loto, au casino et achètent irrationnellement de quoi impréssionner les autres, des vêtements de marque, des accessoires et des loisirs proportionnels à leurs revenus.</p>
-<p>Ils préviligient toujours les actions à <a href="/satisfaction-immediate-vs.-satisfaction-differeres" title="Satisfaction immédiate aux actions à satisfaction différérés" class="not-found">Satisfaction immédiate aux actions à satisfaction différérés</a>.</p>
-
-<p>Il y a toujours plus d’argent qui sort que d’argent qui rentre.</p>
-<p>Leur plan c&#x27;est de n&#x27;avoir aucun plan.</p>
-<p>Et lorsque ils gagnent « plus d’argent », ils perdent en liberté au lieu d’en gagner. En générant un asservissement à leur style de vie.</p>
-<p>Ce n’est pas eux qui possèdent l’argent, c’est l’argent qui les possède.</p>
-<h2>La vrai richesse (la trilogie de la richesse)</h2>
-<p>La richesse ne provient pas de possessions matérielles, d’argent ou de « choses », mais de trois éléments fondamentaux : la famille (les relations), la forme physique (la santé) et la liberté (le choix).</p>
-<p>C&#x27;est de pouvoir payer comptant un bien (ex: une maison, une voiture) sans faire de crédit.</p>
-<p>On est riche quand on a des relations familiales solides, la forme et la santé, et la liberté et non des possessions matérielles.</p>
-<h2>Prenez vos responsabilités</h2>
-<p>Les gens qui n’acceptent pas de prendre des responsabilités sont des victimes.</p>
-<p>Prenez vos responsabilités et assumez les.</p>
-<p>Si vous n’acceptez pas ni n’assumez vos responsabilités, vous donnez les clefs de votre vie à quelqu’un d’autre.</p>
-<h2>L&#x27;équation de la voie lente</h2>
-<p>Allez à l’école, ayez de bonnes notes, décrochez un diplôme. Grimpez les échelons de la hiérarchie. Épargnez x % de votre salaire. Contribuez à votre plan d’épargne retraite.</p>
-<p>Troquez 5 jours de labeurs par semaine contre 2 jours de liberté.</p>
-<p>Richesse = source de revenus principale (le travail) + accélérateur de richesse (placements boursiers).</p>
-<p>Autrement dit, Richesse = valeur intrinsèque (salaire horaire × nombre d’heures travaillées ou salaire annuel) + intérêts composés (« placements boursiers », concept universel selon lequel x dollars investis en Bourse aujourd’hui vaudront x millions de dollars dans des décennies.).</p>
-<h2>Le problème des compétences spécialisés</h2>
-<p>Le problème, quand vous avez des compétences spécialisées, c’est que ça restreint votre valeur à un nombre limité de besoins du marché.</p>
-<p>Vous devenez l’une des nombreuses roues d’un engrenage. Et si cette roue devient obsolète ou superflue ? Ah ben, dommage pour vous.</p>
-<h2>Le levier limité incontôlable</h2>
-<p>Pour attirer de grosses sommes d’argent, il faut deux choses :</p>
-<ol>
-<li>Le contrôle</li>
-<li>L’effet de levier</li>
-</ol>
-<p>La voie lente n&#x27;a aucun des deux.</p>
-<p>La source de revenue principale provient d&#x27;un emploi et lle facteur d&#x27;accélaration de la richesse provient des investissements financiers (ex: plan d&#x27;épargne).</p>
-<p>Dans un emploi, on gagne de l&#x27;argent par la valeur intrinsèque qui se mesure en unités de temps (ex: 10€ de l&#x27;heure ou 120 000€ par an).</p>
-<p>L&#x27;argent que vous gagnez est donc directement corrélé avec le temps passer que vous passer à travailler. Et comme votre temps est limité à des journées de 24 heures, vous ne pouvez pas gagner plus que votre tarif horraire.</p>
-<p>Dans un emploi, vous avez peu voir aucun contrôle sur votre salaire. Vous ne pouvez pas passer de 50 000€ à 50 millions de salaire par an.</p>
-<h2>Les entrepreneurs qui n&#x27;ont pas fait d&#x27;études</h2>
-<p>Bill Gates, Steven Spielberg, Richard Branson, Michael Dell, Felix Dennis, David Geffen et John Paul DeJoria n’ont jamais fini le lycée ou même le collège. Ils ont tous laissé tomber l’école pour poursuivre une autre voie.</p>
-<p>Ils ont évité la conformité et l’asservissement aux études pour ne pas dépendre d&#x27;un jeu dont ils n&#x27;ont ni contrôle ni effet de levier.</p>
-<h2>Le paradoxe vivant</h2>
-<p>Demanderiez-vous des conseils financiers à un fainéant en faillite ?</p>
-<p>De nombreux gourous de la finance sont des paradoxes vivants ; ils enseignent une équation de la richesse tout en s’enrichissant par le biais d’une autre. Ce n’est pas ce qu’ils prônent qui les a rendus riches.</p>
-<p>Éviter les paradoxes vivants par ce genre de questions : « Mettez-vous en pratique ce que vous prêchez ? Êtes-vous un modèle, un exemple de ce que vous enseignez ? »</p>
-<p>Prenez conseil auprès de gens qui ont fait leurs preuves dans leur discipline de prédilection.</p>
-<p>Pour les bons conseils en matière de basket, demandez à Tony Parker, pas à MJ DeMarco.</p>
-<h2>La Célébrité fait exploser la valeur intrinsèque</h2>
-<p>Vous pouvez braver les limitations de la Voie lente en devenant si indispensable que votre valeur dans la société monte en flèche.</p>
-<p>Si des millions de gens vous recherchent, vous toucherez des millions. Le basketteur professionnel LeBron James est payé des millions parce qu’il a un talent exceptionnel.</p>
-<p>Les acteurs et animateurs professionnels sont payés des millions parce que des millions de gens exigent leur marque sous la forme de spectacle.</p>
-<p>Le talent exceptionnel est exceptionnellement bien payé.</p>
-<p>Malheureusement, la plupart des gens qui cherchent la richesse le font en bravant la Voie lente et non par la Voie rapide.</p>
-<h2>Ne jamais arrêter de se former</h2>
-<p>Dès le moment où l’on arrête de se former, on arrête de croître.</p>
-<p>Développer constamment vos connaissances et votre savoir est essentiel pour votre voyage.</p>
-<h2>La perception de l&#x27;argent</h2>
-<p><a href="/argent" title="L&#x27;argent" class="not-found">L&#x27;argent</a> est le reflet du nombre de vies sur lesquelles j’ai un impact. L’argent reflète la valeur que je crée.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[L'effet Lindy]]></title>
@@ -9727,7 +8854,7 @@ gi () {
 </code></pre>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202106072236]]></title>
+            <title><![CDATA[Mes films préférés]]></title>
             <link>https://johackim.com/mes-films-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-films-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9927,7 +9054,7 @@ gi () {
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202106072237]]></title>
+            <title><![CDATA[Mes jeux vidéos préférés]]></title>
             <link>https://johackim.com/mes-jeux-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-jeux-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -10142,7 +9269,7 @@ gi () {
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202106072238]]></title>
+            <title><![CDATA[Mes séries préférés]]></title>
             <link>https://johackim.com/mes-series-preferes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mes-series-preferes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -11997,7 +11124,7 @@ traefik:2.4.8 --providers.docker=true
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[202105111506]]></title>
+            <title><![CDATA[Ma stack technique]]></title>
             <link>https://johackim.com/ma-stack-technique?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ma-stack-technique</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -12117,101 +11244,6 @@ traefik:2.4.8 --providers.docker=true
 <li><a href="https://onehack.us/t/create-unlimited-facebook-accounts-without-mobile-numbers/54518">Create Unlimited Facebook Accounts Without Mobile Numbers</a></li>
 <li><a href="https://accsmarket.com/">https://accsmarket.com/</a></li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Résumé du livre L'obstacle est le chemin de Ryan Holiday]]></title>
-            <link>https://johackim.com/l&apos;obstacle-est-le-chemin-ryan-holiday?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/l&apos;obstacle-est-le-chemin-ryan-holiday</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Tue, 04 May 2021 08:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/l&apos;obstacle-est-le-chemin-ryan-holiday.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/l&apos;obstacle-est-le-chemin-ryan-holiday.jpg"/>
-            <content:encoded><![CDATA[<blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<p>Les obstacles sont inévitables. Plutôt que de les éviter, ne serait-il pas plus judicieux de les transformer en opportunité ?</p>
-<p>Dans le livre &quot;The obstacle is the way&quot;, l&#x27;auteur Ryan Holiday s&#x27;inspire de la sagesse stoïcienne et rassemble 3 disciplines pour surmonter les obstacles :</p>
-<ul>
-<li><strong>La perception</strong> : comment aborder les problèmes</li>
-<li><strong>L&#x27;action</strong> : comment transformer les problèmes en opportunité.</li>
-<li><strong>La volonté</strong> : comment cultiver son être intérieur pour vaincre les difficultés.</li>
-</ul>
-<h2>La perception</h2>
-<p>La perception est la façon de percevoir et de comprendre ce qui se passe autour de nous.</p>
-<p>Nos perceptions peuvent être une force ou une faiblesse. Si nous sommes <strong>émotifs</strong>, <strong>subjectifs</strong> ou si nous manquons de <strong>vision à long terme</strong>, nous ne faisons qu&#x27;amplifier nos problèmes.</p>
-<p>Pour transformer l&#x27;adversité en force, la première étape consiste à gérer nos perceptions.</p>
-<h2>Développez votre objectivité</h2>
-<blockquote>
-<p>L&#x27;oeil qui perçoit est faible, l&#x27;oeil qui observe est fort. <em>Miyamoto Musashi</em></p>
-</blockquote>
-<p>Méfiez-vous des histoires que vous vous racontez à vous-même. Pour être objectif dans votre perception, <strong>vous devez vous retirer de l&#x27;équation</strong>.</p>
-<h2>Reconnaissez votre pouvoir</h2>
-<p>Dans toute situation, vous avez toujours le pouvoir de choisir vos pensées et vos réponses. Vous n&#x27;êtes jamais impuissant ou sans options.</p>
-<h2>Gardez votre sans-froid</h2>
-<p>Si vous restez calme, alors rien n&#x27;est réellement &quot;arrivé&quot;, notre perception s&#x27;est assurée que cela n&#x27;avait pas de conséquences.</p>
-<h2>Gérez vos émotions</h2>
-<p>Les obstacles nous rendent émotifs, mais la seule façon d&#x27;y survivre ou de les vaincre est de garder le contrôle de nos émotions, garder notre sang-froid quoiqu&#x27;il arrive, malgré les variations des événements externes.</p>
-<p>Pour les astronautes, la question n&#x27;était pas « Êtes-vous un bon pilote ? » mais « Savez-vous supporter la pression ? Savez-vous juguler l&#x27;envie de paniquer et vous concentrer uniquement sur ce que vous pouvez changer ? Sur la tâche à accomplir ? »</p>
-<h2>Modifiez votre point de vue</h2>
-<p>Vous êtes libre de changer de perspective, puisque vous êtes le celui qui décide de ce qu&#x27;il doit être. Changez de perspective en <strong>modifiant le contexte</strong> pour avoir une vue d&#x27;ensemble et/ou en <strong>recadrant</strong> la façon dont vous choisissez d&#x27;interpréter un événement.</p>
-<p>Comment on appréhende, perçoit et contextualise un obstacle et la signification qu&#x27;on lui donne détermine à quel point il sera fatigant et difficile de le surmonter.</p>
-<p><strong>Le corps suit la tête. La perception précède l&#x27;action. L&#x27;action appropriée suit le bon point de vue.</strong></p>
-<h2>Est-ce que cela dépend de vous ?</h2>
-<blockquote>
-<p>Dans la vie, notre première tâche est de diviser et distinguer les choses en deux catégories : je ne peux pas maîtriser les éléments externes, mais je peux décider des choix que je fais vis-à-vis d&#x27;eux. Où vais-je trouver le bien et le mal ? En moi, dans mes choix. Épictète</p>
-</blockquote>
-<p>Ne gaspillez pas votre énergie à résister ou à vous plaindre de choses que vous ne pouvez pas changer.</p>
-<p><strong>Concentrez-vous à 100 % sur les choses que vous pouvez changer</strong>, aussi petites soient-elles.</p>
-<p>Mails alors, comment différencier ce qui dépend de nous de ce qui n&#x27;en dépend pas ?</p>
-<p>Voilà ce qui dépend de nous :</p>
-<ul>
-<li>Nos émotions</li>
-<li>Nos jugements</li>
-<li>Notre créativité</li>
-<li>Notre comportement</li>
-<li>Notre point de vue</li>
-<li>Nos désirs</li>
-<li>Nos décisions</li>
-<li>Notre détermination</li>
-</ul>
-<p>Et ce qui ne dépend pas de nous ?</p>
-<p>Tout le reste. Le temps qu&#x27;il fait, l&#x27;économie, les circonstances, les émotions et jugements des autres, les tendances, les catastrophes, ect...</p>
-<blockquote>
-<p>Mon Dieu, donnez-moi la sérénité d&#x27;accepter les choses que je ne peux changer, le courage de changer les choses que je peux, et la sagesse d&#x27;en connaître la différence. Prière de la Sérénité</p>
-</blockquote>
-<h2>Profitez de l&#x27;instant</h2>
-<p>Concentrez-vous sur ce que vous pouvez faire dans le présent, et avancez pas à pas.</p>
-<h2>Pensez autrement</h2>
-<h2>Trouvez la bonne occasion</h2>
-<h2>Préparez-vous à agir</h2>
-<h2>L&#x27;action</h2>
-<h2>Stay in motion</h2>
-<h2>Persist</h2>
-<h2>Fail forward</h2>
-<h2>Take 1 step at a time</h2>
-<h2>Do every job well</h2>
-<h2>Do what works</h2>
-<h2>Fight smart</h2>
-<h2>Know when to wait</h2>
-<h2>Use your frustration</h2>
-<h2>Use adversity to your advantage</h2>
-<h2>La volonté</h2>
-<h2>Prepare in advance</h2>
-<h2>Plan for your failures</h2>
-<h2>Accept your problems</h2>
-<h2>Love your obstacles</h2>
-<h2>Persevere till the end</h2>
-<h2>Focus on helping others</h2>
-<h2>Contemplate death</h2>
-<h2>Embrace the cycle of life</h2>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Minecraft]]></title>
@@ -12389,7 +11421,7 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
 
 </li>
 <li>
-<a href="/taylor-pearson-the-effective-entrepreneur" title="Taylor Pearson - The Effective Entrepreneur">Taylor Pearson - The Effective Entrepreneur</a>
+<a href="/taylor-pearson-the-effective-entrepreneur" title="Taylor Pearson - The Effective Entrepreneur" class="not-found">Taylor Pearson - The Effective Entrepreneur</a>
 
 </li>
 <li>
@@ -12440,97 +11472,6 @@ Couche 3 : <mark>Passages soulignés</mark>
 <ul>
 <li><a href="https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/">Progressive Summarization - Forte Labs</a></li>
 <li><a href="https://jamesstuber.com/progressive-summarization-a-waste/">Is Progressive Summarization a Waste of Time?</a></li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Taylor Pearson - The Effective Entrepreneur]]></title>
-            <link>https://johackim.com/taylor-pearson-the-effective-entrepreneur?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/taylor-pearson-the-effective-entrepreneur</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Wed, 28 Apr 2021 10:52:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/taylor-pearson-the-effective-entrepreneur.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/taylor-pearson-the-effective-entrepreneur.jpg"/>
-            <content:encoded><![CDATA[<link rel="preload" as="image" href="https://i.imgur.com/N9BAE3u.png"/><blockquote class="callout info">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>Contenu en cours de création</p>
-                    </div>
-                </blockquote>
-<h2>Core Principles</h2>
-<p><strong>Effectiveness versus Efficiency</strong> - You can be as productive as you want, but if you are focusing on the wrong things, you won’t end up going where you want to be.</p>
-<p><strong>Use courage and wisdom, not labor</strong> - lean into the emotional work, run towards the fear, and identify and execute on the thing that you are avoiding doing.</p>
-<p><strong>Systems always win</strong> - so how can we set up systems to manage our known psychological biases?</p>
-<p><strong>Do more of less</strong> - how do we avoid task switching costs and focus on what&#x27;s truly important?</p>
-<p><strong>Treat it like an experiment</strong> - failure isn’t fatal but serves as feedback to make better future experiments. It’snot something to be afraid of, to worry about or to avoid.</p>
-<p><strong>Vertical coherence</strong> - we&#x27;re going to be like the geneticists who have this vertical coherence in their work andthroughout their lives.</p>
-<p><strong>Fixing time, flexing scope</strong> - learning how to set deadlines that again manage our psychological biases andinternal clocks.</p>
-<h2>Module 1: Your 25-Year Vision and Quarterly Plan</h2>
-<h3>1.0 - Introduction: Why Career Planning is Career Limiting</h3>
-<p>The purpose of the <em>Long-Range and Quarterly Planning Module</em> is to help you work towards what we refer to as <strong>Product / Market / Founder Fit.</strong></p>
-<p><img src="https://i.imgur.com/N9BAE3u.png" alt=""/></p>
-<p>This means finding the overlap between what you are good at (<em>founder</em>), what you like to do on a day-to-day basis (<em>market</em>), and what the market wants (<em>product</em>).</p>
-<p>After 90 days, you are free to change your mind or your direction. Ninety Days is right at the intersection of overestimating and underestimating. We often overestimate how much we can get done in a day, but underestimate how much we can get done in a year.</p>
-<h3>1.1 - Creating Your 25-Year Vision: Getting Clarity</h3>
-<p><strong>Aspirational Vision Template</strong></p>
-<p>“If you were reading this twenty five years from today, and reflecting on the events of those twenty five years, what has to have happened in your [INSERT AREA] life for you to feel successful?”</p>
-<p>Remember: This is goal setting. Don’t start identifying problems, just set goals.</p>
-<p>[Identify Problems] What challenges need to be overcome? (Be very precise)</p>
-<p>[Diagnose Problems]For each one, diagnose it. What are the root causes? Use the 5 Whys?</p>
-<p>What opportunities need to be captured?</p>
-<p>What strengths need to be leveraged?</p>
-<h3>1.2 - The Quarterly Review: Turning Mistakes into Fuel</h3>
-<h3>1.3 - 90-Day Planning: Choosing your North Star</h3>
-<h3>1.4 - Conclusion: Dealing with Imposter Syndrome and the Answer to &quot;What if it Doesn&#x27;t Work?&quot;</h3>
-<h2>Module 2: The Weekly Planning &amp; Review</h2>
-<h3>2.0 - Introduction: How to Make Decisions Easy, Fast and Fun</h3>
-<h3>2.1 - The Weekly Reflection: Regaining Clarity and the Primacy of Priming</h3>
-<h3>2.2 - The Weekly Review: Why Airplanes Never Land at The Wrong Place (and You Shouldn&#x27;t Either)</h3>
-<h3>2.3 - Weekly Planning: The Lead Domino Theory</h3>
-<h2>Module 3: Daily Structure</h2>
-<h3>3.1 - Your Daily Ritual: How to Design Your Ideal Day</h3>
-<h3>3.2 - Daily Review: Five Questions That Will Keep You Happy and Productive</h3>
-<h2>40 years of research</h2>
-<ul>
-<li>Getting Things Done - David Allen</li>
-<li>The Power of Full Engagement by Tony Schwartz</li>
-<li>Work the System - Sam Carpenter</li>
-<li>The Emyth Revisited - Michael Gerber</li>
-<li>Think and Grow Rich - Napoleon Hill</li>
-<li>Daily Rituals - Mason Currey</li>
-<li>The Power of Habit - Charles Duhigg</li>
-<li>The One Thing - Garry Keller</li>
-<li>Productivity Habits of Super Achievers - Darren Hardy</li>
-<li>Essentialism - Greg McKeown</li>
-<li>Start with Why - Simon Sinek</li>
-<li>Thinking Fast and Slow - Daniel Kahneman</li>
-<li>The Twelve Week Year - Brian P. Moran</li>
-<li>The Four Hour Work Week - Tim Ferriss</li>
-<li>Maker&#x27;s Schedule, Manager&#x27;s Schedule - Paul Graham</li>
-<li>Principles - Day Ralio</li>
-<li>Getting Results the Agile Way - J.D. Meier</li>
-<li>THe Happiness Hypothethis - Jonathan Haidt</li>
-<li>Startup School - Seth Godin</li>
-<li>Linchpin - Seth Godin</li>
-<li>The War of Art - Steven Pressfield</li>
-<li>Deep Work - Cal Newport</li>
-<li>Good to Great - Jim Collins</li>
-<li>The Rockefeller Habits - Verne Harnish</li>
-<li>Titan - Ron Chernow</li>
-<li>House of Morgan - Ron Chernow</li>
-<li>Letters to Sharholders - Warren Buffet</li>
-<li>Antifragile - Nassim Taleb</li>
-<li>The Black Swan - Nassim Taleb</li>
-<li>Fooled by Randomness - Nassim Taleb</li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li><a href="https://taylorpearson.me/masterclass/">https://taylorpearson.me/masterclass/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>

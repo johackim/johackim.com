@@ -625,12 +625,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/thinking-in-systems</loc>
-        <lastmod>2022-07-28T06:20</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/mes-blogs-preferes</loc>
         <lastmod>2022-07-28T01:45</lastmod>
         <changefreq>daily</changefreq>
@@ -693,12 +687,6 @@
     <url>
         <loc>https://johackim.com/art-de-disparaitre</loc>
         <lastmod>2022-06-14T22:02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/les-lois-de-la-nature-humaine</loc>
-        <lastmod>2022-06-14T09:31</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -901,12 +889,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/victor-ferry-12-lecons-de-rhetorique-pour-prendre-le-pouvoir</loc>
-        <lastmod>2021-10-06T16:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/woop-framework</loc>
         <lastmod>2021-10-06T16:50</lastmod>
         <changefreq>daily</changefreq>
@@ -920,12 +902,6 @@
     </url>
     <url>
         <loc>https://johackim.com/telecharger-gratuitement-les-formations-de-skillshare</loc>
-        <lastmod>2021-09-27T22:29</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/traction-gabriel-weinberg</loc>
         <lastmod>2021-09-27T22:29</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -975,12 +951,6 @@
     <url>
         <loc>https://johackim.com/webtorrent</loc>
         <lastmod>2021-09-16T22:10</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lart-de-la-seduction-robert-greene</loc>
-        <lastmod>2021-08-29T19:14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -1105,12 +1075,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/biais-doptimisme</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/biais-de-laversion-a-la-perte</loc>
         <lastmod>2021-07-11T09:50</lastmod>
         <changefreq>daily</changefreq>
@@ -1123,19 +1087,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/biais-du-monde-juste</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/biais-du-survivant</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/biais-narratif</loc>
         <lastmod>2021-07-11T09:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1153,19 +1105,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/leffet-de-halo</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/leffet-de-simple-exposition</loc>
-        <lastmod>2021-07-11T09:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lillusion-des-series</loc>
         <lastmod>2021-07-11T09:50</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1201,19 +1141,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/how-i-found-freedom-in-an-unfree-world-harry-browne</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/ikigai</loc>
-        <lastmod>2021-06-27T19:19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/lautoroute-du-millionaire-mj-demarco</loc>
         <lastmod>2021-06-27T19:19</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1555,12 +1483,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/l'obstacle-est-le-chemin-ryan-holiday</loc>
-        <lastmod>2021-05-04T08:50</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/plan-de-90-jours</loc>
         <lastmod>2021-04-28T10:52</lastmod>
         <changefreq>daily</changefreq>
@@ -1568,12 +1490,6 @@
     </url>
     <url>
         <loc>https://johackim.com/synthetisation-progressive</loc>
-        <lastmod>2021-04-28T10:52</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/taylor-pearson-the-effective-entrepreneur</loc>
         <lastmod>2021-04-28T10:52</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
