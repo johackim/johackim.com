@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 13 Apr 2026 15:15:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 15:22:40 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -5522,7 +5522,7 @@ grep -rin &lt;text&gt;
 <li><a href="https://play.google.com/store/apps/details?id=com.flyersoft.moonreaderp">Moon+ Reader Pro</a> (Livres)</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.File.Manager.Filemanager">Es file explorer file manager</a> (Fichiers)</li>
 <li><a href="https://github.com/breezy-weather/breezy-weather">Breezy Weather</a> (Météo)</li>
-<li><a href="">WeatherMaster</a><a href="https://github.com/PranshulGG/WeatherMaster">https://github.com/PranshulGG/WeatherMaster</a> (Météo)</li>
+<li><a href="https://github.com/PranshulGG/WeatherMaster">WeatherMaster</a> (Météo)</li>
 <li><a href="https://play.google.com/store/apps/details?id=com.github.jamesgay.fitnotes">FitNotes</a> (Sport)</li>
 <li><a href="https://play.google.com/store/apps/details?id=de.dennisguse.opentracks.playstore">OpenTracks</a> (Sport)</li>
 <li><a href="https://play.google.com/store/apps/details?id=de.tadris.fitness">FitoTrack</a> (Sport)</li>
@@ -15045,15 +15045,7 @@ make install-new-arch
 <li><a href="https://airr.io/">Airr</a></li>
 <li><a href="https://app.momento.fm/">Momento</a></li>
 </ul>
-<p>Si vous êtes sur Android je vous conseille l&#x27;application open-source <a href="http://antennapod.org/">AntennaPod</a> disponible sur le store <a href="https://f-droid.org/packages/de.danoeh.antennapod">F-Droid</a>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/podcast" title="Podcast" class="not-found">Podcast</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Si vous êtes sur Android je vous conseille l&#x27;application open-source <a href="http://antennapod.org/">AntennaPod</a> disponible sur le store <a href="https://f-droid.org/packages/de.danoeh.antennapod">F-Droid</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment acheter un article non expédiable en France ?]]></title>
