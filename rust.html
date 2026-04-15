@@ -1,0 +1,705 @@
+<!DOCTYPE html><html lang="fr"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><meta name="description" content="Créateur indépendant de projets open-source" data-next-head=""/><meta name="twitter:card" content="summary_large_image" data-next-head=""/><meta name="twitter:site" content="@_johackim" data-next-head=""/><meta name="twitter:creator" content="@_johackim" data-next-head=""/><meta property="og:description" content="Créateur indépendant de projets open-source" data-next-head=""/><meta property="og:url" content="https://johackim.com" data-next-head=""/><meta property="og:locale" content="fr_FR" data-next-head=""/><meta property="og:site_name" content="johackim" data-next-head=""/><title data-next-head="">Rust | Johackim - Hacker indépendant</title><meta name="robots" content="index,follow" data-next-head=""/><meta property="og:title" content="Rust" data-next-head=""/><meta property="og:type" content="article" data-next-head=""/><meta property="article:published_time" content="2026-04-14T10:49:00.000Z" data-next-head=""/><meta property="article:modified_time" content="2026-04-14T10:49:00.000Z" data-next-head=""/><meta property="og:image" content="https://johackim.com/covers/rust.jpg" data-next-head=""/><link rel="preload" href="/_next/static/media/ce62453a442c7f35-s.p.0333ktddfbsxy.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/chunks/15-g4689yv5te.css" as="style"/><link rel="stylesheet" href="/_next/static/chunks/15-g4689yv5te.css" data-n-g=""/><noscript data-n-css=""></noscript><script src="/_next/static/chunks/0fx~wcjcay4-a.js" defer=""></script><script src="/_next/static/chunks/0unes50ir0v5j.js" defer=""></script><script src="/_next/static/chunks/0hoi7io0mt~6p.js" defer=""></script><script src="/_next/static/chunks/0w7w6wwwmzt3s.js" defer=""></script><script src="/_next/static/chunks/turbopack-0fnhds-54k.jf.js" defer=""></script><script src="/_next/static/chunks/0o0u30_fxxsr2.js" defer=""></script><script src="/_next/static/chunks/10q5abvn7_mhr.js" defer=""></script><script src="/_next/static/chunks/10jsnikrrmvj4.js" defer=""></script><script src="/_next/static/chunks/turbopack-124xuu6gj~8rg.js" defer=""></script><script src="/_next/static/36OKoh1-0HIYn_SVkgu9-/_buildManifest.js" defer=""></script><script src="/_next/static/36OKoh1-0HIYn_SVkgu9-/_ssgManifest.js" defer=""></script><script src="/_next/static/36OKoh1-0HIYn_SVkgu9-/_clientMiddlewareManifest.js" defer=""></script><style id="__jsx-1922640940">html{font-family:'Roboto', 'Roboto Fallback'}</style></head><body><div id="__next"><header class="flex shadow-md inset-x-0 h-16 items-center z-30 text-gray-700 bg-white fixed top-0"><div class="container m-auto flex items-center justify-between flex-wrap px-2 sm:px-4 lg:max-w-screen-lg"><a href="/"><div class="flex items-center"><img alt="logo" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" class="rounded-full w-12" style="color:transparent" src="/profile.jpg"/><div class="ml-2"><div class="font-bold leading-none">Johackim</div><div class="text-sm leading-none">Hacker indépendant</div></div></div></a><nav class="grid grid-flow-col gap-4 items-center"><a class="hover:underline hidden md:block" href="/">Accueil</a><a class="hover:underline md:block" href="/articles">Articles</a><a href="/newsletter"><button type="button" class="bg-cyan-700 text-white hover:text-white hover:bg-cyan-800 px-2.5 py-1.5 rounded-md cursor-pointer">S&#x27;abonner</button></a></nav></div></header><main class="lg:max-w-screen-lg m-auto px-4"><div class="bg-cyan-600 h-1 z-30 fixed inset-0" style="width:0%"></div><script type="application/ld+json" id="article-jsonld-article">{"@context":"https://schema.org","@type":"article","headline":"Rust","url":"https://johackim.com/rust","author":{"@type":"Person","name":"Johackim"},"datePublished":"2026-04-14T10:49:00.000Z","dateModified":"2026-04-14T10:49:00.000Z","image":"https://johackim.com/covers/rust.jpg"}</script><div class="md:border md:border-gray-200 mt-20"><h1 class="h-64 flex flex-col justify-center relative border-b border-gray-200"><span class="absolute inset-0 bg-gray-100 opacity-80 z-10"></span><span class="transform text-center font-bold px-4 text-4xl text-gray-600 break-words z-20">Rust</span></h1><div class="text-xs my-4 md:px-4 text-gray-700"><span>Mis à jour le </span><span>mardi 14 avril 2026</span><span> par <a class="underline text-cyan-700" href="/a-propos">johackim</a></span></div><article class="prose break-words prose-a:font-normal prose-a:text-cyan-700 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300 prose-td:border-gray-300 prose-td:border prose-td:px-4 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 [&amp;_blockquote_.callout-title]:flex [&amp;_blockquote_.callout-title]:gap-2"><p><a class="" target="_blank" href="https://github.com/rust-lang/rust">Rust</a> est un langage de programmation.</p>
+<p>C&#x27;est un langage de bas niveau qui peut être utilisé comme un langage de haut niveau sans devoir allouer et libérer la mémoire manuellement.</p>
+<p>C&#x27;est un langage compilé.</p>
+<h2>Installation</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-bash">sudo pacman -S rust
+</code></pre></div>
+<h2>Faire un println</h2>
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg></div>
+                            <div class="callout-title-inner">quote</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Le symbole ! après println indique qu&#x27;il s&#x27;agit d&#x27;une macro</p>
+                    </div>
+                </blockquote>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">println!(&quot;Hello John!&quot;);
+// Ou
+let name = &quot;John&quot;;
+println!(&quot;Hello {name}!&quot;);
+// Ou
+let name = &quot;John&quot;;
+println!(&quot;Hello {}!&quot;, name);
+</code></pre></div>
+<h2>Debugger avec println</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = 1;
+println!(&quot;{:?}&quot;, myvar);
+// Ou
+println!(&quot;{myvar:?}&quot;);
+// Ou
+println!(&quot;{:#?}&quot;, myvar);
+// Ou
+println!(&quot;{myvar:#?}&quot;);
+</code></pre></div>
+<p>Il existe aussi la macro <code>dbg!</code> :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = 1;
+dbg!(myvar);
+</code></pre></div>
+<h2>Créer une variable</h2>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Les variables utilisent une convention de nommage en snake_case (ex: my_variable).</p>
+                    </div>
+                </blockquote>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Par défaut, une variable est immutable.</p>
+                    </div>
+                </blockquote>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = 1;
+</code></pre></div>
+<h2>Créer une variable mutable</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let mut myvar = 1;
+myvar = 2;
+</code></pre></div>
+<h2>Créer une variable vide</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = String::new();
+</code></pre></div>
+<h2>Créer une variable typée (Data Types)</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar: i32 = 1; // integer
+let myvar: f64 = 1.0; // float
+let myvar: char = &#x27;a&#x27;; // character
+let myvar: bool = true; // boolean
+let myvar: &amp;str = &quot;Hello&quot;; // string slice
+let myvar: [i32; 4] = [1, 2, 3, 4]; // array
+let myvar: String = String::from(&quot;Hello&quot;); // string
+</code></pre></div>
+<h2>Créer une constante</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">const MYVAR: i32 = 1;
+</code></pre></div>
+<h2>Créer une fonction</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn main() {
+    println!(&quot;Hello, world!&quot;);
+}
+</code></pre></div>
+<h2>Créer une fonction avec des paramètres</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn say_hello(name: String) {
+    println!(&quot;Hello, {name}!&quot;);
+}
+</code></pre></div>
+<h2>Créer une fonction qui retourne une valeur</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn add(a: i32, b: i32) -&gt; i32 {
+    return a + b; // Ou `a + b` sans le `return` et le point-virgule
+}
+</code></pre></div>
+<h2>Créer une fonction qui ne retourne rien</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn say_hello(name: String) {
+    () // Retourne une valeur vide (unit type)
+}
+</code></pre></div>
+<h2>Convertir un string slice en String</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar: &amp;str = &quot;Hello&quot;;
+let myvar2: String = myvar.to_string();
+// Ou
+let myvar2: String = String::from(myvar);
+// Ou
+let myvar2: String = myvar.to_owned();
+</code></pre></div>
+<h2>Convertir un String en string slice</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar: String = String::from(&quot;Hello&quot;);
+let myvar2: &amp;str = &amp;myvar;
+</code></pre></div>
+<h2>Faire un slice (récupérer une partie d&#x27;un array)</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = [1, 2, 3];
+let slice = &amp;myvar[0..2]; // slice de 0 à 2 (exclu)
+</code></pre></div>
+<h2>Faire une déstructuration</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let cat = (&quot;Furry McFurson&quot;, 3.5);
+let (name, age) = cat;
+println!(&quot;{name} is {age} years old&quot;);
+</code></pre></div>
+<h2>Créer un vecteur (vector)</h2>
+<p>Un vector est une collection de valeurs <strong>de même type</strong>, mais de taille dynamique.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let mut myvec = Vec::new();
+myvec.push(1);
+myvec.push(2);
+myvec.push(3);
+
+// Ou
+
+let myvec = vec![1, 2, 3]; // Utilisation de la macro vec!
+
+// Ou
+
+let myvec = Vec::from([1, 2, 3]);
+</code></pre></div>
+<p>Il est possible d&#x27;exécuter d&#x27;autres fonctions :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">myvec.len(); // Longueur du vector
+myvec.pop(); // Supprimer le dernier élément du vector
+</code></pre></div>
+<p>Pour récupérer une valeur d&#x27;un vector, on peut utiliser l&#x27;index :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let element = myvec[2]; // Récupérer le troisième élément du vector
+</code></pre></div>
+<p>Pour afficher tous les éléments d&#x27;un vector, on peut faire une boucle for :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">for element in myvec {
+    println!(&quot;{element}&quot;);
+}
+</code></pre></div>
+<p>Pour spécifier le type d&#x27;un vector, on peut faire :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvec: Vec&lt;i32&gt; = Vec::new();
+</code></pre></div>
+<p>L&#x27;annotation <code>Vec&lt;i32&gt;</code> (type annotation) indique que le vector contient une liste d&#x27;entiers de type <code>i32</code>.</p>
+<h2>Tuples</h2>
+<p>Un tuple est une collection de valeurs de types différents, de taille fixe.</p>
+<p>Il est représenté par des parenthèses <code>()</code>.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let mytuple = (1, &quot;hello&quot;, true);
+let (a, b, c) = mytuple; // Destructuring
+println!(&quot;a: {a}, b: {b}, c: {c}&quot;);
+println!(&quot;{}&quot;, mytuple.1);
+</code></pre></div>
+<p>Si un tuple contient trop de valeurs, il vaut mieux utiliser un struct.</p>
+<h2>Créer un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">use std::collections::HashMap;
+
+let mut myhashmap = HashMap::new();
+myhashmap.insert(&quot;key1&quot;, &quot;value1&quot;);
+myhashmap.insert(&quot;key2&quot;, &quot;value2&quot;);
+myhashmap.insert(&quot;key3&quot;, &quot;value3&quot;);
+</code></pre></div>
+<h2>Récupérer une valeur d&#x27;un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let value = myhashmap.get(&quot;key1&quot;);
+</code></pre></div>
+<h2>Récupérer les valeurs d&#x27;un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">for value in myhashmap.values() {
+    println!(&quot;value: {value}&quot;);
+}
+</code></pre></div>
+<h2>Récupérer les clés d&#x27;un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">for key in myhashmap.keys() {
+    println!(&quot;key: {key}&quot;);
+}
+</code></pre></div>
+<h2>Supprimer une clé d&#x27;un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">myhashmap.remove(&quot;key2&quot;);
+</code></pre></div>
+<h2>Vérifier si une clé existe dans un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">if myhashmap.contains_key(&quot;key1&quot;) {
+    println!(&quot;key1 exists in the hashmap&quot;);
+}
+</code></pre></div>
+<h2>Faire un iter sur un hashmap</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">for (key, value) in myhashmap.iter() {
+    println!(&quot;key: {key}, value: {value}&quot;);
+}
+</code></pre></div>
+<h2>Créer une boucle for</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">for i in 0..5 {
+    println!(&quot;i: {i}&quot;);
+}
+</code></pre></div>
+<h2>Faire un map</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvec = vec![1, 2, 3];
+let myvec2: Vec&lt;i32&gt; = myvec.iter().map(|x| x * 2).collect();
+println!(&quot;{:?}&quot;, myvec2); // Affiche [2, 4, 6]
+</code></pre></div>
+<h2>Créer un clone</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = String::from(&quot;Hello&quot;);
+let myvar2 = myvar.clone();
+</code></pre></div>
+<h2>Lire un input</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">println!(&quot;Please enter some input: &quot;);
+let mut input = String::new();
+std::io::stdin().read_line(&amp;mut input);
+println!(&quot;You entered: {input}&quot;);
+</code></pre></div>
+<h2>Quitter le programme</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">std::process::exit(0);
+</code></pre></div>
+<h2>Créer une boucle</h2>
+<p>Créer une boucle infinie :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">loop {
+    println!(&quot;Hello world!&quot;);
+}
+</code></pre></div>
+<p>Créer une boucle avec une condition :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">while myvar &lt; 5 {
+    println!(&quot;{myvar}&quot;);
+    myvar += 1;
+}
+</code></pre></div>
+<p>Elles peuvent être interrompues avec <code>break</code> ou <code>continue</code>.</p>
+<h2>Faire une condition</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">if myvar &gt; 1 {
+    println!(&quot;myvar is greater than 1&quot;);
+} else if myvar == 1 {
+    println!(&quot;myvar is equal to 1&quot;);
+} else {
+    println!(&quot;myvar is less than 1&quot;);
+}
+</code></pre></div>
+<h2>Shadowing</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = &quot;one&quot;;
+let myvar = 1; // Shadowing
+println!(&quot;myvar: {}&quot;, myvar); // Affiche 1
+</code></pre></div>
+<h2>Enum</h2>
+<p>Enum permet de créer un type de donnée (Data Type) personnalisé.</p>
+<p>Par exemple, on peut créer un type de donnée <code>Direction</code> :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">enum Direction {
+    Up,
+    Down,
+    Left,
+    Right,
+}
+
+let my_direction = Direction::Up;
+</code></pre></div>
+<p>Contrairement à un struct, un enum ne peut avoir qu&#x27;une seule valeur à la fois.</p>
+<h2>Enum avec des valeurs</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">enum Direction {
+    Up(i32),
+    Down(i32),
+    Left(i32),
+    Right(i32),
+}
+
+let my_direction = Direction::Up(10);
+</code></pre></div>
+<h2>Struct</h2>
+<p>Struct permet aussi de créer un type de donnée (Data Type) personnalisé.</p>
+<p>Par exemple, on peut créer un type de donnée <code>User</code> :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">struct User {
+    name: String,
+    age: i32,
+}
+
+let User { name, age } = User {
+    name: String::from(&quot;John&quot;),
+    age: 30,
+};
+
+println!(&quot;{name} is {age} years old.&quot;);
+</code></pre></div>
+<p>Contrairement à un enum, un struct peut avoir plusieurs valeurs à la fois.</p>
+<h2>Spread operator</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let user2 = User {
+    name: String::from(&quot;Bob&quot;),
+    ..user1 // Spread operator
+};
+</code></pre></div>
+<h2>Match</h2>
+<p>Match est équivalent à un switch en JavaScript.</p>
+<p>C&#x27;est pareil qu&#x27;un if-else, mais plus puissant.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = 1;
+match myvar {
+    1 =&gt; println!(&quot;one&quot;),
+    2 =&gt; println!(&quot;two&quot;),
+    _ =&gt; println!(&quot;other&quot;),
+}
+</code></pre></div>
+<p>Il peut aussi stocker la valeur dans une variable :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvar = 1;
+let result = match myvar {
+    1 =&gt; &quot;one&quot;,
+    2 =&gt; &quot;two&quot;,
+    _ =&gt; &quot;other&quot;,
+};
+println!(&quot;result: {result}&quot;);
+</code></pre></div>
+<h2>Format</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn format_name(name: &amp;str) -&gt; String {
+    format!(&quot;Hello, {name}!&quot;)
+}
+</code></pre></div>
+<h2>Rendre une fonction publique</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">pub fn my_function() {
+    // ...
+}
+</code></pre></div>
+<h2>Créer un module</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">mod my_module {
+    pub fn my_function() {
+        // ...
+    }
+}
+
+my_module::my_function();
+// Ou
+use my_module::*;
+my_function();
+</code></pre></div>
+<h2>Importer un module</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">mod my_module;
+use super::my_module::my_function; // go up one level
+use crate::my_module::my_function; // start from the top
+use my_module as myalias; // alias
+</code></pre></div>
+<h2>Importer un module standard</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">use std::fs;
+use std::io;
+// Ou
+use std::{fs, io};
+</code></pre></div>
+<h2>Gestion des erreurs avec Result</h2>
+<p>Result est un type de retour qui peut être soit <code>Ok</code> (succès) ou <code>Err</code> (erreur).</p>
+<p>C&#x27;est utile pour les fonctions qui peuvent potentiellement échouer.</p>
+<p>Le retour est un i32 si la fonction réussit, ou un String si la fonction échoue.</p>
+<p>C&#x27;est l&#x27;équivalent des promises et try/catch en JavaScript.</p>
+<p>La syntaxe <code>Result&lt;i32, String&gt;</code> indique que la fonction peut retourner 2 variants : <code>Ok(i32)</code> ou <code>Err(String)</code>.</p>
+<p>La fonction peut retourner soit l&#x27;un soit l&#x27;autre.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn divide(a: i32, b: i32) -&gt; Result&lt;i32, String&gt; {
+    if b == 0 {
+        return Err(String::from(&quot;Cannot divide by zero&quot;));
+    }
+    Ok(a / b)
+}
+
+let result = divide(10, 2);
+match result {
+    Ok(value) =&gt; println!(&quot;Result: {value}&quot;),
+    Err(error) =&gt; println!(&quot;Error: {error}&quot;),
+}
+</code></pre></div>
+<p>Il y a un raccourci avec le question mark <code>?</code> qui permet de propager l&#x27;erreur à la fonction appelante.</p>
+<p>Cela évite de faire un match.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let result = divide(10, 2)?;
+// match result {
+    // Ok(value) =&gt; println!(&quot;Result: {value}&quot;),
+    // Err(error) =&gt; return Err(error),
+// }
+println!(&quot;Result: {result}&quot;);
+Ok(())
+</code></pre></div>
+<h2>Unwrap</h2>
+<p><code>unwrap</code> est une méthode qui permet de récupérer la valeur d&#x27;un <code>Result</code>.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let result = divide(10, 2);
+let value = result.unwrap(); // value = 5
+</code></pre></div>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"></line><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"></path></svg></div>
+                            <div class="callout-title-inner">note</div>
+                        </div>
+                    
+                    <div class="callout-content">
+                        <p>Éviter les fonctions qui paniquent comme unwrap(), préférer les mécanismes comme ? pour propager les erreurs.</p>
+                    </div>
+                </blockquote>
+<h2>Possession / Ownership</h2>
+<p>En Rust, chaque fonction libère la mémoire de ses variables à la fin de son exécution (drop).</p>
+<p>Le propriétaire initial de la variable my_var est la fonction main.</p>
+<p>La variable my_var a été déplacée dans la fonction my_function qui devient le nouveau propriétaire.</p>
+<p>Et elle est libérée à la fin de l&#x27;exécution de la fonction my_function.</p>
+<p>Elle n&#x27;est donc plus accessible dans la fonction main, ce qui provoque une erreur.</p>
+<p>Chaque propriétaire est responsable de vider la mémoire.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn my_function(myparam: String) {
+    println!(&quot;myparam: {myparam}&quot;);
+}
+
+fn main() {
+    let my_var = String::from(&quot;Hello&quot;);
+    my_function(my_var);
+    println!(&quot;myvar: {my_var}&quot;); // Erreur : myvar a été déplacé dans la fonction
+}
+</code></pre></div>
+<p>Dans l&#x27;exemple ci-dessous, la variable a est déplacée (move) dans la variable b.</p>
+<p>Le propriétaire de la variable a devient la variable b.</p>
+<p>Cela provoque une erreur car la variable n&#x27;est plus accessible après avoir été déplacée dans b.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn main() {
+    let a = String::from(&quot;Hello&quot;);
+    let b = a;
+    println!(&quot;{a}&quot;); // Erreur : a a été déplacée dans b
+}
+</code></pre></div>
+<h2>Emprunt / Borrowing</h2>
+<p>Pour éviter l&#x27;erreur de propriété (borrowing), on peut emprunter la variable au lieu de la déplacer.</p>
+<p>La variable my_var est empruntée par la fonction my_function au lieu de la déplacer.</p>
+<p>Le symbole <code>&amp;</code> indique que la variable est empruntée. Il s&#x27;agit d&#x27;une référence (reference).</p>
+<p>La fonction main reste le propriétaire de la variable my_var.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn my_function(myparam: &amp;String) {
+    println!(&quot;myparam: {myparam}&quot;);
+}
+
+fn main() {
+    let my_var = String::from(&quot;Hello&quot;);
+    my_function(&amp;my_var); // Emprunt de my_var
+    println!(&quot;myvar: {my_var}&quot;); // my_var est toujours accessible
+}
+</code></pre></div>
+<p>Un autre exemple, la variable my_numbers est empruntée par la boucle for au lieu de la déplacer dans la boucle for.</p>
+<p>Elle peut ainsi être utilisée après la boucle for pour afficher sa longueur (len).</p>
+<p>Sans la référence <code>&amp;</code>, la variable my_numbers serait déplacée dans la boucle for et ne serait plus accessible après la boucle for, ce qui provoquerait une erreur.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn main() {
+    let my_numbers = vec![10, 20, 30, 40];
+
+    for num in &amp;my_numbers {
+        match num {
+            30 =&gt; println!(&quot;thirty&quot;),
+            _ =&gt; println!(&quot;{num}&quot;),
+        }
+    }
+
+    println!(&quot;Total {}&quot;, my_numbers.len());
+}
+</code></pre></div>
+<p>Ces concepts de possession et d&#x27;emprunt permettent d&#x27;éviter des fuites de mémoire (memory leaks).</p>
+<h2>Impl</h2>
+<p>Le mot-clé <code>impl</code> permet d&#x27;implémenter des méthodes pour un struct ou un enum.</p>
+<p>C&#x27;est l&#x27;équivalent d&#x27;une classe en JavaScript.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">struct User {
+    name: String,
+}
+
+impl User {
+    fn say_hello(&amp;self) {
+        println!(&quot;Hello, my name is {}&quot;, self.name);
+    }
+
+    fn change_name(&amp;mut self) {
+        self.name = String::from(&quot;Bob&quot;);
+    }
+}
+
+fn main() {
+    let mut user = User {
+        name: String::from(&quot;John&quot;),
+    };
+
+    user.say_hello(); // Affiche &quot;Hello, my name is John&quot;
+    user.change_name();
+    user.say_hello(); // Affiche &quot;Hello, my name is Bob&quot;
+}
+</code></pre></div>
+<h2>Derives</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">#[derive(Debug)]
+struct User {
+    name: String,
+}
+
+fn main() {
+    let user = User {
+        name: String::from(&quot;John&quot;),
+    };
+
+    println!(&quot;{:?}&quot;, user); // Affiche &quot;User { name: &quot;John&quot; }&quot;
+}
+</code></pre></div>
+<p>Il existe aussi d&#x27;autres derives comme <code>Clone</code>, <code>Copy</code>.</p>
+<h2>Traits</h2>
+<p>Un trait permet de définir une seule fonction pour plusieurs types de données.</p>
+<p>Une manière se standardiser un comportement que l&#x27;on peut appliquer sur plusieurs types de données.</p>
+<p>C&#x27;est l&#x27;équivalent d&#x27;une interface en PHP.</p>
+<p>Cela permet d&#x27;avoir une seule fonction (ex: <code>log</code>) plutôt que plusieurs fonctions (ex: <code>log_phone</code> et <code>log_email</code>).</p>
+<p>Sans trait, la logique est dupliquée pour chaque type :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">struct Phone;
+struct Email;
+
+impl Phone { fn notify(&amp;self) { println!(&quot;SMS&quot;); } }
+impl Email { fn notify(&amp;self) { println!(&quot;Email&quot;); } }
+
+// Logique dupliquée pour chaque type
+fn log_phone(p: &amp;Phone) { println!(&quot;LOG:&quot;); p.notify(); }
+fn log_email(e: &amp;Email) { println!(&quot;LOG:&quot;); e.notify(); }
+
+fn main() {
+    log_phone(&amp;Phone);
+    log_email(&amp;Email);
+}
+</code></pre></div>
+<p>Avec trait, une seule fonction suffit pour tous les types qui implémentent <code>Notify</code> :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">trait Notify { fn notify(&amp;self); }
+
+struct Phone;
+struct Email;
+
+impl Notify for Phone { fn notify(&amp;self) { println!(&quot;SMS&quot;); } }
+impl Notify for Email { fn notify(&amp;self) { println!(&quot;Email&quot;); } }
+
+// Une seule fonction pour tous les types
+fn log(n: &amp;impl Notify) { println!(&quot;LOG:&quot;); n.notify(); }
+
+fn main() {
+    log(&amp;Phone);
+    log(&amp;Email);
+}
+</code></pre></div>
+<h2>Option</h2>
+<p>Option est un type de donnée qui peut être soit <code>Some</code> (valeur présente) ou <code>None</code> (valeur absente).</p>
+<p>Cela permet de gérer les valeurs nulles (null).</p>
+<p>C&#x27;est un type de donnée optionnel.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">struct User {
+    name: String,
+    age: Option&lt;i32&gt;,
+}
+
+fn main() {
+    let user1 = User {
+        name: String::from(&quot;John&quot;),
+        age: Some(30),
+    };
+
+    let user2 = User {
+        name: String::from(&quot;Bob&quot;),
+        age: None,
+    };
+}
+</code></pre></div>
+<p>Les types <code>Option</code> ont des méthodes <code>is_some</code> et <code>is_none</code> pour vérifier si la valeur est présente ou absente.</p>
+<h2>Closure</h2>
+<p>Une closure est simplement une fonction anonyme.</p>
+<p>C&#x27;est une fonction sans nom qui est définie avec des barres verticales <code>|</code> au lieu des parenthèses <code>()</code>.</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn main() {
+    // ou `let add = |a, b| a + b;`
+    let add = |a: i32, b: i32| -&gt; i32 {
+        return a + b;
+    };
+
+    let result = add(10, 20);
+    println!(&quot;Result: {result}&quot;); // Affiche &quot;Result: 30&quot;
+}
+</code></pre></div>
+<h2>Passer une closure dans une fonction</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn math(a: i32, b: i32, op: impl Fn(i32, i32) -&gt; i32) -&gt; i32 {
+    op(a, b)
+}
+
+fn main() {
+    let add = |a, b| {
+        println!(&quot;Hello world&quot;);
+        a + b
+    };
+    println!(&quot;{}&quot;, math(2, 2, add));
+}
+</code></pre></div>
+<h2>Map</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvec = vec![1, 2, 3];
+let myvec2 = myvec.iter().map(|x| x * 2);
+</code></pre></div>
+<h2>Sleep</h2>
+<p>Attendre pendant 1 seconde :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">thread::sleep(Duration::from_secs(1));
+</code></pre></div>
+<h2>Iterator</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let myvec = vec![1, 2, 3, 4, 5];
+let myvec2: Vec&lt;_&gt; = myvec.iter().map(|num| num + 1).collect();
+// Ou
+let myvec2: Vec&lt;_&gt; = myvec.iter().filter(|&amp;&amp;num| num &lt;= 2).collect();
+// Ou
+let myvec2: Option&lt;&amp;&amp;i32&gt; = myvec.iter().find(|&amp;&amp;num| num == 2);
+// Ou
+let count = myvec.iter().count();
+// Ou
+let last: Option&lt;&amp;i32&gt; = myvec.iter().last();
+</code></pre></div>
+<h2>Range</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">let range = 1..=3; // 1, 2, 3
+// Ou
+let range = 1..3; // 1, 2
+</code></pre></div>
+<h2>Testing</h2>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">fn all_caps(word: &amp;str) -&gt; String {
+    word.to_uppercase()
+}
+
+#[cfg(test)]
+mod test {
+    use crate::*;
+    #[test]
+    fn check_all_caps() {
+        let result = all_caps(&quot;hello&quot;);
+        let expected = String::from(&quot;HELLO&quot;);
+        assert_eq!(result, expected, &quot;string should be all uppercase&quot;);
+    }
+}
+</code></pre></div>
+<h2>Crates / Packages / Librairies</h2>
+<p>Il existe 2 sites pour accéder aux crates :</p>
+<ul>
+<li><a class="" target="_blank" href="https://crates.io/">https://crates.io/</a></li>
+<li><a class="" target="_blank" href="https://lib.rs/">https://lib.rs/</a></li>
+</ul>
+<p>Pour installer un crate :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-bash">cargo add &lt;crate&gt;
+# Exemple
+cargo add humantime
+</code></pre></div>
+<p>Pour utiliser le crate :</p>
+<div class="relative group"><button type="button" class="invisible group-hover:visible absolute top-0 right-0 rounded-md text-xs bg-gray-300 m-3 p-1.5 cursor-pointer leading-none">Copier</button><pre><code class="language-rust">use std::time::Duration;
+use humantime::format_duration; // importation
+
+fn main() {
+    let d = Duration::from_secs(999);
+    println!(&quot;{}&quot;, format_duration(d)); // utilisation
+}
+</code></pre></div>
+<h2>Autres concepts</h2>
+<ul>
+<li>Generics</li>
+<li>Lifetimes</li>
+<li>Buffer</li>
+<li>Heap</li>
+<li>Stack</li>
+<li>If let</li>
+<li>While let</li>
+<li>Async</li>
+<li>Unsafe</li>
+</ul>
+<h2>Exemples de packages</h2>
+<ul>
+<li><a class="" target="_blank" href="https://github.com/clap-rs/clap">https://github.com/clap-rs/clap</a></li>
+<li><a class="" target="_blank" href="https://github.com/notify-rs/notify">https://github.com/notify-rs/notify</a></li>
+<li><a class="" target="_blank" href="https://github.com/longbridge/gpui-component">https://github.com/longbridge/gpui-component</a></li>
+</ul>
+<h2>Exemples de projets Rust</h2>
+<ul>
+<li><a class="" target="_blank" href="https://github.com/christo-auer/eilmeldung">https://github.com/christo-auer/eilmeldung</a></li>
+<li><a class="" target="_blank" href="https://github.com/matthart1983/netwatch">https://github.com/matthart1983/netwatch</a></li>
+<li><a class="" target="_blank" href="https://github.com/obdev/littlesnitch-linux">https://github.com/obdev/littlesnitch-linux</a></li>
+<li><a class="" target="_blank" href="https://github.com/rgwood/systemctl-tui">https://github.com/rgwood/systemctl-tui</a></li>
+<li><a class="" target="_blank" href="https://github.com/zed-industries/zed/">https://github.com/zed-industries/zed/</a></li>
+<li><a class="" target="_blank" href="https://github.com/erikjuhani/basalt/">https://github.com/erikjuhani/basalt/</a></li>
+<li><a class="" target="_blank" href="https://github.com/hrkfdn/ncspot">https://github.com/hrkfdn/ncspot</a></li>
+<li><a class="" target="_blank" href="https://github.com/sharkdp/fd">https://github.com/sharkdp/fd</a></li>
+</ul>
+<h2>Apprendre Rust</h2>
+<ul>
+<li><a class="" target="_blank" href="https://tourofrust.com">https://tourofrust.com</a></li>
+<li><a class="" target="_blank" href="https://roadmap.sh/rust">https://roadmap.sh/rust</a></li>
+<li><a class="" target="_blank" href="https://quickref.me/rust">https://quickref.me/rust</a></li>
+<li><a class="" target="_blank" href="https://practice.course.rs">https://practice.course.rs</a></li>
+<li><a class="" target="_blank" href="https://rust-exercises.com">https://rust-exercises.com</a></li>
+<li><a class="" target="_blank" href="https://rust-lang.org/learn/">https://rust-lang.org/learn/</a></li>
+<li><a class="" target="_blank" href="https://rustlings.rust-lang.org/">https://rustlings.rust-lang.org/</a></li>
+<li><a class="" target="_blank" href="https://doc.rust-lang.org/book/">https://doc.rust-lang.org/book/</a></li>
+<li><a class="" target="_blank" href="https://rustadventure.dev/">https://rustadventure.dev/</a></li>
+<li><a class="" target="_blank" href="https://programiz.com/rust">https://programiz.com/rust</a></li>
+<li><a class="" target="_blank" href="https://dev.letsgetrusty.com">https://dev.letsgetrusty.com</a></li>
+<li><a class="" target="_blank" href="https://jrvidal.github.io/explaine.rs/">https://jrvidal.github.io/explaine.rs/</a></li>
+<li><a class="" target="_blank" href="https://learnxinyminutes.com/fr/rust/">https://learnxinyminutes.com/fr/rust/</a></li>
+<li><a class="" target="_blank" href="https://blog.guillaume-gomez.fr/Rust/">https://blog.guillaume-gomez.fr/Rust/</a></li>
+<li><a class="" target="_blank" href="https://app.codecrafters.io/tracks/rust">https://app.codecrafters.io/tracks/rust</a></li>
+<li><a class="" target="_blank" href="https://product.letsgetrusty.com/bootcamp">https://product.letsgetrusty.com/bootcamp</a></li>
+<li><a class="" target="_blank" href="https://github.com/sunface/rust-by-practice">https://github.com/sunface/rust-by-practice</a></li>
+<li><a class="" target="_blank" href="https://github.com/rust-lang/rust-by-example">https://github.com/rust-lang/rust-by-example</a></li>
+<li><a class="" target="_blank" href="https://zerotomastery.io/courses/learn-rust/">https://zerotomastery.io/courses/learn-rust/</a></li>
+<li><a class="" target="_blank" href="https://doc.rust-lang.org/stable/std/index.html">https://doc.rust-lang.org/stable/std/index.html</a></li>
+<li><a class="" target="_blank" href="https://github.com/google/comprehensive-rust">https://github.com/google/comprehensive-rust</a></li>
+<li><a class="" target="_blank" href="https://zerotomastery.io/cheatsheets/rust-cheat-sheet/">https://zerotomastery.io/cheatsheets/rust-cheat-sheet/</a></li>
+<li><a class="" target="_blank" href="https://egghead.io/courses/write-your-first-program-with-the-rust-language">https://egghead.io/courses/write-your-first-program-with-the-rust-language</a></li>
+<li><a class="" target="_blank" href="https://egghead.io/courses/learning-rust-by-solving-the-rustlings-exercises-a722">https://egghead.io/courses/learning-rust-by-solving-the-rustlings-exercises-a722</a></li>
+</ul>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a class="" target="_blank" href="https://youtu.be/5C_HPTJg5ek">Fireship - Rust in 100 Seconds</a></li>
+<li><a class="" target="_blank" href="https://youtu.be/NxQNZ0eYk2w">Loïc Rust - L&#x27;Ownership en Rust</a></li>
+<li><a class="" target="_blank" href="https://youtu.be/mZasv3__A9k">Eddie Gerbais-Nief - Apprendre le RUST partie #1 FR</a></li>
+<li><a class="" target="_blank" href="https://youtu.be/rQ_J9WH6CGk">BekBrace - Rust Programming Full Course  | Learn in 2024</a></li>
+<li><a class="" target="_blank" href="https://youtu.be/BpPEoZW5IiY">freeCodeCamp.org - Learn Rust Programming - Complete Course</a></li>
+</ul></article><div class="md:px-4"><hr class="border-gray-200 mb-4 mt-8"/><div id="commento"></div></div></div></main><footer class="container m-auto px-4 py-8 flex items-center justify-between flex-wrap lg:max-w-screen-lg text-gray-700"><div><span class="inline-block transform rotate-180">©</span><span class="ml-2">2017-2026</span></div><nav class="grid grid-flow-col gap-2 items-center"><a href="https://x.com/_johackim" aria-label="X" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg></a><a href="https://t.me/johackim" aria-label="Telegram" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"></path></svg></a><a href="https://mastodon.ethibox.fr/@johackim" aria-label="Mastodon" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"></path></svg></a><a href="https://github.com/johackim" aria-label="Github" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a><a href="https://linkedin.com/in/johackim" aria-label="LinkedIn" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg></a><a href="mailto:contact+blog@johackim.com" aria-label="Mail" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></a><a href="/rss.xml" aria-label="RSS" target="_blank" rel="noreferrer"><svg class="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg></a></nav></footer></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"source":{"compiledSource":"\"use strict\";\nconst {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];\nconst {useMDXComponents: _provideComponents} = arguments[0];\nfunction _createMdxContent(props) {\n  const _components = {\n    a: \"a\",\n    blockquote: \"blockquote\",\n    code: \"code\",\n    div: \"div\",\n    h2: \"h2\",\n    hr: \"hr\",\n    li: \"li\",\n    line: \"line\",\n    p: \"p\",\n    path: \"path\",\n    pre: \"pre\",\n    strong: \"strong\",\n    svg: \"svg\",\n    ul: \"ul\",\n    ..._provideComponents(),\n    ...props.components\n  };\n  return _jsxs(_Fragment, {\n    children: [_jsxs(_components.p, {\n      children: [_jsx(_components.a, {\n        href: \"https://github.com/rust-lang/rust\",\n        children: \"Rust\"\n      }), \" est un langage de programmation.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est un langage de bas niveau qui peut être utilisé comme un langage de haut niveau sans devoir allouer et libérer la mémoire manuellement.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est un langage compilé.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Installation\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-bash\",\n        children: \"sudo pacman -S rust\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Faire un println\"\n    }), \"\\n\", _jsxs(_components.blockquote, {\n      className: \"callout quote\",\n      children: [\"\\n                    \\n                        \", _jsxs(_components.div, {\n        className: \"callout-title\",\n        children: [\"\\n                            \", _jsx(_components.div, {\n          className: \"callout-icon\",\n          children: _jsxs(_components.svg, {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            width: \"24\",\n            height: \"24\",\n            viewBox: \"0 0 24 24\",\n            fill: \"none\",\n            stroke: \"currentColor\",\n            strokeWidth: \"2\",\n            strokeLinecap: \"round\",\n            strokeLinejoin: \"round\",\n            children: [_jsx(_components.path, {\n              d: \"M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z\"\n            }), _jsx(_components.path, {\n              d: \"M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z\"\n            })]\n          })\n        }), \"\\n                            \", _jsx(_components.div, {\n          className: \"callout-title-inner\",\n          children: \"quote\"\n        }), \"\\n                        \"]\n      }), \"\\n                    \\n                    \", _jsxs(_components.div, {\n        className: \"callout-content\",\n        children: [\"\\n                        \", _jsx(_components.p, {\n          children: \"Le symbole ! après println indique qu'il s'agit d'une macro\"\n        }), \"\\n                    \"]\n      }), \"\\n                \"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"println!(\\\"Hello John!\\\");\\n// Ou\\nlet name = \\\"John\\\";\\nprintln!(\\\"Hello {name}!\\\");\\n// Ou\\nlet name = \\\"John\\\";\\nprintln!(\\\"Hello {}!\\\", name);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Debugger avec println\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = 1;\\nprintln!(\\\"{:?}\\\", myvar);\\n// Ou\\nprintln!(\\\"{myvar:?}\\\");\\n// Ou\\nprintln!(\\\"{:#?}\\\", myvar);\\n// Ou\\nprintln!(\\\"{myvar:#?}\\\");\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Il existe aussi la macro \", _jsx(_components.code, {\n        children: \"dbg!\"\n      }), \" :\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = 1;\\ndbg!(myvar);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une variable\"\n    }), \"\\n\", _jsxs(_components.blockquote, {\n      className: \"callout note\",\n      children: [\"\\n                    \\n                        \", _jsxs(_components.div, {\n        className: \"callout-title\",\n        children: [\"\\n                            \", _jsx(_components.div, {\n          className: \"callout-icon\",\n          children: _jsxs(_components.svg, {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            width: \"24\",\n            height: \"24\",\n            viewBox: \"0 0 24 24\",\n            fill: \"none\",\n            stroke: \"currentColor\",\n            strokeWidth: \"2\",\n            strokeLinecap: \"round\",\n            strokeLinejoin: \"round\",\n            children: [_jsx(_components.line, {\n              x1: \"18\",\n              y1: \"2\",\n              x2: \"22\",\n              y2: \"6\"\n            }), _jsx(_components.path, {\n              d: \"M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z\"\n            })]\n          })\n        }), \"\\n                            \", _jsx(_components.div, {\n          className: \"callout-title-inner\",\n          children: \"note\"\n        }), \"\\n                        \"]\n      }), \"\\n                    \\n                    \", _jsxs(_components.div, {\n        className: \"callout-content\",\n        children: [\"\\n                        \", _jsx(_components.p, {\n          children: \"Les variables utilisent une convention de nommage en snake_case (ex: my_variable).\"\n        }), \"\\n                    \"]\n      }), \"\\n                \"]\n    }), \"\\n\", _jsxs(_components.blockquote, {\n      className: \"callout note\",\n      children: [\"\\n                    \\n                        \", _jsxs(_components.div, {\n        className: \"callout-title\",\n        children: [\"\\n                            \", _jsx(_components.div, {\n          className: \"callout-icon\",\n          children: _jsxs(_components.svg, {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            width: \"24\",\n            height: \"24\",\n            viewBox: \"0 0 24 24\",\n            fill: \"none\",\n            stroke: \"currentColor\",\n            strokeWidth: \"2\",\n            strokeLinecap: \"round\",\n            strokeLinejoin: \"round\",\n            children: [_jsx(_components.line, {\n              x1: \"18\",\n              y1: \"2\",\n              x2: \"22\",\n              y2: \"6\"\n            }), _jsx(_components.path, {\n              d: \"M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z\"\n            })]\n          })\n        }), \"\\n                            \", _jsx(_components.div, {\n          className: \"callout-title-inner\",\n          children: \"note\"\n        }), \"\\n                        \"]\n      }), \"\\n                    \\n                    \", _jsxs(_components.div, {\n        className: \"callout-content\",\n        children: [\"\\n                        \", _jsx(_components.p, {\n          children: \"Par défaut, une variable est immutable.\"\n        }), \"\\n                    \"]\n      }), \"\\n                \"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = 1;\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une variable mutable\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let mut myvar = 1;\\nmyvar = 2;\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une variable vide\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = String::new();\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une variable typée (Data Types)\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar: i32 = 1; // integer\\nlet myvar: f64 = 1.0; // float\\nlet myvar: char = 'a'; // character\\nlet myvar: bool = true; // boolean\\nlet myvar: \u0026str = \\\"Hello\\\"; // string slice\\nlet myvar: [i32; 4] = [1, 2, 3, 4]; // array\\nlet myvar: String = String::from(\\\"Hello\\\"); // string\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une constante\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"const MYVAR: i32 = 1;\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une fonction\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn main() {\\n    println!(\\\"Hello, world!\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une fonction avec des paramètres\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn say_hello(name: String) {\\n    println!(\\\"Hello, {name}!\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une fonction qui retourne une valeur\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn add(a: i32, b: i32) -\u003e i32 {\\n    return a + b; // Ou `a + b` sans le `return` et le point-virgule\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une fonction qui ne retourne rien\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn say_hello(name: String) {\\n    () // Retourne une valeur vide (unit type)\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Convertir un string slice en String\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar: \u0026str = \\\"Hello\\\";\\nlet myvar2: String = myvar.to_string();\\n// Ou\\nlet myvar2: String = String::from(myvar);\\n// Ou\\nlet myvar2: String = myvar.to_owned();\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Convertir un String en string slice\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar: String = String::from(\\\"Hello\\\");\\nlet myvar2: \u0026str = \u0026myvar;\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Faire un slice (récupérer une partie d'un array)\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = [1, 2, 3];\\nlet slice = \u0026myvar[0..2]; // slice de 0 à 2 (exclu)\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Faire une déstructuration\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let cat = (\\\"Furry McFurson\\\", 3.5);\\nlet (name, age) = cat;\\nprintln!(\\\"{name} is {age} years old\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer un vecteur (vector)\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Un vector est une collection de valeurs \", _jsx(_components.strong, {\n        children: \"de même type\"\n      }), \", mais de taille dynamique.\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let mut myvec = Vec::new();\\nmyvec.push(1);\\nmyvec.push(2);\\nmyvec.push(3);\\n\\n// Ou\\n\\nlet myvec = vec![1, 2, 3]; // Utilisation de la macro vec!\\n\\n// Ou\\n\\nlet myvec = Vec::from([1, 2, 3]);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Il est possible d'exécuter d'autres fonctions :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"myvec.len(); // Longueur du vector\\nmyvec.pop(); // Supprimer le dernier élément du vector\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Pour récupérer une valeur d'un vector, on peut utiliser l'index :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let element = myvec[2]; // Récupérer le troisième élément du vector\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Pour afficher tous les éléments d'un vector, on peut faire une boucle for :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"for element in myvec {\\n    println!(\\\"{element}\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Pour spécifier le type d'un vector, on peut faire :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvec: Vec\u003ci32\u003e = Vec::new();\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"L'annotation \", _jsx(_components.code, {\n        children: \"Vec\u003ci32\u003e\"\n      }), \" (type annotation) indique que le vector contient une liste d'entiers de type \", _jsx(_components.code, {\n        children: \"i32\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Tuples\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Un tuple est une collection de valeurs de types différents, de taille fixe.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Il est représenté par des parenthèses \", _jsx(_components.code, {\n        children: \"()\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let mytuple = (1, \\\"hello\\\", true);\\nlet (a, b, c) = mytuple; // Destructuring\\nprintln!(\\\"a: {a}, b: {b}, c: {c}\\\");\\nprintln!(\\\"{}\\\", mytuple.1);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Si un tuple contient trop de valeurs, il vaut mieux utiliser un struct.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"use std::collections::HashMap;\\n\\nlet mut myhashmap = HashMap::new();\\nmyhashmap.insert(\\\"key1\\\", \\\"value1\\\");\\nmyhashmap.insert(\\\"key2\\\", \\\"value2\\\");\\nmyhashmap.insert(\\\"key3\\\", \\\"value3\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Récupérer une valeur d'un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let value = myhashmap.get(\\\"key1\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Récupérer les valeurs d'un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"for value in myhashmap.values() {\\n    println!(\\\"value: {value}\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Récupérer les clés d'un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"for key in myhashmap.keys() {\\n    println!(\\\"key: {key}\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Supprimer une clé d'un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"myhashmap.remove(\\\"key2\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Vérifier si une clé existe dans un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"if myhashmap.contains_key(\\\"key1\\\") {\\n    println!(\\\"key1 exists in the hashmap\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Faire un iter sur un hashmap\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"for (key, value) in myhashmap.iter() {\\n    println!(\\\"key: {key}, value: {value}\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une boucle for\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"for i in 0..5 {\\n    println!(\\\"i: {i}\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Faire un map\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvec = vec![1, 2, 3];\\nlet myvec2: Vec\u003ci32\u003e = myvec.iter().map(|x| x * 2).collect();\\nprintln!(\\\"{:?}\\\", myvec2); // Affiche [2, 4, 6]\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer un clone\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = String::from(\\\"Hello\\\");\\nlet myvar2 = myvar.clone();\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Lire un input\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"println!(\\\"Please enter some input: \\\");\\nlet mut input = String::new();\\nstd::io::stdin().read_line(\u0026mut input);\\nprintln!(\\\"You entered: {input}\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Quitter le programme\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"std::process::exit(0);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer une boucle\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Créer une boucle infinie :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"loop {\\n    println!(\\\"Hello world!\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Créer une boucle avec une condition :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"while myvar \u003c 5 {\\n    println!(\\\"{myvar}\\\");\\n    myvar += 1;\\n}\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Elles peuvent être interrompues avec \", _jsx(_components.code, {\n        children: \"break\"\n      }), \" ou \", _jsx(_components.code, {\n        children: \"continue\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Faire une condition\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"if myvar \u003e 1 {\\n    println!(\\\"myvar is greater than 1\\\");\\n} else if myvar == 1 {\\n    println!(\\\"myvar is equal to 1\\\");\\n} else {\\n    println!(\\\"myvar is less than 1\\\");\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Shadowing\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = \\\"one\\\";\\nlet myvar = 1; // Shadowing\\nprintln!(\\\"myvar: {}\\\", myvar); // Affiche 1\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Enum\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Enum permet de créer un type de donnée (Data Type) personnalisé.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Par exemple, on peut créer un type de donnée \", _jsx(_components.code, {\n        children: \"Direction\"\n      }), \" :\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"enum Direction {\\n    Up,\\n    Down,\\n    Left,\\n    Right,\\n}\\n\\nlet my_direction = Direction::Up;\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Contrairement à un struct, un enum ne peut avoir qu'une seule valeur à la fois.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Enum avec des valeurs\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"enum Direction {\\n    Up(i32),\\n    Down(i32),\\n    Left(i32),\\n    Right(i32),\\n}\\n\\nlet my_direction = Direction::Up(10);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Struct\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Struct permet aussi de créer un type de donnée (Data Type) personnalisé.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Par exemple, on peut créer un type de donnée \", _jsx(_components.code, {\n        children: \"User\"\n      }), \" :\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"struct User {\\n    name: String,\\n    age: i32,\\n}\\n\\nlet User { name, age } = User {\\n    name: String::from(\\\"John\\\"),\\n    age: 30,\\n};\\n\\nprintln!(\\\"{name} is {age} years old.\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Contrairement à un enum, un struct peut avoir plusieurs valeurs à la fois.\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Spread operator\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let user2 = User {\\n    name: String::from(\\\"Bob\\\"),\\n    ..user1 // Spread operator\\n};\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Match\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Match est équivalent à un switch en JavaScript.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est pareil qu'un if-else, mais plus puissant.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = 1;\\nmatch myvar {\\n    1 =\u003e println!(\\\"one\\\"),\\n    2 =\u003e println!(\\\"two\\\"),\\n    _ =\u003e println!(\\\"other\\\"),\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Il peut aussi stocker la valeur dans une variable :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvar = 1;\\nlet result = match myvar {\\n    1 =\u003e \\\"one\\\",\\n    2 =\u003e \\\"two\\\",\\n    _ =\u003e \\\"other\\\",\\n};\\nprintln!(\\\"result: {result}\\\");\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Format\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn format_name(name: \u0026str) -\u003e String {\\n    format!(\\\"Hello, {name}!\\\")\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Rendre une fonction publique\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"pub fn my_function() {\\n    // ...\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Créer un module\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"mod my_module {\\n    pub fn my_function() {\\n        // ...\\n    }\\n}\\n\\nmy_module::my_function();\\n// Ou\\nuse my_module::*;\\nmy_function();\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Importer un module\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"mod my_module;\\nuse super::my_module::my_function; // go up one level\\nuse crate::my_module::my_function; // start from the top\\nuse my_module as myalias; // alias\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Importer un module standard\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"use std::fs;\\nuse std::io;\\n// Ou\\nuse std::{fs, io};\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Gestion des erreurs avec Result\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Result est un type de retour qui peut être soit \", _jsx(_components.code, {\n        children: \"Ok\"\n      }), \" (succès) ou \", _jsx(_components.code, {\n        children: \"Err\"\n      }), \" (erreur).\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est utile pour les fonctions qui peuvent potentiellement échouer.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Le retour est un i32 si la fonction réussit, ou un String si la fonction échoue.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est l'équivalent des promises et try/catch en JavaScript.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"La syntaxe \", _jsx(_components.code, {\n        children: \"Result\u003ci32, String\u003e\"\n      }), \" indique que la fonction peut retourner 2 variants : \", _jsx(_components.code, {\n        children: \"Ok(i32)\"\n      }), \" ou \", _jsx(_components.code, {\n        children: \"Err(String)\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"La fonction peut retourner soit l'un soit l'autre.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn divide(a: i32, b: i32) -\u003e Result\u003ci32, String\u003e {\\n    if b == 0 {\\n        return Err(String::from(\\\"Cannot divide by zero\\\"));\\n    }\\n    Ok(a / b)\\n}\\n\\nlet result = divide(10, 2);\\nmatch result {\\n    Ok(value) =\u003e println!(\\\"Result: {value}\\\"),\\n    Err(error) =\u003e println!(\\\"Error: {error}\\\"),\\n}\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Il y a un raccourci avec le question mark \", _jsx(_components.code, {\n        children: \"?\"\n      }), \" qui permet de propager l'erreur à la fonction appelante.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Cela évite de faire un match.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let result = divide(10, 2)?;\\n// match result {\\n    // Ok(value) =\u003e println!(\\\"Result: {value}\\\"),\\n    // Err(error) =\u003e return Err(error),\\n// }\\nprintln!(\\\"Result: {result}\\\");\\nOk(())\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Unwrap\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [_jsx(_components.code, {\n        children: \"unwrap\"\n      }), \" est une méthode qui permet de récupérer la valeur d'un \", _jsx(_components.code, {\n        children: \"Result\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let result = divide(10, 2);\\nlet value = result.unwrap(); // value = 5\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.blockquote, {\n      className: \"callout note\",\n      children: [\"\\n                    \\n                        \", _jsxs(_components.div, {\n        className: \"callout-title\",\n        children: [\"\\n                            \", _jsx(_components.div, {\n          className: \"callout-icon\",\n          children: _jsxs(_components.svg, {\n            xmlns: \"http://www.w3.org/2000/svg\",\n            width: \"24\",\n            height: \"24\",\n            viewBox: \"0 0 24 24\",\n            fill: \"none\",\n            stroke: \"currentColor\",\n            strokeWidth: \"2\",\n            strokeLinecap: \"round\",\n            strokeLinejoin: \"round\",\n            children: [_jsx(_components.line, {\n              x1: \"18\",\n              y1: \"2\",\n              x2: \"22\",\n              y2: \"6\"\n            }), _jsx(_components.path, {\n              d: \"M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z\"\n            })]\n          })\n        }), \"\\n                            \", _jsx(_components.div, {\n          className: \"callout-title-inner\",\n          children: \"note\"\n        }), \"\\n                        \"]\n      }), \"\\n                    \\n                    \", _jsxs(_components.div, {\n        className: \"callout-content\",\n        children: [\"\\n                        \", _jsx(_components.p, {\n          children: \"Éviter les fonctions qui paniquent comme unwrap(), préférer les mécanismes comme ? pour propager les erreurs.\"\n        }), \"\\n                    \"]\n      }), \"\\n                \"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Possession / Ownership\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"En Rust, chaque fonction libère la mémoire de ses variables à la fin de son exécution (drop).\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Le propriétaire initial de la variable my_var est la fonction main.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"La variable my_var a été déplacée dans la fonction my_function qui devient le nouveau propriétaire.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Et elle est libérée à la fin de l'exécution de la fonction my_function.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Elle n'est donc plus accessible dans la fonction main, ce qui provoque une erreur.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Chaque propriétaire est responsable de vider la mémoire.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn my_function(myparam: String) {\\n    println!(\\\"myparam: {myparam}\\\");\\n}\\n\\nfn main() {\\n    let my_var = String::from(\\\"Hello\\\");\\n    my_function(my_var);\\n    println!(\\\"myvar: {my_var}\\\"); // Erreur : myvar a été déplacé dans la fonction\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Dans l'exemple ci-dessous, la variable a est déplacée (move) dans la variable b.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Le propriétaire de la variable a devient la variable b.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Cela provoque une erreur car la variable n'est plus accessible après avoir été déplacée dans b.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn main() {\\n    let a = String::from(\\\"Hello\\\");\\n    let b = a;\\n    println!(\\\"{a}\\\"); // Erreur : a a été déplacée dans b\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Emprunt / Borrowing\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Pour éviter l'erreur de propriété (borrowing), on peut emprunter la variable au lieu de la déplacer.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"La variable my_var est empruntée par la fonction my_function au lieu de la déplacer.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Le symbole \", _jsx(_components.code, {\n        children: \"\u0026\"\n      }), \" indique que la variable est empruntée. Il s'agit d'une référence (reference).\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"La fonction main reste le propriétaire de la variable my_var.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn my_function(myparam: \u0026String) {\\n    println!(\\\"myparam: {myparam}\\\");\\n}\\n\\nfn main() {\\n    let my_var = String::from(\\\"Hello\\\");\\n    my_function(\u0026my_var); // Emprunt de my_var\\n    println!(\\\"myvar: {my_var}\\\"); // my_var est toujours accessible\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Un autre exemple, la variable my_numbers est empruntée par la boucle for au lieu de la déplacer dans la boucle for.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Elle peut ainsi être utilisée après la boucle for pour afficher sa longueur (len).\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Sans la référence \", _jsx(_components.code, {\n        children: \"\u0026\"\n      }), \", la variable my_numbers serait déplacée dans la boucle for et ne serait plus accessible après la boucle for, ce qui provoquerait une erreur.\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn main() {\\n    let my_numbers = vec![10, 20, 30, 40];\\n\\n    for num in \u0026my_numbers {\\n        match num {\\n            30 =\u003e println!(\\\"thirty\\\"),\\n            _ =\u003e println!(\\\"{num}\\\"),\\n        }\\n    }\\n\\n    println!(\\\"Total {}\\\", my_numbers.len());\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Ces concepts de possession et d'emprunt permettent d'éviter des fuites de mémoire (memory leaks).\"\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Impl\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Le mot-clé \", _jsx(_components.code, {\n        children: \"impl\"\n      }), \" permet d'implémenter des méthodes pour un struct ou un enum.\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est l'équivalent d'une classe en JavaScript.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"struct User {\\n    name: String,\\n}\\n\\nimpl User {\\n    fn say_hello(\u0026self) {\\n        println!(\\\"Hello, my name is {}\\\", self.name);\\n    }\\n\\n    fn change_name(\u0026mut self) {\\n        self.name = String::from(\\\"Bob\\\");\\n    }\\n}\\n\\nfn main() {\\n    let mut user = User {\\n        name: String::from(\\\"John\\\"),\\n    };\\n\\n    user.say_hello(); // Affiche \\\"Hello, my name is John\\\"\\n    user.change_name();\\n    user.say_hello(); // Affiche \\\"Hello, my name is Bob\\\"\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Derives\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"#[derive(Debug)]\\nstruct User {\\n    name: String,\\n}\\n\\nfn main() {\\n    let user = User {\\n        name: String::from(\\\"John\\\"),\\n    };\\n\\n    println!(\\\"{:?}\\\", user); // Affiche \\\"User { name: \\\"John\\\" }\\\"\\n}\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Il existe aussi d'autres derives comme \", _jsx(_components.code, {\n        children: \"Clone\"\n      }), \", \", _jsx(_components.code, {\n        children: \"Copy\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Traits\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Un trait permet de définir une seule fonction pour plusieurs types de données.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Une manière se standardiser un comportement que l'on peut appliquer sur plusieurs types de données.\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est l'équivalent d'une interface en PHP.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Cela permet d'avoir une seule fonction (ex: \", _jsx(_components.code, {\n        children: \"log\"\n      }), \") plutôt que plusieurs fonctions (ex: \", _jsx(_components.code, {\n        children: \"log_phone\"\n      }), \" et \", _jsx(_components.code, {\n        children: \"log_email\"\n      }), \").\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Sans trait, la logique est dupliquée pour chaque type :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"struct Phone;\\nstruct Email;\\n\\nimpl Phone { fn notify(\u0026self) { println!(\\\"SMS\\\"); } }\\nimpl Email { fn notify(\u0026self) { println!(\\\"Email\\\"); } }\\n\\n// Logique dupliquée pour chaque type\\nfn log_phone(p: \u0026Phone) { println!(\\\"LOG:\\\"); p.notify(); }\\nfn log_email(e: \u0026Email) { println!(\\\"LOG:\\\"); e.notify(); }\\n\\nfn main() {\\n    log_phone(\u0026Phone);\\n    log_email(\u0026Email);\\n}\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Avec trait, une seule fonction suffit pour tous les types qui implémentent \", _jsx(_components.code, {\n        children: \"Notify\"\n      }), \" :\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"trait Notify { fn notify(\u0026self); }\\n\\nstruct Phone;\\nstruct Email;\\n\\nimpl Notify for Phone { fn notify(\u0026self) { println!(\\\"SMS\\\"); } }\\nimpl Notify for Email { fn notify(\u0026self) { println!(\\\"Email\\\"); } }\\n\\n// Une seule fonction pour tous les types\\nfn log(n: \u0026impl Notify) { println!(\\\"LOG:\\\"); n.notify(); }\\n\\nfn main() {\\n    log(\u0026Phone);\\n    log(\u0026Email);\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Option\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Option est un type de donnée qui peut être soit \", _jsx(_components.code, {\n        children: \"Some\"\n      }), \" (valeur présente) ou \", _jsx(_components.code, {\n        children: \"None\"\n      }), \" (valeur absente).\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Cela permet de gérer les valeurs nulles (null).\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"C'est un type de donnée optionnel.\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"struct User {\\n    name: String,\\n    age: Option\u003ci32\u003e,\\n}\\n\\nfn main() {\\n    let user1 = User {\\n        name: String::from(\\\"John\\\"),\\n        age: Some(30),\\n    };\\n\\n    let user2 = User {\\n        name: String::from(\\\"Bob\\\"),\\n        age: None,\\n    };\\n}\\n\"\n      })\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"Les types \", _jsx(_components.code, {\n        children: \"Option\"\n      }), \" ont des méthodes \", _jsx(_components.code, {\n        children: \"is_some\"\n      }), \" et \", _jsx(_components.code, {\n        children: \"is_none\"\n      }), \" pour vérifier si la valeur est présente ou absente.\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Closure\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Une closure est simplement une fonction anonyme.\"\n    }), \"\\n\", _jsxs(_components.p, {\n      children: [\"C'est une fonction sans nom qui est définie avec des barres verticales \", _jsx(_components.code, {\n        children: \"|\"\n      }), \" au lieu des parenthèses \", _jsx(_components.code, {\n        children: \"()\"\n      }), \".\"]\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn main() {\\n    // ou `let add = |a, b| a + b;`\\n    let add = |a: i32, b: i32| -\u003e i32 {\\n        return a + b;\\n    };\\n\\n    let result = add(10, 20);\\n    println!(\\\"Result: {result}\\\"); // Affiche \\\"Result: 30\\\"\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Passer une closure dans une fonction\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn math(a: i32, b: i32, op: impl Fn(i32, i32) -\u003e i32) -\u003e i32 {\\n    op(a, b)\\n}\\n\\nfn main() {\\n    let add = |a, b| {\\n        println!(\\\"Hello world\\\");\\n        a + b\\n    };\\n    println!(\\\"{}\\\", math(2, 2, add));\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Map\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvec = vec![1, 2, 3];\\nlet myvec2 = myvec.iter().map(|x| x * 2);\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Sleep\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Attendre pendant 1 seconde :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"thread::sleep(Duration::from_secs(1));\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Iterator\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let myvec = vec![1, 2, 3, 4, 5];\\nlet myvec2: Vec\u003c_\u003e = myvec.iter().map(|num| num + 1).collect();\\n// Ou\\nlet myvec2: Vec\u003c_\u003e = myvec.iter().filter(|\u0026\u0026num| num \u003c= 2).collect();\\n// Ou\\nlet myvec2: Option\u003c\u0026\u0026i32\u003e = myvec.iter().find(|\u0026\u0026num| num == 2);\\n// Ou\\nlet count = myvec.iter().count();\\n// Ou\\nlet last: Option\u003c\u0026i32\u003e = myvec.iter().last();\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Range\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"let range = 1..=3; // 1, 2, 3\\n// Ou\\nlet range = 1..3; // 1, 2\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Testing\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"fn all_caps(word: \u0026str) -\u003e String {\\n    word.to_uppercase()\\n}\\n\\n#[cfg(test)]\\nmod test {\\n    use crate::*;\\n    #[test]\\n    fn check_all_caps() {\\n        let result = all_caps(\\\"hello\\\");\\n        let expected = String::from(\\\"HELLO\\\");\\n        assert_eq!(result, expected, \\\"string should be all uppercase\\\");\\n    }\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Crates / Packages / Librairies\"\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Il existe 2 sites pour accéder aux crates :\"\n    }), \"\\n\", _jsxs(_components.ul, {\n      children: [\"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://crates.io/\",\n          children: \"https://crates.io/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://lib.rs/\",\n          children: \"https://lib.rs/\"\n        })\n      }), \"\\n\"]\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Pour installer un crate :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-bash\",\n        children: \"cargo add \u003ccrate\u003e\\n# Exemple\\ncargo add humantime\\n\"\n      })\n    }), \"\\n\", _jsx(_components.p, {\n      children: \"Pour utiliser le crate :\"\n    }), \"\\n\", _jsx(_components.pre, {\n      children: _jsx(_components.code, {\n        className: \"language-rust\",\n        children: \"use std::time::Duration;\\nuse humantime::format_duration; // importation\\n\\nfn main() {\\n    let d = Duration::from_secs(999);\\n    println!(\\\"{}\\\", format_duration(d)); // utilisation\\n}\\n\"\n      })\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Autres concepts\"\n    }), \"\\n\", _jsxs(_components.ul, {\n      children: [\"\\n\", _jsx(_components.li, {\n        children: \"Generics\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"Lifetimes\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"Buffer\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"Heap\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"Stack\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"If let\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"While let\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"Async\"\n      }), \"\\n\", _jsx(_components.li, {\n        children: \"Unsafe\"\n      }), \"\\n\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Exemples de packages\"\n    }), \"\\n\", _jsxs(_components.ul, {\n      children: [\"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/clap-rs/clap\",\n          children: \"https://github.com/clap-rs/clap\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/notify-rs/notify\",\n          children: \"https://github.com/notify-rs/notify\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/longbridge/gpui-component\",\n          children: \"https://github.com/longbridge/gpui-component\"\n        })\n      }), \"\\n\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Exemples de projets Rust\"\n    }), \"\\n\", _jsxs(_components.ul, {\n      children: [\"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/christo-auer/eilmeldung\",\n          children: \"https://github.com/christo-auer/eilmeldung\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/matthart1983/netwatch\",\n          children: \"https://github.com/matthart1983/netwatch\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/obdev/littlesnitch-linux\",\n          children: \"https://github.com/obdev/littlesnitch-linux\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/rgwood/systemctl-tui\",\n          children: \"https://github.com/rgwood/systemctl-tui\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/zed-industries/zed/\",\n          children: \"https://github.com/zed-industries/zed/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/erikjuhani/basalt/\",\n          children: \"https://github.com/erikjuhani/basalt/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/hrkfdn/ncspot\",\n          children: \"https://github.com/hrkfdn/ncspot\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/sharkdp/fd\",\n          children: \"https://github.com/sharkdp/fd\"\n        })\n      }), \"\\n\"]\n    }), \"\\n\", _jsx(_components.h2, {\n      children: \"Apprendre Rust\"\n    }), \"\\n\", _jsxs(_components.ul, {\n      children: [\"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://tourofrust.com\",\n          children: \"https://tourofrust.com\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://roadmap.sh/rust\",\n          children: \"https://roadmap.sh/rust\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://quickref.me/rust\",\n          children: \"https://quickref.me/rust\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://practice.course.rs\",\n          children: \"https://practice.course.rs\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://rust-exercises.com\",\n          children: \"https://rust-exercises.com\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://rust-lang.org/learn/\",\n          children: \"https://rust-lang.org/learn/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://rustlings.rust-lang.org/\",\n          children: \"https://rustlings.rust-lang.org/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://doc.rust-lang.org/book/\",\n          children: \"https://doc.rust-lang.org/book/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://rustadventure.dev/\",\n          children: \"https://rustadventure.dev/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://programiz.com/rust\",\n          children: \"https://programiz.com/rust\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://dev.letsgetrusty.com\",\n          children: \"https://dev.letsgetrusty.com\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://jrvidal.github.io/explaine.rs/\",\n          children: \"https://jrvidal.github.io/explaine.rs/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://learnxinyminutes.com/fr/rust/\",\n          children: \"https://learnxinyminutes.com/fr/rust/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://blog.guillaume-gomez.fr/Rust/\",\n          children: \"https://blog.guillaume-gomez.fr/Rust/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://app.codecrafters.io/tracks/rust\",\n          children: \"https://app.codecrafters.io/tracks/rust\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://product.letsgetrusty.com/bootcamp\",\n          children: \"https://product.letsgetrusty.com/bootcamp\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/sunface/rust-by-practice\",\n          children: \"https://github.com/sunface/rust-by-practice\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/rust-lang/rust-by-example\",\n          children: \"https://github.com/rust-lang/rust-by-example\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://zerotomastery.io/courses/learn-rust/\",\n          children: \"https://zerotomastery.io/courses/learn-rust/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://doc.rust-lang.org/stable/std/index.html\",\n          children: \"https://doc.rust-lang.org/stable/std/index.html\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://github.com/google/comprehensive-rust\",\n          children: \"https://github.com/google/comprehensive-rust\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://zerotomastery.io/cheatsheets/rust-cheat-sheet/\",\n          children: \"https://zerotomastery.io/cheatsheets/rust-cheat-sheet/\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://egghead.io/courses/write-your-first-program-with-the-rust-language\",\n          children: \"https://egghead.io/courses/write-your-first-program-with-the-rust-language\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://egghead.io/courses/learning-rust-by-solving-the-rustlings-exercises-a722\",\n          children: \"https://egghead.io/courses/learning-rust-by-solving-the-rustlings-exercises-a722\"\n        })\n      }), \"\\n\"]\n    }), \"\\n\", _jsx(_components.hr, {}), \"\\n\", _jsx(_components.p, {\n      children: \"Références :\"\n    }), \"\\n\", _jsxs(_components.ul, {\n      children: [\"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://youtu.be/5C_HPTJg5ek\",\n          children: \"Fireship - Rust in 100 Seconds\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://youtu.be/NxQNZ0eYk2w\",\n          children: \"Loïc Rust - L'Ownership en Rust\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://youtu.be/mZasv3__A9k\",\n          children: \"Eddie Gerbais-Nief - Apprendre le RUST partie #1 FR\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://youtu.be/rQ_J9WH6CGk\",\n          children: \"BekBrace - Rust Programming Full Course  | Learn in 2024\"\n        })\n      }), \"\\n\", _jsx(_components.li, {\n        children: _jsx(_components.a, {\n          href: \"https://youtu.be/BpPEoZW5IiY\",\n          children: \"freeCodeCamp.org - Learn Rust Programming - Complete Course\"\n        })\n      }), \"\\n\"]\n    })]\n  });\n}\nfunction MDXContent(props = {}) {\n  const {wrapper: MDXLayout} = {\n    ..._provideComponents(),\n    ...props.components\n  };\n  return MDXLayout ? _jsx(MDXLayout, {\n    ...props,\n    children: _jsx(_createMdxContent, {\n      ...props\n    })\n  }) : _createMdxContent(props);\n}\nreturn {\n  default: MDXContent\n};\n","frontmatter":{"title":"Rust","permalink":"rust","datePublished":"2026-04-14T10:49","dateUpdated":"2026-04-14T10:49","publish":true},"scope":{}},"isIndex":false,"file":"Rust.md","fileName":"Rust","title":"Rust","comments":true,"permalink":"rust","datePublished":"2026-04-14T10:49","dateUpdated":"2026-04-14T10:49","publish":true},"__N_SSG":true},"page":"/[[...permalink]]","query":{"permalink":["rust"]},"buildId":"36OKoh1-0HIYn_SVkgu9-","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>

@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 14 Apr 2026 13:25:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Apr 2026 22:13:27 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -9199,42 +9199,6 @@ echo &quot;hello world&quot; &gt; _site/index.html
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Initialiser terraform]]></title>
-            <link>https://johackim.com/initialiser-terraform?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/initialiser-terraform</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/initialiser-terraform.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/initialiser-terraform.jpg"/>
-            <content:encoded><![CDATA[<p>Pour initialiser terraform, créez un fichier <code>main.tf</code>, exemple :</p>
-<pre><code class="language-json">// main.tf
-terraform {
-  required_providers {
-    docker = {
-      source = &quot;kreuzwerker/docker&quot;
-    }
-  }
-}
-
-resource &quot;docker_image&quot; &quot;image_id&quot; {
-  name = &quot;ghost:latest&quot;
-}
-</code></pre>
-<p>Cet exemple demande l&#x27;utilisation de Docker sur notre machine hôte, n&#x27;oubliez pas d&#x27;<a href="/installer-docker" title="installer Docker">installer Docker</a>.</p>
-
-<p>Puis exécutez la commande suivante :</p>
-<pre><code class="language-bash">terraform init
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/terraform" title="Terraform">Terraform</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Jackett]]></title>
             <description><![CDATA[Jackett est un métamoteur de torrents open-source.]]></description>
             <link>https://johackim.com/jackett?utm_source=rss&amp;utm_medium=rss</link>
@@ -10020,32 +9984,31 @@ services:
 <p>Sur Arch Linux :</p>
 <pre><code class="language-bash">sudo pacman -S terraform
 </code></pre>
-<h2>Utilisation</h2>
-<p>Initialiser Terraform :</p>
+<h2>Initialiser Terraform</h2>
 <pre><code class="language-bash">terraform init
 </code></pre>
-<p>Vérifier la configuration :</p>
+<h2>Vérifier la configuration</h2>
 <pre><code class="language-bash">terraform plan
 </code></pre>
-<p>Mettre à jour l&#x27;infrastructure :</p>
+<h2>Mettre à jour l&#x27;infrastructure</h2>
 <pre><code class="language-bash">terraform apply
 </code></pre>
-<p>Importer un objet existant :</p>
+<h2>Importer un objet existant</h2>
 <pre><code class="language-bash">terraform import openstack_lb_loadbalancer_v2.lb_1 &lt;ID&gt;
 </code></pre>
-<p>Voir l&#x27;état actuel de l&#x27;infrastructure :</p>
+<h2>Voir l&#x27;état actuel de l&#x27;infrastructure</h2>
 <pre><code class="language-bash">terraform show
 </code></pre>
-<p>Gérer un workspace :</p>
+<h2>Gérer un workspace</h2>
 <pre><code class="language-bash">terraform workspace new &lt;name&gt; # Créer un workspace (ex: dev, prod)
 terraform workspace select &lt;name&gt; # Sélectionner un workspace
 terraform workspace delete &lt;name&gt; # Supprimer un workspace
 terraform workspace list # Lister les workspaces
 </code></pre>
-<p>Linter les fichiers .tf :</p>
+<h2>Linter les fichiers .tf</h2>
 <pre><code class="language-bash">terraform fmt -check -recursive
 </code></pre>
-<p>Détruire une infrastructure :</p>
+<h2>Détruire une infrastructure</h2>
 <pre><code class="language-bash">terraform destroy
 </code></pre>
 <hr/>
@@ -10321,10 +10284,6 @@ traefik:2.4.8 --providers.docker=true
 <li><a href="https://youtu.be/Zawx-N3-iko">Prendre de bonnes notes dans OBSIDIAN - ZETTELKASTEN dans obsidian</a></li>
 <li><a href="https://thesweetsetup.com/obsidian/">Mike Schmitz - The Sweet Setup</a></li>
 <li><a href="https://courses.nicolevanderhoeven.com/o4e">Nicole van der Hoeven - Obsidian for Everyone</a></li>
-<li>
-<a href="/creer-un-plugin-obsidian" title="Créer un plugin Obsidian" class="not-found">Créer un plugin Obsidian</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
