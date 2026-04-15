@@ -34,39 +34,37 @@ Sur Arch Linux :
 sudo pacman -S terraform
 ```
 
-## Utilisation
-
-Initialiser Terraform :
+## Initialiser Terraform
 
 ```bash
 terraform init
 ```
 
-Vérifier la configuration :
+## Vérifier la configuration
 
 ```bash
 terraform plan
 ```
 
-Mettre à jour l'infrastructure :
+## Mettre à jour l'infrastructure
 
 ```bash
 terraform apply
 ```
 
-Importer un objet existant :
+## Importer un objet existant
 
 ```bash
 terraform import openstack_lb_loadbalancer_v2.lb_1 <ID>
 ```
 
-Voir l'état actuel de l'infrastructure :
+## Voir l'état actuel de l'infrastructure
 
 ```bash
 terraform show
 ```
 
-Gérer un workspace :
+## Gérer un workspace
 
 ```bash
 terraform workspace new <name> # Créer un workspace (ex: dev, prod)
@@ -75,13 +73,13 @@ terraform workspace delete <name> # Supprimer un workspace
 terraform workspace list # Lister les workspaces
 ```
 
-Linter les fichiers .tf :
+## Linter les fichiers .tf
 
 ```bash
 terraform fmt -check -recursive
 ```
 
-Détruire une infrastructure :
+## Détruire une infrastructure
 
 ```bash
 terraform destroy

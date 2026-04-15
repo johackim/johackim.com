@@ -1,5 +1,6 @@
 ---
 title: Etcher
+links: "[[Boot USB]]"
 permalink: etcher
 description: Etcher est un logiciel de gravure d'image disque open-source.
 publish: true

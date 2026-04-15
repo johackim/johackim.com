@@ -32,7 +32,7 @@ comments: false
 Références :
 
 - https://rentry.org/Piracy-BG
-- https://new.reddit.com/r/Piracy/wiki/megathread/
+- https://reddit.com/r/Piracy/wiki/megathread/
 - https://github.com/Shakil-Shahadat/awesome-piracy
 - https://github.com/privateersclub/wiki
 - https://champagne.pages.dev/

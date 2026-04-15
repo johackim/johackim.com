@@ -3,12 +3,8 @@ title: Biais cognitifs
 permalink: biais-cognitifs
 datePublished: 2021-06-27T19:19
 dateUpdated: 2024-11-16T19:19:00
-tags:
-  - moc
-aliases:
-  - Bias
-  - Biais psychologiques
-  - Cognitive biases
+tags: [moc]
+aliases: [Cognitive biases]
 publish: true
 comments: false
 rating: 5
@@ -80,12 +76,12 @@ Les biais cognitifs sont un ensemble de particularités de l'esprit humain qui f
 - [[Biais de publication]]
 - [[Biais des incitations]]
 - [[L'effet spectateur]]
-- Overconfidence Effect
-- Information Bias
-- Apophenia Bias
-- Availability Cascade
-- Next-in-Line Effect
-- Selective Perception Bias
+- [[Overconfidence Effect]]
+- [[Information Bias]]
+- [[Apophenia Bias]]
+- [[Availability Cascade]]
+- [[Next-in-Line Effect]]
+- [[Selective Perception Bias]]
 
 ---
 

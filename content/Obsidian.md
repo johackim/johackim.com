@@ -126,4 +126,3 @@ Références :
 - [Prendre de bonnes notes dans OBSIDIAN - ZETTELKASTEN dans obsidian](https://youtu.be/Zawx-N3-iko)
 - [Mike Schmitz - The Sweet Setup](https://thesweetsetup.com/obsidian/)
 - [Nicole van der Hoeven - Obsidian for Everyone](https://courses.nicolevanderhoeven.com/o4e)
-- [[Créer un plugin Obsidian]]

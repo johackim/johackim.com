@@ -32,6 +32,7 @@ comments: false
 - [[MJML]]
 - [[Expo]]
 - [[Asdf]]
+- [[Rust]]
 - [[gitignore|.gitignore]]
 - [[React]]
 - [[JavaScript]]
@@ -71,5 +72,6 @@ Références :
 - https://cheatsheets.zip/
 - https://freecodecamp.org
 - https://dev-concepts.dev
+- https://quickref.me/
 - https://new.reddit.com/r/learnprogramming/wiki/faq/
 - [Fireship - A brief history of programming...](https://youtu.be/9uW6B9LPntY)
