@@ -3,6 +3,7 @@ title: Comment jailbreaker son Kindle avec la faille Adbreak ?
 permalink: jailbreak-kindle
 datePublished: 2025-09-30T10:00:00
 dateUpdated: 2025-11-23T10:00:00
+links: "[[Kindle]]"
 publish: true
 rss: true
 ---
@@ -174,8 +175,9 @@ Débranchez votre Kindle et cliquez sur le livre `KUAL` puis cliquez sur KOReade
 
 Références :
 
-- [[Kindle]]
 - https://kindlemodding.org/jailbreaking/AdBreak/
+- https://github.com/KindleTweaks/KindleForge
 - https://mobileread.com/forums/showthread.php?t=370048
 - https://mobileread.com/forums/showthread.php?t=225030
 - https://discord.com/channels/1083603487025274911/1166993303221321758/1421875686561546271
+- [Dammit Jeff - Your Kindle Can Finally Be Jailbroken Again.](https://youtu.be/l4ZliC82RtA)
