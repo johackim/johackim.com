@@ -3,6 +3,7 @@ permalink: adb
 description: Adb, l'outil pour gérer votre smartphone Android depuis votre ordinateur.
 datePublished: 2024-01-15T10:00:00
 dateUpdated: 2024-01-15T10:00:00
+links: "[[Android]]"
 publish: true
 rss: true
 ---
@@ -124,5 +125,4 @@ adb -s <device> <command>
 
 Références :
 
-- [[Android]]
 - https://github.com/liriliri/aya
