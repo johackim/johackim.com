@@ -899,6 +899,7 @@ fn main() {
 ## Exemples de packages
 
 - https://github.com/clap-rs/clap
+- https://github.com/vyfor/rattles
 - https://github.com/notify-rs/notify
 - https://github.com/longbridge/gpui-component
 

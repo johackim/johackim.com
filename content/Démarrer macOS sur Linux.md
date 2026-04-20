@@ -1,4 +1,5 @@
 ---
+links: "[[MacOS]]"
 datePublished: 2021-08-22T20:37
 dateUpdated: 2021-08-22T20:37
 permalink: demarrer-macos-sur-linux

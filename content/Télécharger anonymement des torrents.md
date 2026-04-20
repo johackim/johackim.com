@@ -5,10 +5,9 @@ dateUpdated: 2018-01-22T08:00
 permalink: verifier-ip-telechargement-torrents
 title: Comment vérifier que mon adresse IP n'est pas visible lorsque je télécharge des torrents ?
 description: Lorsque l'on télécharge des torrents, il se peut que notre adresse IP fuite même lors de l'utilisation d'un VPN. Comment vérifier que mon adresse IP n'est pas visible ?
+aliases: [Kill switch]
 publish: true
 rss: true
-aliases:
-  - Kill switch
 ---
 
 Lorsque l'on télécharge des torrents, il se peut que notre adresse IP fuite, même lors de l'utilisation d'un VPN.
@@ -40,4 +39,3 @@ Références :
 
 - [How To See If Your VPN Is Leaking Your IP Address (And How To Stop It)](https://lifehacker.com.au/2015/02/how-to-see-if-your-vpn-is-leaking-your-ip-address-and-how-to-stop-it/)
 - [My real location is detected when connected to VPN. How to disable geolocation?](https://ivpn.net/knowledgebase/troubleshooting/my-real-location-is-detected-when-connected-to-vpn-how-to-disable-geolocation/)
-- [[Torrent]]

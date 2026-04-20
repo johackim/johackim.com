@@ -1,9 +1,8 @@
 ---
-aliases:
-  - Large Language Model
 title: LLM
 permalink: llm
 description: Un LLM (Large Language Model) est un modèle de langage de grande taille.
+aliases: [Large Language Model]
 datePublished: 2024-04-29T10:00:00
 dateUpdated: 2024-05-15T10:00:00
 publish: true
