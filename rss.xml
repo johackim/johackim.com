@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 20 Apr 2026 06:34:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Apr 2026 10:16:47 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -13972,96 +13972,6 @@ make install-new-arch
 
 </li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Podcasts de hacker indépendant]]></title>
-            <description><![CDATA[Programmation, entrepreneuriat, cybersécurité, sport ou interviews de personnalités inspirantes, voici la liste des podcasts que j'écoute, en vélo, voiture, pendant la vaisselle ou avant de me coucher.]]></description>
-            <link>https://johackim.com/podcasts-freelance?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/podcasts-freelance</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Tue, 26 Jun 2018 10:00:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/podcasts-freelance.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/podcasts-freelance.jpg"/>
-            <content:encoded><![CDATA[<p>Programmation, entrepreneuriat, cybersécurité, sport ou interviews de personnalités inspirantes, voici la liste des podcasts que j&#x27;écoute, en vélo, voiture, pendant la vaisselle ou avant de me coucher.</p>
-<h2>Update 2024</h2>
-<p>Voici les podcasts que j&#x27;écoute en 2024 :</p>
-<ul>
-<li><a href="https://hubermanlab.com/">Huberman Lab</a></li>
-<li><a href="https://lexfridman.com/">Lex Fridman</a></li>
-<li><a href="https://nudgepodcast.com/">Nudge</a></li>
-<li><a href="https://chriswillx.com/podcast/">Modern Wisdom</a></li>
-<li><a href="https://markmanson.net/podcast">The Subtle Art of Not Giving a Fuck Podcast</a></li>
-</ul>
-<h2>Programmation</h2>
-<ul>
-<li><a href="https://feed.ausha.co/BxW2S9Mex0Vb">Artisan Développeur</a></li>
-<li><a href="https://feeds.fireside.fm/cafe-craft/rss">Café Craft</a></li>
-<li><a href="https://feed.pippa.io/public/shows/devobs">Dev&#x27;Obs</a></li>
-</ul>
-<h2>Cybersécurité</h2>
-<ul>
-<li><a href="https://hackstock.net/podcast.xml">Hackstock</a></li>
-<li><a href="https://comptoirsecu.fr/feed/podcast.xml">Le Comptoir Sécu</a></li>
-<li><a href="http://feeds.soundcloud.com/users/soundcloud:users:261098918/sounds.rss">The Privacy, Security, &amp; OSINT Show</a></li>
-<li><a href="https://nolimitsecu.fr/feed/podcast/">NoLimitSecu</a></li>
-</ul>
-<h2>Entrepreneuriat</h2>
-<ul>
-<li><a href="https://feeds.feedburner.com/des-livres-pour-changer-de-vie/podcast">Des livres pour changer de vie</a></li>
-<li><a href="https://spreaker.com/show/3085916/episodes/feed">Déchaîné</a></li>
-<li><a href="https://feed.pippa.io/public/shows/5b5f2ea4e14127853f949ee4">Growth Makers</a></li>
-<li><a href="https://feeds.transistor.fm/the-indie-hackers-podcast">Indie Hackers</a></li>
-<li><a href="https://anchor.fm/s/414d1d4/podcast/rss">Indie Makers</a></li>
-<li><a href="https://anchor.fm/s/f4b59b0/podcast/rss">Inspiration Créative</a></li>
-<li><a href="https://feeds.buzzsprout.com/222592.rss">Koudetat</a></li>
-<li><a href="https://rss.art19.com/la-lecon">La Leçon</a></li>
-<li><a href="https://feed.pippa.io/public/shows/lemanalshow">Le Manal Show</a></li>
-<li><a href="https://rss.art19.com/le-gratin-par-pauline-laigneau">Le Gratin</a></li>
-<li><a href="https://anchor.fm/s/8042efc/podcast/rss">Marketing Mania</a></li>
-<li><a href="https://olivier-roland-radio.com/feed/podcast/">Olivier Roland</a></li>
-<li><a href="https://feed.pippa.io/public/shows/5ac73e73ef7a4c2376786e3c">Optimise ta vie</a></li>
-<li><a href="https://feeds.podcastics.com/podcastics/podcasts/rss/243_35c44e391f9b9b94cc00db5701c10044.rss">Pause Dev&#x27;</a></li>
-<li><a href="http://feeds.soundcloud.com/users/soundcloud:users:99657457/sounds.rss">Johann Yang-Ting</a></li>
-<li><a href="https://feed.ausha.co/BNk3RSnVQlwa">Systemator</a></li>
-<li><a href="https://theknowledgeproject.libsyn.com/rss">The Knowledge Project</a></li>
-<li><a href="https://rss.art19.com/smart-passive-income-podcast">The Smart Passive Income</a></li>
-<li><a href="https://feed.ausha.co/o9KzzSN6Z43L">Tribu Indé</a></li>
-<li><a href="http://feeds.soundcloud.com/users/soundcloud:users:304936890/sounds.rss">La Tranchée</a></li>
-<li><a href="https://feed.ausha.co/BG3gafvxderG">Longue Vue</a></li>
-<li><a href="https://1j1e-podcast.libsyn.com/rss">1 Jour, 1 Entrepreneur</a></li>
-</ul>
-<h2>Sport</h2>
-<ul>
-<li><a href="https://fitnessmith.fr/feed/podcast/">La pause Fitness</a></li>
-<li><a href="https://danslateteduntriathlete.com/">Dans la tête d&#x27;un triathlète</a></li>
-<li><a href="https://open.spotify.com/show/3Vn2r4Nf0t6QDaWuJLp6dh">Muscle for Life with Mike Matthews</a></li>
-<li><a href="https://podcasts.apple.com/us/podcast/expansion-par-eric-flag/id1534491330">Expansion - par Eric Flag</a></li>
-<li><a href="https://open.spotify.com/show/4SOoCH4LM0V4WZt4wqiTLH">Dans la Tête d&#x27;un Coureur</a></li>
-</ul>
-<h2>Philosophie</h2>
-<ul>
-<li><a href="https://feeds.audiomeans.fr/feed/aced395e-6351-498a-9397-144bb12e80d6.xml">Le Précepteur</a></li>
-</ul>
-<h2>Interviews</h2>
-<ul>
-<li><a href="https://rss.acast.com/un-bon-moment">Un Bon Moment</a></li>
-<li><a href="http://joeroganexp.joerogan.libsynpro.com/rss">The Joe Rogan Experience</a></li>
-<li><a href="https://feed.pippa.io/public/shows/5aa93c3d02e6c30d742dd776">Nouvelle École</a></li>
-<li><a href="https://subscribeonandroid.com/thinkerview.com/feed/podcast/">Thinkerview</a></li>
-</ul>
-<h2>Autres</h2>
-<ul>
-<li><a href="https://rss.acast.com/emotions">Émotions</a></li>
-<li><a href="https://feeds.soundcloud.com/users/soundcloud:users:20146382/sounds.rss">Radio Sauvage</a></li>
-<li><a href="http://rss.acast.com/anouk-perry-podcast">Anouk Perry</a></li>
-</ul>
-<h2>Bonus</h2>
-<p><em>Applications pour retranscrire et sauvegarders certains passages d&#x27;un podcast</em></p>
-<ul>
-<li><a href="https://airr.io/">Airr</a></li>
-<li><a href="https://app.momento.fm/">Momento</a></li>
-</ul>
-<p>Si vous êtes sur Android je vous conseille l&#x27;application open-source <a href="http://antennapod.org/">AntennaPod</a> disponible sur le store <a href="https://f-droid.org/packages/de.danoeh.antennapod">F-Droid</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment acheter un article non expédiable en France ?]]></title>
