@@ -223,12 +223,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/sport</loc>
-        <lastmod>2024-11-12T02:46:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/nomachine</loc>
         <lastmod>2024-11-01T20:00:00</lastmod>
         <changefreq>daily</changefreq>
@@ -919,12 +913,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/detecter-le-format-dune-date</loc>
-        <lastmod>2021-09-16T22:10</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages</loc>
         <lastmod>2021-09-16T22:10</lastmod>
         <changefreq>daily</changefreq>
@@ -1237,12 +1225,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/inspecter-toutes-les-couches-d'une-image-docker</loc>
-        <lastmod>2021-06-07T20:36</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/initialiser-eslint-sur-un-projet-javascript</loc>
         <lastmod>2021-06-07T20:36</lastmod>
         <changefreq>daily</changefreq>
@@ -1345,12 +1327,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/demarrer-un-conteneur-docker</loc>
-        <lastmod>2021-05-18T12:40</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/docker-swarm</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
@@ -1369,12 +1345,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/entrer-a-l'interieur-d'un-conteneur-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/glusterfs</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
@@ -1382,12 +1352,6 @@
     </url>
     <url>
         <loc>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/initialiser-un-cluster-docker-swarm</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
@@ -1405,12 +1369,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://johackim.com/lister-les-conteneurs-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://johackim.com/service-docker</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
@@ -1418,12 +1376,6 @@
     </url>
     <url>
         <loc>https://johackim.com/stack-docker</loc>
-        <lastmod>2021-05-17T17:32</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/supprimer-un-conteneur-docker</loc>
         <lastmod>2021-05-17T17:32</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>

@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 04 May 2026 10:43:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 13:33:34 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -5495,25 +5495,6 @@ source ~/.bashrc
 </ul>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Détecter le format d'une date]]></title>
-            <link>https://johackim.com/detecter-le-format-dune-date?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/detecter-le-format-dune-date</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Thu, 16 Sep 2021 22:10:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/detecter-le-format-dune-date.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/detecter-le-format-dune-date.jpg"/>
-            <content:encoded><![CDATA[<p>Pour connaitre le format d&#x27;une date, il existe l&#x27;outil en ligne <a href="https://nsdateformatter.com/">NSDateFormatter</a>.</p>
-<p>Renseignez votre date (ex : <code>2021-01-01T10:00</code>) dans le champs <code>DATE INPUT</code> et le site retournera le format de la date -&gt; <code>ISO 8601 format</code>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/programmation" title="Programmation">Programmation</a>
-
-</li>
-</ul>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Github Pages]]></title>
             <link>https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages</guid>
@@ -8292,22 +8273,6 @@ gi () {
 </code></pre>
 <p>À chaque fois que je souhaite créer un fichier <code>.gitignore</code>, pour un projet Nodejs par exemple, j&#x27;exécute la commande suivante :</p>
 <pre><code class="language-bash">gi node &gt; .gitignore
-</code></pre>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Docker history]]></title>
-            <link>https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/inspecter-toutes-les-couches-d&apos;une-image-docker</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/inspecter-toutes-les-couches-d&apos;une-image-docker.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/inspecter-toutes-les-couches-d&apos;une-image-docker.jpg"/>
-            <content:encoded><![CDATA[<p>Pour inspecter toutes les couches d&#x27;une image <a href="/docker" title="Docker">Docker</a>, il existe la commande suivante :</p>
-
-<pre><code class="language-bash">docker history --no-trunc &lt;image&gt;
-</code></pre>
-<p>ou</p>
-<pre><code class="language-bash">docker run -v /var/run/docker.sock:/var/run/docker.sock --rm ghcr.io/laniksj/dfimage &lt;image&gt;
 </code></pre>]]></content:encoded>
         </item>
         <item>
