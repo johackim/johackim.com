@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://johackim.com</loc>
-        <lastmod>2026-04-15T20:36:00</lastmod>
+        <lastmod>2026-05-03T00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://johackim.com/restic</loc>
+        <lastmod>2026-05-03T00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -21,12 +27,6 @@
     <url>
         <loc>https://johackim.com/start</loc>
         <lastmod>2026-04-13T15:03:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/restic</loc>
-        <lastmod>2026-04-02T00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
@@ -741,12 +741,6 @@
     <url>
         <loc>https://johackim.com/nextjs</loc>
         <lastmod>2021-12-19T17:57:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://johackim.com/contact</loc>
-        <lastmod>2021-11-29T08:42</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>

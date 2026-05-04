@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 27 Apr 2026 18:05:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 10:43:10 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -1285,6 +1285,7 @@ cscli decisions remove --ip &lt;ip&gt;
 </code></pre>
 <h2>Supprimer toutes les décisions</h2>
 <pre><code class="language-bash">cscli decisions delete --all
+cscli capi register
 </code></pre>
 <h2>Débugger une requête</h2>
 <pre><code class="language-bash">echo $(tail -n1 /var/log/traefik/access.json) | cscli explain --file - --type=json --verbose
@@ -1369,15 +1370,7 @@ cscli decisions remove --ip &lt;ip&gt;
 </ul>
 <p>Et si vous rencontrez encore des problèmes, cochez toutes les cases de la checklist (Self-Check).</p>
 <p>Très pratique pour pouvoir utiliser des applications qui nécessitent obligatoirement Google Play Services comme Strava ou ChatGPT 🙂 !</p>
-<p>PS : Il est aussi possible d&#x27;installer LineageOS avec microG directement intégré depuis le site <a href="https://lineage.microg.org/">https://lineage.microg.org/</a></p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/android" title="Android" class="not-found">Android</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>PS : Il est aussi possible d&#x27;installer LineageOS avec microG directement intégré depuis le site <a href="https://lineage.microg.org/">https://lineage.microg.org/</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Tailwind CSS]]></title>
@@ -2819,10 +2812,6 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 
 </li>
 <li>Le livre de la jungle - Younès Rharbaoui</li>
-<li>
-<a href="/traction-gabriel-weinberg" title="Traction - Gabriel Weinberg" class="not-found">Traction - Gabriel Weinberg</a>
-
-</li>
 <li><a href="https://yannleonardi.com/framework-aarrr/">https://yannleonardi.com/framework-aarrr/</a></li>
 <li><a href="https://airtable.com/shrzVGqmdLpoPQF9i">https://airtable.com/shrzVGqmdLpoPQF9i</a></li>
 <li><a href="https://youtu.be/xf7oPPjvpA4">The Ouss Shadow Army - Le framework AARRR (OUSSAMA AMMAR)</a></li>
@@ -4302,40 +4291,6 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
 
 </li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Pourquoi suis-je difficilement joignable ?]]></title>
-            <link>https://johackim.com/contact?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/contact</guid>
-            <dc:creator><![CDATA[johackim]]></dc:creator>
-            <pubDate>Mon, 29 Nov 2021 08:42:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/contact.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/contact.jpg"/>
-            <content:encoded><![CDATA[<p>À l&#x27;époque, il existait seulement 2 moyens de nous joindre, par courrier ou en physique. Aujourd&#x27;hui, avec internet il en existe des dizaines.</p>
-<p>Cependant, il y a quelque chose qui n&#x27;a pas changé, le temps. Nous avons toujours que 24h dans une journée et notre temps sur cette terre est limitée.</p>
-<p>J&#x27;envie cette époque où l&#x27;on pouvait être libre de nos mouvements sans être sans cesse alpagué par n&#x27;importe qui.</p>
-<p>Notre temps est la ressource la plus importante. Une fois écoulé, il n&#x27;est pas possible d&#x27;en ravoir.</p>
-<p>Alors, pourquoi permettre à tout le monde de nous joindre à n&#x27;importe quel moment de la journée sous prétexte qu&#x27;un téléphone sert à être joignable ?</p>
-<p>On a souvent le réflexe de répondre immédiatement à chaque message par &quot;urgence&quot; (Scarcity). Cette urgence étant très rare, est-ce que cette peur doit justifier tout ce temps perdu ?</p>
-<blockquote class="callout quote">
-                    
-                        <div class="callout-title">
-                            <div class="callout-icon"></div>
-                            <div class="callout-title-inner">L’ancien président des États-Unis Dwight D. Eisenhower</div>
-                        </div>
-                    
-                    <div class="callout-content">
-                        <p>« Les choses urgentes sont rarement importantes, et les choses importantes sont rarement urgentes »</p>
-                    </div>
-                </blockquote>
-<p>Du coup, pour éviter d&#x27;être sans cesse dans la réaction plutôt que dans la création, j&#x27;ai décidé de faire comme Christopher Nolan<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup> et de ne plus être joignable par téléphone, e-mail ou toute autre application de messagerie à quelques exceptions près.</p>
-<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
-<ol>
-<li id="user-content-fn-1">
-<a href="https://fr.wikipedia.org/wiki/Christopher_Nolan#Vie_personnelle">https://fr.wikipedia.org/wiki/Christopher_Nolan#Vie_personnelle</a> <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a>
-</li>
-</ol>
-</section>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Flashcard]]></title>
@@ -9633,12 +9588,9 @@ After=network-online.target
 [Service]
 Type=oneshot
 ExecStart=restic -q backup ${HOME}
-# ExecStartPost=curl -sL https://mywebhook.example.com
 Environment=RESTIC_REPOSITORY=s3:example.com/mybucket
 Environment=RESTIC_PASSWORD=myp@ssw0rd
 Environment=HOME=/home/myuser
-Restart=on-failure
-RestartSec=30
 </code></pre>
 <p>Créer un timer dans le fichier <code>~/.config/systemd/user/restic.timer</code>:</p>
 <pre><code class="language-txt">[Unit]
@@ -9674,7 +9626,20 @@ systemctl --user enable --now restic.timer
 <p>Et exécuter la commande suivante pour optimiser le repository :</p>
 <pre><code class="language-bash">RESTIC_COMPRESSION=max restic prune --repack-uncompressed [--dry-run]
 </code></pre>
-<p>Utilisez bien l&#x27;option <code>--dru-run</code> pour vérifier que l&#x27;optimisation vaut bien le coup avant de lancer la commande, car c&#x27;est une commande très lourde.</p>]]></content:encoded>
+<p>Utilisez bien l&#x27;option <code>--dru-run</code> pour vérifier que l&#x27;optimisation vaut bien le coup avant de lancer la commande, car c&#x27;est une commande très lourde.</p>
+<h2>Utiliser qu&#x27;un seul disque dur</h2>
+<pre><code class="language-bash">restic backup -x # Ou --one-file-system
+</code></pre>
+<h2>Faire un diff</h2>
+<pre><code class="language-bash">restic diff &lt;ID_ANCIEN&gt; &lt;ID_NOUVEAU&gt;
+</code></pre>
+<h2>Récupérer les snapshots</h2>
+<p>Si des snapshots ont été supprimés accidentellement avec la commande <code>restic forget</code> et que vous n&#x27;avez pas encore exécuter la commande <code>restic prune</code>, il est possible de les récupérer via 2 manières :</p>
+<p>Dans le cas où vous avez une copie de votre dépôt restic, la meilleure solution est de restaurer tous les fichiers qui ont été supprimés du dossier snapshots.</p>
+<p>Sinon, la 2ème solution est d&#x27;exécuter la commande suivante :</p>
+<pre><code class="language-bash">restic recover
+</code></pre>
+<p>Cela va créer un nouveau snapshot taggé &quot;recovered&quot; avec tous les snapshots à l&#x27;intérieur (sans les dates ou les tags).</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Service Docker]]></title>
@@ -12942,19 +12907,7 @@ mv swaks /usr/local/bin/
 <p>Et si vous voulez entrer votre mot de passe dans un prompt sécurisé :</p>
 <pre><code class="language-bash">swaks --from &lt;email&gt; -au &lt;email&gt; -s smtp.example.com:587 --protect-prompt -tls -a LOGIN --to &lt;email&gt;
 </code></pre>
-<p>J&#x27;espère que ça vous sera utile !</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/serveur-e-mail" title="Serveur e-mail" class="not-found">Serveur e-mail</a>
-
-</li>
-<li>
-<a href="/e-mail" title="E-mail" class="not-found">E-mail</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>J&#x27;espère que ça vous sera utile !</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Pourquoi certaines idées survivent et d'autres meurent ?]]></title>
