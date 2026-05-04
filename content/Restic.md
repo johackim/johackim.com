@@ -2,7 +2,7 @@
 title: Restic
 permalink: restic
 datePublished: 2021-05-17T17:32
-dateUpdated: 2026-04-02T00:00
+dateUpdated: 2026-05-03T00:00
 publish: true
 rss: true
 ---
@@ -163,12 +163,9 @@ After=network-online.target
 [Service]
 Type=oneshot
 ExecStart=restic -q backup ${HOME}
-# ExecStartPost=curl -sL https://mywebhook.example.com
 Environment=RESTIC_REPOSITORY=s3:example.com/mybucket
 Environment=RESTIC_PASSWORD=myp@ssw0rd
 Environment=HOME=/home/myuser
-Restart=on-failure
-RestartSec=30
 ```
 
 Créer un timer dans le fichier `~/.config/systemd/user/restic.timer`:
@@ -228,3 +225,29 @@ RESTIC_COMPRESSION=max restic prune --repack-uncompressed [--dry-run]
 ```
 
 Utilisez bien l'option `--dru-run` pour vérifier que l'optimisation vaut bien le coup avant de lancer la commande, car c'est une commande très lourde.
+
+## Utiliser qu'un seul disque dur
+
+```bash
+restic backup -x # Ou --one-file-system
+```
+
+## Faire un diff
+
+```bash
+restic diff <ID_ANCIEN> <ID_NOUVEAU>
+```
+
+## Récupérer les snapshots
+
+Si des snapshots ont été supprimés accidentellement avec la commande `restic forget` et que vous n'avez pas encore exécuter la commande `restic prune`, il est possible de les récupérer via 2 manières :
+
+Dans le cas où vous avez une copie de votre dépôt restic, la meilleure solution est de restaurer tous les fichiers qui ont été supprimés du dossier snapshots.
+
+Sinon, la 2ème solution est d'exécuter la commande suivante :
+
+```bash
+restic recover
+```
+
+Cela va créer un nouveau snapshot taggé "recovered" avec tous les snapshots à l'intérieur (sans les dates ou les tags).

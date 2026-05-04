@@ -417,6 +417,7 @@ cscli decisions remove --ip <ip>
 
 ```bash
 cscli decisions delete --all
+cscli capi register
 ```
 
 ## Débugger une requête

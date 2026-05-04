@@ -73,7 +73,6 @@ Références :
 
 - [[Corey Haines - Mental Models For Marketing]]
 - Le livre de la jungle - Younès Rharbaoui
-- [[Traction - Gabriel Weinberg]]
 - https://yannleonardi.com/framework-aarrr/
 - https://airtable.com/shrzVGqmdLpoPQF9i
 - [The Ouss Shadow Army - Le framework AARRR (OUSSAMA AMMAR)](https://youtu.be/xf7oPPjvpA4)

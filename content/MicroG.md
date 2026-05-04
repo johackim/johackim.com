@@ -4,6 +4,7 @@ permalink: microg
 description: MicroG est une alternative à Google Play Services.
 datePublished: 2024-04-08T10:00:00
 dateUpdated: 2024-04-08T10:00:00
+links: "[[Android]]"
 publish: true
 rss: true
 ---
@@ -43,9 +44,3 @@ Et si vous rencontrez encore des problèmes, cochez toutes les cases de la check
 Très pratique pour pouvoir utiliser des applications qui nécessitent obligatoirement Google Play Services comme Strava ou ChatGPT 🙂 !
 
 PS : Il est aussi possible d'installer LineageOS avec microG directement intégré depuis le site https://lineage.microg.org/
-
----
-
-Références :
-
-- [[Android]]

@@ -3,11 +3,13 @@ title: Tester l'envoi d'un e-mail en ligne de commande
 permalink: tester-envoi-email-ligne-de-commande
 datePublished: 2020-08-26T06:00
 dateUpdated: 2020-08-26T06:00
-aliases:
-  - Tester l'envoi d'un e-mail en ligne de commande
+aliases: [Tester l'envoi d'un e-mail en ligne de commande]
 description: Comment tester simplement l'envoi d'un e-mail en ligne de commande sur Linux ?
 publish: true
 rss: true
+links:
+  - "[[Serveur e-mail]]"
+  - "[[E-mail]]"
 ---
 
 Comment tester simplement l'envoi d'un e-mail en ligne de commande sur [[Linux]] ?
@@ -55,10 +57,3 @@ swaks --from <email> -au <email> -s smtp.example.com:587 --protect-prompt -tls -
 ```
 
 J'espère que ça vous sera utile !
-
----
-
-Références :
-
-- [[Serveur e-mail]]
-- [[E-mail]]
