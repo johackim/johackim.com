@@ -4,7 +4,14 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 04 May 2026 13:36:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 13:38:35 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[202605041536]]></title>
+            <description><![CDATA[Hello world from next.js!]]></description>
+            <link>https://johackim.com/202605041536</link>
+            <guid isPermaLink="false">https://johackim.com/202605041536</guid>
+            <pubDate>Mon, 04 May 2026 15:36:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>
