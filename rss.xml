@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 04 May 2026 19:11:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 May 2026 18:11:02 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -1286,6 +1286,8 @@ cscli decisions remove --ip &lt;ip&gt;
 <h2>Supprimer toutes les décisions</h2>
 <pre><code class="language-bash">cscli decisions delete --all
 cscli capi register
+mv http-crawl-non_statics.yaml http-crawl-non_statics.yaml.bak
+mv http-probing.yaml http-probing.yaml.bak
 </code></pre>
 <h2>Débugger une requête</h2>
 <pre><code class="language-bash">echo $(tail -n1 /var/log/traefik/access.json) | cscli explain --file - --type=json --verbose
@@ -2107,6 +2109,9 @@ python ab_decrypt.py -b backup.ab -o backup.tar
 <h2>Installer une application</h2>
 <p>Pour installer une application sur votre smartphone :</p>
 <pre><code class="language-bash">adb install &lt;app.apk&gt;
+</code></pre>
+<h2>Downgrade une application</h2>
+<pre><code class="language-bash">adb install -r -d &lt;app.apk&gt;
 </code></pre>
 <h2>Redémarrer sur le bootloader</h2>
 <p>Si vous souhaitez changer de ROM, vous pouvez redémarrer sur le bootloader avec la commande suivante :</p>
@@ -4818,15 +4823,7 @@ apt install -y shadowusb
 <h2>Se connecter depuis SSH</h2>
 <p>Si vous voulez vous connecter depuis SSH via du port forwarding, exécutez la commande suivante :</p>
 <pre><code class="language-bash">ssh -N -L 4000:127.0.0.1:4000 user@server
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/linux" title="Linux">Linux</a>
-
-</li>
-</ul>]]></content:encoded>
+</code></pre>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Découvrez d'où proviennent les visiteurs de votre site avec les paramètres UTM]]></title>
@@ -5215,7 +5212,12 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
 <p>Vous pouvez ensuite vous connectez en ssh via la commande :</p>
 <pre><code class="language-bash">ssh root@&lt;ip&gt;
 </code></pre>
-<p>Le mot de passe par défaut est <code>libreelec</code>.</p>]]></content:encoded>
+<p>Le mot de passe par défaut est <code>libreelec</code>.</p>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://github.com/LibreELEC/LibreELEC.tv">https://github.com/LibreELEC/LibreELEC.tv</a></li>
+</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Résumé du livre Refactoring UI de Adam Wathan]]></title>
@@ -7483,15 +7485,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
             <webfeeds:featuredImage url="https://johackim.com/covers/leffet-lindy.jpg"/>
             <content:encoded><![CDATA[<p>L&#x27;<strong>effet Lindy</strong> est une théorie selon laquelle l&#x27;espérance de vie future d&#x27;une chose non périssable, implique une espérance de vie restante plus longue à chaque fois qu&#x27;elle survit à une période de temps.</p>
 <p>C&#x27;est un modèle mental introduit par Nassim Nicholas Taleb dans son livre Antifragile.</p>
-<p>Exemple : Si un livre existe depuis 100 ans, on peut supposer qu&#x27;il existera encore pendant 100 autres années.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="/antifragile-nassim-taleb" title="Antifragile - Nassim Taleb" class="not-found">Antifragile - Nassim Taleb</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Exemple : Si un livre existe depuis 100 ans, on peut supposer qu&#x27;il existera encore pendant 100 autres années.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Le modèle comportemental de Fogg]]></title>
@@ -8352,7 +8346,20 @@ console.log(&#x27;Mon code javascript&#x27;);
             <pubDate>Mon, 07 Jun 2021 20:36:00 GMT</pubDate>
             <media:content url="https://johackim.com/covers/iptv.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/iptv.jpg"/>
-            <content:encoded><![CDATA[<p>L’Internet Protocol TeleVision ou, IPTV, est le fait d’accéder à des chaines de télévision avec internet. Ce qui permet ’avoir accès à la télévision sur un ordinateur ou smartphone.</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>L’Internet Protocol TeleVision ou, IPTV, est le fait d’accéder à des chaines de télévision avec internet. Ce qui permet ’avoir accès à la télévision sur un ordinateur ou smartphone.</p>
+<hr/>
+<p>Références :</p>
+<ul>
+<li><a href="https://captvty.fr/">https://captvty.fr/</a></li>
+<li><a href="https://alliptvlinks.com/">https://alliptvlinks.com/</a></li>
+<li><a href="https://socceronline.me/">https://socceronline.me/</a></li>
+<li><a href="https://qatarstreams.me/">https://qatarstreams.me/</a></li>
+<li><a href="https://novea-hosting.com/">https://novea-hosting.com/</a></li>
+<li><a href="https://rentry.co/IPTV-Playlists">https://rentry.co/IPTV-Playlists</a></li>
+<li><a href="https://github.com/chrisbenincasa/tunarr">https://github.com/chrisbenincasa/tunarr</a></li>
+<li><a href="https://github.com/HerbertHe/iptv-sources">https://github.com/HerbertHe/iptv-sources</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/137Yw178ruq_v7_33al_B1PoGPyuGCANDNhLnDGXdrVg/edit">https://docs.google.com/spreadsheets/d/137Yw178ruq_v7_33al_B1PoGPyuGCANDNhLnDGXdrVg/edit</a></li>
+</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Kodi]]></title>
@@ -9495,6 +9502,18 @@ aws_secret_access_key = &lt;AWS_SECRET_ACCESS_KEY&gt;
 <pre><code class="language-bash">restic -r s3:s3.fr-par.scw.cloud/&lt;bucket_name&gt; init
 </code></pre>
 <pre><code class="language-bash">restic -r s3:s3.fr-par.scw.cloud/&lt;bucket_name&gt; backup ~/
+</code></pre>
+<p>Si vous avez plusieurs profils dans <code>~/.aws/credentials</code>, vous pouvez utiliser la variable <code>AWS_PROFILE</code> pour sélectionner celui à utiliser sans modifier la section <code>[default]</code> :</p>
+<pre><code class="language-txt"># ~/.aws/credentials
+[scaleway]
+aws_access_key_id = &lt;SCW_ACCESS_KEY_ID&gt;
+aws_secret_access_key = &lt;SCW_SECRET_ACCESS_KEY&gt;
+
+[ovh]
+aws_access_key_id = &lt;AWS_ACCESS_KEY_ID&gt;
+aws_secret_access_key = &lt;AWS_SECRET_ACCESS_KEY&gt;
+</code></pre>
+<pre><code class="language-bash">AWS_PROFILE=scaleway restic -r s3:s3.fr-par.scw.cloud/&lt;bucket_name&gt; backup ~/
 </code></pre>
 <p>Il est possible de facilement automatiser la sauvegarde via une tâche cron :</p>
 <pre><code class="language-bash">RESTIC_REPOSITORY=&quot;MY_REPOSITORY&quot; # Exemple: s3:s3.fr-par.scw.cloud/mybucket
