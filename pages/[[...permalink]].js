@@ -13,6 +13,11 @@ const INDEX_FILE = '202104091703';
 
 const components = {
     pre: Code,
+    table: (props) => (
+        <div className="overflow-x-auto">
+            <table {...props} />
+        </div>
+    ),
     a: ({ href, title, children, className = '' }) => {
         if (className.includes('not-found')) {
             return (
