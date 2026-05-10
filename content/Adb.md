@@ -103,6 +103,12 @@ Pour installer une application sur votre smartphone :
 adb install <app.apk>
 ```
 
+## Downgrade une application
+
+```bash
+adb install -r -d <app.apk>
+```
+
 ## Redémarrer sur le bootloader
 
 Si vous souhaitez changer de ROM, vous pouvez redémarrer sur le bootloader avec la commande suivante :

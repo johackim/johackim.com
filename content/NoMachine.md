@@ -4,6 +4,7 @@ permalink: nomachine
 description: NoMachine est un outil pour accéder à un ordinateur à distance.
 datePublished: 2021-10-24T20:00
 dateUpdated: 2024-11-01T20:00:00
+links: "[[Remote desktop]]"
 publish: true
 rss: true
 ---
@@ -57,9 +58,3 @@ Si vous voulez vous connecter depuis SSH via du port forwarding, exécutez la co
 ```bash
 ssh -N -L 4000:127.0.0.1:4000 user@server
 ```
-
----
-
-Références :
-
-- [[Linux]]

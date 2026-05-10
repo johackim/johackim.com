@@ -418,6 +418,8 @@ cscli decisions remove --ip <ip>
 ```bash
 cscli decisions delete --all
 cscli capi register
+mv http-crawl-non_statics.yaml http-crawl-non_statics.yaml.bak
+mv http-probing.yaml http-probing.yaml.bak
 ```
 
 ## Débugger une requête

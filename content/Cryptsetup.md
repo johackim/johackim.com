@@ -4,6 +4,7 @@ permalink: cryptsetup
 description: Cryptsetup est un outil pour chiffrer une partition d'un disque dur.
 datePublished: 2021-08-01T21:31
 dateUpdated: 2021-08-01T21:31
+links: "[[Chiffrement]]"
 publish: true
 rss: true
 ---

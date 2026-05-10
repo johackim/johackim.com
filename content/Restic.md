@@ -63,6 +63,23 @@ restic -r s3:s3.fr-par.scw.cloud/<bucket_name> init
 restic -r s3:s3.fr-par.scw.cloud/<bucket_name> backup ~/
 ```
 
+Si vous avez plusieurs profils dans `~/.aws/credentials`, vous pouvez utiliser la variable `AWS_PROFILE` pour sélectionner celui à utiliser sans modifier la section `[default]` :
+
+```txt
+# ~/.aws/credentials
+[scaleway]
+aws_access_key_id = <SCW_ACCESS_KEY_ID>
+aws_secret_access_key = <SCW_SECRET_ACCESS_KEY>
+
+[ovh]
+aws_access_key_id = <AWS_ACCESS_KEY_ID>
+aws_secret_access_key = <AWS_SECRET_ACCESS_KEY>
+```
+
+```bash
+AWS_PROFILE=scaleway restic -r s3:s3.fr-par.scw.cloud/<bucket_name> backup ~/
+```
+
 Il est possible de facilement automatiser la sauvegarde via une tâche cron :
 
 ```bash
