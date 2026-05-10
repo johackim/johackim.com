@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 10 May 2026 18:20:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 May 2026 21:55:29 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -63,9 +63,7 @@ greywall -- gemini
 
 <blockquote class="callout attention">
                     
-                    <div class="callout-content">
-                        <p>Si vous avez une règle deny (ex: 20*.md), que vous effectuez la commande greywall et qu&#x27;un nouveau fichier est créé entre temps, le fichier pourra être lu.</p>
-                    </div>
+                    <div class="callout-content"><p>Si vous avez une règle deny (ex: <code>20*.md</code>), que vous effectuez la commande <code>greywall</code> et qu&#x27;un nouveau fichier est créé entre temps, le fichier pourra être lu.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -122,12 +120,10 @@ greywall -- gemini
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://spreadprivacy.com/how-does-google-track-me-even-when-im-not-using-it/</div>
+                            <div class="callout-title-inner"><https: spreadprivacy.com="" how-does-google-track-me-even-when-im-not-using-it=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>86.5% des 75 000 sites les plus populaires au monde utilisent Google Analytics et 34.2% utilisent Facebook Pixel.</p>
-                    </div>
+                    <div class="callout-content"><p>86.5% des 75 000 sites les plus populaires au monde utilisent Google Analytics et 34.2% utilisent Facebook Pixel.</p></div>
                 </blockquote>
 <p>Résultat, lorsque vous créez un compte Google ou Facebook et que vous vous baladez sur internet, ils récupèrent tout votre historique de navigation.</p>
 <p>Si vous partagez des informations comme votre âge, votre adresse IP, votre géolocalisation, vos photos et vos centres d&#x27;intérêt, ils peuvent vous proposer des publicités ultra-ciblées.</p>
@@ -186,23 +182,19 @@ Installer un <a href="/vpn" title="VPN" class="not-found">VPN</a> (ex : <a href=
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Évitez de mettre à jour votre Kindle en version 5.18.6, la faille Adbreak a été patché.</p>
-                    </div>
+                    <div class="callout-content"><p>Évitez de mettre à jour votre Kindle en version 5.18.6, la faille Adbreak a été patché.</p></div>
                 </blockquote>
 <blockquote class="callout note">
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Si la version de votre firmware est inférieure à 5.18.1, utilisez le jailbreak WinterBreak.</p>
-                    </div>
+                    <div class="callout-content"><p>Si la version de votre firmware est inférieure à 5.18.1, utilisez le jailbreak <a href="https://kindlemodding.org/jailbreaking/WinterBreak/">WinterBreak</a>.</p></div>
                 </blockquote>
 <p>Voici les étapes pour jailbreaker votre Kindle.</p>
 <h2>1. Mettre votre Kindle en mode avion pour éviter les mises à jour</h2>
@@ -246,12 +238,10 @@ Installer un <a href="/vpn" title="VPN" class="not-found">VPN</a> (ex : <a href=
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>You can safely ignore any &quot;application error&quot; popups, they are irrelevant.</p>
-                    </div>
+                    <div class="callout-content"><p>You can safely ignore any &quot;application error&quot; popups, they are irrelevant.</p></div>
                 </blockquote>
 <p>Cela devrait afficher le message suivant :</p>
 <pre><code class="language-txt">**** AdBreak Jailbreak ****
@@ -278,12 +268,10 @@ Enabled mntus exec flag
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Vous devrez exécuter ce livre Run Hotfix après chaque mise à jour de votre Kindle.</p>
-                    </div>
+                    <div class="callout-content"><p>Vous devrez exécuter ce livre <code>Run Hotfix</code> après chaque mise à jour de votre Kindle.</p></div>
                 </blockquote>
 <h2>8. Désactiver les mises à jour over-the-air (facultatif)</h2>
 <p>Voici la procédure pour éviter que des mises à jour soit automatiquement installés via le WIFI.</p>
@@ -296,12 +284,10 @@ Enabled mntus exec flag
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Pour réinitialiser, rétrograder ou mettre à jour votre Kindle, ouvrez KUAL et sélectionnez Rename OTA Binaries puis Restore.</p>
-                    </div>
+                    <div class="callout-content"><p>Pour réinitialiser, rétrograder ou mettre à jour votre Kindle, ouvrez <code>KUAL</code> et sélectionnez <code>Rename OTA Binaries</code> puis <code>Restore</code>.</p></div>
                 </blockquote>
 <h2>9. Installation de KOReader (facultatif)</h2>
 <p>Pour installer KOReader, il faut d&#x27;abord installer KUAL (Kindle Unified Application Launcher) et MRPI (MobileRead Package Installer).</p>
@@ -315,12 +301,10 @@ Enabled mntus exec flag
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Faites de la place en supprimant un des fichiers du dossier fill_disk si besoin.</p>
-                    </div>
+                    <div class="callout-content"><p>Faites de la place en supprimant un des fichiers du dossier <code>fill_disk</code> si besoin.</p></div>
                 </blockquote>
 <p>Débranchez votre Kindle et tapez <code>;log mrpi</code> dans la barre de recherche de votre Kindle et appuyez sur entrée.</p>
 <p>Un livre <code>KUAL</code> devrait apparaitre dans votre bibliothèque.</p>
@@ -351,12 +335,10 @@ Enabled mntus exec flag
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Ne fonctionne plus depuis le 27 février 2025, cela donne une erreur &quot;No valid download URL found&quot;.</p>
-                    </div>
+                    <div class="callout-content"><p>Ne fonctionne plus depuis le 27 février 2025, cela donne une erreur &quot;No valid download URL found&quot;.</p></div>
                 </blockquote>
 <p>Si vous avez de nombreux livres et que vous souhaitez les télécharger sans devoir le faire manuellement, il existe l&#x27;outil <a href="https://github.com/treetrum/amazon-kindle-bulk-downloader">amazon-kindle-bulk-downloader</a>.</p>
 <h2>Installation</h2>
@@ -518,9 +500,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
                             <div class="callout-title-inner">The Art of Living - Epictetus</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Happiness and freedom begin with a clear understanding of one principle: Some things are within our control, and some things are not.</p>
-                    </div>
+                    <div class="callout-content"><p>Happiness and freedom begin with a clear understanding of one principle: Some things are within our control, and some things are not.</p></div>
                 </blockquote>
 <blockquote class="callout quote">
                     
@@ -529,9 +509,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
                             <div class="callout-title-inner">Shantideva</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>If the problem can be solved why worry? If the problem cannot be solved worrying will do you no good.</p>
-                    </div>
+                    <div class="callout-content"><p>If the problem can be solved why worry? If the problem cannot be solved worrying will do you no good.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -693,12 +671,10 @@ Créer votre boot USB avec <a href="/etcher" title="Etcher">Etcher</a> ou <code>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Je vous conseille d&#x27;installer Arch Linux manuellement une première fois puis d&#x27;utiliser ArchInstall une fois que vous avez compris les bases de l&#x27;installation 🙂.</p>
-                    </div>
+                    <div class="callout-content"><p>Je vous conseille d&#x27;installer Arch Linux manuellement une première fois puis d&#x27;utiliser ArchInstall une fois que vous avez compris les bases de l&#x27;installation 🙂.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -835,12 +811,10 @@ Créer votre boot USB avec <a href="/etcher" title="Etcher">Etcher</a> ou <code>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Bien que LLamaIndex peut utiliser des LLMs open-source (ex: Llama3), il fonctionne par défaut avec GPT-3 d&#x27;OpenAI. Donc n&#x27;oubliez pas que chaque requête à l&#x27;API d&#x27;OpenAI est facturée 😉</p>
-                    </div>
+                    <div class="callout-content"><p>Bien que LLamaIndex peut utiliser des LLMs open-source (ex: <a href="https://github.com/meta-llama/llama">Llama3</a>), il fonctionne par défaut avec GPT-3 d&#x27;OpenAI. Donc n&#x27;oubliez pas que chaque requête à l&#x27;API d&#x27;OpenAI est facturée 😉</p></div>
                 </blockquote>
 <h2>Installation</h2>
 <p>Commencez par créer un compte sur <a href="https://platform.openai.com/">OpenAI</a> pour pouvoir utiliser l&#x27;API GPT-3.</p>
@@ -1183,12 +1157,10 @@ nikto -host https://example.com
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Effectuer ce test via une autre adresse IP (ex: via un VPN) pour éviter d&#x27;être bloqué 😅.</p>
-                    </div>
+                    <div class="callout-content"><p>Effectuer ce test via une autre adresse IP (ex: via un VPN) pour éviter d&#x27;être bloqué 😅.</p></div>
                 </blockquote>
 <p>Puis vérifiez les décisions de crowdsec :</p>
 <pre><code class="language-bash">sudo cscli decisions list
@@ -1227,12 +1199,10 @@ labels:
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Il est possible de devoir exécuter cscli bouncers delete traefik-bouncer avant pour pouvoir récupérer la clé.</p>
-                    </div>
+                    <div class="callout-content"><p>Il est possible de devoir exécuter <code>cscli bouncers delete traefik-bouncer</code> avant pour pouvoir récupérer la clé.</p></div>
                 </blockquote>
 <p>Et je redémarre la stack docker avec la variable d&#x27;environnement <code>CROWDSEC_BOUNCER_API_KEY</code> qui contient la clé d&#x27;api qui s&#x27;affiche en sortie de la commande précédente.</p>
 <p>Chaque service relié à Traefik sera protégé par CrowdSec.</p>
@@ -1791,12 +1761,10 @@ sudo pacman -Rsn ollama
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>En cours de création</p>
-                    </div>
+                    <div class="callout-content"><p>En cours de création</p></div>
                 </blockquote>
 <p>Comment utiliser <code>ollama run &lt;model&gt;</code> (ou open-webui) avec un serveur GPU distant uniquement lorsque une requête est envoyé ?</p>
 <pre><code class="language-bash">OLLAMA_HOST=https://my.proxy.com ollama run deepseek-r1
@@ -1835,9 +1803,9 @@ sudo pacman -Rsn ollama
 <h2>Premier démarrage</h2>
 <blockquote class="callout important">
                     
-                    <div class="callout-content">
-                        <p>Pensez à bien vous connecter en root la première fois et PAS avec l&#x27;utilisateur dietpi.Personnellement, je me connecte en SSH pour le premier démarrage.Cela me permet d&#x27;être à l&#x27;aise avec mon clavier et mon ordinateur habituel et éviter les erreurs.</p>
-                    </div>
+                    <div class="callout-content"><p>Pensez à bien vous connecter en <code>root</code> la première fois et PAS avec l&#x27;utilisateur <code>dietpi</code>.</p>
+<p>Personnellement, je me connecte en SSH pour le premier démarrage.</p>
+<p>Cela me permet d&#x27;être à l&#x27;aise avec mon clavier et mon ordinateur habituel et éviter les erreurs.</p></div>
                 </blockquote>
 <p>Une fois la carte SD branché et le Raspberry Pi allumé, vous pouvez vous connecter via l&#x27;interface TTY ou en SSH avec <code>ssh root@X.X.X.X</code> (le mot de passe par défaut est <code>dietpi</code>).</p>
 <p>Le premier démarrage installera automatiquement les mises à jour et vous demandera de changer le mot de passe par défaut.</p>
@@ -2206,9 +2174,7 @@ SUM:                            73            888              3           7407
                             <div class="callout-title-inner">Daniel Kahneman</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>We should aim for a compromise: recognize situations when we’re vulnerable to mistakes, and avoid large mistakes when the stakes are high.</p>
-                    </div>
+                    <div class="callout-content"><p>We should aim for a compromise: recognize situations when we’re vulnerable to mistakes, and avoid large mistakes when the stakes are high.</p></div>
                 </blockquote>
 <blockquote class="callout quote">
                     
@@ -2217,9 +2183,7 @@ SUM:                            73            888              3           7407
                             <div class="callout-title-inner">The Science of Self-Control - Menno Henselmans</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>System 2 has serial processing. Like older computers, the conscious part of your brain can only attend to 1 thing at a time.</p>
-                    </div>
+                    <div class="callout-content"><p>System 2 has serial processing. Like older computers, the conscious part of your brain can only attend to 1 thing at a time.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -2260,12 +2224,11 @@ SUM:                            73            888              3           7407
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://x.com/Giuliano_Mana/status/1875543112325722481</div>
+                            <div class="callout-title-inner"><https: x.com="" giuliano_mana="" status=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>You don&#x27;t understand what &quot;first principles&quot; really mean until you listen to a physicist reasoning. It&#x27;s about going to the end of the world chasing a chain of &#x27;whys&#x27;.</p>
-                    </div>
+                    <div class="callout-content"><p>You don&#x27;t understand what &quot;first principles&quot; really mean until you listen to a physicist reasoning.</p>
+<p>It&#x27;s about going to the end of the world chasing a chain of &#x27;whys&#x27;.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -2312,9 +2275,7 @@ SUM:                            73            888              3           7407
             <content:encoded><![CDATA[<p>Depuis que X (Twitter) a rendu son API payante, il est devenu difficile de récupérer le nombre de followers d&#x27;un compte. Voici une solution pour récupérer le nombre de followers d&#x27;un compte Twitter sans utiliser l&#x27;API de Twitter.</p>
 <blockquote class="callout important">
                     
-                    <div class="callout-content">
-                        <p>Depuis que le projet Nitter est arrêté, la solution présentée dans cet article ne fonctionne plus. Depuis, j&#x27;utilise l&#x27;API gratuite de Rapid API ou celle-ci</p>
-                    </div>
+                    <div class="callout-content"><p>Depuis que le <a href="https://github.com/zedeus/nitter">projet Nitter</a> est arrêté, la solution présentée dans cet article ne fonctionne plus. Depuis, j&#x27;utilise l&#x27;<a href="https://rapidapi.com/twttrapi-twttrapi-default/api/twttrapi">API gratuite de Rapid API</a> ou <a href="https://rapidapi.com/alexanderxbx/api/twitter-api45">celle-ci</a></p></div>
                 </blockquote>
 <p>Au lieu de passer par Twitter directement, je passe par <a href="https://nitter.net/">Nitter</a>, un <a href="https://github.com/mendel5/alternative-front-ends">front-end</a> open-source pour Twitter.</p>
 <p>J&#x27;utilise cette technique sur <a href="https://github.com/johackim/johackim.com/commit/a771519fbe142c9aee768841821ccac3d34f798a">mon blog</a> pour afficher le nombre de followers de mon compte Twitter.</p>
@@ -2548,23 +2509,20 @@ Créer un <a href="/journaling" title="journal" class="not-found">journal</a>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">quote</div>
+                            <div class="callout-title-inner">Quote</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>When working toward your goals, it’s easy to sabotage your success by doubting yourself. For example, you might feel intimidated by your opponents—anyone who you think doubts your ability to succeed, and who makes you doubt yourself. This could be a boss, teacher, or coworker.Instead, work to harness your feelings around that perceived doubt and use them to apply yourself and prove your opponent wrong.</p>
-                    </div>
+                    <div class="callout-content"><p>When working toward your goals, it’s easy to sabotage your success by doubting yourself. For example, you might feel intimidated by your opponents—anyone who you think doubts your ability to succeed, and who makes you doubt yourself. This could be a boss, teacher, or coworker.</p>
+<p>Instead, work to harness your feelings around that perceived doubt and use them to apply yourself and prove your opponent wrong.</p></div>
                 </blockquote>
 <blockquote class="callout quote">
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">quote</div>
+                            <div class="callout-title-inner">Quote</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Goggins calls this “taking souls”—acknowledging your opponents and using your feelings toward them to fuel your best work, take them by surprise, and earn their respect.</p>
-                    </div>
+                    <div class="callout-content"><p>Goggins calls this “taking souls”—acknowledging your opponents and using your feelings toward them to fuel your best work, take them by surprise, and earn their respect.</p></div>
                 </blockquote>
 <h2>Challenge 5 : Visualiser le succès</h2>
 <p><em>Visualize Success</em></p>
@@ -2572,12 +2530,10 @@ Créer un <a href="/journaling" title="journal" class="not-found">journal</a>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">quote</div>
+                            <div class="callout-title-inner">Quote</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>The only guaranteed way to fail is to quit</p>
-                    </div>
+                    <div class="callout-content"><p>The only guaranteed way to fail is to quit</p></div>
                 </blockquote>
 <ul>
 <li>Visualiser un challenge et un obstacle que vous avez besoin de dépasser</li>
@@ -2590,12 +2546,10 @@ Créer un <a href="/journaling" title="journal" class="not-found">journal</a>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">quote</div>
+                            <div class="callout-title-inner">Quote</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p></p><p> Another strategy to keep yourself working toward your goals even when you face obstacles is <a href="/fosse-inverse" title="reminding yourself of your previous accomplishments" class="not-found">reminding yourself of your previous accomplishments</a>. Goggins calls this collection of accomplishments your Cookie Jar</p><p></p>
-                    </div>
+                    <div class="callout-content"><p>Another strategy to keep yourself working toward your goals even when you face obstacles is reminding yourself of your previous accomplishments. Goggins calls this collection of accomplishments your Cookie Jar</p></div>
                 </blockquote>
 <ol>
 <li>Utiliser son journal pour noter toutes les victoires de notre vie.</li>
@@ -2675,12 +2629,10 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Courtland Allen - Créateur de indiehackers.com</div>
+                            <div class="callout-title-inner">[Courtland Allen - Créateur de indiehackers.com](https://indiehackers.com/about#:~:text=You%27re%20an%20indie%20hacker%20if%20you%27ve%20set%20out%20to%20make%20money%20independently.%20That%20means%20you%27re%20generating%20revenue%20directly%20from%20your%20customers%2C%20not%20indirectly%20through%20an%20employer.%20Other%20than%20that%2C%20there%20are%20no%20requirements)</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Vous êtes un indie hacker si vous gagner de l&#x27;argent de manière indépendante. Cela signifie que vous générez des revenus directement auprès de vos clients, et non indirectement par l&#x27;intermédiaire d&#x27;un employeur. À part ça, il n&#x27;y a pas d&#x27;exigences !</p>
-                    </div>
+                    <div class="callout-content"><p>Vous êtes un indie hacker si vous gagner de l&#x27;argent de manière indépendante. Cela signifie que vous générez des revenus directement auprès de vos clients, et non indirectement par l&#x27;intermédiaire d&#x27;un employeur. À part ça, il n&#x27;y a pas d&#x27;exigences !</p></div>
                 </blockquote>
 <h2>🧐 Comment devenir indie hacker ?</h2>
 <p>En théorie, aucune étude est nécessaire, vous avez juste besoin d&#x27;un ordinateur et d&#x27;une connexion internet.</p>
@@ -2842,9 +2794,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
                             <div class="callout-title-inner"><a href="/atomic-habits-james-clear" title="Atomic Habits - James Clear">Atomic Habits - James Clear</a></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p></p><p> La dopamine est libérée non seulement lorsque vous éprouvez du plaisir, mais également quand vous l’anticipez.</p><p></p>
-                    </div>
+                    <div class="callout-content"><p>La dopamine est libérée non seulement lorsque vous éprouvez du plaisir, mais également quand vous l’anticipez.</p></div>
                 </blockquote>
 <p>Un manque de dopamine peut engendrer des problèmes mentaux comme des troubles de l&#x27;attention ou d&#x27;hyperactivité.</p>
 <blockquote class="callout question">
@@ -2854,9 +2804,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
                             <div class="callout-title-inner">Qu&#x27;est ce que la dopamine ?</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Neurotransmetteur qui se libère lorsque l&#x27;on éprouve du plaisir ou qu&#x27;on l&#x27;anticipe.</p>
-                    </div>
+                    <div class="callout-content"><p>Neurotransmetteur qui se libère lorsque l&#x27;on éprouve du plaisir ou qu&#x27;on l&#x27;anticipe.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -3247,12 +3195,10 @@ gpg&gt; save
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://g-loaded.eu/2010/11/01/change-expiration-date-gpg-key/</div>
+                            <div class="callout-title-inner"><https: g-loaded.eu="" change-expiration-date-gpg-key=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>En théorie, le propriétaire d&#x27;une clé privée expirée devrait toujours avoir la possibilité de déchiffrer des données et également être en mesure de signer des données, même si toutes les sous-clés publiques de la paire de clés actuelle ont expiré, car il est toujours possible de réinitialiser la date d&#x27;expiration sur le clés publiques actuellement expirées.</p>
-                    </div>
+                    <div class="callout-content"><p>En théorie, le propriétaire d&#x27;une clé privée expirée devrait toujours avoir la possibilité de déchiffrer des données et également être en mesure de signer des données, même si toutes les sous-clés publiques de la paire de clés actuelle ont expiré, car il est toujours possible de réinitialiser la date d&#x27;expiration sur le clés publiques actuellement expirées.</p></div>
                 </blockquote>
 <h2>Chiffer avec vim</h2>
 <p>Installer <a href="https://github.com/jamessan/vim-gnupg">vim-gnupg</a>.</p>
@@ -3272,12 +3218,10 @@ gpg&gt; save
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Tapez key 1 si il s&#x27;agit d&#x27;une subkey.</p>
-                    </div>
+                    <div class="callout-content"><p>Tapez <code>key 1</code> si il s&#x27;agit d&#x27;une subkey.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -3304,9 +3248,7 @@ gpg&gt; save
                             <div class="callout-title-inner">Edward Snowden</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>« Dire que l&#x27;on s&#x27;en fiche du droit à la vie privée sous prétexte qu&#x27;on n&#x27;a rien à cacher, c&#x27;est comme déclarer que l&#x27;on se fiche du droit à la liberté d&#x27;expression sous prétexte qu&#x27;on n&#x27;a rien à dire. »</p>
-                    </div>
+                    <div class="callout-content"><p>« Dire que l&#x27;on s&#x27;en fiche du droit à la vie privée sous prétexte qu&#x27;on n&#x27;a rien à cacher, c&#x27;est comme déclarer que l&#x27;on se fiche du droit à la liberté d&#x27;expression sous prétexte qu&#x27;on n&#x27;a rien à dire. »</p></div>
                 </blockquote>
 <h2>Pour éviter le cyberharcèlement</h2>
 <p>Si vous étalez toute votre vie privée sur internet, vous donnez la possibilité à des personnes mal intentionnées de vous harceler numériquement.</p>
@@ -3372,12 +3314,10 @@ export PATH=$PATH:$ASDF_DATA_DIR/shims
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Avec Python, si vous rencontrez une erreur lors du lancement d&#x27;une commande pip install, exécutez là de cette manière : sudo -E pip install --break-system-packages <package>.</package></p>
-                    </div>
+                    <div class="callout-content"><p>Avec Python, si vous rencontrez une erreur lors du lancement d&#x27;une commande <code>pip install</code>, exécutez là de cette manière : <code>sudo -E pip install --break-system-packages &lt;package&gt;</code>.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -3596,9 +3536,7 @@ scli link
                             <div class="callout-title-inner">Nassim Taleb</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>L&#x27;antifragilité dépasse la résistance et la solidité. Ce qui est résistant supporte les chocs et reste pareil ; ce qui est antifragile s’améliore.</p>
-                    </div>
+                    <div class="callout-content"><p>L&#x27;antifragilité dépasse la résistance et la solidité. Ce qui est résistant supporte les chocs et reste pareil ; ce qui est antifragile s’améliore.</p></div>
                 </blockquote>
 <ul>
 <li><strong>Fragile</strong> : qui se casse ou s&#x27;affaiblit lors d&#x27;un impact.</li>
@@ -4380,12 +4318,10 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Gurwinder - Licensing effect</div>
+                            <div class="callout-title-inner">[Gurwinder - Licensing effect](https://gurwinder.substack.com/i/139156228/licensing-effect)</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Believing you’re good can make you behave bad. Those who consider themselves virtuous worry less about their own behavior, making them more susceptible to ethical lapses. A big cause of immorality is self-righteous morality.</p>
-                    </div>
+                    <div class="callout-content"><p>Believing you’re good can make you behave bad. Those who consider themselves virtuous worry less about their own behavior, making them more susceptible to ethical lapses. A big cause of immorality is self-righteous morality.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -4526,12 +4462,10 @@ sudo chmod +x /usr/local/bin/shadow
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Si vous êtes sur windows, utilisez le lien https://shdw.me/winalpha.</p>
-                    </div>
+                    <div class="callout-content"><p>Si vous êtes sur windows, utilisez le lien <a href="https://shdw.me/winalpha">https://shdw.me/winalpha</a>.</p></div>
                 </blockquote>
 <p><strong>Avec docker</strong> :</p>
 <pre><code class="language-bash">sudo -E pip install -U docker-compose
@@ -4719,9 +4653,7 @@ apt install -y shadowusb
 <p>Ne travaillez que sur les tâches qui se rapportent aux cinq premiers objectifs.</p>
 <blockquote class="callout warning">
                     
-                    <div class="callout-content">
-                        <p>Contrairement aux centaines de références à ce sujet sur internet et les livres, cette méthode n&#x27;a jamais été inventé ni pratiqué par Warren Buffet.</p>
-                    </div>
+                    <div class="callout-content"><p>Contrairement aux centaines de références à ce sujet <a href="https://x.com/richwebz/status/1597243978738442240">sur internet</a> et <a href="https://amzn.to/312RSIn">les livres</a>, <a href="https://youtu.be/9d0oTksDb8A?t=5567">cette méthode n&#x27;a jamais été inventé ni pratiqué par Warren Buffet</a>.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -4890,9 +4822,7 @@ Identifiez la contrainte (le <a href="/goulot-d&#x27;etranglement" title="Goulot
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>La performance globale d&#x27;un système est déterminée par son maillon le plus faible.</p>
-                    </div>
+                    <div class="callout-content"><p>La performance globale d&#x27;un système est déterminée par son maillon le plus faible.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -5102,12 +5032,11 @@ Répétez ce processus chaque jour de travail
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://gurwinder.substack.com/p/40-useful-concepts-you-should-know</div>
+                            <div class="callout-title-inner"><https: gurwinder.substack.com="" p=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>The Two-Minute Rule: If a task would take less than two minutes, do it immediately. This is because adding the task to your mental to-do list, keeping it in your memory, and managing the anxiety of not having done it will take far more effort than just doing it now.</p>
-                    </div>
+                    <div class="callout-content"><p>The Two-Minute Rule:</p>
+<p>If a task would take less than two minutes, do it immediately. This is because adding the task to your mental to-do list, keeping it in your memory, and managing the anxiety of not having done it will take far more effort than just doing it now.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -5133,9 +5062,7 @@ Répétez ce processus chaque jour de travail
                             <div class="callout-title-inner">Hyperfocus - Chris Bailey</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>At the start of each day, choose the three things you want to have accomplished by day’s end.</p>
-                    </div>
+                    <div class="callout-content"><p>At the start of each day, choose the three things you want to have accomplished by day’s end.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -5313,12 +5240,10 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://www.julian.com/blog/mental-model-examples</div>
+                            <div class="callout-title-inner"><https: www.julian.com="" blog="" mental-model-examples=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>To maximize your long-term happiness, prioritize projects you’d most regret not having pursued by the time you’re old and looking back at your life.</p>
-                    </div>
+                    <div class="callout-content"><p>To maximize your long-term happiness, prioritize projects you’d most regret not having pursued by the time you’re old and looking back at your life.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -5545,19 +5470,15 @@ jobs:
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Pour connaitre la liste des adresse IPs, exécutez la commande dig A your_github_username.github.io.</p>
-                    </div>
+                    <div class="callout-content"><p>Pour connaitre la liste des adresse IPs, exécutez la commande <code>dig A your_github_username.github.io</code>.</p></div>
                 </blockquote>
 <p>Ou une zone de type CNAME avec <code>your_github_username.github.io</code> si vous utilisez un sous-domaine.</p>
 <blockquote class="callout important">
                     
-                    <div class="callout-content">
-                        <p>N&#x27;oubliez pas de créer un fichier CNAME avec votre nom de domaine ou sous-domaine à l&#x27;intérieur du fichier pour que Github Page garde bien le nom de domaine lors des prochains déploiements.</p>
-                    </div>
+                    <div class="callout-content"><p>N&#x27;oubliez pas de créer un fichier <code>CNAME</code> avec votre nom de domaine ou sous-domaine à l&#x27;intérieur du fichier pour que Github Page garde bien le nom de domaine lors des prochains déploiements.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -5762,12 +5683,13 @@ cd mac-on-linux-with-qemu
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Choose Disk Utility and then select the largest Apple Inc. VirtIO Block Media disk.Click the Erase button to format the disk to APFS, and give it any recognizable name you like.</p>
-                    </div>
+                    <div class="callout-content"><ul>
+<li>Choose <code>Disk Utility</code> and then select the largest <code>Apple Inc. VirtIO Block Media</code> disk.</li>
+<li>Click the <code>Erase</code> button to format the disk to APFS, and give it any recognizable name you like.</li>
+</ul></div>
                 </blockquote>
 <p><code>CTRL</code> + <code>ALT</code> + <code>G</code> pour sortir de la VM.</p>
 <h2>Avec QuickEmu</h2>
@@ -6123,12 +6045,10 @@ export default app;
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://entreprendre.service-public.fr/vosdroits/F23547</div>
+                            <div class="callout-title-inner"><https: entreprendre.service-public.fr="" vosdroits="" f23547=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Si l&#x27;entrepreneur ne dispose d&#x27;aucun local et exerce son activité à domicile (ou chez ses clients), celui-ci est quand même redevable de la CFE. Dans ce cas, le montant de la CFE est déterminé en fonction du chiffre d&#x27;affaires réalisé sur une période de 12 mois (au cours de l&#x27;année N-2).</p>
-                    </div>
+                    <div class="callout-content"><p>Si l&#x27;entrepreneur ne dispose d&#x27;aucun local et <strong>exerce son activité à domicile</strong> (ou chez ses clients), celui-ci est quand même redevable de la CFE. Dans ce cas, le montant de la CFE est déterminé <strong>en fonction du chiffre d&#x27;affaires</strong> réalisé sur une période de 12 mois (au cours de l&#x27;année N-2).</p></div>
                 </blockquote>
 <p>OU, pour payer mensuellement :</p>
 <ul>
@@ -6660,9 +6580,7 @@ Excellente exécution = 1,000,000€</p>
                             <div class="callout-title-inner">James Clear</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Tout objectif est voué à l&#x27;échec s&#x27;il va à l&#x27;encontre de la nature humaine.</p>
-                    </div>
+                    <div class="callout-content"><p>Tout objectif est voué à l&#x27;échec s&#x27;il va à l&#x27;encontre de la nature humaine.</p></div>
                 </blockquote>
 <p>Voici les 4 lois pour <strong>créer une bonne habitude</strong> :</p>
 <ol>
@@ -6971,9 +6889,12 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
             <webfeeds:featuredImage url="https://johackim.com/covers/biais-ancrage.jpg"/>
             <content:encoded><![CDATA[<blockquote class="callout question">
                     
-                    <div class="callout-content">
-                        <p>- Qu&#x27;est-ce que le biais d&#x27;ancrage ? Notre tendance à donner plus d&#x27;importance à la première information que l&#x27;on voit.</p>
-                    </div>
+                        <div class="callout-title">
+                            
+                            <div class="callout-title-inner">- Qu&#x27;est-ce que le biais d&#x27;ancrage ?</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>Notre tendance à donner plus d&#x27;importance à la première information que l&#x27;on voit.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -7003,12 +6924,13 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">Et tout le monde s&#x27;en fout #80 - Toi</div>
+                            <div class="callout-title-inner">[Et tout le monde s&#x27;en fout #80 - Toi](https://youtu.be/rdsm5XqPt7g?t=903)</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Ton cerveau, il confirme ce que tu crois.En gros, plus tu crois un truc, et plus ton cerveau va sélectionner dans la réalité des détails qui va mettre bout à bout pour te prouver que ce que tu crois, c&#x27;est la vérité.Le cerveau, il renforce ce sur quoi tu poses ton attention tous les jours.Ça ne veut pas dire que ce que tu crois, c&#x27;est faux. Ça veut dire que ce que tu vises détermine ce que tu vois.</p>
-                    </div>
+                    <div class="callout-content"><p>Ton cerveau, il confirme ce que tu crois.</p>
+<p>En gros, plus tu crois un truc, et plus ton cerveau va sélectionner dans la réalité des détails qui va mettre bout à bout pour te prouver que ce que tu crois, c&#x27;est la vérité.</p>
+<p>Le cerveau, <strong>il renforce ce sur quoi tu poses ton attention tous les jours</strong>.</p>
+<p>Ça ne veut pas dire que ce que tu crois, c&#x27;est faux. Ça veut dire que <strong>ce que tu vises détermine ce que tu vois</strong>.</p></div>
                 </blockquote>
 <p>Pour l&#x27;éviter le plus possible, vous pouvez :</p>
 <ul>
@@ -7022,9 +6944,13 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
                             <div class="callout-title-inner">Arrêtez de vous tromper - Rolf Dobelli</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Comment nous protéger ?En méditant la phrase d&#x27;Arthur Quiller-Couch: Murder your darlings - « Tuez ce que vous avez de plus cher au monde » .En disant cela, le critique littéraire s&#x27;adressait aux écrivains qui ont souvent la plus grande peine du monde à supprimer des phrases, certes belles, mais superflues.L&#x27;appel de Quiller-Couch ne vaut pas seulement pour les écrivains médiocres, mais pour nous tous.Conclusion : combattez de toutes vos forces le biais de confirmation.Commencez par écrire vos dogmes et vos credo, qu&#x27;il s&#x27;agisse de votre conception du monde en général, des placements financiers, du mariage, de la prophylaxie, des régimes alimentaires ou des stratégies de carrière, puis réfutez-les en vous lançant à la recherche des preuves du contraire.Tuer ses idées favorites est extrêmement difficile, mais faire partie des esprits éclairés est à ce prix.</p>
-                    </div>
+                    <div class="callout-content"><p>Comment nous protéger ?</p>
+<p>En méditant la phrase d&#x27;Arthur Quiller-Couch: Murder your darlings - « Tuez ce que vous avez de plus cher au monde » .</p>
+<p>En disant cela, le critique littéraire s&#x27;adressait aux écrivains qui ont souvent la plus grande peine du monde à supprimer des phrases, certes belles, mais superflues.</p>
+<p>L&#x27;appel de Quiller-Couch ne vaut pas seulement pour les écrivains médiocres, mais pour nous tous.</p>
+<p>Conclusion : combattez de toutes vos forces le biais de confirmation.</p>
+<p><strong>Commencez par écrire vos dogmes et vos credo, qu&#x27;il s&#x27;agisse de votre conception du monde en général, des placements financiers, du mariage, de la prophylaxie, des régimes alimentaires ou des stratégies de carrière, puis réfutez-les en vous lançant à la recherche des preuves du contraire.</strong></p>
+<p>Tuer ses idées favorites est extrêmement difficile, mais faire partie des esprits éclairés est à ce prix.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -7098,9 +7024,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Le biais du survivant est un phénomène statistique se produisant lorsque la sélection de données ou d&#x27;entreprises présentes dans un échantillon est biaisée en faveur des réussites ou des survivants. Cela peut donner une image distordue de la performance réelle des entreprises ou des investissements, car les échecs ou les cas non présents ne sont pas pris en compte. Par conséquent, le biais du survivant peut sous-estimer les taux de défaillance ou de défaillance et donner une image optimiste de la performance.</p>
-                    </div>
+                    <div class="callout-content"><p>Le biais du survivant est un phénomène statistique se produisant lorsque la sélection de données ou d&#x27;entreprises présentes dans un échantillon est biaisée en faveur des réussites ou des survivants. Cela peut donner une image distordue de la performance réelle des entreprises ou des investissements, car les échecs ou les cas non présents ne sont pas pris en compte. Par conséquent, le biais du survivant peut sous-estimer les taux de défaillance ou de défaillance et donner une image optimiste de la performance.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -7223,12 +7147,10 @@ sudo systemctl restart sshd
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://customercamp.co/mere-exposure-effect/</div>
+                            <div class="callout-title-inner"><https: customercamp.co="" mere-exposure-effect=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>The more we see something, the more we come to like and trust it.</p>
-                    </div>
+                    <div class="callout-content"><p>The more we see something, the more we come to like and trust it.</p></div>
                 </blockquote>
 <blockquote class="callout quote">
                     
@@ -7237,9 +7159,7 @@ sudo systemctl restart sshd
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>La tendance à développer une préférence pour les choses simplement parce qu&#x27;elles nous sont familières.</p>
-                    </div>
+                    <div class="callout-content"><p>La tendance à développer une préférence pour les choses simplement parce qu&#x27;elles nous sont familières.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -7419,9 +7339,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
                             <div class="callout-title-inner">Joel Hooks</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>The phrase &quot;digital garden&quot; is a metaphor for thinking about writing and creating that focuses less on the resulting &quot;showpiece&quot; and more on the process, care, and craft it takes to get there.</p>
-                    </div>
+                    <div class="callout-content"><p>The phrase &quot;digital garden&quot; is a metaphor for thinking about writing and creating that focuses less on the resulting &quot;showpiece&quot; and more on the process, care, and craft it takes to get there.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -7610,9 +7528,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
                             <div class="callout-title-inner">L’ancien président des États-Unis Dwight D. Eisenhower</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>« Les choses urgentes sont rarement importantes, et les choses importantes sont rarement urgentes. »</p>
-                    </div>
+                    <div class="callout-content"><p>« Les choses urgentes sont rarement importantes, et les choses importantes sont rarement urgentes. »</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -7939,9 +7855,13 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
                             <div class="callout-title-inner">Eliott Meunier</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Une note permanente doit être basic (Brêve, Authentique, Sourcé, Indépendante, Connecté)Brêve -&gt; juste une page sans possibilité de scrollerAuthentique -&gt; écrit dans nos propres motsSourcé -&gt; relié a des sourcesUne note permanent = 1 concept</p>
-                    </div>
+                    <div class="callout-content"><p>Une note permanente doit être basic (Brêve, Authentique, Sourcé, Indépendante, Connecté)</p>
+<ul>
+<li>Brêve -&gt; juste une page sans possibilité de scroller</li>
+<li>Authentique -&gt; écrit dans nos propres mots</li>
+<li>Sourcé -&gt; relié a des sources</li>
+<li>Une note permanent = 1 concept</li>
+</ul></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -8103,9 +8023,7 @@ wipe -r /dev/sda1
 </code></pre>
 <blockquote class="callout warning">
                     
-                    <div class="callout-content">
-                        <p>Apparemment, à cause du Wear Leveling, la commande shred semble inefficace sur les SSD.</p>
-                    </div>
+                    <div class="callout-content"><p>Apparemment, à cause du <strong>Wear Leveling</strong>, la commande <code>shred</code> semble inefficace sur les SSD.</p></div>
                 </blockquote>
 <p>Détectez si votre disque dur est un SSD ou un HDD avec la commande :</p>
 <pre><code class="language-bash">lsblk -d -o NAME,ROTA,SIZE,MODEL
@@ -8563,12 +8481,10 @@ sudo chmod +x /usr/local/bin/rclone
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">https://rclone.org/commands/rclone_sync/</div>
+                            <div class="callout-title-inner"><https: rclone.org="" commands="" rclone_sync=""></https:></div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Sync the source to the destination, changing the destination only.</p>
-                    </div>
+                    <div class="callout-content"><p>Sync the source to the destination, changing the destination only.</p></div>
                 </blockquote>
 <pre><code class="language-bash">rclone sync --progress &lt;source&gt;:/ &lt;remote&gt;:/
 </code></pre>
@@ -8946,12 +8862,10 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">note</div>
+                            <div class="callout-title-inner">Note</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Utilisez cet outil UNIQUEMENT en cas d&#x27;extrême nécessité, car cela nuit au principe de partage.</p>
-                    </div>
+                    <div class="callout-content"><p><strong>Utilisez cet outil UNIQUEMENT en cas d&#x27;extrême nécessité, car cela nuit au principe de partage.</strong></p></div>
                 </blockquote>
 <p>Pour l&#x27;installer, <a href="https://github.com/anthonyraymond/joal/releases/download/2.1.36/joal.tar.gz">téléchargez Joal</a> et placer le contenu de l&#x27;archive dans votre dossier personnel <code>~/.config/joal</code>.</p>
 <p>Puis, éditez le fichier <code>~/.config/joal/config.json</code> pour y ajouter les paramètres suivants :</p>
@@ -9997,12 +9911,12 @@ traefik:2.4.8 --providers.docker=true
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">quote</div>
+                            <div class="callout-title-inner">Quote</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>À notre époque où les services de cloud computing peuvent fermer, être rachetés ou changer de politique de confidentialité à tout moment, la dernière chose que vous voulez est un format propriétaire et un verrouillage des données.Avec Obsidian, vos données se trouvent dans un dossier local. Ne laissez plus jamais le travail de votre vie pris en otage dans le cloud.Le format Markdown en texte brut vous donne également une interopérabilité inégalée pour utiliser n&#x27;importe quel type de synchronisation, de chiffrage ou de traitement de données qui fonctionne avec des fichiers en texte brut.</p>
-                    </div>
+                    <div class="callout-content"><p>À notre époque où les services de cloud computing peuvent fermer, être rachetés ou changer de politique de confidentialité à tout moment, la dernière chose que vous voulez est un format propriétaire et un verrouillage des données.</p>
+<p>Avec Obsidian, vos données se trouvent dans un dossier local. Ne laissez plus jamais le travail de votre vie pris en otage dans le cloud.</p>
+<p>Le format Markdown en texte brut vous donne également une interopérabilité inégalée pour utiliser n&#x27;importe quel type de synchronisation, de chiffrage ou de traitement de données qui fonctionne avec des fichiers en texte brut.</p></div>
                 </blockquote>
 <p>Et lorsque vous activez <a href="https://obsidian.md/sync">la fonctionnalité Sync</a>, les données sont chiffrées de bout en bout par défaut.</p>
 <p><a href="https://help.obsidian.md/Obsidian+Sync/Security+and+privacy">Plus d&#x27;informations</a></p>
@@ -10152,9 +10066,7 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
 </code></pre>
 <blockquote class="callout attention">
                     
-                    <div class="callout-content">
-                        <p>Des petits malin peuvent quand même trouver votre pseudo et rentrez sur votre serveur en se faisant passer par vous.</p>
-                    </div>
+                    <div class="callout-content"><p>Des petits malin peuvent quand même trouver votre pseudo et rentrez sur votre serveur en se faisant passer par vous.</p></div>
                 </blockquote>
 <p>Le mieux reste de restreindre l&#x27;accès au serveur à une liste d&#x27;adresses IP autorisées avec un pare-feu (ex: <a href="/iptables" title="iptables">iptables</a>).</p>
 
@@ -10227,12 +10139,10 @@ Couche 3 : <mark>Passages soulignés</mark>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">quote</div>
+                            <div class="callout-title-inner">Quote</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>« ==Quelle est l&#x27;UNIQUE chose que vous pouvez faire, de telle sorte qu&#x27;en la faisant, tout le reste deviendra plus facile ou inutile ?== »</p>
-                    </div>
+                    <div class="callout-content"><p>« ==<strong>Quelle est l&#x27;UNIQUE chose que vous pouvez faire, de telle sorte qu&#x27;en la faisant, tout le reste deviendra plus facile ou inutile ?</strong>== »</p></div>
                 </blockquote>
 <p>Ce qui reprend un peu l&#x27;idée de ce proverbe :</p>
 <blockquote class="callout quote">
@@ -10242,9 +10152,7 @@ Couche 3 : <mark>Passages soulignés</mark>
                             <div class="callout-title-inner">Proverbe Russe</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>« Quand on court après deux lapin à la fois, on n&#x27;en attrape aucun. »</p>
-                    </div>
+                    <div class="callout-content"><p>« Quand on court après deux lapin à la fois, on n&#x27;en attrape aucun. »</p></div>
                 </blockquote>
 <h2>L&#x27;effet domino</h2>
 <p>Un domino est capable de renverser un autre domino 50% plus grand.</p>
@@ -10432,9 +10340,7 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
                             <div class="callout-title-inner">ChatGPT</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Personne doué pour la programmation et qui aime résoudre des problèmes de manière créative avec la technologie.</p>
-                    </div>
+                    <div class="callout-content"><p>Personne doué pour la programmation et qui aime résoudre des problèmes de manière créative avec la technologie.</p></div>
                 </blockquote>
 <hr/>
 <p>Références :</p>
@@ -13272,12 +13178,10 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Contenu archivé</p>
-                    </div>
+                    <div class="callout-content"><p>Contenu archivé</p></div>
                 </blockquote>
 <p>Y Combinator, une entreprise américaine de financement de startup, que l&#x27;on découvre souvent par le biais de <a href="https://news.ycombinator.com/">Hacker News</a>, a publié en 2017 un article rassemblant plusieurs conseils pour les entrepreneurs qui souhaitent créer leur entreprise. Voici un résumé en français de leurs meilleurs conseils.</p>
 <ul>
@@ -13754,12 +13658,10 @@ networks:
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Contenu archivé</p>
-                    </div>
+                    <div class="callout-content"><p>Contenu archivé</p></div>
                 </blockquote>
 <p>Avez-vous déjà entendu parler des nomades digitaux ? J&#x27;ai récemment découvert ce style de vie qui consiste à travailler n&#x27;importe où dans le monde, tant qu&#x27;une connexion internet est disponible. Inspiré par cette méthode, je me suis créé un petit EDC (Everyday Carry) avec lequel je me déplace chaque jour.</p>
 <h2>Razer Blade 14” (2016)</h2>
@@ -13837,12 +13739,10 @@ cryptsetup luksClose crypt
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Contenu archivé</p>
-                    </div>
+                    <div class="callout-content"><p>Contenu archivé</p></div>
                 </blockquote>
 <p>Afin d&#x27;éviter de réinstaller manuellement <a href="/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a> chaque année j&#x27;ai automatisé son installation à l&#x27;aide d&#x27;un fichier makefile. Fini la configuration manuelle de LVM, LUKS, UEFI, Grub, Nvidia, Alsa, Xorg, i3, vim, tmux, mutt, gtk etc...</p>
 
@@ -14104,12 +14004,10 @@ lsmod | grep virtio # Check virtio modules
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Contenu archivé</p>
-                    </div>
+                    <div class="callout-content"><p>Contenu archivé</p></div>
                 </blockquote>
 <p>Est-il vraiment utile de faire des études après avoir lu ces livres ? Voici une sélection de mes livres favoris. Entrepreneuriat, Growth Hacking, développement personnel, productivité, bonnes pratiques de dev tout y est !</p>
 <h2>La méthode Running Lean</h2>
@@ -14418,12 +14316,10 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Archived content</p>
-                    </div>
+                    <div class="callout-content"><p>Archived content</p></div>
                 </blockquote>
 <blockquote class="callout quote">
                     
@@ -14432,9 +14328,7 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
                             <div class="callout-title-inner">Edward Snowden</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Arguing that you don&#x27;t care about the right to privacy because you have nothing to hide, is no different than saying you don&#x27;t care about free speech because you have nothing to say.</p>
-                    </div>
+                    <div class="callout-content"><p>Arguing that you don&#x27;t care about the right to privacy because you have nothing to hide, is no different than saying you don&#x27;t care about free speech because you have nothing to say.</p></div>
                 </blockquote>
 <p>The source code is here: <a href="https://github.com/johackim/privacy-checklist">https://github.com/johackim/privacy-checklist</a></p>
 <h2>Self-hosting</h2>
@@ -15392,12 +15286,10 @@ exit $?
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Contenu archivé</p>
-                    </div>
+                    <div class="callout-content"><p>Contenu archivé</p></div>
                 </blockquote>
 <p>Here my personal list of warez tools to search, stream and download movies, series, musics and softwares.</p>
 <h2>CLI</h2>
@@ -15476,12 +15368,10 @@ exit $?
                     
                         <div class="callout-title">
                             <div class="callout-icon"></div>
-                            <div class="callout-title-inner">info</div>
+                            <div class="callout-title-inner">Info</div>
                         </div>
                     
-                    <div class="callout-content">
-                        <p>Archived content</p>
-                    </div>
+                    <div class="callout-content"><p>Archived content</p></div>
                 </blockquote>
 <p>I looked for solutions to expose a local server behind a NAT or firewall. Here&#x27;s what I found.</p>
 <h2>Solution 1: VPN with port forwarding (with docker)</h2>
