@@ -16,12 +16,12 @@ aliases:
 L'idée principale du livre est de se concentrer sur la question suivante :
 
 > [!QUOTE]
-> « ==**Quelle est l'UNIQUE chose que vous pouvez faire, de telle sorte qu'en la faisant, tout le reste deviendra plus facile ou inutile ?**== »
+> Quelle est l'UNIQUE chose que vous pouvez faire, de telle sorte qu'en la faisant, tout le reste deviendra plus facile ou inutile ?
 
 Ce qui reprend un peu l'idée de ce proverbe :
 
 > [!QUOTE] Proverbe Russe
-> « Quand on court après deux lapin à la fois, on n'en attrape aucun. »
+> Quand on court après deux lapin à la fois, on n'en attrape aucun.
 
 ## L'effet domino
 

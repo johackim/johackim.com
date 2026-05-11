@@ -1,5 +1,5 @@
 ---
-title: Comment installer Linux sur un smartphone ?
+title: Comment installer Linux sur son smartphone ?
 permalink: linux-sur-smartphone
 datePublished: 2026-05-10T19:26
 dateUpdated: 2026-05-10T19:26
@@ -40,13 +40,13 @@ Il existe plusieurs distributions Linux pour smartphone :
 | [PureOS](https://pureos.net)                    | Debian         | Linux Mainline |
 | [Mobile NixOS](https://mobile-nixos.github.io/) | NixOS          | Linux Mainline |
 
-Le problème avec cette méthode, c'est qu'elle est compatible avec très peu de smartphones :
+Le problème avec cette méthode, c'est qu'elle est actuellement compatible avec très peu de smartphones :
 
 - [Fairphone 5](https://fairphone.com/fr/shop/fairphone-5-1959) (QCM6490)
 - [OnePlus 6/6T](https://oneplus.com/fr/6) (SDM845)
-- [PinePhone Pro](https://pine64.org/devices/pinephone_pro/) (RK3399S)
+- [PinePhone Pro](https://pine64.org/devices/pinephone_pro/) (RK3399)
 
-Les fabricants de **puces** (Qualcomm, MediaTek, Samsung, Apple) ne partagent pas le **code source** de leurs pilotes (drivers) ni la documentation de leurs puces (datasheets) pour des raisons de concurrence.
+Les fabricants de **puces** (Qualcomm, MediaTek, Samsung, Apple) ne partagent pas le **code source** de leurs **pilotes** (drivers) ni la documentation de leurs puces (**datasheets**) pour des raisons de concurrence.
 
 > [!NOTE]
 > Un **pilote** (driver) est simplement un programme informatique qui fait le lien entre le matériel (la puce) et le système d'exploitation (Linux).
@@ -57,9 +57,9 @@ Ce code source étant privé et gardé secrètement par ces entreprises, il n'es
 
 Les principales puces de smartphone qui supportent nativement Linux sont rares pour plusieurs raisons :
 
-- Volonté d'ouverture du fabricant (ex: Rockchip RK3399)
-- Reverse engineering communautaire (ex: Qualcomm Snapdragon 845 SDM845)
-- Stratégie commerciale de support long terme (ex: Qualcomm Snapdragon QCM6490)
+- Volonté d'ouverture du fabricant (ex: **Rockchip RK3399**)
+- Reverse engineering communautaire (ex: **Qualcomm Snapdragon 845 SDM845**)
+- Stratégie commerciale de support long terme (ex: **Qualcomm Snapdragon QCM6490**)
 
 Et même si vous avez un smartphone avec l'une de ces puces, il reste le problème de compatibilités des autres composants matériels :
 
@@ -99,7 +99,7 @@ Cela peut se faire de 3 façons :
 
 Les méthodes LXC et chroot nécessitent d'avoir les **privilèges root** de son smartphone avec un outil comme [Magisk](https://github.com/topjohnwu/Magisk/) ou [KernelSU](https://kernelsu.org).
 
-Pour utiliser ces méthodes, il existe les outils clés en main suivants :
+Pour utiliser ces méthodes, il existe ces outils clés en main :
 
 | Outil                                                         | Méthode         | Root      |
 | ------------------------------------------------------------- | --------------- | --------- |
