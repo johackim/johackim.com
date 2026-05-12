@@ -2,9 +2,7 @@
 title: Le triangle cognitif
 permalink: triangle-cognitif
 description: Le triangle cognitif est un modèle utilisé en TCC qui illustre la relation entre nos pensées, nos émotions et nos comportements.
-aliases:
-  - CBT Triangle
-  - Triangle cognitif
+aliases: [CBT Triangle, Triangle cognitif]
 datePublished: 2024-05-20T10:00:00
 dateUpdated: 2024-05-20T10:00:00
 publish: true
@@ -33,11 +31,11 @@ Et l'élément le plus facile à changer est la pensée.
 
 En changeant nos pensées, nous pouvons changer les émotions et les comportements qui en découlent.
 
-Pour cela, nous pouvons utiliser plusieurs techniques comme :
+Pour cela, nous pouvons utiliser plusieurs techniques :
 
-- [[Restructuration cognitive|La restructuration cognitive]]
-- [[La méthode socratique]]
-- [[Journal de pensées|Le journal de pensées]]
+- [[Restructuration cognitive]]
+- [[Méthode socratique]]
+- [[Journal de pensées]]
 
 ---
 
@@ -47,4 +45,3 @@ Références :
 - https://x.com/george__mack/status/1721117741057220859
 - https://therapistaid.com/therapy-worksheet/cbt-triangle
 - https://hudsontherapygroup.com/blog/cognitive-triangle
-- [[Rewire - Nicole Vignola]]

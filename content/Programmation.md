@@ -1,17 +1,13 @@
 ---
+aliases: [Dev, Coding, Développement]
+title: 💻 Programmation
+description: Apprenez à coder
 datePublished: 2021-04-15T16:44
 dateUpdated: 2024-11-16T16:44:00
 permalink: programmation
-tags:
-  - moc
-aliases:
-  - Dev
-  - Coding
-  - Développement
-title: 💻 Programmation
-description: Apprenez à coder
-publish: true
 comments: false
+publish: true
+tags: [moc]
 ---
 
 - [[Clean Code]]

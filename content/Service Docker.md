@@ -47,3 +47,9 @@ Pour ajouter/modifier une variable d'environnement :
 ```bash
 docker service update --env-add NOM_DE_LA_VARIABLE=nouvelle_valeur nom_du_service
 ```
+
+Désactiver le healtcheck d'un service en cours d'exécution :
+
+```bash
+docker service update --no-healthcheck <service>
+```

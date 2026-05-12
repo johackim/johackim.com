@@ -34,7 +34,6 @@ Références :
 - [Potion de vie - Comment avoir un super cerveau (Neuroplasticité ++)](https://youtu.be/dxHHVOdPRKI)
 - [[Neurosciences]]
 - [[Behave - Robert Sapolsky]]
-- [[Rewire - Nicole Vignola]]
 - https://practicalpie.com/what-is-neuroplasticity/
 - https://rationalwiki.org/wiki/Neuroplasticity
 - The Power of Neuroplasticity - Shad Helmstetter
