@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 11 May 2026 14:34:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 12:38:03 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -598,18 +598,18 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>Si l&#x27;un de ces éléments change, cela peut influencer les deux autres.</p>
 <p>Et l&#x27;élément le plus facile à changer est la pensée.</p>
 <p>En changeant nos pensées, nous pouvons changer les émotions et les comportements qui en découlent.</p>
-<p>Pour cela, nous pouvons utiliser plusieurs techniques comme :</p>
+<p>Pour cela, nous pouvons utiliser plusieurs techniques :</p>
 <ul>
 <li>
-<a href="/restructuration-cognitive" title="La restructuration cognitive" class="not-found">La restructuration cognitive</a>
+<a href="/restructuration-cognitive" title="Restructuration cognitive" class="not-found">Restructuration cognitive</a>
 
 </li>
 <li>
-<a href="/la-methode-socratique" title="La méthode socratique" class="not-found">La méthode socratique</a>
+<a href="/methode-socratique" title="Méthode socratique" class="not-found">Méthode socratique</a>
 
 </li>
 <li>
-<a href="/journal-de-pensees" title="Le journal de pensées">Le journal de pensées</a>
+<a href="/journal-de-pensees" title="Journal de pensées">Journal de pensées</a>
 
 </li>
 </ul>
@@ -620,10 +620,6 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <li><a href="https://x.com/george__mack/status/1721117741057220859">https://x.com/george__mack/status/1721117741057220859</a></li>
 <li><a href="https://therapistaid.com/therapy-worksheet/cbt-triangle">https://therapistaid.com/therapy-worksheet/cbt-triangle</a></li>
 <li><a href="https://hudsontherapygroup.com/blog/cognitive-triangle">https://hudsontherapygroup.com/blog/cognitive-triangle</a></li>
-<li>
-<a href="/rewire-nicole-vignola" title="Rewire - Nicole Vignola" class="not-found">Rewire - Nicole Vignola</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -9573,6 +9569,9 @@ Les <strong>services globaux</strong> ; un seul réplica sera attribué sur chaq
 </code></pre>
 <p>Pour ajouter/modifier une variable d&#x27;environnement :</p>
 <pre><code class="language-bash">docker service update --env-add NOM_DE_LA_VARIABLE=nouvelle_valeur nom_du_service
+</code></pre>
+<p>Désactiver le healtcheck d&#x27;un service en cours d&#x27;exécution :</p>
+<pre><code class="language-bash">docker service update --no-healthcheck &lt;service&gt;
 </code></pre>]]></content:encoded>
         </item>
         <item>

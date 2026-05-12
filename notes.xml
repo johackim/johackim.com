@@ -4,8 +4,19 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 11 May 2026 14:34:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 12:37:55 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[202605112306]]></title>
+            <description><![CDATA[Aujourd'hui, ma banque m'a bloqué l'accès à mon compte parce que mon téléphone ne passe pas le test Play Integrity de Google (même avec MicroG).
+
+J'ai dû emprunter le smartphone d'un proche pour valider mon identité.
+
+Est-ce qu'on sera bientôt obligé de passer par Google pour accéder à son argent ?]]></description>
+            <link>https://johackim.com/202605112306</link>
+            <guid isPermaLink="false">https://johackim.com/202605112306</guid>
+            <pubDate>Mon, 11 May 2026 23:06:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[202605041750]]></title>
             <description><![CDATA[Je viens de créer une petite automatisation pour crossposter mes articles de moins de 300 caractères sur mastodon, bluesky et twitter 🙂.
