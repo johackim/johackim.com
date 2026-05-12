@@ -4,18 +4,18 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 12 May 2026 12:37:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 May 2026 13:33:29 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[202605112306]]></title>
-            <description><![CDATA[Aujourd'hui, ma banque m'a bloqué l'accès à mon compte parce que mon téléphone ne passe pas le test Play Integrity de Google (même avec MicroG).
+            <title><![CDATA[202605121528]]></title>
+            <description><![CDATA[Aujourd'hui, ma banque m'a bloqué l'accès à mon compte car mon téléphone ne passe pas le test Play Integrity de Google (même avec MicroG).
 
-J'ai dû emprunter le smartphone d'un proche pour valider mon identité.
+J'ai dû emprunter un smartphone pour valider mon identité.
 
-Est-ce qu'on sera bientôt obligé de passer par Google pour accéder à son argent ?]]></description>
-            <link>https://johackim.com/202605112306</link>
-            <guid isPermaLink="false">https://johackim.com/202605112306</guid>
-            <pubDate>Mon, 11 May 2026 23:06:00 GMT</pubDate>
+Bientôt obligés de passer par Google pour accéder à notre argent ?]]></description>
+            <link>https://johackim.com/202605121528</link>
+            <guid isPermaLink="false">https://johackim.com/202605121528</guid>
+            <pubDate>Tue, 12 May 2026 11:06:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[202605041750]]></title>
