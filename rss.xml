@@ -4,9 +4,299 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 12 May 2026 13:33:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 May 2026 10:31:01 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Comment installer Linux sur son smartphone ?]]></title>
+            <link>https://johackim.com/linux-sur-smartphone?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/linux-sur-smartphone</guid>
+            <dc:creator><![CDATA[johackim]]></dc:creator>
+            <pubDate>Sun, 10 May 2026 19:26:00 GMT</pubDate>
+            <media:content url="https://johackim.com/covers/linux-sur-smartphone.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/linux-sur-smartphone.jpg"/>
+            <content:encoded><![CDATA[<p>J&#x27;ai un rêve, pouvoir installer Linux sur mon smartphone et virer tous mes ordinateurs.</p>
+<p>N&#x27;avoir qu&#x27;un seul équipement pour tout faire : coder, écrire, jouer, écouter de la musique, regarder des films, etc...</p>
+<p>Mais en pratique, c&#x27;est compliqué.</p>
+<p>Pour installer Linux sur un smartphone, il existe 4 méthodes :</p>
+<ol>
+<li>Distribution (postmarketOS, Ubuntu Touch, Mobian, etc...)</li>
+<li>Conteneurisation (LXC, Chroot, Proot)</li>
+<li>Virtualisation (KVM, pKVM)</li>
+<li>Termux Native</li>
+</ol>
+<h2>1. Distribution</h2>
+<p>La première méthode consiste à remplacer Android par une distribution Linux.</p>
+<p>Il existe plusieurs distributions Linux pour smartphone :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>OS</th><th>Base</th><th>Kernel</th></tr></thead><tbody><tr><td><a href="https://ubuntu-touch.io/">Ubuntu Touch</a></td><td>Ubuntu</td><td>Android (via Halium)</td></tr><tr><td><a href="https://droidian.org/">Droidian</a></td><td>Debian</td><td>Android (via Halium)</td></tr><tr><td><a href="https://sailfishos.org/">Sailfish OS</a></td><td>Mer/Nemo/MeeGo</td><td>Android (via Halium)</td></tr><tr><td><a href="https://postmarketos.org/">postmarketOS</a></td><td>Alpine Linux</td><td>Linux Mainline</td></tr><tr><td><a href="https://mobian-project.org/">Mobian</a></td><td>Debian</td><td>Linux Mainline</td></tr><tr><td><a href="https://pureos.net">PureOS</a></td><td>Debian</td><td>Linux Mainline</td></tr><tr><td><a href="https://mobile-nixos.github.io/">Mobile NixOS</a></td><td>NixOS</td><td>Linux Mainline</td></tr></tbody></table>
+<p>Le problème avec cette méthode, c&#x27;est qu&#x27;elle est actuellement compatible avec très peu de smartphones :</p>
+<ul>
+<li><a href="https://fairphone.com/fr/shop/fairphone-5-1959">Fairphone 5</a> (QCM6490)</li>
+<li><a href="https://oneplus.com/fr/6">OnePlus 6/6T</a> (SDM845)</li>
+<li><a href="https://pine64.org/devices/pinephone_pro/">PinePhone Pro</a> (RK3399)</li>
+<li><a href="https://puri.sm/products/librem-5/">Librem 5</a> (i.MX 8M Quad)</li>
+</ul>
+<p>Les fabricants de <strong>puces</strong> (Qualcomm, MediaTek, Samsung, Apple) ne partagent pas le <strong>code source</strong> de leurs <strong>pilotes</strong> (drivers) ni la documentation de leurs puces (<strong>datasheets</strong>) pour des raisons de concurrence.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Note</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>Un <strong>pilote</strong> (driver) est simplement un programme informatique qui fait le lien entre le matériel (la puce) et le système d&#x27;exploitation (Linux).</p>
+<p>Un <strong>datasheet</strong> est un document qui montre en détail comment fonctionne et comment utiliser un composant matériel.</p></div>
+                </blockquote>
+<p>Ce code source étant privé et gardé secrètement par ces entreprises, il n&#x27;est pas publié sur le <a href="https://kernel.org/">code source public du Kernel Linux</a>.</p>
+<p>Les principales puces de smartphone qui supportent nativement Linux sont rares pour plusieurs raisons :</p>
+<ul>
+<li>Volonté d&#x27;ouverture du fabricant (ex: <strong>Rockchip RK3399</strong>)</li>
+<li>Reverse engineering communautaire (ex: <strong>Qualcomm Snapdragon 845 SDM845</strong>)</li>
+<li>Stratégie commerciale de support long terme (ex: <strong>Qualcomm Snapdragon QCM6490</strong>)</li>
+</ul>
+<p>Et même si vous avez un smartphone avec l&#x27;une de ces puces, il reste le problème de compatibilités des autres composants matériels :</p>
+<ul>
+<li>Touch Screen</li>
+<li>Wifi</li>
+<li>Battery</li>
+<li>Audio</li>
+<li>Bluetooth</li>
+<li>Camera</li>
+<li>GPS</li>
+<li>SMS</li>
+<li>Calls</li>
+<li>NFC</li>
+<li>Etc...</li>
+</ul>
+<p>Ce qui fait qu&#x27;il est aujourd&#x27;hui impossible d&#x27;avoir un smartphone stable et durable sous Linux avec le support complet de tous les composants matériels.</p>
+<p>Il est possible de consulter l&#x27;état d&#x27;avancement de la compatibilité de chaque smartphone et chaque matériel sur <a href="https://wiki.postmarketos.org/wiki/Devices">https://wiki.postmarketos.org/wiki/Devices</a>.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Note</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>Il est quand même possible d&#x27;installer des applications Android sur un smartphone avec une distribution Linux via <strong><a href="https://waydro.id">Waydroid</a></strong>.</p>
+<p>Waydroid est un conteneur LXC qui fait tourner un système Android complet (basé sur LineageOS).</p></div>
+                </blockquote>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Note</div>
+                        </div>
+                    
+                    <div class="callout-content"><p><strong><a href="https://halium.org">Halium</a></strong> est une couche de compatibilité qui permet de faire tourner Linux sur un smartphone Android <strong>en réutilisant le kernel et les drivers propriétaires d&#x27;Android</strong>.</p>
+<ul>
+<li><strong>Avantage</strong> : compatible avec beaucoup plus de smartphones (puisque la majorité tournent sous Android)</li>
+<li><strong>Inconvénient</strong> : dépendance aux blobs propriétaires d&#x27;Android, donc pas de vraie liberté logicielle ni de support kernel à long terme</li>
+</ul>
+<p>À l&#x27;inverse, <strong>Linux Mainline</strong> désigne un kernel Linux officiel, sans dépendance à Android, mais qui ne fonctionne que sur les rares puces dont les drivers sont libres.</p></div>
+                </blockquote>
+<h2>2. Conteneurisation</h2>
+<p>La deuxième méthode consiste à installer Linux à l&#x27;intérieur d&#x27;Android sous la forme d&#x27;un conteneur.</p>
+<p>Cela peut se faire de 3 façons :</p>
+<ol>
+<li><strong>LXC</strong> (vrai conteneur avec performances natives, nécessite root)</li>
+<li><strong>Chroot</strong> (isolation simple du système de fichiers, nécessite root)</li>
+<li><strong>Proot</strong> (simulation de chroot sans nécessiter root, plus lent)</li>
+</ol>
+<p>Les méthodes LXC et chroot nécessitent d&#x27;avoir les <strong>privilèges root</strong> de son smartphone avec un outil comme <a href="https://github.com/topjohnwu/Magisk/">Magisk</a> ou <a href="https://kernelsu.org">KernelSU</a>.</p>
+<p>Pour utiliser ces méthodes, il existe ces outils clés en main :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Outil</th><th>Méthode</th><th>Root</th></tr></thead><tbody><tr><td><a href="https://userland.tech">UserLAnd</a></td><td>Proot</td><td>Non</td></tr><tr><td><a href="https://github.com/termux/proot-distro">Proot-distro</a></td><td>Proot</td><td>Non</td></tr><tr><td><a href="https://github.com/localdesktop/localdesktop">Local Desktop</a></td><td>Proot</td><td>Non</td></tr><tr><td><a href="https://github.com/Linux-on-droid/vendor_lindroid">Lindroid</a></td><td>LXC</td><td>Oui</td></tr><tr><td><a href="https://github.com/meefik/linuxdeploy">Linux Deploy</a></td><td>Chroot</td><td>Oui</td></tr><tr><td><a href="https://andronix.app">Andronix</a></td><td>Proot ou Chroot</td><td>Optionnel</td></tr><tr><td><a href="https://github.com/exalab/anlinux-app">AnLinux</a></td><td>Proot ou Chroot</td><td>Optionnel</td></tr></tbody></table>
+<h2>3. Virtualisation</h2>
+<p>La troisième méthode consiste à installer Linux dans une <strong>machine virtuelle</strong> à l&#x27;intérieur d&#x27;Android.</p>
+<p>Cela peut se faire de 2 façons :</p>
+<ul>
+<li><strong>KVM</strong> (virtualisation native du kernel Linux, performances natives)</li>
+<li><strong>pKVM</strong> (virtualisation intégrée à Android, sans GPU)</li>
+</ul>
+<p>Pour utiliser <strong>KVM</strong> sur un smartphone, il faut avoir accès au niveau de privilège <strong>EL2</strong> de la puce de votre téléphone.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Note</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>Il existe plusieurs <strong>niveaux de privilèges</strong> (Exception Levels) sur un smartphone :</p>
+<ul>
+<li><strong>EL0</strong> : applications utilisateur (YouTube, Signal...)</li>
+<li><strong>EL1</strong> : système d&#x27;exploitation (Android, Linux)</li>
+<li><strong>EL2</strong> : hyperviseur (KVM, pKVM)</li>
+<li><strong>EL3</strong> : monde sécurisé (TrustZone, biométrie, DRM)</li>
+</ul></div>
+                </blockquote>
+<p>Ce niveau est verrouillé sur la plupart des smartphones à l&#x27;exception de <a href="https://renegade-project.tech/en/devices">certains modèles spécifiques</a> et des Google Pixel.</p>
+<p>De plus, il faut rooter le smartphone et compiler un kernel custom avec <code>CONFIG_KVM=y</code>.</p>
+<p><strong>pKVM</strong> est une solution intégrée nativement sur les Google Pixel sans devoir rooter son smartphone.</p>
+<p>Par contre, il n&#x27;y a pas d&#x27;accélération GPU et il n&#x27;est pas possible d&#x27;avoir un OS custom autre que ceux imposés par Google (Debian).</p>
+<p>Depuis Android 16, Google propose une fonction &quot;Linux Terminal&quot; dans les options développeur, qui lance directement Debian via pKVM.</p>
+<h2>4. Termux Native</h2>
+<p>La quatrième méthode consiste à installer Linux dans l&#x27;application Android Termux sans conteneur ni virtualisation.</p>
+<p><a href="https://termux.dev">Termux</a> est une application Android qui contient un terminal et un gestionnaire de paquets (<code>pkg</code>).</p>
+<p>Avec Termux, vous pouvez installer des outils en ligne de commande (<code>vim</code>, <code>git</code>, <code>python</code>, <code>node</code>, etc...) mais aussi un environnement de bureau complet (<a href="https://xfce.org">XFCE4</a>), <a href="https://firefox.com">Firefox</a> ou <a href="https://code.visualstudio.com">VS Code</a>.</p>
+<p>Pour avoir une interface graphique, il faut combiner 3 composants :</p>
+<ul>
+<li><a href="https://pulseaudio.org">PulseAudio</a> — pour le son</li>
+<li><a href="https://f-droid.org/en/packages/com.termux/">Termux</a> — le terminal et le gestionnaire de paquets</li>
+<li><a href="https://github.com/termux/termux-x11">Termux:X11</a> — l&#x27;application qui affiche les fenêtres graphiques</li>
+</ul>
+<p>L&#x27;inconvénient, c&#x27;est qu&#x27;il ne s&#x27;agit pas d&#x27;un environnement Linux complet, il n&#x27;y a pas <a href="https://systemd.io">systemd</a> ou <a href="https://docker.com">Docker</a> et on est limité aux paquets de Termux.</p>
+<h2>Conclusion</h2>
+<p>Voici un tableau comparatif des 4 méthodes :</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Critère</th><th>1. Distribution</th><th>2. Conteneur</th><th>3. Virtualisation</th><th>4. Termux Native</th></tr></thead><tbody><tr><td>Apps Android conservées</td><td>(✓) avec Waydroid</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Vrai OS Linux</td><td>(✓) sans Halium</td><td>(✓)</td><td>✓</td><td>x</td></tr><tr><td>Sans root</td><td>✓</td><td>(✓)</td><td>(✓)</td><td>✓</td></tr><tr><td>Compatibilité smartphones</td><td>x</td><td>✓</td><td>x</td><td>✓</td></tr><tr><td>Systemd / Docker</td><td>✓</td><td>x</td><td>✓</td><td>x</td></tr><tr><td>Custom OS (Arch, etc.)</td><td>(✓)</td><td>✓</td><td>✓</td><td>x</td></tr></tbody></table>
+<p>Actuellement, en mai 2026, je n&#x27;ai pas encore trouvé de méthode stable et durable d&#x27;installer Linux sur un smartphone.</p>
+<p>Pour le moment je reste sur <a href="/installer-lineage-os-sur-un-samsung-galaxy-j3-2016" title="LineageOS">LineageOS</a> en attendant qu&#x27;une solution me permette de pouvoir réellement remplacer mon ordinateur.</p>
+
+<p>Dans l&#x27;idéal, une distribution Linux basée sur Arch Linux avec un desktop mode et qui fonctionne nativement sur un smartphone haut de gamme.</p>
+<p>Je sais j&#x27;en demande beaucoup 😄.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Greywall]]></title>
             <link>https://johackim.com/greywall?utm_source=rss&amp;utm_medium=rss</link>
