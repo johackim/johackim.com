@@ -2,13 +2,14 @@
 title: Comment installer Linux sur son smartphone ?
 permalink: linux-sur-smartphone
 datePublished: 2026-05-10T19:26
-dateUpdated: 2026-05-10T19:26
+dateUpdated: 2026-05-16T12:26:00
 aliases: [Linux sur Android]
 links:
   - "[[Smartphones]]"
   - "[[Android]]"
   - "[[Linux]]"
 publish: true
+rss: true
 ---
 
 J'ai un rêve, pouvoir installer Linux sur mon smartphone et virer tous mes ordinateurs.
@@ -19,8 +20,8 @@ Mais en pratique, c'est compliqué.
 
 Pour installer Linux sur un smartphone, il existe 4 méthodes :
 
-1. Distribution (postmarketOS, Ubuntu Touch, Mobian etc...)
-2. Conteneurisation (Chroot, Proot)
+1. Distribution (postmarketOS, Ubuntu Touch, Mobian, etc...)
+2. Conteneurisation (LXC, Chroot, Proot)
 3. Virtualisation (KVM, pKVM)
 4. Termux Native
 
@@ -30,21 +31,22 @@ La première méthode consiste à remplacer Android par une distribution Linux.
 
 Il existe plusieurs distributions Linux pour smartphone :
 
-| OS                                              | Base           | Kernel         |
-| ----------------------------------------------- | -------------- | -------------- |
-| [Ubuntu Touch](https://ubuntu-touch.io/)        | Ubuntu         | Halium         |
-| [Droidian](https://droidian.org/)               | Debian         | Halium         |
-| [Sailfish OS](https://sailfishos.org/)          | Mer/Nemo/MeeGo | Halium         |
-| [postmarketOS](https://postmarketos.org/)       | Alpine Linux   | Linux Mainline |
-| [Mobian](https://mobian-project.org/)           | Debian         | Linux Mainline |
-| [PureOS](https://pureos.net)                    | Debian         | Linux Mainline |
-| [Mobile NixOS](https://mobile-nixos.github.io/) | NixOS          | Linux Mainline |
+| OS                                              | Base           | Kernel               |
+| ----------------------------------------------- | -------------- | -------------------- |
+| [Ubuntu Touch](https://ubuntu-touch.io/)        | Ubuntu         | Android (via Halium) |
+| [Droidian](https://droidian.org/)               | Debian         | Android (via Halium) |
+| [Sailfish OS](https://sailfishos.org/)          | Mer/Nemo/MeeGo | Android (via Halium) |
+| [postmarketOS](https://postmarketos.org/)       | Alpine Linux   | Linux Mainline       |
+| [Mobian](https://mobian-project.org/)           | Debian         | Linux Mainline       |
+| [PureOS](https://pureos.net)                    | Debian         | Linux Mainline       |
+| [Mobile NixOS](https://mobile-nixos.github.io/) | NixOS          | Linux Mainline       |
 
 Le problème avec cette méthode, c'est qu'elle est actuellement compatible avec très peu de smartphones :
 
 - [Fairphone 5](https://fairphone.com/fr/shop/fairphone-5-1959) (QCM6490)
 - [OnePlus 6/6T](https://oneplus.com/fr/6) (SDM845)
 - [PinePhone Pro](https://pine64.org/devices/pinephone_pro/) (RK3399)
+- [Librem 5](https://puri.sm/products/librem-5/) (i.MX 8M Quad)
 
 Les fabricants de **puces** (Qualcomm, MediaTek, Samsung, Apple) ne partagent pas le **code source** de leurs **pilotes** (drivers) ni la documentation de leurs puces (**datasheets**) pour des raisons de concurrence.
 
@@ -73,11 +75,16 @@ Et même si vous avez un smartphone avec l'une de ces puces, il reste le problè
 - SMS
 - Calls
 - NFC
-- Etc..
+- Etc...
 
-Ce qui fait qu'il est aujourd'hui très impossible d'avoir un smartphone stable et durable sous Linux avec le support complet de tous les composants matériels.
+Ce qui fait qu'il est aujourd'hui impossible d'avoir un smartphone stable et durable sous Linux avec le support complet de tous les composants matériels.
 
 Il est possible de consulter l'état d'avancement de la compatibilité de chaque smartphone et chaque matériel sur https://wiki.postmarketos.org/wiki/Devices.
+
+> [!NOTE]
+> Il est quand même possible d'installer des applications Android sur un smartphone avec une distribution Linux via **[Waydroid](https://waydro.id)**.
+>
+> Waydroid est un conteneur LXC qui fait tourner un système Android complet (basé sur LineageOS).
 
 > [!NOTE]
 > **[Halium](https://halium.org)** est une couche de compatibilité qui permet de faire tourner Linux sur un smartphone Android **en réutilisant le kernel et les drivers propriétaires d'Android**.
@@ -154,7 +161,7 @@ Pour avoir une interface graphique, il faut combiner 3 composants :
 - [Termux](https://f-droid.org/en/packages/com.termux/) — le terminal et le gestionnaire de paquets
 - [Termux:X11](https://github.com/termux/termux-x11) — l'application qui affiche les fenêtres graphiques
 
-L'inconvénient, c'est qu'il ne s'agit pas d'un vrai Linux, il n'y a pas [systemd](https://systemd.io) ou [Docker](https://docker.com) et on est limité aux paquets de Termux.
+L'inconvénient, c'est qu'il ne s'agit pas d'un environnement Linux complet, il n'y a pas [systemd](https://systemd.io) ou [Docker](https://docker.com) et on est limité aux paquets de Termux.
 
 ## Conclusion
 
@@ -163,10 +170,16 @@ Voici un tableau comparatif des 4 méthodes :
 | Critère                   | 1. Distribution   | 2. Conteneur | 3. Virtualisation | 4. Termux Native |
 | ------------------------- | ----------------- | ------------ | ----------------- | ---------------- |
 | Apps Android conservées   | (✓) avec Waydroid | ✓            | ✓                 | ✓                |
-| Vrai OS Linux             | ✓                 | (✓)          | ✓                 | x                |
+| Vrai OS Linux             | (✓) sans Halium   | (✓)          | ✓                 | x                |
 | Sans root                 | ✓                 | (✓)          | (✓)               | ✓                |
 | Compatibilité smartphones | x                 | ✓            | x                 | ✓                |
 | Systemd / Docker          | ✓                 | x            | ✓                 | x                |
-| Custom OS (Arch, etc.)    | ✓                 | ✓            | ✓                 | x                |
+| Custom OS (Arch, etc.)    | (✓)               | ✓            | ✓                 | x                |
 
 Actuellement, en mai 2026, je n'ai pas encore trouvé de méthode stable et durable d'installer Linux sur un smartphone.
+
+Pour le moment je reste sur [[LineageOS]] en attendant qu'une solution me permette de pouvoir réellement remplacer mon ordinateur.
+
+Dans l'idéal, une distribution Linux basée sur Arch Linux avec un desktop mode et qui fonctionne nativement sur un smartphone haut de gamme.
+
+Je sais j'en demande beaucoup 😄.
