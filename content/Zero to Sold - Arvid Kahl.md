@@ -3,10 +3,9 @@ permalink: zero-to-sold-arvid-kahl
 datePublished: 2021-07-18T19:21
 dateUpdated: 2021-07-18T19:21
 title: Résumé du livre Zero to Sold de Arvid Kahl
+tags: [literature]
 publish: true
 rss: true
-tags:
-  - literature
 ---
 
 ## C'est quoi le bootstrapping ?

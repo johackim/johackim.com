@@ -4,6 +4,7 @@ permalink: comment-automatiser-installation-arch-linux
 datePublished: 2018-07-30T12:45
 dateUpdated: 2018-07-30T12:45
 description: Afin d'éviter de réinstaller manuellement Arch Linux chaque année j'ai automatisé son installation à l'aide d'un fichier makefile.
+links: "[[Arch Linux]]"
 publish: true
 rss: true
 ---
@@ -80,4 +81,3 @@ Références :
 - https://gist.github.com/mattiaslundberg/8620837
 - https://github.com/helmuthdu/aui
 - https://github.com/MatMoul/archfi
-- [[Arch Linux]]

@@ -55,15 +55,14 @@ dbg!(myvar);
 
 ## Créer une variable
 
-> [!NOTE]
-> Les variables utilisent une convention de nommage en snake_case (ex: my_variable).
-
-> [!NOTE]
-> Par défaut, une variable est immutable.
-
 ```rust
 let myvar = 1;
 ```
+
+> [!NOTE]
+> Les variables utilisent une convention de nommage en snake_case (ex: my_variable).
+>
+> Par défaut, une variable est immutable.
 
 ## Créer une variable mutable
 
@@ -103,6 +102,9 @@ fn main() {
     println!("Hello, world!");
 }
 ```
+
+> [!NOTE]
+> Les fonctions doivent être nommé en snake_case et non en camelCase.
 
 ## Créer une fonction avec des paramètres
 
@@ -225,6 +227,8 @@ println!("{}", mytuple.1);
 Si un tuple contient trop de valeurs, il vaut mieux utiliser un struct.
 
 ## Créer un hashmap
+
+Un hashmap est une collection de paires clé/valeur, de taille dynamique et non ordonnée.
 
 ```rust
 use std::collections::HashMap;
@@ -450,6 +454,8 @@ println!("result: {result}");
 
 ## Format
 
+La macro `format!` crée une `String` formatée sans l'afficher, contrairement à `println!` qui imprime dans la console.
+
 ```rust
 fn format_name(name: &str) -> String {
     format!("Hello, {name}!")
@@ -551,6 +557,15 @@ let value = result.unwrap(); // value = 5
 
 > [!NOTE]
 > Éviter les fonctions qui paniquent comme `unwrap()`, préférer les mécanismes comme `?` pour propager les erreurs.
+
+## Expect
+
+`expect` est similaire à `unwrap`, mais permet de spécifier un message d'erreur personnalisé en cas de panique.
+
+```rust
+let result = divide(10, 2);
+let value = result.expect("La division a échoué"); // value = 5
+```
 
 ## Possession / Ownership
 
