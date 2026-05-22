@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 19 May 2026 10:41:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 09:26:02 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -3661,6 +3661,7 @@ https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/
 <li><a href="https://github.com/yokoffing/filterlists">https://github.com/yokoffing/filterlists</a></li>
 <li><a href="https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist">https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist</a></li>
 <li><a href="https://github.com/anfragment/zen">https://github.com/anfragment/zen</a></li>
+<li><a href="https://github.com/mullvad/dns-blocklists">https://github.com/mullvad/dns-blocklists</a></li>
 <li><a href="https://github.com/gijsdev/ublock-hide-yt-shorts/">https://github.com/gijsdev/ublock-hide-yt-shorts/</a></li>
 <li><a href="https://blog.cloudflare.com/introducing-1-1-1-1-for-families">https://blog.cloudflare.com/introducing-1-1-1-1-for-families</a></li>
 <li><a href="https://reddit.com/r/uBlockOrigin/">https://reddit.com/r/uBlockOrigin/</a></li>
@@ -9245,13 +9246,19 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
         </item>
         <item>
             <title><![CDATA[yt-dlp]]></title>
-            <link>https://johackim.com/telecharger-les-videos-de-l&apos;espace-membre-d&apos;un-site?utm_source=rss&amp;utm_medium=rss</link>
-            <guid isPermaLink="false">https://johackim.com/telecharger-les-videos-de-l&apos;espace-membre-d&apos;un-site</guid>
+            <link>https://johackim.com/yt-dlp?utm_source=rss&amp;utm_medium=rss</link>
+            <guid isPermaLink="false">https://johackim.com/yt-dlp</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
             <pubDate>Sun, 30 May 2021 19:50:00 GMT</pubDate>
-            <media:content url="https://johackim.com/covers/telecharger-les-videos-de-l&apos;espace-membre-d&apos;un-site.jpg" medium="image"/>
-            <webfeeds:featuredImage url="https://johackim.com/covers/telecharger-les-videos-de-l&apos;espace-membre-d&apos;un-site.jpg"/>
-            <content:encoded><![CDATA[<p>Pour télécharger les vidéos de l&#x27;espace membre d&#x27;un site, il suffit de se connecter au site, de reprendre le cookie puis d&#x27;utiliser <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> (ou <a href="https://mrs0m30n3.github.io/youtube-dl-gui/">youtube-dl-gui</a>).</p>
+            <media:content url="https://johackim.com/covers/yt-dlp.jpg" medium="image"/>
+            <webfeeds:featuredImage url="https://johackim.com/covers/yt-dlp.jpg"/>
+            <content:encoded><![CDATA[<h2>Installation</h2>
+<p>Installez <a href="https://johackim.com/uv" title="uv" class="not-found">uv</a> puis exécutez la commande suivante :</p>
+
+<pre><code class="language-bash">uv tool install yt-dlp
+</code></pre>
+<h2>Télecharger les vidéos de l&#x27;espace membre d&#x27;un site</h2>
+<p>Pour télécharger les vidéos de l&#x27;espace membre d&#x27;un site, il suffit de se connecter au site, de reprendre le cookie puis d&#x27;utiliser <a href="https://github.com/yt-dlp/yt-dlp">yt-dlp</a> (ou <a href="https://github.com/MrS0m30n3/youtube-dl-gui">youtube-dl-gui</a>).</p>
 <ol>
 <li>
 Installez l&#x27;extension Firefox <a href="https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/">cookies.txt</a> ou l&#x27;extension Chrome <a href="https://chrome.google.com/webstore/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc/">Get cookies.txt</a>.
@@ -9265,38 +9272,51 @@ Exécutez la commande suivante :
 </ol>
 <pre><code class="language-bash">yt-dlp --cookies cookies.txt -f hd_mp4-720p &lt;url&gt;
 </code></pre>
-<p>NOTE : Il existe aussi le paramètre <code>--cookies-from-browser chromium</code> pour reprendre automatiquement les cookies du navigateur.</p>
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Note</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>Il existe aussi le paramètre <code>--cookies-from-browser chromium</code> pour reprendre automatiquement les cookies du navigateur.</p></div>
+                </blockquote>
 <p>S&#x27;il y a beaucoup de vidéos, vous pouvez parser le site afin de reprendre toutes les URLs dans un fichier texte (ex: <code>urls.txt</code>) puis exécuter la commande suivante :</p>
 <pre><code class="language-bash">for url in $(cat urls.txt); do yt-dlp --cookies cookies.txt $url; done;
 </code></pre>
-<p>NOTE : Il est aussi possible de coupler <code>yt-dlp</code> avec <a href="https://johackim.com/puppeteer" title="Puppeteer">Puppeteer</a> pour parser et télécharger toutes les vidéos de l&#x27;espace membre d&#x27;un site internet automatiquement.</p>
-
+<blockquote class="callout note">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Note</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>Il est aussi possible de coupler yt-dlp avec Puppeteer pour parser et télécharger toutes les vidéos de l&#x27;espace membre d&#x27;un site internet automatiquement.</p></div>
+                </blockquote>
 <p>Et si vous voulez télécharger les vidéos en provenance de vimeo.com voici la commande a exécuter :</p>
 <pre><code class="language-bash">yt-dlp --referer &lt;referer&gt; https://player.vimeo.com/video/&lt;id&gt;
 </code></pre>
-<p>Pour installer yt-dlp sur Android :</p>
+<h2>Installer yt-dlp sur Android</h2>
 <pre><code class="language-bash">termux-setup-storage
 pkg update &amp;&amp; pkg upgrade
 pkg install libexpat openssl python
 pip install -U yt-dlp
 pkg install ffmpeg
 </code></pre>
-<p>Pour forcer le téléchargement au format mp4 :</p>
+<h2>Forcer le téléchargement au format mp4</h2>
 <pre><code class="language-bash">yt-dlp --merge-output-format mp4 &lt;url&gt;
 </code></pre>
-<p>Pour forcer le téléchargement en 480p :</p>
+<h2>Forcer le téléchargement en 480p ou 720p</h2>
 <pre><code class="language-bash">yt-dlp -f &#x27;bestaudio+bestvideo[height&lt;=480]/best[height&lt;=480]&#x27; &lt;url&gt;
+yt-dlp -f &#x27;bestaudio+bestvideo[height&lt;=720]/best[height&lt;=720]&#x27; &lt;url&gt;
 </code></pre>
-<p>En 720p :</p>
-<pre><code class="language-bash">yt-dlp -f &#x27;bestaudio+bestvideo[height&lt;=720]/best[height&lt;=720]&#x27; &lt;url&gt;
-</code></pre>
-<p>Pour télécharger un audio en particulier (ex: fr) :</p>
+<h2>Télécharger un audio en particulier (ex: fr)</h2>
 <pre><code class="language-bash">yt-dlp -f &#x27;bestaudio[language=fr]&#x27; &lt;url&gt;
 </code></pre>
-<p>Pour télécharger un sous-titre :</p>
+<h2>Télécharger un sous-titre</h2>
 <pre><code class="language-bash">yt-dlp --convert-subs srt --write-subs --sub-lang en --skip-download &lt;url&gt;
 </code></pre>
-<p>Pour télécharger une liste d&#x27;urls :</p>
+<h2>Télécharger une liste d&#x27;urls</h2>
 <pre><code class="language-bash">yt-dlp -a urls.txt
 </code></pre>]]></content:encoded>
         </item>
@@ -14093,10 +14113,6 @@ make install-new-arch
 <li><a href="https://gist.github.com/mattiaslundberg/8620837">https://gist.github.com/mattiaslundberg/8620837</a></li>
 <li><a href="https://github.com/helmuthdu/aui">https://github.com/helmuthdu/aui</a></li>
 <li><a href="https://github.com/MatMoul/archfi">https://github.com/MatMoul/archfi</a></li>
-<li>
-<a href="https://johackim.com/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>

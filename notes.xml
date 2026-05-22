@@ -4,8 +4,19 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 19 May 2026 10:41:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2026 09:25:55 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[202605220114]]></title>
+            <description><![CDATA[Si vous souhaitez poser des questions à une IA sans partager vos données sensibles, je vous conseille https://confer.to.
+
+C'est l'IA développée par le créateur de Signal.
+
+Personne n'a accès aux données à part vous.]]></description>
+            <link>https://johackim.com/202605220114</link>
+            <guid isPermaLink="false">https://johackim.com/202605220114</guid>
+            <pubDate>Fri, 22 May 2026 01:15:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[202605121528]]></title>
             <description><![CDATA[Aujourd'hui, ma banque m'a bloqué l'accès à mon compte car mon téléphone ne passe pas le test Play Integrity de Google (même avec MicroG).
