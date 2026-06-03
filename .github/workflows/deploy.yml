@@ -20,6 +20,8 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lint
       - run: yarn build
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
       - run: curl -Lo ./out/install https://raw.github.com/johackim/dotfiles/master/.local/bin/install.sh
       - uses: peaceiris/actions-gh-pages@v4
         with:
