@@ -3,8 +3,8 @@ title: GnuPG
 permalink: gnupg
 datePublished: 2022-06-16T11:54
 dateUpdated: 2024-06-17T16:00:00
-aliases:
-  - GPG
+aliases: [GPG]
+links: "[[Linux]]"
 publish: true
 rss: true
 ---
@@ -202,4 +202,4 @@ gpg --edit-key <ID>
 
 Références :
 
-- [[Linux]]
+- https://github.com/orhun/gpg-tui

@@ -2,16 +2,14 @@
 datePublished: 2021-05-18T21:17
 dateUpdated: 2021-05-18T21:17
 permalink: pare-feu
-aliases:
-  - Firewall
-  - Blocklist
+aliases: [Firewall, Blocklist]
 publish: true
 rss: true
 ---
 
 Un pare-feu (ou firewall) est un logiciel ou matériel de sécurité permettant d'autoriser ou bloquer le trafic entrant et/ou sortant d'un réseau.
 
-Les pare-feu open-source les plus populaires sont :
+## Liste des pare-feu open-source
 
 - [pfSense](https://pfsense.org/)
 - [OPNSense](https://opnsense.org/)
@@ -21,7 +19,7 @@ Les pare-feu open-source les plus populaires sont :
 - [[UFW]]
 - [[Portmaster]]
 
-Et voici une liste d'IPs à bloquer :
+## Liste d'IPs à bloquer
 
 - https://opendbl.net/
 - https://blocklist.de/en/index.html

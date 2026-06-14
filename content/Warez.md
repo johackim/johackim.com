@@ -42,5 +42,5 @@ Références :
 - https://freesoff.com/
 - https://thepiratelist.com/
 - https://predb.me
-- https://reddit.com/r/Piracy/comments/1ktgh4h/the_ultimate_p2p_movies_introductory_guide_2025_oc/
-- https://cryptpad.fr/code/#/2/code/view/5+9zoR63SpyXMDPr+WGYH6XiWqMo+19qU7Li4hRztI4/p/ (Mot de passe : Wikitipiak)
+- https://reddit.com/r/Piracy/comments/1ktgh4h/
+- https://reddit.com/r/FrancePirate/

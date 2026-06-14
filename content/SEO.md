@@ -79,5 +79,6 @@ Références :
 - https://backlinko.com/seo-checklist
 - https://backlinko.com/seo-tools
 - https://fr.semrush.com/blog/checklist-seo/
+- https://github.com/every-app/open-seo
 - https://issuedetector.com/
 - https://roastmyurl.com/
