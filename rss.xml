@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 07:08:07 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 11:15:57 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -3512,10 +3512,7 @@ gpg&gt; save
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
+<li><a href="https://github.com/orhun/gpg-tui">https://github.com/orhun/gpg-tui</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -9482,7 +9479,7 @@ Les Systèmes de prévention d&#x27;intrusion hôtes (ou <strong>HIPS</strong> 
             <media:content url="https://johackim.com/covers/pare-feu.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/pare-feu.jpg"/>
             <content:encoded><![CDATA[<p>Un pare-feu (ou firewall) est un logiciel ou matériel de sécurité permettant d&#x27;autoriser ou bloquer le trafic entrant et/ou sortant d&#x27;un réseau.</p>
-<p>Les pare-feu open-source les plus populaires sont :</p>
+<h2>Liste des pare-feu open-source</h2>
 <ul>
 <li><a href="https://pfsense.org/">pfSense</a></li>
 <li><a href="https://opnsense.org/">OPNSense</a></li>
@@ -9501,7 +9498,7 @@ Les Systèmes de prévention d&#x27;intrusion hôtes (ou <strong>HIPS</strong> 
 
 </li>
 </ul>
-<p>Et voici une liste d&#x27;IPs à bloquer :</p>
+<h2>Liste d&#x27;IPs à bloquer</h2>
 <ul>
 <li><a href="https://opendbl.net/">https://opendbl.net/</a></li>
 <li><a href="https://blocklist.de/en/index.html">https://blocklist.de/en/index.html</a></li>

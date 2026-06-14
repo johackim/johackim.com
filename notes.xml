@@ -4,8 +4,23 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Wed, 03 Jun 2026 07:07:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 11:15:49 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[202606141306]]></title>
+            <description><![CDATA[1579 paquets AUR d'Arch Linux ont été infectés.
+
+Voici les commandes à exécuter pour tester si votre système a été touché :
+
+```sh
+curl -o infected.txt https://md.archlinux.org/s/SxbqukK6IA/download
+pacman -Qqm | sort > packages.txt
+comm -12 packages.txt <(sort infected.txt)
+```]]></description>
+            <link>https://johackim.com/202606141306</link>
+            <guid isPermaLink="false">https://johackim.com/202606141306</guid>
+            <pubDate>Sun, 14 Jun 2026 12:54:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[202605220114]]></title>
             <description><![CDATA[Si vous souhaitez poser des questions à une IA sans partager vos données sensibles, je vous conseille https://confer.to.
