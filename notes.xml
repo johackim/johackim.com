@@ -4,8 +4,18 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Sun, 14 Jun 2026 11:15:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 12:15:55 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[202606171409]]></title>
+            <description><![CDATA[Pour jouer avec l'IA, j'utilise uniquement 2 sites :
+
+- https://arena.ai/leaderboard - pour comparer les modèles d'IA
+- https://openrouter.ai/chat - pour utiliser tous les modèles d'IA sans payer d'abonnement]]></description>
+            <link>https://johackim.com/202606171409</link>
+            <guid isPermaLink="false">https://johackim.com/202606171409</guid>
+            <pubDate>Wed, 17 Jun 2026 14:11:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[202606141306]]></title>
             <description><![CDATA[1579 paquets AUR d'Arch Linux ont été infectés.
