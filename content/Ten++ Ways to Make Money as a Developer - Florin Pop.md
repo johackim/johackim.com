@@ -39,7 +39,7 @@ Il existe plusieurs avantages à devenir freelance.
 
 ### Quels services pouvez-vous offrir en tant que développeur indépendant ?
 
-Il est facile d’offrir des services ponctuels, comme la création d’un site Web, mais pouvez-vous en faire un mieux ? Oui.
+Il est facile d’offrir des services ponctuels, comme la création d’un site Web, mais pouvez-vous en faire un mieux ? Oui.
 
 Comment ?
 

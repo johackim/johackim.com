@@ -63,7 +63,7 @@ Il s'occupe lui-même de tous les aspects d'une entreprise :
 - [[SEO]]
 - Ect...
 
-> [!QUOTE] [Courtland Allen - Créateur de indiehackers.com](https://indiehackers.com/about#:~:text=You%27re%20an%20indie%20hacker%20if%20you%27ve%20set%20out%20to%20make%20money%20independently.%20That%20means%20you%27re%20generating%20revenue%20directly%20from%20your%20customers%2C%20not%20indirectly%20through%20an%20employer.%20Other%20than%20that%2C%20there%20are%20no%20requirements)
+> [!QUOTE] [Courtland Allen - Créateur de indiehackers.com](https://indiehackers.com/about)
 > Vous êtes un indie hacker si vous gagner de l'argent de manière indépendante. Cela signifie que vous générez des revenus directement auprès de vos clients, et non indirectement par l'intermédiaire d'un employeur. À part ça, il n'y a pas d'exigences !
 
 ## 🧐 Comment devenir indie hacker ?

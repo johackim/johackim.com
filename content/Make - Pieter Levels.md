@@ -333,6 +333,6 @@ Demandez-vous si vous passez le test, si ce n'est pas le cas, automatisez.
 
 ## Listez vos tâches récurrentes et automatisez-les
 
-Pendant une semaine, listez toutes les tâches récurrentes qui prennent du temps ; ordonnez-les par facilité d'automatisation et commencez à automatiser.
+Pendant une semaine, listez toutes les tâches récurrentes qui prennent du temps ; ordonnez-les par facilité d'automatisation et commencez à automatiser.
 
 Si des tâches sont trop difficiles à automatiser, recruter un prestataire et automatiser les interactions entre lui et votre business.
