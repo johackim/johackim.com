@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 21 Jul 2026 13:05:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 14:42:28 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -744,18 +744,24 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <p>C&#x27;est ce que certains bouddhistes appellent &quot;The Monkey Mind&quot;.</p>
 <p>La <a href="https://johackim.com/mindfulness" title="pleine conscience">pleine conscience</a> est une pratique qui permet de réduire l&#x27;activité de cette partie du cerveau.</p>
 
+<blockquote class="callout quote">
+                    
+                        <div class="callout-title">
+                            <div class="callout-icon"></div>
+                            <div class="callout-title-inner">Gemini Pro 3</div>
+                        </div>
+                    
+                    <div class="callout-content"><p>De nombreuses pensées surgissent de manière involontaire, déclenchées par notre environnement (une odeur, un mot), nos émotions ou nos souvenirs.</p>
+<p>En neurosciences, cela est souvent lié au Réseau du Mode par Défaut (DMN), qui s&#x27;active quand le cerveau &quot;rêvasse&quot;.</p></div>
+                </blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/bouddhisme" title="Bouddhisme" class="not-found">Bouddhisme</a>
-
-</li>
-<li><a href="https://netflix.com/fr-en/title/81098586">Netflix - The Mind, Explained</a></li>
 <li><a href="https://youtu.be/z6KcqH06LCo?t=2306">Eliott Meunier - Comprendre et utiliser les Psychedéliques</a></li>
+<li><a href="https://netflix.com/fr-en/title/81098586">Netflix - The Mind, Explained</a></li>
+<li><a href="https://fr.wikipedia.org/wiki/R%C3%A9seau_du_mode_par_d%C3%A9faut">https://fr.wikipedia.org/wiki/Réseau_du_mode_par_défaut</a></li>
 <li><a href="https://practicalpie.com/default-mode-network/">https://practicalpie.com/default-mode-network/</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Monkey_mind">https://en.wikipedia.org/wiki/Monkey_mind</a></li>
-<li><a href="https://fr.wikipedia.org/wiki/R%C3%A9seau_du_mode_par_d%C3%A9faut">https://fr.wikipedia.org/wiki/Réseau_du_mode_par_défaut</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3660,6 +3666,7 @@ https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/
 <li><a href="https://github.com/anfragment/zen">https://github.com/anfragment/zen</a></li>
 <li><a href="https://github.com/mullvad/dns-blocklists">https://github.com/mullvad/dns-blocklists</a></li>
 <li><a href="https://github.com/gijsdev/ublock-hide-yt-shorts/">https://github.com/gijsdev/ublock-hide-yt-shorts/</a></li>
+<li><a href="https://github.com/zachlagden/Pi-hole-Optimized-Blocklists">https://github.com/zachlagden/Pi-hole-Optimized-Blocklists</a></li>
 <li><a href="https://blog.cloudflare.com/introducing-1-1-1-1-for-families">https://blog.cloudflare.com/introducing-1-1-1-1-for-families</a></li>
 <li><a href="https://reddit.com/r/uBlockOrigin/">https://reddit.com/r/uBlockOrigin/</a></li>
 <li><a href="https://oisd.nl">https://oisd.nl</a></li>
@@ -5357,10 +5364,6 @@ Répétez ce processus chaque jour de travail
 <li>Petites habitudes, Grandes réussites - Onur Karapinar</li>
 <li><a href="https://artofmanliness.com/career-wealth/career/work-deliberately-instead-reactively-rule-3/">https://artofmanliness.com/career-wealth/career/work-deliberately-instead-reactively-rule-3/</a></li>
 <li><a href="https://threetimeswiser.substack.com/p/issue-360-cognitive-patience-rule">https://threetimeswiser.substack.com/p/issue-360-cognitive-patience-rule</a></li>
-<li>
-<a href="https://johackim.com/sunday-process" title="Sunday Process" class="not-found">Sunday Process</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -10585,6 +10588,7 @@ Couche 3 : <mark>Passages soulignés</mark>
 <li><a href="https://zettelkasten.de/introduction/">https://zettelkasten.de/introduction/</a></li>
 <li><a href="https://i.imgur.com/xAkNYhe.png">https://i.imgur.com/xAkNYhe.png</a></li>
 <li><a href="https://writing.bobdoto.computer/zettelkasten/">https://writing.bobdoto.computer/zettelkasten/</a></li>
+<li><a href="https://fr.wikipedia.org/wiki/Zettelkasten">https://fr.wikipedia.org/wiki/Zettelkasten</a></li>
 </ul>
 <section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
 <ol>
