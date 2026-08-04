@@ -2,10 +2,8 @@
 title: 🗺️ Modèles mentaux
 permalink: modeles-mentaux
 description: Prenez de meilleures décisions
-aliases:
-  - Mental model
-tags:
-  - moc
+aliases: [Mental model]
+tags: [moc]
 datePublished: 2021-06-27T19:19
 dateUpdated: 2024-11-16T19:19:00
 publish: true

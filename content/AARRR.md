@@ -1,10 +1,8 @@
 ---
-aliases:
-  - Framework AARRR
-  - Pirate Metrics Framework
 title: Framework AARRR
-datePublished: 2022-07-31T03:15
 dateUpdated: 2022-07-31T03:15
+datePublished: 2022-07-31T03:15
+aliases: [Framework AARRR, Pirate Metrics Framework]
 permalink: aarrr
 publish: true
 rss: true

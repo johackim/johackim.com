@@ -2,13 +2,11 @@
 datePublished: 2021-04-28T10:52
 dateUpdated: 2021-04-28T10:52
 title: Résumé du livre The One Thing de Garry Keller
+aliases: [Passez à l'essentiel ! - Gary Keller]
 permalink: the-one-thing-gary-keller
+tags: [literature]
 publish: true
 rss: true
-tags:
-  - literature
-aliases:
-  - Passez à l'essentiel ! - Gary Keller
 ---
 
 [The One Thing](https://placedeslibraires.fr/livre/9782379350474-the-one-thing-gary-keller/) est un livre de [[Productivité]] écrit par Garry Keller en 2013.

@@ -65,6 +65,7 @@ Références :
 - https://github.com/anfragment/zen
 - https://github.com/mullvad/dns-blocklists
 - https://github.com/gijsdev/ublock-hide-yt-shorts/
+- https://github.com/zachlagden/Pi-hole-Optimized-Blocklists
 - https://blog.cloudflare.com/introducing-1-1-1-1-for-families
 - https://reddit.com/r/uBlockOrigin/
 - https://oisd.nl

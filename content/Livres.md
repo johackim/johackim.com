@@ -2,8 +2,7 @@
 datePublished: 2021-04-15T16:44
 dateUpdated: 2021-04-15T16:44
 permalink: livres
-tags:
-  - moc
+tags: [moc]
 title: 📚 Résumés de livre
 description: De la nourriture pour votre cerveau
 publish: true

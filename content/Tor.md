@@ -2,8 +2,7 @@
 datePublished: 2021-06-27T19:19:00
 dateUpdated: 2023-12-26T19:43:00
 title: Tor
-aliases:
-  - Tor browser
+aliases: [Tor browser]
 permalink: tor
 publish: true
 rss: true

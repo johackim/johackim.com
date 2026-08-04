@@ -1,14 +1,11 @@
 ---
-links:
-  - "[[MBSR]]"
-  - "[[Méditation]]"
 title: Mindfulness
 permalink: mindfulness
 description: La pleine conscience (Mindfulness) est une pratique qui consiste à être conscient du moment présent, sans jugement ni attachement.
 datePublished: 2024-05-22T17:16:00
 dateUpdated: 2026-03-20T17:16:00
-aliases:
-  - Pleine conscience
+links: ["[[MBSR]]", "[[Méditation]]"]
+aliases: [Pleine conscience]
 publish: true
 rating: 5
 ---

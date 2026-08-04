@@ -33,6 +33,7 @@ Références :
 
 - https://rentry.org/Piracy-BG
 - https://reddit.com/r/Piracy/wiki/megathread/
+- https://reddit.com/r/FrancePirate/
 - https://github.com/Shakil-Shahadat/awesome-piracy
 - https://github.com/privateersclub/wiki
 - https://champagne.pages.dev/
@@ -42,5 +43,3 @@ Références :
 - https://freesoff.com/
 - https://thepiratelist.com/
 - https://predb.me
-- https://reddit.com/r/Piracy/comments/1ktgh4h/
-- https://reddit.com/r/FrancePirate/

@@ -90,5 +90,6 @@ Références :
 - https://zettelkasten.de/introduction/
 - https://i.imgur.com/xAkNYhe.png
 - https://writing.bobdoto.computer/zettelkasten/
+- https://fr.wikipedia.org/wiki/Zettelkasten
 
 [^1]: Genius: The Life And Science of Richard Feynman (page 409).

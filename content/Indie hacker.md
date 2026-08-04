@@ -39,7 +39,6 @@ links:
   - "[[Ramen profitability]]"
   - "[[Roadmap]]"
   - "[[Service client]]"
-  - "[[Typographie]]"
   - "[[Validation]]"
 ---
 

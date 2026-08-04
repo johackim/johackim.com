@@ -3,11 +3,11 @@ datePublished: 2021-07-18T19:21
 dateUpdated: 2021-07-18T19:21
 permalink: make-pieter-levels
 title: Résumé du livre Make de Pieter Levels
+description: Un résumé pratique du livre Make de Pieter Levels, offre des conseils sur comment créer et lancer de produits, trouver votre audience spécifique, et monétiser votre travail avec succès.
+image: https://i.imgur.com/u7hwNtc.jpeg
+tags: [literature]
 publish: true
 rss: true
-description: Un résumé pratique du livre Make de Pieter Levels, offre des conseils sur comment créer et lancer de produits, trouver votre audience spécifique, et monétiser votre travail avec succès.
-tags:
-  - literature
 ---
 
 ## TL;DR
