@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 04 Aug 2026 16:13:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 00:17:01 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -810,26 +810,6 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/cercle-d&#x27;influence" title="Cercle d&#x27;influence" class="not-found">Cercle d&#x27;influence</a>
-
-</li>
-<li>
-<a href="https://johackim.com/responsabilite" title="Responsabilité" class="not-found">Responsabilité</a>
-
-</li>
-<li>
-<a href="https://johackim.com/ali-abdaal-how-to-be-happier-stoicism-masterclass#la-dichotomie-du-controle" title="Ali Abdaal - How To Be Happier Stoicism Masterclass" class="not-found">Ali Abdaal - How To Be Happier Stoicism Masterclass</a>
-
-</li>
-<li>
-<a href="https://johackim.com/ali-abdaal-how-to-be-happier-stoicism-masterclass#les-2-seules-choses-que-l&#x27;on-peut-controler" title="Ali Abdaal - How To Be Happier Stoicism Masterclass" class="not-found">Ali Abdaal - How To Be Happier Stoicism Masterclass</a>
-
-</li>
-<li>
-<a href="https://johackim.com/les-7-habitudes-de-ceux-qui-realisent-tout-ce-qu&#x27;ils-entreprennent-stephen-r.-covey" title="Les 7 habitudes de ceux qui réalisent tout ce qu&#x27;ils entreprennent  - Stephen R. Covey" class="not-found">Les 7 habitudes de ceux qui réalisent tout ce qu&#x27;ils entreprennent  - Stephen R. Covey</a>
-
-</li>
 <li><a href="https://amazon.fr/dp/B01HE7TG7Y/">Happy - Derren Brown</a></li>
 <li><a href="https://youtu.be/-QySLDU8GLY?t=704">Jean-Charles Kurdali - Devenir millionnaire ne vous rendra pas plus serein</a></li>
 <li><a href="https://whatisstoicism.com/stoicism-definition/what-is-the-dichotomy-of-control/">https://whatisstoicism.com/stoicism-definition/what-is-the-dichotomy-of-control/</a></li>
@@ -1765,10 +1745,6 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/automatisation" title="Automatisation" class="not-found">Automatisation</a>
-
-</li>
 <li><a href="https://npmjs.com/search?q=keywords%3An8n-community-node-package">https://npmjs.com/search?q=keywords%3An8n-community-node-package</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -1858,15 +1834,7 @@ app.whenReady().then(createWindow);
 <p>Pour quitter le réseau, utilisez la commande suivante :</p>
 <pre><code class="language-bash">zerotier-cli leave &lt;network&gt;
 </code></pre>
-<p>Pratique pour pouvoir jouer à des jeux en multijoueur lorsque vous n&#x27;êtes pas sur le même réseau local que vos amis 🙂 !</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Pratique pour pouvoir jouer à des jeux en multijoueur lorsque vous n&#x27;êtes pas sur le même réseau local que vos amis 🙂 !</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Expo]]></title>
@@ -1973,10 +1941,6 @@ make # Par exemple
 <ul>
 <li><a href="https://github.com/crosstool-ng/crosstool-ng">https://github.com/crosstool-ng/crosstool-ng</a></li>
 <li><a href="https://www.chicoree.fr/w/Compilation_crois%C3%A9e_facile_pour_Raspberry_Pi">https://www.chicoree.fr/w/Compilation_croisée_facile_pour_Raspberry_Pi</a></li>
-<li>
-<a href="https://johackim.com/compilateur" title="Compilateur" class="not-found">Compilateur</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2159,10 +2123,6 @@ echo -e &#x27;pcm.!default bluealsa\nctl.!default bluealsa&#x27; | sudo tee /etc
 <p>Références :</p>
 <ul>
 <li><a href="https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html">https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html</a></li>
-<li>
-<a href="https://johackim.com/raspberry-pi" title="Raspberry PI" class="not-found">Raspberry PI</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2429,10 +2389,6 @@ SUM:                            73            888              3           7407
 <li><a href="https://github.com/AlDanial/cloc">https://github.com/AlDanial/cloc</a></li>
 <li><a href="https://github.com/XAMPPRocky/tokei">https://github.com/XAMPPRocky/tokei</a></li>
 <li><a href="https://mobileread.com/forums/showthread.php?t=134000">https://mobileread.com/forums/showthread.php?t=134000</a></li>
-<li>
-<a href="https://johackim.com/programmation" title="Programmation">Programmation</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2484,10 +2440,6 @@ SUM:                            73            888              3           7407
 <li><a href="https://everlaab.com/les-2-vitesses-de-la-pensee/">https://everlaab.com/les-2-vitesses-de-la-pensee/</a></li>
 <li><a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_1_/_Syst%C3%A8me_2_:_Les_deux_vitesses_de_la_pens%C3%A9e">https://fr.wikipedia.org/wiki/Système_1_/_Système_2_:_Les_deux_vitesses_de_la_pensée</a></li>
 <li><a href="https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking">https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking</a></li>
-<li>
-<a href="https://johackim.com/systeme-1-systeme-2-daniel-kahneman" title="Système 1, système 2 - Daniel Kahneman" class="not-found">Système 1, système 2 - Daniel Kahneman</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -2537,18 +2489,6 @@ SUM:                            73            888              3           7407
 <li><a href="https://web.archive.org/web/20190403111940/www.wired.com/2012/10/ff-elon-musk-qa/">https://web.archive.org/web/20190403111940/www.wired.com/2012/10/ff-elon-musk-qa/</a></li>
 <li><a href="https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/">https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/</a></li>
 <li><a href="https://x.com/george__mack/status/1699109802020852223">https://x.com/george__mack/status/1699109802020852223</a></li>
-<li>
-<a href="https://johackim.com/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing" class="not-found">Corey Haines - Mental Models For Marketing</a>
-
-</li>
-<li>
-<a href="https://johackim.com/la-technique-de-lechelle" title="La technique de l&#x27;échelle">La technique de l&#x27;échelle</a>
-
-</li>
-<li>
-<a href="https://johackim.com/les-5-pourquoi" title="Les 5 pourquoi" class="not-found">Les 5 pourquoi</a>
-
-</li>
 <li><a href="https://youtu.be/LOMkBihsWZw?t=140">Productivity Game - The great mental models - Shane Parrish</a></li>
 <li><a href="https://youtu.be/NV3sBlRgzTI">The First Principles Method Explained by Elon Musk</a></li>
 <li><a href="https://youtu.be/eJ07g2NtOiY">Nat Eliason - Decomplication: The Art of First Principles Thinking</a></li>
@@ -2615,15 +2555,7 @@ console.log({ followers });
 <pre><code class="language-bash">node index.mjs
 </code></pre>
 <p>Voilà, vous savez maintenant comment récupérer le nombre de followers d&#x27;un compte Twitter sans utiliser l&#x27;API payante de Twitter 😀 !</p>
-<p>PS : Si jamais une instance ne fonctionne pas (ex: nitter.net), vous pouvez <a href="https://status.d420.de/">utiliser une autre instance</a>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/programmation" title="Programmation">Programmation</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>PS : Si jamais une instance ne fonctionne pas (ex: nitter.net), vous pouvez <a href="https://status.d420.de/">utiliser une autre instance</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Systèmes vs. objectifs]]></title>
@@ -2743,14 +2675,6 @@ console.log({ followers });
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/design" title="Design" class="not-found">Design</a>
-
-</li>
-<li>
-<a href="https://johackim.com/design-system" title="Design system" class="not-found">Design system</a>
-
-</li>
 <li><a href="https://youtu.be/x1YstBqmYxA?t=980">Grafikart.fr - Organiser son projet JavaScript</a></li>
 <li><a href="https://youtu.be/K8fIVThMGaw?t=111">Basti Ui - LE DESIGN ATOMIQUE - C&#x27;est quoi l&#x27;Atomic ?</a></li>
 <li><a href="https://bit.dev/">https://bit.dev/</a></li>
@@ -3056,10 +2980,6 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/corey-haines-mental-models-for-marketing" title="Corey Haines - Mental Models For Marketing" class="not-found">Corey Haines - Mental Models For Marketing</a>
-
-</li>
 <li>Le livre de la jungle - Younès Rharbaoui</li>
 <li><a href="https://yannleonardi.com/framework-aarrr/">https://yannleonardi.com/framework-aarrr/</a></li>
 <li><a href="https://airtable.com/shrzVGqmdLpoPQF9i">https://airtable.com/shrzVGqmdLpoPQF9i</a></li>
@@ -3102,18 +3022,6 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <p>Références :</p>
 <ul>
 <li>The Molecule of More - Daniel Z. Lieberman</li>
-<li>
-<a href="https://johackim.com/dopamine-nation-anna-lembke" title="Dopamine Nation - Anna Lembke" class="not-found">Dopamine Nation - Anna Lembke</a>
-
-</li>
-<li>
-<a href="https://johackim.com/behave-robert-sapolsky" title="Behave - Robert Sapolsky" class="not-found">Behave - Robert Sapolsky</a>
-
-</li>
-<li>
-<a href="https://johackim.com/dopamine-detox-thibaut-meurisse" title="Dopamine Detox - Thibaut Meurisse" class="not-found">Dopamine Detox - Thibaut Meurisse</a>
-
-</li>
 <li><a href="https://arte.tv/dopamine/">Arte - Documentaire sur la dopamine</a></li>
 <li><a href="https://jeancharleskurdali.substack.com/p/comprendre-et-combattre-notre-addiction">JCK - Comprendre et combattre notre addiction à la dopamine</a></li>
 <li><a href="https://reddit.com/r/Nootropics/comments/xufynu/using_dopamine_supplements_to_hack_motivation_the/">Using Dopamine Supplements to Hack Motivation: the Neurobiology of Ambition</a></li>
@@ -3151,14 +3059,6 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/behave-robert-sapolsky" title="Behave - Robert Sapolsky" class="not-found">Behave - Robert Sapolsky</a>
-
-</li>
-<li>
-<a href="https://johackim.com/les-lois-de-la-nature-humaine-robert-greene#les-3-parties-du-cerveau" title="Les lois de la nature humaine - Robert Greene" class="not-found">Les lois de la nature humaine - Robert Greene</a>
-
-</li>
 <li><a href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_du_cerveau_triunique">https://fr.wikipedia.org/wiki/Théorie_du_cerveau_triunique</a></li>
 <li><a href="https://courses.thoughtleader.school/mmc/triune-brain">https://courses.thoughtleader.school/mmc/triune-brain</a></li>
 <li><a href="https://bigthink.com/neuropsych/triune-brain/">https://bigthink.com/neuropsych/triune-brain/</a></li>
@@ -3291,10 +3191,6 @@ EOF
 <li><a href="https://github.com/cypress-io/cypress-realworld-app">https://github.com/cypress-io/cypress-realworld-app</a></li>
 <li><a href="https://marmelab.com/blog/2023/11/20/screenshot-ci.html">https://marmelab.com/blog/2023/11/20/screenshot-ci.html</a></li>
 <li><a href="https://pro.academind.com/p/cypress-end-to-end-testing-getting-started">https://pro.academind.com/p/cypress-end-to-end-testing-getting-started</a></li>
-<li>
-<a href="https://johackim.com/testing" title="Testing" class="not-found">Testing</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3707,14 +3603,6 @@ quickemu --vm android-9.0-x86.conf
 <p>Références :</p>
 <ul>
 <li><a href="https://korben.info/quickemu.html">https://korben.info/quickemu.html</a></li>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
-<li>
-<a href="https://johackim.com/virtualisation" title="Virtualisation" class="not-found">Virtualisation</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3738,10 +3626,6 @@ scli link
 <p>Références :</p>
 <ul>
 <li><a href="https://github.com/isamert/scli">https://github.com/isamert/scli</a></li>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3852,10 +3736,6 @@ scli link
 <li>Antifragile - Nassim Taleb</li>
 <li>Nassim Taleb - Le Cygne Noir</li>
 <li><a href="https://wisdomtheory.gumroad.com/l/100MM">100 Mental Models - Wisdom Theory</a></li>
-<li>
-<a href="https://johackim.com/petites-habitudes-grandes-reussites-onur-karapinar" title="Petites habitudes, Grandes réussites - Onur Karapinar" class="not-found">Petites habitudes, Grandes réussites - Onur Karapinar</a>
-
-</li>
 <li><a href="https://fs.blog/an-antifragile-way-of-life/">Farnam Street - 10 Principles to Live an Antifragile Life</a></li>
 <li><a href="https://heroic.us/optimize/101/antifragile">Optimize - Antifragile 101</a></li>
 <li><a href="https://notes.linkingyourthinking.com/Umami/Antifragility">LYT Kit - Antifragility</a></li>
@@ -4168,10 +4048,6 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
 <li><a href="https://youtu.be/Bto1eil6c6E">Tristan - APPRENDRE LE LOCKPICKING</a></li>
 <li><a href="https://amazon.fr/dp/B01LWQ0F40">Pick gun</a></li>
 <li><a href="https://youtu.be/L7dnmHnJbww?t=2049">Key impressioning</a></li>
-<li>
-<a href="https://johackim.com/cybersecurite" title="Cybersécurité">Cybersécurité</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4217,10 +4093,6 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
 <p>Références :</p>
 <ul>
 <li><a href="https://github.com/RetroBat-Official/retrobat-setup">https://github.com/RetroBat-Official/retrobat-setup</a></li>
-<li>
-<a href="https://johackim.com/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4520,10 +4392,6 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
 <li><a href="https://storybook.js.org/">https://storybook.js.org/</a></li>
 <li><a href="https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-accordion--default">Exemple de storybook</a></li>
 <li><a href="https://youtube.com/watch?v=CLwX9EWlWJM">Grafikart - Tutoriel JavaScript : Storybook</a></li>
-<li>
-<a href="https://johackim.com/design-system" title="Design system" class="not-found">Design system</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4617,14 +4485,6 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
-
-</li>
-<li>
-<a href="https://johackim.com/psychologie" title="Psychologie">Psychologie</a>
-
-</li>
 <li><a href="https://fr.wikipedia.org/wiki/Hypocrisie_morale">https://fr.wikipedia.org/wiki/Hypocrisie_morale</a></li>
 <li><a href="https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV">https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV</a></li>
 <li><a href="https://gurwinder.substack.com/p/30-useful-principles-autumn-2023">https://gurwinder.substack.com/p/30-useful-principles-autumn-2023</a></li>
@@ -4651,18 +4511,6 @@ Vous n&#x27;êtes pas aller courir cette semaine du coup vous vous dites &quot;b
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
-
-</li>
-<li>
-<a href="https://johackim.com/psychologie" title="Psychologie">Psychologie</a>
-
-</li>
-<li>
-<a href="https://johackim.com/pensee-tout-ou-rien" title="Pensée tout ou rien">Pensée tout ou rien</a>
-
-</li>
 <li><a href="https://i.imgur.com/qmejYY5.jpeg">https://i.imgur.com/qmejYY5.jpeg</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -4712,15 +4560,7 @@ Vous découvrez le principe de l&#x27;éclairage trois points, vous ferez beauco
 <p>Une sorte de <a href="https://johackim.com/biais-d&#x27;optimisme" title="Biais d&#x27;optimisme" class="not-found">Biais d&#x27;optimisme</a> qui nous poussent à mettre trop d&#x27;importance à notre futur soi.</p>
 
 <p>Alors qu&#x27;il est fort probable que votre futur soi reste le même que votre moi d&#x27;aujourd&#x27;hui.</p>
-<p>Si on n&#x27;est pas capable de faire une action aujourd&#x27;hui, pourquoi le serait-on le lendemain ?</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/bigger-leaner-stronger-michael-matthews" title="Bigger Leaner Stronger - Michael Matthews" class="not-found">Bigger Leaner Stronger - Michael Matthews</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Si on n&#x27;est pas capable de faire une action aujourd&#x27;hui, pourquoi le serait-on le lendemain ?</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Shadow sur Linux]]></title>
@@ -4863,14 +4703,6 @@ apt install -y shadowusb
 <li><a href="https://blog.henricook.com/shadow-pc-support-for-ubuntu-2110">https://blog.henricook.com/shadow-pc-support-for-ubuntu-2110</a></li>
 <li><a href="https://gitlab.com/aar642/shadow-repackaged#known-issues">https://gitlab.com/aar642/shadow-repackaged#known-issues</a></li>
 <li><a href="https://frsbg01.filebrowser.shadow.tech/shadowftp/login">https://frsbg01.filebrowser.shadow.tech/shadowftp/login</a></li>
-<li>
-<a href="https://johackim.com/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
-
-</li>
-<li>
-<a href="https://johackim.com/cloud-desktop" title="Cloud gaming" class="not-found">Cloud gaming</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4889,15 +4721,7 @@ apt install -y shadowusb
 </code></pre>
 <p>Pour l&#x27;utiliser :</p>
 <pre><code class="language-bash">whatweb -v &lt;website&gt;
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/zero-to-mastery-complete-ethical-hacking-bootcamp-2022" title="Zero To Mastery - Complete Ethical Hacking Bootcamp 2022" class="not-found">Zero To Mastery - Complete Ethical Hacking Bootcamp 2022</a>
-
-</li>
-</ul>]]></content:encoded>
+</code></pre>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment avoir spotify gratuitement sans pubs ?]]></title>
@@ -4921,10 +4745,6 @@ apt install -y shadowusb
 <li><a href="https://github.com/abba23/spotify-adblock">https://github.com/abba23/spotify-adblock</a></li>
 <li><a href="https://github.com/serialoverflow/blockify">https://github.com/serialoverflow/blockify</a></li>
 <li><a href="https://github.com/x0uid/SpotifyAdBlock">https://github.com/x0uid/SpotifyAdBlock</a></li>
-<li>
-<a href="https://johackim.com/spotify" title="Spotify" class="not-found">Spotify</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -5080,10 +4900,6 @@ apt install -y shadowusb
 <p>Références :</p>
 <ul>
 <li><a href="https://daniloduchesnes.com/blog/parametres-utm/">https://daniloduchesnes.com/blog/parametres-utm/</a></li>
-<li>
-<a href="https://johackim.com/analytics" title="Analytics" class="not-found">Analytics</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -5118,14 +4934,6 @@ Identifiez la contrainte (le <a href="https://johackim.com/goulot-d&#x27;etrangl
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/the-goal-eliyahu-goldratt" title="The Goal - Eliyahu Goldratt" class="not-found">The Goal - Eliyahu Goldratt</a>
-
-</li>
-<li>
-<a href="https://johackim.com/ipo" title="IPO" class="not-found">IPO</a>
-
-</li>
 <li><a href="https://julian.com/blog/mental-model-examples">https://julian.com/blog/mental-model-examples</a></li>
 <li><a href="https://qualefficiens.fr/post/toc-definition-theory-constraints">https://qualefficiens.fr/post/toc-definition-theory-constraints</a></li>
 <li><a href="https://fortelabs.com/blog/theory-of-constraints-101/">https://fortelabs.com/blog/theory-of-constraints-101/</a></li>
@@ -5162,10 +4970,6 @@ Identifiez la contrainte (le <a href="https://johackim.com/goulot-d&#x27;etrangl
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/avalez-le-crapaud-brian-tracy" title="Avalez le crapaud - Brian Tracy" class="not-found">Avalez le crapaud - Brian Tracy</a>
-
-</li>
 <li><a href="https://everlaab.com/prioriser-ses-taches-avec-la-methode-abcde/">https://everlaab.com/prioriser-ses-taches-avec-la-methode-abcde/</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -5267,10 +5071,6 @@ Identifiez la contrainte (le <a href="https://johackim.com/goulot-d&#x27;etrangl
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/liberez-votre-creativite-julia-cameron" title="Libérez votre créativité - Julia Cameron" class="not-found">Libérez votre créativité - Julia Cameron</a>
-
-</li>
 <li><a href="https://player.vimeo.com/video/489259753">Emilio Abril - Page du matin</a></li>
 <li><a href="https://juliacameronlive.com/basic-tools/morning-pages/">Julia Cameron - Morning Pages</a></li>
 <li><a href="https://youtu.be/x7h26exKBrU?t=280">Emilio - Comment débloquer votre Créativité (4 techniques)</a></li>
@@ -5400,10 +5200,6 @@ Répétez ce processus chaque jour de travail
 <ul>
 <li>La 25ème Heure - Guillaume Declair</li>
 <li><a href="https://youtube.com/shorts/rctN3Pf71pg">Emilio Abril - La technique des Navy SEALs pour devenir fort mentalement</a></li>
-<li>
-<a href="https://johackim.com/chunking" title="Chunking" class="not-found">Chunking</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -5635,10 +5431,6 @@ parse_firefox_bookmark(bdict)
 <p>Références :</p>
 <ul>
 <li><a href="https://jagan.be/blog/post/shorts/Small-snipet-to-export-Firefox-bookmarks.json-to-markdown/">https://jagan.be/blog/post/shorts/Small-snipet-to-export-Firefox-bookmarks.json-to-markdown/</a></li>
-<li>
-<a href="https://johackim.com/navigateur-web" title="Navigateur web" class="not-found">Navigateur web</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -5698,15 +5490,7 @@ source ~/.bashrc
 <p>J&#x27;ai un souci avec <code>pip</code> qui me renvoie une erreur : <code>~/.pyenv/pyenv.d/exec/pip-rehash/pip: line 20: 38799 Segmentation fault (core dumped) &quot;$PYENV_COMMAND_PATH&quot; &quot;$@&quot;</code>.</p>
 <p>Pour régler le problème je commente une ligne du fichier <code>~/.pyenv/versions/3.7.0/bin/pip3.7</code> :</p>
 <pre><code class="language-python"># sys.argv[0] = re.sub(r&#x27;(-script\.pyw?|\.exe)?$&#x27;, &#x27;&#x27;, sys.argv[0])
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/python" title="Python" class="not-found">Python</a>
-
-</li>
-</ul>]]></content:encoded>
+</code></pre>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Github Pages]]></title>
@@ -5848,19 +5632,7 @@ sha256sum mailspring-1.9.2-amd64.deb
 <p>Puis envoyez vos modifications :</p>
 <pre><code class="language-bash">git remote set-url origin ssh://aur@aur.archlinux.org/&lt;pkgname&gt;.git
 git push origin master
-</code></pre>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/arch-linux" title="Arch Linux" class="not-found">Arch Linux</a>
-
-</li>
-<li>
-<a href="https://johackim.com/yay" title="Yay" class="not-found">Yay</a>
-
-</li>
-</ul>]]></content:encoded>
+</code></pre>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Télécharger des torrents depuis un navigateur web]]></title>
@@ -5902,15 +5674,7 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
 </code></pre>
 <p>Dans le premier exemple, il suffit de reprendre l&#x27;identifiant de la chaine (<code>UCAcAnMF0OrCtUep3Y4M</code>) et de le placer à la fin de cette URL : <code>https://youtube.com/feeds/videos.xml?channel_id=</code>.</p>
 <p>Dans le second exemple, il faut prendre le nom d&#x27;utilisateur de la chaine <code>sofyanfaitducinema</code> et le placer à la findde cette URL : <code>https://youtube.com/feeds/videos.xml?user=</code>.</p>
-<p>Voilà ! 😀</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/rss" title="RSS" class="not-found">RSS</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Voilà ! 😀</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Biais des coûts irrécupérables]]></title>
@@ -5925,14 +5689,6 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/path-dependence" title="Path dependence" class="not-found">Path dependence</a>
-
-</li>
-<li>
-<a href="https://johackim.com/decisions" title="Décisions" class="not-found">Décisions</a>
-
-</li>
 <li><a href="https://youtu.be/PsLaI4jDftA?t=179">Big Think - 3 game theory tactics, explained</a></li>
 <li><a href="https://braink.it/principles/sunk-cost-fallacy">https://braink.it/principles/sunk-cost-fallacy</a></li>
 <li><a href="https://kitted.app/snare/sunk-cost-fallacy/0017">https://kitted.app/snare/sunk-cost-fallacy/0017</a></li>
@@ -6184,10 +5940,6 @@ yay -S --noconfirm nishanths-license-git
 <ul>
 <li><a href="https://youtu.be/OP3dA2GcAh8?t=304">Ali Abdaal - The Second Brain, A Life-Changing Productivity System</a></li>
 <li><a href="https://youtu.be/HXDBY129N0E">Eliott Meunier - Le hack de productivité ultime : procrastiner 2h/jour</a></li>
-<li>
-<a href="https://johackim.com/tiago-forte-building-a-second-brain" title="Tiago Forte - Building A Second Brain" class="not-found">Tiago Forte - Building A Second Brain</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -6214,15 +5966,7 @@ yay -S --noconfirm nishanths-license-git
 <p>Pour limiter l&#x27;upload à 512kbps :</p>
 <pre><code class="language-bash">sudo wondershaper -a enp1s0 -u 512
 </code></pre>
-<p>Voilà 😀 !</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/reseau" title="Network" class="not-found">Network</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Voilà 😀 !</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Cryptsetup]]></title>
@@ -6388,14 +6132,6 @@ export default app;
 <ul>
 <li>alt+left</li>
 <li>alt+right</li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -7411,15 +7147,7 @@ sudo systemctl restart sshd
     ControlPath ~/.ssh/%r@%h:%p
 </code></pre>
 <p>Maintenant vous avez accès à vos applications graphiques distantes directement depuis votre machine hôte 😀🎉.</p>
-<p>PS : Si comme moi vous rencontrez un problème de touche de clavier non fonctionnelle (ex : AltGr), utilisez le paramètre <code>-Y</code> au lieu de <code>-X</code>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/ssh" title="SSH" class="not-found">SSH</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>PS : Si comme moi vous rencontrez un problème de touche de clavier non fonctionnelle (ex : AltGr), utilisez le paramètre <code>-Y</code> au lieu de <code>-X</code>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[L'effet de simple exposition]]></title>
@@ -7518,14 +7246,6 @@ webfsd -F -p 5000
 <ul>
 <li><a href="https://gist.github.com/willurd/5720255">https://gist.github.com/willurd/5720255</a></li>
 <li><a href="https://github.com/rejetto/hfs/">https://github.com/rejetto/hfs/</a></li>
-<li>
-<a href="https://johackim.com/nginx" title="Nginx" class="not-found">Nginx</a>
-
-</li>
-<li>
-<a href="https://johackim.com/apache" title="Apache" class="not-found">Apache</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -7566,15 +7286,7 @@ const createImage = (text, path = &#x27;image.jpg&#x27;, width = 1600, height = 
 createImage(&#x27;Hello World!&#x27;);
 </code></pre>
 <p>Lorsque j&#x27;exécute ce script (<code>node script.js</code>), une image avec un fond gris et un texte blanc &quot;Hello World!&quot; sera créée.</p>
-<p>C&#x27;est cette librairie que j&#x27;utilise pour générer automatiquement toutes les previews de mon <a href="https://johackim.com">Digital Garden</a>.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/programmation" title="Programmation">Programmation</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>C&#x27;est cette librairie que j&#x27;utilise pour générer automatiquement toutes les previews de mon <a href="https://johackim.com">Digital Garden</a>.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Mon processus de prise de notes]]></title>
@@ -7671,10 +7383,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/ikigai-hector-garcia" title="IKIGAI - Héctor Garcia" class="not-found">IKIGAI - Héctor Garcia</a>
-
-</li>
 <li><a href="https://fourminutebooks.com/ikigai/">https://fourminutebooks.com/ikigai/</a></li>
 <li><a href="https://nesslabs.com/ikigai">https://nesslabs.com/ikigai</a></li>
 <li><a href="https://42courses.com/blog/home/2018/7/12/the-japanese-method-to-help-you-find-your-purpose-in-life">https://42courses.com/blog/home/2018/7/12/the-japanese-method-to-help-you-find-your-purpose-in-life</a></li>
@@ -7723,10 +7431,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/petites-habitudes-grandes-reussites-onur-karapinar" title="Petites habitudes, Grandes réussites - Onur Karapinar" class="not-found">Petites habitudes, Grandes réussites - Onur Karapinar</a>
-
-</li>
 <li><a href="https://behaviormodel.org/">https://behaviormodel.org/</a></li>
 </ul>]]></content:encoded>
         </item>
@@ -7759,14 +7463,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li>Une entreprise qui ne vend pas la valeur qu’elle crée est une organisation à but non lucratif.</li>
 <li>Une entreprise qui ne tient pas ses promesses est une entreprise frauduleuse.</li>
 <li>Une entreprise qui ne gagne pas suffisamment d’argent pour continuer à fonctionner est condamnée à fermer.</li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/le-personal-mba-josh-kaufman" title="Le Personal MBA - Josh Kaufman" class="not-found">Le Personal MBA - Josh Kaufman</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -7822,10 +7518,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <ul>
 <li><a href="https://community.swipefiles.com/c/mental-models-for-marketing/process-4-5-eisenhower-matrix">Corey Haines - Eisenhower Matrix</a></li>
 <li><a href="https://onurkarapinar.teachable.com/courses/553823/lectures/10277218">Onur Karapinar - Déterminer vos priorités</a></li>
-<li>
-<a href="https://johackim.com/le-livre-des-decisions-mikael-krogerus" title="Le livre des décisions - Mikael Krogerus" class="not-found">Le livre des décisions - Mikael Krogerus</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -8082,10 +7774,6 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li><a href="https://zettelkasten.de/posts/overview/">https://zettelkasten.de/posts/overview/</a></li>
 <li><a href="https://app.mailbrew.com/s/newsletter/pFhBz0TpXK9g">https://app.mailbrew.com/s/newsletter/pFhBz0TpXK9g</a></li>
 <li><a href="https://youtu.be/_t9R1AnB7ho&amp;t=344">Odysseas - Effective Note-Taking to Remember More + Create New Ideas</a></li>
-<li>
-<a href="https://johackim.com/atomique" title="Atomique" class="not-found">Atomique</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -8106,15 +7794,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li>Une référence : l&#x27;URL du contenu</li>
 </ul>
 <p>Notez ce que vous ne voulez pas oublier ou ce que vous pensez pouvoir utiliser dans votre propre réflexion ou vos écrits.</p>
-<p>Soyez bref, soyez extrêmement sélectif, ne copiez pas de texte et utilisez vos propres mots.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Soyez bref, soyez extrêmement sélectif, ne copiez pas de texte et utilisez vos propres mots.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Note permanente]]></title>
@@ -8149,15 +7829,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li>Sourcé -&gt; relié a des sources</li>
 <li>Une note permanent = 1 concept</li>
 </ul></div>
-                </blockquote>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>
-
-</li>
-</ul>]]></content:encoded>
+                </blockquote>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Note temporaire]]></title>
@@ -8175,15 +7847,7 @@ Une note <strong>ne doit pas dépasser une page</strong>, elle doit être <a hre
 <li>Mon Rocketbook quand je suis sur mon bureau.</li>
 <li>Un fichier markdown <code>inbox.md</code> dans Obisidian où je note tout ce qui me traverse l&#x27;esprit.</li>
 </ol>
-<p>Si vos pensées sont déjà triées et que vous avez le temps, vous pouvez sauter cette étape et écrire directement votre idée sous forme de note permanente.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Si vos pensées sont déjà triées et que vous avez le temps, vous pouvez sauter cette étape et écrire directement votre idée sous forme de note permanente.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Pair programming]]></title>
@@ -8331,10 +7995,6 @@ nvme format --ses=1 &lt;device&gt;
 <ul>
 <li><a href="https://wiki.archlinux.org/title/Securely_wipe_disk#shred">https://wiki.archlinux.org/title/Securely_wipe_disk#shred</a></li>
 <li><a href="https://github.com/martijnvanbrummelen/nwipe">https://github.com/martijnvanbrummelen/nwipe</a></li>
-<li>
-<a href="https://johackim.com/vie-privee" title="Privacy">Privacy</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -8422,10 +8082,6 @@ sudo systemctl start tor
 <hr/>
 <p>Références :</p>
 <ul>
-<li>
-<a href="https://johackim.com/vie-privee" title="Vie privée">Vie privée</a>
-
-</li>
 <li><a href="https://github.com/torserv/torserv">https://github.com/torserv/torserv</a></li>
 <li><a href="https://gitlab.torproject.org/tpo/core/oniux">https://gitlab.torproject.org/tpo/core/oniux</a></li>
 </ul>]]></content:encoded>
@@ -8843,19 +8499,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 # 1+0 records out
 # 1073741824 bytes (1.1 GB, 1.0 GiB) copied, 3.38203 s, 317 MB/s
 </code></pre>
-<p>Dans ce cas présent, la vitesse d&#x27;écriture du disque dur est de 317 MB/s.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
-<li>
-<a href="https://johackim.com/iops" title="IOPS" class="not-found">IOPS</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Dans ce cas présent, la vitesse d&#x27;écriture du disque dur est de 317 MB/s.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Les différents types de sauvegarde]]></title>
@@ -9221,15 +8865,7 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
 <p>Vous pouvez ajouter un alias dans votre fichier <code>.bashrc</code> ou <code>.zshrc</code> :</p>
 <pre><code class="language-bash">alias meteo=&quot;curl http://wttr.in/Paris\?lang\=fr\&amp;F&quot;
 </code></pre>
-<p>Comme ça, vous pouvez à tout moment connaitre la météo en tapant la commande <code>meteo</code> dans votre terminal 😀.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/linux" title="Linux">Linux</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Comme ça, vous pouvez à tout moment connaitre la météo en tapant la commande <code>meteo</code> dans votre terminal 😀.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Bypasser les raccourcisseurs d'URL comme bitly]]></title>
@@ -9367,10 +9003,6 @@ clamd
 <li><a href="https://github.com/x011/smtp-tunnel-proxy">https://github.com/x011/smtp-tunnel-proxy</a></li>
 <li><a href="https://github.com/ValdikSS/GoodbyeDPI">https://github.com/ValdikSS/GoodbyeDPI</a></li>
 <li><a href="https://github.com/xvzc/SpoofDPI">https://github.com/xvzc/SpoofDPI</a></li>
-<li>
-<a href="https://johackim.com/cybersecurite" title="Cybersécurité">Cybersécurité</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -12648,20 +12280,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <p>Vous avez en quelque sorte <strong>prévalidé</strong> votre idée, elle n&#x27;est pas complètement validée, car <strong>cela reste seulement des hypothèses</strong>.</p>
 <p><strong>L&#x27;unique façon de valider une idée est de faire sortir la carte de crédit de vos clients pour acheter votre produit.</strong></p>
 <p>Donc, placez-vous dans les mailles du filet et suggérez à votre audience d&#x27;acheter votre solution, peu importe si elle existe ou non.</p>
-<p>Et n&#x27;oubliez pas, <a href="https://johackim.com/arretez-de-demander-si-votre-idee-d-entreprise-est-bonne" title="tout le monde s&#x27;en fiche de votre idée">tout le monde s&#x27;en fiche de votre idée</a>, la seule chose qui les intéressent c&#x27;est de résoudre leurs problèmes.</p>
-
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/start-small-stay-small-rob-walling" title="Start Small, Stay Small - Rob Walling" class="not-found">Start Small, Stay Small - Rob Walling</a>
-
-</li>
-<li>
-<a href="https://johackim.com/will-it-fly-pat-flynn" title="Will It Fly? - Pat Flynn" class="not-found">Will It Fly? - Pat Flynn</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Et n&#x27;oubliez pas, <a href="https://johackim.com/arretez-de-demander-si-votre-idee-d-entreprise-est-bonne" title="tout le monde s&#x27;en fiche de votre idée">tout le monde s&#x27;en fiche de votre idée</a>, la seule chose qui les intéressent c&#x27;est de résoudre leurs problèmes.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment répondre aux 5 objections fondamentales ?]]></title>
@@ -13028,10 +12647,6 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
 <p>Références :</p>
 <ul>
 <li><a href="https://blog.microlinux.fr/lineageos-samsung-galaxy/">Installer LineageOS sur un smartphone Samsung Galaxy</a></li>
-<li>
-<a href="https://johackim.com/android" title="Android" class="not-found">Android</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -13340,15 +12955,7 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
 <p>Je trouve ça dommage que certaines écoles utilisent ce genre de pratiques plutôt que l&#x27;<strong>éducation</strong>, pour empêcher les étudiants de naviguer librement.</p>
 <p>Ce n&#x27;est peut-être pas le cas de tous, mais j&#x27;ai personnellement du mal à évoluer dans une structure où je me sens <strong>traqué</strong> et observé comme si quelqu&#x27;un se trouvait juste derrière mon dos pendant que je navigue sur internet, cela provoque de l&#x27;<strong>autocensure</strong> et ne permet en rien l&#x27;<strong>émancipation</strong> des élèves.</p>
 <p>Et puis il y aura toujours des petits malins comme nous pour <strong>contourner cette censure</strong>.</p>
-<p>N&#x27;hésitez pas à me poser des questions en commentaire si vous avez besoin d&#x27;aide sur l&#x27;installation d&#x27;une des deux méthodes ;)</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/cybersecurite" title="Cybersécurité">Cybersécurité</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>N&#x27;hésitez pas à me poser des questions en commentaire si vous avez besoin d&#x27;aide sur l&#x27;installation d&#x27;une des deux méthodes ;)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment trouver de nouvelles idées avec la méthode Hexagone ?]]></title>
@@ -13432,15 +13039,7 @@ obfsproxy --log-min-severity=info obfs3 --dest=127.0.0.1:22 server 0.0.0.0:8080
 <li>Autres (Stoïcisme, moyenne des 5 personnes, la règle des 33%, Lean Startup, Fake it until make it, les 5 pourquoi)</li>
 </ul>
 <p>D&#x27;après Charlie Munger, on ne peut rien savoir si l’on étudie uniquement les faits de manière indépendante.</p>
-<p>Tout se regroupe et se recoupe. C&#x27;est pour cette raison qu&#x27;il vaut mieux se construire ce que Charlie Munger appelle un « <strong>réseau de modèles mentaux</strong> » que l&#x27;on peut appliquer lors de nos prises de décisions.</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/modeles-mentaux" title="Modèles mentaux">Modèles mentaux</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Tout se regroupe et se recoupe. C&#x27;est pour cette raison qu&#x27;il vaut mieux se construire ce que Charlie Munger appelle un « <strong>réseau de modèles mentaux</strong> » que l&#x27;on peut appliquer lors de nos prises de décisions.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[La méthode Inbox Zero pour gagner en productivité]]></title>
@@ -14287,14 +13886,6 @@ lsmod | grep virtio # Check virtio modules
 <li><a href="https://docs.fedoraproject.org/quick-docs/en-US/creating-windows-virtual-machines-using-virtio-drivers.html">https://docs.fedoraproject.org/quick-docs/en-US/creating-windows-virtual-machines-using-virtio-drivers.html</a></li>
 <li><a href="https://youtu.be/dsDUtzMkxFk">GrayWolfTech - Play games in Windows on Linux! PCI passthrough quick guide</a></li>
 <li><a href="https://youtu.be/6FI31QDtyy4">Tymscar - Native Performance Windows Games On Linux Quick GPU Passthrough</a></li>
-<li>
-<a href="https://johackim.com/jeux-videos" title="Jeux vidéos" class="not-found">Jeux vidéos</a>
-
-</li>
-<li>
-<a href="https://johackim.com/qemu" title="Qemu" class="not-found">Qemu</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -14567,15 +14158,7 @@ Merci <a href="https://journalduhacker.net/u/Breizh">Breizh</a> ;)</p>
 <li><strong>Taux de disponibilité</strong> de mes sites internet</li>
 </ul>
 <p>Et vous ? Il y a quoi derrière votre dashboard ?</p>
-<p>Bonne semaine ;)</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/hebergement-web" title="Hébergement web">Hébergement web</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Bonne semaine ;)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment vérifier que mon adresse IP n'est pas visible lorsque je télécharge des torrents ?]]></title>
@@ -14753,15 +14336,7 @@ openvpn dockvpn.ovpn
 </code></pre>
 <p>PS : N&#x27;oubliez pas de fermer le deuxième container pour ne pas exposer votre fichier de configuration à d&#x27;autres personnes. Si l&#x27;accès à votre <strong>VPN</strong> ne fonctionne pas, <strong>vérifiez vos firewalls</strong>, le port <code>1194</code> de votre serveur doit être accessible.</p>
 <p><a href="https://xorhak.io/mettre-en-place-rapidement-openvpn/">Un autre article</a> a été récemment rédigé sur le sujet avec une autre image docker si ça vous intéresse.</p>
-<p>C&#x27;est un petit article cette semaine, j&#x27;espère que ça vous fera gagner du temps ;)</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/vpn" title="VPN" class="not-found">VPN</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>C&#x27;est un petit article cette semaine, j&#x27;espère que ça vous fera gagner du temps ;)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment détenir un compte Google anonyme ?]]></title>
@@ -15009,15 +14584,7 @@ xhost +local:root
 <p>J&#x27;utilise ce <strong>hacklab</strong> pour mon usage personnel, vous pouvez vous en servir, vous en inspirer ou bien créer le vôtre en partant de zéro.</p>
 <p>Ce <strong>hacklab</strong> me permet de regrouper toutes mes techniques, connaissances et découvertes dans le domaine de la <strong>sécurité</strong>. Tout ça est regroupé dans un unique espace de travail plutôt agréable à utiliser.</p>
 <p><strong>Si vous aimez, n&#x27;hésitez pas à ajouter une star sur <a href="https://github.com/johackim/docker-hacklab">le dépôt github</a> et à me suivre sur <a href="http://mastodon.ethibox.fr/@johackim">mastodon</a>.</strong></p>
-<p>Bonne semaine à vous ;)</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/cybersecurite" title="Cybersécurité">Cybersécurité</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Bonne semaine à vous ;)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment suivre l'actualité sans compte facebook, twitter ou youtube ?]]></title>
@@ -15423,15 +14990,7 @@ docker deploy isso
 <p>Et si l&#x27;on souhaite ajouter un certificat let&#x27;s encrypt une simple commande dokku existe :</p>
 <pre><code class="language-bash">dokku letsencrypt isso
 </code></pre>
-<p>Voilà ! Si vous avez des questions, suggestions n&#x27;hésitez pas à les soumettre dans les commentaires ! Bon week-end ;)</p>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/hebergeur-web" title="Hébergeur web" class="not-found">Hébergeur web</a>
-
-</li>
-</ul>]]></content:encoded>
+<p>Voilà ! Si vous avez des questions, suggestions n&#x27;hésitez pas à les soumettre dans les commentaires ! Bon week-end ;)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Comment créer son datacenter maison (homelab) ?]]></title>
@@ -15651,14 +15210,6 @@ exit $?
 <h2>Unblock Warez Websites</h2>
 <ul>
 <li><a href="https://unblocked.mx/">https://unblocked.mx/</a></li>
-</ul>
-<hr/>
-<p>Références :</p>
-<ul>
-<li>
-<a href="https://johackim.com/warez" title="Warez">Warez</a>
-
-</li>
 </ul>]]></content:encoded>
         </item>
         <item>
