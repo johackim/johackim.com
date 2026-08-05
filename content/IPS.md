@@ -2,8 +2,7 @@
 datePublished: 2021-05-18T21:17
 dateUpdated: 2021-05-18T21:17
 permalink: ips
-aliases:
-  - Système de prévention d'intrusion
+aliases: [Système de prévention d'intrusion]
 publish: true
 rss: true
 ---

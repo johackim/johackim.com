@@ -6,6 +6,7 @@ dateUpdated: 2017-12-18T08:00
 description: Pour tester la sécurité de mes serveurs et sites internet, je me suis configuré un hacklab sous docker en tant qu'environnement de pentesting.
 publish: true
 rss: true
+links: "[[Cybersécurité]]"
 ---
 
 Pour tester la sécurité de mes serveurs et sites internet, je me suis configuré un **hacklab** sous **docker** en tant qu'environnement de **pentesting**. Je peux désormais réaliser mes **tests d'intrusions** depuis tout type d'environnement ([[Linux]], Mac OS, Windows).
@@ -163,9 +164,3 @@ Ce **hacklab** me permet de regrouper toutes mes techniques, connaissances et d�
 **Si vous aimez, n'hésitez pas à ajouter une star sur [le dépôt github](https://github.com/johackim/docker-hacklab) et à me suivre sur [mastodon](http://mastodon.ethibox.fr/@johackim).**
 
 Bonne semaine à vous ;)
-
----
-
-Références :
-
-- [[Cybersécurité]]

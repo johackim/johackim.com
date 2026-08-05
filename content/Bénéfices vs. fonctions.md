@@ -3,8 +3,7 @@ title: Bénéfices vs. fonctions
 permalink: benefices-vs-fonctions
 datePublished: 2020-09-12T06:00
 dateUpdated: 2020-09-12T06:00
-aliases:
-  - Features vs. benefits
+aliases: [Features vs. benefits]
 description: Quand on est développeur, on a souvent le réflexe de vendre les fonctionnalités (features) de notre produit. C'est sur quoi on a le plus travaillé et pourtant ce n'est absolument pas ça qui pousse à l'utilisation ou l'achat de notre solution.
 publish: true
 rss: true

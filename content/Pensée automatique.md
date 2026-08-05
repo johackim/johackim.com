@@ -1,11 +1,11 @@
 ---
 title: Pensée automatique
 permalink: pensee-automatique
-aliases:
-  - Automatic thoughts
+aliases: [Automatic thoughts]
 datePublished: 2024-05-17T17:14:00
 dateUpdated: 2024-05-17T17:14:00
 publish: true
+links: ["[[Thérapie cognitivo-comportementale]]", "[[Restructuration cognitive]]"]
 ---
 
 Une pensée automatique (Automatic thought) est une pensée qui apparaît spontanément en réponse à un déclencheur externe (situation, événement) ou interne (émotion, sensation).
@@ -24,6 +24,4 @@ Exemples de pensées automatiques :
 
 Références :
 
-- [[Thérapie cognitivo-comportementale]]
-- [[Restructuration cognitive]]
 - https://tcc.apprendre-la-psychologie.fr/pensees-automatiques.html

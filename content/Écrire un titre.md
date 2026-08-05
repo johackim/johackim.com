@@ -5,9 +5,7 @@ datePublished: 2020-09-26T06:00
 dateUpdated: 2020-09-26T06:00
 publish: true
 rss: true
-aliases:
-  - Headline
-  - Tagline
+aliases: [Headline, Tagline]
 ---
 
 Je galère à chaque fois pour trouver et rédiger le titre d'un article, d'un e-mail, d'une landing page ou d'une formation. Du coup je me suis créé un processus avec une liste d'outils et techniques à utiliser pour écrire un titre efficace.

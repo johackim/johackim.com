@@ -4,8 +4,8 @@ dateUpdated: 2021-06-27T19:19
 permalink: matrice-deisenhower
 publish: true
 rss: true
-aliases:
-  - Eisenhower Matrix
+aliases: [Eisenhower Matrix]
+links: "[[Le livre des décisions - Mikael Krogerus]]"
 ---
 
 La matrice d’Eisenhower nour permet de classer nos tâches selon leur importance et urgence :
@@ -26,4 +26,3 @@ Références :
 
 - [Corey Haines - Eisenhower Matrix](https://community.swipefiles.com/c/mental-models-for-marketing/process-4-5-eisenhower-matrix)
 - [Onur Karapinar - Déterminer vos priorités](https://onurkarapinar.teachable.com/courses/553823/lectures/10277218)
-- [[Le livre des décisions - Mikael Krogerus]]

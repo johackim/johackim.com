@@ -3,11 +3,11 @@ title: Comment vérifier la demande d'un marché avant de créer un produit dont
 permalink: comment-mesurer-demande-marche
 datePublished: 2020-10-05T06:00
 dateUpdated: 2020-10-05T06:00
-aliases:
-  - Comment vérifier la demande d'un marché ?
+aliases: ["Comment vérifier la demande d'un marché ?"]
 publish: true
 rss: true
 description: Découvrez comment vérifier la demande du marché avant de lancer un produit. Apprenez à cerner votre audience, à identifier les mots-clés pertinents et à estimer le nombre de personnes à atteindre.
+links: ["[[Start Small, Stay Small - Rob Walling]]", "[[Will It Fly? - Pat Flynn]]"]
 ---
 
 Créer un produit dont personne ne veut est l'erreur numéro 1 en entrepreneuriat. Alors, avant de perdre 6 mois à créer un produit inutile, est-il possible de vérifier si une demande existe ?
@@ -156,10 +156,3 @@ Vous avez en quelque sorte **prévalidé** votre idée, elle n'est pas complète
 Donc, placez-vous dans les mailles du filet et suggérez à votre audience d'acheter votre solution, peu importe si elle existe ou non.
 
 Et n'oubliez pas, [[Arrêtez de demander si votre idée d'entreprise est bonne !|tout le monde s'en fiche de votre idée]], la seule chose qui les intéressent c'est de résoudre leurs problèmes.
-
----
-
-Références :
-
-- [[Start Small, Stay Small - Rob Walling]]
-- [[Will It Fly? - Pat Flynn]]

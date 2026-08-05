@@ -5,8 +5,7 @@ title: "Neovim : la version améliorée et allégée de vim"
 permalink: neovim
 publish: true
 rss: true
-aliases:
-  - nvim
+aliases: [nvim]
 ---
 
 [Neovim](https://neovim.io/) est un éditeur de code basé sur Vim.

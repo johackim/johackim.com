@@ -4,6 +4,7 @@ dateUpdated: 2021-07-11T09:50
 permalink: demarrer-une-application-gui-avec-ssh
 publish: true
 rss: true
+links: "[[SSH]]"
 ---
 
 Voici un petit tutoriel pour lancer une application graphique à distance via SSH.
@@ -46,9 +47,3 @@ Host *
 Maintenant vous avez accès à vos applications graphiques distantes directement depuis votre machine hôte 😀🎉.
 
 PS : Si comme moi vous rencontrez un problème de touche de clavier non fonctionnelle (ex : AltGr), utilisez le paramètre `-Y` au lieu de `-X`.
-
----
-
-Références :
-
-- [[SSH]]

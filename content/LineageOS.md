@@ -6,6 +6,7 @@ dateUpdated: 2020-09-10T06:00
 description: Petit tutoriel rapide sur l'installation de Lineage OS sur un smartphone Samsung Galaxy J3 2016 SMJ320FN.
 publish: true
 rss: true
+links: "[[Android]]"
 ---
 
 Voici un petit tutoriel rapide sur l'installation de Lineage OS sur un smartphone Samsung Galaxy J3 2016 SMJ320FN.
@@ -35,4 +36,3 @@ PS: Je n'ai pas réussi à trouver une ROM Lineage OS en version 17 pour le SMJ3
 Références :
 
 - [Installer LineageOS sur un smartphone Samsung Galaxy](https://blog.microlinux.fr/lineageos-samsung-galaxy/)
-- [[Android]]

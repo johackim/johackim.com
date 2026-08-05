@@ -4,10 +4,9 @@ dateUpdated: 2021-06-27T19:19
 permalink: le-modele-comportemental-de-fogg
 publish: true
 rss: true
-aliases:
-  - Fogg Behavior Model
-  - B=MAP
+aliases: [Fogg Behavior Model, B=MAP]
 rating: 3
+links: "[[Petites habitudes, Grandes réussites - Onur Karapinar]]"
 ---
 
 Trois élements doivent être présent pour qu'un comportement se produise : la **[[Motivation]]**, la **capacité**, et le **déclencheur**.
@@ -39,5 +38,4 @@ Mais lorsque vous n'êtes pas motivé, vous agissez à condition que cela soit e
 
 Références :
 
-- [[Petites habitudes, Grandes réussites - Onur Karapinar]]
 - https://behaviormodel.org/

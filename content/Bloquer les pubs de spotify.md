@@ -5,6 +5,7 @@ title: Comment avoir spotify gratuitement sans pubs ?
 permalink: bloquer-les-pubs-de-spotify
 publish: true
 rss: true
+links: "[[Spotify]]"
 ---
 
 Si vous êtes sur Windows, macOS ou Linux, vous pouvez écouter vos musiques préférées gratuitement sur Spotify sans avoir les publicités.
@@ -24,4 +25,3 @@ Références :
 - https://github.com/abba23/spotify-adblock
 - https://github.com/serialoverflow/blockify
 - https://github.com/x0uid/SpotifyAdBlock
-- [[Spotify]]

@@ -6,6 +6,7 @@ permalink: ultime-list-of-warez-tools
 description: Here my personal list of warez tools to search, stream and download movies, series, musics and softwares.
 publish: true
 rss: true
+links: "[[Warez]]"
 ---
 
 > [!INFO]
@@ -66,9 +67,3 @@ Here my personal list of warez tools to search, stream and download movies, seri
 ## Unblock Warez Websites
 
 - [https://unblocked.mx/](https://unblocked.mx/)
-
----
-
-Références :
-
-- [[Warez]]

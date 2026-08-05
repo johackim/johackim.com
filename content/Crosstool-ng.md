@@ -2,12 +2,12 @@
 title: Crosstool-ng
 permalink: crosstool-ng
 description: Crosstool-ng est un outil permettant de compiler un logiciel avec une architecture différente de celle de notre machine.
-aliases:
-  - Cross compilation
+aliases: [Cross compilation]
 datePublished: 2024-02-26T10:00:00
 dateUpdated: 2025-02-03T10:00:00
 publish: true
 rss: true
+links: "[[Compilateur]]"
 ---
 
 [Crosstool-ng](https://github.com/crosstool-ng/crosstool-ng) est un outil permettant de compiler un logiciel avec une architecture différente de celle de notre ordinateur.
@@ -87,4 +87,3 @@ Références :
 
 - https://github.com/crosstool-ng/crosstool-ng
 - https://www.chicoree.fr/w/Compilation_croisée_facile_pour_Raspberry_Pi
-- [[Compilateur]]

@@ -1,6 +1,5 @@
 ---
-aliases:
-  - First Principles Thinking
+aliases: [First Principles Thinking]
 rating: 4
 datePublished: 2023-12-25T10:00:00
 dateUpdated: 2023-12-25T10:00:00
@@ -8,6 +7,10 @@ permalink: first-principles
 publish: true
 rss: true
 description: First Principles est un modèle mental utilisé pour décomposer un problème en éléments de base.
+links:
+  - "[[Corey Haines - Mental Models For Marketing]]"
+  - "[[La technique de l'échelle]]"
+  - "[[Les 5 pourquoi]]"
 ---
 
 Le concept des "premiers principes" (First Principles) est un modèle mental utilisé pour décomposer un problème en éléments de base.
@@ -56,9 +59,6 @@ Références :
 - https://web.archive.org/web/20190403111940/www.wired.com/2012/10/ff-elon-musk-qa/
 - https://reddit.com/r/explainlikeimfive/comments/16aunru/eli5_what_is_first_principles_thinking/
 - https://x.com/george__mack/status/1699109802020852223
-- [[Corey Haines - Mental Models For Marketing]]
-- [[La technique de l'échelle]]
-- [[Les 5 pourquoi]]
 - [Productivity Game - The great mental models - Shane Parrish](https://youtu.be/LOMkBihsWZw?t=140)
 - [The First Principles Method Explained by Elon Musk](https://youtu.be/NV3sBlRgzTI)
 - [Nat Eliason - Decomplication: The Art of First Principles Thinking](https://youtu.be/eJ07g2NtOiY)

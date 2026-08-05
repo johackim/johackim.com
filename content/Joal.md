@@ -5,8 +5,7 @@ links: "[[Torrent]]"
 description: Augmentez votre ratio sur les sites de torrent avec Joal
 datePublished: 2021-05-30T19:50
 dateUpdated: 2024-06-22T18:46:00
-aliases:
-  - Ratio torrent
+aliases: [Ratio torrent]
 publish: true
 rss: true
 ---

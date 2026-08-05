@@ -3,8 +3,7 @@ datePublished: 2021-04-28T10:52
 dateUpdated: 2021-04-28T10:52
 permalink: synthetisation-progressive
 title: Comment mieux concevoir ses notes avec la synthétisation progressive
-aliases:
-  - Progressive Summarization
+aliases: [Progressive Summarization]
 publish: true
 rss: true
 ---

@@ -6,6 +6,7 @@ permalink: n8n
 description: n8n est une alternative open-source à Zapier.
 datePublished: 2024-03-25T10:00:00
 dateUpdated: 2024-03-25T10:00:00
+links: "[[Automatisation]]"
 ---
 
 [N8n](https://github.com/n8n-io/n8n) est une alternative open-source à Zapier.
@@ -69,5 +70,4 @@ Les [workflows](https://n8n.io/workflows) peuvent être exportés et importés a
 
 Références :
 
-- [[Automatisation]]
 - https://npmjs.com/search?q=keywords%3An8n-community-node-package

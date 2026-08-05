@@ -1,11 +1,7 @@
 ---
 title: Journal de pensées
 permalink: journal-de-pensees
-aliases:
-  - Journal cognitif
-  - Thought record
-  - Thought diary
-  - Thought recording
+aliases: [Journal cognitif, Thought record, Thought diary, Thought recording]
 description: Un journal de pensées est un outil de restructuration cognitive utilisé en TCC pour remettre en question ses pensées automatiques.
 datePublished: 2024-05-06T10:00:00
 dateUpdated: 2024-05-06T10:00:00

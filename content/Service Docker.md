@@ -4,8 +4,7 @@ dateUpdated: 2021-05-17T17:32
 permalink: service-docker
 publish: true
 rss: true
-aliases:
-  - Docker service
+aliases: [Docker service]
 ---
 
 Pour déployer des conteneurs dans un cluster [[Docker Swarm]], il faut créer des **services Docker**.

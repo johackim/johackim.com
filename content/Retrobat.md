@@ -5,6 +5,7 @@ title: Jouer aux jeux vidéos de vos consoles préférés depuis votre ordinateu
 permalink: retrobat
 publish: true
 rss: true
+links: "[[Jeux vidéos]]"
 ---
 
 [Retrobat](https://retrobat.org) vous permet de jouer aux jeux vidéos de vos consoles préférés directement depuis votre ordinateur Windows.
@@ -67,4 +68,3 @@ Cette touche spéciale vous permettra de gérer Retrobat et les émulateurs avec
 Références :
 
 - https://github.com/RetroBat-Official/retrobat-setup
-- [[Jeux vidéos]]

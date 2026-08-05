@@ -6,8 +6,8 @@ dateUpdated: 2017-11-03T18:00
 description: N'ayant pas envie d'utiliser une solution propriétaire pour gérer les commentaires de mon blog je me suis configuré une petite installation de Isso via dokku.
 publish: true
 rss: true
-aliases:
-  - Disqus alternative
+aliases: [Disqus alternative]
+links: "[[Hébergeur web]]"
 ---
 
 N'ayant pas envie d'utiliser une solution propriétaire pour gérer les commentaires de mon blog et d'envoyer mes données personnelles et les vôtres (adresse IP, nom et e-mail) sur des serveurs aux USA. Je me suis configuré une petite installation de [Isso](https://posativ.org/isso/).
@@ -107,9 +107,3 @@ dokku letsencrypt isso
 ```
 
 Voilà ! Si vous avez des questions, suggestions n'hésitez pas à les soumettre dans les commentaires ! Bon week-end ;)
-
----
-
-Références :
-
-- [[Hébergeur web]]

@@ -4,8 +4,7 @@ permalink: effet-de-faux-consensus
 description: L'effet de faux consensus est un biais cognitif qui nous fait surestimer à quel point les autres partagent nos croyances, valeurs et comportements.
 datePublished: 2024-04-29T00:00:00
 dateUpdated: 2024-04-29T00:00:00
-aliases:
-  - False Consensus Effect
+aliases: [False Consensus Effect]
 rating: 3
 publish: true
 ---

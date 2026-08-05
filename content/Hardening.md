@@ -4,10 +4,8 @@ dateUpdated: 2021-05-18T21:17
 permalink: hardening
 publish: true
 rss: true
-aliases:
-  - Durcissement
-links:
-    - "[[Cybersécurité]]"
+aliases: [Durcissement]
+links: "[[Cybersécurité]]"
 ---
 
 Le durcissement (ou **hardening** en anglais) est un processus destiné à sécuriser un système en réduisant le plus possible sa surface d'attaque.

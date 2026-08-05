@@ -6,6 +6,7 @@ rss: true
 description: Découvrez l'Atomic Design, une méthode pour concevoir des interfaces utilisateur cohérentes, hiérarchisées et réutilisables pour le web et les applis.
 dateUpdated: 2023-03-06T18:11
 datePublished: 2023-03-06T18:11
+links: ["[[Design]]", "[[Design system]]"]
 ---
 
 L'Atomic Design est une méthode de conception de produits numériques qui divise les éléments d'interface utilisateur en :
@@ -66,8 +67,6 @@ C'est le rendu finale qui contient les templates avec les données réels du sit
 
 Références :
 
-- [[Design]]
-- [[Design system]]
 - [Grafikart.fr - Organiser son projet JavaScript](https://youtu.be/x1YstBqmYxA?t=980)
 - [Basti Ui - LE DESIGN ATOMIQUE - C'est quoi l'Atomic ?](https://youtu.be/K8fIVThMGaw?t=111)
 - https://bit.dev/

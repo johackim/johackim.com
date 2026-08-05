@@ -4,6 +4,7 @@ dateUpdated: 2021-10-17T22:19
 permalink: la-methode-abcde
 publish: true
 rss: true
+links: "[[Avalez le crapaud - Brian Tracy]]"
 ---
 
 Lors de la planification de votre journée, dressez la liste de toutes les tâches que vous devez faire et ordonnez les selon la logique suivante :
@@ -27,5 +28,4 @@ La règle veut que vous ne fassiez jamais de tâche de type B lorsqu'il reste en
 
 Références :
 
-- [[Avalez le crapaud - Brian Tracy]]
 - https://everlaab.com/prioriser-ses-taches-avec-la-methode-abcde/

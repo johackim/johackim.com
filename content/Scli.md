@@ -2,11 +2,11 @@
 title: Démarrer Signal en ligne de commande
 datePublished: 2022-06-16T11:52
 dateUpdated: 2022-04-12T12:01
-aliases:
-  - Utiliser Signal en ligne de commande
+aliases: [Utiliser Signal en ligne de commande]
 permalink: scli
 publish: true
 rss: true
+links: "[[Linux]]"
 ---
 
 Pour envoyer et recevoir des messages via l'application [Signal](https://signal.org/fr/download/) directement dans un terminal, il existe l'application [scli](https://github.com/isamert/scli).
@@ -30,4 +30,3 @@ Pour démarrer l'application, taper simplement `scli` dans votre terminal ou vot
 Références :
 
 - https://github.com/isamert/scli
-- [[Linux]]

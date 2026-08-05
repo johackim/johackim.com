@@ -2,10 +2,7 @@
 title: L'erreur de prédiction
 permalink: erreur-de-prediction
 description: L'erreur de prédiction est une distorsion cognitive qui consiste à faire des prédictions sur le futur et à y croire fortement.
-aliases:
-  - Fortune-telling
-  - Erreur de voyance
-  - L'erreur de prévision
+aliases: [Fortune-telling, Erreur de voyance, L'erreur de prévision]
 datePublished: 2024-05-17T17:11:00
 dateUpdated: 2024-05-17T17:11:00
 publish: true

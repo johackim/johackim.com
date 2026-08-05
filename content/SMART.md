@@ -3,9 +3,7 @@ title: SMART
 permalink: objectifs-smart
 datePublished: 2021-06-27T19:19:00
 dateUpdated: 2021-06-27T19:19:00
-aliases:
-  - SMART Goals
-  - Objectifs SMART
+aliases: [SMART Goals, Objectifs SMART]
 rating: 3
 publish: true
 rss: true

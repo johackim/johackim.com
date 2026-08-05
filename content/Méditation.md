@@ -2,8 +2,7 @@
 title: Méditation
 permalink: meditation
 description: La méditation est un exercice mental qui consiste à rester concentré sur sa respiration pour se recentrer sur le moment présent.
-aliases:
-  - Meditation
+aliases: [Meditation]
 datePublished: 2024-06-17T10:00:00
 dateUpdated: 2024-06-17T10:00:00
 publish: true

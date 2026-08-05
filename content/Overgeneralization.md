@@ -2,10 +2,7 @@
 title: Généralisation excessive
 permalink: generalisation-excessive
 description: La généralisation excessive est une distorsion cognitive qui consiste à généraliser à partir d'un seul événement.
-aliases:
-  - Généralisation excessive
-  - Surgénéralisation
-  - Overestimation
+aliases: [Généralisation excessive, Surgénéralisation, Overestimation]
 datePublished: 2024-05-17T17:06:00
 dateUpdated: 2024-05-17T17:06:00
 publish: true

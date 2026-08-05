@@ -1,8 +1,7 @@
 ---
 title: Biais de confirmation
 permalink: biais-de-confirmation
-aliases:
-  - Confirmation bias
+aliases: [Confirmation bias]
 datePublished: 2021-07-11T09:50
 dateUpdated: 2024-05-14T09:50:00
 publish: true

@@ -1,10 +1,7 @@
 ---
 datePublished: 2021-10-06T16:50
 dateUpdated: 2021-10-06T16:50
-aliases:
-  - Minimisation des regrets
-  - Cadre de minimisation des regrets
-  - RMF
+aliases: [Minimisation des regrets, Cadre de minimisation des regrets, RMF]
 permalink: regret-minimization-framework
 publish: true
 rss: true

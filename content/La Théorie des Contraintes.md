@@ -2,12 +2,11 @@
 datePublished: 2021-10-17T22:19
 dateUpdated: 2021-10-17T22:19
 permalink: la-theorie-des-contraintes
-aliases:
-  - Theory of Constraints
-  - TOC
+aliases: [Theory of Constraints, TOC]
 publish: true
 rss: true
 rating: 5
+links: ["[[The Goal - Eliyahu Goldratt]]", "[[IPO]]"]
 ---
 
 Identifiez et concentrez vos efforts sur les contraintes qui limitent les performances d'un système.
@@ -28,8 +27,6 @@ Trouvez le goulot d'étranglement, augmentez sa capacité et répétez continuel
 
 Références :
 
-- [[The Goal - Eliyahu Goldratt]]
-- [[IPO]]
 - https://julian.com/blog/mental-model-examples
 - https://qualefficiens.fr/post/toc-definition-theory-constraints
 - https://fortelabs.com/blog/theory-of-constraints-101/

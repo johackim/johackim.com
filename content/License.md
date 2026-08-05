@@ -3,9 +3,7 @@ title: License
 permalink: generer-un-fichier-de-licence-license.txt-automatiquement
 datePublished: 2021-08-08T19:31
 dateUpdated: 2021-08-08T19:31
-aliases:
-  - LICENSE.txt
-  - Licenses logiciel
+aliases: [LICENSE.txt, Licenses logiciel]
 publish: true
 rss: true
 ---

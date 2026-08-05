@@ -4,6 +4,7 @@ dateUpdated: 2021-06-27T19:19
 permalink: les-cinq-elements-de-toute-entreprise
 publish: true
 rss: true
+links: "[[Le Personal MBA - Josh Kaufman]]"
 ---
 
 Une entreprise est par essence un système qui contient et exécute continuellement 5 éléments :
@@ -31,9 +32,3 @@ Si vous supprimez un seul de ces cinq éléments vous n’avez plus affaire à u
 - Une entreprise qui ne vend pas la valeur qu’elle crée est une organisation à but non lucratif.
 - Une entreprise qui ne tient pas ses promesses est une entreprise frauduleuse.
 - Une entreprise qui ne gagne pas suffisamment d’argent pour continuer à fonctionner est condamnée à fermer.
-
----
-
-Références :
-
-- [[Le Personal MBA - Josh Kaufman]]

@@ -4,10 +4,10 @@ permalink: shred
 description: Supprimer définitivement des fichiers sur Linux
 datePublished: 2021-06-27T19:19:00
 dateUpdated: 2025-12-15T10:19:00
-aliases:
-  - Supprimer définitivement des fichiers
+aliases: [Supprimer définitivement des fichiers]
 publish: true
 rss: true
+links: "[[Vie privée|Privacy]]"
 ---
 
 Lorsqu'un fichier est supprimé, son contenu peut rester dans le système de fichiers, à moins qu'il ne soit explicitement écrasé par un autre contenu.
@@ -82,4 +82,3 @@ Références :
 
 - https://wiki.archlinux.org/title/Securely_wipe_disk#shred
 - https://github.com/martijnvanbrummelen/nwipe
-- [[Vie privée|Privacy]]

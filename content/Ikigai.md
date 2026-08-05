@@ -5,6 +5,7 @@ permalink: ikigai
 publish: true
 rss: true
 rating: 3
+links: "[[IKIGAI - Héctor Garcia]]"
 ---
 
 **Ikigai est un concept japonais qui pourrai se traduire par « le bonheur d’être toujours occupé » ou « raison d'être ».**
@@ -46,7 +47,6 @@ Une fois rempli, l'ordre du plus important au moins important selon moi est celu
 
 Références :
 
-- [[IKIGAI - Héctor Garcia]]
 - https://fourminutebooks.com/ikigai/
 - https://nesslabs.com/ikigai
 - https://42courses.com/blog/home/2018/7/12/the-japanese-method-to-help-you-find-your-purpose-in-life

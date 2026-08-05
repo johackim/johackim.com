@@ -2,9 +2,7 @@
 title: Changedetection.io
 permalink: surveiller-les-changements-d-une-page-web
 description: Comment détecter et être notifié des changements d'une page web avec changedetection.io ?
-aliases:
-  - Surveiller les changements d'une page web
-  - Détecter les changements d'un site internet
+aliases: [Surveiller les changements d'une page web, Détecter les changements d'un site internet]
 datePublished: 2024-01-22T10:00:00
 dateUpdated: 2025-02-06T10:00:00
 publish: true

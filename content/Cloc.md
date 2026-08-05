@@ -6,6 +6,7 @@ datePublished: 2024-01-08T10:00:00
 dateUpdated: 2024-01-08T10:00:00
 publish: true
 rss: true
+links: "[[Programmation]]"
 ---
 
 Pour compter le nombre de lignes d'un projet GitHub ou simplement d'un dossier qui contient des fichiers textes, il existe un outil en ligne de commande nommé `cloc`.
@@ -53,4 +54,3 @@ Références :
 - https://github.com/AlDanial/cloc
 - https://github.com/XAMPPRocky/tokei
 - https://mobileread.com/forums/showthread.php?t=134000
-- [[Programmation]]

@@ -2,10 +2,8 @@
 title: 💼 Entrepreneuriat
 permalink: entrepreneuriat
 description: Résoudre les problèmes des gens
-tags:
-  - moc
-aliases:
-  - Business
+tags: [moc]
+aliases: [Business]
 datePublished: 2021-04-15T16:44
 dateUpdated: 2024-11-16T16:44:00
 publish: true

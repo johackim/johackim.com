@@ -7,9 +7,7 @@ aliases: [Tester l'envoi d'un e-mail en ligne de commande]
 description: Comment tester simplement l'envoi d'un e-mail en ligne de commande sur Linux ?
 publish: true
 rss: true
-links:
-  - "[[Serveur e-mail]]"
-  - "[[E-mail]]"
+links: ["[[Serveur e-mail]]", "[[E-mail]]"]
 ---
 
 Comment tester simplement l'envoi d'un e-mail en ligne de commande sur [[Linux]] ?

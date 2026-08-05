@@ -6,6 +6,7 @@ dateUpdated: 2019-09-11T06:00
 description: Les modèles mentaux sont votre boîte à outils mentale pour prendre des décisions et comprendre comment le monde fonctionne réellement. Plus vous avez d'outils, mieux vous êtes équipé pour prendre de bonnes décisions.
 publish: true
 rss: true
+links: "[[Modèles mentaux]]"
 ---
 
 Les **modèles mentaux** sont votre **boîte à outils mentale** pour prendre des décisions et **comprendre comment le monde fonctionne réellement.** Plus vous avez d'outils, mieux vous êtes équipé pour **prendre de bonnes décisions**.
@@ -29,9 +30,3 @@ Pour vous donner des exemples, voici des exemples de modèles mentaux que j'essa
 D'après Charlie Munger, on ne peut rien savoir si l’on étudie uniquement les faits de manière indépendante.
 
 Tout se regroupe et se recoupe. C'est pour cette raison qu'il vaut mieux se construire ce que Charlie Munger appelle un « **réseau de modèles mentaux** » que l'on peut appliquer lors de nos prises de décisions.
-
----
-
-Références :
-
-- [[Modèles mentaux]]

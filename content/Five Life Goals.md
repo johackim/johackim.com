@@ -2,12 +2,7 @@
 datePublished: 2021-10-24T20:00
 dateUpdated: 2021-10-24T20:00
 title: La règle 5/25
-aliases:
-  - 25/5 Rule
-  - 5/25 Rule
-  - La règle 5/25
-  - 2 List Strategy
-  - La stratégie des 2 listes
+aliases: [25/5 Rule, 5/25 Rule, La règle 5/25, 2 List Strategy, La stratégie des 2 listes]
 permalink: five-life-goals
 publish: true
 rss: true

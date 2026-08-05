@@ -1,9 +1,7 @@
 ---
 datePublished: 2021-10-24T20:00
 dateUpdated: 2021-10-24T20:00
-aliases:
-  - The 4 U's
-  - The Four U’s
+aliases: [The 4 U's, The Four U’s]
 permalink: la-regle-des-4u
 publish: true
 rss: true

@@ -4,6 +4,7 @@ dateUpdated: 2021-06-07T20:36
 permalink: tester-la-vitesse-d'ecriture-d'un-disque-dur-sur-linux
 publish: true
 rss: true
+links: ["[[Linux]]", "[[IOPS]]"]
 ---
 
 Pour tester la vitesse d'écriture d'un disque dur sur [[Linux]], il existe une commande installé nativement sur la plus part des distributions [[Linux]] qui s'appelle `dd`.
@@ -16,10 +17,3 @@ $ dd if=/dev/zero of=1g.bin bs=1G count=1
 ```
 
 Dans ce cas présent, la vitesse d'écriture du disque dur est de 317 MB/s.
-
----
-
-Références :
-
-- [[Linux]]
-- [[IOPS]]

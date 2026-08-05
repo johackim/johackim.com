@@ -4,9 +4,7 @@ dateUpdated: 2023-12-23T12:39:00
 permalink: bloquer-les-publicites
 publish: true
 rss: true
-aliases:
-  - Adblocking
-  - Adblocker
+aliases: [Adblocking, Adblocker]
 ---
 
 Pour bloquer les publicités intempestives d'un smartphone, d'un ordinateur ou d'une smart TV il y a plusieurs moyens.

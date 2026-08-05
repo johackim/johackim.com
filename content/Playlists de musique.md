@@ -6,9 +6,7 @@ title: Playlists de musique pour entrer dans le flow et rester focus
 permalink: playlists-musique-focus
 publish: true
 rss: true
-aliases:
-  - Bruits blancs
-  - White noise
+aliases: [Bruits blancs, White noise]
 ---
 
 Voici une liste de services et playlists de musique que j'utilise pour travailler et rester concentré.

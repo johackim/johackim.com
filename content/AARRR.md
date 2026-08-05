@@ -7,6 +7,7 @@ permalink: aarrr
 publish: true
 rss: true
 rating: 3
+links: "[[Corey Haines - Mental Models For Marketing]]"
 ---
 
 AARRR est un framework développé par Dave McClure, qui modélise le cycle de vie de l'utilisation d'un produit ou d'un service par un utilisateur.
@@ -69,7 +70,6 @@ Le nombre d'utilisateurs qui payent le produit ou service.
 
 Références :
 
-- [[Corey Haines - Mental Models For Marketing]]
 - Le livre de la jungle - Younès Rharbaoui
 - https://yannleonardi.com/framework-aarrr/
 - https://airtable.com/shrzVGqmdLpoPQF9i

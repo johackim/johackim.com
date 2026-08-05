@@ -5,8 +5,7 @@ title: Résumé du livre Atomic Habits de James Clear
 permalink: atomic-habits-james-clear
 publish: true
 rss: true
-tags:
-  - literature
+tags: [literature]
 ---
 
 ## C'est quoi une habitude ?

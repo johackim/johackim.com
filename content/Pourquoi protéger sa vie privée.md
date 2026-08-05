@@ -3,8 +3,7 @@ datePublished: 2022-06-16T11:54
 dateUpdated: 2024-01-02T22:55:00
 permalink: pourquoi-proteger-sa-vie-privee
 title: Pourquoi protéger sa vie privée ?
-aliases:
-  - Pourquoi protéger sa vie privée ?
+aliases: ["Pourquoi protéger sa vie privée ?"]
 publish: true
 rss: true
 ---

@@ -3,8 +3,7 @@ title: Téléchargez vos livres Kindle
 permalink: exporter-ses-livres-kindle
 datePublished: 2025-02-20T13:16:29
 dateUpdated: 2025-02-27T13:16:29
-aliases:
-  - Télécharger ses livres Kindle
+aliases: [Télécharger ses livres Kindle]
 publish: true
 rss: true
 ---

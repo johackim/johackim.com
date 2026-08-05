@@ -6,6 +6,7 @@ datePublished: 2023-12-20T20:05:00
 dateUpdated: 2025-11-18T14:38:00
 publish: true
 rss: true
+links: "[[Programmation]]"
 ---
 
 Depuis que X (Twitter) a rendu son API payante, il est devenu difficile de récupérer le nombre de followers d'un compte. Voici une solution pour récupérer le nombre de followers d'un compte Twitter sans utiliser l'API de Twitter.
@@ -76,9 +77,3 @@ node index.mjs
 Voilà, vous savez maintenant comment récupérer le nombre de followers d'un compte Twitter sans utiliser l'API payante de Twitter 😀 !
 
 PS : Si jamais une instance ne fonctionne pas (ex: nitter.net), vous pouvez [utiliser une autre instance](https://status.d420.de/).
-
----
-
-Références :
-
-- [[Programmation]]

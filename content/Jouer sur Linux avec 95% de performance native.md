@@ -4,10 +4,10 @@ permalink: jouer-sur-linux
 datePublished: 2018-03-26T05:53
 dateUpdated: 2018-03-26T05:53
 description: Voici une solution pour pouvoir jouer aux jeux video depuis un environnement Linux avec 95% de performance native.
-aliases:
-  - Comment jouer sur Linux avec 95% de performance native ?
+aliases: ["Comment jouer sur Linux avec 95% de performance native ?"]
 publish: true
 rss: true
+links: ["[[Jeux vidéos]]", "[[Qemu]]"]
 ---
 
 Voici une solution pour pouvoir jouer aux jeux vidéos depuis un environnement [[Linux]] avec 95% de performance native.
@@ -162,5 +162,3 @@ Références :
 - https://docs.fedoraproject.org/quick-docs/en-US/creating-windows-virtual-machines-using-virtio-drivers.html
 - [GrayWolfTech - Play games in Windows on Linux! PCI passthrough quick guide](https://youtu.be/dsDUtzMkxFk)
 - [Tymscar - Native Performance Windows Games On Linux Quick GPU Passthrough](https://youtu.be/6FI31QDtyy4)
-- [[Jeux vidéos]]
-- [[Qemu]]

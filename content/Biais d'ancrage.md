@@ -2,9 +2,7 @@
 datePublished: 2021-07-11T09:50
 dateUpdated: 2021-07-11T09:50
 permalink: biais-ancrage
-aliases:
-  - Anchoring effect
-  - Anchoring bias
+aliases: [Anchoring effect, Anchoring bias]
 publish: true
 rss: true
 ---

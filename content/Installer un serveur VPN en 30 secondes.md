@@ -6,6 +6,7 @@ dateUpdated: 2018-01-08T08:00
 description: Vous avez besoin d'un VPN et vous ne souhaitez pas vous embêter à configurer un serveur openvpn manuellement ? Voici une solution pour installer un VPN en 30 secondes.
 publish: true
 rss: true
+links: "[[VPN]]"
 ---
 
 Vous avez besoin d'un VPN et vous ne souhaitez pas vous embêter à configurer un serveur openvpn manuellement ? Voici une solution pour installer un VPN en 30 secondes.
@@ -38,9 +39,3 @@ PS : N'oubliez pas de fermer le deuxième container pour ne pas exposer votre fi
 [Un autre article](https://xorhak.io/mettre-en-place-rapidement-openvpn/) a été récemment rédigé sur le sujet avec une autre image docker si ça vous intéresse.
 
 C'est un petit article cette semaine, j'espère que ça vous fera gagner du temps ;)
-
----
-
-Références :
-
-- [[VPN]]

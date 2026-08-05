@@ -6,10 +6,8 @@ dateUpdated: 2020-08-19T08:49
 description: Comment se fait-il que des histoires arrivent à traverser les âges et d'autres non ? Comment trouver la bonne formule pour qu'une histoire reste gravé dans la tête des gens ?
 publish: true
 rss: true
-aliases:
-  - Chip Heath - Made to Stick
-tags:
-  - literature
+aliases: [Chip Heath - Made to Stick]
+tags: [literature]
 ---
 
 Comment se fait-il que des histoires arrivent à traverser les âges et d'autres non ? Comment trouver la bonne formule pour qu'une histoire reste gravée dans la mémoire des gens ?

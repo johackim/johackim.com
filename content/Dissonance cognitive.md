@@ -4,8 +4,7 @@ permalink: dissonance-cognitive
 datePublished: 2024-05-21T14:22:00
 dateUpdated: 2024-05-21T14:22:00
 description: La dissonance cognitive est un conflit interne entre plusieurs croyances contradictoires.
-aliases:
-  - Cognitive dissonance
+aliases: [Cognitive dissonance]
 rating: 4
 publish: true
 ---

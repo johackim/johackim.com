@@ -5,6 +5,7 @@ title: Découvrez d'où proviennent les visiteurs de votre site avec les paramè
 permalink: parametres-utm
 publish: true
 rss: true
+links: "[[Analytics]]"
 ---
 
 Pour pouvoir avoir plus de détails de la provenance des utilisateurs sur votre site web, il existe les paramètres UTM.
@@ -28,4 +29,3 @@ Vous pouvez créer vos paramètres UTM facilement avec [utmbuilder.net](https://
 Références :
 
 - https://daniloduchesnes.com/blog/parametres-utm/
-- [[Analytics]]

@@ -1,8 +1,7 @@
 ---
 datePublished: 2021-10-10T14:12
 dateUpdated: 2021-10-10T14:12
-aliases:
-  - Ivy Lee Method
+aliases: [Ivy Lee Method]
 permalink: la-methode-ivy-lee
 publish: true
 rss: true

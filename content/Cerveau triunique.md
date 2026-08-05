@@ -3,14 +3,13 @@ title: Cerveau triunique
 permalink: cerveau-triunique
 datePublished: 2022-07-07T05:58
 dateUpdated: 2022-07-07T10:40
-aliases:
-  - Triune brain
-  - Cerveau reptilien
-  - Cerveau limbique
-  - Cerveau néocortex
+aliases: [Triune brain, Cerveau reptilien, Cerveau limbique, Cerveau néocortex]
 publish: true
 rss: true
 rating: 4
+links:
+  - "[[Behave - Robert Sapolsky]]"
+  - "[[Les lois de la nature humaine - Robert Greene#Les 3 parties du cerveau]]"
 ---
 
 Le cerveau triunique (Triune Brain) est une théorie selon laquelle le cerveau humain est composé de 3 parties qui ont évolué successivement.
@@ -45,8 +44,6 @@ C'est la partie cartésienne qui contrôle nos facultés cognitives (raisonnemen
 
 Références :
 
-- [[Behave - Robert Sapolsky]]
-- [[Les lois de la nature humaine - Robert Greene#Les 3 parties du cerveau]]
 - https://fr.wikipedia.org/wiki/Théorie_du_cerveau_triunique
 - https://courses.thoughtleader.school/mmc/triune-brain
 - https://bigthink.com/neuropsych/triune-brain/

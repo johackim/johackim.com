@@ -4,8 +4,7 @@ permalink: brightnessctl
 description: Brightnessctl est un utilitaire en ligne de commande pour contrôler la luminosité de son écran sur Linux.
 datePublished: 2021-11-21T20:31
 dateUpdated: 2024-05-13T20:31:00
-aliases:
-  - Luminosité
+aliases: [Luminosité]
 publish: true
 ---
 

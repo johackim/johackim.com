@@ -2,8 +2,7 @@
 datePublished: 2021-07-11T09:50
 dateUpdated: 2021-07-11T09:50
 permalink: leffet-de-simple-exposition
-aliases:
-  - Mere-exposure effect
+aliases: [Mere-exposure effect]
 publish: true
 rss: true
 ---

@@ -6,6 +6,7 @@ permalink: system-1-system-2
 publish: true
 rss: true
 description: Le système 1 est la partie de notre cerveau qui agit automatiquement sans efforts. Le système 2 est la partie qui demande de la concentration et un temps de réflexion.
+links: "[[Système 1, système 2 - Daniel Kahneman]]"
 ---
 
 Nous pensons être rationnel, mais une grande partie de nos actions sont automatiques.
@@ -42,4 +43,3 @@ Références :
 - https://everlaab.com/les-2-vitesses-de-la-pensee/
 - https://fr.wikipedia.org/wiki/Système_1_/_Système_2_:_Les_deux_vitesses_de_la_pensée
 - https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking
-- [[Système 1, système 2 - Daniel Kahneman]]

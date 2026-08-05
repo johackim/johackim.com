@@ -5,6 +5,7 @@ datePublished: 2021-12-19T17:57
 dateUpdated: 2024-03-04T17:57:00
 publish: true
 rss: true
+links: "[[Design system]]"
 ---
 
 Storybook permet de créer des composants d'interface utilisateur indépendamment de la logique métier, des données et du contexte d'une application.
@@ -158,4 +159,3 @@ Références :
 - https://storybook.js.org/
 - [Exemple de storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-accordion--default)
 - [Grafikart - Tutoriel JavaScript : Storybook](https://youtube.com/watch?v=CLwX9EWlWJM)
-- [[Design system]]

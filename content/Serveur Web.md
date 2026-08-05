@@ -6,6 +6,7 @@ dateUpdated: 2021-07-05T16:31
 aliases: [Server HTTP, Web server, Serveur HTTP, Serveur Web]
 publish: true
 rss: true
+links: ["[[Nginx]]", "[[Apache]]"]
 ---
 
 Il existe plusieurs façons de démarrer un serveur HTTP en ligne de commande.
@@ -56,5 +57,3 @@ Références :
 
 - https://gist.github.com/willurd/5720255
 - https://github.com/rejetto/hfs/
-- [[Nginx]]
-- [[Apache]]

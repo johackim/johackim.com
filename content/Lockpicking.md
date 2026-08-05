@@ -3,10 +3,10 @@ datePublished: 2021-12-26T15:44
 dateUpdated: 2021-12-26T15:44
 title: L'art du crochetage de serrures
 permalink: lockpicking
-aliases:
-  - Crochetage
+aliases: [Crochetage]
 publish: true
 rss: true
+links: "[[Cybersécurité]]"
 ---
 
 Je viens de recevoir un [Kit de crochetage](https://amzn.to/3RE4Ty7).
@@ -61,4 +61,3 @@ Références :
 - [Tristan - APPRENDRE LE LOCKPICKING](https://youtu.be/Bto1eil6c6E)
 - [Pick gun](https://amazon.fr/dp/B01LWQ0F40)
 - [Key impressioning](https://youtu.be/L7dnmHnJbww?t=2049)
-- [[Cybersécurité]]

@@ -4,8 +4,7 @@ permalink: comment-debugger-un-probleme-de-maniere-efficace
 datePublished: 2019-01-20T08:00
 dateUpdated: 2019-01-20T08:00
 description: Aujourd'hui, je partage avec vous mon processus pour résoudre des problèmes en apparence complexe, mais qui peuvent se résoudre facilement si l'on utilise la bonne méthode.
-aliases:
-  - Comment débugger un problème de manière efficace ?
+aliases: ["Comment débugger un problème de manière efficace ?"]
 publish: true
 rss: true
 ---

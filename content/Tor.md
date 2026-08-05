@@ -6,6 +6,7 @@ aliases: [Tor browser]
 permalink: tor
 publish: true
 rss: true
+links: "[[Vie privée]]"
 ---
 
 Tor est un logiciel libre et open-source pour communiquer de manière anonyme via un réseau superposé du même nom.
@@ -81,6 +82,5 @@ Si vous avez un problème de démarrage, lancez la commande suivante :
 
 Références :
 
-- [[Vie privée]]
 - https://github.com/torserv/torserv
 - https://gitlab.torproject.org/tpo/core/oniux

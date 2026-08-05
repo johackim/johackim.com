@@ -1,10 +1,7 @@
 ---
 datePublished: 2021-11-21T20:31
 dateUpdated: 2021-11-21T20:31
-aliases:
-  - Frequency illusion
-  - Frequency Bias
-  - Baader-Meinhof Phenomenon
+aliases: [Frequency illusion, Frequency Bias, Baader-Meinhof Phenomenon]
 permalink: lillusion-de-frequence
 publish: true
 rss: true

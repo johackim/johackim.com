@@ -2,14 +2,12 @@
 title: Neuroplasticité
 permalink: neuroplasticite
 description: La neuroplasticité est la capacité du cerveau à se reconfigurer et à s'adapter selon nos actions et notre environnement.
-aliases:
-  - Neuroplasticity
-  - Plasticité cérébrale
-  - Plasticité neuronale
+aliases: [Neuroplasticity, Plasticité cérébrale, Plasticité neuronale]
 datePublished: 2024-05-17T21:02:00
 dateUpdated: 2024-05-17T21:02:00
 publish: true
 rating: 5
+links: ["[[Neurosciences]]", "[[Behave - Robert Sapolsky]]"]
 ---
 
 La neuroplasticité (ou plasticité cérébrale) est la capacité du cerveau à se reconfigurer et à s'adapter selon nos actions et notre environnement.
@@ -32,8 +30,6 @@ Références :
 - [Neurosapiens - Plasticité cérébrale](https://open.spotify.com/episode/5v4jPohMJvC9cFztwIfs4x)
 - [Quand les neurosciences rencontrent l’éducation | Eric Gaspar | TEDx](https://youtu.be/JywfTYdKpHc?t=905)
 - [Potion de vie - Comment avoir un super cerveau (Neuroplasticité ++)](https://youtu.be/dxHHVOdPRKI)
-- [[Neurosciences]]
-- [[Behave - Robert Sapolsky]]
 - https://practicalpie.com/what-is-neuroplasticity/
 - https://rationalwiki.org/wiki/Neuroplasticity
 - The Power of Neuroplasticity - Shad Helmstetter

@@ -2,10 +2,10 @@
 datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
 permalink: notes-permanentes
-aliases:
-  - Permanent note
+aliases: [Permanent note]
 publish: true
 rss: true
+links: "[[Zettelkasten]]"
 ---
 
 Parcourez vos notes [[Note temporaire|temporaires]] et [[Note littéraire|littéraires]] et réfléchissez à la manière dont elles se rapportent à ce qui est pertinent pour vos propres recherches, réflexions ou intérêts.
@@ -30,9 +30,3 @@ Optionnellement, vous pouvez également :
 > - Authentique -> écrit dans nos propres mots
 > - Sourcé -> relié a des sources
 > - Une note permanent = 1 concept
-
----
-
-Références :
-
-- [[Zettelkasten]]

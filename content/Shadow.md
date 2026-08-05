@@ -5,6 +5,7 @@ title: Shadow sur Linux
 permalink: shadow-linux
 publish: true
 rss: true
+links: ["[[Jeux vidéos]]", "[[Cloud desktop|Cloud gaming]]"]
 ---
 
 Anciennement, j'avais fait [[Jouer sur Linux avec 95% de performance native|un tutoriel sur  comment jouer sur Linux]] et c'était une véritable galère.
@@ -197,5 +198,3 @@ Références :
 - https://blog.henricook.com/shadow-pc-support-for-ubuntu-2110
 - https://gitlab.com/aar642/shadow-repackaged#known-issues
 - https://frsbg01.filebrowser.shadow.tech/shadowftp/login
-- [[Jeux vidéos]]
-- [[Cloud desktop|Cloud gaming]]

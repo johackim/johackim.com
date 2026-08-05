@@ -1,9 +1,7 @@
 ---
 datePublished: 2022-03-20T23:17
 dateUpdated: 2022-03-20T23:17
-aliases:
-  - Antifragility
-  - Antifragilité
+aliases: [Antifragility, Antifragilité]
 title: Antifragile
 permalink: antifragile
 publish: true
@@ -44,7 +42,6 @@ Références :
 - Antifragile - Nassim Taleb
 - Nassim Taleb - Le Cygne Noir
 - [100 Mental Models - Wisdom Theory](https://wisdomtheory.gumroad.com/l/100MM)
-- [[Petites habitudes, Grandes réussites - Onur Karapinar]]
 - [Farnam Street - 10 Principles to Live an Antifragile Life](https://fs.blog/an-antifragile-way-of-life/)
 - [Optimize - Antifragile 101](https://heroic.us/optimize/101/antifragile)
 - [LYT Kit - Antifragility](https://notes.linkingyourthinking.com/Umami/Antifragility)

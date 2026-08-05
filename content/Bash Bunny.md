@@ -4,8 +4,7 @@ permalink: comment-menez-facilement-des-attaques-via-usb
 datePublished: 2018-02-19T07:57
 dateUpdated: 2018-02-19T07:57
 description: Existe-t-il un moyen simple de mener une attaque physique sur un ordinateur ou un téléphone simplement à l'aide d'une clé USB en seulement 7 secondes ?
-aliases:
-  - Attaque USB
+aliases: [Attaque USB]
 publish: true
 rss: true
 ---

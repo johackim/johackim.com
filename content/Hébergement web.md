@@ -2,15 +2,8 @@
 datePublished: 2021-04-15T16:44
 dateUpdated: 2024-11-16T16:44:00
 permalink: hebergement-web
-tags:
-  - moc
-aliases:
-  - DevOps
-  - Sysadmin
-  - Self-hosted
-  - Self-hosting
-  - Auto-hébergement
-  - Administration système
+tags: [moc]
+aliases: [DevOps, Sysadmin, Self-hosted, Self-hosting, Auto-hébergement, Administration système]
 title: 🏠 Hébergement web
 description: Gérez vos propres serveurs
 publish: true

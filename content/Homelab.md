@@ -6,8 +6,7 @@ dateUpdated: 2017-10-27T08:24
 description: Voici un guide d'installation d'un homelab conçu uniquement avec des logiciels open-source afin de vous permettre d'héberger vos sites internet à la maison !
 publish: true
 rss: true
-aliases:
-  - Proxmox
+aliases: [Proxmox]
 ---
 
 Après plusieurs semaines de recherches et de tests, je souhaite partager avec vous ce guide d'installation d'un homelab conçu uniquement avec des logiciels open-source afin de vous permettre d'héberger vos sites internet à la maison !

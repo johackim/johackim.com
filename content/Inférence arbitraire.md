@@ -2,11 +2,7 @@
 title: Inférence arbitraire
 permalink: inference-arbitraire
 description: L'inférence arbitraire est une distorsion cognitive qui consiste à tirer des conclusions hâtives sans preuves suffisantes.
-aliases:
-  - Jumping to conclusions
-  - Arbitrary inference
-  - Conclusion hâtive
-  - Premature Closure
+aliases: [Jumping to conclusions, Arbitrary inference, Conclusion hâtive, Premature Closure]
 datePublished: 2024-05-17T17:08:00
 dateUpdated: 2024-05-17T17:08:00
 publish: true

@@ -6,8 +6,7 @@ dateUpdated: 2021-02-08T08:00
 description: Apprenez à trouver des idées pour votre prochaine entreprise, votre activité secondaire ou votre startup indépendante.
 publish: true
 rss: true
-tags:
-  - literature
+tags: [literature]
 ---
 
 Apprenez à trouver des idées pour votre prochaine entreprise, votre activité secondaire ou votre startup indépendante.

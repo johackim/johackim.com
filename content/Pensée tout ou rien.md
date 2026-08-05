@@ -15,6 +15,7 @@ aliases:
 datePublished: 2024-05-17T17:01:00
 dateUpdated: 2024-05-17T17:01:00
 publish: true
+links: "[[Atomic Habits - James Clear#Évitez La spirale d'erreurs répétées ou Le cycle tout ou rien]]"
 ---
 
 La pensée tout ou rien (ou pensée dichotomique) est une [[Distorsion cognitive]] qui consiste à voir les choses de manière binaire sans aucune nuance.
@@ -33,7 +34,6 @@ Pour éviter la pensée tout ou rien, il est important de se rappeler que la vie
 
 Références :
 
-- [[Atomic Habits - James Clear#Évitez La spirale d'erreurs répétées ou Le cycle tout ou rien]]
 - https://fr.wikipedia.org/wiki/Distorsion_cognitive
 - https://clearerthinking.org/post/2020/06/23/learn-the-three-types-of-binary-thinking
 - https://amran.cz/how-to-have-better-community-conversations/

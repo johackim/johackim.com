@@ -4,9 +4,7 @@ dateUpdated: 2021-10-06T16:50
 permalink: la-regle-des-2-minutes
 publish: true
 rss: true
-aliases:
-  - 2-Minute Rule
-  - The Two-Minute Rule
+aliases: [2-Minute Rule, The Two-Minute Rule]
 rating: 4
 ---
 

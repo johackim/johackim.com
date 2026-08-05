@@ -4,6 +4,7 @@ dateUpdated: 2021-11-15T09:33
 permalink: whatweb
 publish: true
 rss: true
+links: "[[Zero To Mastery - Complete Ethical Hacking Bootcamp 2022]]"
 ---
 
 [Whatweb](https://github.com/urbanadventurer/WhatWeb) est un logiciel en ligne de commande comme [wappalyzer](https://wappalyzer.com/) pour analyser les outils utilisés par un site internet.
@@ -21,9 +22,3 @@ Pour l'utiliser :
 ```bash
 whatweb -v <website>
 ```
-
----
-
-Références :
-
-- [[Zero To Mastery - Complete Ethical Hacking Bootcamp 2022]]

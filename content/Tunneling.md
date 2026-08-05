@@ -5,8 +5,7 @@ permalink: how-to-expose-local-server-behind-firewall
 description: I looked for solutions to expose a local server behind a NAT or firewall. Here's what I found.
 datePublished: 2017-08-14T12:20
 dateUpdated: 2017-08-14T12:20
-aliases:
-  - Multiple ways to expose a local server behind NAT or firewall
+aliases: [Multiple ways to expose a local server behind NAT or firewall]
 publish: true
 rss: true
 ---

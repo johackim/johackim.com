@@ -1,8 +1,7 @@
 ---
 datePublished: 2021-10-24T20:00
 dateUpdated: 2021-10-24T20:00
-aliases:
-  - ROT Formula
+aliases: [ROT Formula]
 permalink: la-formule-r.o.t
 publish: true
 rss: true

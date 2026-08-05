@@ -4,8 +4,7 @@ permalink: 10-etapes-pour-prototyper-et-tester-un-business-en-ligne-en-1-jour
 datePublished: 2019-01-09T08:00
 dateUpdated: 2019-01-09T08:00
 description: Aujourd'hui je partage avec vous un ensemble de méthodes pour prototype et vérifier en un jour la viabilité, faisabilité et désirabilité d'un business en ligne.
-aliases:
-  - Comment créer un prototype ?
+aliases: ["Comment créer un prototype ?"]
 publish: true
 rss: true
 ---

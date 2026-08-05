@@ -1,8 +1,7 @@
 ---
 datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
-aliases:
-  - Test-driven development
+aliases: [Test-driven development]
 permalink: test-driven-development
 publish: true
 rss: true

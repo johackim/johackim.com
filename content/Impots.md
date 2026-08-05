@@ -2,10 +2,7 @@
 datePublished: 2021-08-01T21:31
 dateUpdated: 2021-08-01T21:31
 permalink: faire-sa-declaration-dimpot-en-tant-quauto-entrepreneur
-aliases:
-  - Faire sa déclaration d'impôt en tant qu'auto-entrepreneur
-  - Déclaration d'impot
-  - CAF
+aliases: [Faire sa déclaration d'impôt en tant qu'auto-entrepreneur, Déclaration d'impot, CAF]
 publish: true
 rss: true
 ---

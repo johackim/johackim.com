@@ -5,6 +5,7 @@ dateUpdated: 2021-08-08T19:31
 permalink: slow-burns
 publish: true
 rss: true
+links: "[[Tiago Forte - Building A Second Brain]]"
 ---
 
 Créer une formation ou rédiger un livre à partir de zéro est comme porter une charge très lourde d'un coup.
@@ -17,4 +18,3 @@ Références :
 
 - [Ali Abdaal - The Second Brain, A Life-Changing Productivity System](https://youtu.be/OP3dA2GcAh8?t=304)
 - [Eliott Meunier - Le hack de productivité ultime : procrastiner 2h/jour](https://youtu.be/HXDBY129N0E)
-- [[Tiago Forte - Building A Second Brain]]

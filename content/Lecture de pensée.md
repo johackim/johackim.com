@@ -4,8 +4,7 @@ permalink: lecture-de-pensee
 description: La lecture de pensée est une distorsion cognitive qui consiste à supposer ce que les autres pensent ou ressentent sans preuves concrètes.
 datePublished: 2024-05-17T17:09:00
 dateUpdated: 2024-05-17T17:09:00
-aliases:
-  - Mind reading
+aliases: [Mind reading]
 publish: true
 ---
 

@@ -4,10 +4,7 @@ permalink: linux-sur-smartphone
 datePublished: 2026-05-10T19:26
 dateUpdated: 2026-05-16T12:26:00
 aliases: [Linux sur Android]
-links:
-  - "[[Smartphones]]"
-  - "[[Android]]"
-  - "[[Linux]]"
+links: ["[[Smartphones]]", "[[Android]]", "[[Linux]]"]
 publish: true
 rss: true
 ---

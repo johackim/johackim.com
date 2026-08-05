@@ -4,9 +4,7 @@ permalink: comment-suivre-actualite-sans-compte-facebook-twitter-youtube
 datePublished: 2017-12-11T08:00
 dateUpdated: 2017-12-11T08:00
 description: Pour suivre l'actualité sans détenir de compte sur des réseaux comme Facebook, Twitter ou YouTube j'utilise les flux RSS. Il est possible de suivre des chaines YouTube, des pages Facebook, des comptes Twitter, être alerté des sorties d'album d'un artiste ou des épisodes d'une série.
-aliases:
-  - Comment suivre l'actualité sans compte facebook
-  - twitter ou youtube ?
+aliases: [Comment suivre l'actualité sans compte facebook, "twitter ou youtube ?"]
 publish: true
 rss: true
 ---

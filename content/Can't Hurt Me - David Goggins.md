@@ -5,8 +5,7 @@ publish: true
 rss: true
 dateUpdated: 2023-02-27T18:47
 datePublished: 2023-02-27T18:47
-tags:
-  - literature
+tags: [literature]
 ---
 
 David Goggins donne 10 challenges pour repousser ses limites et travailler efficacement vers ses objectifs :

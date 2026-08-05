@@ -2,10 +2,10 @@
 datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
 permalink: note-atomique
-aliases:
-  - Atomic note
+aliases: [Atomic note]
 publish: true
 rss: true
+links: "[[Atomique]]"
 ---
 
 Une note atomique est une note qui ne peut pas être divisée sans perdre son sens.
@@ -30,4 +30,3 @@ Références :
 - https://zettelkasten.de/posts/overview/
 - https://app.mailbrew.com/s/newsletter/pFhBz0TpXK9g
 - [Odysseas - Effective Note-Taking to Remember More + Create New Ideas](https://youtu.be/_t9R1AnB7ho&t=344)
-- [[Atomique]]

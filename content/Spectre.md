@@ -2,9 +2,7 @@
 datePublished: 2021-05-18T21:17
 dateUpdated: 2022-10-11T17:50
 permalink: spectre
-aliases:
-  - MasterPassword
-  - mpw
+aliases: [MasterPassword, mpw]
 publish: true
 rss: true
 ---

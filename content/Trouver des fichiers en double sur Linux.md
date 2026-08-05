@@ -4,8 +4,7 @@ dateUpdated: 2021-09-27T22:29
 permalink: trouver-des-fichiers-en-double-sur-linux
 publish: true
 rss: true
-aliases:
-  - fdupes
+aliases: [fdupes]
 ---
 
 Pour trouver des fichiers en double sur [[Linux]], il existe la commande suivante :

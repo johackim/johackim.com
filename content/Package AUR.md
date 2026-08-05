@@ -5,6 +5,7 @@ permalink: installer-une-version-modifie-dun-package-aur-sur-arch-linux
 title: Installer une version modifié d'un package AUR sur Arch Linux
 publish: true
 rss: true
+links: ["[[Arch Linux]]", "[[Yay]]"]
 ---
 
 Sur Arch Linux, Il m'arrive parfois de vouloir installer un package (ex: `mailspring`) avec une version très récente et qui n'est pas encore packagé dans les dépôts AUR.
@@ -84,10 +85,3 @@ Puis envoyez vos modifications :
 git remote set-url origin ssh://aur@aur.archlinux.org/<pkgname>.git
 git push origin master
 ```
-
----
-
-Références :
-
-- [[Arch Linux]]
-- [[Yay]]

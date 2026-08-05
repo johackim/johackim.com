@@ -5,6 +5,7 @@ datePublished: 2021-09-27T22:29
 dateUpdated: 2021-09-27T22:29
 publish: true
 rss: true
+links: "[[Python]]"
 ---
 
 Pour changer de version de Python facilement, de la même manière que nvm pour NodeJS, il existe l'outil [pyenv](https://github.com/pyenv/pyenv).
@@ -55,9 +56,3 @@ Pour régler le problème je commente une ligne du fichier `~/.pyenv/versions/3.
 ```python
 # sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
 ```
-
----
-
-Références :
-
-- [[Python]]

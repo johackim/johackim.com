@@ -3,9 +3,7 @@ datePublished: 2021-04-28T10:52
 dateUpdated: 2021-04-28T10:52
 permalink: how-to-take-smart-notes-sonke-ahrens
 title: Comment mieux organiser ses notes avec la méthode Zettelkasten
-aliases:
-  - La méthode Zettelkasten
-  - How to Take Smart Notes - Sönke Ahrens
+aliases: [La méthode Zettelkasten, How to Take Smart Notes - Sönke Ahrens]
 description: Le livre How to Take Smart Notes de Sönke Ahrens est une introduction à la méthode Zettelkasten pour organiser ses notes de manière efficace
 publish: true
 rss: true

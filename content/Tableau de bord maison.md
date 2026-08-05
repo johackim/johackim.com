@@ -4,10 +4,10 @@ permalink: comment-configurer-tableau-de-bord-maison
 datePublished: 2018-02-12T08:00
 dateUpdated: 2018-02-12T08:00
 description: Pour afficher tout un tas d'indicateurs clés et statistiques sur un écran, je me suis fabriqué un petit tableau de bord maison sur un Raspberry Pi.
-aliases:
-  - Comment se configurer un tableau de bord maison ?
+aliases: ["Comment se configurer un tableau de bord maison ?"]
 publish: true
 rss: true
+links: "[[Hébergement web]]"
 ---
 
 Pour afficher tout un tas d'indicateurs clés et statistiques sur un écran, je me suis fabriqué un petit tableau de bord maison sur un Raspberry Pi.
@@ -120,9 +120,3 @@ Je pense aussi améliorer la pertinence de mes métriques et en ajouter d'autres
 Et vous ? Il y a quoi derrière votre dashboard ?
 
 Bonne semaine ;)
-
----
-
-Références :
-
-- [[Hébergement web]]

@@ -4,6 +4,7 @@ dateUpdated: 2021-11-21T20:31
 permalink: le-futur-illusoire
 publish: true
 rss: true
+links: "[[Bigger Leaner Stronger - Michael Matthews]]"
 ---
 
 C'est la supposition de prendre des actions différentes de celles d'aujourd'hui. De croire que nos actions futures seront meilleurs que celles d'aujourd'hui.
@@ -18,9 +19,3 @@ Une sorte de [[Biais d'optimisme]] qui nous poussent à mettre trop d'importance
 Alors qu'il est fort probable que votre futur soi reste le même que votre moi d'aujourd'hui.
 
 Si on n'est pas capable de faire une action aujourd'hui, pourquoi le serait-on le lendemain ?
-
----
-
-Références :
-
-- [[Bigger Leaner Stronger - Michael Matthews]]

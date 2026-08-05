@@ -5,6 +5,7 @@ datePublished: 2022-06-27T12:56
 dateUpdated: 2022-06-29T01:29
 publish: true
 rss: true
+links: "[[Testing]]"
 ---
 
 [Cypress](https://cypress.io/) est un framework de test E2E Node.js.
@@ -144,4 +145,3 @@ Références :
 - https://github.com/cypress-io/cypress-realworld-app
 - https://marmelab.com/blog/2023/11/20/screenshot-ci.html
 - https://pro.academind.com/p/cypress-end-to-end-testing-getting-started
-- [[Testing]]

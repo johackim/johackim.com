@@ -5,6 +5,10 @@ permalink: dopamine
 publish: true
 rss: true
 rating: 3
+links:
+  - "[[Dopamine Nation - Anna Lembke]]"
+  - "[[Behave - Robert Sapolsky]]"
+  - "[[Dopamine Detox - Thibaut Meurisse]]"
 ---
 
 La dopamine est un neurotransmetteur et une [[Hormones|hormone]] de la récompense qui génère une sensation de satisfaction lorsque l'on termine une tâche, reçoit une notification sur notre smartphone ou un like sur Twitter.
@@ -26,9 +30,6 @@ Un manque de dopamine peut engendrer des problèmes mentaux comme des troubles d
 Références :
 
 - The Molecule of More - Daniel Z. Lieberman
-- [[Dopamine Nation - Anna Lembke]]
-- [[Behave - Robert Sapolsky]]
-- [[Dopamine Detox - Thibaut Meurisse]]
 - [Arte - Documentaire sur la dopamine](https://arte.tv/dopamine/)
 - [JCK - Comprendre et combattre notre addiction à la dopamine](https://jeancharleskurdali.substack.com/p/comprendre-et-combattre-notre-addiction)
 - [Using Dopamine Supplements to Hack Motivation: the Neurobiology of Ambition](https://reddit.com/r/Nootropics/comments/xufynu/using_dopamine_supplements_to_hack_motivation_the/)

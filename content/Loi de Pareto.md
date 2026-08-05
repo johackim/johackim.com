@@ -1,10 +1,7 @@
 ---
 datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
-aliases:
-  - La règle des 80/20
-  - Principe de Pareto
-  - Pareto's Principle
+aliases: [La règle des 80/20, Principe de Pareto, Pareto's Principle]
 title: La loi de Pareto
 permalink: loi-de-pareto
 publish: true

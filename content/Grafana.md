@@ -2,12 +2,10 @@
 datePublished: 2021-05-17T17:32
 dateUpdated: 2021-05-17T17:32
 permalink: installer-grafana-et-prometheus-avec-docker-swarm
-aliases:
-  - Installer Grafana et Prometheus avec Docker Swarm
+aliases: [Installer Grafana et Prometheus avec Docker Swarm]
 publish: true
 rss: true
-links:
-    - "[[Monitoring]]"
+links: "[[Monitoring]]"
 ---
 
 Pour monitorer une infrastructure, il existe Grafana et Prometheus.

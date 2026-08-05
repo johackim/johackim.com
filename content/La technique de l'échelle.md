@@ -6,6 +6,7 @@ publish: true
 rss: true
 aliases: [The Ladder Technique]
 rating: 3
+links: "[[Chunking]]"
 ---
 
 **Diviser vos tâches en petites tâches**, cela évitera la [[Procrastination]] et enlèvera de la friction lorsque vous effectuerez cette tâche.
@@ -36,4 +37,3 @@ Références :
 
 - La 25ème Heure - Guillaume Declair
 - [Emilio Abril - La technique des Navy SEALs pour devenir fort mentalement](https://youtube.com/shorts/rctN3Pf71pg)
-- [[Chunking]]

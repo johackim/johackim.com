@@ -6,6 +6,7 @@ datePublished: 2024-02-12T10:00:00
 dateUpdated: 2024-02-12T10:00:00
 publish: true
 rss: true
+links: "[[Raspberry PI]]"
 ---
 
 [DietPi](https://dietpi.com/) est une distribution Linux légère pour les Raspberry Pi.
@@ -108,4 +109,3 @@ On peut installer [plein d'autres logiciels](https://dietpi.com/dietpi-software.
 Références :
 
 - https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html
-- [[Raspberry PI]]

@@ -5,8 +5,8 @@ permalink: se-connecter-a-un-serveur-irc-avec-weechat
 title: Se connecter à un serveur IRC avec Weechat
 publish: true
 rss: true
-aliases:
-  - IRC
+aliases: [IRC]
+links: "[[Linux]]"
 ---
 
 ## Installer Weechat
@@ -63,9 +63,3 @@ Pour changer de fenêtre :
 
 - alt+left
 - alt+right
-
----
-
-Références :
-
-- [[Linux]]

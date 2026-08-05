@@ -5,6 +5,7 @@ datePublished: 2021-07-05T16:31
 dateUpdated: 2021-07-05T16:31
 publish: true
 rss: true
+links: "[[Programmation]]"
 ---
 
 Pour générer des images de manière dynamique en Node.js, il existe la librairie `node-canvas` :
@@ -44,9 +45,3 @@ createImage('Hello World!');
 Lorsque j'exécute ce script (`node script.js`), une image avec un fond gris et un texte blanc "Hello World!" sera créée.
 
 C'est cette librairie que j'utilise pour générer automatiquement toutes les previews de mon [Digital Garden](https://johackim.com).
-
----
-
-Références :
-
-- [[Programmation]]

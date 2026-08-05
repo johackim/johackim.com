@@ -2,8 +2,7 @@
 datePublished: 2021-10-06T16:50
 dateUpdated: 2021-10-06T16:50
 permalink: comment-retrouver-le-passage-dune-video-youtube
-aliases:
-  - Comment retrouver le passage d'une vidéo YouTube ?
+aliases: ["Comment retrouver le passage d'une vidéo YouTube ?"]
 publish: true
 rss: true
 ---

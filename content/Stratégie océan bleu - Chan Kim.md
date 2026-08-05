@@ -6,8 +6,7 @@ dateUpdated: 2021-01-22T11:00
 description: Comment créer un espace de marché incontesté et mettre la concurrence hors-jeu ?
 publish: true
 rss: true
-tags:
-  - literature
+tags: [literature]
 ---
 
 Comment créer un espace de marché incontesté et mettre la concurrence hors-jeu ?

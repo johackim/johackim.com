@@ -5,8 +5,8 @@ permalink: limiter-la-bande-passante-dune-interface-reseau-sous-linux
 title: Limiter la bande passante d'une interface réseau sous Linux
 publish: true
 rss: true
-aliases:
-  - Wondershaper
+aliases: [Wondershaper]
+links: "[[Réseau|Network]]"
 ---
 
 Pour limiter la bande passante d'une interface réseau sous [[Linux]] il existe [wondershaper](https://github.com/magnific0/wondershaper).
@@ -40,9 +40,3 @@ sudo wondershaper -a enp1s0 -u 512
 ```
 
 Voilà 😀 !
-
----
-
-Références :
-
-- [[Réseau|Network]]

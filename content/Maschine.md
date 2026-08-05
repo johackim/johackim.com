@@ -2,11 +2,10 @@
 datePublished: 2021-06-16T11:04
 dateUpdated: 2021-06-16T11:04
 permalink: installation-de-ableton-et-maschine
-aliases:
-  - Installation de Ableton 11 et Maschine 2.12
-  - Ableton
+aliases: [Installation de Ableton 11 et Maschine 2.12, Ableton]
 title: Installez un espace de production de musique sur Windows avec Ableton et Maschine
 publish: true
+links: ["[[DJ]]", "[[Musique]]"]
 ---
 
 Si vous êtes compositeur de musiques, voici toutes les étapes à suivre pour installer un environnement de musique sur Windows avec Ableton et Maschine.
@@ -95,10 +94,3 @@ Les installations VR semble mieux fonctionner que les R2R ?
 - Note repeat pour jouer des répétitions de note en auto
 - Mute pour muter une piste
 - Mixer pour changer le volume d'un instrument
-
----
-
-Références :
-
-- [[DJ]]
-- [[Musique]]

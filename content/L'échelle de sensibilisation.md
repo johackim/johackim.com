@@ -3,8 +3,7 @@ title: "L'échelle de sensibilisation : les 5 niveaux de conscience d'un prospec
 permalink: les-5-niveaux-de-conscience
 datePublished: 2020-09-18T06:00
 dateUpdated: 2020-09-18T06:00
-aliases:
-  - 5 stages of awareness
+aliases: [5 stages of awareness]
 description: Pour améliorer l'impact de notre contenu, il est peut-être important de connaitre à l'avance le degré de sensibilisation de notre prospect par rapport à notre produit.
 publish: true
 rss: true

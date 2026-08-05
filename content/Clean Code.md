@@ -1,14 +1,23 @@
 ---
 datePublished: 2021-10-31T21:43
 dateUpdated: 2021-10-31T21:43
-aliases:
-  - Software Craftsmanship
-  - Artisan Développeur
+aliases: [Software Craftsmanship, Artisan Développeur]
 title: ♻️ Clean code
 description: Écrire du code qui dure
 permalink: clean-code
 publish: true
 comments: false
+links:
+  - "[[Academind - Clean Code]]"
+  - "[[Code With Mosh - Clean Coding and Refactoring]]"
+  - "[[Refactoring Guru - Dive Into Refactoring]]"
+  - "[[Jason McCreary - BaseCode]]"
+  - "[[Clean Code - Robert C. Martin]]"
+  - "[[The Clean Coder - Robert C. Martin]]"
+  - "[[Clean Craftsmanship - Robert C. Martin]]"
+  - "[[The Pragmatic Programmer - Andrew Hunt]]"
+  - "[[The Software Craftsman - Sandro Mancuso]]"
+  - "[[Octo - Culture Code]]"
 ---
 
 - [[TDD]]
@@ -54,16 +63,6 @@ comments: false
 
 Références :
 
-- [[Academind - Clean Code]]
-- [[Code With Mosh - Clean Coding and Refactoring]]
-- [[Refactoring Guru - Dive Into Refactoring]]
-- [[Jason McCreary - BaseCode]]
-- [[Clean Code - Robert C. Martin]]
-- [[The Clean Coder - Robert C. Martin]]
-- [[Clean Craftsmanship - Robert C. Martin]]
-- [[The Pragmatic Programmer - Andrew Hunt]]
-- [[The Software Craftsman - Sandro Mancuso]]
-- [[Octo - Culture Code]]
 - https://12factor.net/fr/
 - https://cleancoders.com/
 - https://writing-readable-php.com/

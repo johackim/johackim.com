@@ -6,8 +6,8 @@ dateUpdated: 2019-10-02T06:00
 description: Que faire quand son école met tout en oeuvre pour pas que l'on accède à nos sites ou jeux préférés ?
 publish: true
 rss: true
-aliases:
-  - Comment contourner le pare-feu de mon école ?
+aliases: ["Comment contourner le pare-feu de mon école ?"]
+links: "[[Cybersécurité]]"
 ---
 
 Pendant mes études (il y a 4 ans déjà), du jour au lendemain, mon école a mis en place un système de [[Deep packet inspection|DPI]] (deep packet inspection) pour contrôler plus efficacement les protocoles utilisés par les étudiants et bannir les VPNs de façon plus radicale que de simplement bloquer les ports sortants.
@@ -89,9 +89,3 @@ Ce n'est peut-être pas le cas de tous, mais j'ai personnellement du mal à évo
 Et puis il y aura toujours des petits malins comme nous pour **contourner cette censure**.
 
 N'hésitez pas à me poser des questions en commentaire si vous avez besoin d'aide sur l'installation d'une des deux méthodes ;)
-
----
-
-Références :
-
-- [[Cybersécurité]]

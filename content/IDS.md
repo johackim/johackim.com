@@ -2,8 +2,7 @@
 datePublished: 2021-05-18T21:17
 dateUpdated: 2021-05-18T21:17
 permalink: ids
-aliases:
-  - Système de détection d'intrusion
+aliases: [Système de détection d'intrusion]
 publish: true
 rss: true
 ---

@@ -2,8 +2,7 @@
 datePublished: 2021-09-16T22:10
 dateUpdated: 2021-09-16T22:10
 permalink: deployer-automatiquement-un-depot-sur-github-pages
-aliases:
-  - Déployer automatiquement un dépot sur Github Pages
+aliases: [Déployer automatiquement un dépot sur Github Pages]
 publish: true
 rss: true
 ---

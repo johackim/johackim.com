@@ -4,12 +4,9 @@ dateUpdated: 2021-11-21T20:31
 permalink: leffet-de-compensation-morale
 publish: true
 rss: true
-aliases:
-  - Licensing effect
-  - Moral licensing
-  - Moral credential effect
-  - L'hypocrisie morale
+aliases: [Licensing effect, Moral licensing, Moral credential effect, L'hypocrisie morale]
 rating: 3
+links: ["[[Bigger Leaner Stronger - Michael Matthews]]", "[[Psychologie]]"]
 ---
 
 Terme créé par les psychologues, **l'effet de compensation morale** (ou Licensing effect en anglais) désigne le fait de se donner bonne conscience en effectuant une mauvaise action après avoir fait une bonne action.
@@ -33,8 +30,6 @@ Des études ont même montré que pour certains, le simple fait de penser à une
 
 Références :
 
-- [[Bigger Leaner Stronger - Michael Matthews]]
-- [[Psychologie]]
 - https://fr.wikipedia.org/wiki/Hypocrisie_morale
 - https://airtable.com/embed/shrWQJMeUgovoXXFn/tblCvctOnCclo1rGA/viwnS04dUc501ZzLp/recU52eM54kyvRtFV
 - https://gurwinder.substack.com/p/30-useful-principles-autumn-2023

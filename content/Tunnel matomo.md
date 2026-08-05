@@ -4,12 +4,10 @@ permalink: comment-creer-un-funnel-sur-matomo
 datePublished: 2020-09-01T06:00
 dateUpdated: 2020-09-01T06:00
 description: Consultez facilement le parcours et les taux de conversion des actions de vos visiteurs (inscription, achat en ligne, etc..) à l'aide de la fonctionnalité Funnel de Matomo.
-aliases:
-  - Comment créer un tunnel sur matomo ?
+aliases: ["Comment créer un tunnel sur matomo ?"]
 publish: true
 rss: true
-links:
-    - "[[Matomo]]"
+links: "[[Matomo]]"
 ---
 
 Consultez facilement le parcours et les taux de conversion des actions de vos visiteurs (inscription, achat en ligne, etc..) à l'aide de la fonctionnalité Funnel de Matomo.

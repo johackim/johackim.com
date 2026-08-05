@@ -8,6 +8,12 @@ aliases: [Dichotomy of Control]
 publish: true
 rss: true
 rating: 5
+links:
+  - "[[Cercle d'influence]]"
+  - "[[Responsabilité]]"
+  - "[[Ali Abdaal - How To Be Happier Stoicism Masterclass#La dichotomie du contrôle]]"
+  - "[[Ali Abdaal - How To Be Happier Stoicism Masterclass#Les 2 seules choses que l'on peut contrôler]]"
+  - "[[Les 7 habitudes de ceux qui réalisent tout ce qu'ils entreprennent  - Stephen R. Covey]]"
 ---
 
 La dichotomie du contrôle est un principe qui vient du [[Stoïcisme]].
@@ -41,11 +47,6 @@ Il est inutile de dépenser notre énergie sur ce qui ne dépend pas de nous.
 
 Références :
 
-- [[Cercle d'influence]]
-- [[Responsabilité]]
-- [[Ali Abdaal - How To Be Happier Stoicism Masterclass#La dichotomie du contrôle]]
-- [[Ali Abdaal - How To Be Happier Stoicism Masterclass#Les 2 seules choses que l'on peut contrôler]]
-- [[Les 7 habitudes de ceux qui réalisent tout ce qu'ils entreprennent  - Stephen R. Covey]]
 - [Happy - Derren Brown](https://amazon.fr/dp/B01HE7TG7Y/)
 - [Jean-Charles Kurdali - Devenir millionnaire ne vous rendra pas plus serein](https://youtu.be/-QySLDU8GLY?t=704)
 - https://whatisstoicism.com/stoicism-definition/what-is-the-dichotomy-of-control/

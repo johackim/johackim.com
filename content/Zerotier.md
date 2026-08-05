@@ -6,6 +6,7 @@ datePublished: 2024-03-11T10:00:00
 dateUpdated: 2024-03-11T10:00:00
 publish: true
 rss: true
+links: "[[Linux]]"
 ---
 
 [Zerotier](https://zerotier.com/) est un logiciel de réseau privé virtuel qui permet de connecter des ordinateurs entre eux sur un réseau virtuel.
@@ -65,9 +66,3 @@ zerotier-cli leave <network>
 ```
 
 Pratique pour pouvoir jouer à des jeux en multijoueur lorsque vous n'êtes pas sur le même réseau local que vos amis 🙂 !
-
----
-
-Références :
-
-- [[Linux]]

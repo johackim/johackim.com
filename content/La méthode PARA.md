@@ -1,8 +1,7 @@
 ---
 datePublished: 2021-10-17T22:19
 dateUpdated: 2021-10-17T22:19
-aliases:
-  - PARA Method
+aliases: [PARA Method]
 permalink: la-methode-para
 publish: true
 rss: true

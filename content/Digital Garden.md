@@ -4,10 +4,8 @@ dateUpdated: 2021-06-27T19:19
 permalink: digital-garden
 publish: true
 rss: true
-aliases:
-  - Jardin numérique
-links:
-  - "[[PKM]]"
+aliases: [Jardin numérique]
+links: "[[PKM]]"
 ---
 
 Un jardin numérique (en anglais : digital garden) est un espace en ligne qui se trouve à l'intersection d'un carnet de notes et d'un blog, où des graines de pensées sont partagés et cultivés en public.

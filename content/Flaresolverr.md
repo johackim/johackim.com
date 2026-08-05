@@ -3,8 +3,7 @@ title: Flaresolverr
 permalink: contourner-la-protection-cloudflare
 datePublished: 2021-05-30T19:50
 dateUpdated: 2021-05-30T19:50
-aliases:
-  - Contourner la protection Cloudflare
+aliases: [Contourner la protection Cloudflare]
 publish: true
 rss: true
 ---
