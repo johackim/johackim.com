@@ -40,7 +40,7 @@ links:
 - [[YAGNI]]
 - [[AHA]]
 - [[Immutabilité]]
-- [[Structurer un projet React|Comment structurer un projet React ?]]
+- [[Structurer un projet React]]
 - [[Module paths aliases]]
 - [[Arrange-Act-Assert pattern]]
 - [[Semantic Versioning]]
