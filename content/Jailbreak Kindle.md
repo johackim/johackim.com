@@ -36,13 +36,13 @@ Et supprimer tous les fichiers du type `update_kindle.bin` (ex: `update_kindle_1
 
 Pour éviter que Amazon mette à jour votre liseuse, laissez 50 Mo de disponible.
 
-Si vous êtes sur Windows, copiez et exécutez le script [Filler.ps1](https://github.com/bastianmarin/Kindle-Filler-Disk/blob/main/Filler.ps1) à la racine de votre Kindle :
+Si vous êtes sur Windows, copiez et exécutez le script [Filler.ps1](https://github.com/iiroak/Kindle-Filler-Disk/blob/main/Scripts/Filler.ps1) à la racine de votre Kindle :
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\Filler.ps1
 ```
 
-Si vous êtes sur Linux, exécutez le script [Filler.sh](https://github.com/bastianmarin/Kindle-Filler-Disk/blob/main/Filler.sh) à la racine de votre Kindle :
+Si vous êtes sur Linux, exécutez le script [Filler.sh](https://github.com/iiroak/Kindle-Filler-Disk/blob/main/Scripts/Filler.sh) à la racine de votre Kindle :
 
 ```bash
 bash Filler.sh

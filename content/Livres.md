@@ -54,7 +54,7 @@ comments: false
 - [[How to Take Smart Notes - Sönke Ahrens]]
 - [[The One Thing - Garry Keller]]
 - [[L'essentialisme - Greg McKeown]]
-- [[Nir Eyal - Imperturbable]]
+- [[Imperturbable - Nir Eyal]]
 
 ## 🤪 Santé mentale
 
@@ -68,13 +68,13 @@ comments: false
 ## Autres
 
 - [[Ces idées qui collent - Chip Heath]]
-- [[Victor Ferry - 12 leçons de rhétorique pour prendre le pouvoir]]
+- [[12 leçons de rhétorique pour prendre le pouvoir - Victor Ferry]]
 - [[L'autoroute du millionnaire - MJ Demarco]]
 - [[Sapiens - Yuval Noah Harari]]
-- [[Don Miguel Ruiz - Les quatre accords toltèques]]
-- [[Nir Eyal - Hooked]]
-- [[Nir Eyal - Imperturbable]]
-- [[Russell Brunson - Dotcom Secrets]]
+- [[Les quatre accords toltèques - Don Miguel Ruiz]]
+- [[Hooked - Nir Eyal]]
+- [[Imperturbable - Nir Eyal]]
+- [[Dotcom Secrets - Russell Brunson]]
 - [[What's Our Problem - Tim Urban]]
 
 ---

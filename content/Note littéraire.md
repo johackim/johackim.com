@@ -2,10 +2,10 @@
 datePublished: 2021-06-27T19:19
 dateUpdated: 2021-06-27T19:19
 permalink: notes-litteraires
-aliases: [Literature note]
+aliases: [Literature note, Bibliographic notes, Source notes, Reference notes]
+links: "[[Zettelkasten]]"
 publish: true
 rss: true
-links: "[[Zettelkasten]]"
 ---
 
 **Une note littéraire est essentiellement une note que vous avez créé à partir d'un contenu que vous avez consommé (livres, articles, vidéos, films, podcasts, formations, discussions, etc...).**

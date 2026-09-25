@@ -9,11 +9,11 @@ publish: true
 rss: true
 rating: 5
 links:
-  - "[[Cercle d'influence]]"
   - "[[Responsabilité]]"
-  - "[[Ali Abdaal - How To Be Happier Stoicism Masterclass#La dichotomie du contrôle]]"
-  - "[[Ali Abdaal - How To Be Happier Stoicism Masterclass#Les 2 seules choses que l'on peut contrôler]]"
+  - "[[Cercle d'influence]]"
+  - "[[How To Be Happier Stoicism Masterclass - Ali Abdaal#La dichotomie du contrôle]]"
   - "[[Les 7 habitudes de ceux qui réalisent tout ce qu'ils entreprennent  - Stephen R. Covey]]"
+  - "[[How To Be Happier Stoicism Masterclass - Ali Abdaal#Les 2 seules choses que l'on peut contrôler]]"
 ---
 
 La dichotomie du contrôle est un principe qui vient du [[Stoïcisme]].

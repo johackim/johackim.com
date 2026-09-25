@@ -1,10 +1,10 @@
 ---
+links: ["[[Linux]]", "[[Virtualisation]]"]
 datePublished: 2022-06-16T11:52
 dateUpdated: 2022-06-21T05:34
 permalink: quickemu
 publish: true
 rss: true
-links: ["[[Linux]]", "[[Virtualisation]]"]
 ---
 
 [Quickemu](https://github.com/quickemu-project/quickemu) est un logiciel pour rapidement démarrer des machines virtuelles depuis Linux.
@@ -35,6 +35,13 @@ quickemu --vm archlinux-latest.conf
 ```bash
 quickget android 9.0
 quickemu --vm android-9.0-x86.conf
+```
+
+## Démarrer une machine virtuel de Windows
+
+```bash
+quickget windows 11
+quickemu --vm windows-11.conf
 ```
 
 ## Supprimer un disque

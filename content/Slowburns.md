@@ -5,7 +5,7 @@ dateUpdated: 2021-08-08T19:31
 permalink: slow-burns
 publish: true
 rss: true
-links: "[[Tiago Forte - Building A Second Brain]]"
+links: "[[Building A Second Brain - Tiago Forte]]"
 ---
 
 Créer une formation ou rédiger un livre à partir de zéro est comme porter une charge très lourde d'un coup.

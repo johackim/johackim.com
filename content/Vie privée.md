@@ -59,5 +59,6 @@ Références :
 - https://2305878273.7844380499.cfd/
 - https://digitalrightsbytes.org/
 - https://paranoiaprivacy.wiki/
+- https://anonymousplanet.net/guide/
 - [HugoDécrypte - Ils peuvent vous faire disparaître d'internet - Micode](https://youtu.be/Qgf1GKJ19Xk)
 - [Marketing Mania - Tout le monde s'en fout](https://youtu.be/nEyMyVREA7Q?t=1216)

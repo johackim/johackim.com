@@ -18,13 +18,25 @@ C'est un langage compilé.
 sudo pacman -S rust
 ```
 
+## Hello world
+
+Créer un fichier src/main.rs :
+
+```rust
+fn main() {
+    println!("Hello world");
+}
+```
+
+Puis exécuter `cargo init` et `cargo run`.
+
 ## Faire un println
 
 > [!QUOTE]
 > Le symbole `!` après `println` indique qu'il s'agit d'une macro
 
 ```rust
-println!("Hello John!");
+println!("Hello world!");
 // Ou
 let name = "John";
 println!("Hello {name}!");
@@ -59,10 +71,9 @@ dbg!(myvar);
 let myvar = 1;
 ```
 
-> [!NOTE]
-> Les variables utilisent une convention de nommage en snake_case (ex: my_variable).
->
-> Par défaut, une variable est immutable.
+Les variables utilisent une convention de nommage en snake_case (ex: my_variable).
+
+Par défaut, une variable est immutable.
 
 ## Créer une variable mutable
 
@@ -871,6 +882,27 @@ mod test {
     }
 }
 ```
+
+## Attributes
+
+Les attributs rust sont des instructions donnés au compilateur.
+
+Par exemple :
+
+- L'attribut `#![no_main]` indique au compilateur que le programme ne dispose pas de fonction `main()`.
+- L'attribut `#![no_std]` indique au compilateur que le programme n'utilise pas la bibliothèque standard.
+
+Le synbole `!` après le `#` indique que l'attribut est appliqué de manière globale (ex: crate).
+
+Sans le `!`, l'attribut est appliqué de manière local (ex: fonction, struct, enum, etc.).
+
+## Build script (build.rs)
+
+Un fichier build.rs peut être placé à la racine du projet.
+
+Il est exécuté à chaque déploiement lors de l'exécution de la commande `cargo build`.
+
+C'est un équivalent de la commande prebuild en JavaScript.
 
 ## Crates / Packages / Librairies
 
