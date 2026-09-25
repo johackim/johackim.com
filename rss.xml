@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 14 Sep 2026 01:39:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Sep 2026 11:08:39 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -495,10 +495,10 @@ Installer un <a href="https://johackim.com/vpn" title="VPN" class="not-found">VP
 <p>Et supprimer tous les fichiers du type <code>update_kindle.bin</code> (ex: <code>update_kindle_10th_5.18.1.bin</code>) qui existent à la racine de votre Kindle.</p>
 <h2>3. Remplissez votre Kindle pour laisser seulement 50 Mo de disponible</h2>
 <p>Pour éviter que Amazon mette à jour votre liseuse, laissez 50 Mo de disponible.</p>
-<p>Si vous êtes sur Windows, copiez et exécutez le script <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/blob/main/Filler.ps1">Filler.ps1</a> à la racine de votre Kindle :</p>
+<p>Si vous êtes sur Windows, copiez et exécutez le script <a href="https://github.com/iiroak/Kindle-Filler-Disk/blob/main/Scripts/Filler.ps1">Filler.ps1</a> à la racine de votre Kindle :</p>
 <pre><code class="language-powershell">powershell -ExecutionPolicy Bypass -File .\Filler.ps1
 </code></pre>
-<p>Si vous êtes sur Linux, exécutez le script <a href="https://github.com/bastianmarin/Kindle-Filler-Disk/blob/main/Filler.sh">Filler.sh</a> à la racine de votre Kindle :</p>
+<p>Si vous êtes sur Linux, exécutez le script <a href="https://github.com/iiroak/Kindle-Filler-Disk/blob/main/Scripts/Filler.sh">Filler.sh</a> à la racine de votre Kindle :</p>
 <pre><code class="language-bash">bash Filler.sh
 </code></pre>
 <p>Pour vérifier l&#x27;espace disponible de votre Kindle, allez dans Paramètres &gt; Options de l&#x27;appareil &gt; Informations sur l&#x27;appareil &gt; Espace disponible.</p>
@@ -3566,6 +3566,7 @@ https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/
 <li><a href="https://blog.cloudflare.com/introducing-1-1-1-1-for-families">https://blog.cloudflare.com/introducing-1-1-1-1-for-families</a></li>
 <li><a href="https://reddit.com/r/uBlockOrigin/">https://reddit.com/r/uBlockOrigin/</a></li>
 <li><a href="https://oisd.nl">https://oisd.nl</a></li>
+<li><a href="https://dnsforge.de">https://dnsforge.de</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -3592,6 +3593,10 @@ quickemu --vm archlinux-latest.conf
 <h2>Démarrer une machine virtuel Android</h2>
 <pre><code class="language-bash">quickget android 9.0
 quickemu --vm android-9.0-x86.conf
+</code></pre>
+<h2>Démarrer une machine virtuel de Windows</h2>
+<pre><code class="language-bash">quickget windows 11
+quickemu --vm windows-11.conf
 </code></pre>
 <h2>Supprimer un disque</h2>
 <pre><code class="language-bash">quickemu --delete-disk --vm ubuntu-22.04.conf
