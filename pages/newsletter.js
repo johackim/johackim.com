@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import isEmail from 'validator/lib/isEmail';
 import Layout from '../components/layout';
 
 const WEBHOOK_URL = 'https://n8n.ethibox.fr/webhook/97b08542-655e-4655-acb2-1ce6872bc253';
+
+const isEmail = (text) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text);
 
 export default ({ subscribers }) => {
     const [state, setState] = useState({ error: false, success: false, isLoading: false });
