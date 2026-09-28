@@ -5,35 +5,39 @@
 
 /* Mermaid */
 
-[id^='mermaid-svg'] > svg {
-    @apply h-auto mt-4;
+[data-streamdown='mermaid-block'] > :first-child {
+    @apply hidden;
 }
 
-[id^='mermaid-svg'] g,
-[id^='mermaid-svg'] foreignObject {
+[data-streamdown='mermaid'] * {
+    @apply !cursor-auto !touch-auto;
+}
+
+[id^='mermaid-'] g,
+[id^='mermaid-'] foreignObject {
     @apply leading-none;
 }
 
-[id^='mermaid-svg'] .label rect {
+[id^='mermaid-'] .label rect {
     @apply !fill-transparent;
 }
 
-[id^='mermaid-svg'] .edgeLabel {
+[id^='mermaid-'] .edgeLabel {
     @apply !bg-transparent;
 }
 
-[id^='mermaid-svg'] .flowchart-link,
-[id^='mermaid-svg'] .path {
-    @apply !stroke-gray-700;
+[id^='mermaid-'] .flowchart-link,
+[id^='mermaid-'] .path {
+    @apply !stroke-gray-700 !stroke-2;
 }
 
-[id^='mermaid-svg'] .arrowheadPath,
-[id^='mermaid-svg'] .marker {
+[id^='mermaid-'] .arrowheadPath,
+[id^='mermaid-'] .marker {
     @apply !fill-gray-700;
 }
 
-[id^='mermaid-svg'] .cluster rect,
-[id^='mermaid-svg'] rect.label-container {
+[id^='mermaid-'] .cluster rect,
+[id^='mermaid-'] rect.label-container {
     @apply !fill-gray-200 !stroke-gray-800;
 }
 

@@ -1,5 +1,7 @@
 import Link from 'next/link';
-import { MDXRemote } from 'next-mdx-remote';
+import { cloneElement } from 'react';
+import { Streamdown } from 'streamdown';
+import { mermaid } from '@streamdown/mermaid';
 import Head from 'next/head';
 import { generateNextSeo } from 'next-seo/pages';
 import { ArticleJsonLd } from 'next-seo';
@@ -7,13 +9,15 @@ import Layout from '../components/layout';
 import Commento from '../components/commento';
 import Code from '../components/code';
 import Progress from '../components/progress';
-import { getContentList, getContent, getArticlesPage, createCoverSvg, compile } from '../lib/utils';
+import { getContentList, getContent, getArticlesPage, createCoverSvg, preprocess } from '../lib/utils';
+import markdownOptions from '../lib/markdown';
 
 const INDEX_FILE = '202104091703';
 
 const components = {
-    pre: Code,
-    table: (props) => (
+    ...markdownOptions.components,
+    pre: ({ children }) => (children?.props?.className === 'language-mermaid' ? cloneElement(children, { 'data-block': true }) : <Code>{children}</Code>),
+    table: ({ node, ...props }) => (
         <div className="overflow-x-auto">
             <table {...props} />
         </div>
@@ -37,6 +41,10 @@ const components = {
 
         return <Link href={href} className={className}>{children}</Link>;
     },
+};
+
+const disableMermaidZoom = (event) => {
+    if (event.target.closest('[data-streamdown="mermaid"]')) event.stopPropagation();
 };
 
 // eslint-disable-next-line complexity
@@ -88,8 +96,8 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
                     </>
                 )}
             </div>
-            <article className="prose break-words prose-a:font-normal prose-a:text-cyan-700 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300 prose-td:border-gray-300 prose-td:border prose-td:px-4 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 [&_blockquote_.callout-title]:flex [&_blockquote_.callout-title]:gap-2 [&_blockquote:has(.callout-title)_p]:before:content-none [&_blockquote:has(.callout-title)_:is(p,ul,ol,li)]:font-normal">
-                <MDXRemote {...source} components={components} />
+            <article onWheelCapture={disableMermaidZoom} onPointerDownCapture={disableMermaidZoom} className="prose break-words prose-a:font-normal prose-a:text-cyan-700 prose-a:break-words marker:text-gray-700 prose-code:font-normal prose-code:break-words prose-inline-code:px-1.5 prose-inline-code:py-0.5 prose-code:whitespace-pre-wrap prose-code:text-xs prose-code:bg-gray-200 prose-code:rounded-md prose-pre:bg-gray-200 prose-pre:text-gray-700 prose-pre:overflow-x-auto max-w-none px-0 py-4 md:p-4 prose-code:before:hidden prose-code:after:hidden prose-mark:bg-gray-300 prose-td:border-gray-300 prose-td:border prose-td:px-4 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 [&_blockquote_.callout-title]:flex [&_blockquote_.callout-title]:gap-2 [&_blockquote:has(.callout-title)_p]:before:content-none [&_blockquote:has(.callout-title)_:is(p,ul,ol,li)]:font-normal [&>div>:first-child]:mt-0 [&>div>:last-child]:mb-0">
+                <Streamdown {...markdownOptions} components={components} plugins={{ mermaid }} mermaid={{ config: { fontFamily: 'trebuchet ms, verdana, arial, sans-serif' } }}>{source}</Streamdown>
             </article>
             {comments && (
                 <div className="md:px-4">
@@ -107,7 +115,7 @@ export const getStaticProps = async ({ params }) => {
 
     const { markdown, ...content } = permalink === 'articles' ? await getArticlesPage() : await getContent(permalink);
 
-    const source = await compile(markdown);
+    const source = await preprocess(markdown);
 
     await createCoverSvg(content?.title, content?.permalink);
 
