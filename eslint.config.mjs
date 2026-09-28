@@ -1,40 +1,43 @@
 import globals from 'globals';
-import { FlatCompat } from '@eslint/eslintrc';
-import { fixupConfigRules } from '@eslint/compat';
+import stylistic from '@stylistic/eslint-plugin';
+import jsxA11y from 'eslint-plugin-jsx-a11y-x';
+import importPlugin, { createNodeResolver } from 'eslint-plugin-import-x';
+import airbnb from './eslint.airbnb.json' with { type: 'json' };
 
-const compat = new FlatCompat({ baseDirectory: process.cwd() });
-
-export default fixupConfigRules([
-    ...compat.extends('airbnb'),
+export default [
     { ignores: ['.next/', 'out/'] },
     {
+        plugins: {
+            '@stylistic': stylistic,
+            'jsx-a11y': jsxA11y,
+            import: importPlugin,
+        },
         languageOptions: {
             ecmaVersion: 'latest',
             sourceType: 'module',
+            parserOptions: {
+                ecmaFeatures: { jsx: true },
+            },
             globals: {
                 ...globals.browser,
                 ...globals.node,
             },
         },
+        settings: {
+            'import-x/resolver-next': [createNodeResolver()],
+        },
         rules: {
-            indent: [2, 4, { SwitchCase: 1 }],
-            'max-len': [0],
-            'object-curly-newline': [0],
+            ...airbnb,
+            '@stylistic/indent': [2, 4, { SwitchCase: 1 }],
+            '@stylistic/jsx-indent-props': [2, 4],
+            '@stylistic/max-len': [0],
+            '@stylistic/object-curly-newline': [0],
             'import/extensions': [0],
-            'import/no-unresolved': [2, { ignore: ['next-seo/pages'] }],
             'import/no-extraneous-dependencies': [0],
             'import/prefer-default-export': [0],
-            'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-            'react/jsx-props-no-spreading': [0],
-            'react/jsx-indent-props': [2, 4],
-            'react/jsx-indent': [2, 4],
-            'react/prop-types': [0],
-            'react/no-unescaped-entities': [0],
-            'react/function-component-definition': [0],
-            'react/react-in-jsx-scope': [0],
             'no-restricted-syntax': [0],
             complexity: [2, 7],
             'max-depth': [2, 2],
         },
     },
-]);
+];

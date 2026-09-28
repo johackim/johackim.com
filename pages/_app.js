@@ -35,7 +35,6 @@ export default ({ Component, pageProps }) => (
             src="https://u.johackim.com/script.js"
             data-website-id="56bfd1d7-6234-47bd-96f7-44d966bb0ca4"
         />
-        {/* eslint-disable react/no-unknown-property */}
         <style jsx global>
             {`
                     html {
