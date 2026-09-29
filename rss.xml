@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 29 Sep 2026 20:44:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 21:08:45 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -2704,7 +2704,9 @@ Ect...
 <li><a href="https://microfounder.com/">MicroFounder</a> 🇺🇸</li>
 <li><a href="https://womenmake.com/">Women Make</a> 🇺🇸</li>
 <li><a href="https://indiemakers.fr/">Indie maker</a> 🇫🇷</li>
-<li><del><a href="https://lechantier.co/">Le chantier</a> 🇫🇷</del> (RIP)</li>
+<li>
+<del><a href="https://lechantier.co/">Le chantier</a> 🇫🇷</del> (RIP)
+</li>
 </ul>
 <h2>🔗 Autres ressources</h2>
 <p>Voici quelques liens et sites internet sur le sujet :</p>
@@ -6861,7 +6863,7 @@ createImage(&#x27;Hello World!&#x27;);
 <p>Si je lis un livre, un article, écoute un podcast ou regarde une vidéo, je rédige avec mes propres mots une <a href="https://johackim.com/notes-litteraires" title="note littéraire">note littéraire</a> de tout les <strong>concepts</strong> m&#x27;intéresse dans le contenu.</p>
 <p>Une fois la <a href="https://johackim.com/notes-litteraires" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="https://johackim.com/notes-permanentes" title="notes permanentes">notes permanentes</a>.</p>
 
-<p>~~Ce sur quoi mon processus diffère de la méthode <a href="https://johackim.com/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="https://johackim.com/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.~~</p>
+<p><del>Ce sur quoi mon processus diffère de la méthode <a href="https://johackim.com/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="https://johackim.com/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.</del></p>
 <p>J&#x27;ajoute les références du contenu d&#x27;origine (URLs, page d&#x27;un livre, timecode d&#x27;une vidéo ou d&#x27;un podcast, etc...) pour avoir une trace des contenus originellement consommées.</p>
 <h2>Les 4 règles à respecter</h2>
 <p>Voici mes <strong>4 règles à respecter lorsque je prends des notes</strong> :</p>
@@ -7999,7 +8001,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
 <p>Ajoutez l&#x27;URL de la liste de chaînes françaises M3U suivante : <a href="https://raw.githubusercontent.com/iptv-org/iptv/master/channels/fr.m3u">https://raw.githubusercontent.com/iptv-org/iptv/master/channels/fr.m3u</a></p>
 <p>Redémarrez Kodi et accédez à toutes vos chaînes de télévision dans TV.</p>
 <p>Pour accéder à d&#x27;autres chaînes que celle de la France, rendez-vous <a href="https://github.com/iptv-org/iptv/">sur ce dépôt Github</a> ou sur <a href="https://docs.google.com/spreadsheets/d/137Yw178ruq_v7_33al_B1PoGPyuGCANDNhLnDGXdrVg/">ce Spreadsheet</a>.</p>
-<p>~~Et si vous ne trouvez pas une chaine, vous pouvez vous inscrire <a href="https://johackim.com/comment-detenir-un-compte-google-anonyme" title="avec un compte gmail">avec un compte gmail</a> sur le service <a href="https://bestbuyiptv.store/user/registration/register.html">bestbuyiptv</a> qui donne accès à une période d&#x27;essai gratuite de 24H.~~ (Ne fonctionne plus)</p>]]></content:encoded>
+<p><del>Et si vous ne trouvez pas une chaine, vous pouvez vous inscrire <a href="https://johackim.com/comment-detenir-un-compte-google-anonyme" title="avec un compte gmail">avec un compte gmail</a> sur le service <a href="https://bestbuyiptv.store/user/registration/register.html">bestbuyiptv</a> qui donne accès à une période d&#x27;essai gratuite de 24H.</del> (Ne fonctionne plus)</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Tester la vitesse d'écriture d'un disque dur sur Linux]]></title>
@@ -13231,11 +13233,21 @@ make install-new-arch
 <h2>Alternatives à Shipito</h2>
 <p>Si Shipito ne vous convient pas, voici quelques alternatives :</p>
 <ul>
-<li><del>viabox.com</del> (<strong>EDIT: Voir commentaires</strong>)</li>
-<li><a href="https://globalshopaholics.com/">https://globalshopaholics.com/</a></li>
-<li><a href="https://myus.com/">https://myus.com/</a></li>
-<li><a href="https://fishisfast.com/">https://fishisfast.com/</a></li>
-<li><a href="https://colisexpat.com/">https://colisexpat.com/</a></li>
+<li>
+<del>viabox.com</del> (<strong>EDIT: Voir commentaires</strong>)
+</li>
+<li>
+<a href="https://globalshopaholics.com/">https://globalshopaholics.com/</a>
+</li>
+<li>
+<a href="https://myus.com/">https://myus.com/</a>
+</li>
+<li>
+<a href="https://fishisfast.com/">https://fishisfast.com/</a>
+</li>
+<li>
+<a href="https://colisexpat.com/">https://colisexpat.com/</a>
+</li>
 </ul>
 <p>Voilà pour l&#x27;astuce de la semaine ;)</p>]]></content:encoded>
         </item>
