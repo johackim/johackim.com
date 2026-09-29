@@ -10,7 +10,9 @@ import Commento from '../components/commento';
 import Code from '../components/code';
 import Progress from '../components/progress';
 import { getContentList, getContent, getArticlesPage, createCoverSvg, preprocess } from '../lib/utils';
+import { getLocalGraph } from '../lib/wikilinks';
 import markdownOptions from '../lib/markdown';
+import { Graph } from './graph';
 
 const INDEX_FILE = '202104091703';
 
@@ -48,7 +50,7 @@ const disableMermaidZoom = (event) => {
 };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments, isIndex }) => (
+const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments, isIndex, graph }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
         <Head>
             {generateNextSeo({
@@ -78,6 +80,7 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
             {...(dateUpdated && { dateModified: (new Date(dateUpdated).toISOString()) })}
         />
         <div className="md:border md:border-gray-200 mt-20">
+            <Graph {...graph} />
             <h1 className="h-64 flex flex-col justify-center relative border-b border-gray-200">
                 <span className="absolute inset-0 bg-gray-100 opacity-80 z-10" />
                 <span className="transform text-center font-bold px-4 text-4xl text-gray-600 break-words z-20">{title}</span>
@@ -121,7 +124,7 @@ export const getStaticProps = async ({ params }) => {
 
     const isIndex = permalink?.toLowerCase() === INDEX_FILE?.toLowerCase();
 
-    return { props: { source, isIndex, ...content } };
+    return { props: { source, isIndex, graph: await getLocalGraph(content.fileName ?? permalink), ...content } };
 };
 
 export const getStaticPaths = async () => {

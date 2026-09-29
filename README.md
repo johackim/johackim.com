@@ -20,9 +20,9 @@ My personal website
 - [x] Comments
 - [x] Callouts
 - [x] Analytics
+- [x] Graph Viewer
 - [ ] Search
 - [ ] Dark Mode
-- [ ] Graph Viewer
 - [ ] Member access
 - [ ] Security headers
 - [ ] Table of content
