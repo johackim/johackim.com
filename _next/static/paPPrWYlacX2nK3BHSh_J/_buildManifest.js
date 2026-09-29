@@ -3,13 +3,13 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1c-v4mz7jdx3l.js"
   ],
   "/[[...permalink]]": [
-    "static/chunks/2uus2_tww_9xs.js"
+    "static/chunks/41a24odl-r8bq.js"
   ],
   "/_error": [
     "static/chunks/1fahnjds4_4qj.js"
   ],
   "/graph": [
-    "static/chunks/0n6zltn_d3uhq.js"
+    "static/chunks/3q7k59483w7-r.js"
   ],
   "/newsletter": [
     "static/chunks/2w3un2h_qt50j.js"
