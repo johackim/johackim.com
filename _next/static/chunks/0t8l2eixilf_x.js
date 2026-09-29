@@ -14,7 +14,7 @@ __turbopack_load_page_chunks__("/[[...permalink]]", [
   "static/chunks/3yhvtu2o6-m5n.js",
   "static/chunks/3b4s285cgqo29.js",
   "static/chunks/2qsu1_tcbdq_f.js",
-  "static/chunks/16ulsjiva_vyy.js",
+  "static/chunks/3h1oonuh0bazr.js",
   "static/chunks/1i0amnun_x41q.js",
-  "static/chunks/turbopack-1pfncjj8mk4w4.js"
+  "static/chunks/turbopack-3rq5u93n5zuxk.js"
 ])
