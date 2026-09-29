@@ -161,6 +161,7 @@ const createState = ({ nodes, links, activeId }, size, fontFamily) => {
         camera: fitCamera(placedNodes, size),
         isCameraFollowing: true,
         pointer: null,
+        touches: {},
         hovered: null,
         focus: null,
         fade: 0,
@@ -204,23 +205,39 @@ const advance = (state) => ({ ...state, ...stepPhysics(state), ...stepCamera(sta
 
 const hoveredId = (state, screen) => nodeAt(state.nodes, toWorld(screen, state.camera, state.size))?.id ?? null;
 
+const pinch = (state, touches) => {
+    const [a, b] = Object.values(touches);
+    const [previousA, previousB] = Object.values(state.touches);
+    const center = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+    return { ...state, touches, camera: zoomAround(state.camera, center, distance(a, b) / (distance(previousA, previousB) || 1), state.size) };
+};
+
 const pointerDown = (state, screen) => {
+    const touches = { ...state.touches, [screen.id]: screen };
+    if (Object.keys(touches).length > 1) return { ...state, touches, pointer: null };
+
     const nodeId = hoveredId(state, screen);
-    return { ...state, pointer: { nodeId, start: screen, screen }, hovered: nodeId, isCameraFollowing: false };
+    return { ...state, touches, pointer: { nodeId, start: screen, screen }, hovered: nodeId, isCameraFollowing: false };
 };
 
 const pointerMove = (state, screen) => {
+    const touches = state.touches[screen.id] ? { ...state.touches, [screen.id]: screen } : state.touches;
+    if (Object.keys(touches).length > 1) return pinch(state, touches);
+
     const { pointer } = state;
     if (!pointer) return { ...state, hovered: hoveredId(state, screen) };
 
-    const moved = { ...state, pointer: { ...pointer, screen } };
+    const moved = { ...state, touches, pointer: { ...pointer, screen } };
     if (pointer.nodeId) return { ...moved, alpha: Math.max(state.alpha, SETTINGS.reheat) };
     return { ...moved, camera: pan(state.camera, { x: screen.x - pointer.screen.x, y: screen.y - pointer.screen.y }) };
 };
 
-const pointerUp = (state, screen) => ({ ...state, pointer: null, hovered: hoveredId(state, screen) });
+const pointerUp = (state, screen) => {
+    const { [screen.id]: released, ...touches } = state.touches;
+    return { ...state, touches, pointer: null, hovered: hoveredId(state, screen) };
+};
 
-const pointerLeave = (state) => ({ ...state, hovered: null });
+const pointerLeave = (state, screen) => ({ ...pointerUp(state, screen), hovered: null });
 
 const wheel = (state, screen, deltaY) => ({
     ...state,
@@ -301,7 +318,7 @@ const draw = (context, state) => {
 
 const measure = (canvas) => ({ width: canvas.clientWidth, height: canvas.clientHeight, ratio: window.devicePixelRatio });
 
-const pointOf = (event) => ({ x: event.offsetX, y: event.offsetY });
+const pointOf = (event) => ({ x: event.offsetX, y: event.offsetY, id: event.pointerId });
 
 const GraphCanvas = ({ nodes, links, activeId, className }) => {
     const canvasRef = useRef(null);
@@ -342,8 +359,8 @@ const GraphCanvas = ({ nodes, links, activeId, className }) => {
             if (node) Router.push(node.href);
         });
 
-        listen('pointerleave', () => {
-            state = pointerLeave(state);
+        listen('pointerleave', (event) => {
+            state = pointerLeave(state, pointOf(event));
         });
 
         listen('wheel', (event) => {
