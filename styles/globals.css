@@ -16,6 +16,10 @@
     @apply invert hue-rotate-180;
 }
 
+.dark dialog {
+    @apply shadow-none;
+}
+
 /* Mermaid */
 
 [data-streamdown='mermaid-block'] > :first-child {

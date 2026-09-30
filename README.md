@@ -22,7 +22,7 @@ My personal website
 - [x] Analytics
 - [x] Graph Viewer
 - [x] Dark Mode
-- [ ] Search
+- [x] Search
 - [ ] Member access
 - [ ] Security headers
 - [ ] Table of content

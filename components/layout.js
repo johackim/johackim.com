@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Search from './search';
 
 const SocialLink = ({ href, label, viewBox = '0 0 24 24', children }) => (
     <a href={href} aria-label={label} target="_blank" rel="noreferrer">
@@ -27,9 +28,10 @@ export default ({ children, className = '' }) => (
                     </div>
                 </Link>
 
-                <nav className="grid grid-flow-col gap-4 items-center">
+                <nav className="grid grid-flow-col gap-2 sm:gap-4 items-center">
                     <Link href="/" className="hover:underline hidden md:block">Accueil</Link>
-                    <Link href="/articles" className="hover:underline md:block">Articles</Link>
+                    <Link href="/articles" className="hover:underline hidden sm:block">Articles</Link>
+                    <Search />
                     <button type="button" aria-label="Thème" onClick={toggleTheme} className="cursor-pointer">
                         <svg className="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2v16a8 8 0 0 1 0-16z" />
