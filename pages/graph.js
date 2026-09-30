@@ -392,7 +392,7 @@ export const Graph = ({ nodes, links, activeId }) => nodes.length > 1 && (
                 <path d="M8.2 10.9l7.6-3.8M8.2 13.1l7.6 3.8" />
             </svg>
         </button>
-        <dialog key={activeId} id="graph" closedby="any" className="m-auto w-[calc(100%-2rem)] max-w-screen-lg border border-gray-200 rounded-md shadow-xl backdrop:bg-gray-900/50">
+        <dialog key={activeId} id="graph" closedby="any" className="m-auto w-[calc(100%-2rem)] max-w-screen-lg border border-gray-200 rounded-md shadow-xl backdrop:bg-black/50">
             <GraphCanvas nodes={nodes} links={links} activeId={activeId} className="w-full h-[70vh]" />
             <form method="dialog" className="flex items-center justify-between border-t border-gray-200 px-4 py-2 text-sm">
                 <Link href="/graph" className="underline text-cyan-700">Voir le graphe complet</Link>

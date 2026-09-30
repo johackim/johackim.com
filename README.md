@@ -21,8 +21,8 @@ My personal website
 - [x] Callouts
 - [x] Analytics
 - [x] Graph Viewer
+- [x] Dark Mode
 - [ ] Search
-- [ ] Dark Mode
 - [ ] Member access
 - [ ] Security headers
 - [ ] Table of content

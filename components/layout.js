@@ -9,6 +9,10 @@ const SocialLink = ({ href, label, viewBox = '0 0 24 24', children }) => (
     </a>
 );
 
+const toggleTheme = () => {
+    localStorage.theme = document.documentElement.classList.toggle('dark') ? 'dark' : 'light';
+};
+
 export default ({ children, className = '' }) => (
     <>
         <header className="flex shadow-md inset-x-0 h-16 items-center z-30 text-gray-700 bg-white fixed top-0">
@@ -26,6 +30,11 @@ export default ({ children, className = '' }) => (
                 <nav className="grid grid-flow-col gap-4 items-center">
                     <Link href="/" className="hover:underline hidden md:block">Accueil</Link>
                     <Link href="/articles" className="hover:underline md:block">Articles</Link>
+                    <button type="button" aria-label="Thème" onClick={toggleTheme} className="cursor-pointer">
+                        <svg className="h-5 w-5 fill-current hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2v16a8 8 0 0 1 0-16z" />
+                        </svg>
+                    </button>
                     <Link href="/newsletter" passHref>
                         <button type="button" className="bg-cyan-700 text-white hover:text-white hover:bg-cyan-800 px-2.5 py-1.5 rounded-md cursor-pointer">S'abonner</button>
                     </Link>
