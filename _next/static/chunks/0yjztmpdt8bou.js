@@ -13,8 +13,8 @@ __turbopack_load_page_chunks__("/[[...permalink]]", [
   "static/chunks/0_pj2rxekvxx7.js",
   "static/chunks/3b4s285cgqo29.js",
   "static/chunks/3yhvtu2o6-m5n.js",
-  "static/chunks/1ny_9ti9v65qj.js",
+  "static/chunks/3asq-3_xaqf__.js",
   "static/chunks/30lo4fge_zjt_.js",
   "static/chunks/1n48p9tpkp__c.js",
-  "static/chunks/turbopack-44mptd9y800-f.js"
+  "static/chunks/turbopack-3dxf6k4ps01zd.js"
 ])
