@@ -6,18 +6,29 @@
 /* Dark mode */
 
 .dark {
-    @apply bg-white;
+    @apply bg-white min-h-lvh;
 }
 
 .dark,
 .dark img,
-.dark iframe,
-.dark dialog {
+.dark iframe {
     @apply invert hue-rotate-180;
 }
 
 .dark dialog {
     @apply shadow-none;
+}
+
+@supports (-moz-appearance: none) {
+    .dark ::backdrop {
+        @apply invert hue-rotate-180;
+    }
+}
+
+@supports not (-moz-appearance: none) {
+    .dark dialog {
+        @apply invert hue-rotate-180;
+    }
 }
 
 /* Mermaid */
