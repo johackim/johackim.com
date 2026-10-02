@@ -59,7 +59,7 @@ export default ({ subscribers }) => {
         <Layout>
             <section className="min-h-[calc(100vh-6rem)] flex flex-col justify-center items-center">
                 <h2 className="font-semibold text-gray-700 text-center text-4xl lg:text-6xl">
-                    {`Rejoignez les ${subscribers} abonnées`}
+                    {`Rejoignez les ${subscribers} abonné(e)s`}
                 </h2>
                 <p className="text-center my-1 text-base text-gray-500 lg:text-3xl">Recevez chaque mise à jour de mon second cerveau dans votre boite e-mail</p>
 
