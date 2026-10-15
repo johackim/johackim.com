@@ -7,23 +7,23 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@streamdown/mermaid": "^1.0.2",
+    "@streamdown/mermaid": "^1.0.3",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.20",
-    "eslint": "^10.11.0",
+    "eslint": "^10.12.0",
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-jsx-a11y-x": "^0.2.0",
-    "globals": "^17.12.0",
-    "next": "^16.3.7",
+    "globals": "^17.13.0",
+    "next": "^16.4.1",
     "next-seo": "^7.3.0",
-    "postcss": "^8.5.28",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
-    "remark-obsidian": "^1.14.0",
+    "postcss": "^8.5.30",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remark-obsidian": "^1.15.0",
     "rss": "^1.2.2",
     "sharp": "^0.35.5",
-    "streamdown": "^2.6.0",
+    "streamdown": "^2.7.0",
     "tailwindcss": "^4.3.3"
   }
 }
