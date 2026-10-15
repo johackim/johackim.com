@@ -18,7 +18,6 @@ export default ({ Component, pageProps }) => (
                 titleTemplate: '%s | Johackim - Hacker indépendant',
                 description: 'Créateur indépendant de projets open-source',
                 openGraph: {
-                    url: 'https://johackim.com',
                     locale: 'fr_FR',
                     site_name: 'johackim',
                     type: 'website',

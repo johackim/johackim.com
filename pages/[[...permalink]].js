@@ -48,12 +48,13 @@ const disableMermaidZoom = (event) => {
 };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, source, permalink, comments, isIndex, graph }) => (
+const Page = ({ title, description, datePublished, dateUpdated, source, permalink, url, comments, isIndex, graph }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4">
         <Head>
             {generateNextSeo({
                 title: isIndex ? '' : title,
                 description,
+                canonical: url,
                 openGraph: {
                     title,
                     description,
@@ -70,7 +71,7 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
         <ArticleJsonLd
             headline={title}
             type="article"
-            url={`https://johackim.com/${permalink}`}
+            url={url}
             image={`https://johackim.com/covers/${permalink}.jpg`}
             author="Johackim"
             description={description}
@@ -122,7 +123,9 @@ export const getStaticProps = async ({ params }) => {
 
     const isIndex = permalink?.toLowerCase() === INDEX_FILE?.toLowerCase();
 
-    return { props: { source, isIndex, graph: await getLocalGraph(content.fileName ?? permalink), ...content } };
+    const url = isIndex ? 'https://johackim.com' : `https://johackim.com/${content.permalink}`;
+
+    return { props: { source, isIndex, url, graph: await getLocalGraph(content.fileName ?? permalink), ...content } };
 };
 
 export const getStaticPaths = async () => {
