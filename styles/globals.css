@@ -37,6 +37,10 @@
     @apply hidden;
 }
 
+[data-streamdown='mermaid'] [role='application'] {
+    @apply !origin-top-left;
+}
+
 [data-streamdown='mermaid'] * {
     @apply !cursor-auto !touch-auto;
 }
