@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Thu, 15 Oct 2026 20:43:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 21:46:09 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -400,7 +400,7 @@ greywall -- gemini
 <input type="checkbox" disabled=""/> Supprimer vos données personnelles d&#x27;internet via un service de suppression (ex: <a href="https://incogni.com">Incogni</a>)
 </li>
 <li class="task-list-item">
-<input type="checkbox" disabled=""/> Installer un bloqueur de publicités sur votre navigateur internet (ex : <a href="https://ublockorigin.com">uBlock Origin</a>)
+<input type="checkbox" disabled=""/> Installer un bloqueur de publicités sur votre navigateur internet (ex : <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>)
 </li>
 <li class="task-list-item">
 <input type="checkbox" disabled=""/> Installer un <a href="https://johackim.com/vpn" title="VPN" class="not-found">VPN</a> (ex : <a href="https://protonvpn.com">ProtonVPN</a> ou <a href="https://mullvad.net">Mullvad</a>)
@@ -534,6 +534,7 @@ Enabled mntus exec flag
 <hr/>
 <p>Références :</p>
 <ul>
+<li><a href="https://www.reddit.com/r/kindlejailbreak/">https://www.reddit.com/r/kindlejailbreak/</a></li>
 <li><a href="https://kindlemodding.org/jailbreaking/AdBreak/">https://kindlemodding.org/jailbreaking/AdBreak/</a></li>
 <li><a href="https://github.com/KindleTweaks/KindleForge">https://github.com/KindleTweaks/KindleForge</a></li>
 <li><a href="https://mobileread.com/forums/showthread.php?t=370048">https://mobileread.com/forums/showthread.php?t=370048</a></li>
@@ -1819,7 +1820,7 @@ curl -fsSL https://ollama.com/install.sh | OLLAMA_VERSION=0.1.32 sh # Pour une v
 <p>Pour démarrer le service ollama :</p>
 <pre><code class="language-bash">sudo systemctl start ollama
 # Ou
-ollama *serve*
+ollama serve
 </code></pre>
 <h2>Utilisation</h2>
 <p>Pour démarrer un modèle d&#x27;IA, il suffit de lancer la commande <code>ollama run</code> suivi du nom du modèle.</p>
