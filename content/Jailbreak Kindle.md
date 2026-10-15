@@ -175,6 +175,7 @@ Débranchez votre Kindle et cliquez sur le livre `KUAL` puis cliquez sur KOReade
 
 Références :
 
+- https://www.reddit.com/r/kindlejailbreak/
 - https://kindlemodding.org/jailbreaking/AdBreak/
 - https://github.com/KindleTweaks/KindleForge
 - https://mobileread.com/forums/showthread.php?t=370048

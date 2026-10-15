@@ -37,7 +37,7 @@ Pour démarrer le service ollama :
 ```bash
 sudo systemctl start ollama
 # Ou
-ollama *serve*
+ollama serve
 ```
 
 ## Utilisation

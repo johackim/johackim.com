@@ -96,7 +96,7 @@ Si vous souhaitez protéger votre vie privée et améliorer la sécurité de vot
 - [ ] Installer une application de messagerie sécurisée (ex: [Signal](https://signal.org))
 - [ ] Installer un navigateur internet open-source (ex: [Firefox](https://firefox.com) ou [Chromium](https://chromium.org))
 - [ ] Supprimer vos données personnelles d'internet via un service de suppression (ex: [Incogni](https://incogni.com))
-- [ ] Installer un bloqueur de publicités sur votre navigateur internet (ex : [uBlock Origin](https://ublockorigin.com))
+- [ ] Installer un bloqueur de publicités sur votre navigateur internet (ex : [uBlock Origin](https://github.com/gorhill/uBlock))
 - [ ] Installer un [[VPN]] (ex : [ProtonVPN](https://protonvpn.com) ou [Mullvad](https://mullvad.net))
 - [ ] Utiliser une boite e-mail sécurisée (ex : [ProtonMail](https://proton.me/fr/mail))
 - [ ] Utiliser un serveur DNS sécurisé (ex : [quad9](https://quad9.net) ou [NextDNS](https://nextdns.io))
