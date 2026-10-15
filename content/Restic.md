@@ -1,0 +1,270 @@
+---
+title: Restic
+permalink: restic
+datePublished: 2021-05-17T17:32
+dateUpdated: 2026-05-03T00:00
+publish: true
+rss: true
+---
+
+Pour sauvegarder des données sous Linux, il existe [restic](https://github.com/restic/restic) en tant que logiciel de backups.
+
+Restic peut sauvegarder des données sur différents backends :
+
+- Buckets S3 (minio, scaleway, AWS, etc...)
+- SFTP
+- Local
+- Etc...
+
+Chaque fois que vous lancez la commande `restic backup`, cela crée un nouvel instantané (un "snapshot") immuable qui est une photographie de l'état de vos fichiers à ce moment précis.
+
+Et si vous souhaitez plus de [backends](https://rclone.org/#providers) (Nextcloud, Dropbox, OVH, etc...), il est possible de coupler restic avec [[Rclone]].
+
+## Installation
+
+Pour installer restic sous Debian ou Ubuntu :
+
+```bash
+apt update && apt install -y restic
+```
+
+Sur Arch Linux :
+
+```bash
+sudo pacman -S restic
+```
+
+Ou manuellement :
+
+```bash
+export RESTIC_VERSION=0.18.1
+wget https://github.com/restic/restic/releases/download/v$RESTIC_VERSION/restic_${RESTIC_VERSION}_linux_amd64.bz2
+bzip2 -d restic_${RESTIC_VERSION}_linux_amd64.bz2
+mv restic_${RESTIC_VERSION}_linux_amd64 /bin/restic
+chmod +x /bin/restic
+```
+
+## Lancer une sauvegarde vers un bucket S3
+
+Voici un exemple avec une sauvegarde du dossier `~/` vers un bucket S3 de chez Scaleway :
+
+```txt
+# ~/.aws/credentials
+[default]
+aws_access_key_id = <AWS_ACCESS_KEY_ID>
+aws_secret_access_key = <AWS_SECRET_ACCESS_KEY>
+```
+
+```bash
+restic -r s3:s3.fr-par.scw.cloud/<bucket_name> init
+```
+
+```bash
+restic -r s3:s3.fr-par.scw.cloud/<bucket_name> backup ~/
+```
+
+Si vous avez plusieurs profils dans `~/.aws/credentials`, vous pouvez utiliser la variable `AWS_PROFILE` pour sélectionner celui à utiliser sans modifier la section `[default]` :
+
+```txt
+# ~/.aws/credentials
+[scaleway]
+aws_access_key_id = <SCW_ACCESS_KEY_ID>
+aws_secret_access_key = <SCW_SECRET_ACCESS_KEY>
+
+[ovh]
+aws_access_key_id = <AWS_ACCESS_KEY_ID>
+aws_secret_access_key = <AWS_SECRET_ACCESS_KEY>
+```
+
+```bash
+AWS_PROFILE=scaleway restic -r s3:s3.fr-par.scw.cloud/<bucket_name> backup ~/
+```
+
+Il est possible de facilement automatiser la sauvegarde via une tâche cron :
+
+```bash
+RESTIC_REPOSITORY="MY_REPOSITORY" # Exemple: s3:s3.fr-par.scw.cloud/mybucket
+RESTIC_PASSWORD="MY_PASSWORD"
+
+0 0 * * * restic backup /home/myuser/
+```
+
+## Consulter les sauvegardes
+
+```bash
+restic snapshots
+```
+
+## Vérifier l'intégrité d'un repository
+
+```bash
+restic check
+```
+
+## Restaurer une sauvegarde
+
+```bash
+restic restore <id> --target <folder>
+```
+
+## Restaurer un fichier spécifique
+
+```bash
+restic restore <id> --include <file_path> --target <folder>
+```
+
+## Monter une sauvegarde
+
+Pour monter une sauvegarde restic sur un dossier :
+
+```bash
+restic mount <folder>
+```
+
+## Libérer de l'espace
+
+Pour libérer de l'espace en supprimant les données qui ne sont plus référencées dans aucun snapshot :
+
+```bash
+restic prune
+```
+
+Pour libérer de l'espace en gardant uniquement les snapshots des 30 derniers jours :
+
+```bash
+restic forget --keep-within 30d --prune
+# Ou
+restic forget --keep-within 30d --group-by "paths" --prune # Ignorer le nom de la machine
+```
+
+## Mettre à jour restic
+
+Pour mettre à jour restic :
+
+```bash
+restic self-update
+```
+
+## Débloquer l'accès
+
+Si pour une raison ou une autre votre accès est bloqué, exécutez la commande suivante :
+
+```bash
+kill <pid>
+restic unlock
+```
+
+## Mettre à jour le mot de passe d'un repository
+
+```bash
+restic key list
+restic key add
+```
+
+## Connaitre la taille d'un repository
+
+```bash
+restic stats
+```
+
+## Créer une sauvegarde automatique quotidienne
+
+Créer un service dans le fichier `~/.config/systemd/user/restic.service`:
+
+```txt
+[Unit]
+Description=Restic Backup
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=restic -q backup ${HOME}
+Environment=RESTIC_REPOSITORY=s3:example.com/mybucket
+Environment=RESTIC_PASSWORD=myp@ssw0rd
+Environment=HOME=/home/myuser
+```
+
+Créer un timer dans le fichier `~/.config/systemd/user/restic.timer`:
+
+```txt
+[Unit]
+Description=Daily Restic Backup Timer
+
+[Timer]
+Persistent=true
+OnCalendar=daily
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target
+```
+
+Activer le timer :
+
+```bash
+sudo loginctl enable-linger <user>
+reboot
+systemctl --user daemon-reload
+systemctl --user enable --now restic.timer
+```
+
+Désactiver le timer :
+
+```bash
+systemctl --user disable --now restic.timer
+```
+
+Pour déclencher le backup manuellement :
+
+```bash
+systemctl --user --no-block start restic.service
+```
+
+## Optimiser un repository
+
+Vérifier la version du repository :
+
+```bash
+restic cat config
+```
+
+Si le repository est en version 1, il faut le migrer en version 2 :
+
+```bash
+restic migrate upgrade_repo_v2
+```
+
+Et exécuter la commande suivante pour optimiser le repository :
+
+```bash
+RESTIC_COMPRESSION=max restic prune --repack-uncompressed [--dry-run]
+```
+
+Utilisez bien l'option `--dru-run` pour vérifier que l'optimisation vaut bien le coup avant de lancer la commande, car c'est une commande très lourde.
+
+## Utiliser qu'un seul disque dur
+
+```bash
+restic backup -x # Ou --one-file-system
+```
+
+## Faire un diff
+
+```bash
+restic diff <ID_ANCIEN> <ID_NOUVEAU>
+```
+
+## Récupérer les snapshots
+
+Si des snapshots ont été supprimés accidentellement avec la commande `restic forget` et que vous n'avez pas encore exécuter la commande `restic prune`, il est possible de les récupérer via 2 manières :
+
+Dans le cas où vous avez une copie de votre dépôt restic, la meilleure solution est de restaurer tous les fichiers qui ont été supprimés du dossier snapshots.
+
+Sinon, la 2ème solution est d'exécuter la commande suivante :
+
+```bash
+restic recover
+```
+
+Cela va créer un nouveau snapshot taggé "recovered" avec tous les snapshots à l'intérieur (sans les dates ou les tags).
