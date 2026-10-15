@@ -9,12 +9,10 @@ import Layout from '../components/layout';
 import Commento from '../components/commento';
 import Code from '../components/code';
 import Progress from '../components/progress';
-import { getContentList, getContent, getArticlesPage, createCoverSvg, preprocess } from '../lib/utils';
+import { INDEX_FILE, getContentList, getContent, getArticlesPage, createCoverSvg, preprocess } from '../lib/utils';
 import { getLocalGraph } from '../lib/wikilinks';
 import markdownOptions from '../lib/markdown';
 import { Graph } from './graph';
-
-const INDEX_FILE = '202104091703';
 
 const components = {
     ...markdownOptions.components,
