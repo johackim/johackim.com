@@ -4,10 +4,10 @@
         <description><![CDATA[Notes courtes syndiquées (POSSE)]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 22:05:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 16:17:46 GMT</lastBuildDate>
         <atom:link href="https://johackim.com/notes.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[202606171409]]></title>
+            <title><![CDATA[Note du 17 juin 2026]]></title>
             <description><![CDATA[Pour jouer avec l'IA, j'utilise uniquement 2 sites :
 
 - https://arena.ai/leaderboard - pour comparer les modèles d'IA
@@ -17,7 +17,7 @@
             <pubDate>Wed, 17 Jun 2026 14:11:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[202606141306]]></title>
+            <title><![CDATA[Note du 14 juin 2026]]></title>
             <description><![CDATA[1579 paquets AUR d'Arch Linux ont été infectés.
 
 Voici les commandes à exécuter pour tester si votre système a été touché :
@@ -32,7 +32,7 @@ comm -12 packages.txt <(sort infected.txt)
             <pubDate>Sun, 14 Jun 2026 12:54:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[202605220114]]></title>
+            <title><![CDATA[Note du 22 mai 2026]]></title>
             <description><![CDATA[Si vous souhaitez poser des questions à une IA sans partager vos données sensibles, je vous conseille https://confer.to.
 
 C'est l'IA développée par le créateur de Signal.
@@ -43,7 +43,7 @@ Personne n'a accès aux données à part vous.]]></description>
             <pubDate>Fri, 22 May 2026 01:15:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[202605121528]]></title>
+            <title><![CDATA[Note du 12 mai 2026]]></title>
             <description><![CDATA[Aujourd'hui, ma banque m'a bloqué l'accès à mon compte car mon téléphone ne passe pas le test Play Integrity de Google (même avec MicroG).
 
 J'ai dû emprunter un smartphone pour valider mon identité.
@@ -54,7 +54,7 @@ Bientôt obligés de passer par Google pour accéder à notre argent ?]]></descr
             <pubDate>Tue, 12 May 2026 11:06:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[202605041750]]></title>
+            <title><![CDATA[Note du 4 mai 2026]]></title>
             <description><![CDATA[Je viens de créer une petite automatisation pour crossposter mes articles de moins de 300 caractères sur mastodon, bluesky et twitter 🙂.
 
 J'utilise Next.js et n8n.

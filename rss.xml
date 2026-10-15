@@ -4,11 +4,12 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Fri, 02 Oct 2026 22:05:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 16:17:57 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Comment installer Linux sur son smartphone ?]]></title>
+            <description><![CDATA[J'ai un rêve, pouvoir installer Linux sur mon smartphone et virer tous mes ordinateurs. N'avoir qu'un seul équipement pour tout faire : coder, écrire, jouer,…]]></description>
             <link>https://johackim.com/linux-sur-smartphone?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/linux-sur-smartphone</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -266,6 +267,7 @@
         </item>
         <item>
             <title><![CDATA[Greywall]]></title>
+            <description><![CDATA[Pour éviter que vos fichiers sensibles soient accessibles par les agents IA, il existe Greywall. Greywall est une sorte de pare-feu pour agents IA qui vous…]]></description>
             <link>https://johackim.com/greywall?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/greywall</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -325,6 +327,7 @@ greywall -- gemini
         </item>
         <item>
             <title><![CDATA[Est-ce que notre téléphone nous écoute ?]]></title>
+            <description><![CDATA[Tous nos téléphones sont équipés d'un microphone 🎤. 🏛️ Les gouvernements pourraient s'en servir pour surveiller et stopper les opposants politiques ou les…]]></description>
             <link>https://johackim.com/est-ce-que-notre-telephone-nous-ecoute?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/est-ce-que-notre-telephone-nous-ecoute</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -368,7 +371,7 @@ greywall -- gemini
 <p>Si une ligne de code est suspicieuse, elle peut être détectée et signalée par votre ami développeur ou par la communauté open-source.</p>
 <h2>Pourquoi ai-je l&#x27;impression que mon téléphone m&#x27;écoute ?</h2>
 <p>La triste vérité, c&#x27;est que les entreprises n&#x27;ont pas besoin d&#x27;écouter vos conversations pour vous proposer des publicités ciblées.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: spreadprivacy.com="" how-does-google-track-me-even-when-im-not-using-it=""></https:></div></div><div class="callout-content"><p>86.5% des 75 000 sites les plus populaires au monde utilisent Google Analytics et 34.2% utilisent Facebook Pixel.</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://spreadprivacy.com/how-does-google-track-me-even-when-im-not-using-it/">https://spreadprivacy.com/how-does-google-track-me-even-when-im-not-using-it/</a></div></div><div class="callout-content"><p>86.5% des 75 000 sites les plus populaires au monde utilisent Google Analytics et 34.2% utilisent Facebook Pixel.</p></div></blockquote>
 <p>Résultat, lorsque vous créez un compte Google ou Facebook et que vous vous baladez sur internet, ils récupèrent tout votre historique de navigation.</p>
 <p>Si vous partagez des informations comme votre âge, votre adresse IP, votre géolocalisation, vos photos et vos centres d&#x27;intérêt, ils peuvent vous proposer des publicités ultra-ciblées.</p>
 <p>Il se peut aussi que vous soyez victime d&#x27;un <a href="https://johackim.com/biais-cognitifs" title="biais cognitif">biais cognitif</a> appelé <a href="https://johackim.com/lillusion-de-frequence" title="L&#x27;illusion de fréquence">L&#x27;illusion de fréquence</a>.</p>
@@ -434,6 +437,7 @@ greywall -- gemini
         </item>
         <item>
             <title><![CDATA[Comment jailbreaker son Kindle avec la faille Adbreak ?]]></title>
+            <description><![CDATA[Un nouveau jailbreak du Kindle nommé AdBreak vient d'être publié le 24 septembre 2025 sur kindlemodding.org. Pour réaliser ce jailbreak, il faut que la version…]]></description>
             <link>https://johackim.com/jailbreak-kindle?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/jailbreak-kindle</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -540,6 +544,7 @@ Enabled mntus exec flag
         </item>
         <item>
             <title><![CDATA[Téléchargez vos livres Kindle]]></title>
+            <description><![CDATA[À compter du 26 février 2025, l’option « Télécharger et transférer via USB » sur Amazon ne sera plus disponible pour les livres Kindle. Ne fonctionne plus…]]></description>
             <link>https://johackim.com/exporter-ses-livres-kindle?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/exporter-ses-livres-kindle</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2281,7 +2286,7 @@ SUM:                            73            888              3           7407
 <p>Les émotions et l&#x27;avis des autres sont des biais qui peuvent nous empêcher de penser par nous-même.</p>
 <p>Le meilleur moyen d&#x27;apprendre quelque chose c&#x27;est en pratiquant ce principe et non d&#x27;utiliser des analogies.</p>
 <p>Un exemple concret d&#x27;application de ce concept est la création d&#x27;un sandwich à partir de rien comme dans la vidéo de <a href="https://youtu.be/URvWSsAgtJE">How To Make Everything - How to Make a $1500 Sandwich in Only 6 Months</a>.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: x.com="" giuliano_mana="" status=""></https:></div></div><div class="callout-content"><p>You don&#x27;t understand what &quot;first principles&quot; really mean until you listen to a physicist reasoning.</p>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://x.com/Giuliano_Mana/status/1875543112325722481">https://x.com/Giuliano_Mana/status/1875543112325722481</a></div></div><div class="callout-content"><p>You don&#x27;t understand what &quot;first principles&quot; really mean until you listen to a physicist reasoning.</p>
 <p>It&#x27;s about going to the end of the world chasing a chain of &#x27;whys&#x27;.</p></div></blockquote>
 <hr/>
 <p>Références :</p>
@@ -2494,6 +2499,7 @@ console.log({ followers });
         </item>
         <item>
             <title><![CDATA[Résumé du livre Can't Hurt Me de David Goggins]]></title>
+            <description><![CDATA[David Goggins donne 10 challenges pour repousser ses limites et travailler efficacement vers ses objectifs : Challenge 1 : Affronter sa mauvaise main Face Your…]]></description>
             <link>https://johackim.com/cant-hurt-me-david-goggins?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/cant-hurt-me-david-goggins</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2544,7 +2550,7 @@ Noter les difficultés sur lesquelles on doit faire face maintenant
 </ul>
 <h2>Challenge 6 : Remplissez votre boite à cookies</h2>
 <p><em>Stock Your <a href="https://johackim.com/cookie-jar" title="Cookie Jar" class="not-found">Cookie Jar</a></em></p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">Quote</div></div><div class="callout-content"><p>Another strategy to keep yourself working toward your goals even when you face obstacles is reminding yourself of your previous accomplishments. Goggins calls this collection of accomplishments your Cookie Jar</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">Quote</div></div><div class="callout-content"><p>Another strategy to keep yourself working toward your goals even when you face obstacles is <a href="https://johackim.com/fosse-inverse" title="reminding yourself of your previous accomplishments" class="not-found">reminding yourself of your previous accomplishments</a>. Goggins calls this collection of accomplishments your Cookie Jar</p></div></blockquote>
 <ol>
 <li>Utiliser son journal pour noter toutes les victoires de notre vie.</li>
 <li>Noter tous les obstacles que l&#x27;on a surmonté</li>
@@ -2580,6 +2586,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
         </item>
         <item>
             <title><![CDATA[Indie hacker]]></title>
+            <description><![CDATA[Je vous partage les bases de tout ce que vous devez savoir à propos des indie hackers, même si vous n'avez pas beaucoup de temps. 🤔 C'est quoi un indie hacker…]]></description>
             <link>https://johackim.com/indie-hacker?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/indie-hacker</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2615,7 +2622,7 @@ Semaine 3 : Affinez votre emploi du temps en fonction de votre expérience lors 
 Ect...
 </li>
 </ul>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">[Courtland Allen - Créateur de indiehackers.com](https://indiehackers.com/about)</div></div><div class="callout-content"><p>Vous êtes un indie hacker si vous gagner de l&#x27;argent de manière indépendante. Cela signifie que vous générez des revenus directement auprès de vos clients, et non indirectement par l&#x27;intermédiaire d&#x27;un employeur. À part ça, il n&#x27;y a pas d&#x27;exigences !</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://indiehackers.com/about">Courtland Allen - Créateur de indiehackers.com</a></div></div><div class="callout-content"><p>Vous êtes un indie hacker si vous gagner de l&#x27;argent de manière indépendante. Cela signifie que vous générez des revenus directement auprès de vos clients, et non indirectement par l&#x27;intermédiaire d&#x27;un employeur. À part ça, il n&#x27;y a pas d&#x27;exigences !</p></div></blockquote>
 <h2>🧐 Comment devenir indie hacker ?</h2>
 <p>En théorie, aucune étude est nécessaire, vous avez juste besoin d&#x27;un ordinateur et d&#x27;une connexion internet.</p>
 <p>Dans la pratique, vous avez besoin d&#x27;apprendre beaucoup de choses (anglais, programmation, marketing, vente, finance, etc...).</p>
@@ -2722,6 +2729,7 @@ Ect...
         </item>
         <item>
             <title><![CDATA[Framework AARRR]]></title>
+            <description><![CDATA[AARRR est un framework développé par Dave McClure, qui modélise le cycle de vie de l'utilisation d'un produit ou d'un service par un utilisateur. Il comprend 5…]]></description>
             <link>https://johackim.com/aarrr?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/aarrr</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2773,6 +2781,7 @@ Ect...
         </item>
         <item>
             <title><![CDATA[Dopamine]]></title>
+            <description><![CDATA[La dopamine est un neurotransmetteur et une hormone de la récompense qui génère une sensation de satisfaction lorsque l'on termine une tâche, reçoit une…]]></description>
             <link>https://johackim.com/dopamine?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/dopamine</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2800,6 +2809,7 @@ Ect...
         </item>
         <item>
             <title><![CDATA[Cerveau triunique]]></title>
+            <description><![CDATA[Le cerveau triunique (Triune Brain) est une théorie selon laquelle le cerveau humain est composé de 3 parties qui ont évolué successivement. De la même façon…]]></description>
             <link>https://johackim.com/cerveau-triunique?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/cerveau-triunique</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2833,6 +2843,7 @@ Ect...
         </item>
         <item>
             <title><![CDATA[Playlists de musique pour entrer dans le flow et rester focus]]></title>
+            <description><![CDATA[Voici une liste de services et playlists de musique que j'utilise pour travailler et rester concentré. 1. Services en ligne 2. Playlists Lofi girl Music Lab…]]></description>
             <link>https://johackim.com/playlists-musique-focus?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/playlists-musique-focus</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2883,6 +2894,7 @@ Ect...
         </item>
         <item>
             <title><![CDATA[Cypress]]></title>
+            <description><![CDATA[Cypress est un framework de test E2E Node.js. Installation Pour l'installer : Utilisation Pour ouvrir l'interface utilisateur : Démarrer les tests Démarrer un…]]></description>
             <link>https://johackim.com/cypress?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/cypress</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -2962,6 +2974,7 @@ EOF
         </item>
         <item>
             <title><![CDATA[Portmaster]]></title>
+            <description><![CDATA[Portmaster est un outil pour monitorer toutes ses connexions réseaux et bloquer facilement les connexions indésirables. L'interface est agréable et peut être…]]></description>
             <link>https://johackim.com/portmaster?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/portmaster</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3006,6 +3019,7 @@ EOF
         </item>
         <item>
             <title><![CDATA[Chiffrer son ordinateur sur Linux]]></title>
+            <description><![CDATA[Sur Linux, pour empêcher quiconque de consulter vos données, il existe plusieurs manières. Chiffrer son disque dur Pour chiffrer un disque dur sur Linux, vous…]]></description>
             <link>https://johackim.com/chiffrer-son-ordinateur-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/chiffrer-son-ordinateur-sur-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3053,6 +3067,7 @@ gpg --encrypt mon_dossier.tar.gz # Chiffrement de l&#x27;archive
         </item>
         <item>
             <title><![CDATA[GnuPG]]></title>
+            <description><![CDATA[GnuPG (ou GPG) est un outil de chiffrement disponible sur Linux, Windows et macOS. Installation Installation sur Debian ou Ubuntu : Installation sur Arch Linux…]]></description>
             <link>https://johackim.com/gnupg?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/gnupg</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3141,7 +3156,7 @@ gpg&gt; save
 </code></pre>
 <p>NOTE: Il est possible que la subkey et non la primary key soit expiré, pour la selectionner, tapez <code>key &lt;key&gt;</code> puis <code>expire</code>.</p>
 <p><strong>Que se passe-t-il si votre clé GPG expire ?</strong></p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: g-loaded.eu="" change-expiration-date-gpg-key=""></https:></div></div><div class="callout-content"><p>En théorie, le propriétaire d&#x27;une clé privée expirée devrait toujours avoir la possibilité de déchiffrer des données et également être en mesure de signer des données, même si toutes les sous-clés publiques de la paire de clés actuelle ont expiré, car il est toujours possible de réinitialiser la date d&#x27;expiration sur le clés publiques actuellement expirées.</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://g-loaded.eu/2010/11/01/change-expiration-date-gpg-key/">https://g-loaded.eu/2010/11/01/change-expiration-date-gpg-key/</a></div></div><div class="callout-content"><p>En théorie, le propriétaire d&#x27;une clé privée expirée devrait toujours avoir la possibilité de déchiffrer des données et également être en mesure de signer des données, même si toutes les sous-clés publiques de la paire de clés actuelle ont expiré, car il est toujours possible de réinitialiser la date d&#x27;expiration sur le clés publiques actuellement expirées.</p></div></blockquote>
 <h2>Chiffer avec vim</h2>
 <p>Installer <a href="https://github.com/jamessan/vim-gnupg">vim-gnupg</a>.</p>
 <pre><code class="language-vim">let g:GPGDefaultRecipients=[&quot;yourname@yourdomain.com&quot;]
@@ -3165,6 +3180,7 @@ gpg&gt; save
         </item>
         <item>
             <title><![CDATA[Pourquoi protéger sa vie privée ?]]></title>
+            <description><![CDATA[Pourquoi protéger sa vie privée ? Selon moi, il existe plusieurs raisons. Edward Snowden « Dire que l'on s'en fiche du droit à la vie privée sous prétexte qu'on…]]></description>
             <link>https://johackim.com/pourquoi-proteger-sa-vie-privee?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/pourquoi-proteger-sa-vie-privee</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3193,6 +3209,7 @@ gpg&gt; save
         </item>
         <item>
             <title><![CDATA[Asdf]]></title>
+            <description><![CDATA[Asdf est un gestionnaire de version (version manager) pour Python, Node.js, Ruby, etc. Il permet de changer de version pour chaque langage de programmation sans…]]></description>
             <link>https://johackim.com/asdf?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/asdf</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3242,6 +3259,7 @@ export PATH=$PATH:$ASDF_DATA_DIR/shims
         </item>
         <item>
             <title><![CDATA[Bloquer les publicités]]></title>
+            <description><![CDATA[Pour bloquer les publicités intempestives d'un smartphone, d'un ordinateur ou d'une smart TV il y a plusieurs moyens. Pour un smartphone ou un ordinateur, le…]]></description>
             <link>https://johackim.com/bloquer-les-publicites?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/bloquer-les-publicites</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3300,6 +3318,7 @@ https://raw.githubusercontent.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/main/
         </item>
         <item>
             <title><![CDATA[Quickemu]]></title>
+            <description><![CDATA[Quickemu est un logiciel pour rapidement démarrer des machines virtuelles depuis Linux. Installation Démarrer une machine virtuel Ubuntu Démarrer une machine…]]></description>
             <link>https://johackim.com/quickemu?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/quickemu</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3341,6 +3360,7 @@ quickemu --vm windows-11.conf
         </item>
         <item>
             <title><![CDATA[Démarrer Signal en ligne de commande]]></title>
+            <description><![CDATA[Pour envoyer et recevoir des messages via l'application Signal directement dans un terminal, il existe l'application scli. Installation Pour l'installer sur…]]></description>
             <link>https://johackim.com/scli?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/scli</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3364,6 +3384,7 @@ scli link
         </item>
         <item>
             <title><![CDATA[Protégez votre navigateur web]]></title>
+            <description><![CDATA[Si vous voulez naviguer sur le web sans avoir peur d'être traqué, voici les outils à utiliser. Firefox Firefox est un logiciel libre. Contrairement à Chrome, il…]]></description>
             <link>https://johackim.com/proteger-navigateur-web?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/proteger-navigateur-web</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3408,6 +3429,7 @@ scli link
         </item>
         <item>
             <title><![CDATA[Spécifier la quantité de ressources d'un conteneur Docker]]></title>
+            <description><![CDATA[Il est possible de limiter la quantité de ressources d'un conteneur Docker en termes de CPU (processeur) et de RAM (mémoire). Note : En revanche, il n'est pas…]]></description>
             <link>https://johackim.com/specifier-quantite-ressources-conteneur-docker?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/specifier-quantite-ressources-conteneur-docker</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3429,6 +3451,7 @@ scli link
         </item>
         <item>
             <title><![CDATA[Antifragile]]></title>
+            <description><![CDATA[L'antifragilité est un concept inventé par Nassim Taleb qui se définit comme étant l'exact opposé de la fragilité. Nassim Taleb L'antifragilité dépasse la…]]></description>
             <link>https://johackim.com/antifragile?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/antifragile</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3476,6 +3499,7 @@ scli link
         </item>
         <item>
             <title><![CDATA[Exporter l'historique de ses notes Telegram dans des fichiers textes]]></title>
+            <description><![CDATA[Ayant pour habitude de stocker toutes mes notes temporaires dans l'application mobile Telegram, j'ai automatisé l'extraction de mes notes dans mon Obsidian.…]]></description>
             <link>https://johackim.com/exporter-lhistorique-telegram-dans-des-fichiers-textes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/exporter-lhistorique-telegram-dans-des-fichiers-textes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3533,6 +3557,7 @@ done
         </item>
         <item>
             <title><![CDATA[Mochi, une application pour mieux retenir vos apprentissages.]]></title>
+            <description><![CDATA[Mochi est un outil créé par Matthew Steedman pour créer des flashcards afin d'améliorer à mémoriser ses apprentissages via la méthode de la Répétition espacée.…]]></description>
             <link>https://johackim.com/mochi?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mochi</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3577,6 +3602,7 @@ Et une réponse
         </item>
         <item>
             <title><![CDATA[Neovim : la version améliorée et allégée de vim]]></title>
+            <description><![CDATA[Neovim est un éditeur de code basé sur Vim. Installation Pour installer Neovim sur Arch Linux : Sur Ubuntu/Debian : Installer un plugin manager Pour installer…]]></description>
             <link>https://johackim.com/neovim?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/neovim</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3674,6 +3700,7 @@ au BufNewFile Dockerfile r ~/.config/nvim/templates/Dockerfile
         </item>
         <item>
             <title><![CDATA[Créer un système d'authentification OAuth avec spotify]]></title>
+            <description><![CDATA[Voici comment créer un système d'authentification OAuth avec Spotify. Commencez par créer un compte développeur sur Spotify. Une fois le compte créé, vous avez…]]></description>
             <link>https://johackim.com/creer-un-systeme-dauthentification-oauth-avec-spotify?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/creer-un-systeme-dauthentification-oauth-avec-spotify</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3729,6 +3756,7 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
         </item>
         <item>
             <title><![CDATA[L'art du crochetage de serrures]]></title>
+            <description><![CDATA[Je viens de recevoir un Kit de crochetage. C'est un kit qui sert à déverrouiller un cadenas facilement sans utiliser une clé. Il est livré avec un guide PDF…]]></description>
             <link>https://johackim.com/lockpicking?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/lockpicking</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3773,6 +3801,7 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
         </item>
         <item>
             <title><![CDATA[Jouer aux jeux vidéos de vos consoles préférés depuis votre ordinateur avec Retrobat]]></title>
+            <description><![CDATA[Retrobat vous permet de jouer aux jeux vidéos de vos consoles préférés directement depuis votre ordinateur Windows. Installation de Retrobat Pour l'installer,…]]></description>
             <link>https://johackim.com/retrobat?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/retrobat</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3818,6 +3847,7 @@ const { access_token: accessToken } = await fetch(&#x27;https://accounts.spotify
         </item>
         <item>
             <title><![CDATA[Exécutez facilement vos opérations CRUD avec Sequelize]]></title>
+            <description><![CDATA[Sequelize est un ORM Node.js qui permet de créer, éditer et supprimer des données dans une base de données (SQLite, MySQL, PostgreSQL, etc...). L'avantage d'un…]]></description>
             <link>https://johackim.com/sequelize?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/sequelize</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -3997,6 +4027,7 @@ npm pkg set scripts.lint=&quot;next lint&quot;
         </item>
         <item>
             <title><![CDATA[Storybook]]></title>
+            <description><![CDATA[Storybook permet de créer des composants d'interface utilisateur indépendamment de la logique métier, des données et du contexte d'une application. Je l'utilise…]]></description>
             <link>https://johackim.com/storybook?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/storybook</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4117,6 +4148,7 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
         </item>
         <item>
             <title><![CDATA[Flashcard]]></title>
+            <description><![CDATA[Fondée à partir du principe de la Répétition espacée (Spaced repetition en anglais) et du principe de la Révision active (Active Recall en anglais), la méthode…]]></description>
             <link>https://johackim.com/flashcard?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/flashcard</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4175,6 +4207,7 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
         </item>
         <item>
             <title><![CDATA[L'effet de compensation morale]]></title>
+            <description><![CDATA[Terme créé par les psychologues, l'effet de compensation morale (ou Licensing effect en anglais) désigne le fait de se donner bonne conscience en effectuant une…]]></description>
             <link>https://johackim.com/leffet-de-compensation-morale?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/leffet-de-compensation-morale</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4191,7 +4224,7 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
 </ul>
 <p>Lorsque vous remarquez ce comportement, souvenez de la raison principale de votre action, exemple : Changer de physique ou s&#x27;acheter une nouvelle maison.</p>
 <p>Des études ont même montré que pour certains, le simple fait de penser à une de leurs bonnes actions augmente le risque de se montrer trop indulgent avec soi-même ou de s’adonner à un comportement immoral.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">[Gurwinder - Licensing effect](https://gurwinder.substack.com/i/139156228/licensing-effect)</div></div><div class="callout-content"><p>Believing you’re good can make you behave bad. Those who consider themselves virtuous worry less about their own behavior, making them more susceptible to ethical lapses. A big cause of immorality is self-righteous morality.</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://gurwinder.substack.com/i/139156228/licensing-effect">Gurwinder - Licensing effect</a></div></div><div class="callout-content"><p>Believing you’re good can make you behave bad. Those who consider themselves virtuous worry less about their own behavior, making them more susceptible to ethical lapses. A big cause of immorality is self-righteous morality.</p></div></blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -4202,6 +4235,7 @@ Default.decorators = [(Story) =&gt; &lt;div id=&quot;storybook&quot;&gt;{Story()
         </item>
         <item>
             <title><![CDATA[L'effet what the hell]]></title>
+            <description><![CDATA[L'effet What The Hell est le fait de décider de prolonger une mauvaise action après avoir initié une mauvaise action. Exemples : Vous faites une entrave à votre…]]></description>
             <link>https://johackim.com/leffet-what-the-hell?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/leffet-what-the-hell</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4226,6 +4260,7 @@ Vous n&#x27;êtes pas aller courir cette semaine du coup vous vous dites &quot;b
         </item>
         <item>
             <title><![CDATA[L'illusion de fréquence]]></title>
+            <description><![CDATA[Notre tendance à voir plus souvent quelque chose après l'avoir remarqué pour la premère fois. Exemple : Si vous acheter une paire du chaussure Nike, vous aurez…]]></description>
             <link>https://johackim.com/lillusion-de-frequence?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/lillusion-de-frequence</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4255,6 +4290,7 @@ Vous découvrez le principe de l&#x27;éclairage trois points, vous ferez beauco
         </item>
         <item>
             <title><![CDATA[Le futur illusoire]]></title>
+            <description><![CDATA[C'est la supposition de prendre des actions différentes de celles d'aujourd'hui. De croire que nos actions futures seront meilleurs que celles d'aujourd'hui.…]]></description>
             <link>https://johackim.com/le-futur-illusoire?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/le-futur-illusoire</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4273,6 +4309,7 @@ Vous découvrez le principe de l&#x27;éclairage trois points, vous ferez beauco
         </item>
         <item>
             <title><![CDATA[Shadow sur Linux]]></title>
+            <description><![CDATA[Anciennement, j'avais fait un tutoriel sur comment jouer sur Linux et c'était une véritable galère. Aujourd'hui il existe Shadow pour palier à ce problème.…]]></description>
             <link>https://johackim.com/shadow-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/shadow-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4407,6 +4444,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[Whatweb]]></title>
+            <description><![CDATA[Whatweb est un logiciel en ligne de commande comme wappalyzer pour analyser les outils utilisés par un site internet. C'est un outil qui peut être utilisé en…]]></description>
             <link>https://johackim.com/whatweb?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/whatweb</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4424,6 +4462,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[Comment avoir spotify gratuitement sans pubs ?]]></title>
+            <description><![CDATA[Si vous êtes sur Windows, macOS ou Linux, vous pouvez écouter vos musiques préférées gratuitement sur Spotify sans avoir les publicités. Il vous suffit de…]]></description>
             <link>https://johackim.com/bloquer-les-pubs-de-spotify?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/bloquer-les-pubs-de-spotify</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4448,6 +4487,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[La règle 5/25]]></title>
+            <description><![CDATA[Pour prioriser ses objectifs, il existe une méthode qu'il appelle la règle 5/25 (ou la stratégie des 2 listes). 1. Créez une liste des 25 principales choses que…]]></description>
             <link>https://johackim.com/five-life-goals?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/five-life-goals</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4471,6 +4511,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[La formule R.O.T]]></title>
+            <description><![CDATA[Si vous n'êtes pas créatif pour trouver un titre, le copywriter Neville Medhora à inventé la formule R.O.T (Résultats - Objections - Temps). Exemples :…]]></description>
             <link>https://johackim.com/la-formule-r.o.t?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-formule-r.o.t</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4509,6 +4550,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[La règle des 4U]]></title>
+            <description><![CDATA[Voici une technique créer par le copywriter Michael Masterson pour créer des titres (headlines) et des puces (bullets). Un titre doit être : Utile :…]]></description>
             <link>https://johackim.com/la-regle-des-4u?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-regle-des-4u</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4566,6 +4608,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[Découvrez d'où proviennent les visiteurs de votre site avec les paramètres UTM]]></title>
+            <description><![CDATA[Pour pouvoir avoir plus de détails de la provenance des utilisateurs sur votre site web, il existe les paramètres UTM. En tout, il existe 5 paramètres d’UTMs :…]]></description>
             <link>https://johackim.com/parametres-utm?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/parametres-utm</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4600,6 +4643,7 @@ apt install -y shadowusb
         </item>
         <item>
             <title><![CDATA[La Théorie des Contraintes]]></title>
+            <description><![CDATA[Identifiez et concentrez vos efforts sur les contraintes qui limitent les performances d'un système. Par exemple, si vous essayez de monter un business mais que…]]></description>
             <link>https://johackim.com/la-theorie-des-contraintes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-theorie-des-contraintes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4638,6 +4682,7 @@ Repartez à l&#x27;étape 1 si vous êtes de nouveau bloqué
         </item>
         <item>
             <title><![CDATA[La méthode ABCDE]]></title>
+            <description><![CDATA[Lors de la planification de votre journée, dressez la liste de toutes les tâches que vous devez faire et ordonnez les selon la logique suivante : Une tâche « A…]]></description>
             <link>https://johackim.com/la-methode-abcde?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-methode-abcde</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4668,6 +4713,7 @@ Repartez à l&#x27;étape 1 si vous êtes de nouveau bloqué
         </item>
         <item>
             <title><![CDATA[La méthode PARA]]></title>
+            <description><![CDATA[PARA est un acronyme inventé par Tiago Forte qui fait référence à : Project (Projet) Area of responsability (Sphère de Responsabilité) Resource (Ressource)…]]></description>
             <link>https://johackim.com/la-methode-para?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-methode-para</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4722,6 +4768,7 @@ Repartez à l&#x27;étape 1 si vous êtes de nouveau bloqué
         </item>
         <item>
             <title><![CDATA[Nextdns]]></title>
+            <description><![CDATA[NextDNS est un outil très pratique pour bloquer certains sites ou régies publicitaires. Une fois configuré, vous pouvez empêcher tous les services de Google ou…]]></description>
             <link>https://johackim.com/nextdns?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/nextdns</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4751,6 +4798,7 @@ Repartez à l&#x27;étape 1 si vous êtes de nouveau bloqué
         </item>
         <item>
             <title><![CDATA[Page du matin]]></title>
+            <description><![CDATA[La méthode des pages du matin provient du célèbre livre Libérez votre créativité de Julia Cameron. Cette méthode a pour but de "laver" notre cerveau de toutes…]]></description>
             <link>https://johackim.com/page-du-matin?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/page-du-matin</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4771,6 +4819,7 @@ Repartez à l&#x27;étape 1 si vous êtes de nouveau bloqué
         </item>
         <item>
             <title><![CDATA[La méthode Ivy Lee]]></title>
+            <description><![CDATA[Voici une méthode de productivité très simple pour réaliser chaque jour ses tâches de la journée. Elle a été inventée dans les années 1900 par un consultant en…]]></description>
             <link>https://johackim.com/la-methode-ivy-lee?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-methode-ivy-lee</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4803,6 +4852,7 @@ Répétez ce processus chaque jour de travail
         </item>
         <item>
             <title><![CDATA[La règle des 2 minutes]]></title>
+            <description><![CDATA[Dès qu'une tâche prend moins de 2 minutes à être réalisé, exécutez la tout de suite, même si ce n'est pas urgent. Cela prendrait trop de temps de la reporter ou…]]></description>
             <link>https://johackim.com/la-regle-des-2-minutes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-regle-des-2-minutes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4812,7 +4862,7 @@ Répétez ce processus chaque jour de travail
             <content:encoded><![CDATA[<p>Dès qu&#x27;une tâche prend moins de 2 minutes à être réalisé, exécutez la tout de suite, même si ce n&#x27;est pas urgent.</p>
 <p>Cela prendrait trop de temps de la reporter ou de la déléguer.</p>
 <p>Cela évite d&#x27;avoir des dettes mentales.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: gurwinder.substack.com="" p=""></https:></div></div><div class="callout-content"><p>The Two-Minute Rule:</p>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://gurwinder.substack.com/p/40-useful-concepts-you-should-know">https://gurwinder.substack.com/p/40-useful-concepts-you-should-know</a></div></div><div class="callout-content"><p>The Two-Minute Rule:</p>
 <p>If a task would take less than two minutes, do it immediately. This is because adding the task to your mental to-do list, keeping it in your memory, and managing the anxiety of not having done it will take far more effort than just doing it now.</p></div></blockquote>
 <hr/>
 <p>Références :</p>
@@ -4824,6 +4874,7 @@ Répétez ce processus chaque jour de travail
         </item>
         <item>
             <title><![CDATA[La règle des 3 tâches]]></title>
+            <description><![CDATA[Au début de chaque jour, chaque semaine, chaque mois, chaque trimestre et chaque année, choisissez les trois choses que vous voulez accomplir d'ici la fin de…]]></description>
             <link>https://johackim.com/la-regle-des-3-taches?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-regle-des-3-taches</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4845,6 +4896,7 @@ Répétez ce processus chaque jour de travail
         </item>
         <item>
             <title><![CDATA[La technique de l'échelle]]></title>
+            <description><![CDATA[Diviser vos tâches en petites tâches, cela évitera la Procrastination et enlèvera de la friction lorsque vous effectuerez cette tâche. Cela enlève aussi la…]]></description>
             <link>https://johackim.com/la-technique-de-lechelle?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/la-technique-de-lechelle</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4906,6 +4958,7 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
         </item>
         <item>
             <title><![CDATA[Résumé du livre Refactoring UI de Adam Wathan]]></title>
+            <description><![CDATA[Démarrez avec une fonctionnalité Ne démarrez pas avec une mise en page (un layout). Vous faites une erreur si vous commencez par vous demander quelle va être…]]></description>
             <link>https://johackim.com/refactoring-ui-adam-wathan?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/refactoring-ui-adam-wathan</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4983,6 +5036,7 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
         </item>
         <item>
             <title><![CDATA[Regret Minimization Framework]]></title>
+            <description><![CDATA[Pour maximiser votre bonheur à long terme, donnez la priorité aux projets que vous regretteriez le plus de ne pas avoir poursuivis lorsque vous serez vieux et…]]></description>
             <link>https://johackim.com/regret-minimization-framework?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/regret-minimization-framework</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -4993,7 +5047,7 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
 <p>Ce principe provient de <a href="https://youtu.be/jwG_qR6XmDQ">Jeff Bezos</a>.</p>
 <p>Posez-vous simplement cette question : &quot;Dans X années, est-ce que je regretterai de ne pas avoir fait ça ?&quot;</p>
 <p>Si oui, faites-le ! Sinon, ne vous donnez pas la peine.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: www.julian.com="" blog="" mental-model-examples=""></https:></div></div><div class="callout-content"><p>To maximize your long-term happiness, prioritize projects you’d most regret not having pursued by the time you’re old and looking back at your life.</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://www.julian.com/blog/mental-model-examples">https://www.julian.com/blog/mental-model-examples</a></div></div><div class="callout-content"><p>To maximize your long-term happiness, prioritize projects you’d most regret not having pursued by the time you’re old and looking back at your life.</p></div></blockquote>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -5004,6 +5058,7 @@ sudo dd if=LibreELEC-RPi2.arm-12.0.2.img of=/dev/sdx status=progress conv=sync
         </item>
         <item>
             <title><![CDATA[Retrouver le passage d'une vidéo YouTube]]></title>
+            <description><![CDATA[Si comme moi, vous cherchez un passage particulier (ex: une phrase) dans une vidéo d'une chaine YouTube, mais que vous ne le retrouvez pas, voici comment faire…]]></description>
             <link>https://johackim.com/comment-retrouver-le-passage-dune-video-youtube?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/comment-retrouver-le-passage-dune-video-youtube</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5058,6 +5113,7 @@ grep -rin &lt;text&gt;
         </item>
         <item>
             <title><![CDATA[Exporter ses bookmarks Firefox en markdown]]></title>
+            <description><![CDATA[Pour exporter mes bookmarks de Firefox au format markdown, il faut d'abord récupérer un backup au format JSON : 1. Démarrer Firefox 2. Ouvrer le menu des…]]></description>
             <link>https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/exporter-ses-bookmarks-firefox-en-markdown</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5100,6 +5156,7 @@ parse_firefox_bookmark(bdict)
         </item>
         <item>
             <title><![CDATA[Trouver des fichiers en double sur Linux]]></title>
+            <description><![CDATA[Pour trouver des fichiers en double sur Linux, il existe la commande suivante : Cette commande va chercher de manière récursive les fichiers qui ont le même…]]></description>
             <link>https://johackim.com/trouver-des-fichiers-en-double-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/trouver-des-fichiers-en-double-sur-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5122,6 +5179,7 @@ parse_firefox_bookmark(bdict)
         </item>
         <item>
             <title><![CDATA[Changer la version de python facilement avec pyenv]]></title>
+            <description><![CDATA[Pour changer de version de Python facilement, de la même manière que nvm pour NodeJS, il existe l'outil pyenv. Installation de pyenv Pour l'installer, exécutez…]]></description>
             <link>https://johackim.com/changer-la-version-de-python-facilement-avec-pyenv?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/changer-la-version-de-python-facilement-avec-pyenv</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5158,6 +5216,7 @@ source ~/.bashrc
         </item>
         <item>
             <title><![CDATA[Github Pages]]></title>
+            <description><![CDATA[Pour déployer automatiquement son code sur Github Pages, il existe les GitHub Actions. Créez un fichier Yaml dans le dossier .github/workflows/ à la racine de…]]></description>
             <link>https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/deployer-automatiquement-un-depot-sur-github-pages</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5212,6 +5271,7 @@ jobs:
         </item>
         <item>
             <title><![CDATA[Modifier le fuseau horraire d'un serveur Linux]]></title>
+            <description><![CDATA[Pour modifier le fuseau horaire d'un serveur Linux (ex: UTC+2), il suffit d'exécuter la commande suivante : Si vous souhaitez connaitre les noms des fuseaux…]]></description>
             <link>https://johackim.com/modifier-le-fuseau-horraire-dun-serveur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/modifier-le-fuseau-horraire-dun-serveur-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5228,6 +5288,7 @@ jobs:
         </item>
         <item>
             <title><![CDATA[Installer une version modifié d'un package AUR sur Arch Linux]]></title>
+            <description><![CDATA[Sur Arch Linux, Il m'arrive parfois de vouloir installer un package (ex: mailspring) avec une version très récente et qui n'est pas encore packagé dans les…]]></description>
             <link>https://johackim.com/installer-une-version-modifie-dun-package-aur-sur-arch-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-une-version-modifie-dun-package-aur-sur-arch-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5288,6 +5349,7 @@ git push origin master
         </item>
         <item>
             <title><![CDATA[Télécharger des torrents depuis un navigateur web]]></title>
+            <description><![CDATA[Pour télécharger un torrent depuis un navigateur web, il existe un outil qui s'appelle webtorrent. Depuis un navigateur (Firefox, chrome, etc...), webtorrent…]]></description>
             <link>https://johackim.com/webtorrent?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/webtorrent</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5309,6 +5371,7 @@ git push origin master
         </item>
         <item>
             <title><![CDATA[Récupérer le flux RSS d'une chaine YouTube]]></title>
+            <description><![CDATA[Pour récupérer le flux RSS d'une chaine YouTube, prennez l'URL de votre chaine YouTube et convertissez le comme ceci : Dans le premier exemple, il suffit de…]]></description>
             <link>https://johackim.com/recuperer-le-flux-rss-dune-chaine-youtube?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/recuperer-le-flux-rss-dune-chaine-youtube</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5330,6 +5393,7 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
         </item>
         <item>
             <title><![CDATA[Biais des coûts irrécupérables]]></title>
+            <description><![CDATA[Les biais des coûts irrécupérables (Sunk Cost Effect en anglais) est la tendance irrationnelle d'agir selon des décisions prises antérieurement (temps passé,…]]></description>
             <link>https://johackim.com/biais-des-couts-irrecuperables?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-des-couts-irrecuperables</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5350,6 +5414,7 @@ https://youtube.com/feeds/videos.xml?user=sofyanfaitducinema (Flux RSS)
         </item>
         <item>
             <title><![CDATA[Démarrer macOS sur Linux]]></title>
+            <description><![CDATA[Pour démarrer macOS sur Linux, il existe 2 solutions : Avec mac-on-linux-with-qemu Il existe ce dépôt Github qui permet de démarrer macOS en une seule ligne de…]]></description>
             <link>https://johackim.com/demarrer-macos-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/demarrer-macos-sur-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5393,6 +5458,7 @@ quickemu --vm macos-catalina.conf
         </item>
         <item>
             <title><![CDATA[Vérifier une information]]></title>
+            <description><![CDATA[Voici les étapes que j'utilise pour savoir si une information est vrai ou faux. 1. Vérifier d'où vient l'info (Où ?) Croisez l'information Aller chercher sur…]]></description>
             <link>https://johackim.com/comment-verifier-une-source-information?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/comment-verifier-une-source-information</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5443,6 +5509,7 @@ quickemu --vm macos-catalina.conf
         </item>
         <item>
             <title><![CDATA[Comment supprimer un watermark ?]]></title>
+            <description><![CDATA[Certain PDF contient un watermark, quand il est répété un mode texte sur toutes les pages du PDF, il est possible de le supprimer depuis un ordinateur sous…]]></description>
             <link>https://johackim.com/watermark?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/watermark</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5483,6 +5550,7 @@ rm -f unwatermarked.pdf uncompressed.pdf fixed.pdf
         </item>
         <item>
             <title><![CDATA[Nettoyer son ordinateur sur Linux avec BleachBit]]></title>
+            <description><![CDATA[Pour nettoyer mon ordinateur sous Linux, j'utilise BleachBit. Comment installer Bleachbit ? Pour installer Bleachbit sur Arch Linux, exécutez la commande…]]></description>
             <link>https://johackim.com/nettoyer-son-ordinateur-sur-linux-avec-bleachbit?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/nettoyer-son-ordinateur-sur-linux-avec-bleachbit</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5516,6 +5584,7 @@ rm -f unwatermarked.pdf uncompressed.pdf fixed.pdf
         </item>
         <item>
             <title><![CDATA[License]]></title>
+            <description><![CDATA[Générer un fichier de licence LICENSE.txt automatiquement Pour générer un fichier de licence automatiquement, il existe l'outil license. Pour l'installer sur…]]></description>
             <link>https://johackim.com/generer-un-fichier-de-licence-license.txt-automatiquement?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/generer-un-fichier-de-licence-license.txt-automatiquement</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5567,6 +5636,7 @@ yay -S --noconfirm nishanths-license-git
         </item>
         <item>
             <title><![CDATA[Slow burns vs. heavy lifts]]></title>
+            <description><![CDATA[Créer une formation ou rédiger un livre à partir de zéro est comme porter une charge très lourde d'un coup. Il est plus facile de rassembler des idées au fil du…]]></description>
             <link>https://johackim.com/slow-burns?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/slow-burns</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5584,6 +5654,7 @@ yay -S --noconfirm nishanths-license-git
         </item>
         <item>
             <title><![CDATA[Limiter la bande passante d'une interface réseau sous Linux]]></title>
+            <description><![CDATA[Pour limiter la bande passante d'une interface réseau sous Linux il existe wondershaper. Installation Pour l'installer sur Debian ou Ubuntu : Pour l'installer…]]></description>
             <link>https://johackim.com/limiter-la-bande-passante-dune-interface-reseau-sous-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/limiter-la-bande-passante-dune-interface-reseau-sous-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5647,6 +5718,7 @@ udisks --detach /dev/sdX
         </item>
         <item>
             <title><![CDATA[Bloquer les adresse IPs d'un réseau externe avec Express.js]]></title>
+            <description><![CDATA[Je dispose d'un serveur nodejs avec express et j'ai besoin d'autoriser l'accès à une route uniquement aux adresses IP de mon réseau interne. Pour ça, j'utilise…]]></description>
             <link>https://johackim.com/bloquer-les-adresse-ips-dun-reseau-externe-avec-expressjs?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/bloquer-les-adresse-ips-dun-reseau-externe-avec-expressjs</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5688,6 +5760,7 @@ export default app;
         </item>
         <item>
             <title><![CDATA[Impots]]></title>
+            <description><![CDATA[Remplir sa déclaration d'impôt Pour faire sa déclaration d'impôt, il faut remplir le Formulaire 2042-C-PRO : Déclaration de revenus complémentaire des…]]></description>
             <link>https://johackim.com/faire-sa-declaration-dimpot-en-tant-quauto-entrepreneur?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/faire-sa-declaration-dimpot-en-tant-quauto-entrepreneur</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5711,7 +5784,7 @@ export default app;
 <p>Il existe aussi les impôts CFE (Cotisation foncière des entreprises) à payer une fois par an le 15 décembre sur <a href="https://cfspro.impots.gouv.fr/">https://cfspro.impots.gouv.fr/</a> (dernier paiement -&gt; 170€)</p>
 <p>Mes services → Avis CFE → Accès aux avis de CFE → 2022 → Avis d&#x27;imposition → Payer</p>
 <p><a href="https://www.economie.gouv.fr/entreprises/cotisation-fonciere-entreprises-cfe">https://www.economie.gouv.fr/entreprises/cotisation-fonciere-entreprises-cfe</a></p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: entreprendre.service-public.fr="" vosdroits="" f23547=""></https:></div></div><div class="callout-content"><p>Si l&#x27;entrepreneur ne dispose d&#x27;aucun local et <strong>exerce son activité à domicile</strong> (ou chez ses clients), celui-ci est quand même redevable de la CFE. Dans ce cas, le montant de la CFE est déterminé <strong>en fonction du chiffre d&#x27;affaires</strong> réalisé sur une période de 12 mois (au cours de l&#x27;année N-2).</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://entreprendre.service-public.fr/vosdroits/F23547">https://entreprendre.service-public.fr/vosdroits/F23547</a></div></div><div class="callout-content"><p>Si l&#x27;entrepreneur ne dispose d&#x27;aucun local et <strong>exerce son activité à domicile</strong> (ou chez ses clients), celui-ci est quand même redevable de la CFE. Dans ce cas, le montant de la CFE est déterminé <strong>en fonction du chiffre d&#x27;affaires</strong> réalisé sur une période de 12 mois (au cours de l&#x27;année N-2).</p></div></blockquote>
 <p>OU, pour payer mensuellement :</p>
 <ul>
 <li>Se rendre sur <a href="https://cfspro.impots.gouv.fr">https://cfspro.impots.gouv.fr</a> -&gt; Payer -&gt; CFE et autres impots</li>
@@ -5728,6 +5801,7 @@ export default app;
         </item>
         <item>
             <title><![CDATA[Se connecter à un serveur IRC avec Weechat]]></title>
+            <description><![CDATA[Installer Weechat Démarrez weechat Ajoutez un serveur Lister les serveurs Ajouter un serveur sans SSL Se connecter dessus Lister les channels Changer de nom…]]></description>
             <link>https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/se-connecter-a-un-serveur-irc-avec-weechat</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5767,6 +5841,7 @@ export default app;
         </item>
         <item>
             <title><![CDATA[Installer un serveur VPN (très rapidement) avec dsvpn]]></title>
+            <description><![CDATA[Dsvpn permet de créer un serveur VPN très simplement. Installation Pour l'installer dsvpn sur Arch Linux : Si vous êtes sur une autre distribution Linux comme…]]></description>
             <link>https://johackim.com/installer-un-serveur-vpn-avec-dsvpn?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-un-serveur-vpn-avec-dsvpn</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -5997,6 +6072,7 @@ Excellente exécution = 1,000,000€</p>
         </item>
         <item>
             <title><![CDATA[Travailler en Deep Work sur Linux]]></title>
+            <description><![CDATA[Pour travailler en Deep Work sur Linux, je me suis créé un script maison. Ce script a pour but de m'empêcher d'avoir accès à des sites (ex: Youtube, Twitter,…]]></description>
             <link>https://johackim.com/travailler-en-deep-work-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/travailler-en-deep-work-sur-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6021,6 +6097,7 @@ Excellente exécution = 1,000,000€</p>
         </item>
         <item>
             <title><![CDATA[Résumé du livre Zero to Sold de Arvid Kahl]]></title>
+            <description><![CDATA[C'est quoi le bootstrapping ? Le bootstrapping veut dire, créer une entreprise à partir de rien, sans aucun financement ou aide extérieur et en utilisant le…]]></description>
             <link>https://johackim.com/zero-to-sold-arvid-kahl?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/zero-to-sold-arvid-kahl</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6130,6 +6207,7 @@ Excellente exécution = 1,000,000€</p>
         </item>
         <item>
             <title><![CDATA[Résumé du livre Atomic Habits de James Clear]]></title>
+            <description><![CDATA[C'est quoi une habitude ? Une habitude est une activité routinière ou un comportement exécuté régulièrement et, la plupart du temps, automatiquement. À long…]]></description>
             <link>https://johackim.com/atomic-habits-james-clear?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/atomic-habits-james-clear</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6516,6 +6594,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Biais d'ancrage]]></title>
+            <description><![CDATA[Qu'est-ce que le biais d'ancrage ? Notre tendance à donner plus d'importance à la première information que l'on voit.]]></description>
             <link>https://johackim.com/biais-ancrage?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-ancrage</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6534,6 +6613,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Biais de confirmation]]></title>
+            <description><![CDATA[Le biais de confirmation est un biais cognitif. C'est notre tendance à privilégier les informations qui confirment nos croyances préexistantes et à ignorer le…]]></description>
             <link>https://johackim.com/biais-de-confirmation?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-de-confirmation</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6546,7 +6626,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
 <p>Avec ce biais, nous ne voyons que ce que nous voulons voir, et nous ignorons le reste.</p>
 <p>Cela nous enferme dans notre bulle et nous empêche de voir les choses sous un angle différent.</p>
 <p>Si nous avons une vision negative de nous-même, nous allons sans cesse le confirmer en ne voyant que les éléments qui vont dans ce sens. Ce qui va renforcer cette croyance et nous enfermer dans un cercle vicieux.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">[Et tout le monde s&#x27;en fout #80 - Toi](https://youtu.be/rdsm5XqPt7g?t=903)</div></div><div class="callout-content"><p>Ton cerveau, il confirme ce que tu crois.</p>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://youtu.be/rdsm5XqPt7g?t=903">Et tout le monde s&#x27;en fout #80 - Toi</a></div></div><div class="callout-content"><p>Ton cerveau, il confirme ce que tu crois.</p>
 <p>En gros, plus tu crois un truc, et plus ton cerveau va sélectionner dans la réalité des détails qui va mettre bout à bout pour te prouver que ce que tu crois, c&#x27;est la vérité.</p>
 <p>Le cerveau, <strong>il renforce ce sur quoi tu poses ton attention tous les jours</strong>.</p>
 <p>Ça ne veut pas dire que ce que tu crois, c&#x27;est faux. Ça veut dire que <strong>ce que tu vises détermine ce que tu vois</strong>.</p></div></blockquote>
@@ -6577,6 +6657,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Biais de l'aversion à la perte]]></title>
+            <description><![CDATA[Notre tendance à préférer éviter de perdre quelque chose plutôt que d'en gagner une autre. Nous donnons plus de valeur à ce que nous possédons qu'à ce que l'on…]]></description>
             <link>https://johackim.com/biais-de-laversion-a-la-perte?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-de-laversion-a-la-perte</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6599,6 +6680,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Biais de tribalisme]]></title>
+            <description><![CDATA[Tendance des êtres humains à rejoindre des groupes et à s'opposer à d'autres groupes.]]></description>
             <link>https://johackim.com/biais-du-tribalisme?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-du-tribalisme</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6619,6 +6701,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Biais du survivant]]></title>
+            <description><![CDATA[Notre tendance à privilégier les succès d'une histoire plutôt que les échecs. En oubliant de prendre en compte le contexte qui entoure l'histoire et en se…]]></description>
             <link>https://johackim.com/biais-du-survivant?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/biais-du-survivant</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6641,6 +6724,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Comment créer un thème Obsidian ?]]></title>
+            <description><![CDATA[Voici un tutoriel pour créer un thème Obsidian. Créer un fichier.css Créer un fichier CSS nomdutheme.css dans le dossier .obsidian/themes de votre Vault…]]></description>
             <link>https://johackim.com/creer-un-theme-obsidian?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/creer-un-theme-obsidian</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6698,6 +6782,7 @@ Si vous êtes musicien, votre objectif est de jouer un nouveau morceau. Le proce
         </item>
         <item>
             <title><![CDATA[Démarrer une application GUI avec SSH]]></title>
+            <description><![CDATA[Voici un petit tutoriel pour lancer une application graphique à distance via SSH. 1. Activer le X11 Forwarding Commencez par ajouter le paramètre X11Forwarding…]]></description>
             <link>https://johackim.com/demarrer-une-application-gui-avec-ssh?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/demarrer-une-application-gui-avec-ssh</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6729,6 +6814,7 @@ sudo systemctl restart sshd
         </item>
         <item>
             <title><![CDATA[L'effet de simple exposition]]></title>
+            <description><![CDATA[Plus nous somme exposé à quelque chose, plus nous lui faisons confiance et plus nous l'apprécions. The more we see something, the more we come to like and trust…]]></description>
             <link>https://johackim.com/leffet-de-simple-exposition?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/leffet-de-simple-exposition</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6736,7 +6822,7 @@ sudo systemctl restart sshd
             <media:content url="https://johackim.com/covers/leffet-de-simple-exposition.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/leffet-de-simple-exposition.jpg"/>
             <content:encoded><![CDATA[<p>Plus nous somme exposé à quelque chose, plus nous lui faisons confiance et plus nous l&#x27;apprécions.</p>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: customercamp.co="" mere-exposure-effect=""></https:></div></div><div class="callout-content"><p>The more we see something, the more we come to like and trust it.</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://customercamp.co/mere-exposure-effect/">https://customercamp.co/mere-exposure-effect/</a></div></div><div class="callout-content"><p>The more we see something, the more we come to like and trust it.</p></div></blockquote>
 <blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">ChatGPT</div></div><div class="callout-content"><p>La tendance à développer une préférence pour les choses simplement parce qu&#x27;elles nous sont familières.</p></div></blockquote>
 <hr/>
 <p>Références :</p>
@@ -6751,6 +6837,7 @@ sudo systemctl restart sshd
         </item>
         <item>
             <title><![CDATA[Débugger un site internet sur iPad depuis Linux]]></title>
+            <description><![CDATA[J'ai rencontré un problème d'affichage d'un de mes sites sur iPad, du coup, pour débugger ça depuis mon ordinateur sous Arch Linux, j'ai utilisé le package…]]></description>
             <link>https://johackim.com/debugger-un-site-internet-sur-ipad-depuis-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/debugger-un-site-internet-sur-ipad-depuis-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6773,6 +6860,7 @@ ios_webkit_debug_proxy
         </item>
         <item>
             <title><![CDATA[Démarrer un serveur HTTP en ligne de commande]]></title>
+            <description><![CDATA[Il existe plusieurs façons de démarrer un serveur HTTP en ligne de commande. Python PHP Nodejs (http-server) Nodejs (serve) Miniserve Webfsd]]></description>
             <link>https://johackim.com/demarrer-un-serveur-http-en-ligne-de-commande?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/demarrer-un-serveur-http-en-ligne-de-commande</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6811,6 +6899,7 @@ webfsd -F -p 5000
         </item>
         <item>
             <title><![CDATA[Générer dynamiquement des images avec node-canvas]]></title>
+            <description><![CDATA[Pour générer des images de manière dynamique en Node.js, il existe la librairie node-canvas : Lorsque j'exécute ce script (node script.js), une image avec un…]]></description>
             <link>https://johackim.com/generer-dynamiquement-des-images-avec-node-canvas?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/generer-dynamiquement-des-images-avec-node-canvas</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6851,6 +6940,7 @@ createImage(&#x27;Hello World!&#x27;);
         </item>
         <item>
             <title><![CDATA[Mon processus de prise de notes]]></title>
+            <description><![CDATA[La méthode Zettelkasten Lorsque je prend des notes, j'utilise en partie la méthode Zettelkasten. Dès que j'ai des idées qui me viennent en tête, je prend des…]]></description>
             <link>https://johackim.com/mon-processus-de-prise-de-notes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/mon-processus-de-prise-de-notes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6884,6 +6974,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Digital Garden]]></title>
+            <description><![CDATA[Un jardin numérique (en anglais : digital garden) est un espace en ligne qui se trouve à l'intersection d'un carnet de notes et d'un blog, où des graines de…]]></description>
             <link>https://johackim.com/digital-garden?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/digital-garden</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6905,6 +6996,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Ikigai]]></title>
+            <description><![CDATA[Ikigai est un concept japonais qui pourrai se traduire par « le bonheur d’être toujours occupé » ou « raison d'être ». Selon les natifs de l’île d’Okinawa au…]]></description>
             <link>https://johackim.com/ikigai?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ikigai</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6942,6 +7034,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[L'effet Lindy]]></title>
+            <description><![CDATA[L'effet Lindy est une théorie selon laquelle l'espérance de vie future d'une chose non périssable, implique une espérance de vie restante plus longue à chaque…]]></description>
             <link>https://johackim.com/leffet-lindy?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/leffet-lindy</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6954,6 +7047,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Le modèle comportemental de Fogg]]></title>
+            <description><![CDATA[Trois élements doivent être présent pour qu'un comportement se produise : la Motivation, la capacité, et le déclencheur. Il y a trois types de motivateurs pour…]]></description>
             <link>https://johackim.com/le-modele-comportemental-de-fogg?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/le-modele-comportemental-de-fogg</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -6987,6 +7081,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Les cinq éléments de toute entreprise]]></title>
+            <description><![CDATA[Une entreprise est par essence un système qui contient et exécute continuellement 5 éléments : 1. La création de Valeur. Découvrir ce que les gens veulent ou ce…]]></description>
             <link>https://johackim.com/les-cinq-elements-de-toute-entreprise?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/les-cinq-elements-de-toute-entreprise</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7017,6 +7112,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[La loi de Pareto]]></title>
+            <description><![CDATA[Pour de nombreux événements, 20% des actions amènent 80% des résultats. Au début du XXème siècle, Vilfredo Pareto constate qu’en moyenne 20% de la population se…]]></description>
             <link>https://johackim.com/loi-de-pareto?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/loi-de-pareto</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7040,6 +7136,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Matrice d'Eisenhower]]></title>
+            <description><![CDATA[La matrice d’Eisenhower nour permet de classer nos tâches selon leur importance et urgence : Urgent et important : à faire immédiatement soi-même Important mais…]]></description>
             <link>https://johackim.com/matrice-deisenhower?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/matrice-deisenhower</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7064,6 +7161,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Modèles de prix pour un SaaS]]></title>
+            <description><![CDATA[Il existe plusieurs modèles de prix pour un SaaS : Flat-rate pricing (ex : basecamp) Usage-based pricing (ex : Stripe) Tier-based pricing (ex: Kinsta)…]]></description>
             <link>https://johackim.com/modeles-de-prix-pour-un-saas?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/modeles-de-prix-pour-un-saas</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7293,6 +7391,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Note atomique]]></title>
+            <description><![CDATA[Une note atomique est une note qui ne peut pas être divisée sans perdre son sens. Voici les caractéristiques d'une note atomique : Une note atomique est égale à…]]></description>
             <link>https://johackim.com/note-atomique?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/note-atomique</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7320,6 +7419,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Note littéraire]]></title>
+            <description><![CDATA[Une note littéraire est essentiellement une note que vous avez créé à partir d'un contenu que vous avez consommé (livres, articles, vidéos, films, podcasts,…]]></description>
             <link>https://johackim.com/notes-litteraires?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/notes-litteraires</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7340,6 +7440,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Note permanente]]></title>
+            <description><![CDATA[Parcourez vos notes temporaires et littéraires et réfléchissez à la manière dont elles se rapportent à ce qui est pertinent pour vos propres recherches,…]]></description>
             <link>https://johackim.com/notes-permanentes?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/notes-permanentes</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7366,6 +7467,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Note temporaire]]></title>
+            <description><![CDATA[Ayez toujours quelque chose à portée de main avec lequel écrire pour capturer chaque idée qui vous vient à l'esprit. Ne vous préoccupez pas trop de la manière…]]></description>
             <link>https://johackim.com/notes-temporaires?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/notes-temporaires</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7384,6 +7486,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Pair programming]]></title>
+            <description><![CDATA[Le pair programming est une méthode de travail dans laquelle deux développeurs travaillent ensemble sur un même ordinateur La personne qui rédige le code est…]]></description>
             <link>https://johackim.com/pair-programming?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/pair-programming</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7398,6 +7501,7 @@ Toujours renseigner les <strong>références</strong> d&#x27;une note.
         </item>
         <item>
             <title><![CDATA[Prettier]]></title>
+            <description><![CDATA[Prettier permet de formater votre code automatiquement selon vos besoins, par exemple : Indenter automatiquement son code avec 4 espaces. Utiliser des simples…]]></description>
             <link>https://johackim.com/installer-prettier?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-prettier</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7452,6 +7556,7 @@ nmap &lt;Leader&gt;b &lt;Plug&gt;(Prettier)
         </item>
         <item>
             <title><![CDATA[SMART]]></title>
+            <description><![CDATA[L'acronyme S.M.A.R.T. est un moyen mnémotechnique créé par George T. Doran en 1981 permettant de décrire les objectifs que l’on veut exprimer de la façon la…]]></description>
             <link>https://johackim.com/objectifs-smart?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/objectifs-smart</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7529,6 +7634,7 @@ nvme format --ses=1 &lt;device&gt;
         </item>
         <item>
             <title><![CDATA[TDD]]></title>
+            <description><![CDATA[Test-Driven Development (TDD), ou Développements Pilotés par les Tests en français, est une méthode de développement de logiciel, qui consiste à concevoir un…]]></description>
             <link>https://johackim.com/test-driven-development?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/test-driven-development</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7565,6 +7671,7 @@ nvme format --ses=1 &lt;device&gt;
         </item>
         <item>
             <title><![CDATA[Tor]]></title>
+            <description><![CDATA[Tor est un logiciel libre et open-source pour communiquer de manière anonyme via un réseau superposé du même nom. Installer le navigateur Tor Pour installer le…]]></description>
             <link>https://johackim.com/tor?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/tor</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7643,6 +7750,7 @@ sudo systemctl start tor
         </item>
         <item>
             <title><![CDATA[Créer un fichier .gitignore automatiquement]]></title>
+            <description><![CDATA[Pour créer un fichier .gitignore rapidement, il existe le service gitignore.io. À chaque fois que je souhaite créer un fichier .gitignore, pour un projet Nodejs…]]></description>
             <link>https://johackim.com/creer-un-fichier-.gitignore?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/creer-un-fichier-.gitignore</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7661,6 +7769,7 @@ gi () {
         </item>
         <item>
             <title><![CDATA[Initialiser eslint sur un projet JavaScript]]></title>
+            <description><![CDATA[Pour initialiser eslint sur un projet JavaScript il existe la commande suivante : Personnellement j'ajoute les règles suivantes au fichier .eslintrc.json : Si…]]></description>
             <link>https://johackim.com/initialiser-eslint-sur-un-projet-javascript?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/initialiser-eslint-sur-un-projet-javascript</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7730,6 +7839,7 @@ console.log(&#x27;Mon code javascript&#x27;);
         </item>
         <item>
             <title><![CDATA[IPTV]]></title>
+            <description><![CDATA[L’Internet Protocol TeleVision ou, IPTV, est le fait d’accéder à des chaines de télévision avec internet. Ce qui permet ’avoir accès à la télévision sur un…]]></description>
             <link>https://johackim.com/iptv?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/iptv</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7753,6 +7863,7 @@ console.log(&#x27;Mon code javascript&#x27;);
         </item>
         <item>
             <title><![CDATA[Kodi]]></title>
+            <description><![CDATA[Kodi (anciennement XBMC) est un lecteur multimédia libre qui tourne nativement sur les systèmes d’exploitation BSD, Raspbian, GNU/Linux, Mac OS X, Microsoft…]]></description>
             <link>https://johackim.com/kodi?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/kodi</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7780,6 +7891,7 @@ console.log(&#x27;Mon code javascript&#x27;);
         </item>
         <item>
             <title><![CDATA[Kopia]]></title>
+            <description><![CDATA[Kopia est un logiciel de sauvegarde disponible sur Windows, macOS et Linux. Initialiser un dépôt Créer une sauvegarde Monter un dépôt Se déconnecter d'un dépôt…]]></description>
             <link>https://johackim.com/kopia?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/kopia</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7818,6 +7930,7 @@ kopia mount &lt;snapshot_id&gt; &lt;dossier&gt;
         </item>
         <item>
             <title><![CDATA[Puppeteer]]></title>
+            <description><![CDATA[Si vous souhaitez parser un site internet, il existe puppeteer. Installation Pour installer puppeteer : Prendre un screenshot Voici un exemple de script Node.js…]]></description>
             <link>https://johackim.com/puppeteer?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/puppeteer</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7898,6 +8011,7 @@ const html = await page.evaluate(() =&gt; document.body.innerHTML);
         </item>
         <item>
             <title><![CDATA[Rclone]]></title>
+            <description><![CDATA[Rclone est un outil de backups open-source disponible sur Linux, macOS et Windows. Installation Vous pouvez l'installer manuellement : Ou via cette commande si…]]></description>
             <link>https://johackim.com/rclone?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/rclone</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -7949,7 +8063,7 @@ sudo chmod +x /usr/local/bin/rclone
 <pre><code class="language-bash">rclone copy --progress &lt;source&gt;:/ &lt;dest&gt;:/
 </code></pre>
 <h2>Synchroniser deux sources avec les mêmes fichiers</h2>
-<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><https: rclone.org="" commands="" rclone_sync=""></https:></div></div><div class="callout-content"><p>Sync the source to the destination, changing the destination only.</p></div></blockquote>
+<blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://rclone.org/commands/rclone_sync/">https://rclone.org/commands/rclone_sync/</a></div></div><div class="callout-content"><p>Sync the source to the destination, changing the destination only.</p></div></blockquote>
 <pre><code class="language-bash">rclone sync --progress &lt;source&gt;:/ &lt;remote&gt;:/
 </code></pre>
 <h2>Chiffrer la configuration rclone</h2>
@@ -7989,6 +8103,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
         </item>
         <item>
             <title><![CDATA[Regarder toutes les chaines de télévision gratuitement depuis son ordinateur]]></title>
+            <description><![CDATA[Pour regarder la télévision avec Kodi il existe un addon IPTV du nom de PVR IPTV Simple Client. Pour l'installer, ajouter le dépôt SuperRepo puis installer…]]></description>
             <link>https://johackim.com/regarder-la-television-avec-kodi?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/regarder-la-television-avec-kodi</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8005,6 +8120,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
         </item>
         <item>
             <title><![CDATA[Tester la vitesse d'écriture d'un disque dur sur Linux]]></title>
+            <description><![CDATA[Pour tester la vitesse d'écriture d'un disque dur sur Linux, il existe une commande installé nativement sur la plus part des distributions Linux qui s'appelle…]]></description>
             <link>https://johackim.com/tester-la-vitesse-d&apos;ecriture-d&apos;un-disque-dur-sur-linux?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/tester-la-vitesse-d&apos;ecriture-d&apos;un-disque-dur-sur-linux</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8021,6 +8137,7 @@ rclone -vv about --mega-debug --dump=bodies --retries=1 --low-level-retries=1 me
         </item>
         <item>
             <title><![CDATA[Les différents types de sauvegarde]]></title>
+            <description><![CDATA[Sauvegarde complète Une sauvegarde complète est une copie totale de l'ensemble des données. Chaque fois que vous effectuez une sauvegarde complète, vous stockez…]]></description>
             <link>https://johackim.com/types-de-sauvegarde?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/types-de-sauvegarde</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8124,6 +8241,7 @@ systemctl enable --now iptables.service
         </item>
         <item>
             <title><![CDATA[Créer un service Docker avec plusieurs replicas]]></title>
+            <description><![CDATA[Il est possible de créer plusieurs conteneurs dans un seul service Docker. Ces conteneurs sont appelé des replicas. La commande suivante aura pour objectif de…]]></description>
             <link>https://johackim.com/creer-un-service-docker-avec-plusieurs-replicas?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/creer-un-service-docker-avec-plusieurs-replicas</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8139,6 +8257,7 @@ systemctl enable --now iptables.service
         </item>
         <item>
             <title><![CDATA[Flaresolverr]]></title>
+            <description><![CDATA[FlareSolverr est un serveur proxy pour contourner la protection Cloudflare. Pour le démarrer avec Docker : FlareSolverr peut être personnalisé pour résoudre les…]]></description>
             <link>https://johackim.com/contourner-la-protection-cloudflare?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/contourner-la-protection-cloudflare</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8165,6 +8284,7 @@ systemctl enable --now iptables.service
         </item>
         <item>
             <title><![CDATA[Héberger un site sur le réseau IPFS]]></title>
+            <description><![CDATA[IPFS est un système de fichiers interplanétaire. InterPlanetary File System (ou IPFS) est un protocole et un réseau peer-to-peer pour le stockage et le partage…]]></description>
             <link>https://johackim.com/ipfs?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ipfs</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8349,6 +8469,7 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
         </item>
         <item>
             <title><![CDATA[Regarder la météo depuis un terminal]]></title>
+            <description><![CDATA[Pour regarder la météo depuis un terminal, il existe le projet GitHub wttr.in qui permet de consulter la météo de sa ville avec une simple commande curl depuis…]]></description>
             <link>https://johackim.com/regarder-la-meteo-depuis-un-terminal?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/regarder-la-meteo-depuis-un-terminal</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8376,6 +8497,7 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
         </item>
         <item>
             <title><![CDATA[Bypasser les raccourcisseurs d'URL comme bitly]]></title>
+            <description><![CDATA[Universal Bypass est une extension open-source pour navigateur qui permet de d'outrepasser les redirections des liens généré par les raccourcisseurs d'url comme…]]></description>
             <link>https://johackim.com/universal-bypass?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/universal-bypass</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8389,6 +8511,7 @@ docker run -d --name jackett --restart=always --pull always --network jackett -v
         </item>
         <item>
             <title><![CDATA[yt-dlp]]></title>
+            <description><![CDATA[Installation Installez uv puis exécutez la commande suivante : Télecharger les vidéos de l'espace membre d'un site Pour télécharger les vidéos de l'espace…]]></description>
             <link>https://johackim.com/yt-dlp?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/yt-dlp</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8418,7 +8541,7 @@ Exécutez la commande suivante :
 <p>S&#x27;il y a beaucoup de vidéos, vous pouvez parser le site afin de reprendre toutes les URLs dans un fichier texte (ex: <code>urls.txt</code>) puis exécuter la commande suivante :</p>
 <pre><code class="language-bash">for url in $(cat urls.txt); do yt-dlp --cookies cookies.txt $url; done;
 </code></pre>
-<blockquote class="callout note"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">Note</div></div><div class="callout-content"><p>Il est aussi possible de coupler yt-dlp avec Puppeteer pour parser et télécharger toutes les vidéos de l&#x27;espace membre d&#x27;un site internet automatiquement.</p></div></blockquote>
+<blockquote class="callout note"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner">Note</div></div><div class="callout-content"><p>Il est aussi possible de coupler <code>yt-dlp</code> avec <a href="https://johackim.com/puppeteer" title="Puppeteer">Puppeteer</a> pour parser et télécharger toutes les vidéos de l&#x27;espace membre d&#x27;un site internet automatiquement.</p></div></blockquote>
 <p>Et si vous voulez télécharger les vidéos en provenance de vimeo.com voici la commande a exécuter :</p>
 <pre><code class="language-bash">yt-dlp --referer &lt;referer&gt; https://player.vimeo.com/video/&lt;id&gt;
 </code></pre>
@@ -8480,6 +8603,7 @@ clamd
         </item>
         <item>
             <title><![CDATA[Deep packet inspection]]></title>
+            <description><![CDATA[L'inspection profonde de paquets ou DPI (deep packet inspection) est une technique utilisée par certaines organisations ou gouvernements (ex: la Chine), pour…]]></description>
             <link>https://johackim.com/dpi?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/dpi</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8497,6 +8621,7 @@ clamd
         </item>
         <item>
             <title><![CDATA[Hardening]]></title>
+            <description><![CDATA[Le durcissement (ou hardening en anglais) est un processus destiné à sécuriser un système en réduisant le plus possible sa surface d'attaque. Pour ça, on…]]></description>
             <link>https://johackim.com/hardening?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/hardening</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8535,6 +8660,7 @@ ansible-galaxy collection install devsec.hardening
         </item>
         <item>
             <title><![CDATA[IDS]]></title>
+            <description><![CDATA[Un système de détection d'intrusion (ou IDS : Intrusion Detection System) est un logiciel utilisé pour monitorer et détecter les activités anormales ou…]]></description>
             <link>https://johackim.com/ids?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ids</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8577,6 +8703,7 @@ Les Systèmes de détection d&#x27;intrusion hôtes (ou <strong>HIDS</strong> :
         </item>
         <item>
             <title><![CDATA[IPS]]></title>
+            <description><![CDATA[Un système de prévention d'intrusion (ou IPS : Intrusion Prevention System), également appelé système de détection et de prévention des intrusions (ou IDPS :…]]></description>
             <link>https://johackim.com/ips?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/ips</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8597,6 +8724,7 @@ Les Systèmes de prévention d&#x27;intrusion hôtes (ou <strong>HIPS</strong> 
         </item>
         <item>
             <title><![CDATA[Pare-feu]]></title>
+            <description><![CDATA[Un pare-feu (ou firewall) est un logiciel ou matériel de sécurité permettant d'autoriser ou bloquer le trafic entrant et/ou sortant d'un réseau. Liste des…]]></description>
             <link>https://johackim.com/pare-feu?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/pare-feu</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8641,6 +8769,7 @@ Les Systèmes de prévention d&#x27;intrusion hôtes (ou <strong>HIPS</strong> 
         </item>
         <item>
             <title><![CDATA[Spectre]]></title>
+            <description><![CDATA[Spectre (anciennement MasterPassword) est une application de mot de passe open-source qui ne stocke aucun mot de passe, il contient un algorithme pour créer des…]]></description>
             <link>https://johackim.com/spectre?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/spectre</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8708,6 +8837,7 @@ docker run -it --name mpw -p 80:80 johackim/mpw
         </item>
         <item>
             <title><![CDATA[GlusterFS]]></title>
+            <description><![CDATA[GlusterFS est Système de fichiers distribué qui peut évoluer de manière progressive pour stocker plusieurs pétaoctets de données. Pour installer un serveur…]]></description>
             <link>https://johackim.com/glusterfs?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/glusterfs</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8738,6 +8868,7 @@ mount -a
         </item>
         <item>
             <title><![CDATA[Grafana]]></title>
+            <description><![CDATA[Pour monitorer une infrastructure, il existe Grafana et Prometheus. Prometheus se chargera de collecter les données (CPU, RAM, DISK, etc..) des serveurs et…]]></description>
             <link>https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-grafana-et-prometheus-avec-docker-swarm</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8760,6 +8891,7 @@ mount -a
         </item>
         <item>
             <title><![CDATA[Installer Traefik avec Docker Swarm]]></title>
+            <description><![CDATA[Pour installer Traefik avec Docker Swarm, on créer une stack Docker traefik.yml : On créer un réseau docker : On déploie traefik : Il est à présent possible de…]]></description>
             <link>https://johackim.com/installer-traefik-avec-docker-swarm?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/installer-traefik-avec-docker-swarm</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8806,6 +8938,7 @@ networks:
         </item>
         <item>
             <title><![CDATA[Restic]]></title>
+            <description><![CDATA[Pour sauvegarder des données sous Linux, il existe restic en tant que logiciel de backups. Restic peut sauvegarder des données sur différents backends : Buckets…]]></description>
             <link>https://johackim.com/restic?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/restic</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -8971,6 +9104,7 @@ systemctl --user enable --now restic.timer
         </item>
         <item>
             <title><![CDATA[Service Docker]]></title>
+            <description><![CDATA[Pour déployer des conteneurs dans un cluster Docker Swarm, il faut créer des services Docker. Les services permettent de définir un état souhaité pour une…]]></description>
             <link>https://johackim.com/service-docker?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/service-docker</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9009,6 +9143,7 @@ Les <strong>services globaux</strong> ; un seul réplica sera attribué sur chaq
         </item>
         <item>
             <title><![CDATA[Stack Docker]]></title>
+            <description><![CDATA[Pour créer une stack Docker, il suffit de créer un fichier YAML qui contient les détails des services Docker à démarrer (image, volumes, ports, labels, etc...)…]]></description>
             <link>https://johackim.com/stack-docker?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/stack-docker</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9035,6 +9170,7 @@ services:
         </item>
         <item>
             <title><![CDATA[Terraform]]></title>
+            <description><![CDATA[Terraform est un logiciel open-source pour construire, modifier et versionner une infrastructure de manière sûre et efficace. C'est un outil infrastructure as…]]></description>
             <link>https://johackim.com/terraform?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/terraform</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9095,6 +9231,7 @@ terraform workspace list # Lister les workspaces
         </item>
         <item>
             <title><![CDATA[Traefik et Let's Encrypt]]></title>
+            <description><![CDATA[Pour générer des certificats SSL, rien de mieux que Let's Encrypt pour effectuer automatiquement cette tâche. En rendant publiquement accessible les ports 80 et…]]></description>
             <link>https://johackim.com/traefik-et-let&apos;s-encrypt?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/traefik-et-let&apos;s-encrypt</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9157,6 +9294,7 @@ networks:
         </item>
         <item>
             <title><![CDATA[Traefik]]></title>
+            <description><![CDATA[Pour rendre accessible plusieurs applications web à partir d'un seul point d'entrée, il existe Traefik en tant que reverse proxy. Grâce à Traefik, chaque…]]></description>
             <link>https://johackim.com/traefik?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/traefik</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9177,6 +9315,7 @@ traefik:2.4.8 --providers.docker=true
         </item>
         <item>
             <title><![CDATA[Obsidian]]></title>
+            <description><![CDATA[Obsidian est une application de prise de notes comme Evernote, Notion et Bear, mais se distingue en introduisant une nouvelle façon d'organiser et de prendre…]]></description>
             <link>https://johackim.com/obsidian?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/obsidian</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9387,6 +9526,7 @@ traefik:2.4.8 --providers.docker=true
         </item>
         <item>
             <title><![CDATA[Créer un compte facebook anonyme]]></title>
+            <description><![CDATA[Détenir un compte Facebook anonyme est beaucoup plus complexe qu'avoir un compte Google anonyme. Pour créer un compte Facebook anonyme, il faut passer par 6…]]></description>
             <link>https://johackim.com/compte-facebook-anonyme?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/compte-facebook-anonyme</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9434,6 +9574,7 @@ traefik:2.4.8 --providers.docker=true
         </item>
         <item>
             <title><![CDATA[Minecraft]]></title>
+            <description><![CDATA[Installer un serveur Minecraft sur Linux avec Docker Commencez par installer Docker avec la commande suivante : Puis lancez un conteneur Docker Minecraft avec…]]></description>
             <link>https://johackim.com/minecraft?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/minecraft</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9533,6 +9674,7 @@ Démarrez Minecraft avec iris depuis le launcher officiel.
         </item>
         <item>
             <title><![CDATA[Comment mieux concevoir ses notes avec la synthétisation progressive]]></title>
+            <description><![CDATA[La synthétisation progressive (ou Progressive Summarization en anglais) est une technique pour mieux concevoir ses notes afin de les rendre plus accessibles et…]]></description>
             <link>https://johackim.com/synthetisation-progressive?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/synthetisation-progressive</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9577,6 +9719,7 @@ Couche 3 : <mark>Passages soulignés</mark>
         </item>
         <item>
             <title><![CDATA[Résumé du livre The One Thing de Garry Keller]]></title>
+            <description><![CDATA[The One Thing est un livre de Productivité écrit par Garry Keller en 2013. L'idée principale du livre est de se concentrer sur la question suivante : Quelle est…]]></description>
             <link>https://johackim.com/the-one-thing-gary-keller?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/the-one-thing-gary-keller</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -9755,6 +9898,7 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
         </item>
         <item>
             <title><![CDATA[C'est quoi un hacker ?]]></title>
+            <description><![CDATA[Un hacker est une personne curieuse qui créer, modifie et améliore des programmes informatiques pour résoudre des problèmes qui leur tiennent à coeur. Ils…]]></description>
             <link>https://johackim.com/hacker?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/hacker</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -11895,6 +12039,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
         </item>
         <item>
             <title><![CDATA[Comment écrire un titre persuasif ?]]></title>
+            <description><![CDATA[Je galère à chaque fois pour trouver et rédiger le titre d'un article, d'un e-mail, d'une landing page ou d'une formation. Du coup je me suis créé un processus…]]></description>
             <link>https://johackim.com/comment-ecrire-un-titre-efficace?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/comment-ecrire-un-titre-efficace</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
@@ -11952,6 +12097,7 @@ Taux de conversion (%) = (Total d&#x27;acheteurs / Total de visiteurs) x 100
         </item>
         <item>
             <title><![CDATA[Comment télécharger gratuitement toutes les musiques de Deezer ?]]></title>
+            <description><![CDATA[Pour télécharger des musiques gratuitement, il existe une solution. C'est un outil qui s'appelle Freezer (anciennement Deemix et Deezloader). C'est en quelque…]]></description>
             <link>https://johackim.com/comment-telecharger-gratuitement-des-musiques-en-illimite?utm_source=rss&amp;utm_medium=rss</link>
             <guid isPermaLink="false">https://johackim.com/comment-telecharger-gratuitement-des-musiques-en-illimite</guid>
             <dc:creator><![CDATA[johackim]]></dc:creator>
