@@ -3,7 +3,6 @@ title: Biais cognitifs
 permalink: biais-cognitifs
 datePublished: 2021-06-27T19:19
 dateUpdated: 2024-11-16T19:19:00
-tags: [moc]
 aliases: [Cognitive biases]
 publish: true
 comments: false

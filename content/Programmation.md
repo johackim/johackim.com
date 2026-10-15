@@ -1,6 +1,6 @@
 ---
-aliases: [Dev, Coding, Développement]
 title: 💻 Programmation
+aliases: [Dev, Coding, Développement]
 description: Apprenez à coder
 datePublished: 2021-04-15T16:44
 dateUpdated: 2024-11-16T16:44:00

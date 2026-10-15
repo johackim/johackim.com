@@ -9,7 +9,7 @@ import Layout from '../components/layout';
 import Commento from '../components/commento';
 import Code from '../components/code';
 import Progress from '../components/progress';
-import { INDEX_FILE, getContentList, getContent, getArticlesPage, createCoverSvg, preprocess } from '../lib/utils';
+import { INDEX_FILE, getContentList, getContent, getArticlesPage, getMocs, createCoverSvg, preprocess } from '../lib/utils';
 import { getLocalGraph } from '../lib/wikilinks';
 import markdownOptions from '../lib/markdown';
 import { Graph } from './graph';
@@ -48,8 +48,8 @@ const disableMermaidZoom = (event) => {
 };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, source, permalink, url, comments, isIndex, graph }) => (
-    <Layout className="lg:max-w-screen-lg m-auto px-4">
+const Page = ({ title, description, datePublished, dateUpdated, source, permalink, url, comments, isIndex, graph, mocs }) => (
+    <Layout className="lg:max-w-screen-lg m-auto px-4" mocs={mocs}>
         <Head>
             {generateNextSeo({
                 title: isIndex ? '' : title,
@@ -125,7 +125,7 @@ export const getStaticProps = async ({ params }) => {
 
     const url = isIndex ? 'https://johackim.com' : `https://johackim.com/${content.permalink}`;
 
-    return { props: { source, isIndex, url, graph: await getLocalGraph(content.fileName ?? permalink), ...content } };
+    return { props: { source, isIndex, url, mocs: await getMocs(), graph: await getLocalGraph(content.fileName ?? permalink), ...content } };
 };
 
 export const getStaticPaths = async () => {

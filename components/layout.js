@@ -14,7 +14,7 @@ const toggleTheme = () => {
     localStorage.theme = document.documentElement.classList.toggle('dark') ? 'dark' : 'light';
 };
 
-export default ({ children, className = '' }) => (
+export default ({ children, className = '', mocs = [] }) => (
     <>
         <header className="flex shadow-md inset-x-0 h-16 items-center z-30 text-gray-700 bg-white fixed top-0">
             <div className="container m-auto flex items-center justify-between flex-wrap px-2 sm:px-4 lg:max-w-screen-lg">
@@ -45,6 +45,13 @@ export default ({ children, className = '' }) => (
         </header>
         <main className={className}>{children}</main>
         <footer className="container m-auto px-4 py-8 flex items-center justify-between flex-wrap lg:max-w-screen-lg text-gray-700">
+            {mocs.length > 0 && (
+                <nav className="w-full flex flex-wrap justify-center gap-3 mb-6 text-xl">
+                    {mocs.map(({ emoji, title, permalink }) => (
+                        <Link key={permalink} href={`/${permalink}`} title={title}>{emoji}</Link>
+                    ))}
+                </nav>
+            )}
             <div>
                 <span className="inline-block transform rotate-180">&copy;</span>
                 <span className="ml-2">{`2017-${new Date().getFullYear()}`}</span>
