@@ -383,8 +383,8 @@ const GraphCanvas = ({ nodes, links, activeId, className }) => {
 };
 
 export const Graph = ({ nodes, links, activeId }) => nodes.length > 1 && (
-    <div className="relative">
-        <button type="button" command="show-modal" commandfor="graph" aria-label="Voir les notes liées" title="Voir les notes liées" className="absolute top-3 right-3 z-20 text-gray-500 hover:text-gray-900 cursor-pointer">
+    <>
+        <button type="button" command="show-modal" commandfor="graph" aria-label="Voir les notes liées" title="Voir les notes liées" className="text-gray-500 hover:text-gray-900 cursor-pointer">
             <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="6" cy="12" r="2.5" />
                 <circle cx="18" cy="6" r="2.5" />
@@ -399,7 +399,7 @@ export const Graph = ({ nodes, links, activeId }) => nodes.length > 1 && (
                 <button type="submit" className="text-gray-700 hover:text-gray-900 underline cursor-pointer">Fermer</button>
             </form>
         </dialog>
-    </div>
+    </>
 );
 
 export default ({ nodes, links }) => (

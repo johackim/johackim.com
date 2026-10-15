@@ -48,7 +48,7 @@ const disableMermaidZoom = (event) => {
 };
 
 // eslint-disable-next-line complexity
-const Page = ({ title, description, datePublished, dateUpdated, source, permalink, url, comments, isIndex, graph, mocs }) => (
+const Page = ({ title, description, datePublished, dateUpdated, source, permalink, url, comments, rss, file, isIndex, graph, mocs }) => (
     <Layout className="lg:max-w-screen-lg m-auto px-4" mocs={mocs}>
         <Head>
             {generateNextSeo({
@@ -78,8 +78,17 @@ const Page = ({ title, description, datePublished, dateUpdated, source, permalin
             {...(datePublished && { datePublished: (new Date(datePublished)).toISOString() })}
             {...(dateUpdated && { dateModified: (new Date(dateUpdated).toISOString()) })}
         />
-        <div className="md:border md:border-gray-200 mt-20">
-            <Graph {...graph} />
+        <div className="relative md:border md:border-gray-200 mt-20">
+            <div className="absolute top-3 right-3 z-20 flex gap-3">
+                <Graph {...graph} />
+                {rss && (
+                    <a href={`/content/${encodeURIComponent(file)}`} download aria-label="Télécharger en Markdown" title="Télécharger en Markdown" className="text-gray-500 hover:text-gray-900">
+                        <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 4v11m-5-5 5 5 5-5M5 20h14" />
+                        </svg>
+                    </a>
+                )}
+            </div>
             <h1 className="h-64 flex flex-col justify-center relative border-b border-gray-200">
                 <span className="absolute inset-0 bg-gray-100 opacity-80 z-10" />
                 <span className="transform text-center font-bold px-4 text-4xl text-gray-600 break-words z-20">{title}</span>

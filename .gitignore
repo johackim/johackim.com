@@ -141,3 +141,4 @@ dist
 # Build files
 public/*.xml
 public/covers/*.jpg
+public/content
