@@ -1,5 +1,7 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { generateNextSeo } from 'next-seo/pages';
 import Layout from '../components/layout';
 
 export default () => {
@@ -8,6 +10,7 @@ export default () => {
 
     return (
         <Layout>
+            <Head>{generateNextSeo({ noindex: true })}</Head>
             <section className="pt-20 min-h-[calc(100vh-6rem)]">
                 <div className="container m-auto px-4 lg:max-w-screen-lg">
                     <div className="md:border border-gray-200">
