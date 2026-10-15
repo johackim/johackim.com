@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 
 export default () => (
     <Layout>
+        <script dangerouslySetInnerHTML={{ __html: "const target = location.pathname.replace(/.*\\/([^/]+)\\/?$/, '/$1'); if (target !== location.pathname) location.replace(target)" }} />
         <section className="min-h-[calc(100vh-6rem)] flex justify-center items-center">
             <div className="container m-auto lg:max-w-screen-lg text-center">
                 <p className="text-sm font-semibold uppercase tracking-wide">Erreur 404</p>
