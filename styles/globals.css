@@ -31,46 +31,10 @@
     }
 }
 
-/* Mermaid */
+/* Pele */
 
-[data-streamdown='mermaid-block'] > :first-child {
-    @apply hidden;
-}
-
-[data-streamdown='mermaid'] [role='application'] {
-    @apply !origin-top-left;
-}
-
-[data-streamdown='mermaid'] * {
-    @apply !cursor-auto !touch-auto;
-}
-
-[id^='mermaid-'] g,
-[id^='mermaid-'] foreignObject {
-    @apply leading-none;
-}
-
-[id^='mermaid-'] .label rect {
-    @apply !fill-transparent;
-}
-
-[id^='mermaid-'] .edgeLabel {
-    @apply !bg-transparent;
-}
-
-[id^='mermaid-'] .flowchart-link,
-[id^='mermaid-'] .path {
-    @apply !stroke-gray-700 !stroke-2;
-}
-
-[id^='mermaid-'] .arrowheadPath,
-[id^='mermaid-'] .marker {
-    @apply !fill-gray-700;
-}
-
-[id^='mermaid-'] .cluster rect,
-[id^='mermaid-'] rect.label-container {
-    @apply !fill-gray-200 !stroke-gray-800;
+.pele {
+    @apply !font-[inherit] mx-auto;
 }
 
 /* Commento */

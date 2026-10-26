@@ -7,7 +7,6 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@streamdown/mermaid": "^1.0.3",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/postcss": "^4.3.3",
     "@tailwindcss/typography": "^0.5.20",
@@ -17,6 +16,7 @@
     "globals": "^17.13.0",
     "next": "^16.4.1",
     "next-seo": "^7.3.0",
+    "pele": "^1.11.0",
     "postcss": "^8.5.30",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
