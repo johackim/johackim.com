@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Mon, 19 Oct 2026 22:27:33 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 23:04:05 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -752,7 +752,7 @@ PASSWORD=&quot;votre-mot-de-passe&quot;
             <media:content url="https://johackim.com/covers/triangle-cognitif.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/triangle-cognitif.jpg"/>
             <content:encoded><![CDATA[<p>Le triangle cognitif (cognitive triangle en anglais) est un modèle utilisé en <a href="https://johackim.com/tcc" title="Thérapie cognitivo-comportementale">Thérapie cognitivo-comportementale</a> qui illustre la relation entre nos pensées, nos émotions et nos comportements.</p>
-
+<div></div>
 <p>Il est basé sur l&#x27;idée que ces trois éléments sont interdépendants et s&#x27;influencent mutuellement :</p>
 <ul>
 <li>Nos pensées influencent nos émotions et nos comportements</li>
@@ -2746,7 +2746,7 @@ Ect...
 <li>Recommandation</li>
 <li>Revenu</li>
 </ol>
-
+<div></div>
 <h2>1. Acquisition</h2>
 <p>Il s&#x27;agit ici de récupérer le nombre de nouveaux visiteurs uniques qui arrivent sur votre site via un ensemble de canaux différents.</p>
 <p>Un canal d&#x27;acquisition s&#x27;évalue selon 3 critères :</p>
@@ -6953,7 +6953,7 @@ createImage(&#x27;Hello World!&#x27;);
 <p>Dès que j&#x27;ai des idées qui me viennent en tête, je prend des <a href="https://johackim.com/notes-temporaires" title="notes temporaires">notes temporaires</a> dans un fichier <a href="https://johackim.com/markdown" title="Markdown" class="not-found">Markdown</a> <code>inbox.md</code> dans <a href="https://johackim.com/obsidian" title="Obsidian">Obsidian</a>.</p>
 <p>Si je lis un livre, un article, écoute un podcast ou regarde une vidéo, je rédige avec mes propres mots une <a href="https://johackim.com/notes-litteraires" title="note littéraire">note littéraire</a> de tout les <strong>concepts</strong> m&#x27;intéresse dans le contenu.</p>
 <p>Une fois la <a href="https://johackim.com/notes-litteraires" title="note littéraire">note littéraire</a> terminé, sur le moment ou plus tard, je la divise en plusieurs <a href="https://johackim.com/notes-permanentes" title="notes permanentes">notes permanentes</a>.</p>
-
+<div></div>
 <p><del>Ce sur quoi mon processus diffère de la méthode <a href="https://johackim.com/how-to-take-smart-notes-sonke-ahrens" title="Zettelkasten">Zettelkasten</a>, c&#x27;est que je transforme directement mes notes littéraires en plusieurs notes permanentes sans garder le contenu d&#x27;origine de la note littéraire pour ne pas avoir de duplications dans <a href="https://johackim.com/mon-second-cerveau" title="mon second cerveau">mon second cerveau</a>.</del></p>
 <p>J&#x27;ajoute les références du contenu d&#x27;origine (URLs, page d&#x27;un livre, timecode d&#x27;une vidéo ou d&#x27;un podcast, etc...) pour avoir une trace des contenus originellement consommées.</p>
 <h2>Les 4 règles à respecter</h2>
@@ -7652,7 +7652,7 @@ nvme format --ses=1 &lt;device&gt;
 <p>Ces trois lois nous enferment dans un cycle qui peut durer une trentaine de secondes. Les tests et le code de production sont écrits ensemble, en commençant par les tests.</p>
 <p>Si nous travaillons de cette manière, nous écrivons des dizaines de tests par jour, des centaines de tests par mois et des milliers de tests par an. Si nous travaillons ainsi, ces tests couvrent virtuellement tout le code de production.</p>
 <h2>Pratiquer le TDD en 5 étapes</h2>
-
+<div></div>
 <p>Le processus préconisé par TDD comporte cinq étapes :</p>
 <ol>
 <li>Écrire un seul test qui décrit une partie du problème à résoudre</li>
@@ -8250,7 +8250,7 @@ systemctl enable --now iptables.service
             <media:content url="https://johackim.com/covers/creer-un-service-docker-avec-plusieurs-replicas.jpg" medium="image"/>
             <webfeeds:featuredImage url="https://johackim.com/covers/creer-un-service-docker-avec-plusieurs-replicas.jpg"/>
             <content:encoded><![CDATA[<p>Il est possible de créer plusieurs conteneurs dans un seul service Docker. Ces conteneurs sont appelé des replicas.</p>
-
+<div></div>
 <p>La commande suivante aura pour objectif de créer 3 replicas basé sur l&#x27;image Docker ghost :</p>
 <pre><code class="language-bash">docker service create --replicas 3 ghost
 </code></pre>
@@ -9882,7 +9882,7 @@ Genius: The Life And Science of Richard Feynman (page 409). <a href="#user-conte
 <p>Une sorte de <strong>Wikipédia personnel</strong>.</p>
 <p>PS: Il ne s&#x27;agit pas d&#x27;un blog traditionnel où je publie de simples articles de manière chronologiques_.</p>
 <h2>Visualisation de mon second cerveau</h2>
-
+<div></div>
 <h2>Mon système de capture d&#x27;informations</h2>
 <p>C&#x27;est à cet endroit que je capture toutes les informations (RSS, Newsletters, Tweets, Vidéos YouTube, etc...).</p>
 <p>Je ne consulte mon actualité qu&#x27;une fois par jour à l&#x27;aide de <strong><a href="https://read.readwise.io">Readwise</a></strong> qui rassemble tous les blogs, les podcasts, les chaines YouTube et les newsletter que je suis.</p>
