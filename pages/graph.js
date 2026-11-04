@@ -71,7 +71,7 @@ const repulsion = (node, nodes) => {
 const attraction = (node, neighbors) => sum(neighbors.map((other) => {
     const dx = other.x - node.x;
     const dy = other.y - node.y;
-    const length = Math.hypot(dx, dy) || 1;
+    const length = distance(other, node) || 1;
     const pull = ((length - SETTINGS.linkDistance) / length) * SETTINGS.linkStrength;
     return { x: dx * pull, y: dy * pull };
 }));
@@ -168,15 +168,11 @@ const createState = ({ nodes, links, activeId }, size, fontFamily) => {
     };
 };
 
-const pinnedNode = ({ pointer, camera, size }) => (pointer?.nodeId ? { id: pointer.nodeId, ...toWorld(pointer.screen, camera, size) } : null);
-
-const simulate = (state) => {
-    const { nodes, neighbors, alpha } = state;
-    const pinned = pinnedNode(state);
+const simulate = ({ nodes, neighbors, alpha, pointer, camera, size }) => {
     const nodesById = new Map(nodes.map((node) => [node.id, node]));
 
     return nodes.map((node) => {
-        if (node.id === pinned?.id) return { ...node, ...pinned, vx: 0, vy: 0 };
+        if (node.id === pointer?.nodeId) return { ...node, ...toWorld(pointer.screen, camera, size), vx: 0, vy: 0 };
 
         const linkedNodes = [...neighbors.get(node.id)].map((id) => nodesById.get(id));
         const force = sum([repulsion(node, nodes), attraction(node, linkedNodes), gravity(node)]);
@@ -203,7 +199,7 @@ const stepFade = ({ hovered, focus, fade }) => {
 
 const advance = (state) => ({ ...state, ...stepPhysics(state), ...stepCamera(state), ...stepFade(state) });
 
-const hoveredId = (state, screen) => nodeAt(state.nodes, toWorld(screen, state.camera, state.size))?.id ?? null;
+const hoveredId = (state, screen) => nodeAt(state.nodes, toWorld(screen, state.camera, state.size))?.id;
 
 const pinch = (state, touches) => {
     const [a, b] = Object.values(touches);
@@ -284,10 +280,14 @@ const drawLinks = (context, { nodes, links, focus, fade }) => {
     });
 };
 
-const drawNodes = (context, { nodes, neighbors, activeId, focus, fade }) => nodes.forEach((node) => paint(context, () => drawCircle(context, node), [
-    { color: nodeColor(node, activeId), opacity: emphasis(isRelatedNode(node.id, focus, neighbors), fade) },
-    { color: COLORS.accent, opacity: node.id === focus ? fade : 0 },
-]));
+const drawNodes = (context, { nodes, neighbors, activeId, focus, fade }) => nodes.forEach((node) => {
+    const isRelated = isRelatedNode(node.id, focus, neighbors);
+
+    paint(context, () => drawCircle(context, node), [
+        { color: nodeColor(node, activeId), opacity: emphasis(isRelated, fade) },
+        { color: COLORS.accent, opacity: node.id === focus ? fade : 0 },
+    ]);
+});
 
 const drawLabels = (context, { nodes, neighbors, focus, fade, camera }) => nodes.forEach((node) => {
     const isRelated = isRelatedNode(node.id, focus, neighbors);
@@ -327,7 +327,7 @@ const GraphCanvas = ({ nodes, links, activeId, className }) => {
         const { current: canvas } = canvasRef;
         const context = canvas.getContext('2d');
         const controller = new AbortController();
-        const listen = (type, listener) => canvas.addEventListener(type, listener, { signal: controller.signal, passive: false });
+        const listen = (type, listener) => canvas.addEventListener(type, listener, { signal: controller.signal });
         let state = createState({ nodes, links, activeId }, measure(canvas), window.getComputedStyle(canvas).fontFamily);
         let frameId;
 
