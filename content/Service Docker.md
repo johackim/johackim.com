@@ -52,3 +52,9 @@ Désactiver le healtcheck d'un service en cours d'exécution :
 ```bash
 docker service update --no-healthcheck <service>
 ```
+
+Voir les labels d'un services :
+
+```bash
+docker service inspect --format '{{json .Spec.Labels}}' <service>
+```

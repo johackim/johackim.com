@@ -3,7 +3,7 @@ title: Next.js
 permalink: nextjs
 description: Next.js est un framework JavaScript basé sur React pour créer des applications Web.
 datePublished: 2021-12-19T17:57:00
-dateUpdated: 2021-12-19T17:57:00
+dateUpdated: 2026-11-10T20:42
 publish: true
 rss: true
 ---
@@ -38,7 +38,6 @@ Puis ajoutez les commandes suivantes pour utiliser Next.js plus facilement :
 npm pkg set scripts.dev="next dev"
 npm pkg set scripts.build="next build"
 npm pkg set scripts.start="next start"
-npm pkg set scripts.lint="next lint"
 ```
 
 PS : Exécutez la commande `npm init -f` si votre fichier `package.json` n'existe pas.

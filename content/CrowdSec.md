@@ -428,12 +428,47 @@ mv http-probing.yaml http-probing.yaml.bak
 echo $(tail -n1 /var/log/traefik/access.json) | cscli explain --file - --type=json --verbose
 ```
 
+## Installer le WAF
+
+Créer `/etc/crowdsec/acquis.d/appsec.yaml` à côté de `traefik.yaml` :
+
+```yml
+appsec_configs:
+  - crowdsecurity/appsec-default
+labels:
+  type: appsec
+listen_addr: 0.0.0.0:7422
+source: appsec
+```
+
+Redémarrer CrowdSec :
+
+```bash
+COLLECTIONS="crowdsecurity/traefik crowdsecurity/appsec-virtual-patching crowdsecurity/appsec-generic-rules" VOLUME_PATH=/mnt/data/crowdsec/ docker stack deploy --with-registry-auth -c <(curl -so - https://raw.githubusercontent.com/ethibox/awesome-stacks/master/stacks/crowdsec.yml) crowdsec
+```
+
+Ajouter dans le fichier `dynamic.yml` sous `my-plugin` :
+
+```yml
+crowdsecAppsecEnabled: true
+crowdsecAppsecUnreachableBlock: false
+```
+
+Tester si la commande `curl -I https://example.com/.env` (de préférence depuis un VPN) renvoie bien une erreur 403.
+
+Consulter les metrics :
+
+```bash
+cscli metrics show appsec
+```
+
 ---
 
 Références :
 
 - [Korben - Découverte et installation de Crowdsec](https://youtu.be/5K7Aj5ya7uI)
 - https://docs.crowdsec.net/
+- https://docs.crowdsec.net/docs/next/appsec/quickstart/traefik/
 - https://crowdsec.net/blog/enhance-docker-compose-security
 - https://blog.levassb.ovh/post/crowdsec/
 - https://github.com/crowdsecurity/hub/blob/master/collections/crowdsecurity/traefik.yaml

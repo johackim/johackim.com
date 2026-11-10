@@ -35,7 +35,7 @@ Si vous vivez chez vos parents, cochez la case "hébergé gratuitement" ou "occu
 
 ## Impôts CFE
 
-Il existe aussi les impôts CFE (Cotisation foncière des entreprises) à payer une fois par an le 15 décembre sur https://cfspro.impots.gouv.fr/ (dernier paiement -> 170€)
+Il existe aussi les impôts CFE (Cotisation foncière des entreprises) à payer une fois par an le 15 décembre sur https://cfspro.impots.gouv.fr.
 
 Mes services → Avis CFE → Accès aux avis de CFE → 2022 → Avis d'imposition → Payer
 

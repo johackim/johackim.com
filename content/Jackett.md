@@ -17,7 +17,7 @@ Il peut être intégré dans des outils de recherche de torrent comme qBittorren
 Pour l'installer avec Docker, exécutez la commande suivante :
 
 ```bash
-docker run -d --name jackett --restart=always --pull always -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
+docker run -d --name jackett --restart=always --pull always -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 127.0.0.1:9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
 ```
 
 Vous pouvez ensuite vous rendre à l'adresse http://localhost:9117/ pour ajouter des Trackers torrent.
@@ -31,7 +31,7 @@ Pour démarrer Flaresolverr avec Jackett, exécutez les commandes suivantes :
 ```bash
 docker network create jackett
 docker run -d --name flaresolverr --restart=always --pull always --network jackett -e LOG_LEVEL=info ghcr.io/flaresolverr/flaresolverr:latest
-docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett:latest
+docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 127.0.0.1:9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett:latest
 ```
 
 Et renseignez dans http://flaresolverr:8191 dans le paramètre `FlareSolverr API URL` sur Jackett.

@@ -1,9 +1,9 @@
 ---
 title: 🖥️ Construire un ordinateur
 links: ["[[Électronique]]", "[[Informatique]]"]
-aliases: [Build a computer]
+aliases: [Build a computer, Créer un ordinateur]
 datePublished: 2026-10-15T23:16
-dateUpdated: 2026-10-15T23:16:00
+dateUpdated: 2026-10-15T23:16
 permalink: construire-un-ordinateur
 tags: [project, moc]
 description: Construisez un ordinateur 1, 4, 16 et 32 bits à partir de zéro
