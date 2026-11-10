@@ -85,6 +85,18 @@ Et pour encore plus de [[Vie privée]], vous pouvez utiliser des modèles IA en 
 > [!ATTENTION]
 > Si vous avez une règle deny (ex: `20*.md`), que vous effectuez la commande `greywall` et qu'un nouveau fichier est créé entre temps, le fichier pourra être lu.
 
+## Bug asdf
+
+Pour ceux qui ont installé claude ou gemini avec npm via [[Asdf]], voici la configuration à mettre sur `~/.config/greywall/greywall.json` :
+
+```json
+{
+    "filesystem": {
+        "allowRead": ["~/.asdf", "~/.tool-versions"]
+    }
+}
+```
+
 ---
 
 Références :

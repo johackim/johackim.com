@@ -4,7 +4,7 @@
         <description><![CDATA[Créateur indépendant de projets open-source]]></description>
         <link>https://johackim.com</link>
         <generator>Next.js</generator>
-        <lastBuildDate>Tue, 10 Nov 2026 02:17:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 19:49:00 GMT</lastBuildDate>
         <webfeeds:icon>https://johackim.com/profile.jpg</webfeeds:icon>
         <atom:link href="https://johackim.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -319,6 +319,14 @@ greywall -- gemini
 <p>Je l&#x27;utilise personnellement pour utiliser des agents IA sur <a href="https://johackim.com/obsidian" title="Obsidian">Obsidian</a> sans leur donner accès à mes notes privées.</p>
 <p>Et pour encore plus de <a href="https://johackim.com/vie-privee" title="Vie privée">Vie privée</a>, vous pouvez utiliser des modèles IA en local (ex: Qwen, GLM, Kimi) directement sur votre ordinateur avec <a href="https://johackim.com/ollama" title="Ollama">Ollama</a>.</p>
 <blockquote class="callout attention"><div class="callout-content"><p>Si vous avez une règle deny (ex: <code>20*.md</code>), que vous effectuez la commande <code>greywall</code> et qu&#x27;un nouveau fichier est créé entre temps, le fichier pourra être lu.</p></div></blockquote>
+<h2>Bug asdf</h2>
+<p>Pour ceux qui ont installé claude ou gemini avec npm via <a href="https://johackim.com/asdf" title="Asdf">Asdf</a>, voici la configuration à mettre sur <code>~/.config/greywall/greywall.json</code> :</p>
+<pre><code class="language-json">{
+    &quot;filesystem&quot;: {
+        &quot;allowRead&quot;: [&quot;~/.asdf&quot;, &quot;~/.tool-versions&quot;]
+    }
+}
+</code></pre>
 <hr/>
 <p>Références :</p>
 <ul>
@@ -1388,11 +1396,32 @@ mv http-probing.yaml http-probing.yaml.bak
 <h2>Débugger une requête</h2>
 <pre><code class="language-bash">echo $(tail -n1 /var/log/traefik/access.json) | cscli explain --file - --type=json --verbose
 </code></pre>
+<h2>Installer le WAF</h2>
+<p>Créer <code>/etc/crowdsec/acquis.d/appsec.yaml</code> à côté de <code>traefik.yaml</code> :</p>
+<pre><code class="language-yml">appsec_configs:
+  - crowdsecurity/appsec-default
+labels:
+  type: appsec
+listen_addr: 0.0.0.0:7422
+source: appsec
+</code></pre>
+<p>Redémarrer CrowdSec :</p>
+<pre><code class="language-bash">COLLECTIONS=&quot;crowdsecurity/traefik crowdsecurity/appsec-virtual-patching crowdsecurity/appsec-generic-rules&quot; VOLUME_PATH=/mnt/data/crowdsec/ docker stack deploy --with-registry-auth -c &lt;(curl -so - https://raw.githubusercontent.com/ethibox/awesome-stacks/master/stacks/crowdsec.yml) crowdsec
+</code></pre>
+<p>Ajouter dans le fichier <code>dynamic.yml</code> sous <code>my-plugin</code> :</p>
+<pre><code class="language-yml">crowdsecAppsecEnabled: true
+crowdsecAppsecUnreachableBlock: false
+</code></pre>
+<p>Tester si la commande <code>curl -I https://example.com/.env</code> (de préférence depuis un VPN) renvoie bien une erreur 403.</p>
+<p>Consulter les metrics :</p>
+<pre><code class="language-bash">cscli metrics show appsec
+</code></pre>
 <hr/>
 <p>Références :</p>
 <ul>
 <li><a href="https://youtu.be/5K7Aj5ya7uI">Korben - Découverte et installation de Crowdsec</a></li>
 <li><a href="https://docs.crowdsec.net/">https://docs.crowdsec.net/</a></li>
+<li><a href="https://docs.crowdsec.net/docs/next/appsec/quickstart/traefik/">https://docs.crowdsec.net/docs/next/appsec/quickstart/traefik/</a></li>
 <li><a href="https://crowdsec.net/blog/enhance-docker-compose-security">https://crowdsec.net/blog/enhance-docker-compose-security</a></li>
 <li><a href="https://blog.levassb.ovh/post/crowdsec/">https://blog.levassb.ovh/post/crowdsec/</a></li>
 <li><a href="https://github.com/crowdsecurity/hub/blob/master/collections/crowdsecurity/traefik.yaml">https://github.com/crowdsecurity/hub/blob/master/collections/crowdsecurity/traefik.yaml</a></li>
@@ -1595,10 +1624,15 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 <p>Vous pouvez visualiser l&#x27;exécution de chaque workflow et voir les données qui passent à travers chaque noeud.</p>
 <p>Les <a href="https://n8n.io/workflows">workflows</a> peuvent être exportés et importés au format JSON pour être sauvegardés ou partagés avec d&#x27;autres utilisateurs.</p>
 <p>À chaque fois que j&#x27;ai besoin d&#x27;automatiser un process, je passe par n8n 😀 !</p>
+<h2>MCP</h2>
+<p>Pour piloter n8n depuis Claude, activez <strong>Settings &gt; Instance-level MCP</strong>, cochez <strong>Available in MCP</strong> sur les workflows à exposer, puis :</p>
+<pre><code class="language-bash">claude mcp add --transport http n8n https://&lt;votre-domaine&gt;/mcp-server/http --header &quot;Authorization: Bearer &lt;TOKEN&gt;&quot;
+</code></pre>
 <hr/>
 <p>Références :</p>
 <ul>
 <li><a href="https://npmjs.com/search?q=keywords%3An8n-community-node-package">https://npmjs.com/search?q=keywords%3An8n-community-node-package</a></li>
+<li><a href="https://docs.n8n.io/connect/connect-to-n8n-mcp-server/">https://docs.n8n.io/connect/connect-to-n8n-mcp-server/</a></li>
 </ul>]]></content:encoded>
         </item>
         <item>
@@ -4002,7 +4036,6 @@ export default ({ Component, pageProps }) =&gt; &lt;Component {...pageProps} /&g
 <pre><code class="language-bash">npm pkg set scripts.dev=&quot;next dev&quot;
 npm pkg set scripts.build=&quot;next build&quot;
 npm pkg set scripts.start=&quot;next start&quot;
-npm pkg set scripts.lint=&quot;next lint&quot;
 </code></pre>
 <p>PS : Exécutez la commande <code>npm init -f</code> si votre fichier <code>package.json</code> n&#x27;existe pas.</p>
 <h2>Utilisation</h2>
@@ -5782,7 +5815,7 @@ export default app;
 <p>L&#x27;avis est en quelque sorte le récapitulatif et justificatif de sa déclaration.</p>
 <p>Si vous vivez chez vos parents, cochez la case &quot;hébergé gratuitement&quot; ou &quot;occupant à titre gratuit&quot; dans votre déclaration d&#x27;impôts.</p>
 <h2>Impôts CFE</h2>
-<p>Il existe aussi les impôts CFE (Cotisation foncière des entreprises) à payer une fois par an le 15 décembre sur <a href="https://cfspro.impots.gouv.fr/">https://cfspro.impots.gouv.fr/</a> (dernier paiement -&gt; 170€)</p>
+<p>Il existe aussi les impôts CFE (Cotisation foncière des entreprises) à payer une fois par an le 15 décembre sur <a href="https://cfspro.impots.gouv.fr">https://cfspro.impots.gouv.fr</a>.</p>
 <p>Mes services → Avis CFE → Accès aux avis de CFE → 2022 → Avis d&#x27;imposition → Payer</p>
 <p><a href="https://www.economie.gouv.fr/entreprises/cotisation-fonciere-entreprises-cfe">https://www.economie.gouv.fr/entreprises/cotisation-fonciere-entreprises-cfe</a></p>
 <blockquote class="callout quote"><div class="callout-title"><div class="callout-icon"></div><div class="callout-title-inner"><a href="https://entreprendre.service-public.fr/vosdroits/F23547">https://entreprendre.service-public.fr/vosdroits/F23547</a></div></div><div class="callout-content"><p>Si l&#x27;entrepreneur ne dispose d&#x27;aucun local et <strong>exerce son activité à domicile</strong> (ou chez ses clients), celui-ci est quand même redevable de la CFE. Dans ce cas, le montant de la CFE est déterminé <strong>en fonction du chiffre d&#x27;affaires</strong> réalisé sur une période de 12 mois (au cours de l&#x27;année N-2).</p></div></blockquote>
@@ -8404,7 +8437,7 @@ echo &quot;hello world&quot; &gt; _site/index.html
 <p>Il peut être intégré dans des outils de recherche de torrent comme qBittorrent par exemple.</p>
 <h2>Installation</h2>
 <p>Pour l&#x27;installer avec Docker, exécutez la commande suivante :</p>
-<pre><code class="language-bash">docker run -d --name jackett --restart=always --pull always -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
+<pre><code class="language-bash">docker run -d --name jackett --restart=always --pull always -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 127.0.0.1:9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett
 </code></pre>
 <p>Vous pouvez ensuite vous rendre à l&#x27;adresse <a href="http://localhost:9117/">http://localhost:9117/</a> pour ajouter des Trackers torrent.</p>
 <h2>Utilisation avec Flaresolverr</h2>
@@ -8412,7 +8445,7 @@ echo &quot;hello world&quot; &gt; _site/index.html
 <p>Pour démarrer Flaresolverr avec Jackett, exécutez les commandes suivantes :</p>
 <pre><code class="language-bash">docker network create jackett
 docker run -d --name flaresolverr --restart=always --pull always --network jackett -e LOG_LEVEL=info ghcr.io/flaresolverr/flaresolverr:latest
-docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett:latest
+docker run -d --name jackett --restart=always --pull always --network jackett -v ~/.config/jackett/config:/config -v ~/.config/jackett/downloads:/downloads -p 127.0.0.1:9117:9117 -e PUID=1000 -e PGID=1000 linuxserver/jackett:latest
 </code></pre>
 <p>Et renseignez dans <a href="http://flaresolverr:8191">http://flaresolverr:8191</a> dans le paramètre <code>FlareSolverr API URL</code> sur Jackett.</p>]]></content:encoded>
         </item>
@@ -9140,6 +9173,9 @@ Les <strong>services globaux</strong> ; un seul réplica sera attribué sur chaq
 </code></pre>
 <p>Désactiver le healtcheck d&#x27;un service en cours d&#x27;exécution :</p>
 <pre><code class="language-bash">docker service update --no-healthcheck &lt;service&gt;
+</code></pre>
+<p>Voir les labels d&#x27;un services :</p>
+<pre><code class="language-bash">docker service inspect --format &#x27;{{json .Spec.Labels}}&#x27; &lt;service&gt;
 </code></pre>]]></content:encoded>
         </item>
         <item>

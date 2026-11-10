@@ -5,7 +5,7 @@ title: n8n
 permalink: n8n
 description: n8n est une alternative open-source à Zapier.
 datePublished: 2024-03-25T10:00:00
-dateUpdated: 2024-03-25T10:00:00
+dateUpdated: 2026-10-18T10:00:00
 links: "[[Automatisation]]"
 ---
 
@@ -66,8 +66,17 @@ Les [workflows](https://n8n.io/workflows) peuvent être exportés et importés a
 
 À chaque fois que j'ai besoin d'automatiser un process, je passe par n8n 😀 !
 
+## MCP
+
+Pour piloter n8n depuis Claude, activez **Settings > Instance-level MCP**, cochez **Available in MCP** sur les workflows à exposer, puis :
+
+```bash
+claude mcp add --transport http n8n https://<votre-domaine>/mcp-server/http --header "Authorization: Bearer <TOKEN>"
+```
+
 ---
 
 Références :
 
 - https://npmjs.com/search?q=keywords%3An8n-community-node-package
+- https://docs.n8n.io/connect/connect-to-n8n-mcp-server/

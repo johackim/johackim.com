@@ -943,6 +943,11 @@ fn main() {
 - Async
 - Unsafe
 
+## Frameworks GUI
+
+- https://tauri.app/
+- https://gpui.rs/
+
 ## Exemples de packages
 
 - https://github.com/clap-rs/clap
@@ -997,3 +1002,4 @@ Références :
 - [Eddie Gerbais-Nief - Apprendre le RUST partie #1 FR](https://youtu.be/mZasv3__A9k)
 - [BekBrace - Rust Programming Full Course  | Learn in 2024](https://youtu.be/rQ_J9WH6CGk)
 - [freeCodeCamp.org - Learn Rust Programming - Complete Course](https://youtu.be/BpPEoZW5IiY)
+- [Graven - Développement Apprendre Rust #1 : Introduction](https://youtu.be/5vQtP3hgavs&list=PLKfnm4IgLNvg)
