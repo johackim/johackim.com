@@ -33,3 +33,4 @@ wpg -s wallpaper.jpg
 while pgrep -f wal-set.sh > /dev/null; do sleep 1; done
 
 nvim --headless +qa
+printf "\nInstallation complete\n"
